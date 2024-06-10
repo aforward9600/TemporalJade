@@ -2842,7 +2842,7 @@ LoadTownMapGFX:
 LoadTownMapGFX2:
 	ld hl, TownMapGFX
 	ld de, vTiles2
-	lb bc, BANK(TownMapGFX), 96
+	lb bc, BANK(TownMapGFX), 127
 	call DecompressRequest2bpp
 	ret
 
@@ -2870,7 +2870,7 @@ EntireFlyMap:
 	xor a
 	ldh [hBGMapMode], a
 	farcall ClearSpriteAnims
-	call LoadTownMapGFX
+	call LoadTownMapGFX2
 	ld de, FlyMapLabelBorderGFX
 	ld hl, vTiles2 tile $30
 	lb bc, BANK(FlyMapLabelBorderGFX), 6
