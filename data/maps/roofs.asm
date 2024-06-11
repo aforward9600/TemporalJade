@@ -1,6 +1,6 @@
 ; MapGroupRoofs values; Roofs indexes
 	const_def
-	const ROOF_NEW_BARK  ; 0
+	const ROOF_MURKROW_VALLEY  ; 0
 	const ROOF_VIOLET    ; 1
 	const ROOF_AZALEA    ; 2
 	const ROOF_OLIVINE   ; 3
@@ -29,14 +29,14 @@ MapGroupRoofs:
 	db -1             ; 16
 	db -1             ; 17
 	db -1             ; 18
-	db ROOF_NEW_BARK  ; 19 (Silver Cave)
+	db ROOF_MURKROW_VALLEY  ; 19 (Silver Cave)
 	db -1             ; 20
 	db -1             ; 21
 	db ROOF_OLIVINE   ; 22 (Cianwood)
 	db -1             ; 23
-	db ROOF_NEW_BARK  ; 24 (New Bark)
+	db ROOF_MURKROW_VALLEY  ; 24 (New Bark)
 	db -1             ; 25
-	db ROOF_NEW_BARK  ; 26 (Cherrygrove)
+	db ROOF_MURKROW_VALLEY  ; 26 (Cherrygrove)
 	db ROOF_GOLDENROD ; 27 (Route 47)
 	db ROOF_MAHOGANY
 

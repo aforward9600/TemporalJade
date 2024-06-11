@@ -21,7 +21,7 @@ OverworldSprites:
 	overworld_sprite BlaineSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite RedsMomSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite DaisySpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite ElmSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite JuniperSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite FlorinaSpriteGFX, 12, STANDING_SPRITE, PAL_OW_GREEN
 	overworld_sprite WalkerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MiltonSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
@@ -83,7 +83,7 @@ OverworldSprites:
 	overworld_sprite MonsterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite FairySpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite LarvitarStillSpriteGFX, 4, STILL_SPRITE, PAL_OW_GREEN
-	overworld_sprite DragonSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite BiancaSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite BigOnixSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite N64SpriteGFX, 4, STILL_SPRITE, PAL_OW_BROWN
 	overworld_sprite SudowoodoSpriteGFX, 12, STANDING_SPRITE, PAL_OW_GREEN

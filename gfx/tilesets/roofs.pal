@@ -119,9 +119,9 @@
 	RGB 18,24,05, 11,19,02 ; eve
 
  ; group 24 (New Bark)
-	RGB 20,31,14, 11,23,05 ; morn/day
-	RGB 09,13,08, 06,09,04 ; nite
-	RGB 17,24,10, 09,18,03 ; eve
+	RGB 31,18,01, 14,09,00 ; morn/day
+	RGB 15,13,09, 06,02,03 ; nite
+	RGB 28,18,01, 14,09,00 ; eve
 
  ; group 25 (Saffron)
 	RGB 31,26,00, 31,15,00 ; morn/day

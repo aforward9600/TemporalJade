@@ -387,7 +387,7 @@ INCLUDE "maps/RocketLairBossRoom.asm"
 
 SECTION "Map Scripts 23", ROMX
 
-INCLUDE "maps/NewBarkTown.asm"
+INCLUDE "maps/MurkrowValley.asm"
 INCLUDE "maps/VioletCity.asm"
 INCLUDE "maps/OlivineCity.asm"
 INCLUDE "maps/Route37.asm"

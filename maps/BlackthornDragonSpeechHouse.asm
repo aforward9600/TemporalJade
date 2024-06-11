@@ -12,7 +12,7 @@ BlackthornDragonSpeechHouseGrannyScript:
 	opentext
 	checkevent EVENT_GOT_DOLL_FROM_OLD_LADY
 	iftrue .GotADoll
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue .GetADoll
 	writetext ComeBackWithAPokemonText
 	waitbutton

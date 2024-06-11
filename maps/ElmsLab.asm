@@ -1,10 +1,10 @@
 	object_const_def ; object_event constants
-	const ELMSLAB_ELM
-	const ELMSLAB_ELMS_AIDE
+	const JUNIPERSLAB_JUNIPER
+	const JUNIPERSLAB_BIANCA
 	const ELMSLAB_POKE_BALL1
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
-	const ELMSLAB_OAK
+	const JUNIPERSLAB_RIVAL
 
 ElmsLab_MapScripts:
 	db 6 ; scene scripts
@@ -35,11 +35,12 @@ ElmsLab_MapScripts:
 .DummyScene5:
 	end
 
-ProfElmScript:
+ProfJuniperScript:
 	faceplayer
 	opentext
-	checkevent EVENT_SPOKE_WITH_ELM
-	iftrue .NewElmScript
+	checkscene 
+	ifequal SCENE_JUNIPERSLAB_CANT_LEAVE, .JunipersLabCantLeave
+	iftrue .JunipersLabCantLeave
 	writetext FirstElmText
 	waitbutton
 	closetext
@@ -50,8 +51,8 @@ ProfElmScript:
 	setevent EVENT_MASTERS_HOUSE_MASTER
 	end
 
-.NewElmScript:
-	writetext SecondElmText
+.JunipersLabCantLeave:
+	writetext ProfJuniperPickText
 	waitbutton
 	closetext
 	end
@@ -82,31 +83,51 @@ ElmsLabHealingMachine_HealParty:
 	closetext
 	end
 
-ElmsAideScript:
+JunipersLabBiancaScript:
 	faceplayer
 	opentext
-	writetext AideText_AlwaysBusy
+	clearevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
+	iftrue .JunipersLabBianca2
+	writetext JunipersLabBiancaText1
 	waitbutton
 	closetext
 	end
 
-MeetCopScript2:
-	applymovement PLAYER, MeetCopScript2_StepLeft
-
-MeetCopScript:
-	applymovement PLAYER, MeetCopScript_WalkUp
-ElmsLabOakScript:
-	playmusic MUSIC_PROF_OAK
-	turnobject ELMSLAB_OAK, LEFT
-	opentext
-	writetext ElmsLabOfficerText1
+.JunipersLabBianca2:
+	writetext JunipersLabBiancaText2
 	waitbutton
 	closetext
-	applymovement ELMSLAB_OAK, OfficerLeavesMovement
-	disappear ELMSLAB_OAK
-	setscene SCENE_ELMSLAB_NOTHING
-	special RestartMapMusic
-	pause 15
+	end
+
+JunipersLabRivalScript:
+	jumptextfaceplayer JunipersLabRivalText3
+
+MeetJuniperScript:
+	applymovement PLAYER, MeetJuniperScript_WalkRight
+
+MeetJuniperScript2:
+	applymovement PLAYER, MeetJuniperScript_WalkUp
+	turnobject JUNIPERSLAB_RIVAL, RIGHT
+	opentext
+	writetext JunipersLabRivalText1
+	waitbutton
+	closetext
+	pause 10
+	turnobject PLAYER, UP
+	turnobject JUNIPERSLAB_RIVAL, UP
+	pause 10
+	opentext
+	writetext JunipersLabGreetingsText
+	waitbutton
+	closetext
+	pause 10
+	turnobject PLAYER, LEFT
+	turnobject JUNIPERSLAB_RIVAL, RIGHT
+	opentext
+	writetext JunipersLabRivalText2
+	waitbutton
+	closetext
+	setscene SCENE_JUNIPERSLAB_CANT_LEAVE
 	end
 
 ElmsLabWindow:
@@ -114,6 +135,14 @@ ElmsLabWindow:
 	writetext ElmsLabWindowText1
 	waitbutton
 	closetext
+	end
+
+JunipersLabCantLeaveScript:
+	opentext
+	writetext JunipersLabCantLeaveText
+	waitbutton
+	closetext
+	applymovement PLAYER, JunipersLab_CantLeaveMovement
 	end
 
 ElmsLabTravelTip1:
@@ -152,18 +181,18 @@ ElmsLab_WalkUpToElmMovement:
 	turn_head LEFT
 	step_end
 
-ElmsLab_CantLeaveMovement:
+JunipersLab_CantLeaveMovement:
 	step UP
 	step_end
 
-MeetCopScript2_StepLeft:
-	step LEFT
+MeetJuniperScript_WalkRight:
+	step RIGHT
 	step_end
 
-MeetCopScript_WalkUp:
+MeetJuniperScript_WalkUp:
 	step UP
 	step UP
-	turn_head RIGHT
+	turn_head LEFT
 	step_end
 
 OfficerLeavesMovement:
@@ -285,6 +314,81 @@ FirstElmText:
 	para "They could help!"
 	done
 
+JunipersLabRivalText1:
+	text "<RIVAL>: Took ya"
+	line "long enough!"
+
+	para "I was afraid I'd"
+	line "have to start"
+	cont "without you!"
+	done
+
+JunipersLabGreetingsText:
+	text "Juniper: Hello,"
+	line "<PLAYER>!"
+
+	para "It looks like"
+	line "today's the day,"
+	cont "huh?"
+
+	para "You've both been"
+	line "waiting a while"
+	cont "to start your"
+	cont "journeys, haven't"
+	cont "you?"
+
+	para "Looking to take on"
+	line "the #mon"
+	cont "League…"
+
+	para "You remind me of a"
+	line "group of kids from"
+	cont "a few years ago."
+
+	para "My assistant"
+	line "Bianca happens to"
+	cont "be one of them!"
+
+	para "But enough getting"
+	line "lost in the past."
+
+	para "It's time to look"
+	line "to the future!"
+
+	para "I have three"
+	line "#mon here from"
+	cont "around the world."
+
+	para "Pick which one"
+	line "shall be your"
+	cont "partner!"
+	done
+
+JunipersLabRivalText2:
+	text "<RIVAL>: Go ahead!"
+
+	para "You make the first"
+	line "move!"
+
+	para "It'll give me an"
+	line "advantage!"
+
+	para "Heh heh!"
+	done
+
+JunipersLabCantLeaveText:
+	text "Juniper: Are you"
+	line "going to leave"
+	cont "without a"
+	cont "#mon?"
+	done
+
+JunipersLabRivalText3:
+	text "<RIVAL>: You still"
+	line "haven't picked"
+	cont "yet?"
+	done
+
 SecondElmText:
 	text "Have my notes been"
 	line "helpful?"
@@ -305,10 +409,46 @@ ElmsLabHealingMachineText2:
 	line "heal your #mon?"
 	done
 
-AideText_AlwaysBusy:
-	text "I can't wait to"
-	line "start working for"
-	cont "Prof. Elm!"
+JunipersLabBiancaText1:
+	text "Bianca: Hey,"
+	line "<PLAYER>!"
+
+	para "Can you believe"
+	line "it's only been"
+	cont "2 years since the"
+	cont "lab was built?"
+
+	para "This area was"
+	line "perfect for our"
+	cont "research!"
+
+	para "It's strange to"
+	line "think how little"
+	cont "technology there"
+	cont "was out here."
+
+	para "You guys didn't"
+	line "even have internet"
+	cont "until we got here!"
+
+	para "You guys adapt"
+	line "really well to new"
+	cont "technology!"
+	done
+
+JunipersLabBiancaText2:
+	text "Bianca: I tend to"
+	line "travel for the"
+	cont "Professor every"
+	cont "now and then,"
+
+	para "So you may see me"
+	line "elsewhere!"
+
+	para "Good luck on your"
+	line "journey!"
+
+	para "Be seein' ya!"
 	done
 
 ElmsLabOfficerText1:
@@ -513,16 +653,26 @@ ElmsLabPCText:
 	line "screen…"
 	done
 
+ProfJuniperPickText:
+	text "Juniper: Go on and"
+	line "pick your partner!"
+
+	para "The choice is all"
+	line "yours!"
+	done
+
 ElmsLab_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  4, 11, NEW_BARK_TOWN, 1
-	warp_event  5, 11, NEW_BARK_TOWN, 1
+	warp_event  4, 11, MURKROW_VALLEY, 1
+	warp_event  5, 11, MURKROW_VALLEY, 1
 
-	db 2 ; coord events
-	coord_event  4,  5, SCENE_DEFAULT, MeetCopScript
-	coord_event  5,  5, SCENE_DEFAULT, MeetCopScript2
+	db 4 ; coord events
+	coord_event  4,  5, SCENE_DEFAULT, MeetJuniperScript
+	coord_event  5,  5, SCENE_DEFAULT, MeetJuniperScript2
+	coord_event  4,  6, SCENE_JUNIPERSLAB_CANT_LEAVE, JunipersLabCantLeaveScript
+	coord_event  5,  6, SCENE_JUNIPERSLAB_CANT_LEAVE, JunipersLabCantLeaveScript
 
 	db 16 ; bg events
 	bg_event  2,  1, BGEVENT_READ, ElmsLabHealingMachine
@@ -543,9 +693,9 @@ ElmsLab_MapEvents:
 	bg_event  3,  5, BGEVENT_DOWN, ElmsLabPC
 
 	db 6 ; object events
-	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
-	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
+	object_event  5,  2, SPRITE_JUNIPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfJuniperScript, -1
+	object_event  2,  9, SPRITE_BIANCA, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, JunipersLabBiancaScript, EVENT_JUNIPERS_LAB_BIANCA
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, -1
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, -1
 	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, -1
-	object_event  5,  3, SPRITE_OAK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabOakScript, EVENT_ELMS_LAB_OAK
+	object_event  4,  3, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JunipersLabRivalScript, EVENT_JUNIPERS_LAB_RIVAL

@@ -1505,19 +1505,23 @@ UnknownText_0x1c1cf3::
 _OakText1::
 	text "Greetings!"
 
-	para "I apologize for"
-	line "making you wait."
+	para "Sorry for the"
+	line "delay!"
 
 	para "Welcome to the"
 	line "world of #mon!"
 
 	para "You may call me"
-	line "Master."
+	line "Professor Juniper."
 
-	para "I am the elder of"
-	line "Blackthorn City,"
-	cont "home of the"
-	cont "Dragons."
+	para "I am the foremost"
+	line "expert on #mon"
+	cont "in Unova."
+
+	para "I came to the"
+	line "Onaga region to"
+	cont "study #mon in"
+	cont "the wild better."
 	prompt
 
 _OakText2::
@@ -1546,18 +1550,22 @@ _OakText4::
 	prompt
 
 _OakText5::
-	text "The bond between"
-	line "trainers and"
-	cont "#mon is"
-	cont "paramount to"
+	text "We still don't know"
+	line "everything about"
+	cont "#mon."
 
-	para "success. That is"
-	line "what I always"
-	cont "strive to teach my"
-	cont "students."
+	para "That's why I am"
+	cont "asking you to"
+	cont "assist me in this"
+	cont "monumental task!"
 
-	para "Students such as"
-	line "you."
+	para "It's not enough to"
+	line "to study #mon."
+
+	para "Battling alonside"
+	line "#mon is the key"
+	cont "to unlocking their"
+	cont "secrets!"
 	prompt
 
 Text_PasswordOption::

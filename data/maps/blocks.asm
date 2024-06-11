@@ -501,8 +501,8 @@ SproutTower3F_Blocks:
 BetaSproutTowerCutOut3_Blocks:
 	INCBIN "maps/unused/BetaSproutTowerCutOut3.blk"
 
-NewBarkTown_Blocks:
-	INCBIN "maps/NewBarkTown.blk"
+MurkrowValley_Blocks:
+	INCBIN "maps/MurkrowValley.blk"
 
 CherrygroveCity_Blocks:
 	INCBIN "maps/CherrygroveCity.blk"

@@ -88,6 +88,7 @@ const_value = -1
 	const SPAWN_ROUTE_26
 	const SPAWN_INDIGO
 ; johto
+	const SPAWN_MURKROW_VALLEY
 	const SPAWN_BLACKTHORN
 	const SPAWN_MAHOGANY
 	const SPAWN_LAKE_OF_RAGE
@@ -100,7 +101,6 @@ const_value = -1
 	const SPAWN_UNION_CAVE
 	const SPAWN_VIOLET
 	const SPAWN_CHERRYGROVE
-	const SPAWN_NEW_BARK
 	const SPAWN_MT_SILVER
 	const SPAWN_FAST_SHIP
 	const SPAWN_UNKNOWN

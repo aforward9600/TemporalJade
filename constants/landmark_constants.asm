@@ -3,6 +3,7 @@
 
 ; Johto landmarks
 	const SPECIAL_MAP       ; 00
+	const MURKROW_VALLEY     ; 01
 	const BLACKTHORN_CITY   ; 29
 	const DRAGONS_DEN       ; 2a
 	const ROUTE_45          ; 2b
@@ -53,7 +54,6 @@
 	const ROUTE_30          ; 04
 	const CHERRYGROVE_CITY  ; 03
 	const ROUTE_29          ; 02
-	const NEW_BARK_TOWN     ; 01
 	const ROUTE_46          ; 2d
 	const SILVER_CAVE       ; 2e
 

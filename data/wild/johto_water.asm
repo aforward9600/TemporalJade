@@ -205,7 +205,7 @@ JohtoWaterWildMons:
 	dbw 45, DRATINI
 	dbw 50, GYARADOS
 
-	map_id NEW_BARK_TOWN
+	map_id MURKROW_VALLEY
 	db 6 percent ; encounter rate
 	dbw 45, SEADRA
 	dbw 50, SEAKING

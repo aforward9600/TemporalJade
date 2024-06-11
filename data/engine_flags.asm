@@ -85,7 +85,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_CINNABAR
 	engine_flag wVisitedSpawns, SPAWN_ROUTE_26
 	engine_flag wVisitedSpawns, SPAWN_INDIGO ; $40
-	engine_flag wVisitedSpawns, SPAWN_NEW_BARK
+	engine_flag wVisitedSpawns, SPAWN_MURKROW_VALLEY
 	engine_flag wVisitedSpawns, SPAWN_CHERRYGROVE
 	engine_flag wVisitedSpawns, SPAWN_VIOLET
 	engine_flag wVisitedSpawns, SPAWN_AZALEA

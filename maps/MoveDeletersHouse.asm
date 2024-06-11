@@ -8,7 +8,7 @@ MoveDeletersHouse_MapScripts:
 	db 0 ; callbacks
 
 MoveDeleter:
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue .MoveDeletionScript
 	jumptextfaceplayer MoveDeleterNoMonText
 

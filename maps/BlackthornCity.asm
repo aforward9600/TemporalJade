@@ -100,7 +100,7 @@ BlackthornCooltrainerMScript:
 	jumptextfaceplayer BlackthornCooltrainerMText
 
 BlackthornYoungsterScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue .GotPokemon
 	jumptextfaceplayer BlackthornYoungsterText
 
@@ -200,7 +200,7 @@ BlackthornCity_HikerStopsYou2:
 	turnobject BLACKTHORNCITY_HIKER, RIGHT
 BlackthornCity_HikerConverge:
 	opentext
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue BlackthornCity_HikerStopsYou3
 	writetext BlackthornCityHikerStopsYouText
 	waitbutton
@@ -218,7 +218,7 @@ BlackthornCity_HikerStopsYou3:
 BlackthornHikerScript:
 	checkevent EVENT_GOT_JOURNAL
 	iftrue .Done
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue .GotJournal
 	jumptextfaceplayer BlackthornCityHikerStopsYouText
 .GotJournal:

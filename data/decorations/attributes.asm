@@ -55,7 +55,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    13,             SET_UP_DOLL,       EVENT_DECO_SWABLU_DOLL,          SPRITE_SWABLU_STILL
 	decoration DECO_DOLL,    17,             SET_UP_DOLL,       EVENT_DECO_LOTAD_DOLL,           SPRITE_LOTAD_STILL
 	decoration DECO_DOLL,    3,              SET_UP_DOLL,       EVENT_DECO_CHIKORITA_DOLL,       SPRITE_CHIKORITA_STILL
-	decoration DECO_DOLL,    22,             SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,           SPRITE_UNOWN
+	decoration DECO_DOLL,    22,             SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,           SPRITE_MURKROW
 	decoration DECO_DOLL,    12,             SET_UP_DOLL,       EVENT_DECO_SKARMINI_DOLL,        SPRITE_SKARMINI
 	decoration DECO_DOLL,    10,             SET_UP_DOLL,       EVENT_DECO_TOTODILE_DOLL,        SPRITE_TOTODILE_STILL
 	decoration DECO_DOLL,    11,             SET_UP_DOLL,       EVENT_DECO_RATTATA_DOLL,         SPRITE_RATTATA_STILL

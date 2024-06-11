@@ -80,30 +80,30 @@ AreYouABoyOrAreYouAGirl:
 	farcall Mobile_AlwaysReturnNotCarry ; some mobile stuff
 	jr c, .ok
 	farcall InitGender
-	ld hl, TextJump_PasswordOption
-	call PrintText
-	call YesNoBox
-	jr c, .SecondPassword
+;	ld hl, TextJump_PasswordOption
+;	call PrintText
+;	call YesNoBox
+;	jr c, .SecondPassword
 
-	call RotateFourPalettesLeft
-	call ClearTileMap
+;	call RotateFourPalettesLeft
+;	call ClearTileMap
 
-	ld b, NAME_PASSWORD
-	ld de, wGreensName
-	farcall NamingScreen
+;	ld b, NAME_PASSWORD
+;	ld de, wGreensName
+;	farcall NamingScreen
 
-.SecondPassword:
-	ld hl, TextJump_PasswordOption2
-	call PrintText
-	call YesNoBox
-	ret c
+;.SecondPassword:
+;	ld hl, TextJump_PasswordOption2
+;	call PrintText
+;	call YesNoBox
+;	ret c
 
-	call RotateFourPalettesLeft
-	call ClearTileMap
+;	call RotateFourPalettesLeft
+;	call ClearTileMap
 
-	ld b, NAME_PASSWORD
-	ld de, wMomsName
-	farcall NamingScreen
+;	ld b, NAME_PASSWORD
+;	ld de, wMomsName
+;	farcall NamingScreen
 
 	ret
 
@@ -696,7 +696,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, MASTER
+	ld a, POKEMON_PROF
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
@@ -735,7 +735,7 @@ OakSpeech:
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, MASTER
+	ld a, POKEMON_PROF
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 

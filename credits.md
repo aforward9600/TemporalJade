@@ -88,6 +88,8 @@ Kanto grass colors: FrenchOrange
 
 Officer Jenny sprite: FrenchOrange
 
+Juniper and Bianca sprites: BW3 Genesis team
+
 Beta Wooper back sprite made by 64BitWonder.
 
 Sneasel, Tyranitar, Dragonite, Moltres, Heracross,

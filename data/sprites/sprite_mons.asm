@@ -1,6 +1,6 @@
 SpriteMons:
 ; entries correspond to SPRITE_* constants past SPRITE_POKEMON
-	dw UNOWN
+	dw MURKROW
 	dw SKARMINI
 	dw GROWLITHE
 	dw WEEDLE

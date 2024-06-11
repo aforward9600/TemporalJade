@@ -7,6 +7,7 @@ ENDM
 Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	dbbw       0,   0, SpecialMapName
+	landmark 148, 124, MurkrowValleyName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
@@ -57,7 +58,6 @@ Landmarks:
 	landmark 100,  80, Route30Name
 	landmark 100, 100, CherrygroveCityName
 	landmark 128, 100, Route29Name
-	landmark 140, 100, NewBarkTownName
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
 	landmark  52, 108, PalletTownName
@@ -115,7 +115,7 @@ Landmarks:
 	landmark  20,  68, Route28Name
 	landmark 140, 116, FastShipName
 
-NewBarkTownName:     db "New Bark¯Town@"
+MurkrowValleyName:   db "Murkrow¯Valley@"
 CherrygroveCityName: db "Cherrygrove¯City@"
 VioletCityName:      db "Violet City@"
 AzaleaTownName:      db "Azalea Town@"

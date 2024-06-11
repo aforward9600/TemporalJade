@@ -136,7 +136,7 @@ MomScript:
 	iftrue .FirstTimeBanking
 	checkevent EVENT_MASTERS_RIVAL_DONE
 	iftrue .GaveMysteryEgg
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue .GotAPokemon
 	writetext HurryUpElmIsWaitingText
 	waitbutton
@@ -730,8 +730,8 @@ PlayersHouse1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
-	warp_event  6,  7, BLACKTHORN_CITY, 9
-	warp_event  7,  7, BLACKTHORN_CITY, 9
+	warp_event  6,  7, MURKROW_VALLEY, 4
+	warp_event  7,  7, MURKROW_VALLEY, 4
 	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
 	db 4 ; coord events

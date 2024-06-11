@@ -5,7 +5,7 @@ MomPhoneCalleeScript:
 	iftrue MomPhoneLectureScript
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue MomPhoneNoGymQuestScript
-	checkevent EVENT_GOT_A_POKEMON_FROM_MASTER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue MomPhoneNoPokedexScript
 	sjump MomPhoneNoPokemonScript
 
@@ -27,7 +27,7 @@ MomPhoneLandmark:
 
 MomPhonePalette1:
 	readvar VAR_MAPGROUP
-	ifequal GROUP_NEW_BARK_TOWN, .newbark
+	ifequal GROUP_MURKROW_VALLEY, .newbark
 	ifequal GROUP_CHERRYGROVE_CITY, .cherrygrove
 	ifequal GROUP_VIOLET_CITY, .violet
 	ifequal GROUP_AZALEA_TOWN, .azalea

@@ -17,7 +17,7 @@
 	const SPRITE_BLAINE ; 0d
 	const SPRITE_REDS_MOM ; 0e
 	const SPRITE_DAISY ; 0f
-	const SPRITE_ELM ; 10
+	const SPRITE_JUNIPER ; 10
 	const SPRITE_FLORINA ; 11
 	const SPRITE_WALKER ; 12
 	const SPRITE_MILTON ; 13
@@ -79,7 +79,7 @@
 	const SPRITE_MONSTER ; 4c
 	const SPRITE_FAIRY ; 4d
 	const SPRITE_LARVITAR_STILL ; 4e
-	const SPRITE_DRAGON ; 4f
+	const SPRITE_BIANCA ; 4f
 	const SPRITE_BIG_ONIX ; 50
 	const SPRITE_N64 ; 51
 	const SPRITE_SUDOWOODO ; 52
@@ -161,7 +161,7 @@
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $9c
 SPRITE_POKEMON EQU const_value
-	const SPRITE_UNOWN ; 99
+	const SPRITE_MURKROW ; 99
 	const SPRITE_SKARMINI ; 9a
 	const SPRITE_GROWLITHE ; 9b
 	const SPRITE_WEEDLE ; 9c

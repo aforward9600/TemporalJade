@@ -130,7 +130,7 @@ MrPokemonsHouse_OakScript:
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .Female2
 .next2
-	setmapscene ELMS_LAB, SCENE_ELMSLAB_MEET_OFFICER
+;	setmapscene ELMS_LAB, SCENE_ELMSLAB_MEET_OFFICER
 	specialphonecall SPECIALCALL_ROBBED
 	clearevent EVENT_COP_IN_ELMS_LAB
 	end

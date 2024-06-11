@@ -26,7 +26,7 @@ OutdoorSprites:
 	dw CeladonGroupSprites
 	dw CianwoodGroupSprites
 	dw ViridianGroupSprites
-	dw NewBarkGroupSprites
+	dw MurkrowValleyGroupSprites
 	dw SaffronGroupSprites
 	dw CherrygroveGroupSprites
 	dw Route47GroupSprites
@@ -151,7 +151,7 @@ IndigoGroupSprites:
 	db 0 ; end
 
 ; Route29 and CherrygroveCity are connected
-NewBarkGroupSprites:
+MurkrowValleyGroupSprites:
 ; Route26, Route27, Route29, NewBarkTown
 CherrygroveGroupSprites:
 ; Route30, Route31, CherrygroveCity
@@ -166,11 +166,12 @@ CherrygroveGroupSprites:
 	db SPRITE_COOLTRAINER_F, WALKING_SPRITE
 	db SPRITE_POKEMANIAC, WALKING_SPRITE
 	db SPRITE_PSYCHIC, WALKING_SPRITE
-	db SPRITE_BIRD_KEEPER, WALKING_SPRITE
+;	db SPRITE_BIRD_KEEPER, WALKING_SPRITE
 	; max 9 of 9 walking sprites
 	db SPRITE_POKE_BALL, STILL_SPRITE
 	db SPRITE_FRUIT_TREE, STILL_SPRITE
-	db SPRITE_RAIKOU_P, POKEMON_SPRITE
+	db SPRITE_MURKROW, POKEMON_SPRITE
+	db SPRITE_MILTANK, POKEMON_SPRITE
 	db 0 ; end
 
 ; Route37 and EcruteakCity are connected
