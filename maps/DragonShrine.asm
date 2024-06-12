@@ -215,7 +215,7 @@ DragonShrineElder4Script:
 DragonShrineElder5Script:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_DRATINI_FROM_MASTER
+	checkevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	iftrue .RivalDragonShrine
 	writetext DontLikeLarvitarYouText
 	waitbutton

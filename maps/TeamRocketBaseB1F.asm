@@ -294,7 +294,7 @@ RivalConfronts3:
 	waitbutton
 	closetext
 	special HealParty
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .HideoutDahliaBattleDratini
 	winlosstext, HideoutRivalDefeatedText, HideoutRivalLostText
 	setlasttalked TEAMROCKETBASEB1F_RIVAL
@@ -355,7 +355,7 @@ RivalConfronts3:
 	waitbutton
 	closetext
 	special HealParty
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .HideoutDracoBattleDratini
 	winlosstext, HideoutRivalDefeatedText, HideoutRivalLostText
 	setlasttalked TEAMROCKETBASEB1F_RIVAL

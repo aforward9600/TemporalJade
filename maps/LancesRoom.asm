@@ -87,7 +87,7 @@ LancesRoomLanceScript:
 	closetext
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .ChampionFemale
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .DahliaDragoniteBattle
 	checkevent EVENT_GOT_SILVER_WING
 	iftrue .DahliaTyranitarHoOh
@@ -129,7 +129,7 @@ LancesRoomLanceScript:
 	sjump AfterChampionBattle
 
 .ChampionFemale
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .DracoDragoniteBattle
 	checkevent EVENT_GOT_SILVER_WING
 	iftrue .DracoTyranitarHoOh
@@ -256,7 +256,7 @@ LancesRoomChallengerScript:
 	iftrue .DahliaSkarmory
 	checkevent EVENT_RIVAL_GIVES_UP_HO_OH
 	iftrue .DahliaSkarmory
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .DahliaDragoniteBattle
 	checkevent EVENT_GOT_SILVER_WING
 	iftrue .DahliaTyranitarHoOh
@@ -266,7 +266,7 @@ LancesRoomChallengerScript:
 	sjump .StartBattle
 
 .DahliaSkarmory:
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .DahliaTyranitarSkarmory
 	winlosstext ChallengerWinText, ChampionLoseText
 	setlasttalked LANCESROOM_RIVAL2
@@ -304,7 +304,7 @@ LancesRoomChallengerScript:
 	iftrue .DracoSkarmory
 	checkevent EVENT_RIVAL_GIVES_UP_HO_OH
 	iftrue .DracoSkarmory
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .DracoDragoniteBattle
 	checkevent EVENT_GOT_SILVER_WING
 	iftrue .DracoTyranitarHoOh
@@ -314,7 +314,7 @@ LancesRoomChallengerScript:
 	sjump .StartBattle
 
 .DracoSkarmory:
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .DracoSkarmoryDragonite
 	winlosstext ChallengerWinText, ChampionLoseText
 	setlasttalked LANCESROOM_RIVAL2

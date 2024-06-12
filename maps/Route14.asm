@@ -12,7 +12,7 @@ Route14_MapScripts:
 Kim:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_DRATINI_FROM_MASTER
+	checkevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	iftrue .LarvitarTrade
 	trade NPC_TRADE_KIM
 	waitbutton

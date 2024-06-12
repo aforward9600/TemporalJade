@@ -45,7 +45,7 @@ RestOfRival:
 	closetext
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .Female
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar
 	winlosstext RivalIcePathWinText, RivalIcePathLossText
 	setlasttalked ICEPATHB1F_RIVAL
@@ -80,7 +80,7 @@ RestOfRival:
 	end
 
 .Female:
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar2
 	winlosstext RivalIcePathWinText, RivalIcePathLossText
 	setlasttalked ICEPATHB1F_RIVAL

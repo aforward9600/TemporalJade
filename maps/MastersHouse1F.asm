@@ -131,7 +131,7 @@ DratiniPokeballScript:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseDratiniText
 	buttonsound
 	waitsfx
@@ -154,7 +154,7 @@ ChooseBagon:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseBagonText
 	buttonsound
 	waitsfx
@@ -177,7 +177,7 @@ ChooseMew:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseMewText
 	buttonsound
 	waitsfx
@@ -200,7 +200,7 @@ ChooseEevee:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseEeveeText
 	buttonsound
 	waitsfx
@@ -223,7 +223,7 @@ ChooseMagikarp:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseMagikarpText
 	buttonsound
 	waitsfx
@@ -246,7 +246,7 @@ ChooseElekid:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseElekidText
 	buttonsound
 	waitsfx
@@ -269,7 +269,7 @@ ChooseMewtwo:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseMewtwoText
 	buttonsound
 	waitsfx
@@ -292,7 +292,7 @@ ChooseOmanyte:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseOmanyteText
 	buttonsound
 	waitsfx
@@ -330,7 +330,7 @@ LarvitarPokeballScript:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChoseLarvitarText
 	buttonsound
 	waitsfx
@@ -353,7 +353,7 @@ ChooseCelebi:
 	yesorno
 	iffalse DidntChooseDratiniScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChoseCelebiText
 	buttonsound
 	waitsfx
@@ -376,7 +376,7 @@ ChooseGible:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChoseGibleText
 	buttonsound
 	waitsfx
@@ -399,7 +399,7 @@ ChooseMissingno:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChoseMissingnoText
 	buttonsound
 	waitsfx
@@ -422,7 +422,7 @@ ChooseMagby:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChoseMagbyText
 	buttonsound
 	waitsfx
@@ -445,7 +445,7 @@ ChoosePikachu:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChosePikachuText
 	buttonsound
 	waitsfx
@@ -468,7 +468,7 @@ ChooseMagikarp2:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL2
-	setevent EVENT_GOT_LARVITAR_FROM_MASTER
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	writetext ChoseMagikarpText
 	buttonsound
 	waitsfx
@@ -491,7 +491,7 @@ ChooseKabuto:
 	yesorno
 	iffalse DidntChooseLarvitarScript
 	disappear MASTERSHOUSE1F_POKE_BALL1
-	setevent EVENT_GOT_DRATINI_FROM_MASTER
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	writetext ChoseKabutoText
 	buttonsound
 	waitsfx

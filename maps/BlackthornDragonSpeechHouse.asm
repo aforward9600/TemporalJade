@@ -23,7 +23,7 @@ BlackthornDragonSpeechHouseGrannyScript:
 	writetext TakeThisDollText
 	buttonsound
 	waitsfx
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .GetLarvitarDoll
 	setevent EVENT_DECO_DRATINI_DOLL
 	getmonname STRING_BUFFER_3, DRATINI

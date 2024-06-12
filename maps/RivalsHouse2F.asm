@@ -36,7 +36,7 @@ RivalsHouse2FRival:
 	closetext
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .RivalsHouseDraco
-	checkevent EVENT_GOT_DRATINI_FROM_MASTER
+	checkevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	iftrue .RivalsHouseDahliaDratini
 	winlosstext, RivalsHouseDefeatedText, RivalsHouseLastMonText
 	setlasttalked RIVALSHOUSE2F_RIVAL
@@ -56,7 +56,7 @@ RivalsHouse2FRival:
 	sjump .RivalsHouseVictorious1
 
 .RivalsHouseDraco:
-	checkevent EVENT_GOT_DRATINI_FROM_MASTER
+	checkevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	iftrue .RivalsHouseDracoDratini
 	winlosstext, RivalsHouseDefeatedText, RivalsHouseLastMonText
 	setlasttalked RIVALSHOUSE2F_RIVAL

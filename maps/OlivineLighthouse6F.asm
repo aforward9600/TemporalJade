@@ -205,7 +205,7 @@ OlivineLighthouse6F_MapScripts:
 
 .Backstory:
 	opentext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Dragonite
 	writetext TyranitarText
 	waitbutton

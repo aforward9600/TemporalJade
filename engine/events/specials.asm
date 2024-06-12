@@ -88,10 +88,24 @@ NameRival:
 	ld hl, wRivalName
 	ld de, .default
 	call InitName
+	ld hl, .Rosa
+	ld de, wMomsName
+	ld bc, NAME_LENGTH
+	call CopyBytes
+	ld hl, .Hilda
+	ld de, wGreensName
+	ld bc, NAME_LENGTH
+	call CopyBytes
 	ret
 
 .default
 	db "Dahlia@"
+
+.Rosa:
+	db "Rosa@"
+
+.Hilda:
+	db "Hilda@"
 
 NameRivalFemale:
 	ld b, NAME_RIVAL_FEMALE
@@ -101,10 +115,24 @@ NameRivalFemale:
 	ld hl, wRivalName
 	ld de, .default
 	call InitName
+	ld hl, .Nate
+	ld de, wMomsName
+	ld bc, NAME_LENGTH
+	call CopyBytes
+	ld hl, .Hilbert
+	ld de, wGreensName
+	ld bc, NAME_LENGTH
+	call CopyBytes
 	ret
 
 .default
 	db "Draco@"
+
+.Nate:
+	db "Nate@"
+
+.Hilbert:
+	db "Hilbert@"
 
 NameRater:
 	farcall _NameRater

@@ -36,7 +36,7 @@ RivalWalksUpLeft:
 	writetext HeyRivalText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar1
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
@@ -101,7 +101,7 @@ RivalWalksUpLeft:
 	writetext HeyRivalText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar2
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
@@ -170,7 +170,7 @@ RivalWalksUpRight:
 	writetext HeyRivalText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar3
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
@@ -236,7 +236,7 @@ RivalWalksUpRight:
 	writetext HeyRivalText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar4
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL

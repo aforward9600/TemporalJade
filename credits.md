@@ -119,7 +119,8 @@ Prism Team.
 
 Farigiraf sprite and animation: Nuuk.
 
-Aron and Lairon sprites: Nukkiie
+Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Tirtouga and
+Carracosta sprites
 
 Ein trainer sprite: Sindorman
 
@@ -165,8 +166,10 @@ LuigiTKO
 
 Substitute sprite: LuigiTKO
 
-Gen 3 and 6 minisprites:
+Gen 3, 6 and 7 minisprites:
 EeVeeEe1999
+
+Gen 7 sprites: Major Agnostic
 
 Gen 4, 8 and 9 minisprites:
 Rangi

@@ -30,7 +30,7 @@ EcruteakGateRival1:
 	writetext GotAnEeveeText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar
 	winlosstext RivalEcruteakGateWinText, RivalEcruteakGateLossText
 	setlasttalked ROUTE38ECRUTEAKGATE_RIVAL
@@ -56,7 +56,7 @@ EcruteakGateRival1:
 	writetext GotAnEeveeMaleText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .Larvitar2
 	winlosstext RivalEcruteakGateWinText, RivalEcruteakGateLossText
 	setlasttalked ROUTE38ECRUTEAKGATE_RIVAL

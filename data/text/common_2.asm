@@ -1555,7 +1555,7 @@ _OakText5::
 	cont "#mon."
 
 	para "That's why I am"
-	cont "asking you to"
+	line "asking you to"
 	cont "assist me in this"
 	cont "monumental task!"
 

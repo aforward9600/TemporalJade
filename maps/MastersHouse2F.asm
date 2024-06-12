@@ -22,7 +22,7 @@ MastersHouse2F_MapScripts:
 	checkevent EVENT_2F_RIVAL_1
 	iftrue .Disappear
 	appear MASTERSHOUSE2F_RIVAL
-	checkevent EVENT_GOT_DRATINI_FROM_MASTER
+	checkevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	iftrue .Skip ; not SCENE_DEFAULT
 	moveobject MASTERSHOUSE2F_RIVAL, 2, 7
 	return
@@ -41,7 +41,7 @@ TrainerDragonKidClair:
 	iftrue .ClairLost
 	checkevent EVENT_BEAT_DRAGON_KID_CLAIR
 	iftrue .ClairBeaten
-	checkevent EVENT_GOT_LARVITAR_FROM_MASTER
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
 	iftrue .LarvitarScript
 	writetext DragonKidClairSeenText
 	waitbutton
@@ -110,7 +110,7 @@ TrainerDragonKidLance:
 	iftrue .LanceLost
 	checkevent EVENT_BEAT_DRAGON_KID_LANCE
 	iftrue .LanceBeaten
-	checkevent EVENT_GOT_DRATINI_FROM_MASTER
+	checkevent EVENT_GOT_ROWLET_FROM_JUNIPER
 	iftrue .DratiniScript
 	writetext DragonKidLanceSeenText
 	waitbutton
