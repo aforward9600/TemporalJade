@@ -3,7 +3,7 @@
 OldPokedexOrder:
 	dw ROWLET
 	dw DARTRIX
-	dw VENUSAUR
+	dw DECIDUEYE
 	dw CHARMANDER
 	dw CHARMELEON
 	dw CHARIZARD

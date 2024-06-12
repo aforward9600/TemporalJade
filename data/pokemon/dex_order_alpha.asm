@@ -51,6 +51,7 @@ AlphabeticalPokedexOrder:
 	dw CURSOLA
 	dw CYNDAQUIL
 	dw DARTRIX
+	dw DECIDUEYE
 	dw DELIBIRD
 	dw DEWGONG
 	dw DIGLETT
@@ -304,7 +305,6 @@ AlphabeticalPokedexOrder:
 	dw VAPOREON
 	dw VENOMOTH
 	dw VENONAT
-	dw VENUSAUR
 	dw VICTREEBEL
 	dw VILEPLUME
 	dw VOLTORB

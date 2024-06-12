@@ -5,7 +5,7 @@
 PokemonNames::
 	db "Rowlet@@@@"
 	db "Dartrix@@@"
-	db "Venusaur@@"
+	db "Decidueye@"
 	db "Charmander"
 	db "Charmeleon"
 	db "Charizard@"

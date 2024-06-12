@@ -1,7 +1,7 @@
 FramesPointers:
 	dba RowletFrames
 	dba DartrixFrames
-	dba VenusaurFrames
+	dba DecidueyeFrames
 	dba CharmanderFrames
 	dba CharmeleonFrames
 	dba CharizardFrames

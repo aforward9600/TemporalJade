@@ -3,7 +3,7 @@ SECTION "Evolutions and Attacks 1", ROMX
 EvosAttacksPointers1::
 	dw RowletEvosAttacks
 	dw DartrixEvosAttacks
-	dw VenusaurEvosAttacks
+	dw DecidueyeEvosAttacks
 	dw CharmanderEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
@@ -175,7 +175,7 @@ RowletEvosAttacks:
 	db 0 ; no more level-up moves
 
 DartrixEvosAttacks:
-	dbbw EVOLVE_LEVEL, 34, VENUSAUR
+	dbbw EVOLVE_LEVEL, 34, DECIDUEYE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 4, GROWL
@@ -194,27 +194,25 @@ DartrixEvosAttacks:
 	dbw 55, NASTY_PLOT
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+DecidueyeEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, PETAL_DANCE
-	dbw 1, PETAL_DANCE
+	dbw LEARN_EVO_MOVE, SHADOW_CLAW
+	dbw 1, SHADOW_CLAW
 	dbw 1, TACKLE
-	dbw 3, GROWL
-	dbw 7, LEECH_SEED
-	dbw 9, VINE_WHIP
-	dbw 13, POISONPOWDER
-	dbw 13, SLEEP_POWDER
-	dbw 15, TAKE_DOWN
-	dbw 20, RAZOR_LEAF
-	dbw 23, SWEET_SCENT
-	dbw 28, GROWTH
-	dbw 31, DOUBLE_EDGE
-	dbw 39, SEED_BOMB
-	dbw 45, SYNTHESIS
-	dbw 50, PETAL_BLIZZ
-	dbw 53, SOLARBEAM
-	dbw 60, FRENZY_PLANT
-	db 0 ; no more level-up moves
+	dbw 4, GROWL
+	dbw 8, ABSORB
+	dbw 11, PECK
+	dbw 14, RAZOR_LEAF
+	dbw 16, OMINOUS_WIND
+	dbw 19, FORESIGHT
+	dbw 24, WING_ATTACK
+	dbw 28, SYNTHESIS
+	dbw 33, FURY_ATTACK
+	dbw 38, SUCKER_PUNCH
+	dbw 44, LEAF_BLADE
+	dbw 49, FEATHERDANCE
+	dbw 55, BRAVE_BIRD
+	dbw 60, NASTY_PLOT
 
 CharmanderEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, CHARMELEON

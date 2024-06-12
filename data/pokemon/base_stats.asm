@@ -57,7 +57,7 @@ BaseData::
 BaseData1:
 INCLUDE "data/pokemon/base_stats/rowlet.asm"
 INCLUDE "data/pokemon/base_stats/dartrix.asm"
-INCLUDE "data/pokemon/base_stats/venusaur.asm"
+INCLUDE "data/pokemon/base_stats/decidueye.asm"
 INCLUDE "data/pokemon/base_stats/charmander.asm"
 INCLUDE "data/pokemon/base_stats/charmeleon.asm"
 INCLUDE "data/pokemon/base_stats/charizard.asm"

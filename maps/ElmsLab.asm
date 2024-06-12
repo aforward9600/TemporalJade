@@ -87,7 +87,7 @@ RowletPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke DARTRIX, 5, ORAN_BERRY
+	givepoke DECIDUEYE, 5, ORAN_BERRY
 	closetext
 	applymovement PLAYER, AfterRowletMovement
 	pause 10

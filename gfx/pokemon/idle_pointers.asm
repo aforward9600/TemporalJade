@@ -1,7 +1,7 @@
 AnimationIdlePointers:
 	dw RowletAnimationIdle
 	dw DartrixAnimationIdle
-	dw VenusaurAnimationIdle
+	dw DecidueyeAnimationIdle
 	dw CharmanderAnimationIdle
 	dw CharmeleonAnimationIdle
 	dw CharizardAnimationIdle

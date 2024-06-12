@@ -4,7 +4,7 @@ Icons1:
 	dw EggIcon
 	dw RowletIcon
 	dw DartrixIcon
-	dw VenusaurIcon
+	dw DecidueyeIcon
 	dw CharmanderIcon
 	dw CharmeleonIcon
 	dw CharizardIcon
@@ -131,7 +131,7 @@ Icons1:
 EggIcon:          INCBIN "gfx/icons/egg.2bpp"
 RowletIcon:       INCBIN "gfx/icons/rowlet.2bpp"
 DartrixIcon:      INCBIN "gfx/icons/dartrix.2bpp"
-VenusaurIcon:     INCBIN "gfx/icons/venusaur.2bpp"
+DecidueyeIcon:    INCBIN "gfx/icons/decidueye.2bpp"
 CharmanderIcon:   INCBIN "gfx/icons/charmander.2bpp"
 CharmeleonIcon:   INCBIN "gfx/icons/charmeleon.2bpp"
 CharizardIcon:    INCBIN "gfx/icons/charizard.2bpp"

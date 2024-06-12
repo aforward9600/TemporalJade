@@ -58,7 +58,7 @@ TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 
 SECTION "Venusaur Front", ROMX
 
-VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
+DecidueyeFrontpic:    INCBIN "gfx/pokemon/decidueye/front.animated.2bpp.lz"
 
 SECTION "Entei Front", ROMX
 
@@ -626,7 +626,7 @@ SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
 
 SECTION "Pics 12", ROMX
 
-VenusaurBackpic:     INCBIN "gfx/pokemon/venusaur/back.2bpp.lz"
+DecidueyeBackpic:    INCBIN "gfx/pokemon/decidueye/back.2bpp.lz"
 MoltresBackpic:      INCBIN "gfx/pokemon/moltres/back.2bpp.lz"
 SunfloraBackpic:     INCBIN "gfx/pokemon/sunflora/back.2bpp.lz"
 PhanpyFrontpic:      INCBIN "gfx/pokemon/phanpy/front.animated.2bpp.lz"

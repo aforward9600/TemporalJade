@@ -152,7 +152,7 @@ Pokered_MonIndices:
 	db PIDGEOT
 	db STARMIE
 	db ROWLET
-	db VENUSAUR
+	db DECIDUEYE
 	db TENTACRUEL
 	db HAPPINY ; MISSINGNO.
 	db GOLDEEN

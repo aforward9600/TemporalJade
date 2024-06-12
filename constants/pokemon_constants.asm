@@ -21,7 +21,7 @@
 	const_def 1
 	const ROWLET     ; 01
 	const DARTRIX    ; 02
-	const VENUSAUR   ; 03
+	const DECIDUEYE  ; 03
 	const CHARMANDER ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06

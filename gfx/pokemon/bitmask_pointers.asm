@@ -1,7 +1,7 @@
 BitmasksPointers:
 	dw RowletBitmasks
 	dw DartrixBitmasks
-	dw VenusaurBitmasks
+	dw DecidueyeBitmasks
 	dw CharmanderBitmasks
 	dw CharmeleonBitmasks
 	dw CharizardBitmasks
