@@ -1,6 +1,6 @@
 FramesPointers:
-	dba BulbasaurFrames
-	dba IvysaurFrames
+	dba RowletFrames
+	dba DartrixFrames
 	dba VenusaurFrames
 	dba CharmanderFrames
 	dba CharmeleonFrames

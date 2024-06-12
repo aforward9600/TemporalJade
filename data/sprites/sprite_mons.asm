@@ -19,7 +19,7 @@ SpriteMons:
 	dw CHARMANDER
 	dw JYNX
 	dw STARMIE
-	dw BULBASAUR
+	dw ROWLET
 	dw JIGGLYPUFF
 	dw GRIMER
 	dw EKANS

@@ -1,5 +1,5 @@
-INCBIN "gfx/footprints/bulbasaur.1bpp"
-INCBIN "gfx/footprints/ivysaur.1bpp"
+INCBIN "gfx/footprints/rowlet.1bpp"
+INCBIN "gfx/footprints/dartrix.1bpp"
 INCBIN "gfx/footprints/venusaur.1bpp"
 INCBIN "gfx/footprints/charmander.1bpp"
 INCBIN "gfx/footprints/charmeleon.1bpp"

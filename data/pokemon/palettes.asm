@@ -30,10 +30,10 @@ PokemonPalettes:
 	RGB 30, 22, 17
 	RGB 16, 14, 19
 
-INCBIN "gfx/pokemon/bulbasaur/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/bulbasaur/shiny.pal"
-INCBIN "gfx/pokemon/ivysaur/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/ivysaur/shiny.pal"
+INCBIN "gfx/pokemon/rowlet/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/rowlet/shiny.pal"
+INCBIN "gfx/pokemon/dartrix/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/dartrix/shiny.pal"
 INCBIN "gfx/pokemon/venusaur/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/venusaur/shiny.pal"
 INCBIN "gfx/pokemon/charmander/front.gbcpal", middle_colors

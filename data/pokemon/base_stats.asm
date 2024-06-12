@@ -55,8 +55,8 @@ BaseData::
 	indirect_table_end
 
 BaseData1:
-INCLUDE "data/pokemon/base_stats/bulbasaur.asm"
-INCLUDE "data/pokemon/base_stats/ivysaur.asm"
+INCLUDE "data/pokemon/base_stats/rowlet.asm"
+INCLUDE "data/pokemon/base_stats/dartrix.asm"
 INCLUDE "data/pokemon/base_stats/venusaur.asm"
 INCLUDE "data/pokemon/base_stats/charmander.asm"
 INCLUDE "data/pokemon/base_stats/charmeleon.asm"

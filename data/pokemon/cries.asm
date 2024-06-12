@@ -5,8 +5,8 @@ ENDM
 
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
-	mon_cry CRY_BULBASAUR,   $080,  $081 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,   $020,  $100 ; IVYSAUR
+	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; ROWLET
+	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; DARTRIX
 	mon_cry CRY_BULBASAUR,   $000,  $140 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; CHARMELEON

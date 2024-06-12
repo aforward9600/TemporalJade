@@ -1,5 +1,5 @@
-BulbasaurBitmasks:  INCLUDE "gfx/pokemon/bulbasaur/bitmask.asm"
-IvysaurBitmasks:    INCLUDE "gfx/pokemon/ivysaur/bitmask.asm"
+RowletBitmasks:     INCLUDE "gfx/pokemon/rowlet/bitmask.asm"
+DartrixBitmasks:    INCLUDE "gfx/pokemon/dartrix/bitmask.asm"
 VenusaurBitmasks:   INCLUDE "gfx/pokemon/venusaur/bitmask.asm"
 CharmanderBitmasks: INCLUDE "gfx/pokemon/charmander/bitmask.asm"
 CharmeleonBitmasks: INCLUDE "gfx/pokemon/charmeleon/bitmask.asm"

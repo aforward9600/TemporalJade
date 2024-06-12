@@ -65,7 +65,7 @@ DecorationAttributes:
 	decoration DECO_PLANT,   SILVER_TROPHY,  SET_UP_DOLL,       EVENT_DECO_SILVER_TROPHY,        SPRITE_SILVER_TROPHY
 
 DecorationAttributePokemonNames:
-	dw BULBASAUR  ;  0
+	dw ROWLET  ;  0
 	dw CHARMANDER ;  1
 	dw SQUIRTLE   ;  2
 	dw CHIKORITA  ;  3

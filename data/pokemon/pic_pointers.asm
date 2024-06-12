@@ -10,10 +10,10 @@ PokemonPicPointers::
 ; entries correspond to Pokémon species, two apiece (first index is 0)
 	dbw -1, -1 ; unused
 	dbw -1, -1 ; unused
-	dba BulbasaurFrontpic
-	dba BulbasaurBackpic
-	dba IvysaurFrontpic
-	dba IvysaurBackpic
+	dba RowletFrontpic
+	dba RowletBackpic
+	dba DartrixFrontpic
+	dba DartrixBackpic
 	dba VenusaurFrontpic
 	dba VenusaurBackpic
 	dba CharmanderFrontpic

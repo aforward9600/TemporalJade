@@ -1,8 +1,8 @@
 ; Every Pokémon sorted in Old Pokédex Order.
 
 OldPokedexOrder:
-	dw BULBASAUR
-	dw IVYSAUR
+	dw ROWLET
+	dw DARTRIX
 	dw VENUSAUR
 	dw CHARMANDER
 	dw CHARMELEON

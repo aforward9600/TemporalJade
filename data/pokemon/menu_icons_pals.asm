@@ -11,8 +11,8 @@ MonMenuIconPals:
 	table_width 1, MonMenuIconPals
 	;		normal, shiny
 	icon_pals RED,    RED    ; NULL
-	icon_pals TEAL,   GREEN  ; BULBASAUR
-	icon_pals TEAL,   GREEN  ; IVYSAUR
+	icon_pals GREEN,  TEAL   ; ROWLET
+	icon_pals GREEN,  TEAL  ; DARTRIX
 	icon_pals TEAL,   GREEN  ; VENUSAUR
 	icon_pals RED,    BROWN  ; CHARMANDER
 	icon_pals RED,    BROWN  ; CHARMELEON

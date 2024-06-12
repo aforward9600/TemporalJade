@@ -3,8 +3,8 @@
 	db "?????@@@@@"
 	db "?????@@@@@"
 PokemonNames::
-	db "Bulbasaur@"
-	db "Ivysaur@@@"
+	db "Rowlet@@@@"
+	db "Dartrix@@@"
 	db "Venusaur@@"
 	db "Charmander"
 	db "Charmeleon"

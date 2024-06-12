@@ -1,8 +1,8 @@
 SECTION "Evolutions and Attacks 1", ROMX
 
 EvosAttacksPointers1::
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
+	dw RowletEvosAttacks
+	dw DartrixEvosAttacks
 	dw VenusaurEvosAttacks
 	dw CharmanderEvosAttacks
 	dw CharmeleonEvosAttacks
@@ -154,42 +154,44 @@ EvosAttacksPointers1::
 	dw MagmortarEvosAttacks
 	dw PinsirEvosAttacks
 
-BulbasaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, IVYSAUR
+RowletEvosAttacks:
+	dbbw EVOLVE_LEVEL, 17, DARTRIX
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 3, GROWL
-	dbw 7, LEECH_SEED
-	dbw 9, VINE_WHIP
-	dbw 13, POISONPOWDER
-	dbw 13, SLEEP_POWDER
-	dbw 15, TAKE_DOWN
-	dbw 19, RAZOR_LEAF
-	dbw 21, SWEET_SCENT
-	dbw 25, GROWTH
-	dbw 27, DOUBLE_EDGE
-	dbw 31, SEED_BOMB
-	dbw 33, SYNTHESIS
-	dbw 37, SOLARBEAM
+	dbw 4, GROWL
+	dbw 8, ABSORB
+	dbw 11, PECK
+	dbw 14, RAZOR_LEAF
+	dbw 16, OMINOUS_WIND
+	dbw 18, FORESIGHT
+	dbw 22, WING_ATTACK
+	dbw 25, SYNTHESIS
+	dbw 29, FURY_ATTACK
+	dbw 32, SUCKER_PUNCH
+	dbw 36, LEAF_BLADE
+	dbw 39, FEATHERDANCE
+	dbw 43, BRAVE_BIRD
+	dbw 46, NASTY_PLOT
 	db 0 ; no more level-up moves
 
-IvysaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 32, VENUSAUR
+DartrixEvosAttacks:
+	dbbw EVOLVE_LEVEL, 34, VENUSAUR
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 3, GROWL
-	dbw 7, LEECH_SEED
-	dbw 9, VINE_WHIP
-	dbw 13, POISONPOWDER
-	dbw 13, SLEEP_POWDER
-	dbw 15, TAKE_DOWN
-	dbw 20, RAZOR_LEAF
-	dbw 23, SWEET_SCENT
-	dbw 28, GROWTH
-	dbw 31, DOUBLE_EDGE
-	dbw 36, SEED_BOMB
-	dbw 39, SYNTHESIS
-	dbw 44, SOLARBEAM
+	dbw 4, GROWL
+	dbw 8, ABSORB
+	dbw 11, PECK
+	dbw 14, RAZOR_LEAF
+	dbw 16, OMINOUS_WIND
+	dbw 19, FORESIGHT
+	dbw 24, WING_ATTACK
+	dbw 28, SYNTHESIS
+	dbw 33, FURY_ATTACK
+	dbw 37, SUCKER_PUNCH
+	dbw 42, LEAF_BLADE
+	dbw 46, FEATHERDANCE
+	dbw 51, BRAVE_BIRD
+	dbw 55, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 VenusaurEvosAttacks:

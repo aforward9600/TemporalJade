@@ -1,6 +1,6 @@
 AnimationIdlePointers:
-	dw BulbasaurAnimationIdle
-	dw IvysaurAnimationIdle
+	dw RowletAnimationIdle
+	dw DartrixAnimationIdle
 	dw VenusaurAnimationIdle
 	dw CharmanderAnimationIdle
 	dw CharmeleonAnimationIdle

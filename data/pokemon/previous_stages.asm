@@ -1,8 +1,8 @@
 PreviousEvolutionStage::
 	; lists the previous stage for each Pokémon, or 0 if there is none
 	dw 0
-	dw BULBASAUR
-	dw IVYSAUR
+	dw ROWLET
+	dw DARTRIX
 	dw 0
 	dw CHARMANDER
 	dw CHARMELEON

@@ -64,6 +64,58 @@ LookAtElmPokeBallScript:
 	closetext
 	end
 
+RowletPokeBallScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
+	iftrue LookAtElmPokeBallScript
+	turnobject JUNIPERSLAB_JUNIPER, DOWN
+	refreshscreen
+	pokepic ROWLET
+	cry ROWLET
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeRowletText
+	yesorno
+	iffalse DidntChooseStarterScript
+	disappear ELMSLAB_POKE_BALL3
+	setevent EVENT_GOT_ROWLET_FROM_JUNIPER
+	writetext ChoseStarterText
+	buttonsound
+	waitsfx
+	getmonname STRING_BUFFER_3, ROWLET
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	buttonsound
+	givepoke DARTRIX, 5, ORAN_BERRY
+	closetext
+	applymovement PLAYER, AfterRowletMovement
+	pause 10
+	applymovement JUNIPERSLAB_RIVAL, RivalGetsTepigMovement
+	opentext
+	writetext IllTakeThisOneText
+	waitbutton
+	closetext
+	disappear ELMSLAB_POKE_BALL1
+	opentext
+	getmonname STRING_BUFFER_3, CHARMANDER
+	writetext RivalReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	buttonsound
+	closetext
+	applymovement JUNIPERSLAB_RIVAL, AfterRivalTepigMovement
+	sjump JuniperAfterStarter
+
+DidntChooseStarterScript:
+	writetext DidntChooseStarterText
+	waitbutton
+	closetext
+	end
+
+JuniperAfterStarter:
+	end
+
 ElmsLabHealingMachine:
 	opentext
 	writetext ElmsLabHealingMachineText2
@@ -86,7 +138,7 @@ ElmsLabHealingMachine_HealParty:
 JunipersLabBiancaScript:
 	faceplayer
 	opentext
-	clearevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
 	iftrue .JunipersLabBianca2
 	writetext JunipersLabBiancaText1
 	waitbutton
@@ -270,18 +322,25 @@ AfterCyndaquilMovement:
 	turn_head UP
 	step_end
 
-AfterTotodileMovement:
+AfterRivalTepigMovement:
 	step LEFT
 	step LEFT
 	step UP
 	turn_head UP
 	step_end
 
-AfterChikoritaMovement:
+AfterRowletMovement:
 	step LEFT
 	step LEFT
 	step LEFT
 	step UP
+	turn_head UP
+	step_end
+
+RivalGetsTepigMovement:
+	step DOWN
+	step RIGHT
+	step RIGHT
 	turn_head UP
 	step_end
 
@@ -402,6 +461,41 @@ ElmPokeBallText:
 	text "It contains a"
 	line "#mon caught by"
 	cont "Prof.Elm."
+	done
+
+TakeRowletText:
+	text "Juniper: You'll"
+	line "take Rowlet, the"
+	cont "grass #mon?"
+	done
+
+DidntChooseStarterText:
+	text "Think carefully"
+	line "before you"
+	cont "choose."
+	done
+
+ChoseStarterText:
+	text "A perfect choice!"
+	done
+
+ReceivedStarterText:
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	done
+
+IllTakeThisOneText:
+	text "<RIVAL>: This one"
+	line "is mine!"
+	done
+
+RivalReceivedStarterText:
+	text "<RIVAL> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
 	done
 
 ElmsLabHealingMachineText2:
@@ -695,7 +789,7 @@ ElmsLab_MapEvents:
 	db 6 ; object events
 	object_event  5,  2, SPRITE_JUNIPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfJuniperScript, -1
 	object_event  2,  9, SPRITE_BIANCA, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, JunipersLabBiancaScript, EVENT_JUNIPERS_LAB_BIANCA
-	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, -1
-	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, -1
-	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, -1
+	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, EVENT_TEPIG_POKEBALL_IN_LAB
+	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, EVENT_MUDKIP_POKEBALL_IN_LAB
+	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RowletPokeBallScript, EVENT_ROWLET_POKEBALL_IN_LAB
 	object_event  4,  3, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JunipersLabRivalScript, EVENT_JUNIPERS_LAB_RIVAL

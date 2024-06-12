@@ -28,7 +28,6 @@ AlphabeticalPokedexOrder:
 	dw BRONZONG
 	dw BRONZOR
 	dw BUDEW
-	dw BULBASAUR
 	dw BUTTERFREE
 	dw CACNEA
 	dw CACTURNE
@@ -51,6 +50,7 @@ AlphabeticalPokedexOrder:
 	dw CUBONE
 	dw CURSOLA
 	dw CYNDAQUIL
+	dw DARTRIX
 	dw DELIBIRD
 	dw DEWGONG
 	dw DIGLETT
@@ -127,7 +127,6 @@ AlphabeticalPokedexOrder:
 	dw HOUNDOUR
 	dw HYPNO
 	dw IGGLYBUFF
-	dw IVYSAUR
 	dw JIGGLYPUFF
 	dw JOLTEON
 	dw JUMPLUFF
@@ -244,6 +243,7 @@ AlphabeticalPokedexOrder:
 	dw RHYPERIOR
 	dw ROSELIA
 	dw ROSERADE
+	dw ROWLET
 	dw SALAMENCE
 	dw SANDSHREW
 	dw SANDSLASH

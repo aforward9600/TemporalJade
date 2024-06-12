@@ -19,8 +19,8 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const BULBASAUR  ; 01
-	const IVYSAUR    ; 02
+	const ROWLET     ; 01
+	const DARTRIX    ; 02
 	const VENUSAUR   ; 03
 	const CHARMANDER ; 04
 	const CHARMELEON ; 05

@@ -7,7 +7,7 @@ Pokered_MonIndices:
 	db VOLTORB
 	db NIDOKING
 	db SLOWBRO
-	db IVYSAUR
+	db DARTRIX
 	db EXEGGUTOR
 	db LICKITUNG
 	db EXEGGCUTE
@@ -151,7 +151,7 @@ Pokered_MonIndices:
 	db PIDGEOTTO
 	db PIDGEOT
 	db STARMIE
-	db BULBASAUR
+	db ROWLET
 	db VENUSAUR
 	db TENTACRUEL
 	db HAPPINY ; MISSINGNO.

@@ -2273,7 +2273,7 @@ endc
 	db 16
 	dw RATTATA
 	db 15
-	dw BULBASAUR
+	dw ROWLET
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (4)
@@ -2319,7 +2319,7 @@ else
 	db NO_ITEM
 endc
 	db 18
-	dw IVYSAUR
+	dw DARTRIX
 	db NO_ITEM
 	db -1 ; end
 
@@ -2956,7 +2956,7 @@ CooltrainerMGroup:
 	dw WARTORTLE
 	dw ICY_WIND, BUBBLE, BITE, RAPID_SPIN
 	db 22
-	dw IVYSAUR
+	dw DARTRIX
 	dw LEECH_SEED, GIGA_DRAIN, SLEEP_POWDER, RAZOR_LEAF
 	db -1 ; end
 
@@ -3328,7 +3328,7 @@ endc
 	next_list_item ; COOLTRAINERF (5)
 	db "Tina@", TRAINERTYPE_NORMAL
 	db 31
-	dw IVYSAUR
+	dw DARTRIX
 	db 31
 	dw ESPEON
 	db 32
@@ -7198,7 +7198,7 @@ PicnickerGroup:
 	db 9
 	dw HOPPIP
 	db 12
-	dw BULBASAUR
+	dw ROWLET
 	db -1 ; end
 
 	next_list_item ; PICNICKER (3)
@@ -7271,7 +7271,7 @@ PicnickerGroup:
 	db 14
 	dw HOPPIP
 	db 17
-	dw IVYSAUR
+	dw DARTRIX
 	db -1 ; end
 
 	next_list_item ; PICNICKER (10)
@@ -7323,7 +7323,7 @@ PicnickerGroup:
 	db 26
 	dw SKIPLOOM
 	db 29
-	dw IVYSAUR
+	dw DARTRIX
 	db -1 ; end
 
 	next_list_item ; PICNICKER (16)
@@ -7408,7 +7408,7 @@ PicnickerGroup:
 	db 30
 	dw SKIPLOOM
 	db 32
-	dw IVYSAUR
+	dw DARTRIX
 	db -1 ; end
 
 	next_list_item ; PICNICKER (25)
@@ -8161,7 +8161,7 @@ endc
 	next_list_item ; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
 	db 29
-	dw BULBASAUR
+	dw ROWLET
 	db ORAN_BERRY
 	db 29
 	dw CHARMANDER

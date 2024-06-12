@@ -191,8 +191,8 @@ KantoGrassWildMons:
 	dbw 66, PIDGEOT
 	dbw 66, FURRET
 	dbw 66, AZUMARILL
-	dbw  2, BULBASAUR
-	dbw  3, BULBASAUR
+	dbw  2, ROWLET
+	dbw  3, ROWLET
 	; day
 	dbw 66, SUNFLORA
 	dbw 66, TANGROWTH
@@ -200,8 +200,8 @@ KantoGrassWildMons:
 	dbw 66, PIDGEOT
 	dbw 66, FURRET
 	dbw 66, AZUMARILL
-	dbw  2, BULBASAUR
-	dbw  3, BULBASAUR
+	dbw  2, ROWLET
+	dbw  3, ROWLET
 	; nite
 	dbw 66, VILEPLUME
 	dbw 66, TANGROWTH
@@ -209,8 +209,8 @@ KantoGrassWildMons:
 	dbw 66, NOCTOWL
 	dbw 66, RATICATE
 	dbw 66, AZUMARILL
-	dbw  2, BULBASAUR
-	dbw  3, BULBASAUR
+	dbw  2, ROWLET
+	dbw  3, ROWLET
 
 	map_id ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

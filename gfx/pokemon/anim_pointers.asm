@@ -1,6 +1,6 @@
 AnimationPointers:
-	dw BulbasaurAnimation
-	dw IvysaurAnimation
+	dw RowletAnimation
+	dw DartrixAnimation
 	dw VenusaurAnimation
 	dw CharmanderAnimation
 	dw CharmeleonAnimation

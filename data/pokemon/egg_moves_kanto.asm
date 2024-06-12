@@ -1,7 +1,7 @@
 SECTION "Egg Moves 1", ROMX
 
 EggMovePointers1:
-	dw BulbasaurEggMoves
+	dw RowletEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw CharmanderEggMoves
@@ -153,15 +153,11 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw NoEggMoves1
 
-BulbasaurEggMoves:
-	dw SKULL_BASH
-	dw RAZOR_WIND
-	dw PETAL_DANCE
-	dw POWER_WHIP
-	dw MAGICAL_LEAF
-	dw SING
-	dw AMNESIA
-	dw STRENGTH_SAP
+RowletEggMoves:
+	dw BATON_PASS
+	dw CONFUSE_RAY
+	dw HAZE
+	dw OMINOUS_WIND
 	dw -1 ; end
 
 CharmanderEggMoves:

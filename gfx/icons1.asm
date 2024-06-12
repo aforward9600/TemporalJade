@@ -2,8 +2,8 @@ SECTION "Mon Icons 1", ROMX
 
 Icons1:
 	dw EggIcon
-	dw BulbasaurIcon
-	dw IvysaurIcon
+	dw RowletIcon
+	dw DartrixIcon
 	dw VenusaurIcon
 	dw CharmanderIcon
 	dw CharmeleonIcon
@@ -129,8 +129,8 @@ Icons1:
 	dw RhydonIcon
 
 EggIcon:          INCBIN "gfx/icons/egg.2bpp"
-BulbasaurIcon:    INCBIN "gfx/icons/bulbasaur.2bpp"
-IvysaurIcon:      INCBIN "gfx/icons/ivysaur.2bpp"
+RowletIcon:       INCBIN "gfx/icons/rowlet.2bpp"
+DartrixIcon:      INCBIN "gfx/icons/dartrix.2bpp"
 VenusaurIcon:     INCBIN "gfx/icons/venusaur.2bpp"
 CharmanderIcon:   INCBIN "gfx/icons/charmander.2bpp"
 CharmeleonIcon:   INCBIN "gfx/icons/charmeleon.2bpp"
