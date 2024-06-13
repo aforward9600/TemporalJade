@@ -18,10 +18,10 @@ PokemonPicPointers::
 	dba DecidueyeBackpic
 	dba TepigFrontpic
 	dba TepigBackpic
-	dba CharmeleonFrontpic
-	dba CharmeleonBackpic
-	dba CharizardFrontpic
-	dba CharizardBackpic
+	dba PigniteFrontpic
+	dba PigniteBackpic
+	dba EmboarFrontpic
+	dba EmboarBackpic
 	dba SquirtleFrontpic
 	dba SquirtleBackpic
 	dba WartortleFrontpic

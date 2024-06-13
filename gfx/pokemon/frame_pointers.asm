@@ -3,8 +3,8 @@ FramesPointers:
 	dba DartrixFrames
 	dba DecidueyeFrames
 	dba TepigFrames
-	dba CharmeleonFrames
-	dba CharizardFrames
+	dba PigniteFrames
+	dba EmboarFrames
 	dba SquirtleFrames
 	dba WartortleFrames
 	dba BlastoiseFrames

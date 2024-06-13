@@ -3,8 +3,8 @@ AnimationPointers:
 	dw DartrixAnimation
 	dw DecidueyeAnimation
 	dw TepigAnimation
-	dw CharmeleonAnimation
-	dw CharizardAnimation
+	dw PigniteAnimation
+	dw EmboarAnimation
 	dw SquirtleAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation

@@ -87,7 +87,7 @@ EZChat_SortedPokemon:
 .yu:       db KADABRA, -1
 .yo:       db WEAVILE, NOCTOWL, -1
 .ra:       db YANMEGA, RAICHU, CHANSEY, RATICATE, LAPRAS, VILEPLUME, LANTURN, -1
-.ri:       db CHARMELEON, CHARIZARD, URSARING, -1
+.ri:       db PIGNITE, EMBOAR, URSARING, -1
 .ru:       db JYNX, GLACEON, -1
 .re:       db MAGNETON, LEDIAN, LEDYBA, -1
 .ro:       db VULPIX, -1

@@ -6,8 +6,8 @@ Icons1:
 	dw DartrixIcon
 	dw DecidueyeIcon
 	dw TepigIcon
-	dw CharmeleonIcon
-	dw CharizardIcon
+	dw PigniteIcon
+	dw EmboarIcon
 	dw SquirtleIcon
 	dw WartortleIcon
 	dw BlastoiseIcon
@@ -133,8 +133,8 @@ RowletIcon:       INCBIN "gfx/icons/rowlet.2bpp"
 DartrixIcon:      INCBIN "gfx/icons/dartrix.2bpp"
 DecidueyeIcon:    INCBIN "gfx/icons/decidueye.2bpp"
 TepigIcon:        INCBIN "gfx/icons/tepig.2bpp"
-CharmeleonIcon:   INCBIN "gfx/icons/charmeleon.2bpp"
-CharizardIcon:    INCBIN "gfx/icons/charizard.2bpp"
+PigniteIcon:      INCBIN "gfx/icons/pignite.2bpp"
+EmboarIcon:       INCBIN "gfx/icons/emboar.2bpp"
 SquirtleIcon:     INCBIN "gfx/icons/squirtle.2bpp"
 WartortleIcon:    INCBIN "gfx/icons/wartortle.2bpp"
 BlastoiseIcon:    INCBIN "gfx/icons/blastoise.2bpp"

@@ -4,8 +4,8 @@ PokedexDataPointerTable:
 	dba DartrixPokedexEntry
 	dba DecidueyePokedexEntry
 	dba TepigPokedexEntry
-	dba CharmeleonPokedexEntry
-	dba CharizardPokedexEntry
+	dba PignitePokedexEntry
+	dba EmboarPokedexEntry
 	dba SquirtlePokedexEntry
 	dba WartortlePokedexEntry
 	dba BlastoisePokedexEntry

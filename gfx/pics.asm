@@ -56,7 +56,7 @@ SECTION "Tauros Front", ROMX
 
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 
-SECTION "Venusaur Front", ROMX
+SECTION "Decidueye Front", ROMX
 
 DecidueyeFrontpic:    INCBIN "gfx/pokemon/decidueye/front.animated.2bpp.lz"
 
@@ -117,9 +117,9 @@ SECTION "Fearow Front", ROMX
 
 FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 
-SECTION "Charizard Front", ROMX
+SECTION "Emboar Front", ROMX
 
-CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
+EmboarFrontpic:   INCBIN "gfx/pokemon/emboar/front.animated.2bpp.lz"
 
 SECTION "Quilava Front", ROMX
 
@@ -332,9 +332,9 @@ SECTION "Kingdra Front", ROMX
 
 KingdraFrontpic:     INCBIN "gfx/pokemon/kingdra/front.animated.2bpp.lz"
 
-SECTION "Charmeleon Front", ROMX
+SECTION "Pignite Front", ROMX
 
-CharmeleonFrontpic:  INCBIN "gfx/pokemon/charmeleon/front.animated.2bpp.lz"
+PigniteFrontpic:  INCBIN "gfx/pokemon/pignite/front.animated.2bpp.lz"
 
 SECTION "Kadabra Front", ROMX
 
@@ -677,7 +677,7 @@ ScientistPic:        INCBIN "gfx/trainers/scientist.2bpp.lz"
 QwilfishBackpic:     INCBIN "gfx/pokemon/qwilfish/back.2bpp.lz"
 GligarBackpic:       INCBIN "gfx/pokemon/gligar/back.2bpp.lz"
 TyphlosionBackpic:   INCBIN "gfx/pokemon/typhlosion/back.2bpp.lz"
-CharmeleonBackpic:   INCBIN "gfx/pokemon/charmeleon/back.2bpp.lz"
+PigniteBackpic:      INCBIN "gfx/pokemon/pignite/back.2bpp.lz"
 NidoqueenBackpic:    INCBIN "gfx/pokemon/nidoqueen/back.2bpp.lz"
 PichuFrontpic:       INCBIN "gfx/pokemon/pichu/front.animated.2bpp.lz"
 ElectabuzzBackpic:   INCBIN "gfx/pokemon/electabuzz/back.2bpp.lz"
@@ -738,7 +738,7 @@ ScizorBackpic:       INCBIN "gfx/pokemon/scizor/back.2bpp.lz"
 GirafarigBackpic:    INCBIN "gfx/pokemon/girafarig/back.2bpp.lz"
 StantlerBackpic:     INCBIN "gfx/pokemon/stantler/back.2bpp.lz"
 SmeargleBackpic:     INCBIN "gfx/pokemon/smeargle/back.2bpp.lz"
-CharizardBackpic:    INCBIN "gfx/pokemon/charizard/back.2bpp.lz"
+EmboarBackpic:       INCBIN "gfx/pokemon/emboar/back.2bpp.lz"
 KadabraBackpic:      INCBIN "gfx/pokemon/kadabra/back.2bpp.lz"
 PrimeapeBackpic:     INCBIN "gfx/pokemon/primeape/back.2bpp.lz"
 FurretBackpic:       INCBIN "gfx/pokemon/furret/back.2bpp.lz"

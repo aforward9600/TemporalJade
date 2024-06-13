@@ -23,8 +23,8 @@
 	const DARTRIX    ; 02
 	const DECIDUEYE  ; 03
 	const TEPIG      ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
+	const PIGNITE    ; 05
+	const EMBOAR     ; 06
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09

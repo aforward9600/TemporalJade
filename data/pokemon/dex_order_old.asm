@@ -5,8 +5,8 @@ OldPokedexOrder:
 	dw DARTRIX
 	dw DECIDUEYE
 	dw TEPIG
-	dw CHARMELEON
-	dw CHARIZARD
+	dw PIGNITE
+	dw EMBOAR
 	dw SQUIRTLE
 	dw WARTORTLE
 	dw BLASTOISE

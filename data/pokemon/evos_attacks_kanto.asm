@@ -5,8 +5,8 @@ EvosAttacksPointers1::
 	dw DartrixEvosAttacks
 	dw DecidueyeEvosAttacks
 	dw TepigEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
+	dw PigniteEvosAttacks
+	dw EmboarEvosAttacks
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
@@ -215,7 +215,7 @@ DecidueyeEvosAttacks:
 	dbw 60, NASTY_PLOT
 
 TepigEvosAttacks:
-	dbbw EVOLVE_LEVEL, 17, CHARMELEON
+	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 3, TAIL_WHIP
@@ -233,41 +233,45 @@ TepigEvosAttacks:
 	dbw 43, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
-CharmeleonEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, CHARIZARD
+PigniteEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, EMBOAR
 	db 0 ; no more evolutions
-	dbw 1, SCRATCH
-	dbw 1, GROWL
+	dbw LEARN_EVO_MOVE, KARATE_CHOP
+	dbw 1, KARATE_CHOP
+	dbw 1, TACKLE
+	dbw 3, TAIL_WHIP
 	dbw 7, EMBER
-	dbw 10, SMOKESCREEN
-	dbw 17, DRAGONBREATH
-	dbw 21, SCARY_FACE
-	dbw 28, FIRE_FANG
-	dbw 32, FLAME_BURST
-	dbw 39, SLASH
-	dbw 43, FLAMETHROWER
-	dbw 50, FIRE_SPIN
-	dbw 54, INFERNO
+	dbw 9, ODOR_SLEUTH
+	dbw 15, FLAME_CHARGE
+	dbw 20, SMOG
+	dbw 23, ROLLOUT
+	dbw 28, TAKE_DOWN
+	dbw 31, FIRE_FANG
+	dbw 36, PAYBACK
+	dbw 39, FLAMETHROWER
+	dbw 44, DOUBLE_EDGE
+	dbw 47, ROAR
+	dbw 52, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
-CharizardEvosAttacks:
+EmboarEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, AIR_SLASH
-	dbw 1, AIR_SLASH
-	dbw 1, SCRATCH
-	dbw 1, GROWL
+	dbw LEARN_EVO_MOVE, HAMMER_ARM
+	dbw 1, HAMMER_ARM
+	dbw 1, TACKLE
+	dbw 3, TAIL_WHIP
 	dbw 7, EMBER
-	dbw 10, SMOKESCREEN
-	dbw 17, DRAGONBREATH
-	dbw 21, SCARY_FACE
-	dbw 28, FIRE_FANG
-	dbw 32, FLAME_BURST
-	dbw 41, SLASH
-	dbw 47, FLAMETHROWER
-	dbw 56, DRAGON_PULSE
-	dbw 62, INFERNO
-	dbw 71, HEAT_WAVE
-	dbw 77, BLAST_BURN
+	dbw 9, ODOR_SLEUTH
+	dbw 15, FLAME_CHARGE
+	dbw 20, SMOG
+	dbw 23, ROLLOUT
+	dbw 28, TAKE_DOWN
+	dbw 31, FIRE_FANG
+	dbw 38, PAYBACK
+	dbw 43, FLAMETHROWER
+	dbw 50, DOUBLE_EDGE
+	dbw 55, ROAR
+	dbw 62, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:

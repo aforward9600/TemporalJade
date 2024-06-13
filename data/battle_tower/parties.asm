@@ -1838,7 +1838,7 @@ endc
 	bigdw 66 ; SDef
 	db "OMUSUTA-@@@"
 
-	dw CHARIZARD
+	dw EMBOAR
 	db KINGS_ROCK
 	dw FLAMETHROWER, DRAGON_PULSE, AIR_SLASH, SLASH
 
@@ -3365,7 +3365,7 @@ BattleTowerMons7:
 	bigdw 152 ; SDef
 	db "HUSIGIBANA@"
 
-	dw CHARIZARD
+	dw EMBOAR
 	db SCOPE_LENS
 	dw SLASH, EARTHQUAKE, AIR_SLASH, FLAMETHROWER
 
@@ -4524,7 +4524,7 @@ BattleTowerMons10:
 	bigdw 195 ; SDef
 	db "UINDEi@@@@@"
 
-	dw CHARIZARD
+	dw EMBOAR
 	db SCOPE_LENS
 	dw FLAMETHROWER, NASTY_PLOT, HYPER_BEAM, AIR_SLASH
 

@@ -2950,7 +2950,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (1)
 	db "Fabio@", TRAINERTYPE_MOVES
 	db 22
-	dw CHARMELEON
+	dw PIGNITE
 	dw EMBER, SMOKESCREEN, ANCIENTPOWER, SCARY_FACE
 	db 22
 	dw WARTORTLE
@@ -3199,7 +3199,7 @@ else
 endc
 	dw SLUDGE_BOMB, PETAL_BLIZZ, SYNTHESIS, SHADOW_BALL
 	db 62
-	dw CHARIZARD
+	dw EMBOAR
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -3512,7 +3512,7 @@ endc
 	next_list_item ; COOLTRAINERF (12)
 	db "Terra@", TRAINERTYPE_MOVES
 	db 73
-	dw CHARIZARD
+	dw EMBOAR
 	dw HEAT_WAVE, AIR_SLASH, DRAGON_PULSE, INFERNO
 	db 73
 	dw MAGNEZONE
@@ -4184,7 +4184,7 @@ endc
 	db 44
 	dw AMBIPOM
 	db 45
-	dw CHARIZARD
+	dw EMBOAR
 	db -1 ; end
 
 	next_list_item ; ManM (23)
@@ -5651,7 +5651,7 @@ endc
 	next_list_item ; SUPER_NERD (8) Cinnabar Gym
 	db "Albert@", TRAINERTYPE_NORMAL
 	db 70
-	dw CHARIZARD
+	dw EMBOAR
 	db -1 ; end
 
 	next_list_item ; SUPER_NERD (9) Cinnabar Gym
@@ -6193,7 +6193,7 @@ BikerGroup:
 	db 72
 	dw GENGAR
 	db 72
-	dw CHARIZARD
+	dw EMBOAR
 	db -1 ; end
 
 	next_list_item ; BIKER (4)
@@ -6215,7 +6215,7 @@ BikerGroup:
 	db 75
 	dw BLISSEY
 	db 74
-	dw CHARIZARD
+	dw EMBOAR
 	db 75
 	dw WEEZING
 	db -1 ; end
@@ -6409,7 +6409,7 @@ endc
 	next_list_item ; BIKER Route 11
 	db "Blazer@", TRAINERTYPE_NORMAL
 	db 73
-	dw CHARIZARD
+	dw EMBOAR
 	db 73
 	dw SANDSLASH
 	db -1 ; end
@@ -6501,7 +6501,7 @@ BurglarGroup:
 	next_list_item ; BURGLAR (3) Pokemon Mansion
 	db "Harry@", TRAINERTYPE_NORMAL
 	db 71
-	dw CHARIZARD
+	dw EMBOAR
 	db 71
 	dw WEAVILE
 	db -1 ; end
@@ -6509,7 +6509,7 @@ BurglarGroup:
 	next_list_item ; BURGLAR (4) Cinnabar Gym
 	db "Erik@", TRAINERTYPE_NORMAL
 	db 70
-	dw CHARIZARD
+	dw EMBOAR
 	db 70
 	dw RAPIDASH
 	db 71
@@ -6556,7 +6556,7 @@ FirebreatherGroup:
 	next_list_item ; FIREBREATHER (2) Route 48
 	db "Farel@", TRAINERTYPE_NORMAL
 	db 29
-	dw CHARMELEON
+	dw PIGNITE
 	db -1 ; end
 
 	next_list_item ; FIREBREATHER (3) Union Cave 1F
@@ -8477,7 +8477,7 @@ RedGroup:
 	dw DECIDUEYE
 	dw SUNNY_DAY, GIGA_DRAIN, SYNTHESIS, SOLARBEAM
 	db 77
-	dw CHARIZARD
+	dw EMBOAR
 	dw FLAMETHROWER, WING_ATTACK, SLASH, FIRE_SPIN
 	db 77
 	dw BLASTOISE
@@ -8574,7 +8574,7 @@ GruntFGroup:
 	next_list_item ; GruntF (3) Lighthouse
 	db "Lady@", TRAINERTYPE_NORMAL
 	db 21
-	dw CHARMELEON
+	dw PIGNITE
 	db 22
 	dw SCYTHER
 	db -1 ; end
@@ -10652,7 +10652,7 @@ DragonTamerFGroup:
 	dw AERODACTYL
 	dw CRUNCH, DUALWINGBEAT, IRON_HEAD, STONE_EDGE
 	db 53
-	dw CHARIZARD
+	dw EMBOAR
 	dw AIR_SLASH, FLAMETHROWER, NASTY_PLOT, DRAGON_PULSE
 	db -1 ; end
 
@@ -12690,7 +12690,7 @@ endc
 	dw TYRANITAR
 	dw CLOSE_COMBAT, SANDSTORM, CRUNCH, STONE_EDGE
 	db 77
-	dw CHARIZARD
+	dw EMBOAR
 	dw AIR_SLASH, SUNNY_DAY, SOLARBEAM, BLAST_BURN
 	db 76
 	dw ELECTRODE

@@ -34,8 +34,6 @@ AlphabeticalPokedexOrder:
 	dw CATERPIE
 	dw CELEBI
 	dw CHANSEY
-	dw CHARIZARD
-	dw CHARMELEON
 	dw CHIKORITA
 	dw CHINCHOU
 	dw CLEFABLE
@@ -75,6 +73,7 @@ AlphabeticalPokedexOrder:
 	dw ELECTRIKE
 	dw ELECTRODE
 	dw ELEKID
+	dw EMBOAR
 	dw ENTEI
 	dw ESPEON
 	dw EXEGGCUTE
@@ -212,6 +211,7 @@ AlphabeticalPokedexOrder:
 	dw PIDGEOT
 	dw PIDGEOTTO
 	dw PIDGEY
+	dw PIGNITE
 	dw PIKACHU
 	dw PILOSWINE
 	dw PINECO

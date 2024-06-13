@@ -5,7 +5,7 @@ PreviousEvolutionStage::
 	dw DARTRIX
 	dw 0
 	dw TEPIG
-	dw CHARMELEON
+	dw PIGNITE
 	dw 0
 	dw SQUIRTLE   ;08
 	dw WARTORTLE

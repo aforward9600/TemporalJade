@@ -3,8 +3,8 @@ AnimationIdlePointers:
 	dw DartrixAnimationIdle
 	dw DecidueyeAnimationIdle
 	dw TepigAnimationIdle
-	dw CharmeleonAnimationIdle
-	dw CharizardAnimationIdle
+	dw PigniteAnimationIdle
+	dw EmboarAnimationIdle
 	dw SquirtleAnimationIdle
 	dw WartortleAnimationIdle
 	dw BlastoiseAnimationIdle
