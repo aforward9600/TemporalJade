@@ -4,7 +4,7 @@ PreviousEvolutionStage::
 	dw ROWLET
 	dw DARTRIX
 	dw 0
-	dw CHARMANDER
+	dw TEPIG
 	dw CHARMELEON
 	dw 0
 	dw SQUIRTLE   ;08

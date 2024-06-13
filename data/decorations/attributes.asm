@@ -43,7 +43,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    5,              SET_UP_DOLL,       EVENT_DECO_CLEFAIRY_DOLL,        SPRITE_CLEFAIRY
 	decoration DECO_DOLL,    6,              SET_UP_DOLL,       EVENT_DECO_JIGGLYPUFF_DOLL,      SPRITE_JIGGLYPUFF
 	decoration DECO_DOLL,    0,              SET_UP_DOLL,       EVENT_DECO_BULBASAUR_DOLL,       SPRITE_BULBASAUR_STILL
-	decoration DECO_DOLL,    1,              SET_UP_DOLL,       EVENT_DECO_CHARMANDER_DOLL,      SPRITE_CHARMANDER
+	decoration DECO_DOLL,    1,              SET_UP_DOLL,       EVENT_DECO_CHARMANDER_DOLL,      SPRITE_TEPIG
 	decoration DECO_DOLL,    2,              SET_UP_DOLL,       EVENT_DECO_SQUIRTLE_DOLL,        SPRITE_SQUIRTLE_STILL
 	decoration DECO_DOLL,    9,              SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,         SPRITE_POLIWAG
 	decoration DECO_DOLL,    8,              SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,         SPRITE_DIGLETT_STILL
@@ -66,7 +66,7 @@ DecorationAttributes:
 
 DecorationAttributePokemonNames:
 	dw ROWLET  ;  0
-	dw CHARMANDER ;  1
+	dw TEPIG ;  1
 	dw SQUIRTLE   ;  2
 	dw CHIKORITA  ;  3
 	dw PIKACHU    ;  4

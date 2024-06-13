@@ -177,7 +177,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_POLIWAG ; a6
 	const SPRITE_PIKACHU ; a7
 	const SPRITE_CLEFAIRY ; a8
-	const SPRITE_CHARMANDER ; a9
+	const SPRITE_TEPIG ; a9
 	const SPRITE_JYNX ; aa
 	const SPRITE_STARMIE ; ab
 	const SPRITE_ROWLET ; ac

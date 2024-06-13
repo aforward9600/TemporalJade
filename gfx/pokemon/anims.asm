@@ -1,7 +1,7 @@
 RowletAnimation:     INCLUDE "gfx/pokemon/rowlet/anim.asm"
 DartrixAnimation:    INCLUDE "gfx/pokemon/dartrix/anim.asm"
 DecidueyeAnimation:  INCLUDE "gfx/pokemon/decidueye/anim.asm"
-CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
+TepigAnimation:      INCLUDE "gfx/pokemon/tepig/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"
 CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"
 SquirtleAnimation:   INCLUDE "gfx/pokemon/squirtle/anim.asm"

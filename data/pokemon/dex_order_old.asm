@@ -4,7 +4,7 @@ OldPokedexOrder:
 	dw ROWLET
 	dw DARTRIX
 	dw DECIDUEYE
-	dw CHARMANDER
+	dw TEPIG
 	dw CHARMELEON
 	dw CHARIZARD
 	dw SQUIRTLE

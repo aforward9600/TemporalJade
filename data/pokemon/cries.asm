@@ -8,9 +8,9 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; ROWLET
 	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; DARTRIX
 	mon_cry CRY_HOOTHOOT,    $000,  $17f ; DECIDUEYE
-	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; CHARMANDER
-	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; CHARMELEON
-	mon_cry CRY_CHARMANDER,  $000,  $100 ; CHARIZARD
+	mon_cry CRY_CYNDAQUIL,   $1fe,  $140 ; TEPIG
+	mon_cry CRY_MAGCARGO,   -$109,  $100 ; PIGNITE
+	mon_cry CRY_MAGCARGO,   -$109,  $140 ; EMBOAR
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE

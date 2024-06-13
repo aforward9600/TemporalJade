@@ -16,8 +16,8 @@ PokemonPicPointers::
 	dba DartrixBackpic
 	dba DecidueyeFrontpic
 	dba DecidueyeBackpic
-	dba CharmanderFrontpic
-	dba CharmanderBackpic
+	dba TepigFrontpic
+	dba TepigBackpic
 	dba CharmeleonFrontpic
 	dba CharmeleonBackpic
 	dba CharizardFrontpic

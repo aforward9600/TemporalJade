@@ -4,7 +4,7 @@ EggMovePointers1:
 	dw RowletEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw CharmanderEggMoves
+	dw TepigEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw SquirtleEggMoves
@@ -160,14 +160,12 @@ RowletEggMoves:
 	dw OMINOUS_WIND
 	dw -1 ; end
 
-CharmanderEggMoves:
-	dw BELLY_DRUM
-	dw ANCIENTPOWER
-	dw BITE
-	dw OUTRAGE
-	dw CRUNCH
-	dw DRAGON_RUSH
-	dw FLARE_BLITZ
+TepigEggMoves:
+	dw BODY_SLAM
+	dw MAGNITUDE
+	dw SUCKER_PUNCH
+	dw SUPERPOWER
+	dw THRASH
 	dw -1 ; end
 
 SquirtleEggMoves:

@@ -791,8 +791,8 @@ KantoGrassWildMons:
 	dbw 68, KADABRA
 	dbw 68, BUTTERFREE
 	dbw 68, VICTREEBEL
-	dbw 2, CHARMANDER
-	dbw 3, CHARMANDER
+	dbw 2, TEPIG
+	dbw 3, TEPIG
 	; day
 	dbw 68, BEEDRILL
 	dbw 68, BUTTERFREE
@@ -800,8 +800,8 @@ KantoGrassWildMons:
 	dbw 68, KADABRA
 	dbw 68, BUTTERFREE
 	dbw 68, VICTREEBEL
-	dbw 2, CHARMANDER
-	dbw 3, CHARMANDER
+	dbw 2, TEPIG
+	dbw 3, TEPIG
 	; nite
 	dbw 68, VENOMOTH
 	dbw 68, ARIADOS
@@ -809,8 +809,8 @@ KantoGrassWildMons:
 	dbw 68, KADABRA
 	dbw 68, ARIADOS
 	dbw 68, VILEPLUME
-	dbw 2, CHARMANDER
-	dbw 3, CHARMANDER
+	dbw 2, TEPIG
+	dbw 3, TEPIG
 
 	map_id ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

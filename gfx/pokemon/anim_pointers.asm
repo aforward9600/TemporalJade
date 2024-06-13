@@ -2,7 +2,7 @@ AnimationPointers:
 	dw RowletAnimation
 	dw DartrixAnimation
 	dw DecidueyeAnimation
-	dw CharmanderAnimation
+	dw TepigAnimation
 	dw CharmeleonAnimation
 	dw CharizardAnimation
 	dw SquirtleAnimation

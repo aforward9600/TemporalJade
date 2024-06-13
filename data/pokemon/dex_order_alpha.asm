@@ -35,7 +35,6 @@ AlphabeticalPokedexOrder:
 	dw CELEBI
 	dw CHANSEY
 	dw CHARIZARD
-	dw CHARMANDER
 	dw CHARMELEON
 	dw CHIKORITA
 	dw CHINCHOU
@@ -290,6 +289,7 @@ AlphabeticalPokedexOrder:
 	dw TEDDIURSA
 	dw TENTACOOL
 	dw TENTACRUEL
+	dw TEPIG
 	dw TOGEKISS
 	dw TOGEPI
 	dw TOGETIC

@@ -3,7 +3,7 @@ PokedexDataPointerTable:
 	dba RowletPokedexEntry
 	dba DartrixPokedexEntry
 	dba DecidueyePokedexEntry
-	dba CharmanderPokedexEntry
+	dba TepigPokedexEntry
 	dba CharmeleonPokedexEntry
 	dba CharizardPokedexEntry
 	dba SquirtlePokedexEntry

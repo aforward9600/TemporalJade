@@ -1,7 +1,7 @@
 RowletAnimationIdle:     INCLUDE "gfx/pokemon/rowlet/anim_idle.asm"
 DartrixAnimationIdle:    INCLUDE "gfx/pokemon/dartrix/anim_idle.asm"
 DecidueyeAnimationIdle:  INCLUDE "gfx/pokemon/decidueye/anim_idle.asm"
-CharmanderAnimationIdle: INCLUDE "gfx/pokemon/charmander/anim_idle.asm"
+TepigAnimationIdle:      INCLUDE "gfx/pokemon/tepig/anim_idle.asm"
 CharmeleonAnimationIdle: INCLUDE "gfx/pokemon/charmeleon/anim_idle.asm"
 CharizardAnimationIdle:  INCLUDE "gfx/pokemon/charizard/anim_idle.asm"
 SquirtleAnimationIdle:   INCLUDE "gfx/pokemon/squirtle/anim_idle.asm"

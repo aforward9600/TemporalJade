@@ -16,7 +16,7 @@ SpriteMons:
 	dw POLIWAG
 	dw PIKACHU
 	dw CLEFAIRY
-	dw CHARMANDER
+	dw TEPIG
 	dw JYNX
 	dw STARMIE
 	dw ROWLET

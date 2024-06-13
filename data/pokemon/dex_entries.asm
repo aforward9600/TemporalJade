@@ -6,7 +6,7 @@ SECTION "Pokedex Entries 001-064", ROMX
 RowletPokedexEntry::     INCLUDE "data/pokemon/dex_entries/rowlet.asm"
 DartrixPokedexEntry::    INCLUDE "data/pokemon/dex_entries/dartrix.asm"
 DecidueyePokedexEntry::  INCLUDE "data/pokemon/dex_entries/decidueye.asm"
-CharmanderPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmander.asm"
+TepigPokedexEntry::      INCLUDE "data/pokemon/dex_entries/tepig.asm"
 CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"
 SquirtlePokedexEntry::   INCLUDE "data/pokemon/dex_entries/squirtle.asm"

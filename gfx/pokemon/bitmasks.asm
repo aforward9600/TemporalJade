@@ -1,7 +1,7 @@
 RowletBitmasks:     INCLUDE "gfx/pokemon/rowlet/bitmask.asm"
 DartrixBitmasks:    INCLUDE "gfx/pokemon/dartrix/bitmask.asm"
 DecidueyeBitmasks:  INCLUDE "gfx/pokemon/decidueye/bitmask.asm"
-CharmanderBitmasks: INCLUDE "gfx/pokemon/charmander/bitmask.asm"
+TepigBitmasks:      INCLUDE "gfx/pokemon/tepig/bitmask.asm"
 CharmeleonBitmasks: INCLUDE "gfx/pokemon/charmeleon/bitmask.asm"
 CharizardBitmasks:  INCLUDE "gfx/pokemon/charizard/bitmask.asm"
 SquirtleBitmasks:   INCLUDE "gfx/pokemon/squirtle/bitmask.asm"

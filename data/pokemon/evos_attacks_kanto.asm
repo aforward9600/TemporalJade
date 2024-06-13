@@ -4,7 +4,7 @@ EvosAttacksPointers1::
 	dw RowletEvosAttacks
 	dw DartrixEvosAttacks
 	dw DecidueyeEvosAttacks
-	dw CharmanderEvosAttacks
+	dw TepigEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
 	dw SquirtleEvosAttacks
@@ -214,21 +214,23 @@ DecidueyeEvosAttacks:
 	dbw 55, BRAVE_BIRD
 	dbw 60, NASTY_PLOT
 
-CharmanderEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, CHARMELEON
+TepigEvosAttacks:
+	dbbw EVOLVE_LEVEL, 17, CHARMELEON
 	db 0 ; no more evolutions
-	dbw 1, SCRATCH
-	dbw 1, GROWL
+	dbw 1, TACKLE
+	dbw 3, TAIL_WHIP
 	dbw 7, EMBER
-	dbw 10, SMOKESCREEN
-	dbw 16, DRAGONBREATH
-	dbw 19, SCARY_FACE
-	dbw 25, FIRE_FANG
-	dbw 28, FLAME_BURST
-	dbw 34, SLASH
-	dbw 37, FLAMETHROWER
-	dbw 43, FIRE_SPIN
-	dbw 46, INFERNO
+	dbw 9, ODOR_SLEUTH
+	dbw 15, FLAME_CHARGE
+	dbw 19, SMOG
+	dbw 21, ROLLOUT
+	dbw 25, TAKE_DOWN
+	dbw 27, FIRE_FANG
+	dbw 31, PAYBACK
+	dbw 33, FLAMETHROWER
+	dbw 37, DOUBLE_EDGE
+	dbw 39, ROAR
+	dbw 43, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 CharmeleonEvosAttacks:

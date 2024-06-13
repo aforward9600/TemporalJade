@@ -22,7 +22,7 @@
 	const ROWLET     ; 01
 	const DARTRIX    ; 02
 	const DECIDUEYE  ; 03
-	const CHARMANDER ; 04
+	const TEPIG      ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06
 	const SQUIRTLE   ; 07

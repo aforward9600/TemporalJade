@@ -7465,7 +7465,7 @@ endc
 	db 10
 	dw LOTAD
 	db 10
-	dw CHARMANDER
+	dw TEPIG
 	db 10
 	dw PSYDUCK
 	db -1 ; end
@@ -8164,7 +8164,7 @@ endc
 	dw ROWLET
 	db ORAN_BERRY
 	db 29
-	dw CHARMANDER
+	dw TEPIG
 	db ORAN_BERRY
 	db 29
 	dw SQUIRTLE

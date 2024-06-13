@@ -6,7 +6,7 @@ PokemonNames::
 	db "Rowlet@@@@"
 	db "Dartrix@@@"
 	db "Decidueye@"
-	db "Charmander"
+	db "Tepig@@@@@"
 	db "Charmeleon"
 	db "Charizard@"
 	db "Squirtle@@"

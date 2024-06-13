@@ -14,7 +14,7 @@ MonMenuIconPals:
 	icon_pals GREEN,  TEAL   ; ROWLET
 	icon_pals GREEN,  TEAL   ; DARTRIX
 	icon_pals GREEN,  TEAL   ; DECIDUEYE
-	icon_pals RED,    BROWN  ; CHARMANDER
+	icon_pals RED,    BROWN  ; TEPIG
 	icon_pals RED,    BROWN  ; CHARMELEON
 	icon_pals RED,    GRAY   ; CHARIZARD
 	icon_pals BLUE,   TEAL   ; SQUIRTLE

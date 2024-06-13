@@ -1,7 +1,7 @@
 INCBIN "gfx/footprints/rowlet.1bpp"
 INCBIN "gfx/footprints/dartrix.1bpp"
 INCBIN "gfx/footprints/decidueye.1bpp"
-INCBIN "gfx/footprints/charmander.1bpp"
+INCBIN "gfx/footprints/tepig.1bpp"
 INCBIN "gfx/footprints/charmeleon.1bpp"
 INCBIN "gfx/footprints/charizard.1bpp"
 INCBIN "gfx/footprints/squirtle.1bpp"
