@@ -2024,7 +2024,7 @@ else
 endc
 	dw WAVE_CRASH, ICE_PUNCH, EARTHQUAKE, RAIN_DANCE
 	db 71
-	dw BLASTOISE
+	dw SWAMPERT
 if DEF(_CHALLENGE)
 	db SPECIALSPECS
 else
@@ -2370,7 +2370,7 @@ SchoolboyGroup:
 	db 29
 	dw TANGELA
 	db 29
-	dw WARTORTLE
+	dw MARSHTOMP
 	db 29
 	dw CLEFAIRY
 	db 29
@@ -2953,7 +2953,7 @@ CooltrainerMGroup:
 	dw PIGNITE
 	dw EMBER, SMOKESCREEN, ANCIENTPOWER, SCARY_FACE
 	db 22
-	dw WARTORTLE
+	dw MARSHTOMP
 	dw ICY_WIND, BUBBLE, BITE, RAPID_SPIN
 	db 22
 	dw DARTRIX
@@ -3111,7 +3111,7 @@ endc
 	dw DELIBIRD
 	dw HAIL, BLIZZARD, DRILL_PECK, PRESENT
 	db 47
-	dw BLASTOISE
+	dw SWAMPERT
 	dw FLASH_CANNON, SURF, IRON_DEFENSE, BLIZZARD
 	db 48
 	dw GOLEM
@@ -3505,7 +3505,7 @@ endc
 	dw BRONZONG
 	dw FLASH_CANNON, EXTRASENSORY, CALM_MIND, GYRO_BALL
 	db 61
-	dw BLASTOISE
+	dw SWAMPERT
 	dw HYDRO_PUMP, FLASH_CANNON, RAIN_DANCE, ICE_BEAM
 	db -1 ; end
 
@@ -4408,7 +4408,7 @@ endc
 	next_list_item ; TEACHER (8) Route 29
 	db "Charlene@", TRAINERTYPE_NORMAL
 	db 51
-	dw BLASTOISE
+	dw SWAMPERT
 	db 51
 	dw RAPIDASH
 	db 52
@@ -4848,7 +4848,7 @@ endc
 	next_list_item ; FISHER (8)
 	db "Aidan@", TRAINERTYPE_NORMAL
 	db 12
-	dw SQUIRTLE
+	dw MUDKIP
 	db -1 ; end
 
 	next_list_item ; FISHER (9)
@@ -5043,7 +5043,7 @@ SwimmerMGroup:
 	next_list_item ; SWIMMERM (1) Route 19
 	db "Bobby@", TRAINERTYPE_NORMAL
 	db 73
-	dw BLASTOISE
+	dw SWAMPERT
 	db 73
 	dw KINGDRA
 	db -1 ; end
@@ -5067,7 +5067,7 @@ endc
 	db 23
 	dw SHELLDER
 	db 23
-	dw WARTORTLE
+	dw MARSHTOMP
 	db 23
 	dw STARYU
 	db -1 ; end
@@ -8167,7 +8167,7 @@ endc
 	dw TEPIG
 	db ORAN_BERRY
 	db 29
-	dw SQUIRTLE
+	dw MUDKIP
 	db ORAN_BERRY
 	db -1 ; end
 
@@ -8480,7 +8480,7 @@ RedGroup:
 	dw EMBOAR
 	dw FLAMETHROWER, WING_ATTACK, SLASH, FIRE_SPIN
 	db 77
-	dw BLASTOISE
+	dw SWAMPERT
 	dw RAIN_DANCE, SURF, BLIZZARD, WHIRLPOOL
 	db -1 ; end
 
@@ -12169,7 +12169,7 @@ FedLeaderGroup:
 	dw MACHAMP
 	dw CROSS_CHOP, STONE_EDGE, EARTHQUAKE, BULK_UP
 	db 79
-	dw BLASTOISE
+	dw SWAMPERT
 	dw FLASH_CANNON, HYDRO_CANNON, ICE_BEAM, IRON_DEFENSE
 	db 79
 	dw MANECTRIC

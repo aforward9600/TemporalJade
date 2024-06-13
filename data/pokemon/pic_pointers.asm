@@ -22,12 +22,12 @@ PokemonPicPointers::
 	dba PigniteBackpic
 	dba EmboarFrontpic
 	dba EmboarBackpic
-	dba SquirtleFrontpic
-	dba SquirtleBackpic
-	dba WartortleFrontpic
-	dba WartortleBackpic
-	dba BlastoiseFrontpic
-	dba BlastoiseBackpic
+	dba MudkipFrontpic
+	dba MudkipBackpic
+	dba MarshtompFrontpic
+	dba MarshtompBackpic
+	dba SwampertFrontpic
+	dba SwampertBackpic
 	dba CaterpieFrontpic
 	dba CaterpieBackpic
 	dba MetapodFrontpic

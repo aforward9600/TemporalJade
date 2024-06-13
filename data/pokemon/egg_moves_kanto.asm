@@ -7,7 +7,7 @@ EggMovePointers1:
 	dw TepigEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw SquirtleEggMoves
+	dw MudkipEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -168,17 +168,14 @@ TepigEggMoves:
 	dw THRASH
 	dw -1 ; end
 
-SquirtleEggMoves:
+MudkipEggMoves:
+	dw ANCIENTPOWER
+	dw BARRIER
+	dw BITE
+	dw DOUBLE_EDGE
+	dw MUD_BOMB
+	dw STOMP
 	dw MIRROR_COAT
-	dw HAZE
-	dw MIST
-	dw CONFUSION
-	dw FORESIGHT
-	dw FLAIL
-	dw AQUA_JET
-	dw MUDDY_WATER
-	dw AQUA_RING
-	dw FAKE_OUT
 	dw -1 ; end
 
 PidgeyEggMoves:

@@ -102,13 +102,56 @@ TepigPokeBallScript:
 	closetext
 	disappear ELMSLAB_POKE_BALL2
 	opentext
-	getmonname STRING_BUFFER_3, SQUIRTLE
+	getmonname STRING_BUFFER_3, MUDKIP
 	writetext RivalReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
 	closetext
 	applymovement JUNIPERSLAB_RIVAL, AfterRowletMovement
+	sjump JuniperAfterStarter
+
+MudkipPokeBallScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
+	iftrue LookAtElmPokeBallScript
+	turnobject JUNIPERSLAB_JUNIPER, DOWN
+	refreshscreen
+	pokepic MUDKIP
+	cry MUDKIP
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeMudkipText
+	yesorno
+	iffalse DidntChooseStarterScript
+	disappear ELMSLAB_POKE_BALL2
+	setevent EVENT_GOT_MUDKIP_FROM_JUNIPER
+	writetext ChoseStarterText
+	buttonsound
+	waitsfx
+	getmonname STRING_BUFFER_3, MUDKIP
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	buttonsound
+	givepoke MUDKIP, 5, ORAN_BERRY
+	closetext
+	applymovement PLAYER, AfterRivalTepigMovement
+	pause 10
+	applymovement JUNIPERSLAB_RIVAL, RivalGetsRowletMovement
+	opentext
+	writetext IllTakeThisOneText
+	waitbutton
+	closetext
+	disappear ELMSLAB_POKE_BALL3
+	opentext
+	getmonname STRING_BUFFER_3, ROWLET
+	writetext RivalReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	buttonsound
+	closetext
+	applymovement JUNIPERSLAB_RIVAL, AfterRivalRowletMovement
 	sjump JuniperAfterStarter
 
 RowletPokeBallScript:
@@ -399,6 +442,24 @@ RivalGetsTepigMovement:
 	turn_head UP
 	step_end
 
+RivalGetsRowletMovement:
+	step DOWN
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	turn_head UP
+	step_end
+
+AfterRivalRowletMovement:
+	step LEFT
+	step LEFT
+	step LEFT
+	step LEFT
+	step UP
+	turn_head UP
+	step_end
+
 FirstElmText:
 	text "Hello!"
 
@@ -528,6 +589,12 @@ TakeTepigText:
 	text "Juniper: You'll"
 	line "take Tepig, the"
 	cont "fire #mon?"
+	done
+
+TakeMudkipText:
+	text "Juniper: You'll"
+	line "take Mudkip, the"
+	cont "water #mon?"
 	done
 
 DidntChooseStarterText:
@@ -851,6 +918,6 @@ ElmsLab_MapEvents:
 	object_event  5,  2, SPRITE_JUNIPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfJuniperScript, -1
 	object_event  2,  9, SPRITE_BIANCA, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, JunipersLabBiancaScript, EVENT_JUNIPERS_LAB_BIANCA
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TepigPokeBallScript, EVENT_TEPIG_POKEBALL_IN_LAB
-	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LookAtElmPokeBallScript, EVENT_MUDKIP_POKEBALL_IN_LAB
-	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RowletPokeBallScript, EVENT_ROWLET_POKEBALL_IN_LAB
+	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MudkipPokeBallScript, EVENT_MUDKIP_POKEBALL_IN_LAB
+	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RowletPokeBallScript, EVENT_ROWLET_POKEBALL_IN_LAB
 	object_event  4,  3, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JunipersLabRivalScript, EVENT_JUNIPERS_LAB_RIVAL

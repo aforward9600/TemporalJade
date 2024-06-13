@@ -341,8 +341,8 @@ KantoGrassWildMons:
 	dbw 69, RATICATE
 	dbw 69, JIGGLYPUFF
 	dbw 69, GRANBULL
-	dbw 2, SQUIRTLE
-	dbw 3, SQUIRTLE
+	dbw 2, MUDKIP
+	dbw 3, MUDKIP
 	; day
 	dbw 69, RATICATE
 	dbw 69, SNUBBULL
@@ -350,8 +350,8 @@ KantoGrassWildMons:
 	dbw 69, RATICATE
 	dbw 69, JIGGLYPUFF
 	dbw 69, GRANBULL
-	dbw 2, SQUIRTLE
-	dbw 3, SQUIRTLE
+	dbw 2, MUDKIP
+	dbw 3, MUDKIP
 	; nite
 	dbw 69, PERSIAN
 	dbw 69, HYPNO
@@ -359,8 +359,8 @@ KantoGrassWildMons:
 	dbw 69, GOLDUCK
 	dbw 69, JIGGLYPUFF
 	dbw 69, RATICATE
-	dbw 2, SQUIRTLE
-	dbw 3, SQUIRTLE
+	dbw 2, MUDKIP
+	dbw 3, MUDKIP
 
 	map_id ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

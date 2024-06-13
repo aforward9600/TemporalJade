@@ -22,7 +22,6 @@ AlphabeticalPokedexOrder:
 	dw BEEDRILL
 	dw BELLOSSOM
 	dw BELLSPROUT
-	dw BLASTOISE
 	dw BLISSEY
 	dw BONSLY
 	dw BRONZONG
@@ -173,6 +172,7 @@ AlphabeticalPokedexOrder:
 	dw MAREEP
 	dw MARILL
 	dw MAROWAK
+	dw MARSHTOMP
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -185,6 +185,7 @@ AlphabeticalPokedexOrder:
 	dw MISSINGNO
 	dw MOLTRES
 	dw MR__MIME
+	dw MUDKIP
 	dw MUK
 	dw MUNCHLAX
 	dw MURKROW
@@ -271,7 +272,6 @@ AlphabeticalPokedexOrder:
 	dw SNUBBULL
 	dw SPEAROW
 	dw SPINARAK
-	dw SQUIRTLE
 	dw STANTLER
 	dw STARMIE
 	dw STARYU
@@ -281,6 +281,7 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SWABLU
+	dw SWAMPERT
 	dw SYLVEON
 	dw SWINUB
 	dw TANGELA
@@ -309,7 +310,6 @@ AlphabeticalPokedexOrder:
 	dw VILEPLUME
 	dw VOLTORB
 	dw VULPIX
-	dw WARTORTLE
 	dw WEAVILE
 	dw WEEDLE
 	dw WEEPINBELL

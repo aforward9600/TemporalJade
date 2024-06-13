@@ -5,9 +5,9 @@ BitmasksPointers:
 	dw TepigBitmasks
 	dw PigniteBitmasks
 	dw EmboarBitmasks
-	dw SquirtleBitmasks
-	dw WartortleBitmasks
-	dw BlastoiseBitmasks
+	dw MudkipBitmasks
+	dw MarshtompBitmasks
+	dw SwampertBitmasks
 	dw CaterpieBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks

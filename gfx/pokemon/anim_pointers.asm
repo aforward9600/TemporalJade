@@ -5,9 +5,9 @@ AnimationPointers:
 	dw TepigAnimation
 	dw PigniteAnimation
 	dw EmboarAnimation
-	dw SquirtleAnimation
-	dw WartortleAnimation
-	dw BlastoiseAnimation
+	dw MudkipAnimation
+	dw MarshtompAnimation
+	dw SwampertAnimation
 	dw CaterpieAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation

@@ -25,9 +25,9 @@
 	const TEPIG      ; 04
 	const PIGNITE    ; 05
 	const EMBOAR     ; 06
-	const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
+	const MUDKIP     ; 07
+	const MARSHTOMP  ; 08
+	const SWAMPERT   ; 09
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c

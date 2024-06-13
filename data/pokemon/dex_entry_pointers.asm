@@ -6,9 +6,9 @@ PokedexDataPointerTable:
 	dba TepigPokedexEntry
 	dba PignitePokedexEntry
 	dba EmboarPokedexEntry
-	dba SquirtlePokedexEntry
-	dba WartortlePokedexEntry
-	dba BlastoisePokedexEntry
+	dba MudkipPokedexEntry
+	dba MarshtompPokedexEntry
+	dba SwampertPokedexEntry
 	dba CaterpiePokedexEntry
 	dba MetapodPokedexEntry
 	dba ButterfreePokedexEntry

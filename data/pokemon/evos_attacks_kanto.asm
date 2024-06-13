@@ -7,9 +7,9 @@ EvosAttacksPointers1::
 	dw TepigEvosAttacks
 	dw PigniteEvosAttacks
 	dw EmboarEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw MudkipEvosAttacks
+	dw MarshtompEvosAttacks
+	dw SwampertEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
@@ -274,63 +274,61 @@ EmboarEvosAttacks:
 	dbw 62, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
-SquirtleEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, WARTORTLE
+MudkipEvosAttacks:
+	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 4, TAIL_WHIP
+	dbw 1, GROWL
 	dbw 7, WATER_GUN
-	dbw 10, WITHDRAW
-	dbw 13, BUBBLE
-	dbw 16, BITE
-	dbw 19, RAPID_SPIN
-	dbw 22, PROTECT
-	dbw 25, WATER_PULSE
-	dbw 28, AQUA_TAIL
-	dbw 31, SKULL_BASH
-	dbw 34, IRON_DEFENSE
-	dbw 37, RAIN_DANCE
-	dbw 40, HYDRO_PUMP
+	dbw 10, MUD_SLAP
+	dbw 12, FORESIGHT
+	dbw 17, AQUA_JET
+	dbw 20, AQUA_RING
+	dbw 25, ROCK_THROW
+	dbw 28, PROTECT
+	dbw 33, AQUA_TAIL
+	dbw 36, TAKE_DOWN
+	dbw 41, DOUBLE_EDGE
+	dbw 44, WAVE_CRASH
 	db 0 ; no more level-up moves
 
-WartortleEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, BLASTOISE
+MarshtompEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, SWAMPERT
 	db 0 ; no more evolutions
+	dbw LEARN_EVO_MOVE, MUD_SHOT
+	dbw 1, MUD_SHOT
 	dbw 1, TACKLE
-	dbw 4, TAIL_WHIP
+	dbw 1, GROWL
 	dbw 7, WATER_GUN
-	dbw 10, WITHDRAW
-	dbw 13, BUBBLE
-	dbw 17, BITE
-	dbw 21, RAPID_SPIN
-	dbw 25, PROTECT
-	dbw 29, WATER_PULSE
-	dbw 33, AQUA_TAIL
-	dbw 37, SKULL_BASH
-	dbw 41, IRON_DEFENSE
-	dbw 45, RAIN_DANCE
-	dbw 49, HYDRO_PUMP
+	dbw 10, MUD_SLAP
+	dbw 12, FORESIGHT
+	dbw 18, AQUA_JET
+	dbw 22, MUD_BOMB
+	dbw 28, ROCK_SLIDE
+	dbw 32, PROTECT
+	dbw 38, MUDDY_WATER
+	dbw 42, TAKE_DOWN
+	dbw 48, EARTHQUAKE
+	dbw 52, WAVE_CRASH
 	db 0 ; no more level-up moves
 
-BlastoiseEvosAttacks:
+SwampertEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, FLASH_CANNON
-	dbw 1, FLASH_CANNON
+	dbw 1, MUD_SHOT
 	dbw 1, TACKLE
-	dbw 4, TAIL_WHIP
+	dbw 1, GROWL
 	dbw 7, WATER_GUN
-	dbw 10, WITHDRAW
-	dbw 13, BUBBLE
-	dbw 17, BITE
-	dbw 21, RAPID_SPIN
-	dbw 25, PROTECT
-	dbw 29, WATER_PULSE
-	dbw 33, AQUA_TAIL
-	dbw 40, SKULL_BASH
-	dbw 47, IRON_DEFENSE
-	dbw 54, RAIN_DANCE
-	dbw 60, HYDRO_PUMP
-	dbw 65, HYDRO_CANNON
+	dbw 10, MUD_SLAP
+	dbw 12, FORESIGHT
+	dbw 18, AQUA_JET
+	dbw 22, MUD_BOMB
+	dbw 28, ROCK_SLIDE
+	dbw 32, PROTECT
+	dbw 39, MUDDY_WATER
+	dbw 44, TAKE_DOWN
+	dbw 51, EARTHQUAKE
+	dbw 56, WAVE_CRASH
+	dbw 63, HAMMER_ARM
 	db 0 ; no more level-up moves
 
 CaterpieEvosAttacks:

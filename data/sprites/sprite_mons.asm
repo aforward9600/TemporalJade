@@ -9,7 +9,7 @@ SpriteMons:
 	dw GENGAR
 	dw ZUBAT
 	dw MAGIKARP
-	dw SQUIRTLE
+	dw MUDKIP
 	dw TOGEPI
 	dw BUTTERFREE
 	dw DIGLETT

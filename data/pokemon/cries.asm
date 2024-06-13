@@ -11,9 +11,9 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $1fe,  $140 ; TEPIG
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; PIGNITE
 	mon_cry CRY_MAGCARGO,   -$109,  $140 ; EMBOAR
-	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
+	mon_cry CRY_PSYDUCK,     $725,  $091 ; MUDKIP
+	mon_cry CRY_GRIMER,      $020,  $1b2 ; MARSHTOMP
+	mon_cry CRY_ODDISH,      $50d,  $1b2 ; SWAMPERT
 	mon_cry CRY_CATERPIE,    $080,  $0a0 ; CATERPIE
 	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
 	mon_cry CRY_CATERPIE,    $077,  $0c0 ; BUTTERFREE

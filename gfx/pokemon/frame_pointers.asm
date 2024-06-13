@@ -5,9 +5,9 @@ FramesPointers:
 	dba TepigFrames
 	dba PigniteFrames
 	dba EmboarFrames
-	dba SquirtleFrames
-	dba WartortleFrames
-	dba BlastoiseFrames
+	dba MudkipFrames
+	dba MarshtompFrames
+	dba SwampertFrames
 	dba CaterpieFrames
 	dba MetapodFrames
 	dba ButterfreeFrames

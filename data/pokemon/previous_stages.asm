@@ -7,8 +7,8 @@ PreviousEvolutionStage::
 	dw TEPIG
 	dw PIGNITE
 	dw 0
-	dw SQUIRTLE   ;08
-	dw WARTORTLE
+	dw MUDKIP   ;08
+	dw MARSHTOMP
 	dw 0
 	dw CATERPIE
 	dw METAPOD

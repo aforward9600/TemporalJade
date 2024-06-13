@@ -117,6 +117,10 @@ Budew, Roselia, Roserade, Electrike, Manectric, Cacnea, Cacturne, Croagunk,
 Toxicroak, Snorunt, Glalie, Froslass, Aggron, Lotad, Lombre, Ludicolo sprites:
 Prism Team.
 
+Mudkip line sprites: Bloodless & Blue Rose
+
+Gen 5 Sprites: Bloodless
+
 Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Tirtouga and

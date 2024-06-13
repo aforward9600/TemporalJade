@@ -8,9 +8,9 @@ Icons1:
 	dw TepigIcon
 	dw PigniteIcon
 	dw EmboarIcon
-	dw SquirtleIcon
-	dw WartortleIcon
-	dw BlastoiseIcon
+	dw MudkipIcon
+	dw MarshtompIcon
+	dw SwampertIcon
 	dw CaterpieIcon
 	dw MetapodIcon
 	dw MothIcon
@@ -135,9 +135,9 @@ DecidueyeIcon:    INCBIN "gfx/icons/decidueye.2bpp"
 TepigIcon:        INCBIN "gfx/icons/tepig.2bpp"
 PigniteIcon:      INCBIN "gfx/icons/pignite.2bpp"
 EmboarIcon:       INCBIN "gfx/icons/emboar.2bpp"
-SquirtleIcon:     INCBIN "gfx/icons/squirtle.2bpp"
-WartortleIcon:    INCBIN "gfx/icons/wartortle.2bpp"
-BlastoiseIcon:    INCBIN "gfx/icons/blastoise.2bpp"
+MudkipIcon:       INCBIN "gfx/icons/mudkip.2bpp"
+MarshtompIcon:    INCBIN "gfx/icons/marshtomp.2bpp"
+SwampertIcon:     INCBIN "gfx/icons/swampert.2bpp"
 CaterpieIcon:     INCBIN "gfx/icons/caterpie.2bpp"
 MetapodIcon:      INCBIN "gfx/icons/metapod.2bpp"
 MothIcon:         INCBIN "gfx/icons/moth.2bpp"
