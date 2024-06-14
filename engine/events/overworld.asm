@@ -613,8 +613,8 @@ FlyFunction:
 .FlyScript:
 	reloadmappart
 	refreshscreen
-	pokepic PIDGEOT
-	cry 18
+	pokepic DARTRIX
+	cry 2
 	pause 10
 	closepokepic
 	callasm HideSprites

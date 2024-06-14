@@ -11,12 +11,12 @@ FramesPointers:
 	dba PikipekFrames
 	dba TrumbeakFrames
 	dba ToucannonFrames
-	dba WeedleFrames
-	dba KakunaFrames
-	dba BeedrillFrames
-	dba PidgeyFrames
-	dba PidgeottoFrames
-	dba PidgeotFrames
+	dba LillipupFrames
+	dba HerdierFrames
+	dba StoutlandFrames
+	dba VenipedeFrames
+	dba WhirlipedeFrames
+	dba ScolipedeFrames
 	dba RattataFrames
 	dba RaticateFrames
 	dba SpearowFrames

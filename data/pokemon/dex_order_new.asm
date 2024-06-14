@@ -19,9 +19,9 @@ NewPokedexOrder:
 	dw PIKIPEK
 	dw TRUMBEAK
 	dw TOUCANNON
-	dw WEEDLE
-	dw KAKUNA
-	dw BEEDRILL
+	dw LILLIPUP
+	dw HERDIER
+	dw STOUTLAND
 	dw LEDYBA
 	dw LEDIAN
 	dw SPINARAK
@@ -42,9 +42,9 @@ NewPokedexOrder:
 	dw GEODUDE
 	dw GRAVELER
 	dw GOLEM
-	dw PIDGEY
-	dw PIDGEOTTO
-	dw PIDGEOT
+	dw VENIPEDE
+	dw WHIRLIPEDE
+	dw SCOLIPEDE
 	dw PHANPY
 	dw DONPHAN
 	dw SKARMINI

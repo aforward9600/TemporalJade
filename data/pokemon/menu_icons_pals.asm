@@ -23,12 +23,12 @@ MonMenuIconPals:
 	icon_pals RED,    PINK   ; PIKIPEK
 	icon_pals RED,    PINK   ; TRUMBEAK
 	icon_pals RED,    PINK   ; TOUCANNON
-	icon_pals BROWN,  GREEN  ; WEEDLE
-	icon_pals BROWN,  GREEN  ; KAKUNA
-	icon_pals BROWN,  BLUE   ; BEEDRILL
-	icon_pals BROWN,  BROWN  ; PIDGEY
-	icon_pals BROWN,  BROWN  ; PIDGEOTTO
-	icon_pals RED,    BROWN  ; PIDGEOTTO
+	icon_pals BROWN,  BLUE   ; LILLIPUP
+	icon_pals BROWN,  BLUE   ; HERDIER
+	icon_pals BROWN,  BLUE   ; STOUTLAND
+	icon_pals RED,    BROWN  ; VENIPEDE
+	icon_pals PURPLE, GREEN  ; WHIRLIPEDE
+	icon_pals PURPLE, RED    ; SCOLIPEDE
 	icon_pals PURPLE, GRAY   ; RATTATA
 	icon_pals BROWN,  RED    ; RATICATE
 	icon_pals RED,    RED    ; SPEAROW

@@ -12,17 +12,17 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; PIGNITE
 	mon_cry CRY_MAGCARGO,   -$109,  $140 ; EMBOAR
 	mon_cry CRY_PSYDUCK,     $725,  $091 ; MUDKIP
-	mon_cry CRY_GRIMER,      $020,  $1b2 ; MARSHTOMP
+	mon_cry CRY_ODDISH,      $0ea,  $0e0 ; MARSHTOMP
 	mon_cry CRY_ODDISH,      $50d,  $1b2 ; SWAMPERT
 	mon_cry CRY_MARILL,      $11b,  $070 ; PIKIPEK
 	mon_cry CRY_SPEAROW,     $000,  $100 ; TRUMBEAK
 	mon_cry CRY_FEAROW,      $040,  $120 ; TOUCANNON
+	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; LILLIPUP
+	mon_cry CRY_GROWLITHE,   $010,  $0d0 ; HERDIER
+	mon_cry CRY_WEEDLE,      $000,  $100 ; STOUTLAND
 	mon_cry CRY_WEEDLE,      $0ee,  $081 ; VENIPEDE
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; WHIRLIPEDE
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; SCOLIPEDE
-	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
-	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
-	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
 	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
 	mon_cry CRY_RATTATA,     $020,  $17f ; RATICATE
 	mon_cry CRY_SPEAROW,     $000,  $100 ; SPEAROW

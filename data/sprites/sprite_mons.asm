@@ -3,7 +3,7 @@ SpriteMons:
 	dw MURKROW
 	dw SKARMINI
 	dw GROWLITHE
-	dw WEEDLE
+	dw LILLIPUP
 	dw CYNDAQUIL
 	dw KOTORA
 	dw GENGAR

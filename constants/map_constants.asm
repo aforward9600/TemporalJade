@@ -172,8 +172,7 @@ ENDM
 
 	map_const BLACKTHORN_GYM_1F,                            5,  9 ;  1
 	map_const BLACKTHORN_GYM_2F,                            5,  9 ;  2
-	map_const BLACKTHORN_DRAGON_SPEECH_HOUSE,               4,  4 ;  3
-	map_const RIVALS_HOUSE_1F,                              4,  4 ;  4                          
+	map_const BLACKTHORN_DRAGON_SPEECH_HOUSE,               4,  4 ;  3                      
 	map_const BLACKTHORN_MART,                              6,  4 ;  5
 	map_const BLACKTHORN_POKECENTER_1F,                     5,  4 ;  6
 	map_const MOVE_DELETERS_HOUSE,                          4,  4 ;  7
@@ -182,7 +181,6 @@ ENDM
 	map_const BLACKTHORN_CITY,                             21, 18 ; 10
 	map_const MASTERS_HOUSE_1F,                             5,  7 ; 11
 	map_const MASTERS_HOUSE_2F,                             5,  6 ; 12
-	map_const RIVALS_HOUSE_2F,                              4,  3 ; 13
 	map_const HO_OH_LUGIA_ROOM,                             6,  6 ; 14
 	map_const ROCKET_LAIR_HALLWAY_1,                        5, 11 ; 15
 	map_const ROCKET_LAIR_BREAK_ROOM,                       5,  4 ; 16
@@ -499,6 +497,8 @@ ENDM
 	map_const DAY_OF_WEEK_SIBLINGS_HOUSE,                   4,  4 ; 11
 	map_const ROUTE_27_SANDSTORM_HOUSE,                     4,  4 ; 12
 	map_const ROUTE_29_ROUTE_46_GATE,                       5,  4 ; 13
+	map_const RIVALS_HOUSE_1F,                              5,  4 ;  4    
+	map_const RIVALS_HOUSE_2F,                              4,  3 ; 13
 
 	newgroup                                                      ; 25
 

@@ -381,7 +381,7 @@ GetSpeciesIcon:
 	ret
 
 FlyFunction_GetMonIcon:
-	ld hl, PIDGEOT
+	ld hl, DARTRIX
 	call GetPokemonIDFromIndex
 	ld b, a
 	ld a, e

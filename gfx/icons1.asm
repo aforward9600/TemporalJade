@@ -14,12 +14,12 @@ Icons1:
 	dw PikipekIcon
 	dw TrumbeakIcon
 	dw ToucannonIcon
-	dw CaterpillarIcon
-	dw KakunaIcon
-	dw BeedrillIcon
-	dw PidgeyIcon
-	dw PidgeottoIcon
-	dw PidgeotIcon
+	dw LillipupIcon
+	dw HerdierIcon
+	dw StoutlandIcon
+	dw VenipedeIcon
+	dw WhirlipedeIcon
+	dw ScolipedeIcon
 	dw RattataIcon
 	dw RaticateIcon
 	dw SpearowIcon
@@ -141,12 +141,12 @@ SwampertIcon:     INCBIN "gfx/icons/swampert.2bpp"
 PikipekIcon:      INCBIN "gfx/icons/pikipek.2bpp"
 TrumbeakIcon:     INCBIN "gfx/icons/trumbeak.2bpp"
 ToucannonIcon:    INCBIN "gfx/icons/toucannon.2bpp"
-CaterpillarIcon:  INCBIN "gfx/icons/caterpillar.2bpp"
-KakunaIcon:       INCBIN "gfx/icons/kakuna.2bpp"
-BeedrillIcon:     INCBIN "gfx/icons/beedrill.2bpp"
-PidgeyIcon:       INCBIN "gfx/icons/pidgey.2bpp"
-PidgeottoIcon:    INCBIN "gfx/icons/pidgeotto.2bpp"
-PidgeotIcon:      INCBIN "gfx/icons/pidgeot.2bpp"
+LillipupIcon:     INCBIN "gfx/icons/lillipup.2bpp"
+HerdierIcon:      INCBIN "gfx/icons/herdier.2bpp"
+StoutlandIcon:    INCBIN "gfx/icons/stoutland.2bpp"
+VenipedeIcon:     INCBIN "gfx/icons/venipede.2bpp"
+WhirlipedeIcon:   INCBIN "gfx/icons/whirlipede.2bpp"
+ScolipedeIcon:    INCBIN "gfx/icons/scolipede.2bpp"
 RattataIcon:      INCBIN "gfx/icons/rattata.2bpp"
 RaticateIcon:     INCBIN "gfx/icons/raticate.2bpp"
 SpearowIcon:      INCBIN "gfx/icons/spearow.2bpp"

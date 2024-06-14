@@ -188,7 +188,7 @@ KantoGrassWildMons:
 	dbw 66, SUNFLORA
 	dbw 66, TANGROWTH
 	dbw 66, MR__MIME
-	dbw 66, PIDGEOT
+	dbw 66, SCOLIPEDE
 	dbw 66, FURRET
 	dbw 66, AZUMARILL
 	dbw  2, ROWLET
@@ -197,7 +197,7 @@ KantoGrassWildMons:
 	dbw 66, SUNFLORA
 	dbw 66, TANGROWTH
 	dbw 66, MR__MIME
-	dbw 66, PIDGEOT
+	dbw 66, SCOLIPEDE
 	dbw 66, FURRET
 	dbw 66, AZUMARILL
 	dbw  2, ROWLET
@@ -217,7 +217,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 66, NIDORINA
 	dbw 66, NIDORINO
-	dbw 66, PIDGEOT
+	dbw 66, SCOLIPEDE
 	dbw 66, URSALUNA
 	dbw 66, LEDIAN
 	dbw 66, PIKACHU
@@ -226,7 +226,7 @@ KantoGrassWildMons:
 	; day
 	dbw 66, NIDORINA
 	dbw 66, NIDORINO
-	dbw 66, PIDGEOT
+	dbw 66, SCOLIPEDE
 	dbw 66, URSALUNA
 	dbw 66, LEDIAN
 	dbw 66, PIKACHU
@@ -305,27 +305,27 @@ KantoGrassWildMons:
 	map_id ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 68, PIDGEOT
+	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
-	dbw 68, PIDGEOT
+	dbw 68, SCOLIPEDE
 	dbw 68, JIGGLYPUFF
 	dbw 68, WIGGLYTUFF
 	dbw 68, KADABRA
 	dbw 68, KADABRA
 	dbw 68, ALAKAZAM
 	; day
-	dbw 68, PIDGEOT
+	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
-	dbw 68, PIDGEOT
+	dbw 68, SCOLIPEDE
 	dbw 68, JIGGLYPUFF
 	dbw 68, WIGGLYTUFF
 	dbw 68, KADABRA
 	dbw 68, KADABRA
 	dbw 68, ALAKAZAM
 	; nite
-	dbw 68, PIDGEOT
+	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
-	dbw 68, PIDGEOT
+	dbw 68, SCOLIPEDE
 	dbw 68, JIGGLYPUFF
 	dbw 68, WIGGLYTUFF
 	dbw 68, KADABRA
@@ -488,7 +488,7 @@ KantoGrassWildMons:
 	dbw 70, SKIPLOOM
 	dbw 70, RATICATE
 	dbw 70, MAGNETON
-	dbw 70, PIDGEOT
+	dbw 70, SCOLIPEDE
 	dbw 70, RATICATE
 	dbw 70, JUMPLUFF
 	dbw 70, JUMPLUFF
@@ -497,7 +497,7 @@ KantoGrassWildMons:
 	dbw 70, SKIPLOOM
 	dbw 70, RATICATE
 	dbw 70, MAGNETON
-	dbw 70, PIDGEOT
+	dbw 70, SCOLIPEDE
 	dbw 70, RATICATE
 	dbw 70, JUMPLUFF
 	dbw 70, JUMPLUFF
@@ -517,7 +517,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
-	dbw 71, PIDGEOT
+	dbw 71, SCOLIPEDE
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
@@ -526,7 +526,7 @@ KantoGrassWildMons:
 	; day
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
-	dbw 71, PIDGEOT
+	dbw 71, SCOLIPEDE
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
@@ -547,7 +547,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
-	dbw 71, PIDGEOT
+	dbw 71, SCOLIPEDE
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
@@ -556,7 +556,7 @@ KantoGrassWildMons:
 	; day
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
-	dbw 71, PIDGEOT
+	dbw 71, SCOLIPEDE
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
@@ -577,7 +577,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
-	dbw 71, PIDGEOT
+	dbw 71, SCOLIPEDE
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
@@ -586,7 +586,7 @@ KantoGrassWildMons:
 	; day
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
-	dbw 71, PIDGEOT
+	dbw 71, SCOLIPEDE
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
 	dbw 71, JUMPLUFF
@@ -755,7 +755,7 @@ KantoGrassWildMons:
 	map_id ROUTE_24
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 68, BEEDRILL
+	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
@@ -764,7 +764,7 @@ KantoGrassWildMons:
 	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	; day
-	dbw 68, BEEDRILL
+	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
@@ -785,7 +785,7 @@ KantoGrassWildMons:
 	map_id ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 68, BEEDRILL
+	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
@@ -794,7 +794,7 @@ KantoGrassWildMons:
 	dbw 2, TEPIG
 	dbw 3, TEPIG
 	; day
-	dbw 68, BEEDRILL
+	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
@@ -923,7 +923,7 @@ KantoGrassWildMons:
 	dbw 63, PIKACHU
 	dbw 63, HERACROSS
 	; nite
-	dbw 63, BEEDRILL
+	dbw 63, STOUTLAND
 	dbw 63, VENOMOTH
 	dbw 63, ARIADOS
 	dbw 63, PARASECT

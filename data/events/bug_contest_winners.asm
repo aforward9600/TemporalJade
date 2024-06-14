@@ -20,7 +20,7 @@ BugContestantPointers:
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, ANTON
-	dw KAKUNA,     300
+	dw HERDIER,     300
 	dw TRUMBEAK,   285
 	dw PIKIPEK,    226
 
@@ -45,14 +45,14 @@ BugContestant_PokefanMWilliam:
 BugContestant_BugCatcherElmer:
 	db BUG_CATCHER, ELMER
 	dw TOUCANNON, 318
-	dw WEEDLE,     295
+	dw LILLIPUP,     295
 	dw PIKIPEK,   285
 
 BugContestant_CamperBarry:
 	db CAMPER, CAMPER_GARRET
 	dw PINSIR,     366
 	dw VENONAT,    329
-	dw KAKUNA,     314
+	dw HERDIER,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, HAYLEE
@@ -68,7 +68,7 @@ BugContestant_BugCatcherBuzzy:
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, TIMMY
-	dw WEEDLE,     270
+	dw LILLIPUP,     270
 	dw PINSIR,     282
 	dw PIKIPEK,   251
 
@@ -76,4 +76,4 @@ BugContestant_SchoolboyPierce:
 	db SCHOOLBOY, PIERCE
 	dw VENONAT,    267
 	dw PARAS,      254
-	dw KAKUNA,     259
+	dw HERDIER,     259

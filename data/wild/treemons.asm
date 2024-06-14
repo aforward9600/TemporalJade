@@ -113,7 +113,7 @@ TreeMonSet_Forest:
 	dbbw 15, 30, PINECO
 	dbbw 10, 30, FORRETRESS
 	dbbw  5, 30, TOUCANNON
-	dbbw  5, 30, BEEDRILL
+	dbbw  5, 30, TOUCANNON
 	db -1
 ; rare
 	dbbw 50, 30, NOCTOWL
@@ -121,7 +121,7 @@ TreeMonSet_Forest:
 	dbbw 15, 30, PINECO
 	dbbw 10, 30, FORRETRESS
 	dbbw  5, 30, TOUCANNON
-	dbbw  5, 30, BEEDRILL
+	dbbw  5, 30, TOUCANNON
 	db -1
 
 TreeMonSet_Rock:
@@ -151,16 +151,16 @@ TreeMonSet_Route_47:
 
 TreeMonSet_Viridian_Forest:
 ; common
-	dbbw 50, 60, PIDGEOT
-	dbbw 15, 60, BEEDRILL
+	dbbw 50, 60, SCOLIPEDE
+	dbbw 15, 60, TOUCANNON
 	dbbw 15, 60, TOUCANNON
 	dbbw 10, 60, VENOMOTH
 	dbbw  5, 60, PINSIR
 	dbbw  5, 60, HERACROSS
 	db -1
 ; rare
-	dbbw 50, 60, PIDGEOT
-	dbbw 15, 60, BEEDRILL
+	dbbw 50, 60, SCOLIPEDE
+	dbbw 15, 60, TOUCANNON
 	dbbw 15, 60, TOUCANNON
 	dbbw 10, 60, VENOMOTH
 	dbbw  5, 60, PINSIR

@@ -58,7 +58,7 @@ else
 endc
 	dw FAINT_ATTACK, ROOST, DRILL_PECK, AGILITY
 	db 51
-	dw PIDGEOT
+	dw SCOLIPEDE
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -112,7 +112,7 @@ else
 endc
 	dw FAINT_ATTACK, ROOST, DRILL_PECK, STEEL_WING
 	db 55
-	dw PIDGEOT
+	dw SCOLIPEDE
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -167,7 +167,7 @@ else
 endc
 	dw NIGHT_SLASH, ROOST, DRILL_PECK, STEEL_WING
 	db 68
-	dw PIDGEOT
+	dw SCOLIPEDE
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -526,7 +526,7 @@ if DEF(_CHALLENGE)
 	db NO_ITEM
 	dw EARTHQUAKE, PINCIRFLURRY, ACROBATICS, BRICK_BREAK
 else
-	dw BEEDRILL
+	dw STOUTLAND
 	db NO_ITEM
 	dw GUNK_SHOT, LEECH_LIFE, U_TURN, SWORDS_DANCE
 endc
@@ -584,7 +584,7 @@ if DEF(_CHALLENGE)
 	db NO_ITEM
 	dw EARTHQUAKE, PINCIRFLURRY, ACROBATICS, BRICK_BREAK
 else
-	dw BEEDRILL
+	dw STOUTLAND
 	db NO_ITEM
 	dw GUNK_SHOT, LEECH_LIFE, AGILITY, SWORDS_DANCE
 endc
@@ -642,7 +642,7 @@ if DEF(_CHALLENGE)
 	db NO_ITEM
 	dw EARTHQUAKE, PINCIRFLURRY, ACROBATICS, BRICK_BREAK
 else
-	dw BEEDRILL
+	dw STOUTLAND
 	db NO_ITEM
 	dw GUNK_SHOT, LEECH_LIFE, AGILITY, SWORDS_DANCE
 endc
@@ -1580,7 +1580,7 @@ else
 endc
 	dw GUNK_SHOT, LEECH_LIFE, POISON_JAB, SUCKER_PUNCH
 	db 75
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -2263,7 +2263,7 @@ endc
 	next_list_item ; YOUNGSTER (2) Ice Path
 	db "Timmy@", TRAINERTYPE_NORMAL
 	db 5
-	dw PIDGEY
+	dw VENIPEDE
 	db 6
 	dw RATTATA
 	db -1 ; end
@@ -2607,7 +2607,7 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (1)
 	db "Rodney@", TRAINERTYPE_NORMAL
 	db 47
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db 47
 	dw DODRIO
 	db 48
@@ -2639,7 +2639,7 @@ endc
 	db 27
 	dw FARFETCH_D
 	db 26
-	dw PIDGEOTTO
+	dw WHIRLIPEDE
 	db 27
 	dw DODUO
 	db -1 ; end
@@ -2661,7 +2661,7 @@ else
 	db NO_ITEM
 endc
 	db 30
-	dw PIDGEOTTO
+	dw WHIRLIPEDE
 	db NO_ITEM
 	db 31
 	dw DODRIO
@@ -2724,7 +2724,7 @@ endc
 	db 74
 	dw XATU
 	db 74
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (9)
@@ -2736,7 +2736,7 @@ endc
 	next_list_item ; BIRD_KEEPER (10)
 	db "Bart@", TRAINERTYPE_NORMAL
 	db 74
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db 73
 	dw XATU
 	db 74
@@ -2796,13 +2796,13 @@ endc
 	next_list_item ; BIRD_KEEPER (18)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 32
-	dw PIDGEOTTO
+	dw WHIRLIPEDE
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (19)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 38
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db -1 ; end
 
 	end_list_items
@@ -4134,7 +4134,7 @@ endc
 	db NO_ITEM
 	dw STONE_EDGE, POWER_WHIP, SWORDS_DANCE, KNOCK_OFF
 	db 57
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4506,7 +4506,7 @@ endc
 	dw TOUCANNON
 	db NO_ITEM
 	db 50
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4520,7 +4520,7 @@ endc
 	next_list_item ; BUG_CATCHER (2) Route 44
 	db "Colton@", TRAINERTYPE_MOVES
 	db 8
-	dw WEEDLE
+	dw LILLIPUP
 	dw POISON_STING, STRING_SHOT, NO_MOVE, NO_MOVE
 	db 8
 	dw PIKIPEK
@@ -4529,14 +4529,14 @@ endc
 	dw TRUMBEAK
 	dw TACKLE, STRING_SHOT, HARDEN, NO_MOVE
 	db 9
-	dw KAKUNA
+	dw HERDIER
 	dw POISON_STING, STRING_SHOT, HARDEN, NO_MOVE
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (3)
 	db "Stevie@", TRAINERTYPE_ITEM
 	db 17
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4557,7 +4557,7 @@ endc
 	db 2
 	dw PIKIPEK
 	db 3
-	dw WEEDLE
+	dw LILLIPUP
 	db 2
 	dw PIKIPEK
 	db -1 ; end
@@ -4571,7 +4571,7 @@ endc
 	dw YANMA
 	db NO_ITEM
 	db 31
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4634,7 +4634,7 @@ endc
 	dw YANMEGA
 	db NO_ITEM
 	db 69
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4673,7 +4673,7 @@ endc
 	dw SCYTHER
 	db NO_ITEM
 	db 42
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4727,7 +4727,7 @@ endc
 	dw TOUCANNON
 	dw CONFUSION, STUN_SPORE, SUPERSONIC, GUST
 	db 32
-	dw BEEDRILL
+	dw STOUTLAND
 	dw FURY_ATTACK, PURSUIT, TWINEEDLE, DOUBLE_TEAM
 	db 34
 	dw TOUCANNON
@@ -5584,7 +5584,7 @@ SuperNerdGroup:
 	db 41
 	dw SANDSLASH
 	db 42
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db -1 ; end
 
 	next_list_item ; SUPER_NERD (3) SLOWPOKE WELL
@@ -6239,7 +6239,7 @@ BikerGroup:
 	db 73
 	dw TAUROS
 	db 73
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db 73
 	dw WEEZING
 	db -1 ; end
@@ -6320,7 +6320,7 @@ endc
 	db 75
 	dw HITMONCHAN
 	db 75
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db 75
 	dw GOROTORA
 	db -1
@@ -9919,7 +9919,7 @@ MahoganyNinjaMGroup:
 	dw JOLTEON
 	db NO_ITEM
 	db 38
-	dw BEEDRILL
+	dw STOUTLAND
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -12771,7 +12771,7 @@ endc
 	next_list_item ; DELINQUENT15 Route 11
 	db "Yukari@", TRAINERTYPE_NORMAL
 	db 74
-	dw PIDGEOT
+	dw SCOLIPEDE
 	db -1 ; end
 
 	end_list_items

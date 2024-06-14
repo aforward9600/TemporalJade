@@ -13,10 +13,10 @@ EggMovePointers1:
 	dw PikipekMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
+	dw LillipupMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw NoEggMoves1
-	dw PidgeyEggMoves
+	dw VenipedeEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw RattataEggMoves
@@ -183,13 +183,22 @@ PikipekMoves1:
 	dw MIRROR_MOVE
 	dw -1
 
-PidgeyEggMoves:
+LillipupMoves1:
+	dw CHARM
+	dw ENDURE
+	dw HOWL
+	dw LICK
+	dw MUD_SLAP
 	dw PURSUIT
-	dw FAINT_ATTACK
-	dw FORESIGHT
-	dw AIR_CUTTER
-	dw AIR_SLASH
-	dw BRAVE_BIRD
+	dw SAND_ATTACK
+	dw -1
+
+VenipedeEggMoves:
+	dw BITE
+	dw PIN_MISSILE
+	dw SPIKES
+	dw TAKE_DOWN
+	dw TWINEEDLE
 	dw -1 ; end
 
 RattataEggMoves:

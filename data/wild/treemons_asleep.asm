@@ -1,9 +1,9 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	dw WEEDLE
-	dw KAKUNA
-	dw BEEDRILL
+;	dw PIKIPEK
+;	dw KAKUNA
+;	dw BEEDRILL
 	dw SPEAROW
 	dw EKANS
 	dw EXEGGCUTE
@@ -11,7 +11,7 @@ AsleepTreeMonsNite:
 	dw AIPOM
 	dw MUNCHLAX
 	dw SWABLU
-	dw PIDGEOT
+;	dw PIDGEOT
 	dw -1 ; end
 
 AsleepTreeMonsDay:

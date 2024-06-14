@@ -12,12 +12,12 @@ PokedexDataPointerTable:
 	dba PikipekPokedexEntry
 	dba TrumbeakPokedexEntry
 	dba ToucannonPokedexEntry
-	dba WeedlePokedexEntry
-	dba KakunaPokedexEntry
-	dba BeedrillPokedexEntry
-	dba PidgeyPokedexEntry
-	dba PidgeottoPokedexEntry
-	dba PidgeotPokedexEntry
+	dba LillipupPokedexEntry
+	dba HerdierPokedexEntry
+	dba StoutlandPokedexEntry
+	dba VenipedePokedexEntry
+	dba WhirlipedePokedexEntry
+	dba ScolipedePokedexEntry
 	dba RattataPokedexEntry
 	dba RaticatePokedexEntry
 	dba SpearowPokedexEntry

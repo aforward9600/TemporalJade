@@ -176,7 +176,7 @@ JohtoGrassWildMons:
 	dbw 27, NIDORINO
 	dbw 27, NIDORINA
 	dbw 27, ARIADOS
-	dbw 27, BEEDRILL
+	dbw 27, HERDIER
 	dbw 27, SCYTHER
 	dbw 27, SCYTHER
 	dbw 27, PINSIR
@@ -396,18 +396,18 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 37, LEDIAN
-	dbw 37, PIDGEOT
+	dbw 37, SCOLIPEDE
 	dbw 37, TOUCANNON
-	dbw 37, BEEDRILL
+	dbw 37, HERDIER
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	; day
 	dbw 37, LEDIAN
-	dbw 37, PIDGEOT
+	dbw 37, SCOLIPEDE
 	dbw 37, TOUCANNON
-	dbw 37, BEEDRILL
+	dbw 37, HERDIER
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
 	dbw 37, PARASECT
@@ -1117,7 +1117,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 49, AMPHAROS
 	dbw 49, FEAROW
-	dbw 49, PIDGEOT
+	dbw 49, SCOLIPEDE
 	dbw 49, GARDEVOIR
 	dbw 49, RATICATE
 	dbw 49, JUMPLUFF
@@ -1126,7 +1126,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 49, AMPHAROS
 	dbw 49, FEAROW
-	dbw 49, PIDGEOT
+	dbw 49, SCOLIPEDE
 	dbw 49, GARDEVOIR
 	dbw 49, RATICATE
 	dbw 49, JUMPLUFF
@@ -1148,8 +1148,8 @@ JohtoGrassWildMons:
 	dbw 49, XATU
 	dbw 49, TOUCANNON
 	dbw 49, TOUCANNON
-	dbw 49, PIDGEOT
-	dbw 49, BEEDRILL
+	dbw 49, SCOLIPEDE
+	dbw 49, HERDIER
 	dbw 49, JUMPLUFF
 	dbw 49, JUMPLUFF
 	dbw 49, JUMPLUFF
@@ -1157,8 +1157,8 @@ JohtoGrassWildMons:
 	dbw 49, XATU
 	dbw 49, TOUCANNON
 	dbw 49, TOUCANNON
-	dbw 49, PIDGEOT
-	dbw 49, BEEDRILL
+	dbw 49, SCOLIPEDE
+	dbw 49, HERDIER
 	dbw 49, JUMPLUFF
 	dbw 49, JUMPLUFF
 	dbw 49, JUMPLUFF
@@ -1178,8 +1178,8 @@ JohtoGrassWildMons:
 	dbw 48, LEDIAN
 	dbw 48, TOUCANNON
 	dbw 48, WEEPINBELL
-	dbw 48, PIDGEOT
-	dbw 48, BEEDRILL
+	dbw 48, SCOLIPEDE
+	dbw 48, HERDIER
 	dbw 48, JUMPLUFF
 	dbw 48, JUMPLUFF
 	dbw 48, JUMPLUFF
@@ -1187,8 +1187,8 @@ JohtoGrassWildMons:
 	dbw 48, LEDIAN
 	dbw 48, TOUCANNON
 	dbw 48, WEEPINBELL
-	dbw 48, PIDGEOT
-	dbw 48, BEEDRILL
+	dbw 48, SCOLIPEDE
+	dbw 48, HERDIER
 	dbw 48, JUMPLUFF
 	dbw 48, JUMPLUFF
 	dbw 48, JUMPLUFF
@@ -1209,7 +1209,7 @@ JohtoGrassWildMons:
 	dbw 44, RATICATE
 	dbw 44, WEEPINBELL
 	dbw 44, AMPHAROS
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, TOXICROAK
 	dbw 44, JUMPLUFF
 	dbw 44, JUMPLUFF
@@ -1218,7 +1218,7 @@ JohtoGrassWildMons:
 	dbw 44, RATICATE
 	dbw 44, WEEPINBELL
 	dbw 44, AMPHAROS
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, TOXICROAK
 	dbw 44, JUMPLUFF
 	dbw 44, JUMPLUFF
@@ -1267,7 +1267,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 28, GRANBULL
 	dbw 28, HYPNO
-	dbw 28, PIDGEOTTO
+	dbw 28, WHIRLIPEDE
 	dbw 28, JIGGLYPUFF
 	dbw 28, KIRLIA
 	dbw 28, DITTO
@@ -1276,7 +1276,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 28, GRANBULL
 	dbw 28, HYPNO
-	dbw 28, PIDGEOTTO
+	dbw 28, WHIRLIPEDE
 	dbw 28, JIGGLYPUFF
 	dbw 28, KIRLIA
 	dbw 28, DITTO
@@ -1296,7 +1296,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 27, SNUBBULL
-	dbw 27, PIDGEOTTO
+	dbw 27, WHIRLIPEDE
 	dbw 27, GROWLITHE
 	dbw 27, KADABRA
 	dbw 27, JIGGLYPUFF
@@ -1305,7 +1305,7 @@ JohtoGrassWildMons:
 	dbw 27, YANMA
 	; day
 	dbw 27, SNUBBULL
-	dbw 27, PIDGEOTTO
+	dbw 27, WHIRLIPEDE
 	dbw 27, GROWLITHE
 	dbw 27, KADABRA
 	dbw 27, JIGGLYPUFF
@@ -1326,7 +1326,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 27, DROWZEE
-	dbw 27, PIDGEOTTO
+	dbw 27, WHIRLIPEDE
 	dbw 27, WEEPINBELL
 	dbw 27, GLOOM
 	dbw 27, DODUO
@@ -1335,7 +1335,7 @@ JohtoGrassWildMons:
 	dbw 27, ARBOK
 	; day
 	dbw 27, DROWZEE
-	dbw 27, PIDGEOTTO
+	dbw 27, WHIRLIPEDE
 	dbw 27, WEEPINBELL
 	dbw 27, GLOOM
 	dbw 27, DODUO
@@ -1344,7 +1344,7 @@ JohtoGrassWildMons:
 	dbw 27, ARBOK
 	; nite
 	dbw 27, DROWZEE
-	dbw 27, PIDGEOTTO
+	dbw 27, WHIRLIPEDE
 	dbw 27, WEEPINBELL
 	dbw 27, GLOOM
 	dbw 27, NOCTOWL
@@ -1357,7 +1357,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 12, LEDYBA
 	dbw 12, NIDORAN_F
-	dbw 12, PIDGEY
+	dbw 12, VENIPEDE
 	dbw 12, NIDORAN_M
 	dbw 12, MIME__JR
 	dbw 12, JIGGLYPUFF
@@ -1366,7 +1366,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 12, DODUO
 	dbw 12, NIDORAN_F
-	dbw 12, PIDGEY
+	dbw 12, VENIPEDE
 	dbw 12, NIDORAN_M
 	dbw 12, MIME__JR
 	dbw 12, JIGGLYPUFF
@@ -1407,8 +1407,8 @@ JohtoGrassWildMons:
 	dbw 14, DROWZEE
 	dbw 14, MEOWTH
 	dbw 14, MURKROW
-	dbw 14, BEEDRILL
-	dbw 14, BEEDRILL
+	dbw 14, HERDIER
+	dbw 14, HERDIER
 	dbw 14, SCYTHER
 	dbw 14, SCYTHER
 
@@ -1435,7 +1435,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 15, MAGNEMITE
 	dbw 15, DROWZEE
-	dbw 15, BEEDRILL
+	dbw 15, HERDIER
 	dbw 15, MURKROW
 	dbw 15, ROSELIA
 	dbw 15, MEOWTH
@@ -1565,7 +1565,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, PIDGEY
+	dbw 2, VENIPEDE
 	dbw 2, SENTRET
 	dbw 2, LEDYBA
 	dbw 2, SKARMINI
@@ -1574,7 +1574,7 @@ JohtoGrassWildMons:
 	dbw 2, GEODUDE
 	dbw 2, PHANPY
 	; day
-	dbw 2, PIDGEY
+	dbw 2, VENIPEDE
 	dbw 2, SENTRET
 	dbw 2, LEDYBA
 	dbw 2, SKARMINI

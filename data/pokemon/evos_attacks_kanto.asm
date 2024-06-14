@@ -13,12 +13,12 @@ EvosAttacksPointers1::
 	dw PikipekEvosAttacks
 	dw TrumbeakEvosAttacks
 	dw ToucannonEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
-	dw PidgeotEvosAttacks
+	dw LillipupEvosAttacks
+	dw HerdierEvosAttacks
+	dw StoutlandEvosAttacks
+	dw VenipedeEvosAttacks
+	dw WhirlipedeEvosAttacks
+	dw ScolipedeEvosAttacks
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks
 	dw SpearowEvosAttacks
@@ -384,95 +384,127 @@ ToucannonEvosAttacks:
 	dbw 50, HYPER_VOICE
 	db 0 ; no more level-up moves
 
-WeedleEvosAttacks:
-	dbbw EVOLVE_LEVEL, 7, KAKUNA
+LillipupEvosAttacks:
+	dbbw EVOLVE_LEVEL, 16, HERDIER
 	db 0 ; no more evolutions
-	dbw 1, POISON_STING
-	dbw 1, STRING_SHOT
-	db 0 ; no more level-up moves
-
-KakunaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 10, BEEDRILL
-	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, HARDEN
-	dbw 1, HARDEN
-	db 0 ; no more level-up moves
-
-BeedrillEvosAttacks:
-	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, TWINEEDLE
-	dbw 1, TWINEEDLE
-	dbw 1, FURY_ATTACK
-	dbw 11, FURY_ATTACK
-	dbw 14, RAGE
-	dbw 17, PURSUIT
-	dbw 20, FOCUS_ENERGY
-	dbw 23, VENOSHOCK
-	dbw 26, PAYBACK
-	dbw 29, TOXIC
-	dbw 32, PIN_MISSILE
-	dbw 35, POISON_JAB
-	dbw 38, AGILITY
-	dbw 41, LEECH_LIFE
-	dbw 44, GUNK_SHOT
-	db 0 ; no more level-up moves
-
-PidgeyEvosAttacks:
-	dbbw EVOLVE_LEVEL, 18, PIDGEOTTO
-	db 0 ; no more evolutions
+	dbw 1, LEER
 	dbw 1, TACKLE
-	dbw 5, SAND_ATTACK
-	dbw 9, GUST
-	dbw 13, QUICK_ATTACK
-	dbw 17, WHIRLWIND
-	dbw 21, TWISTER
-	dbw 25, FEATHERDANCE
+	dbw 5, ODOR_SLEUTH
+	dbw 8, BITE
+	dbw 10, GROWL
+	dbw 12, FAKE_OUT
+	dbw 15, TAKE_DOWN
+	dbw 19, WORK_UP
+	dbw 22, CRUNCH
+	dbw 26, ROAR
+	dbw 29, STOMP
+	dbw 33, REVERSAL
+	dbw 36, DOUBLE_EDGE
+	dbw 40, GIGA_IMPACT
+	dbw 45, PLAY_ROUGH
+	db 0 ; no more level-up moves
+
+HerdierEvosAttacks:
+	dbbw EVOLVE_LEVEL, 32, STOUTLAND
+	db 0 ; no more evolutions
+	dbw 1, LEER
+	dbw 1, TACKLE
+	dbw 5, ODOR_SLEUTH
+	dbw 8, BITE
+	dbw 10, GROWL
+	dbw 12, FAKE_OUT
+	dbw 15, TAKE_DOWN
+	dbw 20, WORK_UP
+	dbw 24, CRUNCH
+	dbw 29, ROAR
+	dbw 33, STOMP
+	dbw 38, REVERSAL
+	dbw 42, DOUBLE_EDGE
+	dbw 47, GIGA_IMPACT
+	dbw 52, PLAY_ROUGH
+	db 0 ; no more level-up moves
+
+StoutlandEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, LEER
+	dbw 1, TACKLE
+	dbw 5, ODOR_SLEUTH
+	dbw 8, BITE
+	dbw 10, GROWL
+	dbw 12, FAKE_OUT
+	dbw 15, TAKE_DOWN
+	dbw 20, WORK_UP
+	dbw 24, CRUNCH
+	dbw 29, ROAR
+	dbw 36, STOMP
+	dbw 42, REVERSAL
+	dbw 51, DOUBLE_EDGE
+	dbw 59, GIGA_IMPACT
+	dbw 63, PLAY_ROUGH
+	db 0 ; no more level-up moves
+
+VenipedeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 22, WHIRLIPEDE
+	db 0 ; no more evolutions
+	dbw 1, DEFENSE_CURL
+	dbw 1, ROLLOUT
+	dbw 5, POISON_STING
+	dbw 8, SCREECH
+	dbw 12, PURSUIT
+	dbw 15, PROTECT
+	dbw 19, POISON_FANG
+	dbw 22, PIN_MISSILE
+	dbw 26, VENOSHOCK
 	dbw 29, AGILITY
-	dbw 33, AIR_CUTTER
-	dbw 37, ROOST
-	dbw 41, HYPER_VOICE
-	dbw 45, MIRROR_MOVE
-	dbw 49, AIR_SLASH
-	dbw 53, HURRICANE
+	dbw 33, X_SCISSOR
+	dbw 36, TOXIC
+	dbw 38, CROSS_POISON
+	dbw 40, DOUBLE_EDGE
+	dbw 43, GUNK_SHOT
 	db 0 ; no more level-up moves
 
-PidgeottoEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, PIDGEOT
+WhirlipedeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 30, SCOLIPEDE
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 5, SAND_ATTACK
-	dbw 9, GUST
-	dbw 13, QUICK_ATTACK
-	dbw 17, WHIRLWIND
-	dbw 22, TWISTER
-	dbw 27, FEATHERDANCE
+	dbw LEARN_EVO_MOVE, IRON_DEFENSE
+	dbw 1, IRON_DEFENSE
+	dbw 1, DEFENSE_CURL
+	dbw 1, ROLLOUT
+	dbw 5, POISON_STING
+	dbw 8, SCREECH
+	dbw 12, PURSUIT
+	dbw 15, PROTECT
+	dbw 19, POISON_FANG
+	dbw 23, PIN_MISSILE
+	dbw 28, VENOSHOCK
 	dbw 32, AGILITY
-	dbw 37, AIR_CUTTER
-	dbw 42, ROOST
-	dbw 47, HYPER_VOICE
-	dbw 52, MIRROR_MOVE
-	dbw 57, AIR_SLASH
-	dbw 62, HURRICANE
+	dbw 37, X_SCISSOR
+	dbw 41, TOXIC
+	dbw 43, CROSS_POISON
+	dbw 46, DOUBLE_EDGE
+	dbw 50, GUNK_SHOT
 	db 0 ; no more level-up moves
 
-PidgeotEvosAttacks:
+ScolipedeEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, RAZOR_WIND
-	dbw 1, RAZOR_WIND
-	dbw 1, TACKLE
-	dbw 5, SAND_ATTACK
-	dbw 9, GUST
-	dbw 13, QUICK_ATTACK
-	dbw 17, WHIRLWIND
-	dbw 22, TWISTER
-	dbw 27, FEATHERDANCE
-	dbw 32, AGILITY
-	dbw 38, AIR_CUTTER
-	dbw 44, ROOST
-	dbw 50, HYPER_VOICE
-	dbw 56, MIRROR_MOVE
-	dbw 62, AIR_SLASH
-	dbw 68, HURRICANE
+	dbw LEARN_EVO_MOVE, BATON_PASS
+	dbw 1, BATON_PASS
+	dbw 1, DEFENSE_CURL
+	dbw 1, ROLLOUT
+	dbw 5, POISON_STING
+	dbw 8, SCREECH
+	dbw 12, PURSUIT
+	dbw 15, PROTECT
+	dbw 19, POISON_FANG
+	dbw 23, PIN_MISSILE
+	dbw 28, VENOSHOCK
+	dbw 33, AGILITY
+	dbw 39, X_SCISSOR
+	dbw 44, TOXIC
+	dbw 47, CROSS_POISON
+	dbw 50, DOUBLE_EDGE
+	dbw 55, GUNK_SHOT
+	dbw 65, MEGAHORN
 	db 0 ; no more level-up moves
 
 RattataEvosAttacks:

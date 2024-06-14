@@ -31,12 +31,12 @@
 	const PIKIPEK    ; 0a
 	const TRUMBEAK   ; 0b
 	const TOUCANNON  ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
-	const PIDGEY     ; 10
-	const PIDGEOTTO  ; 11
-	const PIDGEOT    ; 12
+	const LILLIPUP   ; 0d
+	const HERDIER    ; 0e
+	const STOUTLAND  ; 0f
+	const VENIPEDE   ; 10
+	const WHIRLIPEDE ; 11
+	const SCOLIPEDE  ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14
 	const SPEAROW    ; 15

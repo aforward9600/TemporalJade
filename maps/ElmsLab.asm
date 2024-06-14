@@ -114,7 +114,7 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TEPIG, 5, ORAN_BERRY
+	givepoke VENIPEDE, 5, ORAN_BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, .turnplayer
@@ -161,7 +161,7 @@ MudkipPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke MUDKIP, 5, ORAN_BERRY
+	givepoke WHIRLIPEDE, 5, ORAN_BERRY
 	closetext
 	applymovement PLAYER, AfterRivalTepigMovement
 	pause 10
@@ -204,7 +204,7 @@ RowletPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke ROWLET, 5, ORAN_BERRY
+	givepoke SCOLIPEDE, 5, ORAN_BERRY
 	closetext
 	applymovement PLAYER, AfterRowletMovement
 	pause 10

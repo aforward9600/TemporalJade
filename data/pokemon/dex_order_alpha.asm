@@ -19,7 +19,6 @@ AlphabeticalPokedexOrder:
 	dw AZURILL
 	dw BAGON
 	dw BAYLEEF
-	dw BEEDRILL
 	dw BELLOSSOM
 	dw BELLSPROUT
 	dw BLISSEY
@@ -111,6 +110,7 @@ AlphabeticalPokedexOrder:
 	dw HAPPINY
 	dw HAUNTER
 	dw HERACROSS
+	dw HERDIER
 	dw HITMONCHAN
 	dw HITMONLEE
 	dw HITMONTOP
@@ -130,7 +130,6 @@ AlphabeticalPokedexOrder:
 	dw KABUTO
 	dw KABUTOPS
 	dw KADABRA
-	dw KAKUNA
 	dw KANGASKHAN
 	dw KINGDRA
 	dw KINGLER
@@ -147,6 +146,7 @@ AlphabeticalPokedexOrder:
 	dw LEDYBA
 	dw LICKILICKY
 	dw LICKITUNG
+	dw LILLIPUP
 	dw LOMBRE
 	dw LOTAD
 	dw LUDICOLO
@@ -206,9 +206,6 @@ AlphabeticalPokedexOrder:
 	dw PERSIAN
 	dw PHANPY
 	dw PICHU
-	dw PIDGEOT
-	dw PIDGEOTTO
-	dw PIDGEY
 	dw PIGNITE
 	dw PIKACHU
 	dw PIKIPEK
@@ -247,6 +244,7 @@ AlphabeticalPokedexOrder:
 	dw SANDSHREW
 	dw SANDSLASH
 	dw SCIZOR
+	dw SCOLIPEDE
 	dw SCYTHER
 	dw SEADRA
 	dw SEAKING
@@ -274,6 +272,7 @@ AlphabeticalPokedexOrder:
 	dw STARMIE
 	dw STARYU
 	dw STEELIX
+	dw STOUTLAND
 	dw SUDOWOODO
 	dw SUICUNE
 	dw SUNFLORA
@@ -304,6 +303,7 @@ AlphabeticalPokedexOrder:
 	dw URSALUNA
 	dw URSARING
 	dw VAPOREON
+	dw VENIPEDE
 	dw VENOMOTH
 	dw VENONAT
 	dw VICTREEBEL
@@ -311,9 +311,9 @@ AlphabeticalPokedexOrder:
 	dw VOLTORB
 	dw VULPIX
 	dw WEAVILE
-	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
+	dw WHIRLIPEDE
 	dw WIGGLYTUFF
 	dw WOBBUFFET
 	dw WOOPER

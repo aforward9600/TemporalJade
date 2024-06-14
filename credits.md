@@ -121,6 +121,8 @@ Mudkip line sprites: Bloodless & Blue Rose
 
 Gen 5 Sprites: Bloodless
 
+Cutiefly and Ribombee sprites: Chattycrystal Team
+
 Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Tirtouga and

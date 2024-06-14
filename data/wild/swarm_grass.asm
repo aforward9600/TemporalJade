@@ -57,7 +57,7 @@ SwarmGrassWildMons:
 	; nite
 	dbw 15, YANMA
 	dbw 15, MURKROW
-	dbw 15, BEEDRILL
+	dbw 15, STOUTLAND
 	dbw 15, MEOWTH
 	dbw 15, YANMA
 	dbw 15, MEOWTH
@@ -274,7 +274,7 @@ SwarmGrassWildMons:
 	; nite
 	dbw 14, SCYTHER
 	dbw 14, MEOWTH
-	dbw 14, BEEDRILL
+	dbw 14, STOUTLAND
 	dbw 14, SCYTHER
 	dbw 14, MURKROW
 	dbw 14, SCYTHER
@@ -380,7 +380,7 @@ SwarmGrassWildMons:
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, TOUCANNON
-	dbw 37, BEEDRILL
+	dbw 37, STOUTLAND
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
 	dbw 37, PARASECT
@@ -389,7 +389,7 @@ SwarmGrassWildMons:
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, TOUCANNON
-	dbw 37, BEEDRILL
+	dbw 37, STOUTLAND
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
 	dbw 37, PARASECT
@@ -442,27 +442,27 @@ SwarmGrassWildMons:
 	dbw 44, TOXICROAK
 	dbw 44, TOXICROAK
 	dbw 44, JUMPLUFF
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
 	dbw 44, AMPHAROS
 	; day
 	dbw 44, TOXICROAK
 	dbw 44, TOXICROAK
 	dbw 44, JUMPLUFF
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
 	dbw 44, AMPHAROS
 	; nite
 	dbw 44, TOXICROAK
 	dbw 44, TOXICROAK
 	dbw 44, GENGAR
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
-	dbw 44, PIDGEOT
+	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
 	dbw 44, AMPHAROS
 

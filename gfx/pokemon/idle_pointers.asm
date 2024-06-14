@@ -11,12 +11,12 @@ AnimationIdlePointers:
 	dw PikipekAnimationIdle
 	dw TrumbeakAnimationIdle
 	dw ToucannonAnimationIdle
-	dw WeedleAnimationIdle
-	dw KakunaAnimationIdle
-	dw BeedrillAnimationIdle
-	dw PidgeyAnimationIdle
-	dw PidgeottoAnimationIdle
-	dw PidgeotAnimationIdle
+	dw LillipupAnimationIdle
+	dw HerdierAnimationIdle
+	dw StoutlandAnimationIdle
+	dw VenipedeAnimationIdle
+	dw WhirlipedeAnimationIdle
+	dw ScolipedeAnimationIdle
 	dw RattataAnimationIdle
 	dw RaticateAnimationIdle
 	dw SpearowAnimationIdle

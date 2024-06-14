@@ -13,11 +13,11 @@ PreviousEvolutionStage::
 	dw PIKIPEK
 	dw TRUMBEAK
 	dw 0
-	dw WEEDLE
-	dw KAKUNA
+	dw LILLIPUP
+	dw HERDIER
 	dw 0    ;10
-	dw PIDGEY
-	dw PIDGEOTTO
+	dw VENIPEDE
+	dw WHIRLIPEDE
 	dw 0
 	dw RATTATA
 	dw 0

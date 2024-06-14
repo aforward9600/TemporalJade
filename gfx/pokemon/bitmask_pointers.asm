@@ -11,12 +11,12 @@ BitmasksPointers:
 	dw PikipekBitmasks
 	dw TrumbeakBitmasks
 	dw ToucannonBitmasks
-	dw WeedleBitmasks
-	dw KakunaBitmasks
-	dw BeedrillBitmasks
-	dw PidgeyBitmasks
-	dw PidgeottoBitmasks
-	dw PidgeotBitmasks
+	dw LillipupBitmasks
+	dw HerdierBitmasks
+	dw StoutlandBitmasks
+	dw VenipedeBitmasks
+	dw WhirlipedeBitmasks
+	dw ScolipedeBitmasks
 	dw RattataBitmasks
 	dw RaticateBitmasks
 	dw SpearowBitmasks

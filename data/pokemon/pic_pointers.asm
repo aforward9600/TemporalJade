@@ -34,18 +34,18 @@ PokemonPicPointers::
 	dba TrumbeakBackpic
 	dba ToucannonFrontpic
 	dba ToucannonBackpic
-	dba WeedleFrontpic
-	dba WeedleBackpic
-	dba KakunaFrontpic
-	dba KakunaBackpic
-	dba BeedrillFrontpic
-	dba BeedrillBackpic
-	dba PidgeyFrontpic
-	dba PidgeyBackpic
-	dba PidgeottoFrontpic
-	dba PidgeottoBackpic
-	dba PidgeotFrontpic
-	dba PidgeotBackpic
+	dba LillipupFrontpic
+	dba LillipupBackpic
+	dba HerdierFrontpic
+	dba HerdierBackpic
+	dba StoutlandFrontpic
+	dba StoutlandBackpic
+	dba VenipedeFrontpic
+	dba VenipedeBackpic
+	dba WhirlipedeFrontpic
+	dba WhirlipedeBackpic
+	dba ScolipedeFrontpic
+	dba ScolipedeBackpic
 	dba RattataFrontpic
 	dba RattataBackpic
 	dba RaticateFrontpic

@@ -119,14 +119,20 @@ MurkrowValleyTeacherMovement1:
 	step UP
 	step UP
 	step LEFT
+	step LEFT
+	step LEFT
 	step_end
 
 MurkrowValleyTeacherMovement2:
 	step UP
 	step LEFT
+	step LEFT
+	step LEFT
 	step_end
 
 MurkrowValleyFollowMovement1:
+	step RIGHT
+	step RIGHT
 	step RIGHT
 	step DOWN
 	step DOWN
@@ -134,6 +140,8 @@ MurkrowValleyFollowMovement1:
 	step_end
 
 MurkrowValleyFollowMovement2:
+	step RIGHT
+	step RIGHT
 	step RIGHT
 	step DOWN
 	turn_head UP
@@ -242,11 +250,12 @@ MurkrowValleyWhatAreYouDoingText:
 MurkrowValley_MapEvents:
 	db 0, 0 ; filler
 
-	db 4 ; warp events
+	db 5 ; warp events
 	warp_event  6,  7, ELMS_LAB, 1
-	warp_event 33,  5, PLAYERS_NEIGHBORS_HOUSE, 1
+	warp_event 23, 15, PLAYERS_NEIGHBORS_HOUSE, 1
 	warp_event  9, 17, ELMS_HOUSE, 1
 	warp_event 17,  7, PLAYERS_HOUSE_1F, 1
+	warp_event 33,  5, RIVALS_HOUSE_1F, 1
 
 	db 2 ; coord events
 	coord_event 1, 10, SCENE_DEFAULT, MurkrowValley_TeacherStopsYou1
@@ -269,4 +278,4 @@ MurkrowValley_MapEvents:
 	object_event 33,  3, SPRITE_MURKROW, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 31, 15, SPRITE_MILTANK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 16, 14, SPRITE_MURKROW, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
-	object_event  3, 12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MurkrowValleyTeacherScript, -1
+	object_event  5, 12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MurkrowValleyTeacherScript, -1
