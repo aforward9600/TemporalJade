@@ -11,9 +11,9 @@ Icons1:
 	dw MudkipIcon
 	dw MarshtompIcon
 	dw SwampertIcon
-	dw CaterpieIcon
-	dw MetapodIcon
-	dw MothIcon
+	dw PikipekIcon
+	dw TrumbeakIcon
+	dw ToucannonIcon
 	dw CaterpillarIcon
 	dw KakunaIcon
 	dw BeedrillIcon
@@ -138,9 +138,9 @@ EmboarIcon:       INCBIN "gfx/icons/emboar.2bpp"
 MudkipIcon:       INCBIN "gfx/icons/mudkip.2bpp"
 MarshtompIcon:    INCBIN "gfx/icons/marshtomp.2bpp"
 SwampertIcon:     INCBIN "gfx/icons/swampert.2bpp"
-CaterpieIcon:     INCBIN "gfx/icons/caterpie.2bpp"
-MetapodIcon:      INCBIN "gfx/icons/metapod.2bpp"
-MothIcon:         INCBIN "gfx/icons/moth.2bpp"
+PikipekIcon:      INCBIN "gfx/icons/pikipek.2bpp"
+TrumbeakIcon:     INCBIN "gfx/icons/trumbeak.2bpp"
+ToucannonIcon:    INCBIN "gfx/icons/toucannon.2bpp"
 CaterpillarIcon:  INCBIN "gfx/icons/caterpillar.2bpp"
 KakunaIcon:       INCBIN "gfx/icons/kakuna.2bpp"
 BeedrillIcon:     INCBIN "gfx/icons/beedrill.2bpp"

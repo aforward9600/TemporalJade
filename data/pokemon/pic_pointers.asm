@@ -28,12 +28,12 @@ PokemonPicPointers::
 	dba MarshtompBackpic
 	dba SwampertFrontpic
 	dba SwampertBackpic
-	dba CaterpieFrontpic
-	dba CaterpieBackpic
-	dba MetapodFrontpic
-	dba MetapodBackpic
-	dba ButterfreeFrontpic
-	dba ButterfreeBackpic
+	dba PikipekFrontpic
+	dba PikipekBackpic
+	dba TrumbeakFrontpic
+	dba TrumbeakBackpic
+	dba ToucannonFrontpic
+	dba ToucannonBackpic
 	dba WeedleFrontpic
 	dba WeedleBackpic
 	dba KakunaFrontpic

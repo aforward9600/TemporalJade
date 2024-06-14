@@ -53,9 +53,9 @@ PCPC_TURN_OFF     EQU 4
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
-.String_PlayersPC:  db "ADS Personal@"
-.String_BillsPC:    db "ADS #mon@"
-.String_OaksPC:     db "Prof.Oak@"
+.String_PlayersPC:  db "<PLAYER>'s PC@"
+.String_BillsPC:    db "Amanita's PC@"
+.String_OaksPC:     db "Prof.Juniper@"
 .String_HallOfFame: db "Hall Of Fame@"
 .String_TurnOff:    db "Turn Off@"
 

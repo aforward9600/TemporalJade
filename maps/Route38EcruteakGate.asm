@@ -34,7 +34,7 @@ EcruteakGateRival1:
 	iftrue .Larvitar
 	winlosstext RivalEcruteakGateWinText, RivalEcruteakGateLossText
 	setlasttalked ROUTE38ECRUTEAKGATE_RIVAL
-	loadtrainer RIVAL3, RIVAL3_B_LARVITAR
+	loadtrainer RIVAL3, RIVAL3_A_MUDKIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -60,7 +60,7 @@ EcruteakGateRival1:
 	iftrue .Larvitar2
 	winlosstext RivalEcruteakGateWinText, RivalEcruteakGateLossText
 	setlasttalked ROUTE38ECRUTEAKGATE_RIVAL
-	loadtrainer RIVAL4, RIVAL4_B_LARVITAR
+	loadtrainer RIVAL4, RIVAL4_A_MUDKIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

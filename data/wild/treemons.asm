@@ -112,7 +112,7 @@ TreeMonSet_Forest:
 	dbbw 15, 30, PINECO
 	dbbw 15, 30, PINECO
 	dbbw 10, 30, FORRETRESS
-	dbbw  5, 30, BUTTERFREE
+	dbbw  5, 30, TOUCANNON
 	dbbw  5, 30, BEEDRILL
 	db -1
 ; rare
@@ -120,7 +120,7 @@ TreeMonSet_Forest:
 	dbbw 15, 30, PINECO
 	dbbw 15, 30, PINECO
 	dbbw 10, 30, FORRETRESS
-	dbbw  5, 30, BUTTERFREE
+	dbbw  5, 30, TOUCANNON
 	dbbw  5, 30, BEEDRILL
 	db -1
 
@@ -153,7 +153,7 @@ TreeMonSet_Viridian_Forest:
 ; common
 	dbbw 50, 60, PIDGEOT
 	dbbw 15, 60, BEEDRILL
-	dbbw 15, 60, BUTTERFREE
+	dbbw 15, 60, TOUCANNON
 	dbbw 10, 60, VENOMOTH
 	dbbw  5, 60, PINSIR
 	dbbw  5, 60, HERACROSS
@@ -161,7 +161,7 @@ TreeMonSet_Viridian_Forest:
 ; rare
 	dbbw 50, 60, PIDGEOT
 	dbbw 15, 60, BEEDRILL
-	dbbw 15, 60, BUTTERFREE
+	dbbw 15, 60, TOUCANNON
 	dbbw 10, 60, VENOMOTH
 	dbbw  5, 60, PINSIR
 	dbbw  5, 60, HERACROSS

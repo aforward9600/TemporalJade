@@ -11,7 +11,7 @@ SpriteMons:
 	dw MAGIKARP
 	dw MUDKIP
 	dw TOGEPI
-	dw BUTTERFREE
+	dw TOUCANNON
 	dw DIGLETT
 	dw POLIWAG
 	dw PIKACHU

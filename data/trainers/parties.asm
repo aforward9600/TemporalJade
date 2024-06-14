@@ -3579,7 +3579,7 @@ endc
 	dw AZUMARILL
 	dw WAVE_CRASH, SUPERPOWER, PLAY_ROUGH, RAIN_DANCE
 	db 61
-	dw BUTTERFREE
+	dw TOUCANNON
 	dw SIGNAL_WAVE, AIR_SLASH, QUIVER_DANCE, BATON_PASS
 	db 61
 	dw NIDOQUEEN
@@ -3648,7 +3648,7 @@ endc
 	db 28
 	dw VILEPLUME
 	db 34
-	dw BUTTERFREE
+	dw TOUCANNON
 	db -1 ; end
 
 	next_list_item ; BEAUTY (7)
@@ -4503,7 +4503,7 @@ endc
 	dw HERACROSS
 	db NO_ITEM
 	db 50
-	dw BUTTERFREE
+	dw TOUCANNON
 	db NO_ITEM
 	db 50
 	dw BEEDRILL
@@ -4523,10 +4523,10 @@ endc
 	dw WEEDLE
 	dw POISON_STING, STRING_SHOT, NO_MOVE, NO_MOVE
 	db 8
-	dw CATERPIE
+	dw PIKIPEK
 	dw TACKLE, STRING_SHOT, NO_MOVE, NO_MOVE
 	db 9
-	dw METAPOD
+	dw TRUMBEAK
 	dw TACKLE, STRING_SHOT, HARDEN, NO_MOVE
 	db 9
 	dw KAKUNA
@@ -4543,7 +4543,7 @@ else
 	db NO_ITEM
 endc
 	db 17
-	dw BUTTERFREE
+	dw TOUCANNON
 	db NO_ITEM
 	db 18
 	dw YANMA
@@ -4553,13 +4553,13 @@ endc
 	next_list_item ; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
 	db 2
-	dw CATERPIE
+	dw PIKIPEK
 	db 2
-	dw CATERPIE
+	dw PIKIPEK
 	db 3
 	dw WEEDLE
 	db 2
-	dw CATERPIE
+	dw PIKIPEK
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (5)
@@ -4614,7 +4614,7 @@ endc
 	next_list_item ; BUG_CATCHER (9) AZALEA GYM
 	db "Nat@", TRAINERTYPE_NORMAL
 	db 42
-	dw BUTTERFREE
+	dw TOUCANNON
 	db 42
 	dw PINSIR
 	db 43
@@ -4652,7 +4652,7 @@ endc
 	db 68
 	dw VENOMOTH
 	db 69
-	dw BUTTERFREE
+	dw TOUCANNON
 	db 68
 	dw PINSIR
 	db -1 ; end
@@ -4721,16 +4721,16 @@ endc
 	next_list_item ; BUG_CATCHER (16)
 	db "WADE@", TRAINERTYPE_MOVES
 	db 30
-	dw BUTTERFREE
+	dw TOUCANNON
 	dw CONFUSION, POISONPOWDER, SUPERSONIC, GUST
 	db 30
-	dw BUTTERFREE
+	dw TOUCANNON
 	dw CONFUSION, STUN_SPORE, SUPERSONIC, GUST
 	db 32
 	dw BEEDRILL
 	dw FURY_ATTACK, PURSUIT, TWINEEDLE, DOUBLE_TEAM
 	db 34
-	dw BUTTERFREE
+	dw TOUCANNON
 	dw PSYBEAM, SLEEP_POWDER, GUST, WHIRLWIND
 	db -1 ; end
 
@@ -6205,7 +6205,7 @@ BikerGroup:
 	next_list_item ; BIKER (5)
 	db "Zeke@", TRAINERTYPE_NORMAL
 	db 73
-	dw BUTTERFREE
+	dw TOUCANNON
 	db 73
 	dw GLALIE
 	db -1 ; end
@@ -7667,11 +7667,11 @@ ArianaGroup:
 	db "Ariana@", TRAINERTYPE_ITEM_MOVES
 if DEF(_CHALLENGE)
 	db 22
-	dw BUTTERFREE
+	dw TOUCANNON
 	db WIDE_LENS
 else
 	db 21
-	dw BUTTERFREE
+	dw TOUCANNON
 	db NO_ITEM
 endc
 	dw SILVER_WIND, GUST, SLEEP_POWDER, CONFUSION
@@ -8784,53 +8784,22 @@ MysticalmanGroup:
 	end_list_items
 
 Rival3Group:
-	next_list_item ; RIVAL3 (1)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 6
-	dw SMOOCHUM
-	db NO_ITEM
-	db 7
-	dw LARVITAR
-if DEF(_CHALLENGE)
-	db ORAN_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 A_ROWLET
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 5
+	dw ROWLET
 	db -1 ; end
 
-	next_list_item ; RIVAL3 (2)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 6
-	dw SMOOCHUM
-	db NO_ITEM
-	db 7
-	dw DRATINI
-if DEF(_CHALLENGE)
-	db ORAN_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 A_TEPIG
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 5
+	dw TEPIG
 	db -1 ; end
 
-	next_list_item ; RIVAL3 (3)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 17
-	dw EEVEE
-	db NO_ITEM
-	db 17
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 18
-	dw LARVITAR
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 A_MUDKIP
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 5
+	dw MUDKIP
 	db -1 ; end
 
 	next_list_item ; RIVAL3 (4)
@@ -8921,53 +8890,22 @@ endc
 	end_list_items
 
 Rival4Group:
-	next_list_item ; RIVAL4 (1)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 6
-	dw SMOOCHUM
-	db NO_ITEM
-	db 7
-	dw LARVITAR
-if DEF(_CHALLENGE)
-	db ORAN_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL4 A_ROWLET
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 5
+	dw ROWLET
 	db -1 ; end
 
-	next_list_item ; RIVAL3 (2)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 6
-	dw SMOOCHUM
-	db NO_ITEM
-	db 7
-	dw DRATINI
-if DEF(_CHALLENGE)
-	db ORAN_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 A_TEPIG
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 5
+	dw TEPIG
 	db -1 ; end
 
-	next_list_item ; RIVAL4 (3)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 17
-	dw EEVEE
-	db NO_ITEM
-	db 17
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 18
-	dw LARVITAR
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL4 A_MUDKIP
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 5
+	dw MUDKIP
 	db -1 ; end
 
 	next_list_item ; RIVAL4 (4)

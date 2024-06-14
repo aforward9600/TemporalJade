@@ -8,9 +8,9 @@ AnimationPointers:
 	dw MudkipAnimation
 	dw MarshtompAnimation
 	dw SwampertAnimation
-	dw CaterpieAnimation
-	dw MetapodAnimation
-	dw ButterfreeAnimation
+	dw PikipekAnimation
+	dw TrumbeakAnimation
+	dw ToucannonAnimation
 	dw WeedleAnimation
 	dw KakunaAnimation
 	dw BeedrillAnimation

@@ -44,17 +44,44 @@ ProfJuniperScript:
 	writetext FirstElmText
 	waitbutton
 	closetext
-	setevent EVENT_SPOKE_WITH_ELM
-	setevent EVENT_BLACKTHORN_CITY_SUPER_NERD_BLOCKS_GYM
-	clearevent EVENT_BLACKTHORN_CITY_SUPER_NERD_DOES_NOT_BLOCK_GYM
-	setevent EVENT_DARK_CAVE_GUARD
-	setevent EVENT_MASTERS_HOUSE_MASTER
 	end
 
 .JunipersLabCantLeave:
 	writetext ProfJuniperPickText
 	waitbutton
 	closetext
+	end
+
+BiancaGivesPokeBalls1:
+	applymovement JUNIPERSLAB_BIANCA, BiancaWalksRight1
+	turnobject PLAYER, DOWN
+	scall BiancaGivesYouPokeBalls
+	applymovement JUNIPERSLAB_BIANCA, BiancaWalksLeft1
+	end
+
+BiancaGivesPokeBalls2:
+	applymovement JUNIPERSLAB_BIANCA, BiancaWalksRight2
+	turnobject PLAYER, DOWN
+	scall BiancaGivesYouPokeBalls
+	applymovement JUNIPERSLAB_BIANCA, BiancaWalksLeft2
+	end
+
+BiancaGivesYouPokeBalls:
+	opentext
+	writetext HereAreYourPokeBallsText
+	buttonsound
+	getitemname STRING_BUFFER_4, POKE_BALL
+	scall BiancaGivesPokeBalls3
+	giveitem POKE_BALL, 10
+	writetext BiancaGoodLuckText
+	buttonsound
+	itemnotify
+	closetext
+	setscene SCENE_JUNIPERSLAB_NOTHING
+	end
+
+BiancaGivesPokeBalls3:
+	jumpstd receiveitem
 	end
 
 LookAtElmPokeBallScript:
@@ -87,7 +114,7 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke EMBOAR, 5, ORAN_BERRY
+	givepoke TEPIG, 5, ORAN_BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, .turnplayer
@@ -204,6 +231,113 @@ DidntChooseStarterScript:
 	end
 
 JuniperAfterStarter:
+	setevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
+	setmapscene MURKROW_VALLEY, SCENE_FINISHED
+	opentext
+	writetext HereIsYourPokedexText
+	buttonsound
+	waitsfx
+	writetext GotPokedexText
+	playsound SFX_ITEM
+	waitsfx
+	setflag ENGINE_POKEDEX
+	writetext StartYourJourneyText
+	waitbutton
+	closetext
+	pause 10
+	turnobject JUNIPERSLAB_RIVAL, RIGHT
+	turnobject PLAYER, LEFT
+	opentext
+	writetext JuniperLabBattleText
+	waitbutton
+	closetext
+	checkflag ENGINE_PLAYER_IS_FEMALE
+	iftrue .PlayerIsFemale
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
+	iftrue .JuniperLabRowletBattle
+	checkevent EVENT_GOT_TEPIG_FROM_JUNIPER
+	iftrue .JuniperLabMudkipBattle
+	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
+	setlasttalked JUNIPERSLAB_RIVAL
+	loadtrainer RIVAL3, RIVAL3_A_TEPIG
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	iftrue .AfterVictorious
+	sjump .AfterYourDefeat
+
+.JuniperLabMudkipBattle:
+	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
+	setlasttalked JUNIPERSLAB_RIVAL
+	loadtrainer RIVAL3, RIVAL3_A_MUDKIP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	iftrue .AfterVictorious
+	sjump .AfterYourDefeat
+
+.JuniperLabRowletBattle:
+	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
+	setlasttalked JUNIPERSLAB_RIVAL
+	loadtrainer RIVAL3, RIVAL3_A_ROWLET
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	iftrue .AfterVictorious
+	sjump .AfterYourDefeat
+
+.PlayerIsFemale:
+	checkevent EVENT_GOT_MUDKIP_FROM_JUNIPER
+	iftrue .JuniperLabRowletBattleFemale
+	checkevent EVENT_GOT_TEPIG_FROM_JUNIPER
+	iftrue .JuniperLabMudkipBattleFemale
+	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
+	setlasttalked JUNIPERSLAB_RIVAL
+	loadtrainer RIVAL4, RIVAL4_A_TEPIG
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	iftrue .AfterVictorious
+	sjump .AfterYourDefeat
+
+.JuniperLabMudkipBattleFemale:
+	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
+	setlasttalked JUNIPERSLAB_RIVAL
+	loadtrainer RIVAL4, RIVAL4_A_MUDKIP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	iftrue .AfterVictorious
+	sjump .AfterYourDefeat
+
+.JuniperLabRowletBattleFemale:
+	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
+	setlasttalked JUNIPERSLAB_RIVAL
+	loadtrainer RIVAL4, RIVAL4_A_ROWLET
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	iftrue .AfterVictorious
+	sjump .AfterYourDefeat
+
+.AfterVictorious:
+	opentext
+	writetext JuniperLabBetterLuckNextTimeText
+	waitbutton
+	closetext
+	sjump .FinishRival
+
+.AfterYourDefeat:
+	opentext
+	writetext JuniperLabRivalWonText
+	waitbutton
+	closetext
+.FinishRival:
+	pause 10
+	applymovement JUNIPERSLAB_RIVAL, OfficerLeavesMovement
+	disappear JUNIPERSLAB_RIVAL
+	setevent EVENT_BEAT_LAB_RIVAL
+	setscene SCENE_JUNIPERSLAB_AIDE_GIVES_POTION
 	end
 
 ElmsLabHealingMachine:
@@ -345,20 +479,20 @@ OfficerLeavesMovement:
 	step DOWN
 	step_end
 
-AideWalksRight1:
+BiancaWalksRight1:
 	step RIGHT
 	step RIGHT
 	turn_head UP
 	step_end
 
-AideWalksRight2:
+BiancaWalksRight2:
 	step RIGHT
 	step RIGHT
 	step RIGHT
 	turn_head UP
 	step_end
 
-AideWalksLeft1:
+BiancaWalksLeft1:
 	step LEFT
 	step LEFT
 	turn_head DOWN
@@ -372,7 +506,7 @@ RivalGetsMudkipMovement:
 	turn_head UP
 	step_end
 
-AideWalksLeft2:
+BiancaWalksLeft2:
 	step LEFT
 	step LEFT
 	step LEFT
@@ -883,6 +1017,137 @@ ProfJuniperPickText:
 	line "yours!"
 	done
 
+JuniperLabBattleText:
+	text "<RIVAL>: So, which"
+	line "of our #mon do"
+	cont "you think is"
+	cont "stronger?"
+
+	para "Wanna have our"
+	line "first battle and"
+	cont "find out?"
+	done
+
+JuniperLabRivalWinText:
+	text "<RIVAL>: Wow, yours"
+	line "was definitely"
+	cont "stronger!"
+	done
+
+JuniperLabRivalLoseText:
+	text "<RIVAL>: Looks like"
+	line "I was stronger!"
+	done
+
+JuniperLabBetterLuckNextTimeText:
+	text "<RIVAL>: Better"
+	line "luck next time!"
+
+	para "I'm heading to"
+	line "the Trainer School"
+	cont "for that first"
+	cont "Badge."
+
+	para "You might want to"
+	line "get some studying"
+	cont "in while you're"
+	cont "there!"
+
+	para "See ya!"
+	done
+
+JuniperLabRivalWonText:
+	text "<RIVAL>: I need to"
+	line "get stronger, so"
+	cont "I'm heading to the"
+	cont "Trainer School."
+
+	para "That's where we'll"
+	line "get our first"
+	cont "Badge!"
+
+	para "See ya there!"
+	done
+
+GotPokedexText:
+	text "You both received"
+	line "a #dex!"
+	done
+
+HereIsYourPokedexText:
+	text "Juniper: Now that"
+	line "that's settled, I"
+	cont "have a favor to"
+	cont "ask of you two."
+
+	para "While you are on"
+	line "your journey,"
+	cont "please use this"
+	cont "#dex to record"
+	cont "data on #mon."
+
+	para "My good friend and"
+	line "colleague Prof.Oak"
+	cont "developed these!"
+
+	para "They will record"
+	line "data on any"
+	cont "#mon you find!"
+
+	para "You could call it"
+	line "a high-tech"
+	cont "encyclopedia!"
+	done
+
+StartYourJourneyText:
+	text "Since you're just"
+	line "getting started,"
+
+	para "might I suggest"
+	line "heading to the"
+	cont "Moravil Trainer"
+	cont "School?"
+
+	para "Just head west on"
+	line "Route 24, you can't"
+	cont "miss it!"
+
+	para "Not only will you"
+	line "gain #mon"
+	cont "knowledge, but"
+	cont "there's also a"
+	cont "Gym there!"
+
+	para "Bet you didn't"
+	line "expect that?"
+
+	para "Well, that's all"
+	line "I have to say for"
+	cont "now."
+
+	para "Good luck you two!"
+	done
+
+HereAreYourPokeBallsText:
+	text "Bianca: Oh, silly"
+	line "me!"
+
+	para "I almost forgot"
+	line "to give you these!"
+	done
+
+BiancaGoodLuckText:
+	text "You can catch"
+	line "#mon with"
+	cont "those!"
+
+	para "Weaken the wild"
+	line "#mon, and then"
+	cont "throw it!"
+
+	para "Good luck!"
+	done
+
 ElmsLab_MapEvents:
 	db 0, 0 ; filler
 
@@ -890,11 +1155,13 @@ ElmsLab_MapEvents:
 	warp_event  4, 11, MURKROW_VALLEY, 1
 	warp_event  5, 11, MURKROW_VALLEY, 1
 
-	db 4 ; coord events
+	db 6 ; coord events
 	coord_event  4,  5, SCENE_DEFAULT, MeetJuniperScript
 	coord_event  5,  5, SCENE_DEFAULT, MeetJuniperScript2
 	coord_event  4,  6, SCENE_JUNIPERSLAB_CANT_LEAVE, JunipersLabCantLeaveScript
 	coord_event  5,  6, SCENE_JUNIPERSLAB_CANT_LEAVE, JunipersLabCantLeaveScript
+	coord_event  4,  8, SCENE_JUNIPERSLAB_AIDE_GIVES_POTION, BiancaGivesPokeBalls1
+	coord_event  5,  8, SCENE_JUNIPERSLAB_AIDE_GIVES_POTION, BiancaGivesPokeBalls2
 
 	db 16 ; bg events
 	bg_event  2,  1, BGEVENT_READ, ElmsLabHealingMachine

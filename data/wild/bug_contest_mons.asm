@@ -1,10 +1,10 @@
 ContestMons:
 	;      %, species,   min, max
-	dbwbb 20, CATERPIE,    7, 18
+	dbwbb 20, PIKIPEK,     7, 18
 	dbwbb 20, WEEDLE,      7, 18
-	dbwbb 10, METAPOD,     9, 18
+	dbwbb 10, TRUMBEAK,    9, 18
 	dbwbb 10, KAKUNA,      9, 18
-	dbwbb  5, BUTTERFREE, 12, 15
+	dbwbb  5, TOUCANNON,  12, 15
 	dbwbb  5, BEEDRILL,   12, 15
 	dbwbb 10, VENONAT,    10, 16
 	dbwbb 10, PARAS,      10, 17

@@ -158,7 +158,7 @@ JohtoGrassWildMons:
 	dbw 27, NIDORINO
 	dbw 27, NIDORINA
 	dbw 27, LEDIAN
-	dbw 27, BUTTERFREE
+	dbw 27, TOUCANNON
 	dbw 27, SCYTHER
 	dbw 27, SCYTHER
 	dbw 27, PINSIR
@@ -167,7 +167,7 @@ JohtoGrassWildMons:
 	dbw 27, NIDORINO
 	dbw 27, NIDORINA
 	dbw 27, LEDIAN
-	dbw 27, BUTTERFREE
+	dbw 27, TOUCANNON
 	dbw 27, SCYTHER
 	dbw 27, SCYTHER
 	dbw 27, PINSIR
@@ -397,7 +397,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 37, LEDIAN
 	dbw 37, PIDGEOT
-	dbw 37, BUTTERFREE
+	dbw 37, TOUCANNON
 	dbw 37, BEEDRILL
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
@@ -406,7 +406,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 37, LEDIAN
 	dbw 37, PIDGEOT
-	dbw 37, BUTTERFREE
+	dbw 37, TOUCANNON
 	dbw 37, BEEDRILL
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
@@ -1146,8 +1146,8 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 49, XATU
-	dbw 49, BUTTERFREE
-	dbw 49, BUTTERFREE
+	dbw 49, TOUCANNON
+	dbw 49, TOUCANNON
 	dbw 49, PIDGEOT
 	dbw 49, BEEDRILL
 	dbw 49, JUMPLUFF
@@ -1155,8 +1155,8 @@ JohtoGrassWildMons:
 	dbw 49, JUMPLUFF
 	; day
 	dbw 49, XATU
-	dbw 49, BUTTERFREE
-	dbw 49, BUTTERFREE
+	dbw 49, TOUCANNON
+	dbw 49, TOUCANNON
 	dbw 49, PIDGEOT
 	dbw 49, BEEDRILL
 	dbw 49, JUMPLUFF
@@ -1176,7 +1176,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 48, LEDIAN
-	dbw 48, BUTTERFREE
+	dbw 48, TOUCANNON
 	dbw 48, WEEPINBELL
 	dbw 48, PIDGEOT
 	dbw 48, BEEDRILL
@@ -1185,7 +1185,7 @@ JohtoGrassWildMons:
 	dbw 48, JUMPLUFF
 	; day
 	dbw 48, LEDIAN
-	dbw 48, BUTTERFREE
+	dbw 48, TOUCANNON
 	dbw 48, WEEPINBELL
 	dbw 48, PIDGEOT
 	dbw 48, BEEDRILL
@@ -1389,8 +1389,8 @@ JohtoGrassWildMons:
 	dbw 14, DROWZEE
 	dbw 14, MILTANK
 	dbw 14, TAUROS
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
+	dbw 14, TOUCANNON
+	dbw 14, TOUCANNON
 	dbw 14, SCYTHER
 	dbw 14, SCYTHER
 	; day
@@ -1398,8 +1398,8 @@ JohtoGrassWildMons:
 	dbw 14, DROWZEE
 	dbw 14, MILTANK
 	dbw 14, TAUROS
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
+	dbw 14, TOUCANNON
+	dbw 14, TOUCANNON
 	dbw 14, SCYTHER
 	dbw 14, SCYTHER
 	; nite
@@ -1417,7 +1417,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 15, MAGNEMITE
 	dbw 15, DROWZEE
-	dbw 15, BUTTERFREE
+	dbw 15, TOUCANNON
 	dbw 15, TAUROS
 	dbw 15, ROSELIA
 	dbw 15, MILTANK
@@ -1426,7 +1426,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 15, MAGNEMITE
 	dbw 15, DROWZEE
-	dbw 15, BUTTERFREE
+	dbw 15, TOUCANNON
 	dbw 15, TAUROS
 	dbw 15, ROSELIA
 	dbw 15, MILTANK

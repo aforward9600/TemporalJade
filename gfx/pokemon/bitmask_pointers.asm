@@ -8,9 +8,9 @@ BitmasksPointers:
 	dw MudkipBitmasks
 	dw MarshtompBitmasks
 	dw SwampertBitmasks
-	dw CaterpieBitmasks
-	dw MetapodBitmasks
-	dw ButterfreeBitmasks
+	dw PikipekBitmasks
+	dw TrumbeakBitmasks
+	dw ToucannonBitmasks
 	dw WeedleBitmasks
 	dw KakunaBitmasks
 	dw BeedrillBitmasks

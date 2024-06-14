@@ -28,9 +28,9 @@
 	const MUDKIP     ; 07
 	const MARSHTOMP  ; 08
 	const SWAMPERT   ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
+	const PIKIPEK    ; 0a
+	const TRUMBEAK   ; 0b
+	const TOUCANNON  ; 0c
 	const WEEDLE     ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f

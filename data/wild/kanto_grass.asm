@@ -756,21 +756,21 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 68, BEEDRILL
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
-	dbw 68, BUTTERFREE
-	dbw 68, BUTTERFREE
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
+	dbw 68, TOUCANNON
+	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	; day
 	dbw 68, BEEDRILL
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
-	dbw 68, BUTTERFREE
-	dbw 68, BUTTERFREE
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
+	dbw 68, TOUCANNON
+	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	; nite
 	dbw 68, VENOMOTH
@@ -786,19 +786,19 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 68, BEEDRILL
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	dbw 2, TEPIG
 	dbw 3, TEPIG
 	; day
 	dbw 68, BEEDRILL
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
 	dbw 68, KADABRA
-	dbw 68, BUTTERFREE
+	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	dbw 2, TEPIG
 	dbw 3, TEPIG
@@ -905,7 +905,7 @@ KantoGrassWildMons:
 	map_id VIRIDIAN_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 63, BUTTERFREE
+	dbw 63, TOUCANNON
 	dbw 63, VENOMOTH
 	dbw 63, LEDIAN
 	dbw 63, PARASECT
@@ -914,7 +914,7 @@ KantoGrassWildMons:
 	dbw 63, PIKACHU
 	dbw 63, HERACROSS
 	; day
-	dbw 63, BUTTERFREE
+	dbw 63, TOUCANNON
 	dbw 63, VENOMOTH
 	dbw 63, LEDIAN
 	dbw 63, PARASECT

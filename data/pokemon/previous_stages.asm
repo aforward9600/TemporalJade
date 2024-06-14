@@ -10,8 +10,8 @@ PreviousEvolutionStage::
 	dw MUDKIP   ;08
 	dw MARSHTOMP
 	dw 0
-	dw CATERPIE
-	dw METAPOD
+	dw PIKIPEK
+	dw TRUMBEAK
 	dw 0
 	dw WEEDLE
 	dw KAKUNA

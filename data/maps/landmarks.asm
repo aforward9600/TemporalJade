@@ -8,13 +8,16 @@ Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	dbbw       0,   0, SpecialMapName
 	landmark 148, 124, MurkrowValleyName
+	landmark 132, 124, Route29Name
+	landmark 116, 124, MoravilSchoolName
+	landmark 108, 116, Route30Name
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
 	landmark 112,  72, DarkCaveName
 	landmark 130,  38, IcePathName
 	landmark 120,  44, Route44Name
-	landmark 108,  44, MahoganyTownName
+	landmark 140,  60, AcituTownName
 	landmark 109,  45, UnknownName
 	landmark 108,  36, Route43Name
 	landmark 108,  28, LakeOfRageName
@@ -42,24 +45,22 @@ Landmarks:
 	landmark  64,  60, Route36Name
 	landmark  52,  60, NationalParkName
 	landmark  52,  76, Route35Name
-	landmark  52,  92, GoldenrodCityName
+	landmark  84,  60, SirakisCityName
 	landmark  50,  92, RadioTowerName
 	landmark  52, 112, Route34Name
 	landmark  52, 120, IlexForestName
-	landmark  68, 124, AzaleaTownName
+	landmark  60,  28, EmissVillageName
 	landmark  70, 122, SlowpokeWellName
 	landmark  82, 124, Route33Name
 	landmark  84, 124, UnionCaveName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84,  60, VioletCityName
-	landmark  85,  58, SproutTowerName
 	landmark  96,  60, Route31Name
-	landmark 100,  80, Route30Name
 	landmark 100, 100, CherrygroveCityName
-	landmark 128, 100, Route29Name
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
+	landmark 132, 140, VictoryRoadOnagaName
 	landmark  52, 108, PalletTownName
 	landmark  52,  92, Route1Name
 	landmark  52,  76, ViridianCityName
@@ -106,7 +107,7 @@ Landmarks:
 	landmark  52, 132, UnknownName2
 	landmark  52, 120, Route21Name
 	landmark  36,  68, Route22Name
-	landmark  28,  52, VictoryRoadName
+	landmark 132, 140, VictoryRoadName
 	landmark  28,  44, Route23Name
 	landmark  28,  36, IndigoPlateauName
 	landmark  28,  92, Route26Name
@@ -118,18 +119,18 @@ Landmarks:
 MurkrowValleyName:   db "Murkrow¯Valley@"
 CherrygroveCityName: db "Cherrygrove¯City@"
 VioletCityName:      db "Violet City@"
-AzaleaTownName:      db "Azalea Town@"
-GoldenrodCityName:   db "Goldenrod¯City@"
+EmissVillageName:    db "Emiss¯Village@"
+SirakisCityName:     db "Sirakis¯City@"
 EcruteakCityName:    db "Ecruteak¯City@"
 OlivineCityName:     db "Olivine¯City@"
 CianwoodCityName:    db "Cianwood¯City@"
 CliffsEdgeGateName:  db "Cliff's Edge¯Gate@"
-MahoganyTownName:    db "Mahogany¯Town@"
+AcituTownName:       db "Acitu Town@"
 UnknownName:         db "???@"
 BlackthornCityName:  db "Blackthorn¯City@"
 LakeOfRageName:      db "Lake Of¯Rage@"
 SilverCaveName:      db "Silver Cave@"
-SproutTowerName:     db "Sprout¯Tower@"
+MoravilSchoolName:   db "Moravil¯School@"
 RuinsOfAlphName:     db "Ruins¯Of Alph@"
 UnionCaveName:       db "Union Cave@"
 SlowpokeWellName:    db "Slowpoke¯Well@"
@@ -154,7 +155,7 @@ CeladonCityName:     db "Celadon¯City@"
 SaffronCityName:     db "Saffron¯City@"
 FuchsiaCityName:     db "Fuchsia¯City@"
 CinnabarIslandName:  db "Cinnabar¯Island@"
-IndigoPlateauName:   db "Indigo¯Plateau@"
+IndigoPlateauName:   db "#mon¯League@"
 VictoryRoadName:     db "Victory¯Road@"
 MtMoonName:          db "Mt.Moon@"
 RockTunnelName:      db "Rock Tunnel@"
@@ -192,8 +193,8 @@ Route25Name:         db "Route 25@"
 Route26Name:         db "Route 26@"
 Route27Name:         db "Route 27@"
 Route28Name:         db "Route 28@"
-Route29Name:         db "Route 29@"
-Route30Name:         db "Route 30@"
+Route29Name:         db "Route 24@"
+Route30Name:         db "Route 25@"
 Route31Name:         db "Route 31@"
 Route32Name:         db "Route 32@"
 Route33Name:         db "Route 33@"
@@ -225,4 +226,5 @@ Route47Name:         db "Route 47@"
 Route48Name:         db "Route 48@"
 CliffCaveName:       db "Cliff Cave@"
 CinnabarVolcanoName: db "Cinnabar¯Volcano@"
+VictoryRoadOnagaName: db "Victory¯Road@"
 UnknownName2:        db "???@"

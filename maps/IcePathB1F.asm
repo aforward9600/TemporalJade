@@ -49,7 +49,7 @@ RestOfRival:
 	iftrue .Larvitar
 	winlosstext RivalIcePathWinText, RivalIcePathLossText
 	setlasttalked ICEPATHB1F_RIVAL
-	loadtrainer RIVAL3, RIVAL3_A_LARVITAR
+	loadtrainer RIVAL3, RIVAL3_A_ROWLET
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -58,7 +58,7 @@ RestOfRival:
 .Larvitar:
 	winlosstext RivalIcePathWinText, RivalIcePathLossText
 	setlasttalked ICEPATHB1F_RIVAL
-	loadtrainer RIVAL3, RIVAL3_A_DRATINI
+	loadtrainer RIVAL3, RIVAL3_A_TEPIG
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -73,7 +73,7 @@ RestOfRival:
 	applymovement ICEPATHB1F_RIVAL, IcePath_RivalLeaves
 	playsound SFX_EXIT_BUILDING
 	disappear ICEPATHB1F_RIVAL
-	setevent EVENT_ICE_PATH_B1F_RIVAL1
+	setevent EVENT_BEAT_LAB_RIVAL
 	setscene SCENE_DEFAULT
 	waitsfx
 	playmapmusic
@@ -84,7 +84,7 @@ RestOfRival:
 	iftrue .Larvitar2
 	winlosstext RivalIcePathWinText, RivalIcePathLossText
 	setlasttalked ICEPATHB1F_RIVAL
-	loadtrainer RIVAL4, RIVAL4_A_LARVITAR
+	loadtrainer RIVAL4, RIVAL4_A_ROWLET
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -93,7 +93,7 @@ RestOfRival:
 .Larvitar2:
 	winlosstext RivalIcePathWinText, RivalIcePathLossText
 	setlasttalked ICEPATHB1F_RIVAL
-	loadtrainer RIVAL4, RIVAL4_A_DRATINI
+	loadtrainer RIVAL4, RIVAL4_A_TEPIG
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -108,7 +108,7 @@ RestOfRival:
 	applymovement ICEPATHB1F_RIVAL, IcePath_RivalLeaves
 	playsound SFX_EXIT_BUILDING
 	disappear ICEPATHB1F_RIVAL
-	setevent EVENT_ICE_PATH_B1F_RIVAL1
+	setevent EVENT_BEAT_LAB_RIVAL
 	setscene SCENE_DEFAULT
 	waitsfx
 	playmapmusic
@@ -322,6 +322,6 @@ IcePathB1F_MapEvents:
 	object_event 16,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL,0, IcePathB1FAntidote, EVENT_ICE_PATH_B1F_ANTIDOTE
 	object_event 14, 24, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerYoungsterTimmy, -1
 	object_event  7, 11, SPRITE_SKIER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerSkierLupita, -1
-	object_event  3, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ICE_PATH_B1F_RIVAL1
+	object_event  3, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BEAT_LAB_RIVAL
 	object_event 17,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, IcePathB1FWaterfall, EVENT_GOT_TM_WATERFALL
 	object_event 17,  1, SPRITE_BOARDER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerBoarderBrody, -1

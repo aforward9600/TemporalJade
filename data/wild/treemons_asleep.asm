@@ -1,9 +1,6 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	dw CATERPIE
-	dw METAPOD
-	dw BUTTERFREE
 	dw WEEDLE
 	dw KAKUNA
 	dw BEEDRILL

@@ -27,10 +27,8 @@ AlphabeticalPokedexOrder:
 	dw BRONZONG
 	dw BRONZOR
 	dw BUDEW
-	dw BUTTERFREE
 	dw CACNEA
 	dw CACTURNE
-	dw CATERPIE
 	dw CELEBI
 	dw CHANSEY
 	dw CHIKORITA
@@ -175,7 +173,6 @@ AlphabeticalPokedexOrder:
 	dw MARSHTOMP
 	dw MEGANIUM
 	dw MEOWTH
-	dw METAPOD
 	dw MEW
 	dw MEWTWO
 	dw MILTANK
@@ -214,6 +211,7 @@ AlphabeticalPokedexOrder:
 	dw PIDGEY
 	dw PIGNITE
 	dw PIKACHU
+	dw PIKIPEK
 	dw PILOSWINE
 	dw PINECO
 	dw PINSIR
@@ -295,7 +293,9 @@ AlphabeticalPokedexOrder:
 	dw TOGEPI
 	dw TOGETIC
 	dw TOTODILE
+	dw TOUCANNON
 	dw TOXICROAK
+	dw TRUMBEAK
 	dw TYPHLOSION
 	dw TYRANITAR
 	dw TYROGUE

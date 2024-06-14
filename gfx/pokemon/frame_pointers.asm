@@ -8,9 +8,9 @@ FramesPointers:
 	dba MudkipFrames
 	dba MarshtompFrames
 	dba SwampertFrames
-	dba CaterpieFrames
-	dba MetapodFrames
-	dba ButterfreeFrames
+	dba PikipekFrames
+	dba TrumbeakFrames
+	dba ToucannonFrames
 	dba WeedleFrames
 	dba KakunaFrames
 	dba BeedrillFrames

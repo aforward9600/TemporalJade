@@ -10,7 +10,7 @@ EggMovePointers1:
 	dw MudkipEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw NoEggMoves1
+	dw PikipekMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -177,6 +177,11 @@ MudkipEggMoves:
 	dw STOMP
 	dw MIRROR_COAT
 	dw -1 ; end
+
+PikipekMoves1:
+	dw BRAVE_BIRD
+	dw MIRROR_MOVE
+	dw -1
 
 PidgeyEggMoves:
 	dw PURSUIT

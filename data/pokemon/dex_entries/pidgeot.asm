@@ -1,10 +1,10 @@
-	db "Bird@" ; species name
-	dw 411, 870 ; height, weight
+	db "Psi@" ; species name
+	dw 211, 430 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "It hypnotizes"
+	next "itself so that it"
+	next "can teleport away"
 
-	page "Magikarp, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "when it senses"
+	next "danger, even"
+	next "if it is asleep.@"

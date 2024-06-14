@@ -14,12 +14,12 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,     $725,  $091 ; MUDKIP
 	mon_cry CRY_GRIMER,      $020,  $1b2 ; MARSHTOMP
 	mon_cry CRY_ODDISH,      $50d,  $1b2 ; SWAMPERT
-	mon_cry CRY_CATERPIE,    $080,  $0a0 ; CATERPIE
-	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
-	mon_cry CRY_CATERPIE,    $077,  $0c0 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      $0ee,  $081 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
-	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
+	mon_cry CRY_MARILL,      $11b,  $070 ; PIKIPEK
+	mon_cry CRY_SPEAROW,     $000,  $100 ; TRUMBEAK
+	mon_cry CRY_FEAROW,      $040,  $120 ; TOUCANNON
+	mon_cry CRY_WEEDLE,      $0ee,  $081 ; VENIPEDE
+	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; WHIRLIPEDE
+	mon_cry CRY_BLASTOISE,   $060,  $100 ; SCOLIPEDE
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT

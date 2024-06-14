@@ -1,10 +1,10 @@
-	db "Tiny Bird@" ; species name
-	dw 100, 40 ; height, weight
+	db "Psi@" ; species name
+	dw 211, 430 ; height, weight
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
+	db   "It hypnotizes"
+	next "itself so that it"
+	next "can teleport away"
 
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	page "when it senses"
+	next "danger, even"
+	next "if it is asleep.@"

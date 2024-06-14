@@ -139,7 +139,6 @@ INCLUDE "maps/Route16Gate.asm"
 
 SECTION "Map Scripts 9", ROMX
 
-INCLUDE "maps/Route34.asm"
 INCLUDE "maps/ElmsLab.asm"
 INCLUDE "maps/PlayersHouse1F.asm"
 INCLUDE "maps/PlayersHouse2F.asm"
@@ -174,8 +173,6 @@ INCLUDE "maps/Route8SaffronGate.asm"
 
 SECTION "Map Scripts 11", ROMX
 
-INCLUDE "maps/EcruteakTinTowerEntrance.asm"
-INCLUDE "maps/WiseTriosRoom.asm"
 INCLUDE "maps/EcruteakPokecenter1F.asm"
 INCLUDE "maps/EcruteakLugiaSpeechHouse.asm"
 INCLUDE "maps/DanceTheatre.asm"
@@ -184,6 +181,7 @@ INCLUDE "maps/EcruteakGym.asm"
 INCLUDE "maps/EcruteakItemfinderHouse.asm"
 INCLUDE "maps/DayOfWeekSiblingsHouse.asm"
 INCLUDE "maps/Route29Route46Gate.asm"
+INCLUDE "maps/Route34.asm"
 
 
 SECTION "Map Scripts 12", ROMX
@@ -570,3 +568,5 @@ INCLUDE "maps/FastShipCabins_NNW_NNE_NE.asm"
 INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
 INCLUDE "maps/SootheBellHouse.asm"
 INCLUDE "maps/Route15.asm"
+INCLUDE "maps/EcruteakTinTowerEntrance.asm"
+INCLUDE "maps/WiseTriosRoom.asm"

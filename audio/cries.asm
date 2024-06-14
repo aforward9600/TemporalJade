@@ -142,6 +142,11 @@ Cry_Mantine:
 	musicheader 1, 6, Cry_Mantine_Ch6
 	musicheader 1, 8, Cry_Mantine_Ch8
 
+;Cry_Pikipek:
+;	musicheader 3, 5, Cry_Pikipek_Ch5
+;	musicheader 1, 6, Cry_Pikipek_Ch6
+;	musicheader 1, 8, Cry_Pikipek_Ch8
+
 Cry_Entei_Ch5:
 	soundinput $ff
 	sound_duty 3, 0, 2, 1
@@ -2043,3 +2048,23 @@ Cry_Rattata_Ch8:
 	noise __,  2, $a2, $39
 	noise __,  9, $91, $49
 	endchannel
+
+;Cry_Pikipek_Ch5:
+;	sound_duty 0, 0, 3, 3
+;	sound __, 16, $d7, $0780
+;	sound __,  5, $e6, $07a0
+;	sound __, 16, $d2, $0740
+;	endchannel
+
+;Cry_Pikipek_Ch6:
+;	sound_duty 2, 2, 1, 1
+;	sound __, 16, $c7, $0753
+;	sound __,  6, $b6, $0772
+;	sound __, 16, $c2, $0711
+;	endchannel
+
+;Cry_Pikipek_Ch8:
+;	noise __, 14, $f6, $4c
+;	noise __,  5, $e6, $3c
+;	noise __, 16, $f2, $4c
+;	endchannel

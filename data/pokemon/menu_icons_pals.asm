@@ -20,9 +20,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   PINK   ; MUDKIP
 	icon_pals BLUE,   PINK   ; MARSHTOMP
 	icon_pals BLUE,   PINK   ; SWAMPERT
-	icon_pals GREEN,  RED    ; CATERPIE
-	icon_pals GREEN,  RED    ; METAPOD
-	icon_pals BLUE,   GREEN  ; BUTTERFREE
+	icon_pals RED,    PINK   ; PIKIPEK
+	icon_pals RED,    PINK   ; TRUMBEAK
+	icon_pals RED,    PINK   ; TOUCANNON
 	icon_pals BROWN,  GREEN  ; WEEDLE
 	icon_pals BROWN,  GREEN  ; KAKUNA
 	icon_pals BROWN,  BLUE   ; BEEDRILL

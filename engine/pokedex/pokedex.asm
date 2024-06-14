@@ -652,8 +652,8 @@ Pokedex_UpdateOptionScreen:
 	dwcoord 2, 10 ; UNOWN
 
 .MenuActionJumptable:
-	dw .MenuAction_NewMode
 	dw .MenuAction_OldMode
+	dw .MenuAction_NewMode
 	dw .MenuAction_ABCMode
 	dw .MenuAction_UnownMode
 
@@ -1343,8 +1343,8 @@ Pokedex_DrawOptionScreenBG:
 	db $3b, " Option ", $3c, -1
 
 .Modes:
-	db   "New Journal Mode"
-	next "Old Journal Mode"
+	db   "Regional Mode"
+	next "National Mode"
 	next "A to Z Mode"
 	db   "@"
 
@@ -1984,11 +1984,11 @@ Pokedex_DisplayModeDescription:
 
 .NewMode:
 	db   "<PK><MN> are listed by"
-	next "evolution type.@"
+	next "region numbers.@"
 
 .OldMode:
 	db   "<PK><MN> are listed by"
-	next "official type.@"
+	next "national numbers.@"
 
 .ABCMode:
 	db   "<PK><MN> are listed"

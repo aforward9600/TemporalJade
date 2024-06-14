@@ -8,9 +8,9 @@ AnimationIdlePointers:
 	dw MudkipAnimationIdle
 	dw MarshtompAnimationIdle
 	dw SwampertAnimationIdle
-	dw CaterpieAnimationIdle
-	dw MetapodAnimationIdle
-	dw ButterfreeAnimationIdle
+	dw PikipekAnimationIdle
+	dw TrumbeakAnimationIdle
+	dw ToucannonAnimationIdle
 	dw WeedleAnimationIdle
 	dw KakunaAnimationIdle
 	dw BeedrillAnimationIdle

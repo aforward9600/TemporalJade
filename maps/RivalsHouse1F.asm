@@ -46,7 +46,7 @@ RivalsMomScript:
 	iftrue .CongratsMom
 	checkevent EVENT_BEAT_CHAMPION_LANCE
 	iftrue .HaveAPoster
-	checkevent EVENT_ICE_PATH_B1F_RIVAL1
+	checkevent EVENT_BEAT_LAB_RIVAL
 	iftrue .KeepAnEyeOnThem
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .Female

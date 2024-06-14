@@ -9,9 +9,9 @@ PokedexDataPointerTable:
 	dba MudkipPokedexEntry
 	dba MarshtompPokedexEntry
 	dba SwampertPokedexEntry
-	dba CaterpiePokedexEntry
-	dba MetapodPokedexEntry
-	dba ButterfreePokedexEntry
+	dba PikipekPokedexEntry
+	dba TrumbeakPokedexEntry
+	dba ToucannonPokedexEntry
 	dba WeedlePokedexEntry
 	dba KakunaPokedexEntry
 	dba BeedrillPokedexEntry

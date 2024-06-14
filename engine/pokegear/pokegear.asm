@@ -560,8 +560,8 @@ PokegearMap_KantoMap:
 	jr PokegearMap_ContinueMap
 
 PokegearMap_JohtoMap:
-	ld d, SILVER_CAVE
-	ld e, BLACKTHORN_CITY
+	ld d, VICTORY_ROAD_ONAGA
+	ld e, MURKROW_VALLEY
 PokegearMap_ContinueMap:
 	ld hl, hJoyLast
 	ld a, [hl]
@@ -2162,7 +2162,7 @@ FlyMapScroll:
 	call HasVisitedSpawn
 	and a
 	ret z
-	ld a, FLY_BLACKTHORN
+	ld a, FLY_MURKROW_VALLEY
 	ld [wTownMapPlayerIconLandmark], a
 ; Flypoints begin at New Bark Town...
 	ld [wStartFlypoint], a
@@ -2314,7 +2314,7 @@ FlyMap:
 ; Note that .NoKanto should be modified in tandem with this branch
 	push af
 ; Start from New Bark Town
-	ld a, FLY_BLACKTHORN
+	ld a, FLY_MURKROW_VALLEY
 	ld [wTownMapPlayerIconLandmark], a
 ; Flypoints begin at New Bark Town...
 	ld [wStartFlypoint], a
@@ -2375,7 +2375,7 @@ FlyMap:
 
 	push af
 ; Start from New Bark Town
-	ld a, FLY_BLACKTHORN
+	ld a, FLY_MURKROW_VALLEY
 	ld [wTownMapPlayerIconLandmark], a
 ; Flypoints begin at New Bark Town...
 	ld [wStartFlypoint], a

@@ -39,7 +39,7 @@ SwarmGrassWildMons:
 	; morn
 	dbw 15, YANMA
 	dbw 15, MILTANK
-	dbw 15, BUTTERFREE
+	dbw 15, TOUCANNON
 	dbw 15, TAUROS
 	dbw 15, YANMA
 	dbw 15, TAUROS
@@ -48,7 +48,7 @@ SwarmGrassWildMons:
 	; day
 	dbw 15, YANMA
 	dbw 15, MILTANK
-	dbw 15, BUTTERFREE
+	dbw 15, TOUCANNON
 	dbw 15, TAUROS
 	dbw 15, YANMA
 	dbw 15, TAUROS
@@ -256,7 +256,7 @@ SwarmGrassWildMons:
 	; morn
 	dbw 14, SCYTHER
 	dbw 14, TAUROS
-	dbw 14, BUTTERFREE
+	dbw 14, TOUCANNON
 	dbw 14, SCYTHER
 	dbw 14, MILTANK
 	dbw 14, SCYTHER
@@ -265,7 +265,7 @@ SwarmGrassWildMons:
 	; day
 	dbw 14, SCYTHER
 	dbw 14, TAUROS
-	dbw 14, BUTTERFREE
+	dbw 14, TOUCANNON
 	dbw 14, SCYTHER
 	dbw 14, MILTANK
 	dbw 14, SCYTHER
@@ -379,7 +379,7 @@ SwarmGrassWildMons:
 	; morn
 	dbw 37, PARASECT
 	dbw 37, PARASECT
-	dbw 37, BUTTERFREE
+	dbw 37, TOUCANNON
 	dbw 37, BEEDRILL
 	dbw 37, LEDIAN
 	dbw 37, PARASECT
@@ -388,7 +388,7 @@ SwarmGrassWildMons:
 	; day
 	dbw 37, PARASECT
 	dbw 37, PARASECT
-	dbw 37, BUTTERFREE
+	dbw 37, TOUCANNON
 	dbw 37, BEEDRILL
 	dbw 37, LEDIAN
 	dbw 37, PARASECT

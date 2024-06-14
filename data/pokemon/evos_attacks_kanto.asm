@@ -10,9 +10,9 @@ EvosAttacksPointers1::
 	dw MudkipEvosAttacks
 	dw MarshtompEvosAttacks
 	dw SwampertEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
+	dw PikipekEvosAttacks
+	dw TrumbeakEvosAttacks
+	dw ToucannonEvosAttacks
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
@@ -331,40 +331,57 @@ SwampertEvosAttacks:
 	dbw 63, HAMMER_ARM
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
-	dbbw EVOLVE_LEVEL, 7, METAPOD
+PikipekEvosAttacks:
+	dbbw EVOLVE_LEVEL, 14, TRUMBEAK
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, STRING_SHOT
+	dbw 1, PECK
+	dbw 3, GROWL
+	dbw 7, ECHOED_VOICE
+	dbw 9, ROCK_SMASH
+	dbw 13, SUPERSONIC
+	dbw 15, WING_ATTACK
+	dbw 19, ROOST
+	dbw 21, FURY_ATTACK
+	dbw 25, SCREECH
+	dbw 27, DRILL_PECK
+	dbw 31, BULLET_SEED
+	dbw 33, FEATHERDANCE
+	dbw 37, HYPER_VOICE
 	db 0 ; no more level-up moves
 
-MetapodEvosAttacks:
-	dbbw EVOLVE_LEVEL, 10, BUTTERFREE
+TrumbeakEvosAttacks:
+	dbbw EVOLVE_LEVEL, 28, TOUCANNON
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, HARDEN
-	dbw 1, HARDEN
+	dbw 1, PECK
+	dbw 3, GROWL
+	dbw 7, ECHOED_VOICE
+	dbw 9, ROCK_SMASH
+	dbw 13, SUPERSONIC
+	dbw 16, WING_ATTACK
+	dbw 21, ROOST
+	dbw 24, FURY_ATTACK
+	dbw 29, SCREECH
+	dbw 32, DRILL_PECK
+	dbw 37, BULLET_SEED
+	dbw 40, FEATHERDANCE
+	dbw 45, HYPER_VOICE
 	db 0 ; no more level-up moves
 
-ButterfreeEvosAttacks:
+ToucannonEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, GUST
-	dbw 1, GUST
-	dbw 1, CONFUSION
-	dbw 11, CONFUSION
-	dbw 13, POISONPOWDER
-	dbw 13, STUN_SPORE
-	dbw 13, SLEEP_POWDER
-	dbw 17, PSYBEAM
-	dbw 19, SILVER_WIND
-	dbw 23, SUPERSONIC
-	dbw 25, SAFEGUARD
-	dbw 29, WHIRLWIND
-	dbw 31, BUG_BUZZ
-	dbw 35, QUIVER_DANCE
-	dbw 37, AIR_SLASH
-	dbw 41, BATON_PASS
-	dbw 43, HURRICANE
-	dbw 47, SIGNAL_WAVE
+	dbw 1, PECK
+	dbw 3, GROWL
+	dbw 7, ECHOED_VOICE
+	dbw 9, ROCK_SMASH
+	dbw 13, SUPERSONIC
+	dbw 16, WING_ATTACK
+	dbw 21, ROOST
+	dbw 24, FURY_ATTACK
+	dbw 30, SCREECH
+	dbw 34, DRILL_PECK
+	dbw 40, BULLET_SEED
+	dbw 44, FEATHERDANCE
+	dbw 50, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
