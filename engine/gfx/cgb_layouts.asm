@@ -955,7 +955,7 @@ _CGB_TrainerCard:
 	ld a, BYRON
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, PRYCE ; CHUCK
+	ld a, STEVE ; CHUCK
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 	ld hl, .BadgePalettes
@@ -1083,7 +1083,7 @@ _CGB_TrainerCardKanto:
 	ld a, BYRON
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, PRYCE ; CHUCK
+	ld a, STEVE ; CHUCK
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 	ld hl, .BadgePalettesKanto

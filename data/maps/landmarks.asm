@@ -9,8 +9,9 @@ Landmarks:
 	dbbw       0,   0, SpecialMapName
 	landmark 148, 124, MurkrowValleyName
 	landmark 132, 124, Route29Name
-	landmark 116, 124, MoravilSchoolName
+	landmark 116, 124, AntiquoTownName
 	landmark 108, 116, Route30Name
+	landmark  92, 116, MoravilSchoolName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
@@ -57,7 +58,6 @@ Landmarks:
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84,  60, VioletCityName
 	landmark  96,  60, Route31Name
-	landmark 100, 100, CherrygroveCityName
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
 	landmark 132, 140, VictoryRoadOnagaName
@@ -117,7 +117,7 @@ Landmarks:
 	landmark 140, 116, FastShipName
 
 MurkrowValleyName:   db "Murkrow¯Valley@"
-CherrygroveCityName: db "Cherrygrove¯City@"
+AntiquoTownName:     db "Antiquo¯Town@"
 VioletCityName:      db "Violet City@"
 EmissVillageName:    db "Emiss¯Village@"
 SirakisCityName:     db "Sirakis¯City@"

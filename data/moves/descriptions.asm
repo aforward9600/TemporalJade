@@ -181,7 +181,7 @@ MoveDescriptions1:
 	dw CurseDescription
 	dw FlailDescription
 	dw CalmMindDescription
-	dw AeroblastDescription
+	dw ShadowBoneDescription
 	dw CottonSporeDescription
 	dw ReversalDescription
 	dw SpiteDescription
@@ -1119,9 +1119,9 @@ CalmMindDescription:
 	db   "Raises Spcl.Atk"
 	next "and Spcl.Def.@"
 
-AeroblastDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+ShadowBoneDescription:
+	db   "Bone that can"
+	next "lower defense.@"
 
 CottonSporeDescription:
 	db   "Sharply reduces"

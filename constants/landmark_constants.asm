@@ -3,10 +3,11 @@
 
 ; Johto landmarks
 	const SPECIAL_MAP       ; 00
-	const MURKROW_VALLEY     ; 01
+	const MURKROW_VALLEY    ; 01
 	const ROUTE_29          ; 02
-	const SPROUT_TOWER      ; 07
+	const CHERRYGROVE_CITY  ; 03
 	const ROUTE_30          ; 04
+	const SPROUT_TOWER      ; 07
 	const BLACKTHORN_CITY   ; 29
 	const DRAGONS_DEN       ; 2a
 	const ROUTE_45          ; 2b
@@ -53,7 +54,6 @@
 	const RUINS_OF_ALPH     ; 09
 	const VIOLET_CITY       ; 06
 	const ROUTE_31          ; 05
-	const CHERRYGROVE_CITY  ; 03
 	const ROUTE_46          ; 2d
 	const SILVER_CAVE       ; 2e
 	const VICTORY_ROAD_ONAGA

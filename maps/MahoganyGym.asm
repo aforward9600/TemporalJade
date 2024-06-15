@@ -44,7 +44,7 @@ MahoganyGymPryceScript:
 	waitbutton
 	closetext
 	winlosstext PryceText_Blizzard, PryceText_StillGotIt
-	loadtrainer PRYCE, PRYCE1
+	loadtrainer STEVE, STEVE_ROWLET
 .StartPryceBattle:
 	startbattle
 	reloadmapafterbattle
@@ -101,7 +101,7 @@ MahoganyGymPryceScript:
 	waitbutton
 	closetext
 	winlosstext PryceText_Blizzard, PryceText_StillGotIt
-	loadtrainer PRYCE, PRYCE_ALTERNATE
+	loadtrainer STEVE, STEVE_MUDKIP
 	startbattle
 	reloadmapafterbattle
 	sjump AfterPryceRematch
@@ -111,7 +111,7 @@ MahoganyGymPryceScript:
 	waitbutton
 	closetext
 	winlosstext PryceText_Blizzard, PryceText_StillGotIt
-	loadtrainer PRYCE, PRYCE2
+	loadtrainer STEVE, STEVE_TEPIG
 	startbattle
 	reloadmapafterbattle
 	sjump AfterPryceRematch
@@ -277,7 +277,7 @@ GymGuyStopsYou1Script:
 	turnobject MAHOGANYGYM_GYM_GUY, DOWN
 	setscene SCENE_DEFAULT
 	clearevent EVENT_RIVAL_AT_LAKE_OF_RAGE_1
-	clearevent EVENT_LAKE_OF_RAGE_MIYAMOTO
+	clearevent EVENT_ANTIQUO_TOWN_KNIGHT
 	end
 
 .Female1:
@@ -289,7 +289,7 @@ GymGuyStopsYou1Script:
 	turnobject MAHOGANYGYM_GYM_GUY, DOWN
 	setscene SCENE_DEFAULT
 	clearevent EVENT_RIVAL_AT_LAKE_OF_RAGE_1
-	clearevent EVENT_LAKE_OF_RAGE_MIYAMOTO
+	clearevent EVENT_ANTIQUO_TOWN_KNIGHT
 	end
 
 GymGuyStopsYou2Script:
@@ -305,7 +305,7 @@ GymGuyStopsYou2Script:
 	turnobject MAHOGANYGYM_GYM_GUY, DOWN
 	setscene SCENE_DEFAULT
 	clearevent EVENT_RIVAL_AT_LAKE_OF_RAGE_1
-	clearevent EVENT_LAKE_OF_RAGE_MIYAMOTO
+	clearevent EVENT_ANTIQUO_TOWN_KNIGHT
 	end
 
 .Female2:
@@ -318,16 +318,16 @@ GymGuyStopsYou2Script:
 	turnobject MAHOGANYGYM_GYM_GUY, DOWN
 	setscene SCENE_DEFAULT
 	clearevent EVENT_RIVAL_AT_LAKE_OF_RAGE_1
-	clearevent EVENT_LAKE_OF_RAGE_MIYAMOTO
+	clearevent EVENT_ANTIQUO_TOWN_KNIGHT
 	end
 
 MahoganyGymStatue:
 	checkflag ENGINE_GLACIERBADGE
 	iftrue .Beaten
-	gettrainername STRING_BUFFER_4, PRYCE, PRYCE1
+	gettrainername STRING_BUFFER_4, STEVE, STEVE_ROWLET
 	jumpstd gymstatue1
 .Beaten:
-	gettrainername STRING_BUFFER_4, PRYCE, PRYCE1
+	gettrainername STRING_BUFFER_4, STEVE, STEVE_ROWLET
 	jumpstd gymstatue2
 
 StopsYouMovement1:

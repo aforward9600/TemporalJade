@@ -17,7 +17,6 @@ INCLUDE "audio/music/rivalbattle.asm"
 INCLUDE "audio/music/rocketbattle.asm"
 INCLUDE "audio/music/elmslab.asm"
 INCLUDE "audio/music/darkcave.asm"
-INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
 INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/vermilioncity.asm"
@@ -190,3 +189,9 @@ INCLUDE "audio/music/victoryroadrse.asm"
 INCLUDE "audio/music/silphco.asm"
 INCLUDE "audio/music/pokemontower.asm"
 INCLUDE "audio/music/oakbattle.asm"
+
+
+SECTION "Even Newer Songs", ROMX
+
+INCLUDE "audio/music/johtogymbattle.asm"
+INCLUDE "audio/music/championbattlebw2.asm"

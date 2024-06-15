@@ -672,14 +672,6 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	jp .nextscene
 
 .cgb
-	ld hl, .prycepals
-	ld a, [wOtherTrainerClass]
-	cp PRYCE
-	jp z, .load_rocket_pals
-	cp PRYCE_2
-	jp z, .load_rocket_pals
-	cp PRYCE_3
-	jr z, .load_rocket_pals
 	ld hl, .enokipals
 	ld a, [wOtherTrainerClass]
 	cp ENOKI
@@ -730,7 +722,7 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	jr z, .load_rocket_pals
 	cp EIN
 	jr z, .load_rocket_pals
-	cp MYSTERIOUS
+	cp KNIGHT
 	jr z, .load_rocket_pals
 	cp MADAME_BOSS
 	jr z, .load_rocket_pals
@@ -794,9 +786,6 @@ INCLUDE "gfx/overworld/trainer_battle_dark.pal"
 .rocketpals
 INCLUDE "gfx/overworld/rocket_battle.pal"
 
-.prycepals
-INCLUDE "gfx/overworld/pryce_battle.pal"
-
 .enokipals
 INCLUDE "gfx/overworld/enoki_battle.pal"
 
@@ -831,7 +820,7 @@ INCLUDE "gfx/overworld/master_battle.pal"
 	ret z
 	cp SCIENTIST
 	ret z
-	cp MYSTERIOUS
+	cp KNIGHT
 	ret z
 	cp MADAME_BOSS
 	ret z
@@ -843,9 +832,6 @@ INCLUDE "gfx/overworld/master_battle.pal"
 	cp CLAIR
 	ret z
 	cp MASTER
-	ret z
-	ld de, PryceTransition
-	cp PRYCE
 	ret z
 	cp PRYCE_2
 	ret z

@@ -2400,22 +2400,22 @@ CuboneEvosAttacks:
 
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SWORDS_DANCE
-	dbw 1, SWORDS_DANCE
+	dbw LEARN_EVO_MOVE, SHADOW_BONE
+	dbw 1, SHADOW_BONE
 	dbw 1, GROWL
 	dbw 3, TAIL_WHIP
 	dbw 7, BONE_CLUB
-	dbw 11, HEADBUTT
+	dbw 11, FLAME_WHEEL
 	dbw 13, LEER
-	dbw 17, FOCUS_ENERGY
+	dbw 17, HEX
 	dbw 21, BONEMERANG
-	dbw 23, RAGE
+	dbw 23, WILL_O_WISP
 	dbw 27, FALSE_SWIPE
 	dbw 33, THRASH
 	dbw 37, FAINT_ATTACK
 	dbw 43, HIHORSEPOWER
-	dbw 49, BRICK_BREAK
-	dbw 53, DOUBLE_EDGE
+	dbw 49, SHADOW_CLAW
+	dbw 53, FLARE_BLITZ
 	dbw 59, EARTHQUAKE
 	dbw 65, BONE_RUSH
 	db 0 ; no more level-up moves

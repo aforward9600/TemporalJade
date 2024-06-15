@@ -57,10 +57,10 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,      $084,  $150 ; BELLOSSOM
 	mon_cry CRY_PARAS,       $020,  $160 ; PARAS
 	mon_cry CRY_PARAS,       $042,  $17f ; PARASECT
-	mon_cry CRY_VENONAT,     $044,  $0c0 ; VENONAT
-	mon_cry CRY_VENONAT,     $029,  $100 ; VENOMOTH
-	mon_cry CRY_DIGLETT,     $0aa,  $081 ; DIGLETT
-	mon_cry CRY_DIGLETT,     $02a,  $090 ; DUGTRIO
+	mon_cry CRY_PICHU,      -$03e,  $0fc ; CUTIEFLY
+	mon_cry CRY_PICHU,      -$029,  $3a0 ; RIBOMBEE
+	mon_cry CRY_DIGLETT,     $0aa,  $081 ; SANDYGHAST
+	mon_cry CRY_DIGLETT,     $02a,  $090 ; PALOSSAND
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; MEOWTH
 	mon_cry CRY_CLEFAIRY,    $099,  $17f ; PERSIAN
 	mon_cry CRY_PSYDUCK,     $020,  $0e0 ; PSYDUCK

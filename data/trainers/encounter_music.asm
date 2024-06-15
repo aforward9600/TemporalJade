@@ -7,7 +7,7 @@ TrainerEncounterMusic::
 	db MUSIC_OFFICER_ENCOUNTER     ; whitney
 	db MUSIC_OFFICER_ENCOUNTER     ; kurt
 	db MUSIC_SAGE_ENCOUNTER        ; enoki
-	db MUSIC_OFFICER_ENCOUNTER     ; pryce
+	db MUSIC_OFFICER_ENCOUNTER     ; steve
 	db MUSIC_HIKER_ENCOUNTER       ; byron
 	db MUSIC_OFFICER_ENCOUNTER     ; chuck
 	db MUSIC_BEAUTY_ENCOUNTER      ; clair

@@ -114,7 +114,7 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke VENIPEDE, 5, ORAN_BERRY
+	givepoke TEPIG, 5, ORAN_BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, .turnplayer
@@ -161,7 +161,7 @@ MudkipPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke WHIRLIPEDE, 5, ORAN_BERRY
+	givepoke MUDKIP, 5, ORAN_BERRY
 	closetext
 	applymovement PLAYER, AfterRivalTepigMovement
 	pause 10
@@ -204,7 +204,7 @@ RowletPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke SCOLIPEDE, 5, ORAN_BERRY
+	givepoke ROWLET, 5, ORAN_BERRY
 	closetext
 	applymovement PLAYER, AfterRowletMovement
 	pause 10
@@ -293,7 +293,7 @@ JuniperAfterStarter:
 	iftrue .JuniperLabMudkipBattleFemale
 	winlosstext JuniperLabRivalWinText, JuniperLabRivalLoseText
 	setlasttalked JUNIPERSLAB_RIVAL
-	loadtrainer RIVAL4, RIVAL4_A_TEPIG
+	loadtrainer STEVE, STEVE_ROWLET
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	reloadmap
@@ -1109,8 +1109,12 @@ StartYourJourneyText:
 	cont "School?"
 
 	para "Just head west on"
-	line "Route 24, you can't"
-	cont "miss it!"
+	line "Route 24 and you'll"
+	cont "end up in Antiquo"
+	cont "Town."
+
+	para "It's west from"
+	line "there."
 
 	para "Not only will you"
 	line "gain #mon"

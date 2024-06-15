@@ -2,9 +2,7 @@
 	const CHERRYGROVEGYMSPEECHHOUSE_CYNTHIA
 
 CherrygroveGymSpeechHouse_MapScripts:
-	db 2 ; scene scripts
-	scene_script .DummyScene1 ; SCENE_CHERRYGROVECITYHOUSE_NOTHING
-	scene_script .CynthiaMeetsYou ; SCENE_CHERRYGROVECITYHOUSE_MEET_CYNTHIA
+	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
@@ -41,7 +39,6 @@ CherrygroveGymSpeechHouse_MapScripts:
 	special RestartMapMusic
 	waitsfx
 	playmapmusic
-	setscene SCENE_CHERRYGROVECITYHOUSE_NOTHING
 	end
 
 .CynthiaBattle2:
@@ -61,7 +58,6 @@ CherrygroveGymSpeechHouse_MapScripts:
 	special RestartMapMusic
 	waitsfx
 	playmapmusic
-	setscene SCENE_CHERRYGROVECITYHOUSE_NOTHING
 	end
 
 .RefusedCynthiaBattle1:
@@ -73,7 +69,6 @@ CherrygroveGymSpeechHouse_MapScripts:
 	special RestartMapMusic
 	waitsfx
 	playmapmusic
-	setscene SCENE_CHERRYGROVECITYHOUSE_NOTHING
 	end
 
 CherrygroveGymSpeechHouseCynthiaScript:

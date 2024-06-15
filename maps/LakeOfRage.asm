@@ -57,7 +57,7 @@ LakeOfRageMiyamotoScript:
 	writetext HelloText
 	closetext
 	winlosstext MiyamotoLossText, MiyamotoLakeOfRageLastText
-	loadtrainer PASSERBY, MIYAMOTO
+	loadtrainer KNIGHT, KNIGHT
 	startbattle
 	reloadmapafterbattle
 	opentext
@@ -69,7 +69,6 @@ LakeOfRageMiyamotoScript:
 	disappear LAKEOFRAGE_MIYAMOTO
 	pause 15
 	special FadeInQuickly
-	setevent EVENT_LAKE_OF_RAGE_MIYAMOTO
 	clearevent EVENT_MOUNT_MORTAR_HIKER_1
 	setevent EVENT_MOUNT_MORTAR_HIKER_2
 	end
@@ -82,7 +81,6 @@ MiyamotoLakeOfRageLastText:
 LakeOfRageRivalScript:
 	faceplayer
 	opentext
-	checkevent EVENT_LAKE_OF_RAGE_MIYAMOTO
 	iftrue .BeatMiyamoto
 	writetext LakeOfRageRivalScaryText
 	waitbutton
@@ -536,7 +534,7 @@ LakeOfRage_MapEvents:
 	bg_event  4,  9, BGEVENT_READ, LakeOfRageMartSign
 
 	db 12 ; object events
-	object_event 20, 30, SPRITE_MIYAMOTO, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageMiyamotoScript, EVENT_LAKE_OF_RAGE_MIYAMOTO
+	object_event 20, 30, SPRITE_KNIGHT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageMiyamotoScript, EVENT_ANTIQUO_TOWN_KNIGHT
 	object_event 20, 32, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageRivalScript, EVENT_RIVAL_AT_LAKE_OF_RAGE_1
 	object_event 36, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageSuperNerdScript, -1
 	object_event  9, 32, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageCooltrainerFScript, -1

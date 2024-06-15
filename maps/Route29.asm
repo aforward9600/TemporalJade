@@ -131,6 +131,9 @@ Route29Sign1:
 Route29Sign2:
 	jumptext Route29Sign2Text
 
+VictoryRoadGateSign:
+	jumptext VictoryRoadGateSignText
+
 Route29FruitTree:
 	fruittree FRUITTREE_ROUTE_29
 
@@ -334,17 +337,22 @@ CooltrainerfReeseAfterText:
 	done
 
 Route29Sign1Text:
-	text "Route 29"
+	text "Route 24"
 
-	para "Cherrygrove City -"
-	line "New Bark Town"
+	para "Antiquo Town -"
+	line "Murkrow Valley"
 	done
 
 Route29Sign2Text:
-	text "Route 29"
+	text "Route 24"
 
-	para "Cherrygrove City -"
-	line "New Bark Town"
+	para "Antiquo Town -"
+	line "Murkrow Valley"
+	done
+
+VictoryRoadGateSignText:
+	text "Gate to Victory"
+	line "Road"
 	done
 
 RaikouCry:
@@ -354,14 +362,16 @@ RaikouCry:
 Route29_MapEvents:
 	db 0, 0 ; filler
 
-	db 1 ; warp events
-	warp_event 27,  1, ROUTE_29_ROUTE_46_GATE, 3
+	db 2 ; warp events
+	warp_event 31, 13, VICTORY_ROAD_GATE, 1
+	warp_event 32, 13, VICTORY_ROAD_GATE, 2
 
 	db 0 ; coord events
 
-	db 2 ; bg events
+	db 3 ; bg events
 	bg_event 51,  7, BGEVENT_READ, Route29Sign1
 	bg_event  3,  5, BGEVENT_READ, Route29Sign2
+	bg_event 30, 10, BGEVENT_READ, VictoryRoadGateSign
 
 	db 7 ; object events
 	object_event 48, 10, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfReese, -1

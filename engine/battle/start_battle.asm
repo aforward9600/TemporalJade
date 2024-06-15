@@ -145,7 +145,7 @@ PlayBattleMusic:
 	jr z, .done
 	cp SCIENTIST
 	jr z, .done
-	cp MYSTERIOUS
+	cp KNIGHT
 	jr z, .done
 	cp MNINJA_M
 	jr z, .done

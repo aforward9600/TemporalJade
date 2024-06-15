@@ -63,10 +63,10 @@ MonMenuIconPals:
 	icon_pals GREEN,  RED    ; BELLOSSOM
 	icon_pals RED,    BROWN  ; PARAS
 	icon_pals RED,    BROWN  ; PARASECT
-	icon_pals RED,    BLUE   ; VENONAT
-	icon_pals PURPLE, BLUE   ; VENOMOTH
-	icon_pals BROWN,  PURPLE ; DIGLETT
-	icon_pals BROWN,  PURPLE ; DUGTRIO
+	icon_pals RED,    PURPLE ; CUTIEFLY
+	icon_pals RED,    PURPLE ; RIBOMBEE
+	icon_pals BROWN,  GRAY   ; SANDYGHAST
+	icon_pals BROWN,  GRAY   ; PALOSSAND
 	icon_pals BROWN,  PURPLE ; MEOWTH
 	icon_pals BROWN,  PURPLE ; PERSIAN
 	icon_pals RED,    PURPLE ; PSYDUCK
@@ -125,7 +125,7 @@ MonMenuIconPals:
 	icon_pals PINK,   GREEN  ; EXEGGCUTE
 	icon_pals GREEN,  RED    ; EXEGGUTOR
 	icon_pals BROWN,  TEAL   ; CUBONE
-	icon_pals BROWN,  TEAL   ; MAROWAK
+	icon_pals PURPLE, BLUE   ; MAROWAK
 	icon_pals BROWN,  BLUE   ; TYROGUE
 	icon_pals BROWN,  TEAL   ; HITMONLEE
 	icon_pals BROWN,  BLUE   ; HITMONCHAN

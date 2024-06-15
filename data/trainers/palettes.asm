@@ -11,7 +11,7 @@ INCLUDE "gfx/trainers/walker.pal"
 INCLUDE "gfx/trainers/milton.pal"
 INCLUDE "gfx/trainers/kurt.pal"
 INCLUDE "gfx/trainers/enoki.pal"
-INCLUDE "gfx/trainers/pryce.pal"
+INCBIN "gfx/trainers/steve.gbcpal", middle_colors
 INCLUDE "gfx/trainers/byron.pal"
 INCLUDE "gfx/trainers/chuck.pal"
 INCBIN "gfx/trainers/clair.gbcpal", middle_colors
@@ -82,8 +82,8 @@ INCLUDE "gfx/trainers/chigusa.pal"
 INCLUDE "gfx/trainers/master.pal"
 INCLUDE "gfx/trainers/gen_surge.pal"
 INCBIN "gfx/trainers/lance.gbcpal", middle_colors
-INCLUDE "gfx/trainers/miyamoto.pal"
-INCLUDE "gfx/trainers/miyamoto.pal"
+INCBIN "gfx/trainers/knight.gbcpal", middle_colors
+INCBIN "gfx/trainers/knight.gbcpal", middle_colors
 INCBIN "gfx/trainers/cynthia.gbcpal", middle_colors
 INCBIN "gfx/trainers/engineer.gbcpal", middle_colors
 INCBIN "gfx/trainers/ninja_m.gbcpal", middle_colors

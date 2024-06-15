@@ -6,7 +6,7 @@ BTTrainerClassGenders:
 	db MALE   ; MILTON
 	db MALE   ; KURT
 	db MALE   ; ENOKI
-	db MALE   ; PRYCE
+	db MALE   ; STEVE
 	db MALE   ; BYRON
 	db MALE   ; CHUCK
 	db FEMALE ; CLAIR

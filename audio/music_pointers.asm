@@ -48,7 +48,7 @@ Music:
 	dba Music_Route30
 	dba Music_EcruteakCity
 	dba Music_VioletCity
-	dba Music_JohtoGymBattle
+	dba Music_GymLeaderUnova
 	dba Music_ChampionBattle
 	dba Music_RivalBattle
 	dba Music_RocketBattle
@@ -148,3 +148,4 @@ Music:
 	dba Music_SilphCo
 	dba Music_PokemonTower
 	dba Music_OakBattle
+	dba Music_ChampionBattle_B2W2

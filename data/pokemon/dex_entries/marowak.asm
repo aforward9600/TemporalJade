@@ -1,10 +1,10 @@
 	db "Bonekeeper@" ; species name
-	dw 303, 990 ; height, weight
+	dw 303, 750 ; height, weight
 
-	db   "Somewhere in the"
-	next "world is a ceme-"
-	next "tery just for"
+	db   "The rich greenery"
+	next "of the Onaga"
+	next "region is hard on"
 
-	page "Marowak. It gets"
-	next "its bones from"
-	next "those graves.@"
+	page "Marowak. It"
+	next "controls fire to"
+	next "stay alive.@"

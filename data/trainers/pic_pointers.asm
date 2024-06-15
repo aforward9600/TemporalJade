@@ -6,7 +6,7 @@ TrainerPicPointers::
 	dba MiltonPic
 	dba KurtPic
 	dba EnokiPic
-	dba PrycePic
+	dba StevePic
 	dba ByronPic
 	dba ChuckPic
 	dba ClairPic
@@ -77,8 +77,8 @@ TrainerPicPointers::
 	dba MasterPic
 	dba GenSurgePic
 	dba LancePic
-	dba PasserbyPic
-	dba PasserbyPic
+	dba KnightPic
+	dba KnightPic
 	dba TouristPic
 	dba EngineerPic
 	dba MahoganyNinjaMPic
@@ -90,8 +90,8 @@ TrainerPicPointers::
 	dba DragonTamerMPic
 	dba MadameBossPic
 	dba CynthiaPic
-	dba PrycePic
-	dba PrycePic
+	dba StevePic
+	dba StevePic
 	dba EnokiPic
 	dba EnokiPic
 	dba ChigusaPic

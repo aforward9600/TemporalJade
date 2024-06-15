@@ -46,10 +46,10 @@ CHRIS EQU __enum__
 	const ENOKI1
 	const ENOKI_ALTERNATE
 
-	trainerclass PRYCE ; 5
-	const PRYCE1
-	const PRYCE2
-	const PRYCE_ALTERNATE
+	trainerclass STEVE ; 5
+	const STEVE_ROWLET
+	const STEVE_TEPIG
+	const STEVE_MUDKIP
 
 	trainerclass BYRON ; 6
 	const BYRON1
@@ -773,13 +773,13 @@ CHRIS EQU __enum__
 	trainerclass DRAGON_KID ; 4b
 	const LANCE1
 
-	trainerclass PASSERBY ; 4c
-	const MIYAMOTO
+	trainerclass WANDERER ; 4c
+	const KNIGHT
 
-	trainerclass MYSTERIOUS ; 4d
-	const MIYAMOTO1
-	const MIYAMOTO2
-	const MIYAMOTO3
+	trainerclass TEMPORA_KNIGHT ; 4d
+	const KNIGHT1
+	const KNIGHT2
+	const KNIGHT3
 
 	trainerclass TOURIST ; 4e
 	const CYNTHIA1

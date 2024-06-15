@@ -248,7 +248,7 @@ LugiaEvosAttacks:
 	dbw 23, EXTRASENSORY
 	dbw 29, RAIN_DANCE
 	dbw 37, HYDRO_PUMP
-	dbw 43, AEROBLAST
+	dbw 43, AIR_SLASH
 	dbw 50, PSYCHIC_M
 	dbw 57, ANCIENTPOWER
 	dbw 65, SAFEGUARD

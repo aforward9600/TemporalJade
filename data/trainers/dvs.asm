@@ -7,7 +7,7 @@ if DEF(_CHALLENGE)
 	dn 12, 12, 12, 12 ; MILTON
 	dn 12, 10, 10, 10 ; KURT
 	dn 12, 10, 10, 10 ; ENOKI
-	dn 12, 10, 10, 10 ; PRYCE
+	dn 12, 10, 10, 10 ; STEVE
 	dn 15, 15, 10, 10 ; BYRON
 	dn 12, 10, 10, 10 ; CHUCK
 	dn 12, 10, 10, 10 ; CLAIR
@@ -78,8 +78,8 @@ if DEF(_CHALLENGE)
 	dn 14, 14, 15, 15 ; MASTER
 	dn 15, 14, 15, 15 ; GEN_SURGE
 	dn 12, 10, 10, 10 ; LANCE
-	dn 12, 10, 10, 10 ; PASSERBY
-	dn 12, 10, 10, 10 ; MIYAMOTO
+	dn 12, 10, 10, 10 ; WANDERING
+	dn 12, 10, 10, 10 ; KNIGHT
 	dn 15, 14, 15, 15 ; TOURIST
 	dn 12, 10, 10, 10 ; ENGINEER
 	dn 12, 10, 13, 10 ; MNINJA_M
@@ -118,7 +118,7 @@ else
 	dn  8,  8,  8,  8 ; MILTON
 	dn  9,  8,  8,  8 ; KURT
 	dn  9,  8,  8,  8 ; ENOKI
-	dn  9,  8,  8,  8 ; PRYCE
+	dn  9,  8,  8,  8 ; STEVE
 	dn  12, 12, 8,  8 ; BYRON
 	dn  9,  8,  8,  8 ; CHUCK
 	dn  7,  8,  8,  8 ; CLAIR
@@ -189,8 +189,8 @@ else
 	dn 12, 12, 13, 13 ; MASTER
 	dn 13, 12, 13, 13 ; GEN_SURGE
 	dn  9,  8,  8,  8 ; LANCE
-	dn  7,  8,  8,  8 ; PASSERBY
-	dn  7,  8,  8,  8 ; MIYAMOTO
+	dn  7,  8,  8,  8 ; WANDERING
+	dn  7,  8,  8,  8 ; KNIGHT
 	dn 13, 12, 13, 13 ; TOURIST
 	dn  9,  8,  8,  8 ; ENGINEER
 	dn 10,  8, 11,  8 ; MNINJA_M

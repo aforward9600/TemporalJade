@@ -52,7 +52,6 @@ VictoryRoadGateBadgeCheckScript:
 	writetext VictoryRoadGateEightBadgesText
 	waitbutton
 	closetext
-	setscene SCENE_VICTORY_ROAD_GATE_RIVAL
 	end
 
 .WelcomeBackChampion:
@@ -211,7 +210,7 @@ VictoryRoadGateRightBlackBeltEndScript:
 	end
 
 VictoryRoadGateStepDownMovement:
-	step DOWN
+	step UP
 	step_resume
 
 PlayerWalksToOakAndRival:
@@ -268,15 +267,25 @@ RivalGoesToVictoryRoadMovement:
 	step_end
 
 VictoryRoadGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "This leads to"
+	line "Victory Road."
+
+	para "On the other side,"
+	line "you will find the"
+	cont "#mon League of"
+	cont "the Unova region."
+
+	para "Only those who"
+	line "have obtained"
+	cont "the eight badges"
+	cont "of Onaga can"
+	cont "continue."
 	done
 
 VictoryRoadGateNotEnoughBadgesText:
 	text "You don't have all"
 	line "the Gym Badges of"
-	cont "Johto."
+	cont "Onaga."
 
 	para "I'm sorry, but I"
 	line "can't let you go"
@@ -285,7 +294,7 @@ VictoryRoadGateNotEnoughBadgesText:
 
 VictoryRoadGateEightBadgesText:
 	text "Oh! The eight"
-	line "Badges of Johto!"
+	line "Badges of Onaga!"
 
 	para "Please, go right"
 	line "on through!"
@@ -556,31 +565,27 @@ VictoryRoadGateGoOnThroughText:
 VictoryRoadGate_MapEvents:
 	db 0, 0 ; filler
 
-	db 8 ; warp events
-	warp_event 17,  7, ROUTE_22, 1
-	warp_event 18,  7, ROUTE_22, 1
-	warp_event  9, 17, ROUTE_26, 1
-	warp_event 10, 17, ROUTE_26, 1
-	warp_event  9,  0, VICTORY_ROAD, 1
-	warp_event 10,  0, VICTORY_ROAD, 1
-	warp_event  1,  7, ROUTE_28, 2
-	warp_event  2,  7, ROUTE_28, 2
+	db 4 ; warp events
+	warp_event  1,  0, ROUTE_29, 1
+	warp_event  2,  0, ROUTE_29, 2
+	warp_event  1, 11, VICTORY_ROAD, 1
+	warp_event  2, 11, VICTORY_ROAD, 1
 
 	db 6 ; coord events
-	coord_event 10, 11, SCENE_VICTORY_ROAD_GATE_GUARD, VictoryRoadGateBadgeCheckScene
-	coord_event 10, 11, SCENE_VICTORY_ROAD_GATE_OAK, VictoryRoadGateBadgeOakScene
-	coord_event 11,  5, SCENE_VICTORY_ROAD_GATE_OAK, VictoryRoadGateBadgeOakScene2
-	coord_event  8,  6, SCENE_VICTORY_ROAD_GATE_OAK, VictoryRoadGateBadgeOakScene3
-	coord_event  9,  1, SCENE_VICTORY_ROAD_GATE_RIVAL, VictoryRoadRival2
-	coord_event 10,  1, SCENE_VICTORY_ROAD_GATE_RIVAL, VictoryRoadRival1
+	coord_event  2,  5, SCENE_VICTORY_ROAD_GATE_GUARD, VictoryRoadGateBadgeCheckScene
+	coord_event  2, 11, SCENE_VICTORY_ROAD_GATE_OAK, VictoryRoadGateBadgeOakScene
+	coord_event  3,  5, SCENE_VICTORY_ROAD_GATE_OAK, VictoryRoadGateBadgeOakScene2
+	coord_event  0,  6, SCENE_VICTORY_ROAD_GATE_OAK, VictoryRoadGateBadgeOakScene3
+	coord_event  1,  1, SCENE_VICTORY_ROAD_GATE_RIVAL, VictoryRoadRival2
+	coord_event  2,  1, SCENE_VICTORY_ROAD_GATE_RIVAL, VictoryRoadRival1
 
 	db 0 ; bg events
 
-	db 7 ; object events
-	object_event  8, 11, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateOfficerScript, -1
-	object_event  7,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateLeftBlackBeltScript, EVENT_OPENED_MT_SILVER
-	object_event 12,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRightBlackBeltScript, EVENT_VICTORY_ROAD_GATE_GUARD
-	object_event 10,  5, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateOakScript, EVENT_VICTORY_ROAD_GATE_OAK
-	object_event  9,  6, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRivalScript, EVENT_VICTORY_ROAD_GATE_RIVAL
-	object_event 10,  6, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRivalScript, EVENT_VICTORY_ROAD_GATE_RIVAL_2
-	object_event 16,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRightBlackBeltEndScript, EVENT_VICTORY_ROAD_GATE_GUARD_2
+	db 1 ; object events
+	object_event  0,  5, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateOfficerScript, -1
+;	object_event -1,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateLeftBlackBeltScript, EVENT_OPENED_MT_SILVER
+;	object_event  4,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRightBlackBeltScript, EVENT_VICTORY_ROAD_GATE_GUARD
+;	object_event  2,  5, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateOakScript, EVENT_VICTORY_ROAD_GATE_OAK
+;	object_event  1,  6, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRivalScript, EVENT_VICTORY_ROAD_GATE_RIVAL
+;	object_event  2,  6, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRivalScript, EVENT_VICTORY_ROAD_GATE_RIVAL_2
+;	object_event  8,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadGateRightBlackBeltEndScript, EVENT_VICTORY_ROAD_GATE_GUARD_2

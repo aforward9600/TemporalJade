@@ -7,7 +7,6 @@ AlphabeticalMoveList::
 	dw ACID_SPRAY
 	dw ACROBATICS
 	dw AERIAL_ACE
-	dw AEROBLAST
 	dw AGILITY
 	dw AIR_CUTTER
 	dw AIR_SLASH
@@ -303,6 +302,7 @@ AlphabeticalMoveList::
 	dw SEISMIC_TOSS
 	dw SELFDESTRUCT
 	dw SHADOW_BALL
+	dw SHADOW_BONE
 	dw SHADOW_CLAW
 	dw SHADOW_PUNCH
 	dw SHADOW_SNEAK

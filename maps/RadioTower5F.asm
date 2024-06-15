@@ -58,7 +58,7 @@ Reconverge:
 	closetext
 	winlosstext RadioTowerMiyamotoWinText, RadioTowerMiyamotoLastText
 	setlasttalked RADIOTOWER5F_MIYAMOTO
-	loadtrainer MYSTERIOUS, MIYAMOTO2
+	loadtrainer KNIGHT, KNIGHT1
 	startbattle
 	reloadmapafterbattle
 	opentext
@@ -311,5 +311,5 @@ RadioTower5F_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  9, 12, SPRITE_MIYAMOTO, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOLDENROD_TOWER_TAKEOVER
+	object_event  9, 12, SPRITE_KNIGHT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOLDENROD_TOWER_TAKEOVER
 	object_event  0, 17, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOLDENROD_TOWER_RIVAL_1

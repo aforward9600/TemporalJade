@@ -57,7 +57,7 @@ OverworldSprites:
 	overworld_sprite SwimmerGirlSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigSnorlaxSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite SurfingPikachuSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite RocketSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite PawnSpriteGFX, 12, WALKING_SPRITE, PAL_OW_SILVER
 	overworld_sprite RocketGirlSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite NurseSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite LinkReceptionistSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
@@ -107,7 +107,7 @@ OverworldSprites:
 	overworld_sprite EnteiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
-	overworld_sprite ArcherSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite KingSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite HikerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite KidSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BreederSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
@@ -118,7 +118,7 @@ OverworldSprites:
 	overworld_sprite ArianaSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite MasterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite GenSurgeSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite MiyamotoSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite KnightSpriteGFX, 12, WALKING_SPRITE, PAL_OW_SILVER
 	overworld_sprite SherlesSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite EngineerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite NinjaSpriteGFX, 12, WALKING_SPRITE, PAL_OW_SILVER

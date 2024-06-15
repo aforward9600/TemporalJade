@@ -6,7 +6,7 @@ TrainerGroups:
 	dba MiltonGroup
 	dba KurtGroup
 	dba EnokiGroup
-	dba PryceGroup
+	dba SteveGroup
 	dba ByronGroup
 	dba ChuckGroup
 	dba ClairGroup
@@ -77,8 +77,8 @@ TrainerGroups:
 	dba MasterGroup
 	dba GenSurgeGroup
 	dba LanceGroup
-	dba PasserbyGroup
-	dba MiyamotoGroup
+	dba WanderingGroup
+	dba KnightGroup
 	dba CynthiaGroup
 	dba EngineerGroup
 	dba MahoganyNinjaMGroup

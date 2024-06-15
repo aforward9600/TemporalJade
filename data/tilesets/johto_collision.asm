@@ -159,7 +159,7 @@
 	tilecoll TALL_GRASS, TALL_GRASS, HEADBUTT_TREE, TALL_GRASS ; 9e
 	tilecoll FLOOR, WALL, WALL, WALL ; 9f
 	tilecoll WALL, WALL, WALL, WALL ; a0
-	tilecoll FLOOR, FLOOR, WALL, WALL ; a1
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a1
 	tilecoll PUDDLE, PUDDLE, PUDDLE, PUDDLE ; a2
 	tilecoll WALL, WALL, WALL, WALL ; a3
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a4

@@ -5,7 +5,6 @@ CriticalHitMoves:
 	dw SKY_ATTACK
 	dw CRABHAMMER
 	dw SLASH
-	dw AEROBLAST
 	dw CROSS_CHOP
 	dw NIGHT_SLASH
 	dw SHADOW_CLAW

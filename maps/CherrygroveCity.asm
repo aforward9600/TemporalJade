@@ -1,12 +1,20 @@
 	object_const_def ; object_event constants
-	const CHERRYGROVECITY_GRAMPS
-	const CHERRYGROVECITY_COOLTRAINER_F
-	const CHERRYGROVECITY_BUG_CATCHER
-	const CHERRYGROVECITY_FISHER
-	const CHERRYGROVECITY_LASS
+	const ANTIQUOTOWN_GRAMPS
+	const ANTIQUOTOWN_PAWN1
+	const ANTIQUOTOWN_PAWN2
+	const ANTIQUOTOWN_PAWN3
+	const ANTIQUOTOWN_KING
+	const ANTIQUOTOWN_KNIGHT
+	const ANTIQUOTOWN_LASS
+	const ANTIQUOTOWN_FISHER
+	const ANTIQUOTOWN_TEACHER
+	const ANTIQUOTOWN_YOUNGSTER
+	const ANTIQUOTOWN_GRAMPS2
 
 CherrygroveCity_MapScripts:
-	db 0 ; scene scripts
+	db 2 ; scene scripts
+	scene_script .DummyScene0 ; SCENE_CHERRYGROVECITY_KNIGHTS
+	scene_script .DummyScene1 ; SCENE_CHERRYGROVECITY_NOTHING
 
 	db 1 ; callbacks
 	callback MAPCALLBACK_NEWMAP, .FlyPoint
@@ -15,9 +23,6 @@ CherrygroveCity_MapScripts:
 	end
 
 .DummyScene1:
-	end
-
-.DummyScene2:
 	end
 
 .FlyPoint:
@@ -69,6 +74,17 @@ CherrygroveCityPokecenterSign:
 
 CherrygroveCityMartSign:
 	jumpstd martsign
+
+AnitquoTownStop:
+	turnobject PLAYER, UP
+	turnobject ANTIQUOTOWN_GRAMPS, DOWN
+	end
+
+; EVENT_ANTIQUO_TOWN_TEMPORAS
+; EVENT_ANTIQUO_TOWN_KNIGHT
+
+AntiquoTownGrampsScript:
+	jumptextfaceplayer AntiquoTownGrampsText
 
 GuideGentMovement1:
 	step LEFT
@@ -312,14 +328,29 @@ CherrygroveCityLassText:
 	done
 
 CherrygroveCitySignText:
-	text "Cherrygrove City"
+	text "Antiquo Town"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "A picture of"
+	line "antiquity"
 	done
 
 GuideGentsHouseSignText:
 	text "Guide Gent's House"
+	done
+
+AntiquoTownGrampsText:
+	text "What did you think"
+	line "of that speech?"
+
+	para "He seemed very"
+	line "convinced of his"
+	cont "beliefs."
+
+	para "Maybe we should"
+	line "listen to him,"
+
+	para "before it's too"
+	line "late…"
 	done
 
 CherrygroveCity_MapEvents:
@@ -333,7 +364,8 @@ CherrygroveCity_MapEvents:
 	warp_event 31, 11, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, 1
 	warp_event  5, 11, CHERRYGROVE_FISHER_HOUSE, 1
 
-	db 0 ; coord events
+	db 1 ; coord events
+	coord_event 12,  9, SCENE_CHERRYGROVECITY_KNIGHTS, AnitquoTownStop
 
 	db 4 ; bg events
 	bg_event 30,  8, BGEVENT_READ, CherrygroveCitySign
@@ -341,9 +373,15 @@ CherrygroveCity_MapEvents:
 	bg_event 24,  3, BGEVENT_READ, CherrygroveCityMartSign
 	bg_event 30,  3, BGEVENT_READ, CherrygroveCityPokecenterSign
 
-	db 5 ; object events
-	object_event 32,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveCityGuideGent, EVENT_GUIDE_GENT_IN_HIS_HOUSE
-	object_event 24, 12, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CherrygroveCooltrainerFScript, -1
-	object_event 25,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveBugCatcherScript, -1
-	object_event  7, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1
-	object_event 14, 11, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveCityLassScript, -1
+	db 11 ; object events
+	object_event 12,  8, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveCityGuideGent, EVENT_ANTIQUO_TOWN_CROWD
+	object_event  5,  5, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
+	object_event  6,  5, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
+	object_event  7,  5, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
+	object_event  6,  6, SPRITE_KING, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
+	object_event  2,  9, SPRITE_KNIGHT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_KNIGHT
+	object_event  4,  8, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD
+	object_event  5, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD
+	object_event  8, 10, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD
+	object_event  9,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD
+	object_event 34, 10, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AntiquoTownGrampsScript, EVENT_ANTIQUO_TOWN_CIVILLIANS

@@ -175,7 +175,7 @@ MoveNames::
 	db "Curse@"
 	db "Flail@"
 	db "Calm Mind@"
-	db "Aeroblast@"
+	db "Shadow Bone@"
 	db "Cotton Spore@"
 	db "Reversal@"
 	db "Spite@"

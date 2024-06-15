@@ -1115,32 +1115,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 49, AMPHAROS
-	dbw 49, FEAROW
-	dbw 49, SCOLIPEDE
-	dbw 49, GARDEVOIR
-	dbw 49, RATICATE
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, VENIPEDE
+	dbw  4, VENIPEDE
 	; day
-	dbw 49, AMPHAROS
-	dbw 49, FEAROW
-	dbw 49, SCOLIPEDE
-	dbw 49, GARDEVOIR
-	dbw 49, RATICATE
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, VENIPEDE
+	dbw  4, VENIPEDE
 	; nite
-	dbw 49, AMPHAROS
-	dbw 49, MURKROW
-	dbw 49, RATICATE
-	dbw 49, GARDEVOIR
-	dbw 49, RATICATE
-	dbw 49, NOCTOWL
-	dbw 49, NOCTOWL
-	dbw 49, NOCTOWL
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, LILLIPUP
+	dbw  4, PIKIPEK
+	dbw  4, VENIPEDE
+	dbw  4, VENIPEDE
 
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

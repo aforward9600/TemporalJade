@@ -761,125 +761,35 @@ endc
 
 	end_list_items
 
-PryceGroup:
-	next_list_item ; PRYCE (1)
-	db "Pryce@", TRAINERTYPE_ITEM_MOVES
-if DEF(_CHALLENGE)
-	db 14
-	dw SNORUNT
-	db FOCUS_SASH
-	dw ICY_WIND, ICE_SHARD, LEER, DOUBLE_TEAM
-endc
-	db 14
-	dw SMOOCHUM
-if DEF(_CHALLENGE)
-	db NEVERMELTICE
-else
-	db NO_ITEM
-endc
-	dw SWEET_KISS, POUND, ICY_WIND, CONFUSION
-if DEF(_CHALLENGE)
-	db 14
-	dw PSYDUCK
-	db MYSTIC_WATER
-	dw FURY_SWIPES, CONFUSION, BUBBLE, ICY_WIND
-endc
-	db 14
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	dw MUD_SLAP, POWDER_SNOW, TACKLE, HAIL
-	db 15
-	dw SNEASEL
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db ORAN_BERRY
-endc
-	dw SCRATCH, PURSUIT, HONE_CLAWS, ICE_SHARD
+SteveGroup:
+	next_list_item ; STEVE (1)
+	db "Steve@", TRAINERTYPE_MOVES
+	db 12
+	dw LILLIPUP
+	dw FAKE_OUT, WORK_UP, TACKLE, BITE
+	db 13
+	dw PIKIPEK
+	dw PECK, GROWL, SUPERSONIC, ROCK_SMASH
 	db -1 ; end
 
-	next_list_item ; PRYCE (2)
-	db "Pryce@", TRAINERTYPE_ITEM_MOVES
-if DEF(_CHALLENGE)
-	db 21
-	dw SNORUNT
-	db FOCUS_SASH
-	dw BITE, ICE_SHARD, LEER, DOUBLE_TEAM
-endc
-	db 21
-	dw SMOOCHUM
-if DEF(_CHALLENGE)
-	db NEVERMELTICE
-else
-	db NO_ITEM
-endc
-	dw SING, POWDER_SNOW, ICY_WIND, CONFUSION
-if DEF(_CHALLENGE)
-	db 21
-	dw PSYDUCK
-	db MYSTIC_WATER
-	dw WATER_PULSE, ICY_WIND, CONFUSION, BRICK_BREAK
-endc
-	db 21
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	dw BULLDOZE, ICE_SHARD, ENDURE, HAIL
-	db 22
-	dw SNEASEL
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db ORAN_BERRY
-endc
-	dw FURY_SWIPES, FAINT_ATTACK, HONE_CLAWS, ICE_SHARD
+	next_list_item ; STEVE (2)
+	db "Steve@", TRAINERTYPE_ITEM_MOVES
+	db 12
+	dw LILLIPUP
+	dw FAKE_OUT, WORK_UP, TACKLE, BITE
+	db 13
+	dw POLIWAG
+	dw BUBBLE, HYPNOSIS, WATER_GUN, NO_MOVE
 	db -1 ; end
 
-	next_list_item ; PRYCE (Alternate)
-	db "Pryce@", TRAINERTYPE_ITEM_MOVES
-if DEF(_CHALLENGE)
-	db 15
-	dw SNORUNT
-	db FOCUS_SASH
-	dw ICY_WIND, ICE_SHARD, LEER, DOUBLE_TEAM
-endc
-	db 15
-	dw SMOOCHUM
-if DEF(_CHALLENGE)
-	db NEVERMELTICE
-else
-	db NO_ITEM
-endc
-	dw SWEET_KISS, POUND, ICY_WIND, CONFUSION
-if DEF(_CHALLENGE)
-	db 15
-	dw PSYDUCK
-	db MYSTIC_WATER
-	dw FURY_SWIPES, CONFUSION, BUBBLE, ICY_WIND
-endc
-	db 15
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	dw MUD_SLAP, POWDER_SNOW, TACKLE, HAIL
-	db 16
-	dw SNEASEL
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db ORAN_BERRY
-endc
-	dw SCRATCH, PURSUIT, HONE_CLAWS, ICE_SHARD
+	next_list_item ; Steve (3)
+	db "Steve@", TRAINERTYPE_MOVES
+	db 12
+	dw LILLIPUP
+	dw FAKE_OUT, WORK_UP, TACKLE, BITE
+	db 13
+	dw LOTAD
+	dw BUBBLE, ABSORB, GRASSWHISTLE, ASTONISH
 	db -1 ; end
 
 	end_list_items
@@ -1657,7 +1567,7 @@ if DEF(_CHALLENGE)
 else
 	db NO_ITEM
 endc
-	dw AEROBLAST, PSYCHIC_M, ROOST, HYDRO_PUMP
+	dw AIR_SLASH, PSYCHIC_M, ROOST, HYDRO_PUMP
 	db 68
 	dw TYRANITAR
 if DEF(_CHALLENGE)
@@ -1709,7 +1619,7 @@ if DEF(_CHALLENGE)
 else
 	db NO_ITEM
 endc
-	dw AEROBLAST, PSYCHIC_M, ROOST, HYDRO_PUMP
+	dw AIR_SLASH, PSYCHIC_M, ROOST, HYDRO_PUMP
 	db 68
 	dw DRAGONITE
 if DEF(_CHALLENGE)
@@ -9444,10 +9354,10 @@ LanceGroup:
 
 	end_list_items
 
-PasserbyGroup:
-	next_list_item ; MIYAMOTO
+WanderingGroup:
+	next_list_item ; WANDERING
 if DEF(_CHALLENGE)
-	db "Miyamoto@", TRAINERTYPE_ITEM
+	db "Knight@", TRAINERTYPE_ITEM
 	db 15
 	dw YANMA
 	db SCOPE_LENS
@@ -9461,19 +9371,17 @@ if DEF(_CHALLENGE)
 	dw MEOWTH
 	db SITRUS_BERRY
 else
-	db "Miyamoto@", TRAINERTYPE_NORMAL
-	db 15
-	dw HOUNDOUR
-	db 15
+	db "Knight@", TRAINERTYPE_NORMAL
+	db 8
+	dw VENIPEDE
+	db 8
 	dw ZUBAT
-	db 16
-	dw MEOWTH
 endc
 	db -1 ; end
 
 	end_list_items
 
-MiyamotoGroup:
+KnightGroup:
 	next_list_item ; MIYAMOTO1
 	db "Miyamoto@", TRAINERTYPE_ITEM_MOVES
 	db 22
@@ -12161,7 +12069,7 @@ if DEF(_CHALLENGE)
 else
 	db NO_ITEM
 endc
-	dw AEROBLAST, PSYCHIC_M, ROOST, HYDRO_PUMP
+	dw AIR_SLASH, PSYCHIC_M, ROOST, HYDRO_PUMP
 	db 68
 	dw TYRANITAR
 if DEF(_CHALLENGE)
@@ -12213,7 +12121,7 @@ if DEF(_CHALLENGE)
 else
 	db NO_ITEM
 endc
-	dw AEROBLAST, PSYCHIC_M, ROOST, HYDRO_PUMP
+	dw AIR_SLASH, PSYCHIC_M, ROOST, HYDRO_PUMP
 	db 68
 	dw DRAGONITE
 if DEF(_CHALLENGE)

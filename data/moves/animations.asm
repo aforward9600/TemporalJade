@@ -3412,6 +3412,7 @@ BattleAnim_Agility:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_Aeroblast:
 BattleAnim_BoneClub:
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_MISC
 	anim_obj ANIM_OBJ_BONE_CLUB, 64, 88, $2
@@ -3919,7 +3920,6 @@ BattleAnim_Conversion:
 	anim_wait 128
 	anim_ret
 
-BattleAnim_Aeroblast:
 BattleAnim_JurassicBeam:
 	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_AEROBLAST
 	anim_bgp $1b

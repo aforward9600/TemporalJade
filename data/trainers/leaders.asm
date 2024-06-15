@@ -9,7 +9,7 @@ GymLeaders:
 	db MILTON
 	db KURT
 	db ENOKI
-	db PRYCE
+	db STEVE
 	db BYRON
 	db CHIGUSA
 	db MASTER
@@ -47,7 +47,7 @@ KantoGymLeaders:
 
 VillainBosses:
 	db ARIANA
-	db MYSTERIOUS
+	db KNIGHT
 	db ARCHER
 	db MADAME_BOSS
 	db FED_LEADER
