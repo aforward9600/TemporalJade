@@ -486,7 +486,7 @@ ENDM
 
 	map_const ROUTE_26,                                    10, 54 ;  1
 	map_const ROUTE_27,                                    40,  9 ;  2
-	map_const ROUTE_29,                                    30,  9 ;  3
+	map_const ROUTE_29,                                    30, 11 ;  3
 	map_const MURKROW_VALLEY,                              20, 11 ;  4
 	map_const ELMS_LAB,                                     5,  6 ;  5
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  6
@@ -519,7 +519,7 @@ ENDM
 
 	newgroup                                                      ; 26
 
-	map_const ROUTE_30,                                    10, 27 ;  1
+	map_const ROUTE_30,                                    27, 10 ;  1
 	map_const ROUTE_31,                                    20,  9 ;  2
 	map_const CHERRYGROVE_CITY,                            20,  9 ;  3
 	map_const CHERRYGROVE_MART,                             6,  4 ;  4
@@ -531,6 +531,7 @@ ENDM
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	map_const CHERRYGROVE_FISHER_HOUSE,                     4,  4 ; 12
+	map_const MORAVIL_SCHOOL_OUTSIDE,                      11, 11
 
 	newgroup
 

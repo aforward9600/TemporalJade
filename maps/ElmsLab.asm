@@ -334,6 +334,7 @@ JuniperAfterStarter:
 	writetext JuniperLabRivalWonText
 	waitbutton
 	closetext
+	special HealParty
 .FinishRival:
 	pause 10
 	applymovement JUNIPERSLAB_RIVAL, OfficerLeavesMovement

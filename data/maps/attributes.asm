@@ -100,7 +100,7 @@ ENDM
 	connection west, Route29, ROUTE_29, 1
 	connection east, Route27, ROUTE_27, 0
 
-	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $35, NORTH | EAST
+	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $05, NORTH | EAST
 	connection north, Route30, ROUTE_30, 5
 	connection east, Route29, ROUTE_29, 0
 
@@ -158,12 +158,15 @@ ENDM
 	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
 	connection east, MurkrowValley, MURKROW_VALLEY, -1
 
-	map_attributes Route30, ROUTE_30, $05, NORTH | SOUTH
-	connection north, Route31, ROUTE_31, -10
+	map_attributes Route30, ROUTE_30, $05, SOUTH | WEST
 	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
+	connection west, Route31, ROUTE_31, -10
 
-	map_attributes Route31, ROUTE_31, $05, SOUTH | WEST
-	connection south, Route30, ROUTE_30, 10
+	map_attributes MoravilSchoolOutside, MORAVIL_SCHOOL_OUTSIDE, $05, EAST
+	connection east, Route30, ROUTE_30, 10
+
+	map_attributes Route31, ROUTE_31, $05, WEST
+;	connection south, Route30, ROUTE_30, 10
 	connection west, VioletCity, VIOLET_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH

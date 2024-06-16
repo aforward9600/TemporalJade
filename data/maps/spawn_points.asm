@@ -25,6 +25,8 @@ SpawnPoints:
 	spawn ROUTE_23,                    9,  6
 
 	spawn MURKROW_VALLEY,             17,  8
+	spawn CHERRYGROVE_CITY,           29, 12
+	spawn MORAVIL_SCHOOL_OUTSIDE,     11,  8
 	spawn BLACKTHORN_CITY,            23, 30
 	spawn MAHOGANY_TOWN,              15, 14
 	spawn LAKE_OF_RAGE,                5, 20
@@ -35,8 +37,6 @@ SpawnPoints:
 	spawn GOLDENROD_CITY,             15, 28
 	spawn AZALEA_TOWN,                15, 10
 	spawn ROUTE_32,                   11, 74
-	spawn VIOLET_CITY,                31, 26
-	spawn CHERRYGROVE_CITY,           29,  4
 	spawn SILVER_CAVE_OUTSIDE,        23, 20
 	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2
 	spawn TEAM_ROCKET_BASE_JAIL,       5,  6

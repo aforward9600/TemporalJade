@@ -151,3 +151,4 @@ Music:
 	dba Music_ChampionBattle_B2W2
 	dba Music_KnightsTempora
 	dba Music_EventGhetsis
+	dba Music_MoravilSchool

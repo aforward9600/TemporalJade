@@ -197,3 +197,4 @@ SECTION "Even Newer Songs", ROMX
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattlebw2.asm"
 INCLUDE "audio/music/eventghetsis.asm"
+INCLUDE "audio/music/moravilschool.asm"

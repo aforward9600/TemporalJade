@@ -7,6 +7,7 @@
 	const ROUTE_29          ; 02
 	const CHERRYGROVE_CITY  ; 03
 	const ROUTE_30          ; 04
+	const VIOLET_CITY       ; 06
 	const SPROUT_TOWER      ; 07
 	const BLACKTHORN_CITY   ; 29
 	const DRAGONS_DEN       ; 2a
@@ -52,7 +53,6 @@
 	const UNION_CAVE        ; 0a
 	const ROUTE_32          ; 08
 	const RUINS_OF_ALPH     ; 09
-	const VIOLET_CITY       ; 06
 	const ROUTE_31          ; 05
 	const ROUTE_46          ; 2d
 	const SILVER_CAVE       ; 2e

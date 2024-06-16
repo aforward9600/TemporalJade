@@ -12,6 +12,7 @@ Landmarks:
 	landmark 116, 124, AntiquoTownName
 	landmark 108, 116, Route30Name
 	landmark  92, 116, MoravilSchoolName
+	landmark  92, 116, SproutTowerName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
@@ -56,7 +57,6 @@ Landmarks:
 	landmark  84, 124, UnionCaveName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
-	landmark  84,  60, VioletCityName
 	landmark  96,  60, Route31Name
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
@@ -118,7 +118,7 @@ Landmarks:
 
 MurkrowValleyName:   db "Murkrow¯Valley@"
 AntiquoTownName:     db "Antiquo¯Town@"
-VioletCityName:      db "Violet City@"
+SproutTowerName:     db "Violet City@"
 EmissVillageName:    db "Emiss¯Village@"
 SirakisCityName:     db "Sirakis¯City@"
 EcruteakCityName:    db "Ecruteak¯City@"

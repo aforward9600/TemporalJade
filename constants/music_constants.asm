@@ -152,6 +152,7 @@
 	const MUSIC_CHAMPION_BATTLE_BW2
 	const MUSIC_KNIGHTS_TEMPORA
 	const MUSIC_EVENT_GHETSIS
+	const MUSIC_MORAVIL_SCHOOL
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc

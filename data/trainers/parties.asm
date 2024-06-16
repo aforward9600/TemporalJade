@@ -4415,7 +4415,7 @@ endc
 
 	next_list_item ; BUG_CATCHER (2) Route 44
 	db "Colton@", TRAINERTYPE_NORMAL
-	db 8
+	db 7
 	dw VENIPEDE ; replace with Cutiefly
 	db -1 ; end
 

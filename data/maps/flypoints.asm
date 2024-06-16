@@ -8,6 +8,8 @@ Flypoints:
 	const_def
 ; Johto
 	flypoint MURKROW_VALLEY, MURKROW_VALLEY
+	flypoint CHERRYGROVE,    CHERRYGROVE_CITY
+	flypoint VIOLET,         VIOLET_CITY
 	flypoint BLACKTHORN,     BLACKTHORN_CITY
 	flypoint MAHOGANY,       MAHOGANY_TOWN
 	flypoint LAKE_OF_RAGE,   LAKE_OF_RAGE
@@ -17,8 +19,6 @@ Flypoints:
 	flypoint WILD_AREA,      WILD_AREA_OUTSIDE
 	flypoint GOLDENROD,      GOLDENROD_CITY
 	flypoint AZALEA,         AZALEA_TOWN
-	flypoint VIOLET,         VIOLET_CITY
-	flypoint CHERRYGROVE,    CHERRYGROVE_CITY
 	flypoint MT_SILVER,      SILVER_CAVE
 
 ; Kanto
