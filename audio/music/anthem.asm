@@ -1,132 +1,133 @@
 Music_Anthem:
-	musicheader 4, 1, Music_Anthem_Ch1
-	musicheader 1, 2, Music_Anthem_Ch2
-	musicheader 1, 3, Music_Anthem_Ch3
-	musicheader 1, 4, Music_Anthem_Ch4
+	channel_count 4
+	channel 1, Music_Anthem_Ch1
+	channel 2, Music_Anthem_Ch2
+	channel 3, Music_Anthem_Ch3
+	channel 4, Music_Anthem_Ch4
 
 Music_Anthem_Ch1:
 	tempo $A0
-	volume $77
-	stereopanning $77
+	volume 7, 7
+	stereo_panning TRUE, TRUE
 Music_Anthem_Ch1_loop:
-	dutycycle 1
+	duty_cycle 1
 	octave 3
-	notetype $C, $F1
-	callchannel Music_Anthem_Ch1_ditty1
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty1
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty2
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty2
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty3
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty4
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty5
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty5
-	note __, 5
-	dutycycle 0
-	callchannel Music_Anthem_Ch1_ditty1
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty1
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty2
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty2
-	note __, 1
-	dutycycle 1
-	intensity $F7
-	vibrato $0F, $13
+	note_type 12, 15, 1
+	sound_call Music_Anthem_Ch1_ditty1
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty1
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty2
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty2
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty3
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty4
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty5
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty5
+	rest 5
+	duty_cycle 0
+	sound_call Music_Anthem_Ch1_ditty1
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty1
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty2
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty2
+	rest 1
+	duty_cycle 1
+	volume_envelope 15, 7
+	vibrato 15, 1, 3
 	note G#, 4
 	note F#, 16
 	note F_, 8
 	note C#, 8
 	note D#, 12
-	notetype $F, $0F
+	note_type 15, 0, -7
 	note D#, 16
-	loopchannel 0, Music_Anthem_Ch1_loop
+	sound_loop 0, Music_Anthem_Ch1_loop
 
 Music_Anthem_Ch1_ditty1:
 	note A#, 2
 	note A#, 2
-	note __, 2
+	rest 2
 	note A#, 1
 	note A#, 1
 	note A#, 1
 	note A#, 1
 	note A#, 1
-	endchannel
+	sound_ret
 
 Music_Anthem_Ch1_ditty2:
 	note G#, 2
 	note G#, 2
-	note __, 2
+	rest 2
 	note G#, 1
 	note G#, 1
 	note G#, 1
 	note G#, 1
 	note G#, 1
-	endchannel
+	sound_ret
 
 Music_Anthem_Ch1_ditty3:
 	note F#, 2
 	note F#, 2
-	note __, 2
+	rest 2
 	note F#, 1
 	note F#, 1
 	note F#, 1
 	note F#, 1
 	note F#, 1
-	endchannel
+	sound_ret
 
 Music_Anthem_Ch1_ditty4:
 	note F_, 2
 	note F_, 2
-	note __, 2
+	rest 2
 	note F_, 1
 	note F_, 1
 	note F_, 1
 	note F_, 1
 	note F_, 1
-	endchannel
+	sound_ret
 
 Music_Anthem_Ch1_ditty5:
 	note D#, 2
 	note D#, 2
-	note __, 2
+	rest 2
 	note D#, 1
 	note D#, 1
 	note D#, 1
 	note D#, 1
 	note D#, 1
-	endchannel
+	sound_ret
 
 Music_Anthem_Ch2:
 Music_Anthem_Ch2_loop:
 	octave 2
-	notetype $C, $F1
-	callchannel Music_Anthem_Ch1_ditty1
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty1
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty2
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty2
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty3
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty4
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty5
-	note __, 5
-	callchannel Music_Anthem_Ch1_ditty5
-	note __, 1
-	dutycycle 1
-	intensity $F7
-	vibrato $0F, $13
+	note_type 12, 15, 1
+	sound_call Music_Anthem_Ch1_ditty1
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty1
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty2
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty2
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty3
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty4
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty5
+	rest 5
+	sound_call Music_Anthem_Ch1_ditty5
+	rest 1
+	duty_cycle 1
+	volume_envelope 15, 7
+	vibrato 15, 1, 3
 	octave 3
 	note F_, 4
 	note A#, 10
@@ -156,12 +157,12 @@ Music_Anthem_Ch2_loop:
 	octave 4
 	note F_, 4
 	note D#, 12
-	notetype $F, $0F
+	note_type 15, 0, -7
 	note D#, 16
-	loopchannel 0, Music_Anthem_Ch2_loop
+	sound_loop 0, Music_Anthem_Ch2_loop
 
 Music_Anthem_Ch3:
-	notetype $C, $17
+	note_type 12, 1, 7
 	octave 1
 Music_Anthem_Ch3_loop:
 	note A#, 16
@@ -172,12 +173,12 @@ Music_Anthem_Ch3_loop:
 	note F_, 16
 	note D#, 16
 	note D#, 16
-	loopchannel 0, Music_Anthem_Ch3_loop
+	sound_loop 0, Music_Anthem_Ch3_loop
 
 Music_Anthem_Ch4:
-	togglenoise 1
-	notetype $C
+	toggle_noise 1
+	drum_speed 12
 Music_Anthem_Ch4_loop:
-	note F_, 1
-	note __, 3
-	loopchannel 0, Music_Anthem_Ch4_loop
+	drum_note 6, 1
+	rest 3
+	sound_loop 0, Music_Anthem_Ch4_loop

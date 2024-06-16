@@ -7,32 +7,33 @@
 ; ============================================================================================================
 
 Music_MarnieBattle:
-	musicheader 4, 1, Music_MarnieBattle_Ch1
-	musicheader 1, 2, Music_MarnieBattle_Ch2
-	musicheader 1, 3, Music_MarnieBattle_Ch3
-	musicheader 1, 4, Music_MarnieBattle_Ch4
+	channel_count 4
+	channel 1, Music_MarnieBattle_Ch1
+	channel 2, Music_MarnieBattle_Ch2
+	channel 3, Music_MarnieBattle_Ch3
+	channel 4, Music_MarnieBattle_Ch4
 
 Music_MarnieBattle_Ch1:
-	volume $77
-	dutycycle $2
-	notetype 12, $a7
+	volume 7, 7
+	duty_cycle $2
+	note_type 12, 10, 7
 	tempo 119
 ;Bar 1
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note G_, 2
 	note D_, 2
 	note A_, 16
 	note A_, 11
 ;Bar 2
-	note __, 1
+	rest 1
 ;Bar 3
 	note G_, 2
 	note D_, 2
 	note A_, 16
 	note A_, 11
 ;Bar 4
-	note __, 1
+	rest 1
 ;Bar 5
 Music_MarnieBattle_Ch1Loop:
 	note D_, 2
@@ -55,7 +56,7 @@ Music_MarnieBattle_Ch1Loop:
 	note E_, 2
 	note F_, 2
 ;Bar 7
-	note __, 2
+	rest 2
 	note C_, 2
 	note D_, 4
 	note C_, 2
@@ -87,7 +88,7 @@ Music_MarnieBattle_Ch1Loop:
 	note E_, 2
 	note F_, 2
 ;Bar 11
-	note __, 2
+	rest 2
 	;note D_, 0 | WARNING: Rounded down to 0
 	note A_, 2
 	;note D_, 0 | WARNING: Rounded down to 0
@@ -100,7 +101,7 @@ Music_MarnieBattle_Ch1Loop:
 	note A_, 16
 	note A_, 3
 ;Bar 12
-	note __, 5
+	rest 5
 ;Bar 13
 	octave 4
 	note D_, 2
@@ -124,7 +125,7 @@ Music_MarnieBattle_Ch1Loop:
 	note E_, 16
 	note E_, 9
 ;Bar 16
-	note __, 5
+	rest 5
 ;Bar 17
 	note D_, 2
 	note C_, 2
@@ -150,7 +151,7 @@ Music_MarnieBattle_Ch1Loop:
 ;Bar 20
 	note A_, 2
 	note G_, 11
-	note __, 5
+	rest 5
 ;Bar 21
 	note D_, 2
 	note E_, 2
@@ -169,8 +170,8 @@ Music_MarnieBattle_Ch1Loop:
 ;Bar 23
 	note E_, 2
 	note F_, 13
-	note __, 16
-	note __, 5
+	rest 16
+	rest 5
 ;Bar 25
 	note D_, 2
 	note E_, 2
@@ -188,7 +189,7 @@ Music_MarnieBattle_Ch1Loop:
 ;Bar 27
 	note E_, 6
 	note F_, 9
-	note __, 9
+	rest 9
 ;Bar 28
 	octave 4
 	note A_, 2
@@ -218,7 +219,7 @@ Music_MarnieBattle_Ch1Loop:
 	note G_, 4
 	note A_, 2
 	note D_, 9
-	note __, 9
+	rest 9
 ;Bar 32
 	note A_, 2
 	note F_, 2
@@ -246,7 +247,7 @@ Music_MarnieBattle_Ch1Loop:
 ;Bar 35
 	note G_, 6
 	note A_, 9
-	note __, 9
+	rest 9
 ;Bar 36
 	note A_, 2
 	note F_, 2
@@ -299,15 +300,15 @@ Music_MarnieBattle_Ch1Loop:
 	note C_, 2
 	note D_, 4
 	note D_, 9
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 45
 	octave 3
 	note C_, 2
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 2
+	rest 2
 	note C_, 4
 ;Bar 46
 	note D_, 4
@@ -319,7 +320,7 @@ Music_MarnieBattle_Ch1Loop:
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 6
+	rest 6
 ;Bar 48
 	note C_, 4
 	octave 2
@@ -330,7 +331,7 @@ Music_MarnieBattle_Ch1Loop:
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 2
+	rest 2
 	note C_, 4
 ;Bar 50
 	note D_, 4
@@ -342,21 +343,21 @@ Music_MarnieBattle_Ch1Loop:
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 6
+	rest 6
 ;Bar 52
 	note C_, 4
 	octave 2
 	note B_, 10
-	loopchannel 0, Music_MarnieBattle_Ch1Loop
+	sound_loop 0, Music_MarnieBattle_Ch1Loop
 
 ; ============================================================================================================
 
 Music_MarnieBattle_Ch2:
-	dutycycle $1
-	notetype 12, $a7
+	duty_cycle $1
+	note_type 12, 10, 7
 ;Bar 1
 	octave 2
-	intensity $97
+	volume_envelope 9, 7
 	note D_, 16
 ;Bar 2
 	note D_, 16
@@ -387,7 +388,7 @@ Music_MarnieBattle_Ch2Loop:
 	note A_, 16
 	note A_, 3
 ;Bar 12
-	note __, 1
+	rest 1
 ;Bar 13
 	note A#, 16
 ;Bar 14
@@ -461,15 +462,15 @@ Music_MarnieBattle_Ch2Loop:
 	note C_, 16
 ;Bar 43
 	note D_, 15
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 45
 	note D_, 16
 ;Bar 46
 	note D_, 16
 ;Bar 47
 	note D_, 15
-	note __, 3
+	rest 3
 ;Bar 48
 	note C_, 4
 	octave 1
@@ -481,33 +482,33 @@ Music_MarnieBattle_Ch2Loop:
 	note D_, 16
 ;Bar 51
 	note D_, 15
-	note __, 3
+	rest 3
 ;Bar 52
 	note C_, 4
 	octave 1
 	note B_, 10
-	loopchannel 0, Music_MarnieBattle_Ch2Loop
+	sound_loop 0, Music_MarnieBattle_Ch2Loop
 
 ; ============================================================================================================
 
 Music_MarnieBattle_Ch3:
-	notetype 12, $10
+	note_type 12, 1, 0
 ;Bar 1
 	octave 4
-	intensity $20
+	volume_envelope 2, 0
 	note G_, 2
 	note D_, 2
 	note A_, 16
 	note A_, 11
 ;Bar 2
-	note __, 1
+	rest 1
 ;Bar 3
 	note G_, 2
 	note D_, 2
 	note A_, 16
 	note A_, 11
 ;Bar 4
-	note __, 1
+	rest 1
 ;Bar 5
 Music_MarnieBattle_Ch3Loop:
 	note D_, 2
@@ -530,7 +531,7 @@ Music_MarnieBattle_Ch3Loop:
 	note E_, 2
 	note F_, 2
 ;Bar 7
-	note __, 2
+	rest 2
 	note C_, 2
 	note D_, 4
 	note C_, 2
@@ -562,7 +563,7 @@ Music_MarnieBattle_Ch3Loop:
 	note E_, 2
 	note F_, 2
 ;Bar 11
-	note __, 2
+	rest 2
 	;note D_, 0 | WARNING: Rounded down to 0
 	note A_, 2
 	;note D_, 0 | WARNING: Rounded down to 0
@@ -575,7 +576,7 @@ Music_MarnieBattle_Ch3Loop:
 	note A_, 16
 	note A_, 3
 ;Bar 12
-	note __, 5
+	rest 5
 ;Bar 13
 	octave 5
 	note D_, 2
@@ -599,7 +600,7 @@ Music_MarnieBattle_Ch3Loop:
 	note E_, 16
 	note E_, 9
 ;Bar 16
-	note __, 5
+	rest 5
 ;Bar 17
 	note D_, 2
 	note C_, 2
@@ -625,7 +626,7 @@ Music_MarnieBattle_Ch3Loop:
 ;Bar 20
 	note A_, 2
 	note G_, 11
-	note __, 5
+	rest 5
 ;Bar 21
 	note D_, 2
 	note E_, 2
@@ -644,8 +645,8 @@ Music_MarnieBattle_Ch3Loop:
 ;Bar 23
 	note E_, 2
 	note F_, 13
-	note __, 16
-	note __, 5
+	rest 16
+	rest 5
 ;Bar 25
 	note D_, 2
 	note E_, 2
@@ -663,7 +664,7 @@ Music_MarnieBattle_Ch3Loop:
 ;Bar 27
 	note E_, 6
 	note F_, 9
-	note __, 9
+	rest 9
 ;Bar 28
 	octave 5
 	note A_, 2
@@ -693,7 +694,7 @@ Music_MarnieBattle_Ch3Loop:
 	note G_, 4
 	note A_, 2
 	note D_, 9
-	note __, 9
+	rest 9
 ;Bar 32
 	note A_, 2
 	note F_, 2
@@ -721,7 +722,7 @@ Music_MarnieBattle_Ch3Loop:
 ;Bar 35
 	note G_, 6
 	note A_, 9
-	note __, 9
+	rest 9
 ;Bar 36
 	note A_, 2
 	note F_, 2
@@ -774,15 +775,15 @@ Music_MarnieBattle_Ch3Loop:
 	note C_, 2
 	note D_, 4
 	note D_, 9
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 45
 	octave 4
 	note C_, 2
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 2
+	rest 2
 	note C_, 4
 ;Bar 46
 	note D_, 4
@@ -794,7 +795,7 @@ Music_MarnieBattle_Ch3Loop:
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 6
+	rest 6
 ;Bar 48
 	note C_, 4
 	octave 3
@@ -805,7 +806,7 @@ Music_MarnieBattle_Ch3Loop:
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 2
+	rest 2
 	note C_, 4
 ;Bar 50
 	note D_, 4
@@ -817,345 +818,345 @@ Music_MarnieBattle_Ch3Loop:
 	note D_, 4
 	note C_, 2
 	note D_, 4
-	note __, 6
+	rest 6
 ;Bar 52
 	note C_, 4
 	octave 3
 	note B_, 10
-	loopchannel 0, Music_MarnieBattle_Ch3Loop
+	sound_loop 0, Music_MarnieBattle_Ch3Loop
 
 ; ============================================================================================================
 Music_MarnieBattle_Ch4:
-	togglenoise $3
-	notetype $c
+	toggle_noise $3
+	drum_speed 12
 ;Bar 1
 	octave 4
-	intensity $20
-	note G_, 2
-	note D_, 2
-	note A_, 16
-	note A_, 11
+	volume_envelope 2, 0
+	drum_note 8, 2
+	drum_note 3, 2
+	drum_note 10, 16
+	drum_note 10, 11
 ;Bar 2
-	note __, 1
+	rest 1
 ;Bar 3
-	note G_, 2
-	note D_, 2
-	note A_, 16
-	note A_, 11
+	drum_note 8, 2
+	drum_note 3, 2
+	drum_note 10, 16
+	drum_note 10, 11
 ;Bar 4
-	note __, 1
+	rest 1
 ;Bar 5
 Music_MarnieBattle_Ch4Loop:
-	note D_, 2
+	drum_note 3, 2
 	octave 5
-	note D_, 2
-	note C_, 2
+	drum_note 3, 2
+	drum_note 1, 2
 	octave 4
-	note A_, 2
-	note G_, 2
-	note A_, 4
-	note D_, 4
+	drum_note 10, 2
+	drum_note 8, 2
+	drum_note 10, 4
+	drum_note 3, 4
 ;Bar 6
 	octave 5
-	note D_, 2
-	note C_, 2
+	drum_note 3, 2
+	drum_note 1, 2
 	octave 4
-	note G_, 2
-	note A_, 2
-	note G_, 2
-	note E_, 2
-	note F_, 2
+	drum_note 8, 2
+	drum_note 10, 2
+	drum_note 8, 2
+	drum_note 5, 2
+	drum_note 6, 2
 ;Bar 7
-	note __, 2
-	note C_, 2
-	note D_, 4
-	note C_, 2
-	note D_, 4
-	note G_, 2
+	rest 2
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 8, 2
 ;Bar 8
-	note F_, 2
-	note C_, 2
-	note G_, 2
-	note F_, 10
+	drum_note 6, 2
+	drum_note 1, 2
+	drum_note 8, 2
+	drum_note 6, 10
 ;Bar 9
-	note D_, 2
+	drum_note 3, 2
 	octave 5
-	note D_, 2
-	note C_, 2
+	drum_note 3, 2
+	drum_note 1, 2
 	octave 4
-	note A_, 2
-	note G_, 2
-	note A_, 4
-	note D_, 4
+	drum_note 10, 2
+	drum_note 8, 2
+	drum_note 10, 4
+	drum_note 3, 4
 ;Bar 10
 	octave 5
-	note D_, 2
-	note C_, 2
+	drum_note 3, 2
+	drum_note 1, 2
 	octave 4
-	note G_, 2
-	note A_, 2
-	note G_, 2
-	note E_, 2
-	note F_, 2
+	drum_note 8, 2
+	drum_note 10, 2
+	drum_note 8, 2
+	drum_note 5, 2
+	drum_note 6, 2
 ;Bar 11
-	note __, 2
+	rest 2
 	;note D_, 0 | WARNING: Rounded down to 0
-	note A_, 2
+	drum_note 10, 2
 	;note D_, 0 | WARNING: Rounded down to 0
-	note A_, 4
+	drum_note 10, 4
 	;note D_, 0 | WARNING: Rounded down to 0
-	note A_, 2
+	drum_note 10, 2
 	;note D_, 0 | WARNING: Rounded down to 0
-	note A_, 2
+	drum_note 10, 2
 	;note C#, 0 | WARNING: Rounded down to 0
-	note A_, 16
-	note A_, 3
+	drum_note 10, 16
+	drum_note 10, 3
 ;Bar 12
-	note __, 5
+	rest 5
 ;Bar 13
 	octave 5
-	note D_, 2
-	note C_, 2
-	note D_, 2
+	drum_note 3, 2
+	drum_note 1, 2
+	drum_note 3, 2
 	octave 4
-	note A#, 4
+	drum_note 11, 4
 	octave 5
-	note F_, 4
+	drum_note 6, 4
 ;Bar 14
-	note E_, 2
-	note F_, 4
+	drum_note 5, 2
+	drum_note 6, 4
 	octave 4
-	note A#, 2
+	drum_note 11, 2
 	octave 5
-	note C_, 2
-	note D_, 2
-	note F_, 2
+	drum_note 1, 2
+	drum_note 3, 2
+	drum_note 6, 2
 ;Bar 15
-	note G_, 6
-	note E_, 16
-	note E_, 9
+	drum_note 8, 6
+	drum_note 5, 16
+	drum_note 5, 9
 ;Bar 16
-	note __, 5
+	rest 5
 ;Bar 17
-	note D_, 2
-	note C_, 2
-	note D_, 2
+	drum_note 3, 2
+	drum_note 1, 2
+	drum_note 3, 2
 	octave 4
-	note A#, 4
+	drum_note 11, 4
 	octave 5
-	note F_, 4
+	drum_note 6, 4
 ;Bar 18
-	note E_, 2
-	note F_, 4
+	drum_note 5, 2
+	drum_note 6, 4
 	octave 4
-	note A#, 4
+	drum_note 11, 4
 	octave 5
-	note A_, 4
+	drum_note 10, 4
 ;Bar 19
-	note G_, 6
+	drum_note 8, 6
 	octave 6
-	note C_, 4
+	drum_note 1, 4
 	octave 5
-	note E_, 4
-	note G_, 4
+	drum_note 5, 4
+	drum_note 8, 4
 ;Bar 20
-	note A_, 2
-	note G_, 11
-	note __, 5
+	drum_note 10, 2
+	drum_note 8, 11
+	rest 5
 ;Bar 21
-	note D_, 2
-	note E_, 2
-	note F_, 2
+	drum_note 3, 2
+	drum_note 5, 2
+	drum_note 6, 2
 	octave 4
-	note A#, 2
+	drum_note 11, 2
 	octave 5
-	note D_, 2
-	note A_, 2
+	drum_note 3, 2
+	drum_note 10, 2
 ;Bar 22
-	note G_, 6
+	drum_note 8, 6
 	octave 6
-	note C_, 6
+	drum_note 1, 6
 	octave 5
-	note E_, 4
+	drum_note 5, 4
 ;Bar 23
-	note E_, 2
-	note F_, 13
-	note __, 16
-	note __, 5
+	drum_note 5, 2
+	drum_note 6, 13
+	rest 16
+	rest 5
 ;Bar 25
-	note D_, 2
-	note E_, 2
-	note F_, 2
+	drum_note 3, 2
+	drum_note 5, 2
+	drum_note 6, 2
 	octave 4
-	note A#, 2
+	drum_note 11, 2
 	octave 5
-	note D_, 2
-	note A_, 2
+	drum_note 3, 2
+	drum_note 10, 2
 ;Bar 26
-	note G_, 6
+	drum_note 8, 6
 	octave 6
-	note C_, 6
-	note E_, 4
+	drum_note 1, 6
+	drum_note 5, 4
 ;Bar 27
-	note E_, 6
-	note F_, 9
-	note __, 9
+	drum_note 5, 6
+	drum_note 6, 9
+	rest 9
 ;Bar 28
 	octave 5
-	note A_, 2
-	note F_, 2
+	drum_note 10, 2
+	drum_note 6, 2
 	octave 6
-	note C_, 2
+	drum_note 1, 2
 	octave 5
-	note A#, 2
+	drum_note 11, 2
 ;Bar 29
-	note A_, 8
-	note D_, 2
-	note E_, 2
-	note F_, 2
-	note A_, 2
+	drum_note 10, 8
+	drum_note 3, 2
+	drum_note 5, 2
+	drum_note 6, 2
+	drum_note 10, 2
 ;Bar 30
 	octave 6
-	note C_, 4
+	drum_note 1, 4
 	octave 5
-	note A#, 2
+	drum_note 11, 2
 	octave 6
-	note C_, 1
+	drum_note 1, 1
 	octave 5
-	note A#, 1
-	note A_, 4
-	note G_, 4
+	drum_note 11, 1
+	drum_note 10, 4
+	drum_note 8, 4
 ;Bar 31
-	note G_, 4
-	note A_, 2
-	note D_, 9
-	note __, 9
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 3, 9
+	rest 9
 ;Bar 32
-	note A_, 2
-	note F_, 2
+	drum_note 10, 2
+	drum_note 6, 2
 	octave 6
-	note C_, 2
+	drum_note 1, 2
 	octave 5
-	note A#, 2
+	drum_note 11, 2
 ;Bar 33
-	note A_, 8
-	note D_, 2
-	note E_, 2
-	note F_, 2
-	note A_, 2
+	drum_note 10, 8
+	drum_note 3, 2
+	drum_note 5, 2
+	drum_note 6, 2
+	drum_note 10, 2
 ;Bar 34
 	octave 6
-	note C_, 4
+	drum_note 1, 4
 	octave 5
-	note A#, 2
+	drum_note 11, 2
 	octave 6
-	note C_, 1
+	drum_note 1, 1
 	octave 5
-	note A#, 1
-	note A_, 4
-	note G_, 4
+	drum_note 11, 1
+	drum_note 10, 4
+	drum_note 8, 4
 ;Bar 35
-	note G_, 6
-	note A_, 9
-	note __, 9
+	drum_note 8, 6
+	drum_note 10, 9
+	rest 9
 ;Bar 36
-	note A_, 2
-	note F_, 2
+	drum_note 10, 2
+	drum_note 6, 2
 	octave 6
-	note C_, 2
+	drum_note 1, 2
 	octave 5
-	note A#, 2
+	drum_note 11, 2
 ;Bar 37
-	note A_, 8
-	note D_, 2
-	note E_, 2
-	note F_, 2
-	note A_, 2
+	drum_note 10, 8
+	drum_note 3, 2
+	drum_note 5, 2
+	drum_note 6, 2
+	drum_note 10, 2
 ;Bar 38
 	octave 6
-	note C_, 4
+	drum_note 1, 4
 	octave 5
-	note A#, 2
+	drum_note 11, 2
 	octave 6
-	note C_, 1
+	drum_note 1, 1
 	octave 5
-	note A#, 1
-	note A_, 4
-	note G_, 4
+	drum_note 11, 1
+	drum_note 10, 4
+	drum_note 8, 4
 ;Bar 39
-	note G_, 4
-	note A_, 2
-	note D_, 16
-	note D_, 2
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 3, 16
+	drum_note 3, 2
 ;Bar 40
-	note D_, 2
+	drum_note 3, 2
 	octave 4
-	note A#, 2
+	drum_note 11, 2
 	octave 5
-	note F_, 2
-	note E_, 2
+	drum_note 6, 2
+	drum_note 5, 2
 ;Bar 41
-	note D_, 6
-	note A_, 6
+	drum_note 3, 6
+	drum_note 10, 6
 	octave 6
-	note C_, 6
+	drum_note 1, 6
 ;Bar 42
 	octave 5
-	note E_, 6
-	note C_, 4
+	drum_note 5, 6
+	drum_note 1, 4
 	octave 4
-	note A_, 4
+	drum_note 10, 4
 ;Bar 43
 	octave 5
-	note C_, 2
-	note D_, 4
-	note D_, 9
-	note __, 16
-	note __, 1
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 3, 9
+	rest 16
+	rest 1
 ;Bar 45
 	octave 4
-	note C_, 2
-	note D_, 4
-	note C_, 2
-	note D_, 4
-	note __, 2
-	note C_, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	rest 2
+	drum_note 1, 4
 ;Bar 46
-	note D_, 4
-	note G_, 2
-	note F_, 4
-	note C_, 4
+	drum_note 3, 4
+	drum_note 8, 2
+	drum_note 6, 4
+	drum_note 1, 4
 ;Bar 47
-	note C_, 2
-	note D_, 4
-	note C_, 2
-	note D_, 4
-	note __, 6
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	rest 6
 ;Bar 48
-	note C_, 4
+	drum_note 1, 4
 	octave 3
-	note B_, 10
+	drum_note 12, 10
 ;Bar 49
 	octave 4
-	note C_, 2
-	note D_, 4
-	note C_, 2
-	note D_, 4
-	note __, 2
-	note C_, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	rest 2
+	drum_note 1, 4
 ;Bar 50
-	note D_, 4
-	note G_, 2
-	note F_, 4
-	note C_, 4
+	drum_note 3, 4
+	drum_note 8, 2
+	drum_note 6, 4
+	drum_note 1, 4
 ;Bar 51
-	note C_, 2
-	note D_, 4
-	note C_, 2
-	note D_, 4
-	note __, 6
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 4
+	rest 6
 ;Bar 52
-	note C_, 4
+	drum_note 1, 4
 	octave 3
-	note B_, 10
-	loopchannel 0, Music_MarnieBattle_Ch4Loop
+	drum_note 12, 10
+	sound_loop 0, Music_MarnieBattle_Ch4Loop

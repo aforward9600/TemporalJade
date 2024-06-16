@@ -119,8 +119,8 @@ RivalsMom1Text:
 
 	para "<RIVAL> has already"
 	line "left. She should"
-	cont "be in Ice Path by"
-	cont "now."
+	cont "be at Moravil"
+	cont "school by now."
 
 	para "Have fun!"
 	done
@@ -130,8 +130,8 @@ RivalsMom2Text:
 
 	para "<RIVAL> has already"
 	line "left. He should"
-	cont "be in Ice Path by"
-	cont "now."
+	cont "be at Moravil"
+	cont "school by now."
 
 	para "Have fun!"
 	done

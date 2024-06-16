@@ -1,126 +1,54 @@
 	object_const_def ; object_event constants
-	const ROUTE29_COOLTRAINER_M1
-	const ROUTE29_YOUNGSTER
-	const ROUTE29_TEACHER1
-	const ROUTE29_FRUIT_TREE
-	const ROUTE29_COOLTRAINER_M2
-	const ROUTE29_TUSCANY
-	const ROUTE29_RAIKOU
+	const ROUTE24_YOUNGSTER1
+	const ROUTE24_YOUNGSTER2
+	const ROUTE24_TEACHER1
+	const ROUTE24_FRUIT_TREE
+	const ROUTE24_BUG_CATCHER
+	const ROUTE24_POKEBALL1
+	const ROUTE24_POKEBALL2
+	const ROUTE24_POKEBALL3
 
 Route29_MapScripts:
 	db 0 ; scene scripts
 
-	db 1 ; callbacks
-	callback MAPCALLBACK_OBJECTS, .Tuscany
+	db 0 ; callbacks
 
-.Tuscany:
-	readvar VAR_WEEKDAY
-	ifnotequal TUESDAY, .TuscanyDisappears
-	appear ROUTE29_TUSCANY
-	sjump .RaikouAppears
+Route24TeacherScript:
+	jumptextfaceplayer Route24TeacherText
 
-.TuscanyDisappears:
-	disappear ROUTE29_TUSCANY
-.RaikouAppears:
-	checkevent EVENT_CAUGHT_RAIKOU
-	iftrue .RaikouWillNotAppear
-	checkevent EVENT_BEAT_RAIKOU
-	iftrue .RaikouWillNotAppear
-	checkevent EVENT_BEAT_EIN
-	iftrue .RaikouMayAppear
-.RaikouWillNotAppear:
-	disappear ROUTE29_RAIKOU
-	return
-
-.RaikouMayAppear:
-	appear ROUTE29_RAIKOU
-	return
-
-Route29YoungsterScript:
-	faceplayer
-	opentext
-	checkevent EVENT_SPOKE_WITH_ELM
-	iftrue .YoungsterRocksCleared
-	writetext Route29YoungsterText
-	waitbutton
-	closetext
-	end
-
-.YoungsterRocksCleared:
-	writetext Route29YoungsterText_RocksCleared
-	waitbutton
-	closetext
-	end
-
-TrainerTeacherCharlene:
-	trainer TEACHER, CHARLENE, EVENT_BEAT_TEACHER_CHARLENE, TeacherCharleneSeenText, TeacherCharleneBeatenText, 0, .Script
+Route24YoungsterTimmy:
+	trainer YOUNGSTER, TIMMY, EVENT_BEAT_YOUNGSTER_TIMMY, Route24YoungsterTimmySeenText, Route24YoungsterTimmyBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext TeacherCharleneAfterText
+	writetext Route24YoungsterTimmyAfterText
 	waitbutton
 	closetext
 	end
 
-TrainerCooltrainermJrose:
-	trainer COOLTRAINERM, EMILE, EVENT_BEAT_COOLTRAINERM_EMILE, CooltrainermJroseSeenText, CooltrainermJroseBeatenText, 0, .Script
+Route24YoungsterGordy:
+	trainer YOUNGSTER, GORDY, EVENT_BEAT_YOUNGSTER_GORDY, Route24YoungsterGordySeenText, Route24YoungsterGordyBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext CooltrainermJroseAfterText
+	writetext Route24YoungsterGordyAfterText
 	waitbutton
 	closetext
-	winlosstext CooltrainermJroseBeatenText, 0
-	loadtrainer COOLTRAINERM, EMILE
-	startbattle
-	reloadmapafterbattle
+;	winlosstext CooltrainermJroseBeatenText, 0
+;	loadtrainer COOLTRAINERM, EMILE
+;	startbattle
+;	reloadmapafterbattle
 	end
 
-TrainerCooltrainerfReese:
-	trainer COOLTRAINERF, REESE, EVENT_BEAT_COOLTRAINERF_REESE, CooltrainerfReeseSeenText, CooltrainerfReeseBeatenText, 0, .Script
+Route24BugCatcherColton:
+	trainer BUG_CATCHER, COLTON, EVENT_BEAT_BUG_CATCHER_COLTON, Route24BugCatcherColtonSeenText, Route24BugCatcherColtonBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext CooltrainerfReeseAfterText
-	waitbutton
-	closetext
-	end
-
-TuscanyScript:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
-	iftrue TuscanyTuesdayScript
-	readvar VAR_WEEKDAY
-	ifnotequal TUESDAY, TuscanyNotTuesdayScript
-	checkevent EVENT_MET_TUSCANY_OF_TUESDAY
-	iftrue .MetTuscany
-	writetext MeetTuscanyText
-	buttonsound
-	setevent EVENT_MET_TUSCANY_OF_TUESDAY
-.MetTuscany:
-	writetext TuscanyGivesGiftText
-	buttonsound
-	verbosegiveitem POLKADOT_BOW
-	iffalse TuscanyDoneScript
-	setevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
-	writetext TuscanyGaveGiftText
-	waitbutton
-	closetext
-	end
-
-TuscanyTuesdayScript:
-	writetext TuscanyTuesdayText
-	waitbutton
-TuscanyDoneScript:
-	closetext
-	end
-
-TuscanyNotTuesdayScript:
-	writetext TuscanyNotTuesdayText
+	writetext Route24BugCatcherColtonAfterText
 	waitbutton
 	closetext
 	end
@@ -134,41 +62,31 @@ Route29Sign2:
 VictoryRoadGateSign:
 	jumptext VictoryRoadGateSignText
 
+Route24Potion:
+	itemball POTION
+
+Route24PinkBow:
+	itemball PINK_BOW
+
+TMSunnyDay:
+	itemball TM_SUNNY_DAY
+
 Route29FruitTree:
 	fruittree FRUITTREE_ROUTE_29
 
-Route29Raikou:
-	opentext
-	writetext RaikouCry
-	pause 15
-	cry RAIKOU
-	waitbutton
-	closetext
-	loadwildmon RAIKOU, 60
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
-	startbattle
-	ifequal LOSE, .NotBeaten
-	disappear ROUTE29_RAIKOU
-	reloadmapafterbattle
-	special CheckCaughtCelebi
-	iftrue .CaughtRaikou
-	setevent EVENT_BEAT_RAIKOU
-	end
+Route24TeacherText:
+	text "I'm not a trainer,"
+	line "but there are a"
+	cont "few up ahead."
 
-.CaughtRaikou:
-	setevent EVENT_CAUGHT_RAIKOU
-	end
+	para "Don't go into the"
+	line "gate to the south"
+	cont "without eight"
+	cont "badges."
 
-.NotBeaten:
-	reloadmapafterbattle
-	end
-
-CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
-
-	para "knows when they'll"
-	line "pop out…"
+	para "That leads to the"
+	line "#mon League in"
+	cont "Unova."
 	done
 
 CatchingTutorialIntroText:
@@ -238,19 +156,23 @@ Route29TeacherText:
 	line "the grass."
 	done
 
-CooltrainermJroseSeenText:
-	text "#mon are"
-	line "awesome!"
+Route24BugCatcherColtonSeenText:
+	text "There are two cool"
+	line "Bug-type #mon"
+	cont "around here!"
 	done
 
-CooltrainermJroseBeatenText:
-	text "Don't you agree?"
+Route24BugCatcherColtonBeatenText:
+	text "I need one more!"
 	done
 
-CooltrainermJroseAfterText:
-	text "I can't help but"
-	line "get excited when"
-	cont "I'm with #mon!"
+Route24BugCatcherColtonAfterText:
+	text "I only have a"
+	line "Cutiefly."
+
+	para "There are also"
+	line "Venipede here, but"
+	cont "they're rarer."
 	done
 
 MeetTuscanyText:
@@ -290,30 +212,23 @@ TuscanyNotTuesdayText:
 	cont "is unfortunate…"
 	done
 
-TeacherCharleneSeenText:
-	text "I'm thinking of"
-	line "learning from"
-	cont "Prof. Elm."
-
-	para "Maybe he can"
-	line "help me become a"
-	cont "better teacher."
+Route24YoungsterTimmySeenText:
+	text "It's time for my"
+	line "first battle!"
 	done
 
-TeacherCharleneBeatenText:
-	text "I could learn"
-	line "from you!"
+Route24YoungsterTimmyBeatenText:
+	text "And my first"
+	line "loss!"
 	done
 
-TeacherCharleneAfterText:
-	text "He's an expert of"
-	line "#mon evolution."
-
-	para "We could all learn"
-	line "a thing or two."
+Route24YoungsterTimmyAfterText:
+	text "Oh well. You win"
+	line "some, you lose"
+	cont "some."
 	done
 
-CooltrainerfReeseSeenText:
+Route24YoungsterGordySeenText:
 	text "I sometimes forget"
 	line "type advantages."
 
@@ -324,11 +239,11 @@ CooltrainerfReeseSeenText:
 	para "Whoops!"
 	done
 
-CooltrainerfReeseBeatenText:
+Route24YoungsterGordyBeatenText:
 	text "Oh snap!"
 	done
 
-CooltrainerfReeseAfterText:
+Route24YoungsterGordyAfterText:
 	text "I like to sing"
 	line "songs to a melody"
 	cont "that sounds like"
@@ -373,11 +288,12 @@ Route29_MapEvents:
 	bg_event  3,  5, BGEVENT_READ, Route29Sign2
 	bg_event 30, 10, BGEVENT_READ, VictoryRoadGateSign
 
-	db 7 ; object events
-	object_event 48, 10, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfReese, -1
-	object_event 25, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29YoungsterScript, -1
-	object_event 15, 11, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerTeacherCharlene, -1
-	object_event 12,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route29FruitTree, -1
-	object_event 26,  5, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermJrose, -1
-	object_event 29, 12, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_29_TUSCANY_OF_TUESDAY
-	object_event 48,  2, SPRITE_RAIKOU_P, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route29Raikou, EVENT_ROUTE_29_RAIKOU
+	db 8 ; object events
+	object_event 41, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, Route24YoungsterTimmy, -1
+	object_event  4, 15, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, Route24YoungsterGordy, -1
+	object_event 45, 10, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route24TeacherScript, -1
+	object_event  6,  4, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route29FruitTree, -1
+	object_event 21, 10, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, Route24BugCatcherColton, -1
+	object_event 16,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, TMSunnyDay, EVENT_GOT_TM_11_SUNNY_DAY
+	object_event 37, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route24Potion, EVENT_ROUTE_24_POTION
+	object_event 33,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route24PinkBow, EVENT_ROUTE_24_PINK_BOW

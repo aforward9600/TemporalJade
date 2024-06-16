@@ -1,145 +1,146 @@
 Music_MewtwoBattle:
-	musicheader 4, 1, Music_MewtwoBattle_Ch1
-	musicheader 1, 2, Music_MewtwoBattle_Ch2
-	musicheader 1, 3, Music_MewtwoBattle_Ch3
-	musicheader 1, 4, Music_MewtwoBattle_Ch4
+	channel_count 4
+	channel 1, Music_MewtwoBattle_Ch1
+	channel 2, Music_MewtwoBattle_Ch2
+	channel 3, Music_MewtwoBattle_Ch3
+	channel 4, Music_MewtwoBattle_Ch4
 
 Music_MewtwoBattle_Ch1:
 	tempo $78
-	volume $77
-	stereopanning $77
-	notetype $C, $00
-	note __, 16
-	sound_duty $55
-	vibrato $05, $21
+	volume 7, 7
+	stereo_panning TRUE, TRUE
+	note_type 12, 0, 0
+	rest 16
+	duty_cycle_pattern 1, 1, 1, 1
+	vibrato 5, 2, 1
 	octave 4
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note D#, 1
-	notetype $B, $F2
-	note __, 2
+	note_type 11, 15, 2
+	rest 2
 	octave 3
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note A#, 1
-	notetype $6, $F2
-	note __, 1
-	notetype $A, $F2
+	note_type 6, 15, 2
+	rest 1
+	note_type 10, 15, 2
 	note A#, 1
-	notetype $6, $F2
-	note __, 1
-	notetype $A, $F2
+	note_type 6, 15, 2
+	rest 1
+	note_type 10, 15, 2
 	note F_, 1
-	notetype $6, $F2
-	note __, 1
-	notetype $A, $F2
+	note_type 6, 15, 2
+	rest 1
+	note_type 10, 15, 2
 	note C_, 1
-	notetype $6, $F2
-	note __, 1
+	note_type 6, 15, 2
+	rest 1
 	octave 2
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note A#, 1
-	notetype $6, $F2
-	note __, 1
+	note_type 6, 15, 2
+	rest 1
 	octave 3
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note D_, 1
-	notetype $6, $F2
-	note __, 1
+	note_type 6, 15, 2
+	rest 1
 	octave 4
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note C_, 1
-	notetype $6, $F2
-	note __, 1
+	note_type 6, 15, 2
+	rest 1
 	octave 3
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note A#, 1
-	notetype $6, $F2
-	note __, 1
+	note_type 6, 15, 2
+	rest 1
 	octave 4
-	notetype $A, $F2
+	note_type 10, 15, 2
 	note D#, 1
-	notetype $6, $F2
-	note __, 1
-	notetype $A, $F2
+	note_type 6, 15, 2
+	rest 1
+	note_type 10, 15, 2
 	note A#, 1
-	notetype $6, $F2
-	note __, 1
+	note_type 6, 15, 2
+	rest 1
 	note B_, 2
-	notetype $1, $F2
+	note_type 1, 15, 2
 	note B_, 5
-	notetype $6, $F2
-	note __, 13
-	notetype $1, $F2
-	note __, 1
-	notetype $6, $F2
-	intensity $F1
+	note_type 6, 15, 2
+	rest 13
+	note_type 1, 15, 2
+	rest 1
+	note_type 6, 15, 2
+	volume_envelope 15, 1
 	octave 3
 	note E_, 2
 	octave 4
 	note E_, 2
-	intensity $98
-	vibrato $03, $24
+	volume_envelope 9, 8
+	vibrato 3, 2, 4
 	octave 5
 	note E_, 16
 	note E_, 16
 	note E_, 10
-	note __, 2
-	intensity $F1
-	vibrato $05, $21
+	rest 2
+	volume_envelope 15, 1
+	vibrato 5, 2, 1
 	octave 4
 	note B_, 3
-	note __, 1
-	intensity $98
-	vibrato $03, $24
+	rest 1
+	volume_envelope 9, 8
+	vibrato 3, 2, 4
 	octave 3
 	note B_, 16
-	vibrato $05, $21
+	vibrato 5, 2, 1
 	octave 4
-	notetype $8, $F1
+	note_type 8, 15, 1
 	note E_, 1
-	note __, 2
+	rest 2
 	octave 3
 	note B_, 1
-	note __, 2
-	vibrato $03, $24
-	intensity $98
+	rest 2
+	vibrato 3, 2, 4
+	volume_envelope 9, 8
 	note A#, 16
 	note A#, 9
-	notetype $1, $98
-	note __, 4
-	notetype $8, $98
-	notetype $C, $98
-	note __, 1
-	vibrato $05, $21
+	note_type 1, 9, 8
+	rest 4
+	note_type 8, 9, 8
+	note_type 12, 9, 8
+	rest 1
+	vibrato 5, 2, 1
 	octave 4
-	notetype $9, $F1
+	note_type 9, 15, 1
 	note E_, 2
-	notetype $D, $F1
-	note __, 6
-	notetype $8, $F1
+	note_type 13, 15, 1
+	rest 6
+	note_type 8, 15, 1
 	note E_, 1
-	notetype $4, $F1
-	note __, 1
+	note_type 4, 15, 1
+	rest 1
 	octave 5
 	note E_, 2
-	note __, 1
+	rest 1
 	octave 4
 	note E_, 2
-	note __, 16
+	rest 16
 	octave 3
 	note B_, 2
-	note __, 1
+	rest 1
 	octave 4
 	note B_, 2
-	note __, 1
+	rest 1
 	octave 3
 	note A#, 2
-	note __, 16
+	rest 16
 	note B_, 3
 	octave 4
 	note E_, 3
 	note B_, 3
 	octave 5
-	notetype $6, $81
+	note_type 6, 8, 1
 	note B_, 1
 	octave 6
 	note C_, 1
@@ -286,15 +287,15 @@ Music_MewtwoBattle_Ch1:
 	octave 6
 	note C_, 1
 Music_MewtwoBattle_Ch1_loop:
-	sound_duty $55
-	vibrato $00, $13
+	duty_cycle_pattern 1, 1, 1, 1
+	vibrato 0, 1, 3
 	octave 3
-	notetype $F, $C7
+	note_type 15, 12, 7
 	note B_, 16
-	notetype $C, $C7
+	note_type 12, 12, 7
 	note A_, 4
 	octave 4
-	notetype $8, $C7
+	note_type 8, 12, 7
 	note D_, 4
 	note C_, 4
 	octave 3
@@ -304,13 +305,13 @@ Music_MewtwoBattle_Ch1_loop:
 	note G_, 4
 	note F_, 4
 	note E_, 4
-	notetype $C, $C7
+	note_type 12, 12, 7
 	note D_, 1
 	note E_, 1
 	octave 3
 	note A_, 14
-	note __, 8
-	notetype $8, $C7
+	rest 8
+	note_type 8, 12, 7
 	note A#, 4
 	note A_, 4
 	note A#, 4
@@ -321,16 +322,16 @@ Music_MewtwoBattle_Ch1_loop:
 	note A#, 6
 	note A_, 15
 	note A_, 3
-	notetype $C, $C7
+	note_type 12, 12, 7
 	note G_, 1
-	notetype $9, $C7
+	note_type 9, 12, 7
 	note A_, 2
-	notetype $6, $C7
-	note __, 1
-	notetype $C, $C7
+	note_type 6, 12, 7
+	rest 1
+	note_type 12, 12, 7
 	note E_, 16
-	note __, 9
-	notetype $8, $C7
+	rest 9
+	note_type 8, 12, 7
 	note E_, 4
 	note F_, 4
 	note G_, 4
@@ -347,7 +348,7 @@ Music_MewtwoBattle_Ch1_loop:
 	octave 4
 	note C_, 3
 	note G_, 9
-	notetype $C, $C7
+	note_type 12, 12, 7
 	note F_, 1
 	note E_, 1
 	note D_, 1
@@ -364,78 +365,78 @@ Music_MewtwoBattle_Ch1_loop:
 	note A#, 1
 	note G_, 1
 	note A_, 15
-	note __, 1
-	sound_duty $00
-	vibrato $00, $00
+	rest 1
+	duty_cycle_pattern 0, 0, 0, 0
+	vibrato 0, 0, 0
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note F#, 7
-	note __, 1
+	rest 1
 	note C#, 15
-	note __, 1
+	rest 1
 	note D#, 8
 	note A#, 4
-	sound_duty $5A
-	vibrato $00, $13
+	duty_cycle_pattern 2, 2, 1, 1
+	vibrato 0, 1, 3
 	note G#, 1
 	note F_, 1
 	octave 3
 	note G_, 1
 	note C_, 1
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	sound_duty $55
-	intensity $D2
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	duty_cycle_pattern 1, 1, 1, 1
+	volume_envelope 13, 2
 	octave 4
 	note G_, 2
-	note __, 4
+	rest 4
 	note D_, 2
-	note __, 12
+	rest 12
 	note G_, 2
-	note __, 2
+	rest 2
 	note D_, 2
-	note __, 2
+	rest 2
 	note G_, 2
-	note __, 2
+	rest 2
 	note G#, 2
-	note __, 16
-	note __, 14
+	rest 16
+	rest 14
 	note G_, 2
-	note __, 4
+	rest 4
 	note D_, 2
-	note __, 12
+	rest 12
 	note G_, 2
-	note __, 2
+	rest 2
 	note D_, 2
-	note __, 2
+	rest 2
 	note G_, 2
-	note __, 2
+	rest 2
 	note F_, 2
-	note __, 16
-	note __, 14
+	rest 16
+	rest 14
 	note D#, 2
-	note __, 14
+	rest 14
 	note A#, 2
-	note __, 6
+	rest 6
 	note D#, 2
-	note __, 6
+	rest 6
 	note F_, 2
-	note __, 16
-	note __, 14
+	rest 16
+	rest 14
 	note D#, 2
-	note __, 14
+	rest 14
 	octave 5
 	note C_, 2
-	note __, 6
+	rest 6
 	note D_, 2
-	note __, 6
+	rest 6
 	note C_, 2
-	note __, 15
-	sound_duty $AA
-	intensity $F1
+	rest 15
+	duty_cycle_pattern 2, 2, 2, 2
+	volume_envelope 15, 1
 	octave 3
 	note C_, 1
 	note D_, 1
@@ -455,7 +456,7 @@ Music_MewtwoBattle_Ch1_loop:
 	note A#, 1
 	octave 4
 	note D_, 1
-	note __, 1
+	rest 1
 	note D_, 1
 	note C_, 1
 	note F_, 1
@@ -488,20 +489,20 @@ Music_MewtwoBattle_Ch1_loop:
 	note D_, 1
 	note C_, 1
 	note D#, 1
-	notetype $9, $F1
+	note_type 9, 15, 1
 	note D#, 2
-	notetype $6, $F1
-	note __, 1
+	note_type 6, 15, 1
+	rest 1
 	note D#, 2
 	note D_, 2
 	note D#, 2
 	note C_, 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note A_, 2
 	note C_, 2
 	note D_, 2
@@ -539,7 +540,7 @@ Music_MewtwoBattle_Ch1_loop:
 	note D#, 2
 	note C_, 2
 	note F_, 2
-	note __, 2
+	rest 2
 	note C_, 2
 	note D_, 2
 	note D#, 2
@@ -590,7 +591,7 @@ Music_MewtwoBattle_Ch1_loop:
 	note D#, 2
 	octave 2
 	note A#, 4
-	note __, 2
+	rest 2
 	octave 3
 	note G_, 2
 	note A#, 2
@@ -613,7 +614,7 @@ Music_MewtwoBattle_Ch1_loop:
 	octave 3
 	note D_, 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note G_, 2
 	note A_, 2
 	note A_, 2
@@ -643,14 +644,14 @@ Music_MewtwoBattle_Ch1_loop:
 	note A#, 2
 	octave 4
 	note D#, 2
-	notetype $8, $F1
+	note_type 8, 15, 1
 	note D_, 1
 	note D#, 1
 	note D_, 1
 	note D#, 1
 	note D_, 1
 	note D#, 1
-	notetype $C, $F1
+	note_type 12, 15, 1
 	note D_, 1
 	note C_, 1
 	octave 3
@@ -759,8 +760,8 @@ Music_MewtwoBattle_Ch1_loop:
 	note C_, 1
 	octave 3
 	note A#, 1
-	sound_duty $55
-	notetype $8, $F1
+	duty_cycle_pattern 1, 1, 1, 1
+	note_type 8, 15, 1
 	note A#, 1
 	octave 4
 	note C_, 1
@@ -768,14 +769,14 @@ Music_MewtwoBattle_Ch1_loop:
 	note D#, 1
 	note F_, 1
 	note G_, 1
-	intensity $98
+	volume_envelope 9, 8
 	note A_, 16
 	note A_, 16
 	note A_, 16
 	note A_, 16
 	note A_, 16
 	note A_, 10
-	intensity $F1
+	volume_envelope 15, 1
 	note G_, 1
 	note F_, 1
 	note D#, 1
@@ -783,63 +784,63 @@ Music_MewtwoBattle_Ch1_loop:
 	note C_, 1
 	octave 3
 	note A#, 1
-	intensity $98
+	volume_envelope 9, 8
 	note A_, 16
 	note A_, 16
 	note A_, 16
 	note A_, 16
 	note A_, 16
 	note A_, 16
-	notetype $C, $98
-	note __, 12
+	note_type 12, 9, 8
+	rest 12
 	octave 4
-	notetype $E, $B7
+	note_type 14, 11, 7
 	note D_, 3
-	notetype $F, $B7
-	note __, 10
+	note_type 15, 11, 7
+	rest 10
 	octave 3
-	notetype $E, $B7
+	note_type 14, 11, 7
 	note B_, 3
-	notetype $F, $B7
-	note __, 10
+	note_type 15, 11, 7
+	rest 10
 	octave 4
-	notetype $E, $B7
+	note_type 14, 11, 7
 	note D_, 3
-	note __, 9
-	notetype $C, $B7
+	rest 9
+	note_type 12, 11, 7
 	note C_, 2
 	octave 3
 	note B_, 2
 	octave 4
 	note C_, 2
-	intensity $C7
+	volume_envelope 12, 7
 	note D_, 15
-	note __, 13
+	rest 13
 	octave 3
-	notetype $E, $B7
+	note_type 14, 11, 7
 	note B_, 3
-	notetype $6, $B7
-	note __, 1
+	note_type 6, 11, 7
+	rest 1
 	note B_, 11
-	note __, 1
+	rest 1
 	octave 4
 	note E_, 11
-	note __, 1
+	rest 1
 	octave 3
 	note B_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note D_, 11
-	note __, 1
+	rest 1
 	octave 3
 	note B_, 11
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 9
-	sound_duty $5A
-	intensity $F1
-	vibrato $00, $00
+	rest 16
+	rest 16
+	rest 16
+	rest 9
+	duty_cycle_pattern 2, 2, 1, 1
+	volume_envelope 15, 1
+	vibrato 0, 0, 0
 	octave 4
 	note D_, 2
 	note C_, 2
@@ -852,14 +853,14 @@ Music_MewtwoBattle_Ch1_loop:
 	octave 3
 	note B_, 2
 	note A_, 2
-	note __, 16
-	sound_duty $55
-	intensity $C7
+	rest 16
+	duty_cycle_pattern 1, 1, 1, 1
+	volume_envelope 12, 7
 	note A_, 14
-	notetype $C, $C7
-	note __, 9
-	sound_duty $5A
-	intensity $F1
+	note_type 12, 12, 7
+	rest 9
+	duty_cycle_pattern 2, 2, 1, 1
+	volume_envelope 15, 1
 	octave 4
 	note D_, 1
 	note C_, 1
@@ -873,13 +874,13 @@ Music_MewtwoBattle_Ch1_loop:
 	note B_, 1
 	octave 4
 	note D_, 1
-	note __, 8
-	sound_duty $55
-	intensity $C7
+	rest 8
+	duty_cycle_pattern 1, 1, 1, 1
+	volume_envelope 12, 7
 	note C_, 7
-	note __, 9
-	sound_duty $5A
-	intensity $F1
+	rest 9
+	duty_cycle_pattern 2, 2, 1, 1
+	volume_envelope 15, 1
 	note D_, 1
 	note C_, 1
 	octave 3
@@ -891,31 +892,31 @@ Music_MewtwoBattle_Ch1_loop:
 	octave 3
 	note B_, 1
 	note A_, 1
-	note __, 8
-	sound_duty $55
-	intensity $C7
+	rest 8
+	duty_cycle_pattern 1, 1, 1, 1
+	volume_envelope 12, 7
 	note A_, 7
-	note __, 1
-	sound_duty $5A
-	intensity $F1
+	rest 1
+	duty_cycle_pattern 2, 2, 1, 1
+	volume_envelope 15, 1
 	octave 4
 	note D_, 1
 	note D_, 2
 	note D_, 1
-	note __, 8
-	intensity $C7
-	vibrato $00, $13
+	rest 8
+	volume_envelope 12, 7
+	vibrato 0, 1, 3
 	octave 3
 	note E_, 1
 	note F#, 1
 	note G_, 1
 	note A_, 1
-	loopchannel 0, Music_MewtwoBattle_Ch1_loop
+	sound_loop 0, Music_MewtwoBattle_Ch1_loop
 
 Music_MewtwoBattle_Ch2:
-	sound_duty $55
+	duty_cycle_pattern 1, 1, 1, 1
 	octave 3
-	notetype $6, $C1
+	note_type 6, 12, 1
 	note B_, 1
 	note A#, 1
 	note A_, 1
@@ -987,7 +988,7 @@ Music_MewtwoBattle_Ch2:
 	note F_, 1
 	note E_, 1
 	note D#, 1
-	intensity $68
+	volume_envelope 6, 8
 	octave 3
 	note E_, 16
 	note E_, 16
@@ -1001,7 +1002,7 @@ Music_MewtwoBattle_Ch2:
 	note E_, 16
 	note E_, 16
 	note E_, 8
-	intensity $C5
+	volume_envelope 12, 5
 	note D_, 1
 	note E_, 1
 	note F#, 1
@@ -1045,17 +1046,17 @@ Music_MewtwoBattle_Ch2:
 	note C_, 1
 	note D_, 1
 	note E_, 15
-	note __, 1
+	rest 1
 Music_MewtwoBattle_Ch2_loop:
-	sound_duty $AA
-	vibrato $02, $24
+	duty_cycle_pattern 2, 2, 2, 2
+	vibrato 2, 2, 4
 	octave 3
-	notetype $F, $C5
+	note_type 15, 12, 5
 	note B_, 16
-	notetype $C, $C5
+	note_type 12, 12, 5
 	note A_, 4
 	octave 4
-	notetype $8, $C5
+	note_type 8, 12, 5
 	note D_, 4
 	note C_, 4
 	octave 3
@@ -1065,13 +1066,13 @@ Music_MewtwoBattle_Ch2_loop:
 	note G_, 4
 	note F_, 4
 	note E_, 4
-	notetype $C, $C5
+	note_type 12, 12, 5
 	note D_, 1
 	note E_, 1
 	octave 3
 	note A_, 14
-	note __, 8
-	notetype $8, $C5
+	rest 8
+	note_type 8, 12, 5
 	note A#, 4
 	note A_, 4
 	note A#, 4
@@ -1082,13 +1083,13 @@ Music_MewtwoBattle_Ch2_loop:
 	note A#, 6
 	note A_, 15
 	note A_, 3
-	notetype $C, $C5
+	note_type 12, 12, 5
 	note G_, 1
 	note A_, 1
 	note G_, 1
 	note E_, 16
-	note __, 9
-	notetype $8, $C5
+	rest 9
+	note_type 8, 12, 5
 	note E_, 4
 	note F_, 4
 	note G_, 4
@@ -1105,7 +1106,7 @@ Music_MewtwoBattle_Ch2_loop:
 	octave 4
 	note C_, 3
 	note G_, 9
-	notetype $C, $C5
+	note_type 12, 12, 5
 	note F_, 1
 	note E_, 1
 	note D_, 1
@@ -1122,17 +1123,17 @@ Music_MewtwoBattle_Ch2_loop:
 	note A#, 1
 	note G_, 1
 	note E_, 8
-	note __, 8
-	sound_duty $00
-	vibrato $00, $00
+	rest 8
+	duty_cycle_pattern 0, 0, 0, 0
+	vibrato 0, 0, 0
 	note B_, 15
-	note __, 1
+	rest 1
 	note E_, 8
 	note G#, 8
 	note G#, 8
 	note A#, 4
-	sound_duty $50
-	vibrato $02, $24
+	duty_cycle_pattern 0, 0, 1, 1
+	vibrato 2, 2, 4
 	octave 4
 	note D#, 1
 	octave 3
@@ -1140,66 +1141,66 @@ Music_MewtwoBattle_Ch2_loop:
 	note D#, 1
 	octave 2
 	note A#, 1
-	notetype $9, $C5
+	note_type 9, 12, 5
 	note A_, 2
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 3
-	notetype $1, $C5
-	note __, 3
-	notetype $9, $C5
-	sound_duty $55
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 3
+	note_type 1, 12, 5
+	rest 3
+	note_type 9, 12, 5
+	duty_cycle_pattern 1, 1, 1, 1
 	octave 3
-	notetype $C, $D2
+	note_type 12, 13, 2
 	note G_, 1
-	note __, 5
+	rest 5
 	note D_, 1
-	note __, 13
+	rest 13
 	note G_, 1
-	note __, 3
+	rest 3
 	note D_, 1
-	note __, 3
+	rest 3
 	note G_, 1
-	note __, 3
+	rest 3
 	note G#, 1
-	note __, 16
-	note __, 15
+	rest 16
+	rest 15
 	note G_, 1
-	note __, 5
+	rest 5
 	note D_, 1
-	note __, 13
+	rest 13
 	note G_, 1
-	note __, 3
+	rest 3
 	note D_, 1
-	note __, 3
+	rest 3
 	note G_, 1
-	note __, 3
+	rest 3
 	note F_, 1
-	note __, 16
-	note __, 15
+	rest 16
+	rest 15
 	note D#, 1
-	note __, 15
+	rest 15
 	note A#, 1
-	note __, 7
+	rest 7
 	note D#, 1
-	note __, 7
+	rest 7
 	note F_, 1
-	note __, 16
-	note __, 15
+	rest 16
+	rest 15
 	note D#, 1
-	note __, 15
+	rest 15
 	octave 4
 	note C_, 1
-	note __, 7
+	rest 7
 	note D_, 1
-	note __, 7
+	rest 7
 	note C_, 1
-	note __, 16
-	note __, 15
-	intensity $F3
+	rest 16
+	rest 15
+	volume_envelope 15, 3
 	octave 3
 	note A_, 2
 	note D_, 2
@@ -1259,127 +1260,127 @@ Music_MewtwoBattle_Ch2_loop:
 	note D#, 2
 	note C_, 2
 	note D#, 2
-	vibrato $00, $33
-	notetype $E, $F7
+	vibrato 0, 3, 3
+	note_type 14, 15, 7
 	note D_, 3
-	notetype $6, $F7
-	note __, 1
+	note_type 6, 15, 7
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	note G_, 11
-	note __, 1
+	rest 1
 	note F_, 4
 	note D#, 11
-	note __, 5
+	rest 5
 	octave 3
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	note A#, 11
-	note __, 1
+	rest 1
 	note A_, 4
 	note G_, 11
-	note __, 5
+	rest 5
 	octave 3
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	note G_, 11
-	note __, 1
+	rest 1
 	note F_, 4
 	note D#, 11
-	note __, 5
+	rest 5
 	octave 3
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note D_, 7
-	note __, 1
+	rest 1
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 5
 	note D#, 11
-	note __, 1
+	rest 1
 	note D_, 4
 	note C_, 7
-	note __, 1
+	rest 1
 	octave 4
 	note A#, 7
-	note __, 1
+	rest 1
 	octave 3
-	notetype $F, $C8
+	note_type 15, 12, 8
 	note D_, 16
-	notetype $E, $C8
+	note_type 14, 12, 8
 	note C_, 3
-	notetype $6, $C8
-	note __, 1
-	notetype $8, $C8
+	note_type 6, 12, 8
+	rest 1
+	note_type 8, 12, 8
 	note F_, 4
 	note D#, 4
 	note C_, 4
-	notetype $B, $C8
+	note_type 11, 12, 8
 	note D_, 6
-	notetype $6, $C8
+	note_type 6, 12, 8
 	note E_, 1
 	note F_, 1
-	notetype $D, $C8
+	note_type 13, 12, 8
 	note A_, 12
-	notetype $6, $C8
-	note __, 1
+	note_type 6, 12, 8
+	rest 1
 	note G_, 8
 	octave 4
-	notetype $8, $C8
+	note_type 8, 12, 8
 	note C_, 4
 	octave 3
 	note A#, 4
 	note G_, 4
 	octave 4
-	notetype $F, $C8
+	note_type 15, 12, 8
 	note D_, 16
-	notetype $E, $C8
+	note_type 14, 12, 8
 	note C_, 3
-	notetype $6, $C8
-	note __, 1
-	notetype $8, $C8
+	note_type 6, 12, 8
+	rest 1
+	note_type 8, 12, 8
 	note F_, 4
 	note D#, 4
 	note C_, 4
-	notetype $B, $C8
+	note_type 11, 12, 8
 	note D_, 6
-	notetype $6, $C8
+	note_type 6, 12, 8
 	note E_, 1
 	note F_, 1
-	notetype $D, $C8
+	note_type 13, 12, 8
 	note A_, 12
-	notetype $6, $C8
-	note __, 1
+	note_type 6, 12, 8
+	rest 1
 	note A_, 7
-	note __, 1
-	notetype $8, $C8
+	rest 1
+	note_type 8, 12, 8
 	note G_, 4
 	note F_, 4
 	note E_, 4
-	vibrato $05, $13
-	notetype $C, $C8
+	vibrato 5, 1, 3
+	note_type 12, 12, 8
 	note F_, 12
 	note E_, 2
 	note F_, 2
@@ -1391,33 +1392,33 @@ Music_MewtwoBattle_Ch2_loop:
 	note C_, 4
 	octave 3
 	note B_, 6
-	notetype $B, $C8
+	note_type 11, 12, 8
 	note G_, 6
-	notetype $9, $C8
-	note __, 6
+	note_type 9, 12, 8
+	rest 6
 	octave 4
 	note F_, 16
-	notetype $C, $C8
+	note_type 12, 12, 8
 	note E_, 2
 	note F_, 2
 	note G_, 6
 	note B_, 6
 	octave 5
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 6
 	octave 4
 	note B_, 6
 	note A_, 4
-	notetype $B, $C8
+	note_type 11, 12, 8
 	note G#, 6
-	notetype $6, $C8
-	note __, 1
+	note_type 6, 12, 8
+	rest 1
 	note G#, 2
 	note A_, 2
 	note B_, 16
 	octave 5
-	notetype $C, $C8
+	note_type 12, 12, 8
 	note C_, 12
 	octave 4
 	note B_, 2
@@ -1451,12 +1452,12 @@ Music_MewtwoBattle_Ch2_loop:
 	note B_, 2
 	note A_, 2
 	octave 5
-	notetype $B, $C8
+	note_type 11, 12, 8
 	note E_, 6
-	notetype $6, $C8
-	note __, 1
-	sound_duty $5A
-	intensity $C5
+	note_type 6, 12, 8
+	rest 1
+	duty_cycle_pattern 2, 2, 1, 1
+	volume_envelope 12, 5
 	note D_, 2
 	note C_, 2
 	note D_, 2
@@ -1469,151 +1470,151 @@ Music_MewtwoBattle_Ch2_loop:
 	note E_, 2
 	octave 3
 	note B_, 2
-	loopchannel 0, Music_MewtwoBattle_Ch2_loop
+	sound_loop 0, Music_MewtwoBattle_Ch2_loop
 
 Music_MewtwoBattle_Ch3:
-	notetype $C, $00
-	note __, 16
-	dutycycle 7
-	intensity $17
+	note_type 12, 0, 0
+	rest 16
+	duty_cycle 7
+	volume_envelope 1, 7
 	octave 2
 	note F_, 15
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 Music_MewtwoBattle_Ch3_loop:
 	octave 1
 	note A_, 3
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -1625,7 +1626,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -1637,7 +1638,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note F_, 3
 	note F_, 1
 	note F_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note F_, 1
 	note F_, 1
@@ -1649,7 +1650,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note F_, 3
 	note F_, 1
 	note F_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note F_, 1
 	note F_, 1
@@ -1664,7 +1665,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A#, 3
 	note A#, 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
 	note A_, 1
 	note A#, 1
@@ -1677,7 +1678,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A#, 3
 	note A#, 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
 	note A_, 1
 	note A#, 1
@@ -1691,7 +1692,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -1703,7 +1704,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -1715,7 +1716,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note F_, 3
 	note F_, 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note F_, 1
 	note F_, 1
 	note F_, 1
@@ -1727,7 +1728,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note F_, 3
 	note F_, 1
 	note F_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note C_, 1
 	octave 1
@@ -1743,7 +1744,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A#, 3
 	note A#, 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
 	note A#, 1
 	note A#, 1
@@ -1756,7 +1757,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A#, 3
 	note A#, 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
 	note A#, 1
 	note A#, 1
@@ -1770,7 +1771,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -1782,7 +1783,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -1794,7 +1795,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 3
 	note A_, 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 1
 	octave 2
 	note E_, 2
@@ -2023,7 +2024,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2034,7 +2035,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2045,7 +2046,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2056,7 +2057,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2067,7 +2068,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2078,7 +2079,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2089,7 +2090,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2100,7 +2101,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2111,7 +2112,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2122,7 +2123,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2133,7 +2134,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2144,7 +2145,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2155,7 +2156,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2166,7 +2167,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note D#, 3
 	note D#, 1
 	octave 1
@@ -2177,7 +2178,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D_, 3
 	note D_, 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 1
 	octave 1
@@ -2188,7 +2189,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note D#, 3
 	note D#, 2
 	note D#, 3
-	note __, 1
+	rest 1
 	note C_, 1
 	note C_, 1
 	octave 1
@@ -2200,7 +2201,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A#, 1
 	octave 2
 	note C_, 1
-	note __, 2
+	rest 2
 	octave 3
 	note D_, 2
 	note D_, 2
@@ -2262,7 +2263,7 @@ Music_MewtwoBattle_Ch3_loop:
 	octave 1
 	note A#, 1
 	note A_, 1
-	note __, 2
+	rest 2
 	octave 3
 	note D_, 2
 	note D_, 2
@@ -2396,7 +2397,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note B_, 1
 	octave 2
 	note E_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note E_, 3
 	note E_, 3
@@ -2416,7 +2417,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 1
 	octave 2
 	note E_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 3
 	note D_, 3
@@ -2434,7 +2435,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 1
 	octave 2
 	note E_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 3
 	note D_, 3
@@ -2452,7 +2453,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 1
 	octave 2
 	note E_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 3
 	note D_, 3
@@ -2470,7 +2471,7 @@ Music_MewtwoBattle_Ch3_loop:
 	note A_, 1
 	octave 2
 	note E_, 3
-	note __, 1
+	rest 1
 	note D_, 3
 	note D_, 3
 	note D_, 3
@@ -2482,1319 +2483,1319 @@ Music_MewtwoBattle_Ch3_loop:
 	octave 1
 	note B_, 1
 	note A_, 1
-	loopchannel 0, Music_MewtwoBattle_Ch3_loop
+	sound_loop 0, Music_MewtwoBattle_Ch3_loop
 
 Music_MewtwoBattle_Ch4:
-	notetype $C
-	note __, 16
-	togglenoise 1
-	note F#, 15
-	note __, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note D#, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note D#, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note D#, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note E_, 1
-	note E_, 1
-	note D#, 1
-	note D#, 1
-	note D#, 1
-	note D#, 1
-	note D#, 2
-	note D#, 1
-	note D#, 1
+	drum_speed 12
+	rest 16
+	toggle_noise 1
+	drum_note 7, 15
+	rest 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 4, 1
+	drum_note 4, 1
+	drum_note 4, 1
+	drum_note 4, 2
+	drum_note 4, 1
+	drum_note 4, 1
 Music_MewtwoBattle_Ch4_loop:
-	note F#, 3
-	note __, 1
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 3
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-	note A#, 2
-	note A#, 1
-	note A#, 1
-
-	note F#, 3
-	note __, 1
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 3
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-	note A#, 2
-	note A#, 1
-	note A#, 1
-
-	note F#, 3
-	note __, 1
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 3
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-	note A#, 2
-	note A#, 1
-	note A#, 1
-
-	note F#, 3
-	note __, 1
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 3
-	note E_, 1
-	note E_, 3
-	note __, 1
-
-	note A#, 3
-
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note __, 1
-	note E_, 3
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note A#, 3
-	note A#, 2
-	note A#, 1
-	note A#, 1
-
-	note F#, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note E_, 1
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note A_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note A_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note A_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note A_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note D#, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note D#, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 2
-	note E_, 1
-
-	note A#, 1
-
-	note F#, 1
-	note D#, 1
-	note D#, 1
-
-	note A#, 1
-	note A#, 1
-
-	note F#, 1
-
-	note A#, 1
-
-	note D#, 2
-	note A_, 2
-	note __, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 3
-	note __, 1
-	note E_, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note __, 2
-
-	note A_, 2
-	note __, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-
-	note A#, 1
-	note A#, 1
-
-	note D#, 2
-
-	note A#, 3
-
-	note A_, 1
-	note E_, 1
-	note E_, 2
-
-	note A#, 3
-	note A#, 2
-	note A#, 1
-	note A#, 1
-	note A#, 2
-
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note A_, 2
-	note E_, 1
-	note E_, 1
-
-	note A#, 2
-	note A#, 1
-	note A#, 1
-	note A#, 1
-	note A#, 1
-
-	note D#, 2
-	note A_, 2
-	note __, 2
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 3
-	note __, 1
-	note E_, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 1
-
-	note A#, 3
-	note __, 2
-
-	note A_, 2
-	note __, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-
-	note A#, 1
-	note A#, 1
-
-	note D#, 2
-
-	note A#, 3
-
-	note A_, 1
-	note E_, 1
-	note E_, 2
-
-	note A#, 3
-	note A#, 2
-	note A#, 1
-	note A#, 1
-	note A#, 2
-
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note A_, 2
-	note E_, 1
-	note E_, 1
-
-	note A#, 2
-	note A#, 1
-	note A#, 1
-	note A#, 1
-	note A#, 1
-
-	note A_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-
-	note A#, 1
-
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D#, 1
-	note E_, 1
-	note F#, 1
-	note D#, 1
-
-	note A#, 1
-
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note E_, 1
-
-	note A#, 1
-
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note E_, 1
-	note E_, 1
-	loopchannel 0, Music_MewtwoBattle_Ch4_loop
+	drum_note 7, 3
+	rest 1
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 7, 3
+	rest 1
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 7, 3
+	rest 1
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 7, 3
+	rest 1
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+
+	drum_note 11, 3
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	rest 1
+	drum_note 5, 3
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 10, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 10, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 10, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 10, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 4, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 2
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 7, 1
+	drum_note 4, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 4, 2
+	drum_note 10, 2
+	rest 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	rest 2
+
+	drum_note 10, 2
+	rest 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 4, 2
+
+	drum_note 11, 3
+
+	drum_note 10, 1
+	drum_note 5, 1
+	drum_note 5, 2
+
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 2
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 10, 2
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 4, 2
+	drum_note 10, 2
+	rest 2
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 3
+	rest 1
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 3
+	rest 2
+
+	drum_note 10, 2
+	rest 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 4, 2
+
+	drum_note 11, 3
+
+	drum_note 10, 1
+	drum_note 5, 1
+	drum_note 5, 2
+
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 2
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 10, 2
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 1
+
+	drum_note 10, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+
+	drum_note 11, 1
+
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 4, 1
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 4, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 7, 1
+	drum_note 5, 1
+	drum_note 5, 1
+
+	drum_note 11, 1
+
+	drum_note 5, 1
+	drum_note 5, 1
+	drum_note 5, 2
+	drum_note 5, 1
+	drum_note 5, 1
+	sound_loop 0, Music_MewtwoBattle_Ch4_loop

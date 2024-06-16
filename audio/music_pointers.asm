@@ -149,3 +149,5 @@ Music:
 	dba Music_PokemonTower
 	dba Music_OakBattle
 	dba Music_ChampionBattle_B2W2
+	dba Music_KnightsTempora
+	dba Music_EventGhetsis

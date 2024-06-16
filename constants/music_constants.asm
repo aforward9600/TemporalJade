@@ -150,6 +150,8 @@
 	const MUSIC_POKEMON_TOWER
 	const MUSIC_OAK_BATTLE
 	const MUSIC_CHAMPION_BATTLE_BW2
+	const MUSIC_KNIGHTS_TEMPORA
+	const MUSIC_EVENT_GHETSIS
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc

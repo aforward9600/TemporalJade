@@ -1,131 +1,132 @@
 ; Conversion by TriteHexagon
 Music_GiovanniBattle:
-	musicheader 4, 1, Music_GiovanniBattle_Ch1
-	musicheader 1, 2, Music_GiovanniBattle_Ch2
-	musicheader 1, 3, Music_GiovanniBattle_Ch3
-	musicheader 1, 4, Music_GiovanniBattle_Ch4
+	channel_count 4
+	channel 1, Music_GiovanniBattle_Ch1
+	channel 2, Music_GiovanniBattle_Ch2
+	channel 3, Music_GiovanniBattle_Ch3
+	channel 4, Music_GiovanniBattle_Ch4
 
 Music_GiovanniBattle_Ch1:
-	volume $77
-	dutycycle $2
-	notetype 12, $a8
+	volume 7, 7
+	duty_cycle $2
+	note_type 12, 10, 8
 	tempo 108
 ;Bar 3
 	octave 5
 	note A_, 1
-	note __, 3
+	rest 3
 	note A#, 1
-	note __, 3
+	rest 3
 	note B_, 1
-	note __, 3
+	rest 3
 	octave 6
 	note C_, 1
-	note __, 3
+	rest 3
 ;Bar 4
 	note C#, 1
-	note __, 3
+	rest 3
 	note D_, 1
-	note __, 3
+	rest 3
 	note D#, 1
-	note __, 3
+	rest 3
 	note E_, 1
-	note __, 3
+	rest 3
 ;Bar 5
-	note __, 16
+	rest 16
 ;Bar 6
 	tempo 142
 Music_GiovanniBattle_Ch1_loop:
-	vibrato $00, $00
-	dutycycle $1
-	note __, 10
+	vibrato 0, 0, 0
+	duty_cycle $1
+	rest 10
 	octave 4
 	note F_, 2
 	note D#, 16
 	note D#, 4
 ;Bar 8
-	note __, 16
-	note __, 16
-	note __, 10
+	rest 16
+	rest 16
+	rest 10
 ;Bar 10
 	note F_, 2
 	note D#, 16
 	note D#, 4
 ;Bar 12
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 16
-	dutycycle $2
+	duty_cycle $2
 	octave 3
-	callchannel Music_GiovanniBattle_Ch1_Bar16
+	sound_call Music_GiovanniBattle_Ch1_Bar16
 ;Bar 17
 	octave 4
 	note C_, 1
-	note __, 1
+	rest 1
 	octave 3
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 4
 	note C_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 ;Bar 18
-	intensity $a7
+	volume_envelope 10, 7
 	note A_, 8
-	intensity $a8
-	note __, 16
-	note __, 8
+	volume_envelope 10, 8
+	rest 16
+	rest 8
 ;Bar 20
 	octave 3
-	callchannel Music_GiovanniBattle_Ch1_Bar16
+	sound_call Music_GiovanniBattle_Ch1_Bar16
 ;Bar 21
 	octave 4
 	note C_, 1
-	note __, 1
+	rest 1
 	octave 3
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 4
 	note C_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 23
-	dutycycle $1
-	intensity $88
+	duty_cycle $1
+	volume_envelope 8, 8
 	note D_, 2
-	note __, 4
+	rest 4
 	note D_, 10
 ;Bar 24
-	note __, 4
+	rest 4
 	octave 3
 	note A#, 12
-	intensity $84
+	volume_envelope 8, 4
 	note A#, 2
 ;Bar 25
-	intensity $88
+	volume_envelope 8, 8
 	note A#, 2
-	note __, 6
-	intensity $a8
+	rest 6
+	volume_envelope 10, 8
 	note D#, 1
 	note G_, 1
 	note A#, 4
@@ -149,8 +150,8 @@ Music_GiovanniBattle_Ch1_loop:
 ;Bar 30
 	octave 1
 Music_GiovanniBattle_Ch1_Bar30_35:
-	intensity $b4
-	dutycycle $0
+	volume_envelope 11, 4
+	duty_cycle $0
 	note D_, 2
 	note D_, 1
 	note D_, 1
@@ -158,15 +159,15 @@ Music_GiovanniBattle_Ch1_Bar30_35:
 	note D_, 1
 	note D_, 1
 	note D_, 1
-	note __, 16
-	note __, 7
-	loopchannel 4, Music_GiovanniBattle_Ch1_Bar30_35
+	rest 16
+	rest 7
+	sound_loop 4, Music_GiovanniBattle_Ch1_Bar30_35
 ;Bar 36
-	note __, 10
-	note __, 16
+	rest 10
+	rest 16
 ;Bar 39
-	intensity $a8
-	dutycycle $2
+	volume_envelope 10, 8
+	duty_cycle $2
 	octave 4
 	note C_, 2
 	octave 3
@@ -176,8 +177,8 @@ Music_GiovanniBattle_Ch1_Bar30_35:
 ;Bar 40
 	octave 3
 	note D_, 4
-	note __, 16
-	note __, 6
+	rest 16
+	rest 6
 ;Bar 41
 	octave 4
 	note C_, 2
@@ -188,7 +189,7 @@ Music_GiovanniBattle_Ch1_Bar30_35:
 ;Bar 42
 	octave 3
 	note D#, 4
-	note __, 2
+	rest 2
 	octave 4
 	note G_, 6
 	note F_, 4
@@ -228,152 +229,152 @@ Music_GiovanniBattle_Ch1_Bar30_35:
 	octave 4
 	note A_, 2
 ;Bar 46
-	dutycycle $0
-	vibrato $00, $41
+	duty_cycle $0
+	vibrato 0, 4, 1
 	octave 2
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 ;Bar 47
 Music_GiovanniBattle_Ch1_Bar47:
 	octave 2
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note F_, 2
 	note D#, 4
-	loopchannel 2, Music_GiovanniBattle_Ch1_Bar47
+	sound_loop 2, Music_GiovanniBattle_Ch1_Bar47
 ;Bar 49
 	note D_, 1
-	note __, 15
+	rest 15
 ;Bar 50
 Music_GiovanniBattle_Ch1_Bar50:
 	note D#, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D#, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D#, 1
-	note __, 1
+	rest 1
 	octave 1
 	note D#, 1
-	note __, 1
+	rest 1
 	octave 2
 	note G_, 2
 	note F_, 4
-	loopchannel 3, Music_GiovanniBattle_Ch1_Bar50
+	sound_loop 3, Music_GiovanniBattle_Ch1_Bar50
 ;Bar 53
 	note D#, 1
-	note __, 5
+	rest 5
 	note D#, 1
-	note __, 9
+	rest 9
 ;Bar 54
-	callchannel Music_GiovanniBattle_Ch1_Bar54
+	sound_call Music_GiovanniBattle_Ch1_Bar54
 ;Bar 55
 	octave 2
 	note D#, 2
 	octave 1
 	note D#, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D#, 2
 	octave 1
 	note D#, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D#, 2
 	octave 1
 	note D#, 1
-	note __, 1
+	rest 1
 ;Bar 56
-	callchannel Music_GiovanniBattle_Ch1_Bar54
+	sound_call Music_GiovanniBattle_Ch1_Bar54
 ;Bar 57
-	callchannel Music_GiovanniBattle_Ch1_Bar54
-	loopchannel 0, Music_GiovanniBattle_Ch1_loop
+	sound_call Music_GiovanniBattle_Ch1_Bar54
+	sound_loop 0, Music_GiovanniBattle_Ch1_loop
 
 Music_GiovanniBattle_Ch1_Bar16:
 	note D#, 1;
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
-	endchannel
+	rest 1
+	sound_ret
 
 Music_GiovanniBattle_Ch1_Bar54:
 	octave 2
 	note D_, 2;
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 2
 	octave 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 2
 	octave 1
 	note D_, 1
-	note __, 1
-	endchannel
+	rest 1
+	sound_ret
 
 ; ============================================================================================================
 
 Music_GiovanniBattle_Ch2:
-	dutycycle $3
-	notetype 12, $a8
-	vibrato $08, $24
+	duty_cycle $3
+	note_type 12, 10, 8
+	vibrato 8, 2, 4
 ;Bar 3
 	octave 5
 	note E_, 1
@@ -414,48 +415,48 @@ Music_GiovanniBattle_Ch2:
 	octave 3
 	note B_, 1
 ;Bar 5
-	note __, 16
+	rest 16
 ;Bar 6
 Music_GiovanniBattle_Ch2_loop:
 	octave 3
-	note __, 10
+	rest 10
 	note D_, 2
 	octave 2
 	note A#, 4
 	note A#, 16
 ;Bar 8
-	dutycycle $0
-	vibrato $00, $41
+	duty_cycle $0
+	vibrato 0, 4, 1
 	note D_, 2
 	octave 1
 	note D_, 2
 	note D_, 2
 	octave 2
 	note D_, 2
-	note __, 16
-	note __, 8
+	rest 16
+	rest 8
 ;Bar 10
-	dutycycle $3
-	vibrato $08, $24
+	duty_cycle $3
+	vibrato 8, 2, 4
 	octave 3
-	note __, 10
+	rest 10
 	note D_, 2
 	octave 2
 	note A#, 4
 	note A#, 16
 ;Bar 12
-	dutycycle $0
-	vibrato $00, $41
+	duty_cycle $0
+	vibrato 0, 4, 1
 	note D_, 2
 	octave 1
 	note D_, 2
 	note D_, 2
 	octave 2
 	note D_, 2
-	note __, 16
-	note __, 4
-	vibrato $08, $24
-	dutycycle $1
+	rest 16
+	rest 4
+	vibrato 8, 2, 4
+	duty_cycle $1
 	note B_, 2
 	octave 3
 	note C_, 2
@@ -494,8 +495,8 @@ Music_GiovanniBattle_Ch2_loop:
 	note G_, 8
 	note A#, 8
 ;Bar 22
-	dutycycle $0
-	vibrato $00, $41
+	duty_cycle $0
+	vibrato 0, 4, 1
 	note D_, 2
 	note C_, 2
 	note D_, 2
@@ -534,9 +535,9 @@ Music_GiovanniBattle_Ch2_loop:
 ;Bar 29
 	note F_, 16
 ;Bar 30
-	vibrato $08, $24
-	dutycycle $1
-	note __, 4
+	vibrato 8, 2, 4
+	duty_cycle $1
+	rest 4
 	octave 3
 	note A_, 4
 	note G#, 4
@@ -584,10 +585,10 @@ Music_GiovanniBattle_Ch2_loop:
 	note D_, 2
 	note F_, 1
 	octave 4
-	intensity $d8
+	volume_envelope 13, 8
 	note D_, 1
-	intensity $a8
-	note __, 4
+	volume_envelope 10, 8
+	rest 4
 	octave 3
 	note B_, 8
 ;Bar 39
@@ -595,13 +596,13 @@ Music_GiovanniBattle_Ch2_loop:
 	note C_, 6
 	octave 3
 	note B_, 1
-	note __, 12
+	rest 12
 ;Bar 40
 	octave 4
-	intensity $d8
+	volume_envelope 13, 8
 	note D_, 1
-	intensity $a8
-	note __, 4
+	volume_envelope 10, 8
+	rest 4
 	note G_, 5
 	note E_, 1
 	note F_, 1
@@ -609,7 +610,7 @@ Music_GiovanniBattle_Ch2_loop:
 ;Bar 41
 	note G#, 6
 	note F_, 1
-	note __, 9
+	rest 9
 ;Bar 42
 	octave 3
 	note A#, 16
@@ -622,28 +623,28 @@ Music_GiovanniBattle_Ch2_loop:
 	note F#, 16
 ;Bar 46
 	note D_, 1
-	note __, 5
+	rest 5
 	note D_, 1
-	note __, 5
+	rest 5
 	note D_, 1
-	note __, 3
+	rest 3
 ;Bar 47
 	note D_, 1
-	note __, 5
+	rest 5
 	note D_, 1
-	note __, 3
+	rest 3
 	note F_, 2
 	note D#, 4
 ;Bar 48
 	note D_, 1
-	note __, 5
+	rest 5
 	note D_, 1
-	note __, 3
+	rest 3
 	note F_, 2
 	note D#, 4
 ;Bar 49
 	note D_, 1
-	note __, 5
+	rest 5
 	octave 2
 	note A_, 1
 	octave 3
@@ -651,28 +652,28 @@ Music_GiovanniBattle_Ch2_loop:
 	note A_, 8
 ;Bar 50
 	note D#, 1
-	note __, 5
+	rest 5
 	note D#, 1
-	note __, 3
+	rest 3
 	note G_, 2
 	note F_, 4
 ;Bar 51
 	note D#, 1
-	note __, 5
+	rest 5
 	note D#, 1
-	note __, 3
+	rest 3
 	note G_, 2
 	note F_, 4
 ;Bar 52
 	note D#, 1
-	note __, 5
+	rest 5
 	note D#, 1
-	note __, 3
+	rest 3
 	note G_, 2
 	note F_, 4
 ;Bar 53
 	note D#, 1
-	note __, 6
+	rest 6
 	note C#, 1
 	note A#, 8
 ;Bar 54
@@ -689,61 +690,61 @@ Music_GiovanniBattle_Ch2_loop:
 	note G#, 4
 ;Bar 57
 	note A_, 16
-	loopchannel 0, Music_GiovanniBattle_Ch2_loop
+	sound_loop 0, Music_GiovanniBattle_Ch2_loop
 
 ; ============================================================================================================
 
 Music_GiovanniBattle_Ch3:
-	notetype 12, $14
+	note_type 12, 1, 4
 ;Bar 3
 	octave 4
 	note A_, 1
-	note __, 1
+	rest 1
 	octave 5
 	note E_, 1
-	note __, 1
+	rest 1
 	octave 4
 	note G#, 1
-	note __, 1
+	rest 1
 	octave 5
 	note E_, 1
-	note __, 1
+	rest 1
 	octave 4
 	note G_, 1
-	note __, 1
+	rest 1
 	octave 5
 	note E_, 1
-	note __, 1
+	rest 1
 	octave 4
 	note F#, 1
-	note __, 1
+	rest 1
 	octave 5
 	note E_, 1
-	note __, 1
+	rest 1
 ;Bar 4
 	octave 4
 	note F_, 1
-	note __, 1
+	rest 1
 	octave 5
 	note E_, 1
-	note __, 1
+	rest 1
 	octave 4
 	note E_, 1
-	note __, 3
+	rest 3
 	note E_, 1
-	note __, 3
+	rest 3
 	note E_, 1
-	note __, 16
-	note __, 3
+	rest 16
+	rest 3
 ;Bar 6
 Music_GiovanniBattle_Ch3_loop:
-	intensity $16
+	volume_envelope 1, 6
 	octave 2
 Music_GiovanniBattle_Ch3_Bar7:
 	note D_, 16
 ;Bar 7
 	note D#, 16
-	loopchannel 4, Music_GiovanniBattle_Ch3_Bar7
+	sound_loop 4, Music_GiovanniBattle_Ch3_Bar7
 
 Music_GiovanniBattle_Ch3_Bar14:
 ;Bar 14
@@ -754,12 +755,12 @@ Music_GiovanniBattle_Ch3_Bar14:
 	note D#, 16
 ;Bar 17
 	note D#, 16
-	loopchannel 3, Music_GiovanniBattle_Ch3_Bar14
+	sound_loop 3, Music_GiovanniBattle_Ch3_Bar14
 
 Music_GiovanniBattle_Ch3_Bar26:
 ;Bar 26
 	note D_, 16
-	loopchannel 16, Music_GiovanniBattle_Ch3_Bar26
+	sound_loop 16, Music_GiovanniBattle_Ch3_Bar26
 ;Bar 42
 	note D#, 16
 ;Bar 43
@@ -792,245 +793,245 @@ Music_GiovanniBattle_Ch3_Bar26:
 	note D_, 16
 ;Bar 57
 	note D_, 16
-	loopchannel 0, Music_GiovanniBattle_Ch3_loop
+	sound_loop 0, Music_GiovanniBattle_Ch3_loop
 
 ; ============================================================================================================
 
 Music_GiovanniBattle_Ch4:
-	togglenoise 1
-	notetype 6
+	toggle_noise 1
+	drum_speed 6
 ;Bar 1
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 5
-	callchannel Music_GiovanniBattle_Ch4_Bar5_P1
-	callchannel Music_GiovanniBattle_Ch4_Bar5_P2
-	callchannel Music_GiovanniBattle_Ch4_Bar5_P3
+	sound_call Music_GiovanniBattle_Ch4_Bar5_P1
+	sound_call Music_GiovanniBattle_Ch4_Bar5_P2
+	sound_call Music_GiovanniBattle_Ch4_Bar5_P3
 ;Bar 6
 Music_GiovanniBattle_Ch4_loop:
-	callchannel Music_GiovanniBattle_Ch4_Bar6
+	sound_call Music_GiovanniBattle_Ch4_Bar6
 ;Bar 7
-	callchannel Music_GiovanniBattle_Ch4_Bar7
+	sound_call Music_GiovanniBattle_Ch4_Bar7
 ;Bar 8
-	callchannel Music_GiovanniBattle_Ch4_Bar6
+	sound_call Music_GiovanniBattle_Ch4_Bar6
 ;Bar 9
-	callchannel Music_GiovanniBattle_Ch4_Bar7
+	sound_call Music_GiovanniBattle_Ch4_Bar7
 ;Bar 10
-	callchannel Music_GiovanniBattle_Ch4_Bar6
+	sound_call Music_GiovanniBattle_Ch4_Bar6
 ;Bar 11
-	callchannel Music_GiovanniBattle_Ch4_Bar7
+	sound_call Music_GiovanniBattle_Ch4_Bar7
 ;Bar 12
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 13
-	callchannel Music_GiovanniBattle_Ch4_Bar7
+	sound_call Music_GiovanniBattle_Ch4_Bar7
 ;Bar 14
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 15
-	callchannel Music_GiovanniBattle_Ch4_Bar7
+	sound_call Music_GiovanniBattle_Ch4_Bar7
 ;Bar 16
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 17
-	callchannel Music_GiovanniBattle_Ch4_Bar17
+	sound_call Music_GiovanniBattle_Ch4_Bar17
 ;Bar 18
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 19
-	callchannel Music_GiovanniBattle_Ch4_Bar17
+	sound_call Music_GiovanniBattle_Ch4_Bar17
 ;Bar 20
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 21
-	callchannel Music_GiovanniBattle_Ch4_Bar17
+	sound_call Music_GiovanniBattle_Ch4_Bar17
 ;Bar 22
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 23
-	callchannel Music_GiovanniBattle_Ch4_Bar17
+	sound_call Music_GiovanniBattle_Ch4_Bar17
 ;Bar 24
-	callchannel Music_GiovanniBattle_Ch4_Bar12
+	sound_call Music_GiovanniBattle_Ch4_Bar12
 ;Bar 25
-	callchannel Music_GiovanniBattle_Ch4_Bar17
+	sound_call Music_GiovanniBattle_Ch4_Bar17
 ;Bar 26
-	note A_, 12
-	note A_, 12
-	note A_, 12
+	drum_note 10, 12
+	drum_note 10, 12
+	drum_note 10, 12
 ;Bar 27
-	note A_, 12
-	note A_, 8
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
+	drum_note 10, 12
+	drum_note 10, 8
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
 ;Bar 28
-	note A_, 12
-	note A_, 12
-	note A_, 12
+	drum_note 10, 12
+	drum_note 10, 12
+	drum_note 10, 12
 ;Bar 29
-	note A_, 12
-	note A_, 8
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
+	drum_note 10, 12
+	drum_note 10, 8
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
 ;Bar 30
-	note A_, 4
-	note A_, 16
-	note __, 16
-	note __, 12
+	drum_note 10, 4
+	drum_note 10, 16
+	rest 16
+	rest 12
 ;Bar 31
-	note C_, 16
+	drum_note 1, 16
 ;Bar 32
 Music_GiovanniBattle_Ch4_Bar32_33:
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 4
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note __, 16
-	note __, 12
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 4
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	rest 16
+	rest 12
 ;Bar 33
-	note C_, 2
-	note C_, 16
-	loopchannel 2, Music_GiovanniBattle_Ch4_Bar32_33
+	drum_note 1, 2
+	drum_note 1, 16
+	sound_loop 2, Music_GiovanniBattle_Ch4_Bar32_33
 ;Bar 36
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 4
-	note C_, 2
-	note C_, 2
-	note C_, 16
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 4
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 16
 ;Bar 37
-	callchannel Music_GiovanniBattle_Ch4_Bar5_P1
-	callchannel Music_GiovanniBattle_Ch4_Bar5_P2
-	callchannel Music_GiovanniBattle_Ch4_Bar5_P3
+	sound_call Music_GiovanniBattle_Ch4_Bar5_P1
+	sound_call Music_GiovanniBattle_Ch4_Bar5_P2
+	sound_call Music_GiovanniBattle_Ch4_Bar5_P3
 ;Bar 38
-	note A_, 4
-	note A_, 8
-	note A_, 4
-	note A_, 8
-	note A_, 8
+	drum_note 10, 4
+	drum_note 10, 8
+	drum_note 10, 4
+	drum_note 10, 8
+	drum_note 10, 8
 ;Bar 39
-	note A_, 16
-	note A_, 8
-	note A_, 8
+	drum_note 10, 16
+	drum_note 10, 8
+	drum_note 10, 8
 ;Bar 40
-	note A_, 4
-	note A_, 8
-	note A_, 4
-	note A_, 8
-	note A_, 8
+	drum_note 10, 4
+	drum_note 10, 8
+	drum_note 10, 4
+	drum_note 10, 8
+	drum_note 10, 8
 ;Bar 41
-	note A_, 16
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
+	drum_note 10, 16
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
 ;Bar 42
-	note A_, 16
-	note A_, 8
-	note A_, 8
+	drum_note 10, 16
+	drum_note 10, 8
+	drum_note 10, 8
 ;Bar 43
-	note A_, 4
-	note A_, 16
-	note A_, 12
+	drum_note 10, 4
+	drum_note 10, 16
+	drum_note 10, 12
 ;Bar 44
-	note A_, 16
-	note A_, 8
-	note A_, 8
+	drum_note 10, 16
+	drum_note 10, 8
+	drum_note 10, 8
 ;Bar 45
-	callchannel Music_GiovanniBattle_Ch4_Bar7
+	sound_call Music_GiovanniBattle_Ch4_Bar7
 ;Bar 46
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 47
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 48
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 49
-	callchannel Music_GiovanniBattle_Ch4_Bar17
+	sound_call Music_GiovanniBattle_Ch4_Bar17
 ;Bar 50
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 51
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 52
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 53
-	note A_, 16
-	note A_, 4
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
+	drum_note 10, 16
+	drum_note 10, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
 ;Bar 54
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 55
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 56
-	callchannel Music_GiovanniBattle_Ch4_Bar46
+	sound_call Music_GiovanniBattle_Ch4_Bar46
 ;Bar 57
-	callchannel Music_GiovanniBattle_Ch4_Bar46
-	loopchannel 0, Music_GiovanniBattle_Ch4_loop
+	sound_call Music_GiovanniBattle_Ch4_Bar46
+	sound_loop 0, Music_GiovanniBattle_Ch4_loop
 
 Music_GiovanniBattle_Ch4_Bar5_P1:
-	note B_, 1
-	loopchannel 10, Music_GiovanniBattle_Ch4_Bar5_P1
-	endchannel
+	drum_note 12, 1
+	sound_loop 10, Music_GiovanniBattle_Ch4_Bar5_P1
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar5_P2:
-	note A#, 1
-	loopchannel 12, Music_GiovanniBattle_Ch4_Bar5_P1
-	endchannel
+	drum_note 11, 1
+	sound_loop 12, Music_GiovanniBattle_Ch4_Bar5_P1
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar5_P3:
-	note A_, 1
-	loopchannel 10, Music_GiovanniBattle_Ch4_Bar5_P1
-	endchannel
+	drum_note 10, 1
+	sound_loop 10, Music_GiovanniBattle_Ch4_Bar5_P1
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar6:
-	note A_, 12;
-	note A_, 8
-	note A_, 12
-	endchannel
+	drum_note 10, 12;
+	drum_note 10, 8
+	drum_note 10, 12
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar7:
-	note A_, 4;
-	note A_, 16
-	note A_, 4
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	endchannel
+	drum_note 10, 4;
+	drum_note 10, 16
+	drum_note 10, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar12:
-	note A_, 12;
-	note A_, 16
-	note A_, 4
-	endchannel
+	drum_note 10, 12;
+	drum_note 10, 16
+	drum_note 10, 4
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar17:
-	note A_, 16;
-	note A_, 8
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	endchannel
+	drum_note 10, 16;
+	drum_note 10, 8
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 10, 2
+	sound_ret
 
 Music_GiovanniBattle_Ch4_Bar46:
-	note A_, 12;
-	note A_, 12
-	note A_, 8
-	endchannel
+	drum_note 10, 12;
+	drum_note 10, 12
+	drum_note 10, 8
+	sound_ret
 
 ; ============================================================================================================
 

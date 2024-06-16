@@ -2173,9 +2173,7 @@ endc
 	next_list_item ; YOUNGSTER (2) Ice Path
 	db "Timmy@", TRAINERTYPE_NORMAL
 	db 5
-	dw VENIPEDE
-	db 6
-	dw RATTATA
+	dw LILLIPUP
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (3), Mount Mortar 1F Inside
@@ -2197,23 +2195,11 @@ endc
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (5)
-	db "Gordy@", TRAINERTYPE_ITEM
-	db 7
-	dw RATTATA
-	db NO_ITEM
-	db 9
+	db "Gordy@", TRAINERTYPE_NORMAL
+	db 5
+	dw PIKIPEK
+	db 6
 	dw SANDSHREW
-	db NO_ITEM
-	db 8
-	dw SPEAROW
-if DEF(_CHALLENGE)
-	db SCOPE_LENS
-else
-	db NO_ITEM
-endc
-	db 8
-	dw PICHU
-	db NO_ITEM
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (6)
@@ -4428,19 +4414,9 @@ endc
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (2) Route 44
-	db "Colton@", TRAINERTYPE_MOVES
+	db "Colton@", TRAINERTYPE_NORMAL
 	db 8
-	dw LILLIPUP
-	dw POISON_STING, STRING_SHOT, NO_MOVE, NO_MOVE
-	db 8
-	dw PIKIPEK
-	dw TACKLE, STRING_SHOT, NO_MOVE, NO_MOVE
-	db 9
-	dw TRUMBEAK
-	dw TACKLE, STRING_SHOT, HARDEN, NO_MOVE
-	db 9
-	dw HERDIER
-	dw POISON_STING, STRING_SHOT, HARDEN, NO_MOVE
+	dw VENIPEDE ; replace with Cutiefly
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (3)

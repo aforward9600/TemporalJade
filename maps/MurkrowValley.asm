@@ -9,6 +9,7 @@
 	const MURKROWVALLEY_MILTANK2
 	const MURKROWVALLEY_MURKROW5
 	const MURKROWVALLEY_TEACHER
+	const MURKROWVALLEY_TWIN
 	const MURKROWVALLEY_RIVAL ; if player is male
 
 MurkrowValley_MapScripts:
@@ -76,6 +77,15 @@ MurkrowValley_TeacherStopsYou2:
 	waitbutton
 	closetext
 	special RestartMapMusic
+	end
+
+MurkrowValleyTwinScript:
+	faceplayer
+	opentext
+	writetext MurkrowValleyTwinText
+	waitbutton
+	closetext
+	turnobject MURKROWVALLEY_TWIN, DOWN
 	end
 
 MurkrowValleyTeacherScript:
@@ -160,11 +170,13 @@ MurkrowValleyGrampsText:
 	done
 
 MurkrowValleyLassText:
-	text "I wonder who will"
-	line "buy that house?"
+	text "It's really boring"
+	line "in this town."
 
-	para "Hope it's someone"
-	line "cool."
+	para "I wanna go and"
+	line "live in the big"
+	cont "city where the"
+	cont "excitement is!"
 	done
 
 Text_MeetMeAfterGym:
@@ -247,6 +259,15 @@ MurkrowValleyWhatAreYouDoingText:
 	cont "into the grass!"
 	done
 
+MurkrowValleyTwinText:
+	text "I love Miltank!"
+
+	para "They're so cute!"
+
+	para "They smell really"
+	line "bad, though!"
+	done
+
 MurkrowValley_MapEvents:
 	db 0, 0 ; filler
 
@@ -267,7 +288,7 @@ MurkrowValley_MapEvents:
 	bg_event  3,  7, BGEVENT_READ, MurkrowValleyJunipersLabSign
 	bg_event 31,  5, BGEVENT_READ, MurkrowValleyRivalHouseSign
 
-	db 10 ; object events
+	db 11 ; object events
 ;	object_event 16,  5, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_NEW_BARK_TOWN
 	object_event 11,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MurkrowValleyGrampsScript, -1
 	object_event 23,  8, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MurkrowValleyLassScript, -1
@@ -279,3 +300,4 @@ MurkrowValley_MapEvents:
 	object_event 31, 15, SPRITE_MILTANK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 16, 14, SPRITE_MURKROW, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event  5, 12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MurkrowValleyTeacherScript, -1
+	object_event 29, 11, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MurkrowValleyTwinScript, -1

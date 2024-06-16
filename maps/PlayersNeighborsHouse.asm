@@ -7,8 +7,20 @@ PlayersNeighborsHouse_MapScripts:
 
 	db 0 ; callbacks
 
-PlayersNeighborMScript:
-	jumptextfaceplayer PlayersNeighborMText
+FarmerScript_SellMilk:
+	faceplayer
+	opentext
+	checkevent EVENT_ANTIQUO_TOWN_TEMPORAS
+	iffalse .NoMilkYet
+	pokemart MARTTYPE_MOOMOO_MILK, MART_MOOMOO_MILK
+	closetext
+	end
+
+.NoMilkYet:
+	writetext NoMilkYetText
+	waitbutton
+	closetext
+	end
 
 PlayersNeighborScript:
 	jumptextfaceplayer PlayersNeighborText
@@ -19,26 +31,21 @@ PlayersNeighborsHouseBookshelfScript:
 NewBarkTVScript:
 	jumpstd televisionscript
 
-PlayersNeighborMText:
-	text "Now that Elm's lab"
-	line "is finished, I"
-	cont "think things will"
-
-	para "quiet down."
-
-	para "This looks like a"
-	line "nice place to"
-	cont "raise a family."
+NoMilkYetText:
+	text "We're milkin' right"
+	line "now, so come back"
+	cont "later and I'll sell"
+	cont "ya some milk."
 	done
 
 PlayersNeighborText:
-	text "I don't care if"
-	line "we have a boy, or"
-	cont "a girl."
+	text "The price of milk"
+	line "is staying the"
+	cont "same while every-"
 
-	para "As long as they"
-	line "grow up to love"
-	cont "#mon!"
+	para "thing else keeps"
+	line "going up. Life's"
+	cont "not fair, is it?"
 	done
 
 PlayersNeighborsHouse_MapEvents:
@@ -56,5 +63,5 @@ PlayersNeighborsHouse_MapEvents:
 	bg_event  2,  1, BGEVENT_READ, NewBarkTVScript
 
 	db 2 ; object events
-	object_event  2,  3, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PlayersNeighborScript, -1
-	object_event  5,  3, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PlayersNeighborMScript, -1
+	object_event  2,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PlayersNeighborScript, -1
+	object_event  5,  3, SPRITE_MILTON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, FarmerScript_SellMilk, -1

@@ -6,48 +6,49 @@
 ; ============================================================================================================
 
 Music_GymLeaderUnova:
-	musicheader 4, 1, Music_GymLeaderUnova_Ch1
-	musicheader 1, 2, Music_GymLeaderUnova_Ch2
-	musicheader 1, 3, Music_GymLeaderUnova_Ch3
-	musicheader 1, 4, Music_GymLeaderUnova_Ch4
+	channel_count 4
+	channel 1, Music_GymLeaderUnova_Ch1
+	channel 2, Music_GymLeaderUnova_Ch2
+	channel 3, Music_GymLeaderUnova_Ch3
+	channel 4, Music_GymLeaderUnova_Ch4
 
 Music_GymLeaderUnova_Ch1:
-	volume $77
-	dutycycle $2
-	notetype 12, $a7
+	volume 7, 7
+	duty_cycle $2
+	note_type 12, 10, 7
 	tempo 108
 ;Bar 1
 	octave 3
 Music_GymLeaderUnova_Ch1_Intro:
 	note G_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 	note G#, 4
 	note A#, 2
 	note G#, 4
-	loopchannel 3, Music_GymLeaderUnova_Ch1_Intro
+	sound_loop 3, Music_GymLeaderUnova_Ch1_Intro
 ;Bar 4
-	dutycycle $1
+	duty_cycle $1
 	octave 4
 	note E_, 1
-	note __, 1
+	rest 1
 	octave 4
 	note G_, 10
 	octave 4
-	notetype 6, $a7
+	note_type 6, 10, 7
 	note F#, 1
 	note F_, 1
 	note E_, 1
 	note D#, 1
-	notetype 12, $a7
+	note_type 12, 10, 7
 	octave 3
 	note A#, 1
 	note B_, 1
 ;Bar 5
-	dutycycle $2
+	duty_cycle $2
 	note G_, 6
 	octave 4
 	note C_, 6
@@ -66,7 +67,7 @@ Music_GymLeaderUnova_Ch1_Intro:
 	octave 4
 	note C_, 12
 ;Bar 8
-	dutycycle $3
+	duty_cycle $3
 	octave 4
 	note G_, 1
 	note G#, 1
@@ -74,22 +75,22 @@ Music_GymLeaderUnova_Ch1_Intro:
 	note F_, 1
 	note G_, 12
 ;Bar 9
-	dutycycle $0
-	intensity $95
+	duty_cycle $0
+	volume_envelope 9, 5
 	octave 1
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note A#, 2
 	octave 3
 	note E_, 1
 	note F_, 1
 	octave 1
 	note A#, 2
-	stereopanning $ff
+	stereo_panning TRUE, TRUE
 	octave 3
 	note F#, 2
 	octave 1
 	note A#, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	octave 3
 	note F_, 2
 	octave 1
@@ -100,7 +101,7 @@ Music_GymLeaderUnova_Ch1_Intro:
 	octave 1;
 	note A#, 2
 	octave 3
-	stereopanning $ff
+	stereo_panning TRUE, TRUE
 	note F_, 2
 	octave 1
 	note A#, 2
@@ -109,21 +110,21 @@ Music_GymLeaderUnova_Ch1_Intro:
 	octave 1
 	note A#, 2
 	octave 3
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note F_, 2
 	octave 1
 	note A#, 2
 	octave 3
 	note A#, 2
 ;Bar 11
-	stereopanning $ff
+	stereo_panning TRUE, TRUE
 	octave 1;
 	note A#, 2
 	octave 3
 	note F_, 2
 	octave 1
 	note A#, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	octave 3
 	note F#, 2
 	octave 1
@@ -135,30 +136,30 @@ Music_GymLeaderUnova_Ch1_Intro:
 	octave 3
 	note D#, 2
 ;Bar 12
-	stereopanning $ff
-	dutycycle $2
-	intensity $a7
+	stereo_panning TRUE, TRUE
+	duty_cycle $2
+	volume_envelope 10, 7
 	octave 2
 	note A#, 1
 	note B_, 1
 	note A#, 1
 	note G#, 1
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 3
 	note C_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
+	rest 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 ;Bar 13
 Music_GymLeaderUnova_Ch1_loop:
-	dutycycle $1
+	duty_cycle $1
 	octave 2
 	note G_, 6
 	octave 3
@@ -199,14 +200,14 @@ Music_GymLeaderUnova_Ch1_loop:
 	note A#, 2
 	note A#, 2
 ;Bar 20
-	dutycycle $0
-	intensity $77
+	duty_cycle $0
+	volume_envelope 7, 7
 	octave 5
 	note A#, 2
 	octave 6
 	note C_, 1
-	note __, 1
-	notetype $8, $77
+	rest 1
+	note_type 8, 7, 7
 	octave 5
 	note A#, 1
 	octave 6
@@ -217,96 +218,96 @@ Music_GymLeaderUnova_Ch1_loop:
 	note D_, 1
 	note F_, 1
 	note D_, 1
-	notetype 12, $77
+	note_type 12, 7, 7
 	octave 4
 	note A#, 2
-	note __, 2
+	rest 2
 	octave 5
-	notetype 3, $77
+	note_type 3, 7, 7
 	note D#, 1
 	note D_, 7
-	notetype 12, $a7
+	note_type 12, 10, 7
 ;Bar 21
-	dutycycle $1
+	duty_cycle $1
 	octave 3
 	note G_, 2
 	note F#, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 	note E_, 4
-	note __, 2
+	rest 2
 	note E_, 2
 	note F_, 2
 ;Bar 22
 	note G_, 2
-	note __, 2
+	rest 2
 	note A_, 2
 	note G_, 2
 	octave 5
-	dutycycle $0
-	intensity $77
+	duty_cycle $0
+	volume_envelope 7, 7
 	note D_, 2
 	note F_, 2
 	note G_, 2
 	octave 6
 	note C_, 2
 ;Bar 23
-	intensity $a7
-	dutycycle $1
+	volume_envelope 10, 7
+	duty_cycle $1
 	octave 3
 	note F_, 2
 	note E_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note D_, 3
-	note __, 3
+	rest 3
 	note D_, 2
 	note D#, 2
 ;Bar 24
 	note F_, 2
-	note __, 2
+	rest 2
 	note G_, 2
 	note F_, 2
 	octave 5
-	intensity $77
-	dutycycle $0
+	volume_envelope 7, 7
+	duty_cycle $0
 	note D_, 2
 	note F_, 2
 	note G_, 2
 	note A#, 2
 ;Bar 25
-	intensity $a7
-	dutycycle $1
+	volume_envelope 10, 7
+	duty_cycle $1
 	octave 3
 	note A_, 6
 	note E_, 6
 	note A_, 4
 ;Bar 26
 	octave 4
-	intensity $78
+	volume_envelope 7, 8
 	note C#, 16
 ;Bar 27
 	note C#, 2
-	intensity $48
+	volume_envelope 4, 8
 	note C#, 2
-	note __, 2
+	rest 2
 	octave 3
-	intensity $78
+	volume_envelope 7, 8
 	note A_, 2
-	intensity $48
+	volume_envelope 4, 8
 	note A_, 2
-	note __, 2
+	rest 2
 	octave 4
-	intensity $78
+	volume_envelope 7, 8
 	note C#, 2
-	intensity $48
+	volume_envelope 4, 8
 	note C#, 2
 ;Bar 28
-	tone $0001
-	dutycycle $0
-	intensity $87
+	pitch_offset $0001
+	duty_cycle $0
+	volume_envelope 8, 7
 	octave 3
 	note A_, 2
 	octave 4
@@ -320,114 +321,114 @@ Music_GymLeaderUnova_Ch1_loop:
 	octave 4
 	note A_, 2
 ;Bar 29
-	intensity $81
-	callchannel Music_GymLeaderUnova_Ch1_Bar29
+	volume_envelope 8, 1
+	sound_call Music_GymLeaderUnova_Ch1_Bar29
 ;Bar 30
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note A_, 1
 	note A_, 1
 	note A_, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note A#, 1
 	note A#, 1
 	note A#, 2
 	octave 5
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note C_, 1
 	note C_, 1
 	note C_, 2
 	octave 4
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note A_, 1
 	note A_, 1
 	note A_, 2
 ;Bar 31
 Music_GymLeaderUnova_Ch1_Bar31:
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note E_, 1
 	note E_, 1
 	note E_, 2
 
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note E_, 1
 	note E_, 1
 	note E_, 2
-	loopchannel 2, Music_GymLeaderUnova_Ch1_Bar31
+	sound_loop 2, Music_GymLeaderUnova_Ch1_Bar31
 
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note E_, 1
 	note E_, 1
 	note E_, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note F_, 1
 	note F_, 1
 	note F_, 2
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note G_, 1
 	note G_, 1
 	note G_, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note A_, 1
 	note A_, 1
 	note A_, 2
 ;Bar 33
-	callchannel Music_GymLeaderUnova_Ch1_Bar29
+	sound_call Music_GymLeaderUnova_Ch1_Bar29
 ;Bar 34
-	callchannel Music_GymLeaderUnova_Ch1_Bar29
+	sound_call Music_GymLeaderUnova_Ch1_Bar29
 ;Bar 35
 Music_GymLeaderUnova_Ch1_Bar35:
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note G_, 1
 	note G_, 1
 	note G_, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note G_, 1
 	note G_, 1
 	note G_, 2
-	loopchannel 2, Music_GymLeaderUnova_Ch1_Bar35
+	sound_loop 2, Music_GymLeaderUnova_Ch1_Bar35
 ;Bar 36
 	octave 5
 Music_GymLeaderUnova_Ch1_Bar36:
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note C_, 1
 	note C_, 1
 	note C_, 2
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note C_, 1
 	note C_, 1
 	note C_, 2
-	loopchannel 4, Music_GymLeaderUnova_Ch1_Bar36
+	sound_loop 4, Music_GymLeaderUnova_Ch1_Bar36
 ;Bar 38
-	intensity $87
-	stereopanning $ff
-	tone $0000
-	dutycycle $1
+	volume_envelope 8, 7
+	stereo_panning TRUE, TRUE
+	pitch_offset $0000
+	duty_cycle $1
 	note E_, 16
 ;Bar 39
-	callchannel Music_GymLeaderUnova_Ch1_Bar39
+	sound_call Music_GymLeaderUnova_Ch1_Bar39
 	octave 3
 	note G_, 3
-	note __, 1
+	rest 1
 ;Bar 40
-	callchannel Music_GymLeaderUnova_Ch1_Bar39
+	sound_call Music_GymLeaderUnova_Ch1_Bar39
 	octave 3
 	note F_, 3
-	note __, 1
+	rest 1
 ;Bar 41
-	callchannel Music_GymLeaderUnova_Ch1_Bar39
+	sound_call Music_GymLeaderUnova_Ch1_Bar39
 	octave 3
 	note A#, 3
-	note __, 1
+	rest 1
 ;Bar 42
 	note A_, 3
-	note __, 1
+	rest 1
 	note G_, 3
-	note __, 1
+	rest 1
 	note F_, 2
 	note E_, 6
 ;Bar 43
-	dutycycle $2
-	intensity $78
+	duty_cycle $2
+	volume_envelope 7, 8
 	octave 3
 	note F_, 6
 	note A#, 6
@@ -435,16 +436,16 @@ Music_GymLeaderUnova_Ch1_Bar36:
 	note F_, 4
 ;Bar 44
 	note D#, 1
-	note __, 1
+	rest 1
 	note D_, 1
 	note D_, 5
 	note C_, 1
-	note __, 1
+	rest 1
 	octave 3
 	note A#, 1
 	note A#, 5
 ;Bar 45
-	callchannel Music_GymLeaderUnova_Ch1_Bar46
+	sound_call Music_GymLeaderUnova_Ch1_Bar46
 ; ;Bar 43
 ; 	callchannel Music_GymLeaderUnova_Ch1_Bar43
 ; 	note __, 4
@@ -486,132 +487,132 @@ Music_GymLeaderUnova_Ch1_Bar36:
 ; 	note __, 16
 ; 	note __, 2
 ;Bar 46
-	dutycycle $1
-	pitchoffset 1, C_
-	callchannel Music_GymLeaderUnova_Ch2_Bar46
-	pitchoffset 0, C_
+	duty_cycle $1
+	transpose 1, 0
+	sound_call Music_GymLeaderUnova_Ch2_Bar46
+	transpose 0, 0
 ;Bar 47
 	octave 3
-	intensity $87
-	callchannel Music_GymLeaderUnova_Ch2_Intro
-	callchannel Music_GymLeaderUnova_Ch1_Type1
+	volume_envelope 8, 7
+	sound_call Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch1_Type1
 ;Bar 48
-	callchannel Music_GymLeaderUnova_Ch1_Bar48
+	sound_call Music_GymLeaderUnova_Ch1_Bar48
 ;Bar 49
-	callchannel Music_GymLeaderUnova_Ch2_Intro
-	callchannel Music_GymLeaderUnova_Ch1_Type1
+	sound_call Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch1_Type1
 ;Bar 50
-	callchannel Music_GymLeaderUnova_Ch1_Bar48
+	sound_call Music_GymLeaderUnova_Ch1_Bar48
 ;Bar 51
 	octave 2
-	callchannel Music_GymLeaderUnova_Ch1_Type2
+	sound_call Music_GymLeaderUnova_Ch1_Type2
 	note B_, 4
-	callchannel Music_GymLeaderUnova_Ch1_Type2
+	sound_call Music_GymLeaderUnova_Ch1_Type2
 ;Bar 52
-	callchannel Music_GymLeaderUnova_Ch1_Type3
+	sound_call Music_GymLeaderUnova_Ch1_Type3
 	note B_, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 ;Bar 53
 	octave 3
-	callchannel Music_GymLeaderUnova_Ch2_Intro
-	callchannel Music_GymLeaderUnova_Ch1_Type1
+	sound_call Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch1_Type1
 ;Bar 54
-	callchannel Music_GymLeaderUnova_Ch1_Bar48
+	sound_call Music_GymLeaderUnova_Ch1_Bar48
 ;Bar 55
 	octave 2
-	callchannel Music_GymLeaderUnova_Ch1_Type2
+	sound_call Music_GymLeaderUnova_Ch1_Type2
 	octave 3
 	note D_, 4
 	octave 2
-	callchannel Music_GymLeaderUnova_Ch1_Type2
+	sound_call Music_GymLeaderUnova_Ch1_Type2
 ;Bar 56
-	callchannel Music_GymLeaderUnova_Ch1_Type3
+	sound_call Music_GymLeaderUnova_Ch1_Type3
 	octave 3
 	note C_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note A#, 1
-	note __, 1
+	rest 1
 ;Bar 57
 	octave 3
-	callchannel Music_GymLeaderUnova_Ch1_Type1
+	sound_call Music_GymLeaderUnova_Ch1_Type1
 	note E_, 4
-	callchannel Music_GymLeaderUnova_Ch1_Type1
+	sound_call Music_GymLeaderUnova_Ch1_Type1
 ;Bar 58
 	note E_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note F#, 1
-	note __, 1
+	rest 1
 	note G_, 4
 	note F#, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
+	rest 1
 	octave 4
 	note C_, 1
-	note __, 1
+	rest 1
 ;Bar 59
-	intensity $88
-	vibrato 0, $22
-	dutycycle $3
+	volume_envelope 8, 8
+	vibrato 0, 2, 2
+	duty_cycle $3
 	note C#, 12
-	intensity $87
+	volume_envelope 8, 7
 	note C#, 1
-	note __, 3
+	rest 3
 ;Bar 60
 	note D#, 1
-	note __, 1
+	rest 1
 	note C#, 1
-	note __, 3
+	rest 3
 	octave 3
 	note C#, 10
 ;Bar 61
 	octave 4
-	intensity $88
+	volume_envelope 8, 8
 	note C_, 12
-	intensity $87
+	volume_envelope 8, 7
 	note C_, 1
-	note __, 3
+	rest 3
 ;Bar 62
 	note D_, 1
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 3
+	rest 3
 	octave 3
 	note C_, 10
 ;Bar 63
 	octave 2
-	vibrato 0, 0
+	vibrato 0, 0, 0
 Music_GymLeaderUnova_Ch1_Timpani:
 	note G_, 4
-	note __, 2
+	rest 2
 	note G_, 4
-	note __, 2
+	rest 2
 	note G_, 4
-	note __, 2
+	rest 2
 	note G_, 4
-	note __, 2
+	rest 2
 	note C_, 4
 	note C_, 4
-	loopchannel 2, Music_GymLeaderUnova_Ch1_Timpani
-	loopchannel 0, Music_GymLeaderUnova_Ch1_loop
+	sound_loop 2, Music_GymLeaderUnova_Ch1_Timpani
+	sound_loop 0, Music_GymLeaderUnova_Ch1_loop
 
 Music_GymLeaderUnova_Ch1_Bar29:
-	stereopanning $f0
+	stereo_panning TRUE, FALSE
 	note F_, 1
 	note F_, 1
 	note F_, 2
 
-	stereopanning $f
+	stereo_panning FALSE, TRUE
 	note F_, 1
 	note F_, 1
 	note F_, 2
-	loopchannel 2, Music_GymLeaderUnova_Ch1_Bar29
-	endchannel
+	sound_loop 2, Music_GymLeaderUnova_Ch1_Bar29
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Bar39:
 	octave 2;
@@ -623,71 +624,71 @@ Music_GymLeaderUnova_Ch1_Bar39:
 	note G_, 2
 	octave 4
 	note C_, 3
-	note __, 1
-	endchannel
+	rest 1
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Bar43:
 	octave 5;
-	intensity $a5
+	volume_envelope 10, 5
 	note C_, 1
-	intensity $75
+	volume_envelope 7, 5
 	note C_, 1
 	octave 6
-	intensity $a5
+	volume_envelope 10, 5
 	note C_, 1
-	intensity $75
+	volume_envelope 7, 5
 	note C_, 1
-	note __, 2
+	rest 2
 	octave 5
-	intensity $a5
+	volume_envelope 10, 5
 	note G_, 1
-	intensity $75
+	volume_envelope 7, 5
 	note G_, 1
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Type1:
 	note C_, 1
-	note __, 1
-	loopchannel 3, Music_GymLeaderUnova_Ch1_Type1
-	endchannel
+	rest 1
+	sound_loop 3, Music_GymLeaderUnova_Ch1_Type1
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Type2:
 	note A#, 1
-	note __, 1
-	loopchannel 3, Music_GymLeaderUnova_Ch1_Type2
-	endchannel
+	rest 1
+	sound_loop 3, Music_GymLeaderUnova_Ch1_Type2
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Type3:
 	octave 3;
 	note D_, 1
-	note __, 1
+	rest 1
 	octave 2
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 3
 	note D_, 4
 	octave 2
 	note A#, 1
-	note __, 1
-	endchannel
+	rest 1
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Bar48:
 	note E_, 1;
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
+	rest 1
 	note E_, 4
 	note C_, 1
-	note __, 1
+	rest 1
 	note C#, 1
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
-	endchannel
+	rest 1
+	sound_ret
 
 Music_GymLeaderUnova_Ch1_Bar46:
 	note A#, 1;
@@ -695,36 +696,36 @@ Music_GymLeaderUnova_Ch1_Bar46:
 	note A#, 1
 	note G#, 1
 	note A#, 12
-	endchannel
+	sound_ret
 
 ; ============================================================================================================
 
 Music_GymLeaderUnova_Ch2:
-	dutycycle $0
-	notetype 12, $a7
+	duty_cycle $0
+	note_type 12, 10, 7
 ;Bar 1
 	octave 4
-	callchannel Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch2_Intro
 	note D#, 2
 	note C#, 1
-	note __, 3
+	rest 3
 ;Bar 2
-	callchannel Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch2_Intro
 	note D#, 2
 	note C#, 1
-	note __, 3
+	rest 3
 ;Bar 3
-	callchannel Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch2_Intro
 	note D#, 2
 	note F_, 4
 ;Bar 4
-	callchannel Music_GymLeaderUnova_Ch2_Intro
+	sound_call Music_GymLeaderUnova_Ch2_Intro
 	octave 3
 	note A#, 4
 	octave 4
 	note C#, 2
 ;Bar 5
-	dutycycle $1
+	duty_cycle $1
 	note C_, 6
 	note G_, 6
 	octave 5
@@ -736,11 +737,11 @@ Music_GymLeaderUnova_Ch2:
 	note G_, 2
 	note F_, 6
 ;Bar 7
-	callchannel Music_GymLeaderUnova_Ch2_Bar7
+	sound_call Music_GymLeaderUnova_Ch2_Bar7
 ;Bar 8
 	octave 5
-	callchannel Music_GymLeaderUnova_Ch2_Bar7
-	intensity $a7
+	sound_call Music_GymLeaderUnova_Ch2_Bar7
+	volume_envelope 10, 7
 ;Bar 9
 	octave 3
 	note A#, 6
@@ -755,38 +756,38 @@ Music_GymLeaderUnova_Ch2:
 	note D#, 2
 	note D#, 4
 ;Bar 11
-	intensity $98
+	volume_envelope 9, 8
 	note D_, 1
 	note D#, 1
 	note D_, 1
 	note C_, 1
-	intensity $88
+	volume_envelope 8, 8
 	note D_, 12
-	intensity $a7
+	volume_envelope 10, 7
 ;Bar 12
 	note D_, 1
 	note D#, 1
 	note D_, 1
 	note C_, 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 5
 	note D_, 1
-	note __, 1
+	rest 1
 ;Bar 13
 Music_GymLeaderUnova_Ch2_loop:
-	vibrato $12, $14
+	vibrato 18, 1, 4
 	octave 5
-	intensity $98
-	dutycycle $2
+	volume_envelope 9, 8
+	duty_cycle $2
 	note C_, 6
 	octave 4
 	note G_, 6
@@ -826,88 +827,88 @@ Music_GymLeaderUnova_Ch2_loop:
 	note E_, 16
 ;Bar 19
 	octave 4
-	intensity $b8
+	volume_envelope 11, 8
 	note D_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note D_, 4
 	octave 3
-	intensity $b8
+	volume_envelope 11, 8
 	note A#, 2
-	intensity $88
+	volume_envelope 8, 8
 	note A#, 4
 	octave 4
-	intensity $b8
+	volume_envelope 11, 8
 	note D_, 2
 	note D_, 2
 ;Bar 20
-	intensity $98
+	volume_envelope 9, 8
 	note F_, 16
 ;Bar 21
-	intensity $b8
+	volume_envelope 11, 8
 	note C_, 2
 	octave 3
 	note B_, 1
-	intensity $88
+	volume_envelope 8, 8
 	note B_, 1
 	octave 4
-	intensity $b8
+	volume_envelope 11, 8
 	note C_, 1
-	intensity $88
+	volume_envelope 8, 8
 	note C_, 1
 	octave 3
-	intensity $b8
+	volume_envelope 11, 8
 	note G_, 4
-	intensity $88
+	volume_envelope 8, 8
 	note G_, 2
 	octave 4
-	intensity $b8
+	volume_envelope 11, 8
 	note C_, 2
 	note D_, 2
 ;Bar 22
 	note E_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note E_, 2
-	intensity $b8
+	volume_envelope 11, 8
 	note F_, 2
 	note E_, 2
 	note D_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note D_, 2
-	intensity $b8
+	volume_envelope 11, 8
 	note E_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note E_, 2
 ;Bar 23
 	octave 3
-	intensity $b8
+	volume_envelope 11, 8
 	note A#, 2
 	note A_, 1
-	intensity $88
+	volume_envelope 8, 8
 	note A_, 1
-	intensity $b8
+	volume_envelope 11, 8
 	note A#, 1
-	intensity $88
+	volume_envelope 8, 8
 	note A#, 1
-	intensity $b8
+	volume_envelope 11, 8
 	note F_, 3
-	intensity $88
+	volume_envelope 8, 8
 	note F_, 3
-	intensity $b8
+	volume_envelope 11, 8
 	note A#, 2
 	octave 4
 	note C_, 2
 ;Bar 24
 	note D_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note D_, 2
-	intensity $b8
+	volume_envelope 11, 8
 	note D#, 2
 	note D_, 2
 	octave 3
 	note A#, 2
-	intensity $88
+	volume_envelope 8, 8
 	note A#, 2
-	intensity $b8
+	volume_envelope 11, 8
 	octave 4
 	note D_, 4
 ;Bar 25
@@ -917,32 +918,32 @@ Music_GymLeaderUnova_Ch2_loop:
 	octave 4
 	note C#, 4
 ;Bar 26
-	intensity $a8
+	volume_envelope 10, 8
 	note E_, 16
 ;Bar 27
-	intensity $b8
+	volume_envelope 11, 8
 	note A_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note A_, 4
-	intensity $b8
+	volume_envelope 11, 8
 	note E_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note E_, 4
-	intensity $b8
+	volume_envelope 11, 8
 	note A_, 2
-	intensity $88
+	volume_envelope 8, 8
 	note A_, 2
 ;Bar 28
 	octave 5
-	intensity $a8
+	volume_envelope 10, 8
 	note C#, 10
-	dutycycle $3
-	intensity $98
+	duty_cycle $3
+	volume_envelope 9, 8
 	octave 4
 	note G_, 1
-	note __, 1
+	rest 1
 	note A_, 1
-	note __, 3
+	rest 3
 ;Bar 29
 	note A#, 2
 	octave 5
@@ -961,7 +962,7 @@ Music_GymLeaderUnova_Ch2_loop:
 	note G_, 2
 	note F_, 2
 ;Bar 31
-	callchannel Music_GymLeaderUnova_Ch2_Bar7
+	sound_call Music_GymLeaderUnova_Ch2_Bar7
 ;Bar 32
 	note C#, 1
 	note D_, 1
@@ -971,11 +972,11 @@ Music_GymLeaderUnova_Ch2_loop:
 	octave 4
 	note C#, 6
 	note G_, 1
-	note __, 1
+	rest 1
 	note A_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 ;Bar 33
 	note A#, 2
 	octave 5
@@ -1007,7 +1008,7 @@ Music_GymLeaderUnova_Ch2_loop:
 	octave 5
 	note C_, 12
 ;Bar 36
-	vibrato 0, 0
+	vibrato 0, 0, 0
 	octave 4
 	note C_, 1
 	note D_, 1
@@ -1017,15 +1018,15 @@ Music_GymLeaderUnova_Ch2_loop:
 	octave 4
 	note C_, 12
 ;Bar 37
-	callchannel Music_GymLeaderUnova_Ch2_Bar7
+	sound_call Music_GymLeaderUnova_Ch2_Bar7
 ;Bar 38
 	octave 5
-	intensity $97
+	volume_envelope 9, 7
 	note G_, 16
-	dutycycle $2
+	duty_cycle $2
 ;Bar 39
-	intensity $98
-	vibrato 0, 0
+	volume_envelope 9, 8
+	vibrato 0, 0, 0
 	octave 4
 	note C_, 6
 	note G_, 6
@@ -1038,13 +1039,13 @@ Music_GymLeaderUnova_Ch2_loop:
 	note G_, 2
 	note F_, 6
 ;Bar 41
-	callchannel Music_GymLeaderUnova_Ch2_Bar7
+	sound_call Music_GymLeaderUnova_Ch2_Bar7
 ;Bar 42
-	dutycycle $0
-	callchannel Music_GymLeaderUnova_Ch2_Bar7
+	duty_cycle $0
+	sound_call Music_GymLeaderUnova_Ch2_Bar7
 ;Bar 43
-	dutycycle $2
-	intensity $98
+	duty_cycle $2
+	volume_envelope 9, 8
 	octave 3
 	note A#, 6
 	octave 4
@@ -1052,28 +1053,28 @@ Music_GymLeaderUnova_Ch2_loop:
 	note A#, 4
 ;Bar 44
 	note G#, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	intensity $88
+	volume_envelope 8, 8
 	note G_, 5
-	intensity $98
+	volume_envelope 9, 8
 	note F_, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	intensity $88
+	volume_envelope 8, 8
 	note D#, 5
 ;Bar 45
-	intensity $98
+	volume_envelope 9, 8
 	note D_, 1
 	note D#, 1
 	note D_, 1
 	note C_, 1
 	note D_, 12
 ;Bar 46
-	dutycycle $3
-	callchannel Music_GymLeaderUnova_Ch2_Bar46
+	duty_cycle $3
+	sound_call Music_GymLeaderUnova_Ch2_Bar46
 ;Bar 47
-	dutycycle $0
+	duty_cycle $0
 	note C_, 6
 	note D_, 6
 	note F_, 4
@@ -1085,12 +1086,12 @@ Music_GymLeaderUnova_Ch2_loop:
 	note A#, 6
 ;Bar 49
 	octave 3
-	dutycycle $2
-	intensity $97
+	duty_cycle $2
+	volume_envelope 9, 7
 	note A#, 16
 ;Bar 50
 	note G_, 12
-	intensity $a7
+	volume_envelope 10, 7
 	octave 5
 	note C_, 1
 	note G_, 1
@@ -1098,8 +1099,8 @@ Music_GymLeaderUnova_Ch2_loop:
 	note B_, 1
 ;Bar 51
 	octave 4
-	dutycycle $3
-	intensity $97
+	duty_cycle $3
+	volume_envelope 9, 7
 	note F_, 16
 ;Bar 52
 	note D_, 8
@@ -1110,8 +1111,8 @@ Music_GymLeaderUnova_Ch2_loop:
 ;Bar 54
 	note G_, 16
 ;Bar 55
-	dutycycle $2
-	intensity $98
+	duty_cycle $2
+	volume_envelope 9, 8
 	note F_, 16
 ;Bar 56
 	note D_, 8
@@ -1122,70 +1123,70 @@ Music_GymLeaderUnova_Ch2_loop:
 	note G_, 16
 ;Bar 58
 	note B_, 1
-	note __, 1
+	rest 1
 	octave 5
 	note C_, 14
 ;Bar 59
-	dutycycle $0
+	duty_cycle $0
 	octave 4
-	intensity $88
-	vibrato 0, $22
+	volume_envelope 8, 8
+	vibrato 0, 2, 2
 	note F_, 12
 	note F_, 1
-	note __, 3
+	rest 3
 ;Bar 60
 	note G_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	octave 3
-	intensity $87
+	volume_envelope 8, 7
 	note F_, 10
 ;Bar 61
-	intensity $88
+	volume_envelope 8, 8
 	octave 4
 	note E_, 12
 	note E_, 1
-	note __, 3
+	rest 3
 ;Bar 62
 	note G_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	note E_, 1
-	note __, 1
+	rest 1
 	octave 3
-	intensity $87
+	volume_envelope 8, 7
 	note E_, 10
 ;Bar 63
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	loopchannel 0, Music_GymLeaderUnova_Ch2_loop
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	sound_loop 0, Music_GymLeaderUnova_Ch2_loop
 
 Music_GymLeaderUnova_Ch2_Intro:
 	note C_, 1;
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
+	rest 1
 	note C#, 4
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch2_Bar7:
-	intensity $98
+	volume_envelope 9, 8
 	note E_, 1;
 	note F_, 1
 	note E_, 1
 	note D_, 1
-	intensity $88
+	volume_envelope 8, 8
 	note E_, 12
-	intensity $98
-	endchannel
+	volume_envelope 9, 8
+	sound_ret
 
 Music_GymLeaderUnova_Ch2_Bar46:
 	octave 4
@@ -1194,56 +1195,56 @@ Music_GymLeaderUnova_Ch2_Bar46:
 	note D_, 1
 	note C_, 1
 	note D_, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note F_, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 5
 	note D_, 1
-	note __, 1
-	endchannel
+	rest 1
+	sound_ret
 
 ; ============================================================================================================
 
 Music_GymLeaderUnova_Ch3:
-	notetype 12, $16
+	note_type 12, 1, 6
 ;Bar 1
-	callchannel Music_GymLeaderUnova_Ch3_Intro
+	sound_call Music_GymLeaderUnova_Ch3_Intro
 	note A_, 2
 	note A#, 1
-	note __, 1
-	notetype 6, $16
+	rest 1
+	note_type 6, 1, 6
 	note D#, 1
-	note __, 1
+	rest 1
 	note D#, 1
-	note __, 1
-	notetype 12, $16
+	rest 1
+	note_type 12, 1, 6
 ;Bar 2
-	callchannel Music_GymLeaderUnova_Ch3_Intro
+	sound_call Music_GymLeaderUnova_Ch3_Intro
 	octave 3
 	note A#, 2
 	note F_, 1
-	note __, 1
+	rest 1
 	octave 2
-	callchannel Music_GymLeaderUnova_Ch3_Type11
+	sound_call Music_GymLeaderUnova_Ch3_Type11
 ;Bar 3
-	callchannel Music_GymLeaderUnova_Ch3_Intro
+	sound_call Music_GymLeaderUnova_Ch3_Intro
 	octave 4
 	note C#, 2
 	octave 3
 	note G_, 1
-	note __, 1
-	notetype 6, $16
+	rest 1
+	note_type 6, 1, 6
 	note C#, 1
-	note __, 1
+	rest 1
 	note C#, 1
-	note __, 1
-	notetype 12, $16
+	rest 1
+	note_type 12, 1, 6
 ;Bar 4
 	note C_, 6
 	octave 2
@@ -1255,19 +1256,19 @@ Music_GymLeaderUnova_Ch3_Bar4:
 	note C_, 1
 	octave 2
 	note G_, 1
-	loopchannel 2, Music_GymLeaderUnova_Ch3_Bar4
+	sound_loop 2, Music_GymLeaderUnova_Ch3_Bar4
 ;Bar 5
-	callchannel Music_GymLeaderUnova_Ch3_Type2
-	callchannel Music_GymLeaderUnova_Ch3_Type4
+	sound_call Music_GymLeaderUnova_Ch3_Type2
+	sound_call Music_GymLeaderUnova_Ch3_Type4
 ;Bar 6
-	callchannel Music_GymLeaderUnova_Ch3_Type2
-	callchannel Music_GymLeaderUnova_Ch3_Type3
+	sound_call Music_GymLeaderUnova_Ch3_Type2
+	sound_call Music_GymLeaderUnova_Ch3_Type3
 ;Bar 7
-	callchannel Music_GymLeaderUnova_Ch3_Type2
-	callchannel Music_GymLeaderUnova_Ch3_Type4
+	sound_call Music_GymLeaderUnova_Ch3_Type2
+	sound_call Music_GymLeaderUnova_Ch3_Type4
 ;Bar 8
-	callchannel Music_GymLeaderUnova_Ch3_Type2
-	callchannel Music_GymLeaderUnova_Ch3_Type3
+	sound_call Music_GymLeaderUnova_Ch3_Type2
+	sound_call Music_GymLeaderUnova_Ch3_Type3
 ;Bar 9
 Music_GymLeaderUnova_Ch3_Bar9_10:
 	octave 2
@@ -1302,7 +1303,7 @@ Music_GymLeaderUnova_Ch3_Bar9_10:
 	note A#, 2
 	octave 3
 	note A#, 2
-	loopchannel 2, Music_GymLeaderUnova_Ch3_Bar9_10
+	sound_loop 2, Music_GymLeaderUnova_Ch3_Bar9_10
 ;Bar 13
 Music_GymLeaderUnova_Ch3_loop:
 Music_GymLeaderUnova_Ch3_Bar13:
@@ -1310,7 +1311,7 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note C_, 2
 	octave 3
 	note C_, 2
-	loopchannel 3, Music_GymLeaderUnova_Ch3_Bar13
+	sound_loop 3, Music_GymLeaderUnova_Ch3_Bar13
 	octave 2
 	note G_, 2
 	octave 3
@@ -1330,7 +1331,7 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note F#, 2
 	note G_, 2
 ;Bar 15
-	callchannel Music_GymLeaderUnova_Ch3_Type8
+	sound_call Music_GymLeaderUnova_Ch3_Type8
 	note A#, 2
 	octave 1
 	note A#, 2
@@ -1350,19 +1351,19 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note E_, 2
 	note F_, 2
 ;Bar 17
-	callchannel Music_GymLeaderUnova_Ch3_Type7
+	sound_call Music_GymLeaderUnova_Ch3_Type7
 	note E_, 2
 	note A_, 2
 ;Bar 18
-	callchannel Music_GymLeaderUnova_Ch3_Type7
+	sound_call Music_GymLeaderUnova_Ch3_Type7
 	note G_, 2
 	note A_, 2
 ;Bar 19
-	callchannel Music_GymLeaderUnova_Ch3_Type8
+	sound_call Music_GymLeaderUnova_Ch3_Type8
 	note A#, 2
 	note F_, 2
 	note A#, 2
-	callchannel Music_GymLeaderUnova_Ch3_Type5
+	sound_call Music_GymLeaderUnova_Ch3_Type5
 	;fallthrough
 ;Bar 20
 	note A_, 2
@@ -1472,7 +1473,7 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note A_, 2
 	note G#, 2
 	note A_, 2
-	callchannel Music_GymLeaderUnova_Ch3_Type7
+	sound_call Music_GymLeaderUnova_Ch3_Type7
 ;Bar 28
 	octave 3
 	note C#, 2
@@ -1484,9 +1485,9 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note E_, 2
 	note G_, 2
 ;Bar 29
-	callchannel Music_GymLeaderUnova_Ch3_Type6
+	sound_call Music_GymLeaderUnova_Ch3_Type6
 ;Bar 30
-	callchannel Music_GymLeaderUnova_Ch3_Type6
+	sound_call Music_GymLeaderUnova_Ch3_Type6
 ;Bar 31
 	octave 1
 	note A_, 2
@@ -1519,14 +1520,14 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note A_, 2
 	note E_, 2
 ;Bar 33
-	callchannel Music_GymLeaderUnova_Ch3_Type6
+	sound_call Music_GymLeaderUnova_Ch3_Type6
 ;Bar 34
 	octave 1
 	note A#, 2
 	octave 2
-	callchannel Music_GymLeaderUnova_Ch3_Type11
-	callchannel Music_GymLeaderUnova_Ch3_Type8
-	callchannel Music_GymLeaderUnova_Ch3_Type11
+	sound_call Music_GymLeaderUnova_Ch3_Type11
+	sound_call Music_GymLeaderUnova_Ch3_Type8
+	sound_call Music_GymLeaderUnova_Ch3_Type11
 	octave 1
 	note A#, 2
 	note B_, 2
@@ -1534,14 +1535,14 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	octave 2
 	note C_, 2
 	octave 3
-	callchannel Music_GymLeaderUnova_Ch3_Type9
+	sound_call Music_GymLeaderUnova_Ch3_Type9
 	octave 2
 	note G_, 2
 	octave 3
 	note E_, 2
 	note C_, 2
 	octave 2
-	callchannel Music_GymLeaderUnova_Ch3_Type10
+	sound_call Music_GymLeaderUnova_Ch3_Type10
 	octave 3
 	note E_, 2
 	note C_, 2
@@ -1549,7 +1550,7 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	octave 2
 	note C_, 2
 	octave 3
-	callchannel Music_GymLeaderUnova_Ch3_Type9
+	sound_call Music_GymLeaderUnova_Ch3_Type9
 	octave 2
 	note G_, 2
 	note E_, 2
@@ -1562,39 +1563,39 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note D_, 2
 ;Bar 37
 	note E_, 2
-	callchannel Music_GymLeaderUnova_Ch3_Type9
+	sound_call Music_GymLeaderUnova_Ch3_Type9
 	octave 2
 	note B_, 2
-	callchannel Music_GymLeaderUnova_Ch3_Type10
+	sound_call Music_GymLeaderUnova_Ch3_Type10
 	note E_, 2
 	note D#, 2
 	note E_, 2
 	note G_, 2
 ;Bar 38
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 39
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 40
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 41
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 42
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 43
-	callchannel Music_GymLeaderUnova_Ch3_Type5
+	sound_call Music_GymLeaderUnova_Ch3_Type5
 ;Bar 44
 	octave 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 2
 	note G#, 4
 	octave 1
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
+	rest 1
 	octave 2
 	note A#, 4
 ;Bar 45
@@ -1606,7 +1607,7 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	note A#, 2
 	octave 3
 	note C_, 2
-	callchannel Music_GymLeaderUnova_Ch3_Type8
+	sound_call Music_GymLeaderUnova_Ch3_Type8
 	note G#, 2
 ;Bar 46
 	octave 1
@@ -1626,15 +1627,15 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	octave 2
 	note A#, 2
 ;Bar 47
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 48
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 49
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 50
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 51
-	callchannel Music_GymLeaderUnova_Ch3_Type8
+	sound_call Music_GymLeaderUnova_Ch3_Type8
 	note G#, 2
 	octave 1
 	note A#, 2
@@ -1645,7 +1646,7 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	octave 2
 	note F_, 2
 ;Bar 52
-	callchannel Music_GymLeaderUnova_Ch3_Type8
+	sound_call Music_GymLeaderUnova_Ch3_Type8
 	note F_, 2
 	octave 1
 	note A#, 2
@@ -1685,11 +1686,11 @@ Music_GymLeaderUnova_Ch3_Bar13:
 	octave 3
 	note C_, 2
 ;Bar 55
-	callchannel Music_GymLeaderUnova_Ch3_Type5
+	sound_call Music_GymLeaderUnova_Ch3_Type5
 ;Bar 56
-	callchannel Music_GymLeaderUnova_Ch3_Type5
+	sound_call Music_GymLeaderUnova_Ch3_Type5
 ;Bar 57
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 58
 	octave 2
 	note C_, 2
@@ -1706,7 +1707,7 @@ Music_GymLeaderUnova_Ch3_Type1_Bar59:
 	note C#, 2
 	octave 3
 	note C#, 2
-	loopchannel 4, Music_GymLeaderUnova_Ch3_Type1_Bar59
+	sound_loop 4, Music_GymLeaderUnova_Ch3_Type1_Bar59
 ;Bar 60
 	note D#, 2
 	note C#, 2
@@ -1722,7 +1723,7 @@ Music_GymLeaderUnova_Ch3_Type1_Bar59:
 	octave 2
 	note F_, 2
 ;Bar 61
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 62
 	note D_, 2
 	note C_, 2
@@ -1737,22 +1738,22 @@ Music_GymLeaderUnova_Ch3_Type1_Bar59:
 	octave 3
 	note C_, 2
 ;Bar 63
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 64
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 65
-	callchannel Music_GymLeaderUnova_Ch3_Type1
+	sound_call Music_GymLeaderUnova_Ch3_Type1
 ;Bar 66
-	callchannel Music_GymLeaderUnova_Ch3_Type1
-	loopchannel 0, Music_GymLeaderUnova_Ch3_loop
+	sound_call Music_GymLeaderUnova_Ch3_Type1
+	sound_loop 0, Music_GymLeaderUnova_Ch3_loop
 
 Music_GymLeaderUnova_Ch3_Type1:
 	octave 2
 	note C_, 2
 	octave 3
 	note C_, 2
-	loopchannel 4, Music_GymLeaderUnova_Ch3_Type1
-	endchannel
+	sound_loop 4, Music_GymLeaderUnova_Ch3_Type1
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type2:
 	octave 2
@@ -1763,7 +1764,7 @@ Music_GymLeaderUnova_Ch3_Type2:
 	note C_, 2
 	octave 3
 	note C#, 2
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type3:
 	octave 2;
@@ -1774,7 +1775,7 @@ Music_GymLeaderUnova_Ch3_Type3:
 	note C_, 2
 	octave 3
 	note E_, 2
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type4:
 	octave 2;
@@ -1784,40 +1785,40 @@ Music_GymLeaderUnova_Ch3_Type4:
 	octave 2
 	note C_, 2
 	note A#, 2
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type5:
 	octave 1
 	note A#, 2
 	octave 2
 	note A#, 2
-	loopchannel 4, Music_GymLeaderUnova_Ch3_Type5
-	endchannel
+	sound_loop 4, Music_GymLeaderUnova_Ch3_Type5
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type6:
 	octave 1
 	note A#, 2
 	octave 2
-	notetype 6, $16;
+	note_type 6, 1, 6;
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
-	notetype 12, $16
+	rest 1
+	note_type 12, 1, 6
 	octave 1
 	note A#, 2
 	octave 2
 	note A#, 2
-	loopchannel 2, Music_GymLeaderUnova_Ch3_Type6
-	endchannel
+	sound_loop 2, Music_GymLeaderUnova_Ch3_Type6
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type7:
 	octave 1
 	note A_, 2
 	octave 2
 	note A_, 2
-	loopchannel 3, Music_GymLeaderUnova_Ch3_Type7
-	endchannel
+	sound_loop 3, Music_GymLeaderUnova_Ch3_Type7
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type8:
 	octave 1;
@@ -1827,460 +1828,460 @@ Music_GymLeaderUnova_Ch3_Type8:
 	octave 1
 	note A#, 2
 	octave 2
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Intro:
 	octave 3;
 	note C_, 3
-	note __, 3
+	rest 3
 	octave 2
 	note C_, 4
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type9:
-	notetype 6, $16;
+	note_type 6, 1, 6;
 	note C_, 1
-	note __, 1
+	rest 1
 	note C_, 1
-	note __, 1
-	notetype 12, $16
-	endchannel
+	rest 1
+	note_type 12, 1, 6
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type10:
-	notetype 6, $16;
+	note_type 6, 1, 6;
 	note G_, 1
-	note __, 1
+	rest 1
 	note G_, 1
-	note __, 1
-	notetype 12, $16
-	endchannel
+	rest 1
+	note_type 12, 1, 6
+	sound_ret
 
 Music_GymLeaderUnova_Ch3_Type11:
-	notetype 6, $16;
+	note_type 6, 1, 6;
 	note A#, 1
-	note __, 1
+	rest 1
 	note A#, 1
-	note __, 1
-	notetype 12, $16
-	endchannel
+	rest 1
+	note_type 12, 1, 6
+	sound_ret
 
 ; ============================================================================================================
 
 Music_GymLeaderUnova_Ch4:
-	togglenoise 3
-	notetype 12
+	toggle_noise 3
+	drum_speed 12
 ;Bar 1
-	note B_, 4
-	note A#, 2
-	note A#, 4
-	note F_, 2
+	drum_note 12, 4
+	drum_note 11, 2
+	drum_note 11, 4
+	drum_note 6, 2
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
 ;Bar 2
-	note F_, 2
-	note A#, 2
-	note A#, 2
-	note A#, 4
-	note C_, 2
+	drum_note 6, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 11, 4
+	drum_note 1, 2
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
 ;Bar 3
-	note F_, 4
-	note A#, 2
-	note A#, 4
+	drum_note 6, 4
+	drum_note 11, 2
+	drum_note 11, 4
 	noisesampleset 2
-	note A_, 2
+	drum_note 10, 2
 	noisesampleset 3
-	note B_, 4
+	drum_note 12, 4
 ;Bar 4
-	note A#, 2
-	note B_, 4
+	drum_note 11, 2
+	drum_note 12, 4
 Music_GymLeaderUnova_Ch4_Bar4:
-	note A#, 1
-	loopchannel 10, Music_GymLeaderUnova_Ch4_Bar4
+	drum_note 11, 1
+	sound_loop 10, Music_GymLeaderUnova_Ch4_Bar4
 ;Bar 5
-	note B_, 4
-	callchannel Music_GymLeaderUnova_Ch4_Type2
+	drum_note 12, 4
+	sound_call Music_GymLeaderUnova_Ch4_Type2
 ;Bar 6
-	note F_, 2
-	stereopanning $f0
+	drum_note 6, 2
+	stereo_panning TRUE, FALSE
 	noisesampleset 2
-	note A_, 2
+	drum_note 10, 2
 	noisesampleset 3
-	stereopanning $ff
-	callchannel Music_GymLeaderUnova_Ch4_Type2
+	stereo_panning TRUE, TRUE
+	sound_call Music_GymLeaderUnova_Ch4_Type2
 ;Bar 7
-	note F_, 2
-	stereopanning $f
+	drum_note 6, 2
+	stereo_panning FALSE, TRUE
 	noisesampleset 2
-	note A_, 2
+	drum_note 10, 2
 	noisesampleset 3
-	stereopanning $ff
-	callchannel Music_GymLeaderUnova_Ch4_Type2
+	stereo_panning TRUE, TRUE
+	sound_call Music_GymLeaderUnova_Ch4_Type2
 ;Bar 8
-	note F_, 2
-	stereopanning $f0
+	drum_note 6, 2
+	stereo_panning TRUE, FALSE
 	noisesampleset 2
-	note A_, 2
+	drum_note 10, 2
 	noisesampleset 3
-	stereopanning $ff
-	callchannel Music_GymLeaderUnova_Ch4_Type2
+	stereo_panning TRUE, TRUE
+	sound_call Music_GymLeaderUnova_Ch4_Type2
 ;Bar 9
-	note B_, 4
-	note A#, 2
-	note A#, 2
-	note A#, 4
-	note A#, 2
-	note A#, 2
+	drum_note 12, 4
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 11, 4
+	drum_note 11, 2
+	drum_note 11, 2
 ;Bar 10
-	note C_, 1
-	note C_, 1
-	note G#, 2
-	note G#, 2
-	note F#, 4
-	note A#, 1
-	note A#, 1
-	note A#, 2
-	note F#, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 9, 2
+	drum_note 9, 2
+	drum_note 7, 4
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 2
+	drum_note 7, 2
 ;Bar 11
-	note A#, 2
-	note F#, 4
-	note F#, 4
-	note F#, 4
-	note F#, 2
+	drum_note 11, 2
+	drum_note 7, 4
+	drum_note 7, 4
+	drum_note 7, 4
+	drum_note 7, 2
 ;Bar 12
-	note A#, 2
-	note B_, 4
-	note C_, 1
-	note C_, 1
-	note A#, 2
-	note B_, 4
-	note C_, 1
-	note C_, 1
+	drum_note 11, 2
+	drum_note 12, 4
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 11, 2
+	drum_note 12, 4
+	drum_note 1, 1
+	drum_note 1, 1
 ;Bar 13
 Music_GymLeaderUnova_Ch4_loop:
-	callchannel Music_GymLeaderUnova_Ch4_Bar13
+	sound_call Music_GymLeaderUnova_Ch4_Bar13
 ;Bar 14
-	callchannel Music_GymLeaderUnova_Ch4_Bar14
+	sound_call Music_GymLeaderUnova_Ch4_Bar14
 ;Bar 15
-	callchannel Music_GymLeaderUnova_Ch4_Bar15
+	sound_call Music_GymLeaderUnova_Ch4_Bar15
 ;Bar 16
-	callchannel Music_GymLeaderUnova_Ch4_Bar16
+	sound_call Music_GymLeaderUnova_Ch4_Bar16
 ;Bar 17
-	callchannel Music_GymLeaderUnova_Ch4_Bar17
+	sound_call Music_GymLeaderUnova_Ch4_Bar17
 ;Bar 18
-	note A#, 2
-	note C_, 2
-	note C#, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	noisesampleset 2
-	note G#, 2
+	drum_note 9, 2
 	noisesampleset 3
-	note C#, 1
-	note C#, 1
+	drum_note 2, 1
+	drum_note 2, 1
 ;Bar 19
-	note A#, 2
-	note C#, 2
-	note C#, 2
-	note C_, 2
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note C#, 2
+	drum_note 11, 2
+	drum_note 2, 2
+	drum_note 2, 2
+	drum_note 1, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 2, 2
 ;Bar 20
-	note A#, 2
-	note C#, 1
-	note C#, 1
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
+	drum_note 11, 2
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	noisesampleset 2
-	note G#, 2
+	drum_note 9, 2
 	noisesampleset 3
-	note C#, 1
-	note C#, 1
+	drum_note 2, 1
+	drum_note 2, 1
 ;Bar 21
-	callchannel Music_GymLeaderUnova_Ch4_Bar13
+	sound_call Music_GymLeaderUnova_Ch4_Bar13
 ;Bar 22
-	callchannel Music_GymLeaderUnova_Ch4_Bar14
+	sound_call Music_GymLeaderUnova_Ch4_Bar14
 ;Bar 23
-	callchannel Music_GymLeaderUnova_Ch4_Bar15
+	sound_call Music_GymLeaderUnova_Ch4_Bar15
 ;Bar 24
-	callchannel Music_GymLeaderUnova_Ch4_Bar16
+	sound_call Music_GymLeaderUnova_Ch4_Bar16
 ;Bar 25
-	callchannel Music_GymLeaderUnova_Ch4_Bar17
+	sound_call Music_GymLeaderUnova_Ch4_Bar17
 ;Bar 26
-	callchannel Music_GymLeaderUnova_Ch4_Bar14
+	sound_call Music_GymLeaderUnova_Ch4_Bar14
 ;Bar 27
-	callchannel Music_GymLeaderUnova_Ch4_Bar15
+	sound_call Music_GymLeaderUnova_Ch4_Bar15
 ;Bar 28
-	note A#, 2
-	note C_, 1
-	note C#, 1
+	drum_note 11, 2
+	drum_note 1, 1
+	drum_note 2, 1
 
-	note C_, 1
-	note C_, 1
-	notetype 6
-	note C_, 1
-	note C_, 1
-	notetype 12
-	note C_, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_speed 6
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_speed 12
+	drum_note 1, 1
 
-	note B_, 4
+	drum_note 12, 4
 
-	note F_, 4
+	drum_note 6, 4
 ;Bar 29
-	note B_, 4
-	note C_, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note A#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
+	drum_note 12, 4
+	drum_note 1, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 11, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
 	noisesampleset 2
-	note G#, 2
+	drum_note 9, 2
 	noisesampleset 3
-	note C#, 1
-	note C#, 1
+	drum_note 2, 1
+	drum_note 2, 1
 ;Bar 30
 Music_GymLeaderUnova_Ch4_Bar30:
-	note A#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C_, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note A#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
+	drum_note 11, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 1, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 11, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
 	noisesampleset 2
-	note G#, 2
+	drum_note 9, 2
 	noisesampleset 3
-	note C#, 1
-	note C#, 1
-	loopchannel 7, Music_GymLeaderUnova_Ch4_Bar30
+	drum_note 2, 1
+	drum_note 2, 1
+	sound_loop 7, Music_GymLeaderUnova_Ch4_Bar30
 ;Bar 37
-	note A#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C_, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note A#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
+	drum_note 11, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 1, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 11, 1
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 2, 1
 	noisesampleset 2
-	note G#, 2
+	drum_note 9, 2
 	noisesampleset 3
-	note C#, 1
-	note C#, 1
+	drum_note 2, 1
+	drum_note 2, 1
 ;Bar 38
-	note B_, 4
-	note C_, 4
+	drum_note 12, 4
+	drum_note 1, 4
 Music_GymLeaderUnova_Bar38:
-	note A#, 4
-	note C_, 4
-	loopchannel 8, Music_GymLeaderUnova_Bar38
-	note A#, 4
-	note C_, 2
-	note F#, 2
+	drum_note 11, 4
+	drum_note 1, 4
+	sound_loop 8, Music_GymLeaderUnova_Bar38
+	drum_note 11, 4
+	drum_note 1, 2
+	drum_note 7, 2
 ;Bar 43
-	callchannel Music_GymLeaderUnova_Ch4_Type1
-	note C_, 2
-	note C#, 2
+	sound_call Music_GymLeaderUnova_Ch4_Type1
+	drum_note 1, 2
+	drum_note 2, 2
 ;Bar 44
-	note A#, 2
-	note A#, 2
-	stereopanning $f0
+	drum_note 11, 2
+	drum_note 11, 2
+	stereo_panning TRUE, FALSE
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
-	stereopanning $ff
-	note A#, 2
-	note A#, 2
-	stereopanning $f
+	stereo_panning TRUE, TRUE
+	drum_note 11, 2
+	drum_note 11, 2
+	stereo_panning FALSE, TRUE
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
-	stereopanning $ff
+	stereo_panning TRUE, TRUE
 ;Bar 45
-	callchannel Music_GymLeaderUnova_Ch4_Type1
-	note F#, 2
-	note C#, 2
+	sound_call Music_GymLeaderUnova_Ch4_Type1
+	drum_note 7, 2
+	drum_note 2, 2
 ;Bar 46
-	callchannel Music_GymLeaderUnova_Ch4_Type1
-	note F#, 4
+	sound_call Music_GymLeaderUnova_Ch4_Type1
+	drum_note 7, 4
 ;Bar 47
-	callchannel Music_GymLeaderUnova_Ch4_Type2
-	callchannel Music_GymLeaderUnova_Ch4_Type2
-	note A#, 2
-	note A#, 2
-	note C_, 4
+	sound_call Music_GymLeaderUnova_Ch4_Type2
+	sound_call Music_GymLeaderUnova_Ch4_Type2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 4
 ;Bar 49
 Music_GymLeaderUnova_Ch4_Bar49:
-	note A#, 4;
-	note C_, 4
-	note A#, 2
-	note A#, 2
-	note C_, 4
-	loopchannel 7, Music_GymLeaderUnova_Ch4_Bar49
+	drum_note 11, 4;
+	drum_note 1, 4
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 4
+	sound_loop 7, Music_GymLeaderUnova_Ch4_Bar49
 ;Bar 56
-	note A#, 4
-	note C_, 4
-	note C_, 2
-	note C_, 2
-	note A#, 2
-	note C_, 2
+	drum_note 11, 4
+	drum_note 1, 4
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 11, 2
+	drum_note 1, 2
 ;Bar 57
-	note A#, 4;
-	note C_, 4
-	note A#, 2
-	note A#, 2
-	note C_, 4
+	drum_note 11, 4;
+	drum_note 1, 4
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 4
 ;Bar 58
-	note C_, 2
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note A#, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
+	drum_note 1, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 2
 ;Bar 59
-	callchannel Music_GymLeaderUnova_Ch4_Bar59
+	sound_call Music_GymLeaderUnova_Ch4_Bar59
 ;Bar 60
-	note G#, 2
-	note G#, 2
-	note G#, 2
+	drum_note 9, 2
+	drum_note 9, 2
+	drum_note 9, 2
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
-	note C_, 2
-	note B_, 4
+	drum_note 1, 2
+	drum_note 12, 4
 ;Bar 61
-	callchannel Music_GymLeaderUnova_Ch4_Bar59
+	sound_call Music_GymLeaderUnova_Ch4_Bar59
 ;Bar 62
-	note C_, 2
-	note B_, 2
-	note B_, 2
+	drum_note 1, 2
+	drum_note 12, 2
+	drum_note 12, 2
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
-	note A#, 2
-	note B_, 4
+	drum_note 11, 2
+	drum_note 12, 4
 ;Bar 63
 	noisesampleset 2
-	note A_, 4
+	drum_note 10, 4
 	noisesampleset 3
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note C#, 2
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 2, 2
 ;Bar 64
-	callchannel Music_GymLeaderUnova_Ch4_Bar14
+	sound_call Music_GymLeaderUnova_Ch4_Bar14
 ;Bar 65
-	callchannel Music_GymLeaderUnova_Ch4_Bar17
+	sound_call Music_GymLeaderUnova_Ch4_Bar17
 ;Bar 66
-	callchannel Music_GymLeaderUnova_Ch4_Bar14
-	loopchannel 0, Music_GymLeaderUnova_Ch4_loop
+	sound_call Music_GymLeaderUnova_Ch4_Bar14
+	sound_loop 0, Music_GymLeaderUnova_Ch4_loop
 
 Music_GymLeaderUnova_Ch4_Bar13:
-	note B_, 4
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note C#, 2
-	endchannel
+	drum_note 12, 4
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 2, 2
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Bar14:
-	note A#, 2
-	note C#, 1
-	note C#, 1
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
+	drum_note 11, 2
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	noisesampleset 2
-	note G#, 2
+	drum_note 9, 2
 	noisesampleset 3
-	note C#, 1
-	note C#, 1
-	endchannel
+	drum_note 2, 1
+	drum_note 2, 1
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Bar15:
-	note A#, 2;
-	note C#, 2
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note C#, 2
-	endchannel
+	drum_note 11, 2;
+	drum_note 2, 2
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 2, 2
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Bar16:
-	note A#, 2
-	note C#, 1
-	note C#, 1
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
+	drum_note 11, 2
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	noisesampleset 2
-	note G#, 4
+	drum_note 9, 4
 	noisesampleset 3
-	endchannel
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Bar17:
-	note A#, 2
-	note C#, 1
-	note C#, 1
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note C#, 1
-	note C#, 1
-	endchannel
+	drum_note 11, 2
+	drum_note 2, 1
+	drum_note 2, 1
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 2, 1
+	drum_note 2, 1
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Bar59:
-	note B_, 4;
-	note C_, 4
-	note A#, 2
-	note A#, 2
-	note C_, 2
-	note C_, 2
-	endchannel
+	drum_note 12, 4;
+	drum_note 1, 4
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 1, 2
+	drum_note 1, 2
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Type1:
-	note A#, 2;
-	note C#, 2
-	note C_, 2
-	note C#, 2
-	note A#, 2
-	note C#, 2
-	endchannel
+	drum_note 11, 2;
+	drum_note 2, 2
+	drum_note 1, 2
+	drum_note 2, 2
+	drum_note 11, 2
+	drum_note 2, 2
+	sound_ret
 
 Music_GymLeaderUnova_Ch4_Type2:
-	note A#, 4
-	loopchannel 3, Music_GymLeaderUnova_Ch4_Type2
-	endchannel
+	drum_note 11, 4
+	sound_loop 3, Music_GymLeaderUnova_Ch4_Type2
+	sound_ret
 	

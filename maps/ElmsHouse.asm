@@ -1,27 +1,14 @@
 	object_const_def ; object_event constants
 	const ELMSHOUSE_ELMS_WIFE
 	const ELMSHOUSE_ELMS_PAPER
-	const ELMSHOUSE_ELMS_PICHU
 
 ElmsHouse_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-ElmsWife:
-	jumptextfaceplayer ElmsWifeText
-
-ElmsPichu:
-	refreshscreen
-	pokepic PICHU
-	cry PICHU
-	waitbutton
-	closepokepic
-	opentext
-	writetext ElmsPichuText
-	waitbutton
-	closetext
-	end
+Fennel:
+	jumptextfaceplayer FennelText
 
 ElmsHousePC:
 	jumptext ElmsHousePCText
@@ -29,23 +16,17 @@ ElmsHousePC:
 ElmsHouseBookshelf:
 	jumpstd difficultbookshelf
 
-ElmsWifeText:
-	text "I tried to tell my"
-	line "boyfriend that I"
-	cont "hatched this Pichu"
-	cont "from an Egg,"
+FennelText:
+	text "Fennel: I've been"
+	line "helping Aurea with"
+	cont "her research and"
 
-	para "but he doesn't"
-	line "seem to notice!"
+	para "my sister Amanita"
+	line "with establishing"
+	cont "the PC system here"
+	cont "in Onaga."
 
-	para "I love him, but"
-	line "sometimes he's too"
-	cont "buried in his"
-	cont "research."
-	done
-
-ElmsPichuText:
-	text "Pichu: Piiii!"
+	para "It's a busy life!"
 	done
 
 ElmsHouseLabFoodText:
@@ -63,27 +44,14 @@ ElmsHousePokemonFoodText:
 	done
 
 ElmsHousePCText:
-	text "#mon. Where do"
-	line "they come from? "
+	text "It's Professor"
+	line "Juniper's thesis"
+	cont "on the origin of"
+	cont "#mon."
 
-	para "Where are they"
-	line "going?"
-
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#mon's birth?"
-
-	para "I want to know! I"
-	line "will dedicate my"
-
-	para "life to the study"
-	line "of #mon!"
-
-	para "…"
-
-	para "It's a part of"
-	line "Prof.Elm's re-"
-	cont "search papers."
+	para "It's way too"
+	line "complicated to"
+	cont "read."
 	done
 
 ElmsHouse_MapEvents:
@@ -100,7 +68,6 @@ ElmsHouse_MapEvents:
 	bg_event  7,  1, BGEVENT_READ, ElmsHouseBookshelf
 	bg_event  4,  1, BGEVENT_READ, NewBarkTVScript
 
-	db 3 ; object events
-	object_event  1,  5, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ElmsWife, -1
+	db 2 ; object events
+	object_event  1,  5, SPRITE_SCIENTIST_F, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Fennel, -1
 	object_event  0,  1, SPRITE_PAPER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsHousePC, -1
-	object_event  6,  6, SPRITE_PICHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ElmsPichu, -1

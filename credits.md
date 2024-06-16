@@ -221,3 +221,4 @@ Ho-Oh Battle: Pigu
 Megalovania: Shockslayer, Radiation
 Unwavering Heart MIDI: LyricWulf
 Marnie's Theme/Dahlia's Theme MIDI: ryanisthebomb203
+Knights Tempora theme and Ghetsis encounter: Arikk

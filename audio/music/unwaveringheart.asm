@@ -7,83 +7,84 @@
 ; ============================================================================================================
 
 Music_UnwaveringHeart:
-	musicheader 4, 1, Music_UnwaveringHeart_Ch1
-	musicheader 1, 2, Music_UnwaveringHeart_Ch2
-	musicheader 1, 3, Music_UnwaveringHeart_Ch3
-	musicheader 1, 4, Music_UnwaveringHeart_Ch4
+	channel_count 4
+	channel 1, Music_UnwaveringHeart_Ch1
+	channel 2, Music_UnwaveringHeart_Ch2
+	channel 3, Music_UnwaveringHeart_Ch3
+	channel 4, Music_UnwaveringHeart_Ch4
 
 ; ============================================================================================================
 
 Music_UnwaveringHeart_Ch1:
 	tempo 222
-	volume $77
-	dutycycle $1
-	notetype 3, $a7
+	volume 7, 7
+	duty_cycle $1
+	note_type 3, 10, 7
 ;Bar 1, 64
 UnwaveringHeartLoop1:
 	octave 4
-	intensity $57
+	volume_envelope 5, 7
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 2, 64
 	octave 4
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 3, 64
 	octave 4
 	note F#, 16
-	note __, 16
+	rest 16
 	octave 5
 	note E_, 16
 	note F#, 16
 ;Bar 4, 64
 	note C#, 16
-	note __, 15
+	rest 15
 	note C#, 8
 	octave 4
 	note B_, 8
 	note A_, 8
 	note G#, 7
-	note __, 2
+	rest 2
 ;Bar 5, 64
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1 ; WARNING: Auto-Sync says: Rounded down!
+	rest 16
+	rest 1 ; WARNING: Auto-Sync says: Rounded down!
 ;Bar 6, 64
 	octave 4
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 7, 64
 	octave 4
 	note F#, 16
-	note __, 16
-	note __, 8
+	rest 16
+	rest 8
 	note B_, 8
 	note A_, 8
 	note G#, 8
 ;Bar 8, 64
 	note E_, 16
-	note __, 16
-	intensity $87
+	rest 16
+	volume_envelope 8, 7
 	note C#, 8
 	octave 3
 	note B_, 8
@@ -92,241 +93,241 @@ UnwaveringHeartLoop1:
 ;Bar 9, 72
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note D_, 8
 	octave 4
-	intensity $97
+	volume_envelope 9, 7
 	note C#, 8
 	note E_, 16
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note A_, 16
 	octave 1
-	intensity $97
+	volume_envelope 9, 7
 	note A_, 8
 ;Bar 10, 64
 	octave 3
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note E_, 8
 	octave 4
-	intensity $97
+	volume_envelope 9, 7
 	note C#, 8
 	note E_, 16
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note E_, 8
-	note __, 8
+	rest 8
 ;Bar 11, 64
-	intensity $97
+	volume_envelope 9, 7
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note G#, 8
-	intensity $67
+	volume_envelope 6, 7
 	note B_, 8
 	octave 3
 	note C#, 8
 	octave 4
-	intensity $87
+	volume_envelope 8, 7
 	note E_, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 4
-	intensity $87
+	volume_envelope 8, 7
 	note F#, 8
 	octave 1
-	intensity $77
+	volume_envelope 7, 7
 	note B_, 8
 ;Bar 12, 64
 	octave 4
-	intensity $97
+	volume_envelope 9, 7
 	note C#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note C#, 8
 	note E_, 8
 	octave 4
-	intensity $87
+	volume_envelope 8, 7
 	note C#, 8
 	octave 3
 	note B_, 8
 	note A_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note G#, 8
 ;Bar 13, 64
-	intensity $87
+	volume_envelope 8, 7
 	note F#, 8
 	octave 2
-	intensity $47
+	volume_envelope 4, 7
 	note F#, 8
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
 	note D_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note F#, 8
 	octave 2
-	intensity $67
+	volume_envelope 6, 7
 	note A_, 8 ; WARNING: Auto-Sync says: Rounded down!
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note A_, 8
 	octave 1 ;WARNING: Octave 0 isn't supported, won't work correctly
-	intensity $97
+	volume_envelope 9, 7
 	note F#, 8
 ;Bar 14, 64
 	octave 3
 	note G#, 8
 	octave 2
-	intensity $47
+	volume_envelope 4, 7
 	note G#, 8
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
 	note E_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note G#, 8
 	octave 2
-	intensity $67
+	volume_envelope 6, 7
 	note B_, 8
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note B_, 8
 	octave 1
-	intensity $67
+	volume_envelope 6, 7
 	note C#, 8
 ;Bar 15, 64
 	octave 3
-	intensity $97
+	volume_envelope 9, 7
 	note A_, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note D_, 8
 	note E_, 8
-	intensity $87
+	volume_envelope 8, 7
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $87
+	volume_envelope 8, 7
 	note A_, 16
 ;Bar 16, 64
 	note A_, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note E_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note A_, 8
-	intensity $67
+	volume_envelope 6, 7
 	note G#, 16
 	octave 4
-	intensity $77
+	volume_envelope 7, 7
 	note G#, 8
 	note A_, 8
 ;Bar 17, 64
-	intensity $67
+	volume_envelope 6, 7
 	note A_, 16
 	note A_, 16
-	intensity $57
+	volume_envelope 5, 7
 	note G#, 16
-	intensity $37
+	volume_envelope 3, 7
 	note E_, 16
 ;Bar 18, 48, 1144
 	note F#, 16
-	note __, 16
-	note __, 16
-	loopchannel 0, Music_UnwaveringHeart_Ch1
-	endchannel
+	rest 16
+	rest 16
+	sound_loop 0, Music_UnwaveringHeart_Ch1
+	sound_ret
 
 ; ============================================================================================================
 
 Music_UnwaveringHeart_Ch2:
-	dutycycle $1
-	notetype 3, $a7
+	duty_cycle $1
+	note_type 3, 10, 7
 ;Bar 1, 64
 UnwaveringHeartLoop2:
 	octave 4
-	intensity $57
+	volume_envelope 5, 7
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 2, 64
 	octave 4
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 3, 64
 	octave 4
 	note F#, 16
-	note __, 16
+	rest 16
 	octave 5
 	note E_, 16
 	note F#, 16
 ;Bar 4, 64
 	note C#, 16
-	note __, 15
+	rest 15
 	note C#, 8
 	octave 4
 	note B_, 8
 	note A_, 8
 	note G#, 7
-	note __, 2
+	rest 2
 ;Bar 5, 64
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1 ; WARNING: Auto-Sync says: Rounded down!
+	rest 16
+	rest 1 ; WARNING: Auto-Sync says: Rounded down!
 ;Bar 6, 64
 	octave 4
 	note F#, 16
-	note __, 7
+	rest 7
 	octave 5
 	note C#, 8
 	note E_, 16
-	note __, 16
-	note __, 1
+	rest 16
+	rest 1
 ;Bar 7, 64
 	octave 4
 	note F#, 16
-	note __, 16
-	note __, 8
+	rest 16
+	rest 8
 	note B_, 8
 	note A_, 8
 	note G#, 8
 ;Bar 8, 64
 	note E_, 16
-	note __, 16
-	intensity $87
+	rest 16
+	volume_envelope 8, 7
 	note C#, 8
 	octave 3
 	note B_, 8
@@ -335,213 +336,213 @@ UnwaveringHeartLoop2:
 ;Bar 9, 72
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note D_, 8
 	octave 4
-	intensity $97
+	volume_envelope 9, 7
 	note C#, 8
 	note E_, 16
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note A_, 16
 	octave 1
-	intensity $97
+	volume_envelope 9, 7
 	note A_, 8
 ;Bar 10, 64
 	octave 3
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note E_, 8
 	octave 4
-	intensity $97
+	volume_envelope 9, 7
 	note C#, 8
 	note E_, 16
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note E_, 8
-	note __, 8
+	rest 8
 ;Bar 11, 64
-	intensity $97
+	volume_envelope 9, 7
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note G#, 8
-	intensity $67
+	volume_envelope 6, 7
 	note B_, 8
 	octave 3
 	note C#, 8
 	octave 4
-	intensity $87
+	volume_envelope 8, 7
 	note E_, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 4
-	intensity $87
+	volume_envelope 8, 7
 	note F#, 8
 	octave 1
-	intensity $77
+	volume_envelope 7, 7
 	note B_, 8
 ;Bar 12, 64
 	octave 4
-	intensity $97
+	volume_envelope 9, 7
 	note C#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note C#, 8
 	note E_, 8
 	octave 4
-	intensity $87
+	volume_envelope 8, 7
 	note C#, 8
 	octave 3
 	note B_, 8
 	note A_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note G#, 8
 ;Bar 13, 64
-	intensity $87
+	volume_envelope 8, 7
 	note F#, 8
 	octave 2
-	intensity $47
+	volume_envelope 4, 7
 	note F#, 8
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
 	note D_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note F#, 8
 	octave 2
-	intensity $67
+	volume_envelope 6, 7
 	note A_, 8 ; WARNING: Auto-Sync says: Rounded down!
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note A_, 8
 	octave 1 ;WARNING: Octave 0 isn't supported, won't work correctly
-	intensity $97
+	volume_envelope 9, 7
 	note F#, 8
 ;Bar 14, 64
 	octave 3
 	note G#, 8
 	octave 2
-	intensity $47
+	volume_envelope 4, 7
 	note G#, 8
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
 	note E_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note G#, 8
 	octave 2
-	intensity $67
+	volume_envelope 6, 7
 	note B_, 8
 	octave 3
-	intensity $77
+	volume_envelope 7, 7
 	note B_, 8
 	octave 1
-	intensity $67
+	volume_envelope 6, 7
 	note C#, 8
 ;Bar 15, 64
 	octave 3
-	intensity $97
+	volume_envelope 9, 7
 	note A_, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note D_, 8
 	note E_, 8
-	intensity $87
+	volume_envelope 8, 7
 	note F#, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note A_, 8
 	octave 3
-	intensity $87
+	volume_envelope 8, 7
 	note A_, 16
 ;Bar 16, 64
 	note A_, 8
 	octave 2
-	intensity $57
+	volume_envelope 5, 7
 	note B_, 8
 	octave 3
-	intensity $67
+	volume_envelope 6, 7
 	note E_, 8
-	intensity $77
+	volume_envelope 7, 7
 	note A_, 8
-	intensity $67
+	volume_envelope 6, 7
 	note G#, 16
 	octave 4
-	intensity $77
+	volume_envelope 7, 7
 	note G#, 8
 	note A_, 8
 ;Bar 17, 64
-	intensity $67
+	volume_envelope 6, 7
 	note A_, 16
 	note A_, 16
-	intensity $57
+	volume_envelope 5, 7
 	note G#, 16
-	intensity $37
+	volume_envelope 3, 7
 	note E_, 16
 ;Bar 18, 48, 1144
 	note F#, 16
-	note __, 16
-	note __, 16
-	loopchannel 0, Music_UnwaveringHeart_Ch2
-	endchannel
+	rest 16
+	rest 16
+	sound_loop 0, Music_UnwaveringHeart_Ch2
+	sound_ret
 
 Music_UnwaveringHeart_Ch3:
-	notetype 3, $a7
+	note_type 3, 10, 7
 ;Bar 1, 64
 	octave 3
-	intensity $20
+	volume_envelope 2, 0
 	note D_, 16
-	note __, 16 ; WARNING: Auto-Sync says: Rounded down!
-	note __, 16
-	note __, 16
+	rest 16 ; WARNING: Auto-Sync says: Rounded down!
+	rest 16
+	rest 16
 ;Bar 2, 64
 	note B_, 16 ; WARNING: Auto-Sync says: Rounded down!
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 3, 64
 	note B_, 16 ; WARNING: Auto-Sync says: Rounded down!
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 4, 64
 	note F#, 16 ; WARNING: Auto-Sync says: Rounded down!
-	note __, 16 ; WARNING: Auto-Sync says: Rounded down!
+	rest 16 ; WARNING: Auto-Sync says: Rounded down!
 	note E_, 16 ; WARNING: Auto-Sync says: Rounded up!
-	note __, 16
+	rest 16
 ;Bar 5, 64
 	note B_, 16 ; WARNING: Auto-Sync says: Rounded down!
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 6, 64
 	note A_, 16
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 7, 64
 	note B_, 16 ; WARNING: Auto-Sync says: Rounded down!
-	note __, 48
+	rest 48
 ;Bar 8, 64
-	note __, 16
+	rest 16
 	note F#, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
 ;Bar 9, 72
 	note B_, 8
 	note A_, 8
@@ -549,72 +550,72 @@ Music_UnwaveringHeart_Ch3:
 ;Bar 9, 72
 	note D_, 8
 	note A_, 8
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 8
+	rest 16
+	rest 16
+	rest 16
+	rest 8
 ;Bar 10, 64
 	note E_, 8
 	note B_, 16
 	note B_, 16
-	note __, 8
+	rest 8
 	note B_, 8
-	note __, 8
+	rest 8
 ;Bar 11, 64
 	note B_, 16
 	note C#, 8
 	note G#, 8
 	note B_, 16
-	note __, 16
+	rest 16
 ;Bar 12, 64
 	note F#, 16
-	note __, 16
+	rest 16
 	note E_, 16
-	note __, 16
+	rest 16
 ;Bar 13, 64
 	note B_, 8
 	note F#, 8
 	note B_, 8
 	note F#, 8
-	note __, 8
+	rest 8
 	note F_, 16
-	note __, 8
+	rest 8
 ;Bar 14, 64
 	note C#, 12
 	note G#, 4
 	note B_, 16
-	note __, 4
-	note __, 16
-	note __, 8
+	rest 4
+	rest 16
+	rest 8
 	note C#, 4
 ;Bar 15, 64
 	note C#, 4
 	note A_, 8
 	note A_, 8
 	note D_, 8
-	note __, 4
+	rest 4
 	note A_, 10
-	note __, 12
+	rest 12
 	note A_, 10
 ;Bar 16, 64
 	note B_, 16
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
 ;Bar 17, 64
 	note A_, 16
-	note __, 16
+	rest 16
 	note E_, 16
-	note __, 16
+	rest 16
 ;Bar 18, 48, 1144
 	note B_, 16
-	note __, 16
-	note __, 16
-	loopchannel 0, Music_UnwaveringHeart_Ch3
-	endchannel
+	rest 16
+	rest 16
+	sound_loop 0, Music_UnwaveringHeart_Ch3
+	sound_ret
 
 Music_UnwaveringHeart_Ch4:
-	notetype 3, $10
-	endchannel
+	note_type 3, 1, 0
+	sound_ret
 
 ; ============================================================================================================

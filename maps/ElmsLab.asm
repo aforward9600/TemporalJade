@@ -78,6 +78,8 @@ BiancaGivesYouPokeBalls:
 	itemnotify
 	closetext
 	setscene SCENE_JUNIPERSLAB_NOTHING
+	clearevent EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
+	setevent EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
 	end
 
 BiancaGivesPokeBalls3:
