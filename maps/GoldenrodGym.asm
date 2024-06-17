@@ -276,7 +276,7 @@ TowerInvaded1:
 	appear GOLDENRODGYM_DAHLIA
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .GoldenrodGymFemale1
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	sjump .FinishGoldenrodGymRival1
 
 .GoldenrodGymFemale1:
@@ -303,7 +303,7 @@ TowerInvaded2:
 	appear GOLDENRODGYM_DAHLIA
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .GoldenrodGymFemale2
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	sjump .FinishGoldenrodGymRival2
 
 .GoldenrodGymFemale2:

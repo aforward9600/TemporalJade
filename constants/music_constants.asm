@@ -8,7 +8,7 @@
 	const MUSIC_ROUTE_3                      ; 03
 	const MUSIC_ROUTE_12                     ; 04
 	const MUSIC_MAGNET_TRAIN                 ; 05
-	const MUSIC_KANTO_GYM_LEADER_BATTLE      ; 06
+	const MUSIC_UNOVA_GYM_LEADER_BATTLE      ; 06
 	const MUSIC_KANTO_TRAINER_BATTLE         ; 07
 	const MUSIC_KANTO_WILD_BATTLE            ; 08
 	const MUSIC_POKEMON_CENTER               ; 09
@@ -43,12 +43,12 @@
 	const MUSIC_CHERRYGROVE_CITY             ; 26
 	const MUSIC_KIMONO_ENCOUNTER             ; 27
 	const MUSIC_UNION_CAVE                   ; 28
-	const MUSIC_JOHTO_WILD_BATTLE            ; 29
+	const MUSIC_ALOLA_WILD_BATTLE            ; 29
 	const MUSIC_JOHTO_TRAINER_BATTLE         ; 2a
 	const MUSIC_ROUTE_30                     ; 2b
 	const MUSIC_ECRUTEAK_CITY                ; 2c
 	const MUSIC_VIOLET_CITY                  ; 2d
-	const MUSIC_JOHTO_GYM_LEADER_BATTLE      ; 2e
+	const MUSIC_GYM_LEADER_BATTLE_XY         ; 2e
 	const MUSIC_CHAMPION_BATTLE              ; 2f
 	const MUSIC_RIVAL_BATTLE                 ; 30
 	const MUSIC_ROCKET_BATTLE                ; 31
@@ -62,7 +62,7 @@
 	const MUSIC_ROCKET_ENCOUNTER             ; 39
 	const MUSIC_POKEMANIAC_ENCOUNTER         ; 3a
 	const MUSIC_SAGE_ENCOUNTER               ; 3b
-	const MUSIC_NEW_BARK_TOWN                ; 3c
+	const MUSIC_LITTLEROOT_TOWN              ; 3c
 	const MUSIC_GOLDENROD_CITY               ; 3d
 	const MUSIC_VERMILION_CITY               ; 3e
 	const MUSIC_POKEMON_CHANNEL              ; 3f
@@ -113,30 +113,13 @@
 	const MUSIC_ANTHEM                       ; 6a
 	const MUSIC_MEWTWO_BATTLE                ; 6b
 	const MUSIC_CINNABAR_MANSION             ; 6c
-	const MUSIC_AZALEA_TOWN_NIGHT            ; 6d
-	const MUSIC_NEW_BARK_TOWN_NIGHT          ; 6e
-	const MUSIC_KANTO_WILD_BATTLE_NIGHT      ; 6f
-	const MUSIC_ROUTE_36_NIGHT               ; 70
-	const MUSIC_ECRUTEAK_CITY_NIGHT          ; 71
-	const MUSIC_CHERRYGROVE_CITY_NIGHT       ; 72
-	const MUSIC_VIOLET_CITY_NIGHT            ; 73
-	const MUSIC_GOLDENROD_CITY_NIGHT         ; 74
-	const MUSIC_LAVENDER_TOWN_NIGHT          ; 75
-	const MUSIC_LAKE_OF_RAGE_NIGHT           ; 76
-	const MUSIC_CELADON_CITY_NIGHT           ; 77
-	const MUSIC_ROUTE_1_NIGHT                ; 78
-	const MUSIC_ROUTE_3_NIGHT                ; 79
-	const MUSIC_ROUTE_12_NIGHT               ; 7a
-	const MUSIC_ROUTE_29_NIGHT               ; 7b
-	const MUSIC_ROUTE_30_NIGHT               ; 7c
-	const MUSIC_ROUTE_37_NIGHT
 	const MUSIC_LUGIA_BATTLE
 	const MUSIC_KANTO_LEGEND_BATTLE_XY
 	const MUSIC_HO_OH_BATTLE
 	const MUSIC_MEGALOVANIA
 	const MUSIC_UNWAVERING_HEART
-	const MUSIC_MARNIE_BATTLE
-	const MUSIC_DAHLIA_ENCOUNTER
+	const MUSIC_ZINNIA_BATTLE
+	const MUSIC_LOOK_ZINNIA
 	const MUSIC_DAHLIA_AFTER_BATTLE
 	const MUSIC_MADAME_BOSS
 	const MUSIC_CINNABAR_ISLAND

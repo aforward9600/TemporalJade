@@ -35,7 +35,7 @@ LeftRival:
 	special FadeOutMusic
 	pause 10
 	appear OLIVINELIGHTHOUSE1F_RIVAL
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	applymovement OLIVINELIGHTHOUSE1F_RIVAL, RivalMovesUp1
 	turnobject OLIVINELIGHTHOUSE1F_RIVAL, LEFT
 	turnobject PLAYER, RIGHT
@@ -85,7 +85,7 @@ RightRival:
 	pause 10
 	clearevent EVENT_LIGHTHOUSE1F_RIVAL1
 	appear OLIVINELIGHTHOUSE1F_RIVAL
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	applymovement OLIVINELIGHTHOUSE1F_RIVAL, RivalMovesUp2
 	opentext
 	writetext LighthouseHeyPlayerText

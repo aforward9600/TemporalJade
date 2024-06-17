@@ -30,7 +30,7 @@ IcePath1FRivalScene1:
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .IcePath1FRivalScene2
 	applymovement ICEPATHB1F_RIVAL, IcePath_RivalWalksToYou1
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	sjump RestOfRival
 
 .IcePath1FRivalScene2:

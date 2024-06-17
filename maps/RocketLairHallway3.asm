@@ -40,7 +40,7 @@ RocketLairHallwayMiyamoto:
 	closetext
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .DracoMusicStart
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	sjump .AfterRivalMusic
 
 .DracoMusicStart:

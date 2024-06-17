@@ -28,7 +28,7 @@ RivalWalksUpLeft:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	turnobject, PLAYER, DOWN
 	appear WILDAREAOUTSIDE_RIVAL
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	applymovement WILDAREAOUTSIDE_RIVAL, RivalMovesUp
 	turnobject WILDAREAOUTSIDE_RIVAL, LEFT
 	turnobject PLAYER, RIGHT
@@ -162,7 +162,7 @@ RivalWalksUpRight:
 	turnobject, PLAYER, DOWN
 	moveobject WILDAREAOUTSIDE_RIVAL, 9, 12
 	appear WILDAREAOUTSIDE_RIVAL
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	applymovement WILDAREAOUTSIDE_RIVAL, RivalMovesUp
 	turnobject WILDAREAOUTSIDE_RIVAL, RIGHT
 	turnobject PLAYER, LEFT

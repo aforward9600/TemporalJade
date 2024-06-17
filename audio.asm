@@ -28,7 +28,7 @@ INCLUDE "audio/music/trainervictory.asm"
 
 SECTION "Songs 2", ROMX
 
-INCLUDE "audio/music/kantogymbattle.asm"
+INCLUDE "audio/music/gymleaderunova.asm"
 INCLUDE "audio/music/kantotrainerbattle.asm"
 INCLUDE "audio/music/pokemoncenter.asm"
 INCLUDE "audio/music/looklass.asm"
@@ -79,8 +79,7 @@ INCLUDE "audio/music/aftertherivalfight.asm"
 INCLUDE "audio/music/surf.asm"
 INCLUDE "audio/music/nationalpark.asm"
 INCLUDE "audio/music/unioncave.asm"
-INCLUDE "audio/music/johtowildbattle.asm"
-INCLUDE "audio/music/johtowildbattlenight.asm"
+INCLUDE "audio/music/alolawildbattle.asm"
 INCLUDE "audio/music/johtotrainerbattle.asm"
 INCLUDE "audio/music/lookyoungster.asm"
 INCLUDE "audio/music/tintower.asm"
@@ -155,12 +154,12 @@ INCLUDE "audio/music/kantolegendbattlexy.asm"
 INCLUDE "audio/music/hoohbattle.asm"
 INCLUDE "audio/music/megalovania.asm"
 INCLUDE "audio/music/unwaveringheart.asm"
-INCLUDE "audio/music/dahliaencounter.asm"
+INCLUDE "audio/music/lookzinnia.asm"
 
 SECTION "Altered Songs", ROMX
 
 INCLUDE "audio/music/azaleatown.asm"
-INCLUDE "audio/music/newbarktown.asm"
+INCLUDE "audio/music/littleroottown.asm"
 INCLUDE "audio/music/kantowildbattle.asm"
 INCLUDE "audio/music/route36.asm"
 INCLUDE "audio/music/ecruteakcity.asm"
@@ -180,7 +179,7 @@ SECTION "Newest Songs", ROMX
 
 INCLUDE "audio/music/madameboss.asm"
 INCLUDE "audio/music/cinnabarisland.asm"
-INCLUDE "audio/music/hoennrivalbattle.asm"
+INCLUDE "audio/music/zinniabattle.asm"
 INCLUDE "audio/music/friendlyshop.asm"
 INCLUDE "audio/music/cynthiabattle.asm"
 INCLUDE "audio/music/elitefour.asm"
@@ -194,7 +193,7 @@ INCLUDE "audio/music/oakbattle.asm"
 
 SECTION "Even Newer Songs", ROMX
 
-INCLUDE "audio/music/johtogymbattle.asm"
+INCLUDE "audio/music/gymleaderbattlexy.asm"
 INCLUDE "audio/music/championbattlebw2.asm"
 INCLUDE "audio/music/eventghetsis.asm"
 INCLUDE "audio/music/moravilschool.asm"

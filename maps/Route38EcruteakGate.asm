@@ -24,7 +24,7 @@ EcruteakGateRival1:
 	special FadeOutMusic
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .Female1
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	applymovement ROUTE38ECRUTEAKGATE_RIVAL, Movement1
 	opentext
 	writetext GotAnEeveeText

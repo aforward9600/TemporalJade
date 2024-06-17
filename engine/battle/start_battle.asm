@@ -92,19 +92,8 @@ PlayBattleMusic:
 	and a
 	jr nz, .kantowild
 
-	ld de, MUSIC_JOHTO_WILD_BATTLE
-	ld a, [wTimeOfDay]
-	cp NITE_F
-	jp nz, .done
-	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
-	jp .done
-
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE
-	ld a, [wTimeOfDay]
-    cp NITE_F
-    jp c, .done ; not NITE_F or EVE_F
-    ld de, MUSIC_KANTO_WILD_BATTLE_NIGHT
 	jp .done
 
 .trainermusic
@@ -130,8 +119,10 @@ PlayBattleMusic:
 	cp CHALLENGER_CYNTHIA
 	jp z, .done
 
-	ld de, MUSIC_MARNIE_BATTLE
+	ld de, MUSIC_ZINNIA_BATTLE
 	cp RIVAL3
+	jp z, .done
+	cp RIVAL4
 	jp z, .done
 
 	ld de, MUSIC_ROCKET_BATTLE
@@ -166,7 +157,7 @@ PlayBattleMusic:
 	cp FED_LEADER
 	jr z, .done
 
-	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_UNOVA_GYM_LEADER_BATTLE
 	farcall IsKantoGymLeader
 	jr c, .done
 
@@ -176,7 +167,7 @@ PlayBattleMusic:
 	farcall IsEliteFour
 	jr c, .done
 
-	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_GYM_LEADER_BATTLE_XY
 	farcall IsGymLeader
 	jr c, .done
 

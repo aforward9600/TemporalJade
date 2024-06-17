@@ -210,7 +210,8 @@ Music:
 Pokemon Stadium 2 Anthem - ShockSlayer
 Mewtwo Battle - ShockSlayer
 JohtoSafariZoneGate, JohtoSafariZone, Route 47, Gym Leader Victory,
-RSE Rival - Mmmmmmmmmmmmmmmmm
+Zinnia Encounter and Battle, Alola Wild Pokemon, Little Root Town,
+Santalune Forest, Laverre City, Frost Cavern, Floaroma Town - Mmmmmmmmmmmmmmmmm
 Cinnabar Mansion, Rocket Lair - Dannye
 NightTime coding and songs, Friendly Shop, Cynthia Battle, FRLG Gym Leader Song
 Unova Gym Battle and Giovanni Theme: TriteHexagon
@@ -221,3 +222,5 @@ Megalovania: Shockslayer, Radiation
 Unwavering Heart MIDI: LyricWulf
 Marnie's Theme/Dahlia's Theme MIDI: ryanisthebomb203
 Knights Tempora theme and Ghetsis encounter: Arikk
+XY Gym Leader - Pum
+Power Plant - ShantyTown

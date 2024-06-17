@@ -8,7 +8,7 @@ Music:
 	dba Music_Route3
 	dba Music_Route12
 	dba Music_MagnetTrain
-	dba Music_KantoGymBattle
+	dba Music_GymLeaderUnova
 	dba Music_KantoTrainerBattle
 	dba Music_KantoWildBattle
 	dba Music_PokemonCenter
@@ -43,12 +43,12 @@ Music:
 	dba Music_CherrygroveCity
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
-	dba Music_JohtoWildBattle
+	dba Music_AlolaWildBattle
 	dba Music_JohtoTrainerBattle
 	dba Music_Route30
 	dba Music_EcruteakCity
 	dba Music_VioletCity
-	dba Music_GymLeaderUnova
+	dba Music_GymLeaderBattleXY
 	dba Music_ChampionBattle
 	dba Music_RivalBattle
 	dba Music_RocketBattle
@@ -62,7 +62,7 @@ Music:
 	dba Music_LookRocket
 	dba Music_LookPokemaniac
 	dba Music_LookSage
-	dba Music_NewBarkTown
+	dba Music_LittlerootTown
 	dba Music_GoldenrodCity
 	dba Music_VermilionCity
 	dba Music_PokemonChannel
@@ -76,7 +76,7 @@ Music:
 	dba Music_Route37
 	dba Music_RocketHideout
 	dba Music_DragonsDen
-	dba Music_JohtoWildBattleNight
+	dba Music_AlolaWildBattle
 	dba Music_RuinsOfAlphRadio
 	dba Music_SuccessfulCapture
 	dba Music_Route26
@@ -112,30 +112,13 @@ Music:
 	dba Music_Anthem
 	dba Music_MewtwoBattle
 	dba Music_CinnabarMansion
-	dba Music_AzaleaTownNight
-	dba Music_NewBarkTownNight
-	dba Music_KantoWildBattleNight
-	dba Music_Route36Night
-	dba Music_EcruteakCityNight
-	dba Music_CherrygroveCityNight
-	dba Music_VioletCityNight
-	dba Music_GoldenrodCityNight
-	dba Music_LavenderTownNight
-	dba Music_LakeOfRageNight
-	dba Music_CeladonCity_Night
-	dba Music_Route1Night
-	dba Music_Route3_Night
-	dba Music_Route12_Night
-	dba Music_Route29Night
-	dba Music_Route30Night
-	dba Music_Route37Night
 	dba Music_LugiaBattle
 	dba Music_KantoLegendBattleXY
 	dba Music_HoOhBattleHGSS
 	dba Music_Megalovania
 	dba Music_UnwaveringHeart
-	dba Music_HoennRivalBattle
-	dba Music_DahliaEncounter
+	dba Music_ZinniaBattle
+	dba Music_LookZinnia
 	dba Music_DahliaAfterBattle
 	dba Music_GiovanniBattle
 	dba Music_CinnabarIslandGBS

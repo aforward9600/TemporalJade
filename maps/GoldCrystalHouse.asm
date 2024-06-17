@@ -40,7 +40,7 @@ GoldCrystalHouse_MapScripts:
 	waitbutton
 	closetext
 	pause 15
-	playmusic MUSIC_NEW_BARK_TOWN
+	playmusic MUSIC_LITTLEROOT_TOWN
 	applymovement GOLDCRYSTALHOUSE_GOLD, GoldCrystalWalksOut
 	playsound SFX_EXIT_BUILDING
 	disappear GOLDCRYSTALHOUSE_GOLD
@@ -77,7 +77,7 @@ GoldCrystalHouse_MapScripts:
 	waitbutton
 	closetext
 	pause 15
-	playmusic MUSIC_NEW_BARK_TOWN
+	playmusic MUSIC_LITTLEROOT_TOWN
 	applymovement GOLDCRYSTALHOUSE_CRYSTAL, GoldCrystalWalksOut
 	playsound SFX_EXIT_BUILDING
 	disappear GOLDCRYSTALHOUSE_CRYSTAL

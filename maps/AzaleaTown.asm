@@ -44,7 +44,7 @@ AzaleaTownRivalBattleScene1:
 	applymovement AZALEATOWN_RIVAL, AzaleaTownRivalBattleApproachMovement1
 	checkflag ENGINE_PLAYER_IS_FEMALE
 	iftrue .AzaleaRivalFemale
-	playmusic MUSIC_DAHLIA_ENCOUNTER
+	playmusic MUSIC_LOOK_ZINNIA
 	opentext
 	writetext AzaleaTownRivalBeforeText
 	waitbutton
