@@ -1,420 +1,828 @@
-Music_GymLeaderVictory:
+Music_RSGymVictory:
 	channel_count 4
-	channel 1, Music_GymLeaderVictory_Ch1
-	channel 2, Music_GymLeaderVictory_Ch2
-	channel 3, Music_GymLeaderVictory_Ch3
-	channel 4, Music_GymLeaderVictory_Ch4
-
-Music_GymLeaderVictory_Ch1:
-	tempo 116
-	volume 7, 7
-	vibrato 18, 3, 4
+	channel 1, Music_RSGymVictory_Ch1
+	channel 2, Music_RSGymVictory_Ch2
+	channel 3, Music_RSGymVictory_Ch3
+	channel 4, Music_RSGymVictory_Ch4
+ 
+ 
+Music_RSGymVictory_Ch1:
+	tempo 136
 	duty_cycle $3
+	vibrato 18, 1, 5
 	pitch_offset $0001
-	note_type 12, 11, 7
-	octave 4
-	note D_, 6
+	note_type 6, 9, 7
 	octave 3
-	note A_, 1
+	note G_, 12
+	note D#, 2
+	note G_, 2
+	note A#, 12
+	note G_, 2
+	note A#, 2
 	octave 4
-	note D_, 1
-	note F#, 6
-	note D_, 1
-	note F#, 1
-	note A_, 6
-	note F#, 1
-	note A_, 1
-	octave 5
-	note D_, 8
-	stereo_panning FALSE, TRUE
-Music_GymLeaderVictory_branch_f4658:
-	duty_cycle $1
-	sound_call Music_GymLeaderVictory_branch_f4689
+	note D#, 12
+	octave 3
+	note A#, 2
 	octave 4
-	note C#, 4
-	note E_, 4
-	sound_call Music_GymLeaderVictory_branch_f4689
-	note F#, 8
-	sound_loop 2, Music_GymLeaderVictory_branch_f4658
-	duty_cycle $2
-	sound_call Music_GymLeaderVictory_branch_f46a0
-	note A_, 4
-	note G_, 4
-	note F#, 6
-	note D_, 1
-	note E_, 1
-	note F#, 6
-	note E_, 2
-	note D_, 8
-	note C#, 8
+	note D#, 2
+	volume_envelope 9, 0
+	note F_, 16
+	volume_envelope 9, 7
+	note F_, 16
+Music_RSGymVictory_Ch1_loop_main:
 	duty_cycle $3
-	sound_call Music_GymLeaderVictory_branch_f46a0
-	note C#, 4
-	note E_, 4
-	note G_, 6
-	note A_, 1
-	note G_, 1
-	note A_, 6
-	note G_, 2
-	volume_envelope 8, 7
-	note F#, 16
-	sound_loop 0, Music_GymLeaderVictory_branch_f4658
-
-Music_GymLeaderVictory_branch_f4689:
-	volume_envelope 9, 1
+	volume_envelope 7, 3
 	octave 3
-	note F#, 2
-	note A_, 2
+	note D#, 4
 	octave 4
-	note D_, 2
+	note D#, 4
+	note G_, 8
 	octave 3
-	note A_, 1
-	note F#, 1
-	note E_, 2
-	note A_, 2
-	octave 4
-	note C#, 2
-	octave 3
-	note A_, 1
-	note E_, 1
-	note D_, 2
-	note G_, 2
-	note B_, 2
-	note G_, 1
-	note D_, 1
-	sound_ret
-
-Music_GymLeaderVictory_branch_f46a0:
-	volume_envelope 8, 7
-	octave 3
-	note F#, 14
-	note D_, 1
-	note F#, 1
-	note A_, 8
-	note F#, 4
-	note A_, 1
-	note G#, 1
-	note F#, 1
-	note A_, 1
-	note G#, 14
-	note E_, 1
-	note G#, 1
-	note B_, 8
+	note D_, 4
 	octave 4
 	note D_, 4
-	note E_, 1
-	note D_, 1
-	note E_, 1
-	note D_, 1
-	note C#, 14
+	note F_, 8
 	octave 3
-	note A_, 1
+	note C_, 4
 	octave 4
-	note C#, 1
-	note E_, 8
-	sound_ret
-
-Music_GymLeaderVictory_Ch2:
-	vibrato 18, 3, 4
-	duty_cycle $3
-	note_type 12, 13, 7
+	note C_, 4
+	note D#, 8
+	octave 3
+	note D_, 4
+	note A#, 4
 	octave 4
-	note A_, 6
-	note F#, 1
-	note A_, 1
-	octave 5
-	note D_, 6
-	octave 4
-	note A_, 1
-	octave 5
-	note D_, 1
-	note F#, 16
-Music_GymLeaderVictory_branch_f46d0:
-	duty_cycle $3
-	volume_envelope 10, 1
-	sound_call Music_GymLeaderVictory_branch_f4711
-	note A_, 4
-	note A_, 4
-	sound_call Music_GymLeaderVictory_branch_f4711
-	note D_, 6
-	duty_cycle $2
-	note B_, 1
-	octave 5
-	note C#, 1
-	sound_call Music_GymLeaderVictory_branch_f4711
-	note A_, 4
-	note A_, 4
-	sound_call Music_GymLeaderVictory_branch_f4711
 	note D_, 8
-	duty_cycle $3
-	sound_call Music_GymLeaderVictory_branch_f4720
-	note F#, 4
-	note E_, 4
-	note D_, 14
+	octave 3
+	note D#, 4
 	octave 4
-	note B_, 2
-	volume_envelope 10, 7
-	note A_, 16
+	note D#, 4
+	note G_, 8
+	octave 3
+	note D_, 4
+	octave 4
+	note D_, 4
+	note F_, 8
+	octave 3
+	note C_, 4
+	octave 4
+	note C_, 4
+	octave 3
+	note F_, 4
+	note F_, 4
+	note G_, 16
 	duty_cycle $2
-	sound_call Music_GymLeaderVictory_branch_f4720
-	octave 4
-	note A_, 4
-	octave 5
-	note C#, 4
-	note D_, 14
-	note E_, 2
-	volume_envelope 10, 6
-	note D_, 12
-	rest 2
+	volume_envelope 7, 0
+	note D#, 4
+	rest 4
+	note A#, 8
+	note D_, 4
+	rest 4
+	note A#, 8
+	note C_, 4
+	rest 4
+	note G#, 8
+	octave 2
+	note A#, 4
+	rest 4
+	octave 3
+	note F_, 8
 	duty_cycle $3
-	octave 4
-	note B_, 1
-	octave 5
-	note C#, 1
-	sound_loop 0, Music_GymLeaderVictory_branch_f46d0
-
-Music_GymLeaderVictory_branch_f4711:
-	octave 5
-	note D_, 2
-	note C#, 2
-	octave 4
-	note B_, 4
-	octave 5
-	note C#, 2
-	octave 4
-	note B_, 2
-	note A_, 4
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	note F#, 2
-	sound_ret
-
-Music_GymLeaderVictory_branch_f4720:
-	volume_envelope 9, 8
-	note A_, 6
-	note F#, 1
-	note A_, 1
-	octave 5
+	volume_envelope 7, 3
+	note G_, 4
+	note F_, 4
+	note D#, 8
+	note F_, 4
+	note D#, 4
 	note D_, 8
-	note D_, 16
+	note D#, 4
+	note D_, 4
+	note C_, 4
+	octave 2
+	note A#, 4
+	note G_, 16
+	duty_cycle $0
+	volume_envelope 9, 0
+	rest 16
 	octave 4
-	note B_, 6
+	note A#, 1
+	rest 5
+	note A#, 4
 	note G#, 1
-	note B_, 1
-	octave 5
-	note E_, 8
-	note E_, 16
-	octave 4
-	note G_, 6
-	note E_, 1
 	note G_, 1
+	note D#, 1
+	rest 3
+	duty_cycle $3
+	volume_envelope 6, 0
+	octave 3
+	note G_, 12
+	note D#, 2
+	note G_, 2
+	note A#, 16
+	note A_, 16
+	duty_cycle $0
+	volume_envelope 9, 0
 	octave 5
-	note C#, 8
-	note C#, 8
-	sound_ret
-
-Music_GymLeaderVictory_Ch3:
-	note_type 12, 2, 5
+	note C_, 1
+	rest 5
+	note C_, 4
+	octave 4
+	note A#, 1
+	note A_, 1
+	note F_, 1
+	rest 3
+	duty_cycle $3
+	volume_envelope 6, 0
 	octave 3
-	note F#, 16
-	note D_, 10
-	octave 2
+	note A_, 12
+	note F_, 2
 	note A_, 2
-	note B_, 2
+	octave 4
+	note C_, 16
+	rest 8
+	duty_cycle $0
+	volume_envelope 9, 0
+	note F_, 4
+	note G_, 4
+	note A#, 1
+	rest 5
+	note A#, 4
+	note G#, 1
+	note F_, 1
+	note D_, 1
+	rest 3
 	octave 3
-	note C#, 2
-	stereo_panning TRUE, FALSE
-Music_GymLeaderVictory_branch_f4744:
+	note F_, 12
 	note D_, 2
-	rest 4
+	note F_, 2
+	note A#, 16
+	duty_cycle $0
+	volume_envelope 9, 0
+	note A#, 1
+	rest 1
+	note A#, 1
+	rest 1
+	note A#, 4
+	note G#, 1
+	note D#, 1
 	octave 2
-	note A_, 2
+	note A#, 2
+	duty_cycle $3
+	volume_envelope 6, 0
+	note A#, 2
 	octave 3
-	note C#, 2
-	rest 4
+	note F_, 2
+	note G_, 12
+	note D#, 4
+	note D_, 16
+	note_type 8, 11, 4
+	duty_cycle $0
 	octave 2
-	note A_, 2
-	note B_, 2
-	rest 4
+	note A#, 2
+	octave 3
+	note F_, 2
+	note A#, 2
+	octave 4
+	note D_, 2
+	note F_, 2
+	note G#, 2
+	volume_envelope 8, 0
+	duty_cycle $3
+	octave 3
+	note G_, 12
+	volume_envelope 8, 7
+	note G_, 12
+	volume_envelope 9, 5
+	octave 4
+	note G_, 4
+	note F_, 4
+	note D#, 4
+	note D_, 4
+	note D#, 4
+	octave 3
+	note A#, 4
+	volume_envelope 8, 0
+	note F_, 12
+	volume_envelope 8, 7
+	note F_, 12
+	volume_envelope 9, 5
+	octave 4
+	note F_, 4
+	note G_, 4
+	note F_, 4
+	note D#, 4
+	note F_, 4
+	note C_, 4
+	volume_envelope 8, 0
+	note D_, 12
+	volume_envelope 8, 7
+	note D_, 12
+	octave 3
+	note D_, 12
+	volume_envelope 9, 5
+	octave 4
+	note D_, 6
+	note F_, 6
+	duty_cycle $0
+	note_type 6, 8, 2
+	octave 3
+	note G#, 4
+	note G#, 4
+	octave 4
+	note D#, 4
+	octave 3
+	note G#, 2
+	note G#, 2
+	note D#, 2
+	note G#, 2
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G#, 2
+	note A#, 2
+	octave 5
+	note D#, 2
+	note A#, 2
+	octave 3
+	note G_, 4
+	note G_, 4
+	octave 4
+	note D#, 4
+	octave 3
 	note G_, 2
+	note G_, 2
+	note D#, 2
+	note G_, 2
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G_, 2
+	note A#, 2
+	octave 5
+	note D#, 2
+	note G_, 2
+	sound_loop 0, Music_RSGymVictory_Ch1_loop_main
+ 
+Music_RSGymVictory_Ch2:
+	duty_cycle $3
+	vibrato 18, 3, 5
+	pitch_offset $0001
+	note_type 6, 11, 7
+	octave 3
+	note A#, 12
+	note G_, 2
+	note A#, 2
+	octave 4
+	note D#, 12
+	octave 3
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G_, 12
+	note D#, 2
+	note G_, 2
+	volume_envelope 9, 0
+	note A#, 16
+	volume_envelope 9, 7
+	note A#, 16
+Music_RSGymVictory_Ch2_loop_main:
+	duty_cycle $2
+	volume_envelope 11, 2
+	octave 5
+	note D#, 4
+	note D_, 4
+	note C_, 8
+	note D_, 4
+	note C_, 4
+	octave 4
+	note A#, 8
+	octave 5
+	note C_, 4
+	octave 4
+	note A#, 4
+	note G#, 4
+	note G_, 4
+	note A#, 8
+	volume_envelope 11, 4
+	note A#, 8
+	volume_envelope 11, 2
+	octave 5
+	note D#, 4
+	note D_, 4
+	note C_, 8
+	note D_, 4
+	note C_, 4
+	octave 4
+	note A#, 8
+	octave 5
+	note C_, 4
+	octave 4
+	note A#, 4
+	note G#, 4
+	note G_, 4
+	note D#, 12
+	duty_cycle $0
+	volume_envelope 10, 2
+	note C_, 2
+	note D_, 2
+	note D#, 4
+	note D_, 4
+	note C_, 8
+	note D_, 4
+	note C_, 4
+	octave 3
+	note A#, 8
+	octave 4
+	note C_, 4
+	octave 3
+	note A#, 4
+	note G#, 4
+	note G_, 4
+	note A#, 8
+	volume_envelope 10, 4
+	note A#, 8
+	volume_envelope 10, 2
+	octave 4
+	note D#, 4
+	note D_, 4
+	note C_, 8
+	note D_, 4
+	note C_, 4
+	octave 3
+	note A#, 8
+	octave 4
+	note C_, 4
+	octave 3
+	note A#, 4
+	note G#, 4
+	note G_, 4
+	note D#, 16
+	duty_cycle $3
+	sound_call Music_RSGymVictory_Ch2_branch_1
+	volume_envelope 11, 0
+	note F#, 1
+	note G_, 7
+	note F_, 8
+	volume_envelope 11, 0
+	note D#, 16
+	volume_envelope 11, 7
+	note D#, 12
+	volume_envelope 11, 0
+	note C_, 4
+	octave 3
+	note A#, 16
+	volume_envelope 11, 7
+	note A#, 16
+	duty_cycle $0
+	sound_call Music_RSGymVictory_Ch2_branch_1
+	volume_envelope 11, 0
+	octave 4
+	note A#, 8
+	octave 5
+	note D_, 8
+	note D#, 16
+	volume_envelope 11, 7
+	note D#, 12
+	volume_envelope 11, 0
+	note F_, 4
+	note D#, 16
+	volume_envelope 11, 7
+	note D#, 16
+	sound_loop 0, Music_RSGymVictory_Ch2_loop_main
+ 
+Music_RSGymVictory_Ch2_branch_1:
+	volume_envelope 11, 0
+	note A#, 12
+	note G_, 2
+	note A#, 2
+	octave 4
+	note D#, 16
+	note D#, 16
+	volume_envelope 11, 7
+	note D#, 16
+	volume_envelope 11, 0
+	note C_, 12
+	octave 3
 	note A_, 2
+	octave 4
+	note C_, 2
+	note F_, 16
+	note F_, 16
+	volume_envelope 11, 7
+	note F_, 16
+	volume_envelope 11, 0
+	octave 3
+	note G#, 12
+	note F_, 2
+	note G#, 2
+	octave 4
+	note D_, 16
+	note D_, 8
+	volume_envelope 11, 7
+	note D_, 8
+	sound_ret
+ 
+Music_RSGymVictory_Ch3:
+	note_type 6, 1, 0
+	octave 3
+	note D#, 2
+	note G_, 1
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G_, 1
+	note D#, 2
+	note G_, 1
+	note A#, 2
+	octave 5
+	note D#, 2
+	note G_, 1
+	octave 3
+	note D#, 2
+	note G_, 1
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G_, 1
+	note D#, 2
+	note G_, 1
+	note A#, 2
+	octave 5
+	note D#, 2
+	note G_, 1
+	octave 3
+	note D#, 2
+	note G_, 1
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G_, 1
+	note D#, 2
+	note G_, 1
+	note A#, 2
+	octave 5
+	note D#, 2
+	note G_, 1
+	octave 6
+	note D_, 2
+	octave 5
+	note A#, 1
+	note F_, 2
+	note D_, 2
+	octave 4
+	note A#, 1
+	note F_, 2
+	note D_, 1
+	octave 3
+	note A#, 2
+	note F_, 2
+	note D_, 1
+	octave 2
+	note A#, 2
+	octave 3
+	note D_, 1
+	note F_, 2
+	note A#, 2
+	octave 4
+	note D_, 1
+	note F_, 2
+	note A#, 1
+	octave 5
+	note D_, 2
+	note F_, 2
+	note A#, 1
+Music_RSGymVictory_Ch3_loop_main:
+	volume_envelope 1, 4
+	octave 3
+	note D#, 4
+	rest 12
+	note D_, 4
+	rest 12
+	note C_, 4
+	rest 12
+	octave 2
+	note A#, 4
+	rest 12
+	octave 3
+	note D#, 4
+	rest 12
+	note D_, 4
+	rest 12
+	note C_, 4
+	rest 4
+	note F_, 2
+	rest 2
+	note D_, 2
+	rest 2
+	note D#, 4
+	rest 12
+	octave 2
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note G#, 4
+	rest 4
+	note G#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note D_, 8
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note G#, 2
+	rest 2
+	note A#, 2
 	rest 2
 	octave 3
-	note C#, 4
+	note C_, 2
+	rest 2
 	note D_, 2
-	rest 4
+	rest 2
+	note D#, 4
+	rest 12
 	octave 2
-	note A_, 2
-	octave 3
-	note C#, 2
+	note D#, 4
 	rest 4
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note D#, 1
+	rest 1
+	note D#, 1
+	rest 1
+	note D#, 7
+	rest 1
+	note D#, 1
+	rest 1
+	note D#, 1
+	rest 1
+	note D#, 4
+	rest 2
+	octave 3
+	note D#, 6
 	octave 2
-	note A_, 2
-	note B_, 2
+	note G_, 4
+	note F_, 4
 	rest 4
-	note G_, 2
+	note F_, 4
+	rest 4
+	note F_, 4
+	rest 4
+	note F_, 4
+	rest 4
+	note F_, 1
+	rest 1
+	note F_, 1
+	rest 1
+	note F_, 7
+	rest 1
+	note F_, 1
+	rest 1
+	note F_, 2
 	octave 3
-	note D_, 2
+	note C_, 6
+	octave 2
+	note F_, 6
+	octave 3
+	note C_, 4
+	octave 2
+	note A#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note A#, 4
+	rest 4
+	note A#, 1
+	rest 1
+	note A#, 1
+	rest 1
+	note A#, 7
+	rest 1
+	note A#, 1
+	rest 1
+	note A#, 2
+	note F_, 6
+	note D#, 6
+	note D_, 4
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note D#, 4
+	rest 4
+	note A#, 15
+	rest 1
+	note A#, 4
+	rest 2
+	octave 3
+	note C_, 4
+	rest 2
+	note D_, 4
+	note D#, 16
+	note D#, 16
+	volume_envelope 2, 4
+	note D#, 16
+	rest 16
+	volume_envelope 1, 4
+	note F_, 16
+	note F_, 16
+	note F_, 16
+	volume_envelope 2, 4
+	rest 16
+	volume_envelope 1, 4
+	octave 2
+	note A#, 16
+	note A#, 16
+	volume_envelope 2, 4
+	note A#, 16
+	rest 16
+	volume_envelope 1, 4
+	octave 3
+	note D#, 2
+	rest 2
+	note D#, 2
 	rest 6
-	sound_loop 2, Music_GymLeaderVictory_branch_f4744
-	sound_call Music_GymLeaderVictory_branch_f479e
-	octave 3
-	note D_, 2
+	note D#, 1
+	rest 1
+	note D#, 1
+	rest 1
+	note D#, 2
+	rest 4
+	note G#, 4
 	rest 2
-	note D_, 2
-	octave 4
-	note D_, 2
+	note D#, 2
 	rest 2
-	octave 3
-	note D_, 2
-	note F#, 2
-	note D_, 2
-	note A_, 2
+	note D#, 2
 	rest 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
+	note D#, 2
+	rest 6
+	note D#, 1
+	rest 1
+	note D#, 1
+	rest 1
+	note D#, 2
+	rest 4
+	note G_, 4
 	rest 2
-	octave 2
-	note A_, 2
-	octave 3
-	note C#, 2
-	octave 2
-	note A_, 2
-	sound_call Music_GymLeaderVictory_branch_f479e
-	octave 3
-	note D_, 2
+	note D#, 2
 	rest 2
-	note G_, 2
-	octave 4
-	note D_, 2
-	rest 2
-	octave 3
-	note D_, 2
-	note G_, 2
-	note E_, 2
-	note D_, 2
-	rest 2
-	note D_, 2
-	note A_, 2
-	rest 2
-	octave 2
-	note A_, 2
-	note B_, 2
-	octave 3
-	note C#, 2
-	sound_loop 0, Music_GymLeaderVictory_branch_f4744
-
-Music_GymLeaderVictory_branch_f479e:
-	octave 3
-	note D_, 2
-	rest 2
-	note D_, 2
-	octave 4
-	note D_, 2
-	rest 2
-	octave 3
-	note D_, 2
-	note F#, 2
-	note D_, 2
-	note A_, 2
-	rest 2
-	note D_, 2
-	note F#, 2
-	rest 2
-	octave 2
-	note A_, 2
-	octave 3
-	note D_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	rest 2
-	note E_, 2
-	octave 4
-	note E_, 2
-	rest 2
-	octave 3
-	note E_, 2
-	note G#, 2
-	note E_, 2
-	note B_, 2
-	rest 2
-	note E_, 2
-	note G#, 2
-	rest 2
-	octave 2
-	note B_, 2
-	octave 3
-	note E_, 2
-	octave 2
-	note B_, 2
-	note A_, 2
-	rest 2
-	note A_, 2
-	octave 3
-	note A_, 2
-	rest 2
-	octave 2
-	note A_, 2
-	octave 3
-	note C#, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note A_, 2
-	rest 2
-	octave 2
-	note A_, 2
-	octave 3
-	note E_, 2
-	rest 2
-	octave 2
-	note A_, 2
-	octave 3
-	note C#, 2
-	octave 2
-	note A_, 2
-	sound_ret
-
-Music_GymLeaderVictory_Ch4:
-	toggle_noise $4
-	drum_speed 12
+	sound_loop 0, Music_RSGymVictory_Ch3_loop_main
+ 
+Music_RSGymVictory_Ch4:
+	toggle_noise $3
+	drum_speed 6
+	drum_note 12, 12
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 12, 12
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 12, 12
+	drum_note 1, 2
+	drum_note 1, 2
 	drum_note 12, 16
-	drum_note 12, 16
-Music_GymLeaderVictory_branch_f47eb:
-	sound_call Music_GymLeaderVictory_branch_f480b
-	drum_note 4, 6
-	drum_note 4, 2
+	drum_note 12, 12
+	drum_note 1, 4
+Music_RSGymVictory_Ch4_loop_main:
+	drum_note 4, 16
+	rest 16
+	drum_note 4, 16
+	rest 12
+	drum_note 4, 4
+	drum_note 4, 16
+	rest 16
+	drum_note 4, 12
+	drum_note 4, 4
 	drum_note 4, 8
-	sound_call Music_GymLeaderVictory_branch_f480b
-	drum_note 4, 6
-	drum_note 4, 2
-	drum_note 4, 4
-	drum_note 2, 1
-	drum_note 2, 1
-	drum_note 2, 1
-	drum_note 2, 1
-Music_GymLeaderVictory_branch_f47fb:
-	drum_note 4, 2
-	drum_note 8, 2
+	drum_note 3, 4
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 8, 2
-	drum_note 4, 2
 	drum_note 3, 2
-	drum_note 8, 2
-	sound_loop 16, Music_GymLeaderVictory_branch_f47fb
-	sound_loop 0, Music_GymLeaderVictory_branch_f47eb
-
-Music_GymLeaderVictory_branch_f480b:
-	drum_note 4, 6
-	drum_note 4, 2
-	drum_note 4, 4
+	drum_note 1, 8
+	drum_note 1, 8
+	drum_note 1, 8
+	drum_note 1, 8
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
 	drum_note 3, 2
-	drum_note 4, 2
-	sound_loop 3, Music_GymLeaderVictory_branch_f480b
+	drum_note 3, 2
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 2
+	drum_note 3, 2
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 8
+	drum_note 3, 1
+	drum_note 3, 1
+	drum_note 3, 2
+	drum_note 3, 2
+	drum_note 3, 2
+	drum_note 12, 16
+	drum_note 3, 6
+	drum_note 3, 2
+	drum_note 3, 4
+	drum_note 3, 4
+	sound_call Music_RSGymVictory_Ch4_branch_1
+	sound_call Music_RSGymVictory_Ch4_branch_1
+	drum_note 1, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 6
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 4
+	sound_call Music_RSGymVictory_Ch4_branch_2
+	sound_call Music_RSGymVictory_Ch4_branch_2
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 2
+	drum_note 3, 2
+	drum_note 1, 2
+	drum_note 3, 2
+	drum_note 3, 2
+	drum_note 1, 2
+	drum_note 3, 2
+	drum_note 12, 16
+Music_RSGymVictory_Ch4_loop_9:
+	rest 16
+	sound_loop 11, Music_RSGymVictory_Ch4_loop_9
+	drum_note 1, 4
+	drum_note 1, 8
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 6
+	drum_note 1, 6
+	drum_note 1, 2
+	drum_note 3, 2
+	drum_note 1, 4
+	drum_note 1, 8
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 4
+	drum_note 3, 2
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 4
+	sound_loop 0, Music_RSGymVictory_Ch4_loop_main
+ 
+Music_RSGymVictory_Ch4_branch_1:
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 1, 6
+	drum_note 1, 2
+	drum_note 3, 4
+	drum_note 1, 2
+	drum_note 3, 2
+	drum_note 1, 8
+	drum_note 3, 4
+	drum_note 3, 4
+	drum_note 3, 6
+	drum_note 3, 2
+	drum_note 3, 4
+	drum_note 3, 4
+	sound_ret
+ 
+Music_RSGymVictory_Ch4_branch_2:
+	drum_note 1, 4
+	drum_note 3, 4
+	drum_note 3, 4
+	drum_note 1, 4
 	sound_ret

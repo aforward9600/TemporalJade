@@ -182,7 +182,7 @@ PlayBattleMusic:
 
 	ld de, MUSIC_RIVAL_BATTLE
 	ld a, [wOtherTrainerClass]
-	cp RIVAL4
+	cp WANDERER
 	jr nz, .othertrainer
 	jr .done
 

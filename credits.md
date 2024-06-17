@@ -209,9 +209,8 @@ Sour: Featherdance, some effects for Focus Blast, Aura Sphere and Fake Tears.
 Music:
 Pokemon Stadium 2 Anthem - ShockSlayer
 Mewtwo Battle - ShockSlayer
-WildAreaOutside/JohtoSafariZoneGate - Mmmmmmmmmmmmmmmmm
-WildArea/JohtoSafariZone - Mmmmmmmmmmmmmmmmm
-Route 47 - Mmmmmmmmmmmmmmmmm
+JohtoSafariZoneGate, JohtoSafariZone, Route 47, Gym Leader Victory,
+RSE Rival - Mmmmmmmmmmmmmmmmm
 Cinnabar Mansion, Rocket Lair - Dannye
 NightTime coding and songs, Friendly Shop, Cynthia Battle, FRLG Gym Leader Song
 Unova Gym Battle and Giovanni Theme: TriteHexagon

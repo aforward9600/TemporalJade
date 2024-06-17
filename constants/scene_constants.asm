@@ -51,7 +51,8 @@ SCENE_FINISHED EQU 1
 ; wCherrygroveCitySceneID
 	const_def
 	const SCENE_CHERRYGROVECITY_KNIGHTS      ; 0
-	const SCENE_CHERRYGROVECITY_NOTHING   ; 1
+	const SCENE_CHERRYGROVECITY_NOTHING      ; 1
+	const SCENE_CHERRYGROVECITY_KNIGHT       ; 2
 
 ; wRoute32SceneID
 	const_def 1

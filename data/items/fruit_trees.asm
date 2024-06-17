@@ -1,6 +1,6 @@
 FruitTreeItems:
 ; entries correspond to FRUITTREE_* constants
-	db PERSIM_BERRY ; ROUTE_29
+	db ORAN_BERRY   ; ROUTE_29
 	db ORAN_BERRY   ; ROUTE_30_1
 	db SITRUS_BERRY ; ROUTE_38
 	db LUM_BERRY    ; ROUTE_46_1

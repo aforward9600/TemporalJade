@@ -17,8 +17,8 @@ ENDM
 	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER
 	townmappals EARTH,    EARTH,    CITY,     EARTH,    POI,      POI_MTN,  POI,      POI_MTN
 	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER
-	townmappals EARTH,    EARTH,    BORDER,   EARTH,    EARTH,    EARTH,    BORDER,   BORDER
-	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER
+	townmappals EARTH,    EARTH,    BORDER,   EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN
+	townmappals EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER
 	townmappals BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER
 ; gfx/pokegear/pokegear.png
 	townmappals BORDER,   BORDER,   BORDER,   BORDER,   POI,      POI,      POI,      BORDER
@@ -30,4 +30,4 @@ ENDM
 	townmappals EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH
 	townmappals EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH
 	townmappals EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    EARTH,    MOUNTAIN, MOUNTAIN
-	townmappals MOUNTAIN, BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER,   BORDER
+	townmappals MOUNTAIN, MOUNTAIN, MOUNTAIN, BORDER,   BORDER,   BORDER,   BORDER,   BORDER

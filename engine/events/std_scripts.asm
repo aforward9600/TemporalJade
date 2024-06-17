@@ -663,6 +663,7 @@ InitializeEventsScript:
 	setevent EVENT_VICTORY_ROAD_GATE_RIVAL_2
 	setmapscene VICTORY_ROAD_GATE, SCENE_VICTORY_ROAD_GATE_GUARD
 	setevent EVENT_VICTORY_ROAD_GATE_GUARD_2
+	setevent EVENT_ANTIQUO_TOWN_KNIGHT
 	return
 
 AskNumber1MScript:

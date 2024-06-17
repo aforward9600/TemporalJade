@@ -27,7 +27,7 @@ Music:
 	dba Music_CeladonCity
 	dba Music_TrainerVictory
 	dba Music_WildPokemonVictory
-	dba Music_GymLeaderVictory
+	dba Music_RSGymVictory
 	dba Music_MtMoonSquare
 	dba Music_Gym
 	dba Music_PalletTown
@@ -134,7 +134,7 @@ Music:
 	dba Music_HoOhBattleHGSS
 	dba Music_Megalovania
 	dba Music_UnwaveringHeart
-	dba Music_MarnieBattle
+	dba Music_HoennRivalBattle
 	dba Music_DahliaEncounter
 	dba Music_DahliaAfterBattle
 	dba Music_GiovanniBattle
