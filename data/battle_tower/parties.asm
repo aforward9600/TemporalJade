@@ -2856,7 +2856,7 @@ BattleTowerMons6:
 	bigdw 83 ; SDef
 	db "SAIDON@@@@@"
 
-	dw SANDSLASH
+	dw EXCADRILL
 	db SCOPE_LENS
 	dw EARTHQUAKE, SLASH, STONE_EDGE, SWORDS_DANCE
 

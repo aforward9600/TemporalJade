@@ -38,8 +38,8 @@ MonMenuIconPals:
 	icon_pals RED,    RED    ; PICHU
 	icon_pals RED,    TEAL   ; PIKACHU
 	icon_pals RED,    BROWN  ; RAICHU
-	icon_pals BROWN,  GRAY   ; SANDSHREW
-	icon_pals BROWN,  RED    ; SANDSLASH
+	icon_pals BLUE,   RED    ; DRILBUR
+	icon_pals RED,    BLUE   ; EXCADRILL
 	icon_pals BLUE,   PINK   ; NIDORAN_F
 	icon_pals BLUE,   PINK   ; NIDORINA
 	icon_pals BLUE,   PINK   ; NIDOQUEEN

@@ -28,7 +28,7 @@ EggMovePointers1:
 	dw PichuEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw SandshrewEggMoves
+	dw DrilburEggMoves
 	dw NoEggMoves1
 	dw NidoranFEggMoves
 	dw NoEggMoves1
@@ -241,18 +241,10 @@ PichuEggMoves:
 	dw FAKE_OUT
 	dw -1 ; end
 
-SandshrewEggMoves:
-	dw FLAIL
-	dw SAFEGUARD
-	dw COUNTER
+DrilburEggMoves:
+	dw EARTH_POWER
 	dw RAPID_SPIN
-	dw METAL_CLAW
-	dw CRUSH_CLAW
-	dw ENDURE
-	dw MUD_SHOT
-	dw NIGHT_SLASH
-	dw WORK_UP
-	dw HONE_CLAWS
+	dw SKULL_BASH
 	dw -1 ; end
 
 NidoranFEggMoves:

@@ -26,8 +26,8 @@ FramesPointers:
 	dba PichuFrames
 	dba PikachuFrames
 	dba RaichuFrames
-	dba SandshrewFrames
-	dba SandslashFrames
+	dba DrilburFrames
+	dba ExcadrillFrames
 	dba NidoranFFrames
 	dba NidorinaFrames
 	dba NidoqueenFrames

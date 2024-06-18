@@ -28,7 +28,7 @@ PreviousEvolutionStage::
 	dw PICHU
 	dw PIKACHU
 	dw 0
-	dw SANDSHREW
+	dw DRILBUR
 	dw 0
 	dw NIDORAN_F
 	dw NIDORINA

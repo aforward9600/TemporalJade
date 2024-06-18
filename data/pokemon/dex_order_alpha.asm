@@ -55,6 +55,7 @@ AlphabeticalPokedexOrder:
 	dw DRAGONAIR
 	dw DRAGONITE
 	dw DRATINI
+	dw DRILBUR
 	dw DROWZEE
 	dw DUDUNSPARS
 	dw DUNSPARCE
@@ -71,6 +72,7 @@ AlphabeticalPokedexOrder:
 	dw EMBOAR
 	dw ENTEI
 	dw ESPEON
+	dw EXCADRILL
 	dw EXEGGCUTE
 	dw EXEGGUTOR
 	dw FARFETCH_D
@@ -240,8 +242,6 @@ AlphabeticalPokedexOrder:
 	dw ROSERADE
 	dw ROWLET
 	dw SALAMENCE
-	dw SANDSHREW
-	dw SANDSLASH
 	dw SANDYGAST
 	dw SCIZOR
 	dw SCOLIPEDE

@@ -26,8 +26,8 @@ AnimationPointers:
 	dw PichuAnimation
 	dw PikachuAnimation
 	dw RaichuAnimation
-	dw SandshrewAnimation
-	dw SandslashAnimation
+	dw DrilburAnimation
+	dw ExcadrillAnimation
 	dw NidoranFAnimation
 	dw NidorinaAnimation
 	dw NidoqueenAnimation

@@ -288,27 +288,27 @@ SwarmGrassWildMons:
 	dbw  8, ARON
 	dbw  8, MARILL
 	dbw  8, ARON
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
 	dbw  8, ARON
 	; day
 	dbw  8, ARON
 	dbw  8, MARILL
 	dbw  8, ARON
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
 	dbw  8, ARON
 	; nite
 	dbw  8, ARON
 	dbw  8, MARILL
 	dbw  8, ARON
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
 	dbw  8, ARON
 

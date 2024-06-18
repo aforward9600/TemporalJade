@@ -259,9 +259,9 @@ SECTION "Nidorino Front", ROMX
 
 NidorinoFrontpic:    INCBIN "gfx/pokemon/nidorino/front.animated.2bpp.lz"
 
-SECTION "Sandslash Front", ROMX
+SECTION "Excadrill Front", ROMX
 
-SandslashFrontpic:   INCBIN "gfx/pokemon/sandslash/front.animated.2bpp.lz"
+ExcadrillFrontpic:   INCBIN "gfx/pokemon/excadrill/front.animated.2bpp.lz"
 
 SECTION "Jolteon Front", ROMX
 
@@ -538,9 +538,9 @@ StaryuFrontpic:      INCBIN "gfx/pokemon/staryu/front.animated.2bpp.lz"
 HikerPic:            INCBIN "gfx/trainers/hiker.2bpp.lz"
 MeowthFrontpic:      INCBIN "gfx/pokemon/meowth/front.animated.2bpp.lz"
 Porygon2Frontpic:    INCBIN "gfx/pokemon/porygon2/front.animated.2bpp.lz"
-SandshrewFrontpic:   INCBIN "gfx/pokemon/sandshrew/front.animated.2bpp.lz"
+DrilburFrontpic:     INCBIN "gfx/pokemon/drilbur/front.animated.2bpp.lz"
 NidoranFFrontpic:    INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
-VenipedeFrontpic:      INCBIN "gfx/pokemon/venipede/front.animated.2bpp.lz"
+VenipedeFrontpic:    INCBIN "gfx/pokemon/venipede/front.animated.2bpp.lz"
 ParasectBackpic:     INCBIN "gfx/pokemon/parasect/back.2bpp.lz"
 QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
 
@@ -635,7 +635,7 @@ PhanpyFrontpic:      INCBIN "gfx/pokemon/phanpy/front.animated.2bpp.lz"
 RhydonBackpic:       INCBIN "gfx/pokemon/rhydon/back.2bpp.lz"
 LarvitarFrontpic:    INCBIN "gfx/pokemon/larvitar/front.animated.2bpp.lz"
 TyranitarBackpic:    INCBIN "gfx/pokemon/tyranitar/back.2bpp.lz"
-SandslashBackpic:    INCBIN "gfx/pokemon/sandslash/back.2bpp.lz"
+ExcadrillBackpic:    INCBIN "gfx/pokemon/excadrill/back.2bpp.lz"
 SeadraBackpic:       INCBIN "gfx/pokemon/seadra/back.2bpp.lz"
 TwinsPic:            INCBIN "gfx/trainers/twins.2bpp.lz"
 FarfetchDBackpic:    INCBIN "gfx/pokemon/farfetch_d/back.2bpp.lz"
@@ -652,7 +652,7 @@ MagmarBackpic:       INCBIN "gfx/pokemon/magmar/back.2bpp.lz"
 HypnoBackpic:        INCBIN "gfx/pokemon/hypno/back.2bpp.lz"
 QuilavaBackpic:      INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
 CroconawBackpic:     INCBIN "gfx/pokemon/croconaw/back.2bpp.lz"
-SandshrewBackpic:    INCBIN "gfx/pokemon/sandshrew/back.2bpp.lz"
+DrilburBackpic:      INCBIN "gfx/pokemon/drilbur/back.2bpp.lz"
 SailorPic:           INCBIN "gfx/trainers/sailor.2bpp.lz"
 BeautyPic:           INCBIN "gfx/trainers/beauty.2bpp.lz"
 ShellderBackpic:     INCBIN "gfx/pokemon/shellder/back.2bpp.lz"

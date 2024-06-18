@@ -246,7 +246,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 44, GRAVELER
-	dbw 44, SANDSLASH
+	dbw 44, EXCADRILL
 	dbw 44, QUAGSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
@@ -255,7 +255,7 @@ JohtoGrassWildMons:
 	dbw 44, STEELIX
 	; day
 	dbw 44, GRAVELER
-	dbw 44, SANDSLASH
+	dbw 44, EXCADRILL
 	dbw 44, QUAGSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
@@ -307,7 +307,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
-	dbw 44, SANDSLASH
+	dbw 44, EXCADRILL
 	dbw 44, RIBOMBEE
 	dbw 44, GRAVELER
 	dbw 44, STEELIX
@@ -316,7 +316,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
-	dbw 44, SANDSLASH
+	dbw 44, EXCADRILL
 	dbw 44, RIBOMBEE
 	dbw 44, GRAVELER
 	dbw 44, STEELIX
@@ -430,7 +430,7 @@ JohtoGrassWildMons:
 	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
 	dbw  8, ARON
 	; day
@@ -439,7 +439,7 @@ JohtoGrassWildMons:
 	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
 	dbw  8, ARON
 	; nite
@@ -448,14 +448,14 @@ JohtoGrassWildMons:
 	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ARON
 	dbw  8, ARON
 
 	map_id MOUNT_MORTAR_1F_INSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
 	dbw  8, MARILL
@@ -464,7 +464,7 @@ JohtoGrassWildMons:
 	dbw  8, SANDYGAST
 	dbw  8, SANDYGAST
 	; day
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
 	dbw  8, MARILL
@@ -473,7 +473,7 @@ JohtoGrassWildMons:
 	dbw  8, SANDYGAST
 	dbw  8, SANDYGAST
 	; nite
-	dbw  8, SANDSHREW
+	dbw  8, DRILBUR
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
 	dbw  8, MARILL

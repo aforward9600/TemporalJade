@@ -29,8 +29,8 @@ Icons1:
 	dw PichuIcon
 	dw PikachuIcon
 	dw RaichuIcon
-	dw SandshrewIcon
-	dw SandslashIcon
+	dw DrilburIcon
+	dw ExcadrillIcon
 	dw NidoranFIcon
 	dw NidorinaIcon
 	dw NidoqueenIcon
@@ -156,8 +156,8 @@ ArbokIcon:        INCBIN "gfx/icons/arbok.2bpp"
 PichuIcon:        INCBIN "gfx/icons/pichu.2bpp"
 PikachuIcon:      INCBIN "gfx/icons/pikachu.2bpp"
 RaichuIcon:       INCBIN "gfx/icons/raichu.2bpp"
-SandshrewIcon:    INCBIN "gfx/icons/sandshrew.2bpp"
-SandslashIcon:    INCBIN "gfx/icons/sandslash.2bpp"
+DrilburIcon:      INCBIN "gfx/icons/drilbur.2bpp"
+ExcadrillIcon:    INCBIN "gfx/icons/excadrill.2bpp"
 NidoranFIcon:     INCBIN "gfx/icons/nidoran_f.2bpp"
 NidorinaIcon:     INCBIN "gfx/icons/nidorina.2bpp"
 NidoqueenIcon:    INCBIN "gfx/icons/nidoqueen.2bpp"

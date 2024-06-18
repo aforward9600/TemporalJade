@@ -28,8 +28,8 @@ EvosAttacksPointers1::
 	dw PichuEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
-	dw SandshrewEvosAttacks
-	dw SandslashEvosAttacks
+	dw DrilburEvosAttacks
+	dw ExcadrillEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks
@@ -662,49 +662,44 @@ RaichuEvosAttacks:
 	dbw 1, THUNDERBOLT
 	db 0 ; no more level-up moves
 
-SandshrewEvosAttacks:
-	dbbw EVOLVE_LEVEL, 22, SANDSLASH
+DrilburEvosAttacks:
+	dbbw EVOLVE_LEVEL, 31, EXCADRILL
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, DEFENSE_CURL
-	dbw 3, SAND_ATTACK
-	dbw 5, POISON_STING
-	dbw 7, ROLLOUT
-	dbw 9, RAPID_SPIN
-	dbw 11, FURY_CUTTER
-	dbw 14, MAGNITUDE
-	dbw 17, SWIFT
-	dbw 20, FURY_SWIPES
-	dbw 23, SAND_TOMB
+	dbw 1, GROWL
+	dbw 5, RAPID_SPIN
+	dbw 8, MUD_SLAP
+	dbw 12, FURY_SWIPES
+	dbw 15, METAL_CLAW
+	dbw 22, HONE_CLAWS
 	dbw 26, SLASH
-	dbw 30, DIG
-	dbw 34, METAL_CLAW
-	dbw 38, SWORDS_DANCE
-	dbw 42, SANDSTORM
-	dbw 46, EARTHQUAKE
+	dbw 29, ROCK_SLIDE
+	dbw 33, EARTHQUAKE
+	dbw 36, SWORDS_DANCE
+	dbw 40, SANDSTORM
+	dbw 43, DRILL_RUN
+	dbw 47, FISSURE
 	db 0 ; no more level-up moves
 
-SandslashEvosAttacks:
+ExcadrillEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, CRUSH_CLAW
-	dbw 1, CRUSH_CLAW
+	dbw LEARN_EVO_MOVE, HORN_DRILL
+	db 0 ; no more evolutions
+	dbw 1, HORN_DRILL
 	dbw 1, SCRATCH
-	dbw 1, DEFENSE_CURL
-	dbw 3, SAND_ATTACK
-	dbw 5, POISON_STING
-	dbw 7, ROLLOUT
-	dbw 9, RAPID_SPIN
-	dbw 11, FURY_CUTTER
-	dbw 14, MAGNITUDE
-	dbw 17, SWIFT
-	dbw 20, FURY_SWIPES
-	dbw 24, SAND_TOMB
-	dbw 28, SLASH
-	dbw 33, DIG
-	dbw 38, METAL_CLAW
-	dbw 43, SWORDS_DANCE
-	dbw 48, SANDSTORM
-	dbw 53, EARTHQUAKE
+	dbw 1, GROWL
+	dbw 5, RAPID_SPIN
+	dbw 8, MUD_SLAP
+	dbw 12, FURY_SWIPES
+	dbw 15, METAL_CLAW
+	dbw 22, HONE_CLAWS
+	dbw 26, SLASH
+	dbw 29, ROCK_SLIDE
+	dbw 36, EARTHQUAKE
+	dbw 42, SWORDS_DANCE
+	dbw 49, SANDSTORM
+	dbw 55, DRILL_RUN
+	dbw 62, FISSURE
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:

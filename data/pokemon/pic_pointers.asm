@@ -64,10 +64,10 @@ PokemonPicPointers::
 	dba PikachuBackpic
 	dba RaichuFrontpic
 	dba RaichuBackpic
-	dba SandshrewFrontpic
-	dba SandshrewBackpic
-	dba SandslashFrontpic
-	dba SandslashBackpic
+	dba DrilburFrontpic
+	dba DrilburBackpic
+	dba ExcadrillFrontpic
+	dba ExcadrillBackpic
 	dba NidoranFFrontpic
 	dba NidoranFBackpic
 	dba NidorinaFrontpic

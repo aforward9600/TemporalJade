@@ -2199,7 +2199,7 @@ endc
 	db 5
 	dw PIKIPEK
 	db 6
-	dw SANDSHREW
+	dw DRILBUR
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (6)
@@ -2243,7 +2243,7 @@ endc
 	next_list_item ; YOUNGSTER (12)
 	db "JASON@", TRAINERTYPE_NORMAL
 	db 33
-	dw SANDSLASH
+	dw EXCADRILL
 	db 33
 	dw CROBAT
 	db -1 ; end
@@ -3107,7 +3107,7 @@ endc
 	next_list_item ; COOLTRAINERM (12) Route 27
 	db "Alm@", TRAINERTYPE_MOVES
 	db 61
-	dw SANDSLASH
+	dw EXCADRILL
 	dw SAND_ATTACK, POISON_STING, SLASH, SWIFT
 	db 61
 	dw MUK
@@ -3424,7 +3424,7 @@ endc
 	next_list_item ; COOLTRAINERF (13)
 	db "Sol@", TRAINERTYPE_NORMAL
 	db 76
-	dw SANDSLASH
+	dw EXCADRILL
 	db 76
 	dw DONPHAN
 	db 77
@@ -5468,7 +5468,7 @@ SuperNerdGroup:
 	db 41
 	dw TOXICROAK
 	db 41
-	dw SANDSLASH
+	dw EXCADRILL
 	db 42
 	dw SCOLIPEDE
 	db -1 ; end
@@ -5823,7 +5823,7 @@ endc
 	db 46
 	dw CROBAT
 	db 47
-	dw SANDSLASH
+	dw EXCADRILL
 	db -1 ; end
 
 	next_list_item ; HIKER (5)
@@ -5947,7 +5947,7 @@ endc
 	next_list_item ; HIKER (14)
 	db "NOLAND@", TRAINERTYPE_NORMAL
 	db 31
-	dw SANDSLASH
+	dw EXCADRILL
 	db 33
 	dw GOLEM
 	db -1 ; end
@@ -5963,7 +5963,7 @@ endc
 	next_list_item ; HIKER (16)
 	db "KENNY@", TRAINERTYPE_NORMAL
 	db 27
-	dw SANDSLASH
+	dw EXCADRILL
 	db 29
 	dw GRAVELER
 	db 31
@@ -6192,7 +6192,7 @@ endc
 	next_list_item ; BIKER (13) Route 25
 	db "Chance@", TRAINERTYPE_NORMAL
 	db 71
-	dw SANDSLASH
+	dw EXCADRILL
 	db 71
 	dw KINGLER
 	db 71
@@ -6297,7 +6297,7 @@ endc
 	db 73
 	dw EMBOAR
 	db 73
-	dw SANDSLASH
+	dw EXCADRILL
 	db -1 ; end
 
 	end_list_items
@@ -7383,7 +7383,7 @@ endc
 	db 33
 	dw GOLDUCK
 	db 31
-	dw SANDSLASH
+	dw EXCADRILL
 	db -1 ; end
 
 	next_list_item ; CAMPER (8)
@@ -7495,15 +7495,15 @@ endc
 	next_list_item ; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
 	db 37
-	dw SANDSLASH
+	dw EXCADRILL
 	db -1 ; end
 
 	next_list_item ; CAMPER (19)
 	db "SPENCER@", TRAINERTYPE_NORMAL
 	db 17
-	dw SANDSHREW
+	dw DRILBUR
 	db 17
-	dw SANDSLASH
+	dw EXCADRILL
 	db 19
 	dw ZUBAT
 	db -1 ; end
@@ -12890,7 +12890,7 @@ endc
 	next_list_item ; ROUGHNECK (10) Route 13
 	db "Kandori@", TRAINERTYPE_NORMAL
 	db 73
-	dw SANDSLASH
+	dw EXCADRILL
 	db 73
 	dw YANMEGA
 	db 73

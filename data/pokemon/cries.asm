@@ -32,8 +32,8 @@ PokemonCries::
 	mon_cry CRY_PICHU,       $000,  $140 ; PICHU
 	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; PIKACHU
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; RAICHU
-	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; SANDSHREW
-	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; SANDSLASH
+	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; DRILBUR
+	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; EXCADRILL
 	mon_cry CRY_NIDORAN_F,   $000,  $100 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,   $02c,  $160 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; NIDOQUEEN

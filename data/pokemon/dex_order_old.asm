@@ -28,8 +28,8 @@ OldPokedexOrder:
 	dw PICHU
 	dw PIKACHU
 	dw RAICHU
-	dw SANDSHREW
-	dw SANDSLASH
+	dw DRILBUR
+	dw EXCADRILL
 	dw NIDORAN_F
 	dw NIDORINA
 	dw NIDOQUEEN

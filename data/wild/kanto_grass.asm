@@ -37,7 +37,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 67, GOLBAT
 	dbw 67, GRAVELER
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, PARASECT
 	dbw 67, GOLEM
 	dbw 67, CLEFAIRY
@@ -46,7 +46,7 @@ KantoGrassWildMons:
 	; day
 	dbw 67, GOLBAT
 	dbw 67, GRAVELER
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, PARASECT
 	dbw 67, GOLEM
 	dbw 67, CLEFAIRY
@@ -55,7 +55,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 67, GOLBAT
 	dbw 67, GRAVELER
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, PARASECT
 	dbw 67, GOLEM
 	dbw 67, CLEFAIRY
@@ -129,7 +129,7 @@ KantoGrassWildMons:
 	dbw 59, RHYHORN
 	dbw 59, STEELIX
 	dbw 59, CROBAT
-	dbw 59, SANDSLASH
+	dbw 59, EXCADRILL
 	dbw 59, BRONZONG
 	dbw 59, RHYDON
 	dbw 59, RHYDON
@@ -138,7 +138,7 @@ KantoGrassWildMons:
 	dbw 59, RHYHORN
 	dbw 59, STEELIX
 	dbw 59, CROBAT
-	dbw 59, SANDSLASH
+	dbw 59, EXCADRILL
 	dbw 59, BRONZONG
 	dbw 59, RHYDON
 	dbw 59, RHYDON
@@ -147,7 +147,7 @@ KantoGrassWildMons:
 	dbw 59, RHYHORN
 	dbw 59, STEELIX
 	dbw 59, CROBAT
-	dbw 59, SANDSLASH
+	dbw 59, EXCADRILL
 	dbw 59, BRONZONG
 	dbw 59, RHYDON
 	dbw 59, RHYDON
@@ -245,7 +245,7 @@ KantoGrassWildMons:
 	map_id ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, ARBOK
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
@@ -254,7 +254,7 @@ KantoGrassWildMons:
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; day
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, ARBOK
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
@@ -263,7 +263,7 @@ KantoGrassWildMons:
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; nite
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, ARBOK
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
@@ -275,7 +275,7 @@ KantoGrassWildMons:
 	map_id ROUTE_4
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, ARBOK
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
@@ -284,7 +284,7 @@ KantoGrassWildMons:
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; day
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, ARBOK
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
@@ -293,7 +293,7 @@ KantoGrassWildMons:
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; nite
-	dbw 67, SANDSLASH
+	dbw 67, EXCADRILL
 	dbw 67, ARBOK
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
@@ -816,7 +816,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 58, DODRIO
-	dbw 58, SANDSLASH
+	dbw 58, EXCADRILL
 	dbw 62, RAPIDASH
 	dbw 60, RIBOMBEE
 	dbw 60, TOXICROAK
@@ -825,7 +825,7 @@ KantoGrassWildMons:
 	dbw 60, ARBOK
 	; day
 	dbw 58, DODRIO
-	dbw 58, SANDSLASH
+	dbw 58, EXCADRILL
 	dbw 62, RAPIDASH
 	dbw 60, RIBOMBEE
 	dbw 60, TOXICROAK

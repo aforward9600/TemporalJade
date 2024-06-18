@@ -118,8 +118,8 @@ NewPokedexOrder:
 	dw MAREEP
 	dw FLAAFFY
 	dw AMPHAROS
-	dw SANDSHREW
-	dw SANDSLASH
+	dw DRILBUR
+	dw EXCADRILL
 	dw RALTS
 	dw KIRLIA
 	dw GARDEVOIR
