@@ -59,10 +59,8 @@ MoravilSchoolOutside_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event 11,  7, MURKROW_VALLEY, 1
-	warp_event 12,  7, MURKROW_VALLEY, 2
-;	warp_event 11,  7, MORAVIL_SCHOOL_HALLWAY, 1
-;	warp_event 12,  7, MORAVIL_SCHOOL_HALLWAY, 2
+	warp_event 11,  7, MORAVIL_SCHOOL_HALLWAY, 1
+	warp_event 12,  7, MORAVIL_SCHOOL_HALLWAY, 2
 ;	warp_event  4, 18, MORAVIL_SCHOOL_GATE, 1
 ;	warp_event  4, 19, MORAVIL_SCHOOL_HALLWAY, 2
 

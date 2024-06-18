@@ -163,8 +163,8 @@
 	tilecoll PUDDLE, PUDDLE, PUDDLE, PUDDLE ; a2
 	tilecoll WALL, WALL, WALL, WALL ; a3
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a4
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a5
-	tilecoll WALL, HOP_LEFT, WALL, HOP_LEFT ; a6
+	tilecoll WALL, WALL, DOOR, WALL ; a5
+	tilecoll WALL, WALL, WALL, DOOR ; a6
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; a7
 	tilecoll HOP_DOWN, HOP_DOWN, WALL, WALL ; a8
 	tilecoll WALL, HOP_DOWN_LEFT, WALL, WALL ; a9

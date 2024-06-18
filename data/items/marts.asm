@@ -48,15 +48,12 @@ Marts:
 .End
 
 MartCherrygrove:
-	db 9 ; # items
-	db ULTRA_BALL
-	db HYPER_POTION
-	db ESCAPE_ROPE
-	db REVIVE
-	db FULL_HEAL
-	db MAX_REPEL
-	db MAX_POTION
-	db FULL_RESTORE
+	db 6 ; # items
+	db POKE_BALL
+	db POTION
+	db PARLYZ_HEAL
+	db AWAKENING
+	db ANTIDOTE
 	db FLOWER_MAIL
 	db -1 ; end
 
@@ -71,13 +68,13 @@ MartCherrygroveDex:
 
 MartViolet:
 	db 8 ; # items
-	db ULTRA_BALL
-	db HYPER_POTION
+	db POKE_BALL
+	db POTION
+	db PARLYZ_HEAL
+	db AWAKENING
+	db ANTIDOTE
+	db REPEL
 	db ESCAPE_ROPE
-	db REVIVE
-	db FULL_HEAL
-	db MAX_REPEL
-	db MAX_POTION
 	db FLOWER_MAIL
 	db -1 ; end
 

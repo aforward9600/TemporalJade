@@ -1,7 +1,7 @@
 	object_const_def ; object_event constants
-	const CHERRYGROVEPOKECENTER1F_NURSE
-	const CHERRYGROVEPOKECENTER1F_GENTLEMAN
-	const CHERRYGROVEPOKECENTER1F_TEACHER
+	const ANTIQUOTOWNPOKECENTER1F_NURSE
+	const ANTIQUOTOWNPOKECENTER1F_FISHER
+	const ANTIQUOTOWNPOKECENTER1F_BUENA
 
 CherrygrovePokecenter1F_MapScripts:
 	db 0 ; scene scripts
@@ -11,58 +11,44 @@ CherrygrovePokecenter1F_MapScripts:
 CherrygrovePokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
-CherrygrovePokecenter1FGentlemanScript:
-	faceplayer
+AntiquoPokecenterFisherScript:
+	jumptextfaceplayer AntiquoPokecenterFisherText
+
+AntiquoTownBuenaScript:
+	jumptextfaceplayer AntiquoTownBuenaText
+
+AntiquoTownMartClerk:
 	opentext
-	checkevent EVENT_BEAT_MADAME_BOSS
-	iftrue .BeatRockets
-	writetext CherrygrovePokecenter1FGentlemanText
-	waitbutton
+	pokemart MARTTYPE_STANDARD, MART_CHERRYGROVE
 	closetext
 	end
 
-.BeatRockets:
-	writetext CherrygrovePokecenter1FGentlemanText2
-	waitbutton
-	closetext
-	end
+AntiquoPokecenterFisherText:
+	text "Technology is"
+	line "incredible!"
 
-CherrygrovePokecenter1FTeacherScript:
-	jumptextfaceplayer CherrygrovePokecenter1FTeacherText
+	para "That screen back"
+	line "there is actually"
+	cont "a PC!"
 
-CherrygrovePokecenter1FGentlemanText:
-	text "Shh!"
+	para "You can store"
+	line "items and #mon"
+	cont "in the blink of"
+	cont "an eye!"
 
-	para "I'm working for"
-	line "the police!"
-
-	para "I've heard reports"
-	line "of odd people"
-	cont "dressed all in"
-	cont "black near here."
-
-	para "Let me know if"
-	line "you see anything."
+	para "We used to have"
+	line "to use the Abra"
+	cont "Delivery System!"
 	done
 
-CherrygrovePokecenter1FGentlemanText2:
-	text "So you're the one"
-	line "who took out the"
-	cont "criminals!"
+AntiquoTownBuenaText:
+	text "I was thinking of"
+	line "visiting Crescent"
+	cont "Lake soon."
 
-	para "Great job, kid!"
-	done
-
-CherrygrovePokecenter1FTeacherText:
-	text "Terrible stuff"
-	line "happening in Kanto"
-	cont "right now."
-
-	para "It's been like that"
-	line "for a few years."
-
-	para "I hope someone can"
-	line "help them soon."
+	para "The sand feels"
+	line "so good to lay"
+	cont "on!"
 	done
 
 CherrygrovePokecenter1F_MapEvents:
@@ -77,7 +63,8 @@ CherrygrovePokecenter1F_MapEvents:
 
 	db 0 ; bg events
 
-	db 3 ; object events
+	db 4 ; object events
 	object_event  3,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygrovePokecenter1FNurseScript, -1
-	object_event  5,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygrovePokecenter1FGentlemanScript, -1
-	object_event  1,  5, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CherrygrovePokecenter1FTeacherScript, -1
+	object_event  8,  2, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AntiquoPokecenterFisherScript, -1
+	object_event  2,  5, SPRITE_BUENA, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AntiquoTownBuenaScript, -1
+	object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AntiquoTownMartClerk, -1

@@ -531,7 +531,11 @@ ENDM
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	map_const CHERRYGROVE_FISHER_HOUSE,                     4,  4 ; 12
-	map_const MORAVIL_SCHOOL_OUTSIDE,                      11, 11
+	map_const MORAVIL_SCHOOL_OUTSIDE,                      11, 11 ; 13
+	map_const MORAVIL_SCHOOL_HALLWAY,                      11,  7 ; 14
+	map_const MORAVIL_SCHOOL_NURSES_OFFICE,                 3,  4 ; 15
+	map_const MORAVIL_SCHOOL_STORE,                         3,  3 ; 16
+	map_const MORAVIL_SCHOOL_COMPUTER_LAB,                  3,  7 ; 17
 
 	newgroup
 

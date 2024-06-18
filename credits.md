@@ -146,7 +146,7 @@ Gible line sprites: Blue Emerald
 
 Lance, Female Scientist and Cynthia overworld sprites: Rangi and the Polished Crystal Team.
 
-Clair Trainer Sprite base, Gen 5 Black Belt sprite: Solo993
+Clair Trainer Sprite base, Gen 5 Black Belt sprite, Schoolgirl sprite: Solo993
 
 Lance Trainer Sprite base and Mew overworld sprite: MegamanOmega
 

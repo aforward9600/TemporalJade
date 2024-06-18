@@ -101,7 +101,7 @@ ENDM
 	connection east, Route27, ROUTE_27, 0
 
 	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $05, NORTH | EAST
-	connection north, Route30, ROUTE_30, 5
+	connection north, Route30, ROUTE_30, -20
 	connection east, Route29, ROUTE_29, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
@@ -159,11 +159,11 @@ ENDM
 	connection east, MurkrowValley, MURKROW_VALLEY, -1
 
 	map_attributes Route30, ROUTE_30, $05, SOUTH | WEST
-	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
-	connection west, Route31, ROUTE_31, -10
+	connection south, CherrygroveCity, CHERRYGROVE_CITY, 20
+	connection west, MoravilSchoolOutside, MORAVIL_SCHOOL_OUTSIDE, -4
 
 	map_attributes MoravilSchoolOutside, MORAVIL_SCHOOL_OUTSIDE, $05, EAST
-	connection east, Route30, ROUTE_30, 10
+	connection east, Route30, ROUTE_30, 4
 
 	map_attributes Route31, ROUTE_31, $05, WEST
 ;	connection south, Route30, ROUTE_30, 10
@@ -759,3 +759,7 @@ ENDM
 	map_attributes MtSilverSummit, MT_SILVER_SUMMIT, $00, 0
 	map_attributes GoldCrystalHouse, GOLD_CRYSTAL_HOUSE, $00, 0
 	map_attributes SilverCaveMewRoom, SILVER_CAVE_MEW_ROOM, $00, 0
+	map_attributes MoravilSchoolHallway, MORAVIL_SCHOOL_HALLWAY, $00, 0
+	map_attributes MoravilSchoolNursesOffice, MORAVIL_SCHOOL_NURSES_OFFICE, $00, 0
+	map_attributes MoravilSchoolStore, MORAVIL_SCHOOL_STORE, $00, 0
+	map_attributes MoravilSchoolComputerLab, MORAVIL_SCHOOL_COMPUTER_LAB, $00, 0

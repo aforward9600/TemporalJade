@@ -224,7 +224,7 @@ OlivineLighthouse6F_MapScripts:
 	disappear OLIVINELIGHTHOUSE6F_RIVAL
 	pause 30
 	special RestartMapMusic
-	setevent EVENT_LIGHTHOUSE6F_RIVAL1
+	setevent EVENT_SCHOOL_RIVAL
 .SherlesAppears:
 	pause 15
 	playsound SFX_ENTER_DOOR
@@ -243,7 +243,7 @@ OlivineLighthouse6F_MapScripts:
 	clearevent EVENT_LIGHTHOUSE_SHERLES
 	setevent EVENT_CIANWOOD_CITY_GYM_RIVAL1
 	clearevent EVENT_LIGHTHOUSE_CIVILLIANS
-	setevent EVENT_LIGHTHOUSE2F_RIVAL1
+	setevent EVENT_SCHOOL_RIVAL
 	setevent EVENT_LIGHTHOUSE_ROCKETS
 	setevent EVENT_ECRUTEAK_TIN_TOWER_ENTRANCE_SHERLES
 	setscene SCENE_FINISHED

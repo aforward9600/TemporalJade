@@ -1199,3 +1199,15 @@ SilverCaveMewRoom_Blocks:
 
 MoravilSchoolOutside_Blocks:
 	INCBIN "maps/MoravilSchoolOutside.blk"
+
+MoravilSchoolHallway_Blocks:
+	INCBIN "maps/MoravilSchoolHallway.blk"
+
+MoravilSchoolNursesOffice_Blocks:
+	INCBIN "maps/MoravilSchoolNursesOffice.blk"
+
+MoravilSchoolStore_Blocks:
+	INCBIN "maps/MoravilSchoolStore.blk"
+
+MoravilSchoolComputerLab_Blocks:
+	INCBIN "maps/MoravilSchoolComputerLab.blk"
