@@ -25,8 +25,8 @@ OftenFleeMons:
 AlwaysFleeMons:
 	dw VOLTORB
 	dw ELECTRODE
-	dw RATTATA
-	dw RATICATE
+	dw CUTIEFLY
+	dw RIBOMBEE
 	dw SMOOCHUM
 	dw JYNX
 	dw -1

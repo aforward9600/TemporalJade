@@ -92,6 +92,9 @@ PlayBattleMusic:
 	and a
 	jr nz, .kantowild
 
+	ld de, MUSIC_ALOLA_WILD_BATTLE
+	jp .done
+
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE
 	jp .done

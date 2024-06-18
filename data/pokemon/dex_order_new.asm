@@ -26,8 +26,8 @@ NewPokedexOrder:
 	dw LEDIAN
 	dw SPINARAK
 	dw ARIADOS
-	dw RATTATA
-	dw RATICATE
+	dw CUTIEFLY
+	dw RIBOMBEE
 	dw SENTRET
 	dw FURRET
 	dw SPEAROW

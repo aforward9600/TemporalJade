@@ -17,8 +17,8 @@ BitmasksPointers:
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
 	dw ScolipedeBitmasks
-	dw RattataBitmasks
-	dw RaticateBitmasks
+	dw CutieflyBitmasks
+	dw RibombeeBitmasks
 	dw SpearowBitmasks
 	dw FearowBitmasks
 	dw EkansBitmasks

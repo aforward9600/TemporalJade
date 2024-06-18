@@ -18,8 +18,8 @@ PokedexDataPointerTable:
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
 	dba ScolipedePokedexEntry
-	dba RattataPokedexEntry
-	dba RaticatePokedexEntry
+	dba CutieflyPokedexEntry
+	dba RibombeePokedexEntry
 	dba SpearowPokedexEntry
 	dba FearowPokedexEntry
 	dba EkansPokedexEntry

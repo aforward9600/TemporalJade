@@ -19,7 +19,7 @@ EggMovePointers1:
 	dw VenipedeEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw RattataEggMoves
+	dw CutieflyEggMoves
 	dw NoEggMoves1
 	dw SpearowEggMoves
 	dw NoEggMoves1
@@ -201,16 +201,8 @@ VenipedeEggMoves:
 	dw TWINEEDLE
 	dw -1 ; end
 
-RattataEggMoves:
-	dw SCREECH
-	dw FLAME_WHEEL
-	dw FURY_SWIPES
-	dw BITE
-	dw COUNTER
-	dw REVERSAL
-	dw REVENGE
-	dw WORK_UP
-	dw HONE_CLAWS
+CutieflyEggMoves:
+	dw BATON_PASS
 	dw -1 ; end
 
 SpearowEggMoves:

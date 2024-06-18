@@ -156,28 +156,28 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 49, GOLBAT
-	dbw 49, RATICATE
+	dbw 49, RIBOMBEE
 	dbw 49, GOLBAT
 	dbw 49, SLOWPOKE
-	dbw 49, RATICATE
+	dbw 49, RIBOMBEE
 	dbw 49, SLOWPOKE
 	dbw 49, SLOWBRO
 	dbw 49, SLOWKING
 	; day
 	dbw 49, GOLBAT
-	dbw 49, RATICATE
+	dbw 49, RIBOMBEE
 	dbw 49, GOLBAT
 	dbw 49, SLOWPOKE
-	dbw 49, RATICATE
+	dbw 49, RIBOMBEE
 	dbw 49, SLOWPOKE
 	dbw 49, SLOWBRO
 	dbw 49, SLOWKING
 	; nite
 	dbw 49, GOLBAT
-	dbw 49, RATICATE
+	dbw 49, RIBOMBEE
 	dbw 49, GOLBAT
 	dbw 49, SLOWPOKE
-	dbw 49, RATICATE
+	dbw 49, RIBOMBEE
 	dbw 49, SLOWPOKE
 	dbw 49, SLOWBRO
 	dbw 49, SLOWKING
@@ -207,7 +207,7 @@ KantoGrassWildMons:
 	dbw 66, TANGROWTH
 	dbw 66, MR__MIME
 	dbw 66, NOCTOWL
-	dbw 66, RATICATE
+	dbw 66, RIBOMBEE
 	dbw 66, AZUMARILL
 	dbw  2, ROWLET
 	dbw  3, ROWLET
@@ -335,19 +335,19 @@ KantoGrassWildMons:
 	map_id ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, SNUBBULL
 	dbw 69, MAGNETON
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
 	dbw 69, GRANBULL
 	dbw 2, MUDKIP
 	dbw 3, MUDKIP
 	; day
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, SNUBBULL
 	dbw 69, MAGNETON
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
 	dbw 69, GRANBULL
 	dbw 2, MUDKIP
@@ -358,26 +358,26 @@ KantoGrassWildMons:
 	dbw 69, MAGNETON
 	dbw 69, GOLDUCK
 	dbw 69, JIGGLYPUFF
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 2, MUDKIP
 	dbw 3, MUDKIP
 
 	map_id ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
 	dbw 69, KADABRA
 	dbw 69, KADABRA
 	dbw 69, ALAKAZAM
 	; day
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
 	dbw 69, KADABRA
 	dbw 69, KADABRA
@@ -395,19 +395,19 @@ KantoGrassWildMons:
 	map_id ROUTE_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
 	dbw 69, KADABRA
 	dbw 69, KADABRA
 	dbw 69, ALAKAZAM
 	; day
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
 	dbw 69, KADABRA
 	dbw 69, KADABRA
@@ -425,39 +425,39 @@ KantoGrassWildMons:
 	map_id ROUTE_9
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, FEAROW
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, FEAROW
 	dbw 70, FEAROW
 	dbw 70, MAROWAK
 	dbw 70, MAROWAK
 	dbw 70, MAROWAK
 	; day
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, FEAROW
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, FEAROW
 	dbw 70, FEAROW
 	dbw 70, MAROWAK
 	dbw 70, MAROWAK
 	dbw 70, MAROWAK
 	; nite
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, VENOMOTH
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, NOCTOWL
 	dbw 70, NOCTOWL
-	dbw 70, RATICATE
-	dbw 70, RATICATE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
+	dbw 70, RIBOMBEE
+	dbw 70, RIBOMBEE
 
 	map_id ROUTE_10_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 70, FEAROW
 	dbw 70, ELECTRODE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, FEAROW
 	dbw 70, MAROWAK
 	dbw 70, ELECTABUZZ
@@ -466,7 +466,7 @@ KantoGrassWildMons:
 	; day
 	dbw 70, FEAROW
 	dbw 70, ELECTRODE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, FEAROW
 	dbw 70, MAROWAK
 	dbw 70, ELECTABUZZ
@@ -475,7 +475,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 70, NOCTOWL
 	dbw 70, ELECTRODE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, NOCTOWL
 	dbw 70, MAROWAK
 	dbw 70, ELECTABUZZ
@@ -486,28 +486,28 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 70, SKIPLOOM
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, MAGNETON
 	dbw 70, SCOLIPEDE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, JUMPLUFF
 	dbw 70, JUMPLUFF
 	dbw 70, JUMPLUFF
 	; day
 	dbw 70, SKIPLOOM
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, MAGNETON
 	dbw 70, SCOLIPEDE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, JUMPLUFF
 	dbw 70, JUMPLUFF
 	dbw 70, JUMPLUFF
 	; nite
 	dbw 70, DROWZEE
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, MAGNETON
 	dbw 70, NOCTOWL
-	dbw 70, RATICATE
+	dbw 70, RIBOMBEE
 	dbw 70, HYPNO
 	dbw 70, HYPNO
 	dbw 70, HYPNO
@@ -696,27 +696,27 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 69, TANGELA
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, TANGELA
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, MR__MIME
 	dbw 69, MR__MIME
 	dbw 69, MR__MIME
 	dbw 69, MR__MIME
 	; day
 	dbw 69, TANGELA
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, TANGELA
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, MR__MIME
 	dbw 69, MR__MIME
 	dbw 69, MR__MIME
 	dbw 69, MR__MIME
 	; nite
 	dbw 69, TANGELA
-	dbw 69, RATTATA
+	dbw 69, CUTIEFLY
 	dbw 69, TANGELA
-	dbw 69, RATICATE
+	dbw 69, RIBOMBEE
 	dbw 69, TANGELA
 	dbw 69, TANGELA
 	dbw 69, TANGROWTH
@@ -725,7 +725,7 @@ KantoGrassWildMons:
 	map_id ROUTE_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 63, RATICATE
+	dbw 63, RIBOMBEE
 	dbw 63, FEAROW
 	dbw 63, FEAROW
 	dbw 63, DODRIO
@@ -734,7 +734,7 @@ KantoGrassWildMons:
 	dbw 63, FEAROW
 	dbw 63, FEAROW
 	; day
-	dbw 63, RATICATE
+	dbw 63, RIBOMBEE
 	dbw 63, FEAROW
 	dbw 63, FEAROW
 	dbw 63, DODRIO
@@ -743,7 +743,7 @@ KantoGrassWildMons:
 	dbw 63, FEAROW
 	dbw 63, FEAROW
 	; nite
-	dbw 63, RATICATE
+	dbw 63, RIBOMBEE
 	dbw 63, FEAROW
 	dbw 63, FEAROW
 	dbw 63, DODRIO
@@ -818,7 +818,7 @@ KantoGrassWildMons:
 	dbw 58, DODRIO
 	dbw 58, SANDSLASH
 	dbw 62, RAPIDASH
-	dbw 60, RATICATE
+	dbw 60, RIBOMBEE
 	dbw 60, TOXICROAK
 	dbw 60, ARBOK
 	dbw 60, ARBOK
@@ -827,16 +827,16 @@ KantoGrassWildMons:
 	dbw 58, DODRIO
 	dbw 58, SANDSLASH
 	dbw 62, RAPIDASH
-	dbw 60, RATICATE
+	dbw 60, RIBOMBEE
 	dbw 60, TOXICROAK
 	dbw 60, ARBOK
 	dbw 60, ARBOK
 	dbw 60, ARBOK
 	; nite
 	dbw 58, NOCTOWL
-	dbw 58, RATICATE
+	dbw 58, RIBOMBEE
 	dbw 62, NOCTOWL
-	dbw 60, RATICATE
+	dbw 60, RIBOMBEE
 	dbw 60, TOXICROAK
 	dbw 60, QUAGSIRE
 	dbw 60, QUAGSIRE
@@ -847,7 +847,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 58, DODRIO
 	dbw 58, ARBOK
-	dbw 60, RATICATE
+	dbw 60, RIBOMBEE
 	dbw 60, DODRIO
 	dbw 62, RAPIDASH
 	dbw 60, TOXICROAK
@@ -856,7 +856,7 @@ KantoGrassWildMons:
 	; day
 	dbw 58, DODRIO
 	dbw 58, ARBOK
-	dbw 60, RATICATE
+	dbw 60, RIBOMBEE
 	dbw 60, DODRIO
 	dbw 62, RAPIDASH
 	dbw 60, TOXICROAK
@@ -865,7 +865,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 58, QUAGSIRE
 	dbw 58, NOCTOWL
-	dbw 60, RATICATE
+	dbw 60, RIBOMBEE
 	dbw 60, QUAGSIRE
 	dbw 62, NOCTOWL
 	dbw 62, TOXICROAK

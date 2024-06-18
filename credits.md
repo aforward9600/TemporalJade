@@ -121,7 +121,7 @@ Mudkip line sprites: Bloodless & Blue Rose
 
 Gen 5 Sprites: Bloodless
 
-Cutiefly and Ribombee sprites: Chattycrystal Team
+Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
 
 Farigiraf sprite and animation: Nuuk.
 

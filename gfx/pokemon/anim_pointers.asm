@@ -17,8 +17,8 @@ AnimationPointers:
 	dw VenipedeAnimation
 	dw WhirlipedeAnimation
 	dw ScolipedeAnimation
-	dw RattataAnimation
-	dw RaticateAnimation
+	dw CutieflyAnimation
+	dw RibombeeAnimation
 	dw SpearowAnimation
 	dw FearowAnimation
 	dw EkansAnimation

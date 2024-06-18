@@ -29,8 +29,8 @@ MonMenuIconPals:
 	icon_pals RED,    BROWN  ; VENIPEDE
 	icon_pals PURPLE, GREEN  ; WHIRLIPEDE
 	icon_pals PURPLE, RED    ; SCOLIPEDE
-	icon_pals PURPLE, GRAY   ; RATTATA
-	icon_pals BROWN,  RED    ; RATICATE
+	icon_pals BROWN,  RED    ; CUTIEFLY
+	icon_pals BROWN,  RED    ; RIBOMBEE
 	icon_pals RED,    RED    ; SPEAROW
 	icon_pals BROWN,  BROWN  ; FEAROW
 	icon_pals PURPLE, TEAL   ; EKANS

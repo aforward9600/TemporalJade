@@ -46,10 +46,10 @@ PokemonPicPointers::
 	dba WhirlipedeBackpic
 	dba ScolipedeFrontpic
 	dba ScolipedeBackpic
-	dba RattataFrontpic
-	dba RattataBackpic
-	dba RaticateFrontpic
-	dba RaticateBackpic
+	dba CutieflyFrontpic
+	dba CutieflyBackpic
+	dba RibombeeFrontpic
+	dba RibombeeBackpic
 	dba SpearowFrontpic
 	dba SpearowBackpic
 	dba FearowFrontpic

@@ -19,8 +19,8 @@ OldPokedexOrder:
 	dw VENIPEDE
 	dw WHIRLIPEDE
 	dw SCOLIPEDE
-	dw RATTATA
-	dw RATICATE
+	dw CUTIEFLY
+	dw RIBOMBEE
 	dw SPEAROW
 	dw FEAROW
 	dw EKANS

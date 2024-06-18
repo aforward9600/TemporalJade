@@ -37,8 +37,8 @@
 	const VENIPEDE   ; 10
 	const WHIRLIPEDE ; 11
 	const SCOLIPEDE  ; 12
-	const RATTATA    ; 13
-	const RATICATE   ; 14
+	const CUTIEFLY   ; 13
+	const RIBOMBEE   ; 14
 	const SPEAROW    ; 15
 	const FEAROW     ; 16
 	const EKANS      ; 17

@@ -19,8 +19,8 @@ EvosAttacksPointers1::
 	dw VenipedeEvosAttacks
 	dw WhirlipedeEvosAttacks
 	dw ScolipedeEvosAttacks
-	dw RattataEvosAttacks
-	dw RaticateEvosAttacks
+	dw CutieflyEvosAttacks
+	dw RibombeeEvosAttacks
 	dw SpearowEvosAttacks
 	dw FearowEvosAttacks
 	dw EkansEvosAttacks
@@ -507,41 +507,38 @@ ScolipedeEvosAttacks:
 	dbw 65, MEGAHORN
 	db 0 ; no more level-up moves
 
-RattataEvosAttacks:
-	dbbw EVOLVE_LEVEL, 20, RATICATE
+CutieflyEvosAttacks:
+	dbbw EVOLVE_LEVEL, 25, RIBOMBEE
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, TAIL_WHIP
-	dbw 4, QUICK_ATTACK
-	dbw 7, FOCUS_ENERGY
-	dbw 10, BITE
-	dbw 13, PURSUIT
-	dbw 16, HYPER_FANG
-	dbw 19, PAYBACK
-	dbw 22, CRUNCH
-	dbw 25, SUCKER_PUNCH
-	dbw 28, SUPER_FANG
-	dbw 31, SLASH
-	dbw 34, DOUBLE_EDGE
+	dbw 1, ABSORB
+	dbw 4, FAIRY_WIND
+	dbw 7, STUN_SPORE
+	dbw 10, SILVER_WIND
+	dbw 13, DRAININGKISS
+	dbw 16, SWEET_SCENT
+	dbw 21, BUG_BUZZ
+	dbw 26, DAZZLINGLEAM
+	dbw 31, HEAL_BELL
+	dbw 36, QUIVER_DANCE
+	dbw 41, SIGNAL_WAVE
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+RibombeeEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SCARY_FACE
-	dbw 1, SCARY_FACE
-	dbw 1, TACKLE
-	dbw 1, TAIL_WHIP
-	dbw 4, QUICK_ATTACK
-	dbw 7, FOCUS_ENERGY
-	dbw 10, BITE
-	dbw 13, PURSUIT
-	dbw 16, HYPER_FANG
-	dbw 19, PAYBACK
-	dbw 24, CRUNCH
-	dbw 29, SUCKER_PUNCH
-	dbw 34, SUPER_FANG
-	dbw 39, SLASH
-	dbw 44, DOUBLE_EDGE
+	dbw LEARN_EVO_MOVE, SIGNAL_BEAM
+	db 0 ; no more evolutions
+	dbw 1, SIGNAL_BEAM
+	dbw 1, ABSORB
+	dbw 4, FAIRY_WIND
+	dbw 7, STUN_SPORE
+	dbw 10, SILVER_WIND
+	dbw 13, DRAININGKISS
+	dbw 16, SWEET_SCENT
+	dbw 21, BUG_BUZZ
+	dbw 28, DAZZLINGLEAM
+	dbw 35, HEAL_BELL
+	dbw 42, QUIVER_DANCE
+	dbw 49, SIGNAL_WAVE
 	db 0 ; no more level-up moves
 
 SpearowEvosAttacks:

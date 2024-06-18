@@ -304,9 +304,9 @@ SECTION "Stantler Front", ROMX
 
 StantlerFrontpic:    INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"
 
-SECTION "Raticate Front", ROMX
+SECTION "Ribombee Front", ROMX
 
-RaticateFrontpic:    INCBIN "gfx/pokemon/raticate/front.animated.2bpp.lz"
+RibombeeFrontpic:    INCBIN "gfx/pokemon/ribombee/front.animated.2bpp.lz"
 
 SECTION "Venomoth Front", ROMX
 
@@ -522,7 +522,7 @@ TotodileFrontpic:    INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"
 FirebreatherPic:     INCBIN "gfx/trainers/firebreather.2bpp.lz"
 MachopFrontpic:      INCBIN "gfx/pokemon/machop/front.animated.2bpp.lz"
 ChinchouFrontpic:    INCBIN "gfx/pokemon/chinchou/front.animated.2bpp.lz"
-RattataFrontpic:     INCBIN "gfx/pokemon/rattata/front.animated.2bpp.lz"
+CutieflyFrontpic:    INCBIN "gfx/pokemon/cutiefly/front.animated.2bpp.lz"
 ChampionDahliaPic:   INCBIN "gfx/trainers/championdahlia.2bpp.lz"
 SpearowFrontpic:     INCBIN "gfx/pokemon/spearow/front.animated.2bpp.lz"
 MagikarpFrontpic:    INCBIN "gfx/pokemon/magikarp/front.animated.2bpp.lz"
@@ -747,7 +747,7 @@ FurretBackpic:       INCBIN "gfx/pokemon/furret/back.2bpp.lz"
 MarshtompBackpic:    INCBIN "gfx/pokemon/marshtomp/back.2bpp.lz"
 ExeggcuteBackpic:    INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
 IgglybuffFrontpic:   INCBIN "gfx/pokemon/igglybuff/front.animated.2bpp.lz"
-RaticateBackpic:     INCBIN "gfx/pokemon/raticate/back.2bpp.lz"
+RibombeeBackpic:     INCBIN "gfx/pokemon/ribombee/back.2bpp.lz"
 VulpixBackpic:       INCBIN "gfx/pokemon/vulpix/back.2bpp.lz"
 EkansBackpic:        INCBIN "gfx/pokemon/ekans/back.2bpp.lz"
 SeakingBackpic:      INCBIN "gfx/pokemon/seaking/back.2bpp.lz"
@@ -811,7 +811,7 @@ TotodileBackpic:     INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
 SnubbullBackpic:     INCBIN "gfx/pokemon/snubbull/back.2bpp.lz"
 KinglerBackpic:      INCBIN "gfx/pokemon/kingler/back.2bpp.lz"
 GengarBackpic:       INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
-RattataBackpic:      INCBIN "gfx/pokemon/rattata/back.2bpp.lz"
+CutieflyBackpic:     INCBIN "gfx/pokemon/cutiefly/back.2bpp.lz"
 YoungsterPic:        INCBIN "gfx/trainers/youngster.2bpp.lz"
 FlorinaPic:          INCBIN "gfx/trainers/florina.2bpp.lz"
 SchoolboyPic:        INCBIN "gfx/trainers/schoolboy.2bpp.lz"

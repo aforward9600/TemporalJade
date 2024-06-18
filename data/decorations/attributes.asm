@@ -58,7 +58,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    22,             SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,           SPRITE_MURKROW
 	decoration DECO_DOLL,    12,             SET_UP_DOLL,       EVENT_DECO_SKARMINI_DOLL,        SPRITE_SKARMINI
 	decoration DECO_DOLL,    10,             SET_UP_DOLL,       EVENT_DECO_TOTODILE_DOLL,        SPRITE_TOTODILE_STILL
-	decoration DECO_DOLL,    11,             SET_UP_DOLL,       EVENT_DECO_RATTATA_DOLL,         SPRITE_RATTATA_STILL
+	decoration DECO_DOLL,    11,             SET_UP_DOLL,       EVENT_DECO_RATTATA_DOLL,         SPRITE_CUTIEFLY_STILL
 	decoration DECO_DOLL,    23,             SET_UP_DOLL,       EVENT_DECO_DRATINI_DOLL,         SPRITE_DRATINI_STILL
 	decoration DECO_DOLL,    24,             SET_UP_DOLL,       EVENT_DECO_LARVITAR_DOLL,        SPRITE_LARVITAR_STILL
 	decoration DECO_PLANT,   GOLD_TROPHY,    SET_UP_DOLL,       EVENT_DECO_GOLD_TROPHY,          SPRITE_GOLD_TROPHY
@@ -76,7 +76,7 @@ DecorationAttributePokemonNames:
 	dw DIGLETT    ;  8
 	dw POLIWAG    ;  9
 	dw TOTODILE   ; 10
-	dw RATTATA    ; 11
+	dw CUTIEFLY   ; 11
 	dw SKARMINI   ; 12
 	dw SWABLU     ; 13
 	dw CYNDAQUIL  ; 14

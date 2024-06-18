@@ -2179,7 +2179,7 @@ endc
 	next_list_item ; YOUNGSTER (3), Mount Mortar 1F Inside
 	db "Bert@", TRAINERTYPE_NORMAL
 	db 16
-	dw RATTATA
+	dw CUTIEFLY
 	db 15
 	dw ROWLET
 	db -1 ; end
@@ -2229,7 +2229,7 @@ endc
 	next_list_item ; YOUNGSTER (10)
 	db "JIMMY@", TRAINERTYPE_NORMAL
 	db 33
-	dw RATICATE
+	dw RIBOMBEE
 	db 33
 	dw ARBOK
 	db -1 ; end
@@ -3142,7 +3142,7 @@ endc
 	next_list_item ; COOLTRAINERM (20) Dragon's Den
 	db "Joseph@", TRAINERTYPE_MOVES
 	db 56
-	dw RATICATE
+	dw RIBOMBEE
 	dw SUCKER_PUNCH, SLASH, SCREECH, AERIAL_ACE
 	db -1 ; end
 
@@ -3941,7 +3941,7 @@ endc
 	next_list_item ; ManM (13) Radio Tower 2F
 	db "Man@", TRAINERTYPE_NORMAL
 	db 33
-	dw RATICATE
+	dw RIBOMBEE
 	db 33
 	dw GOLBAT
 	db 33
@@ -4070,7 +4070,7 @@ endc
 	db 17
 	dw GRIMER
 	db 18
-	dw RATTATA
+	dw CUTIEFLY
 	db -1 ; end
 
 	next_list_item ; ManM (22) Tin Tower 4f
@@ -4108,9 +4108,9 @@ endc
 	next_list_item ; ManM (26)
 	db "Man@", TRAINERTYPE_NORMAL
 	db 15
-	dw RATTATA
+	dw CUTIEFLY
 	db 15
-	dw RATTATA
+	dw CUTIEFLY
 	db -1 ; end
 
 	next_list_item ; ManM (27)
@@ -4122,15 +4122,15 @@ endc
 	next_list_item ; ManM (28)
 	db "Man@", TRAINERTYPE_NORMAL
 	db 19
-	dw RATICATE
+	dw RIBOMBEE
 	db -1 ; end
 
 	next_list_item ; ManM (29)
 	db "Man@", TRAINERTYPE_NORMAL
 	db 9
-	dw RATTATA
+	dw CUTIEFLY
 	db 9
-	dw RATTATA
+	dw CUTIEFLY
 	db -1 ; end
 
 	next_list_item ; ManM (30)
@@ -4416,7 +4416,7 @@ endc
 	next_list_item ; BUG_CATCHER (2) Route 44
 	db "Colton@", TRAINERTYPE_NORMAL
 	db 7
-	dw VENIPEDE ; replace with Cutiefly
+	dw CUTIEFLY ; replace with Cutiefly
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (3)
@@ -5385,9 +5385,9 @@ SailorGroup:
 	next_list_item ; SAILOR (6)
 	db "JEFF@", TRAINERTYPE_NORMAL
 	db 32
-	dw RATICATE
+	dw RIBOMBEE
 	db 32
-	dw RATICATE
+	dw RIBOMBEE
 	db -1 ; end
 
 	next_list_item ; SAILOR (7)
@@ -6073,7 +6073,7 @@ BikerGroup:
 	next_list_item ; BIKER (3)
 	db "Dwayne@", TRAINERTYPE_NORMAL
 	db 72
-	dw RATICATE
+	dw RIBOMBEE
 	db 72
 	dw GOLEM
 	db 72
@@ -8570,7 +8570,7 @@ endc
 	dw SCYTHER
 	dw U_TURN, FLY, PURSUIT, SWORDS_DANCE
 	db 44
-	dw RATICATE
+	dw RIBOMBEE
 	dw SUPER_FANG, SCARY_FACE, CRUNCH, SUCKER_PUNCH
 	db 44
 	dw OMASTAR
@@ -8892,7 +8892,7 @@ BreederGroup:
 	next_list_item ; BREEDER (2)
 	db "Nina@", TRAINERTYPE_MOVES
 	db 32
-	dw RATICATE
+	dw RIBOMBEE
 	dw SCREECH, REVERSAL, BITE, FURY_SWIPES
 	db 33
 	dw STANTLER
@@ -9864,7 +9864,7 @@ endc
 	db 38
 	dw HERACROSS
 	db 38
-	dw RATICATE
+	dw RIBOMBEE
 	db 39
 	dw WEEZING
 	db -1 ; end

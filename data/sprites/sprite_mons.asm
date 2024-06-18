@@ -40,7 +40,7 @@ SpriteMons:
 	dw MEOWTH
 	dw SYLVEON
 	dw WOBBUFFET
-	dw RATICATE
+	dw RIBOMBEE
 	dw AMPHAROS
 	dw FARFETCH_D
 	dw MACHOKE

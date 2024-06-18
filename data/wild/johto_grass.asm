@@ -5,29 +5,29 @@ JohtoGrassWildMons:
 	map_id SPROUT_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 	; day
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 	; nite
 	dbw 44, GENGAR
 	dbw 44, GENGAR
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, MISDREAVUS
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, DUSCLOPS
 	dbw 44, DUSCLOPS
 	dbw 44, MISMAGIUS
@@ -35,29 +35,29 @@ JohtoGrassWildMons:
 	map_id SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 	; day
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 	; nite
 	dbw 44, GENGAR
 	dbw 44, GENGAR
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, MISDREAVUS
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, DUSCLOPS
 	dbw 44, DUSCLOPS
 	dbw 44, MISMAGIUS
@@ -67,7 +67,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 12, MAGBY
 	dbw 12, KOFFING
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, ZUBAT
 	dbw 12, GRIMER
 	dbw 12, DUSKULL
@@ -76,16 +76,16 @@ JohtoGrassWildMons:
 	; day
 	dbw 12, MAGBY
 	dbw 12, KOFFING
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, ZUBAT
 	dbw 12, GRIMER
 	dbw 12, DUSKULL
 	dbw 12, SLUGMA
 	dbw 12, SLUGMA
 	; nite
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, KOFFING
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, ZUBAT
 	dbw 12, GRIMER
 	dbw 12, DUSKULL
@@ -97,7 +97,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 12, MAGBY
 	dbw 12, KOFFING
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, ZUBAT
 	dbw 12, GRIMER
 	dbw 12, DUSKULL
@@ -106,16 +106,16 @@ JohtoGrassWildMons:
 	; day
 	dbw 12, MAGBY
 	dbw 12, KOFFING
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, ZUBAT
 	dbw 12, GRIMER
 	dbw 12, DUSKULL
 	dbw 12, SLUGMA
 	dbw 12, SLUGMA
 	; nite
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, KOFFING
-	dbw 12, RATTATA
+	dbw 12, CUTIEFLY
 	dbw 12, ZUBAT
 	dbw 12, GRIMER
 	dbw 12, DUSKULL
@@ -143,10 +143,10 @@ JohtoGrassWildMons:
 	dbw 21, SLUGMA
 	dbw 21, MAGCARGO
 	; nite
-	dbw 21, RATICATE
+	dbw 21, RIBOMBEE
 	dbw 21, KOFFING
 	dbw 21, ZUBAT
-	dbw 21, RATICATE
+	dbw 21, RIBOMBEE
 	dbw 21, GRIMER
 	dbw 21, DUSKULL
 	dbw 21, MISDREAVUS
@@ -248,7 +248,7 @@ JohtoGrassWildMons:
 	dbw 44, GRAVELER
 	dbw 44, SANDSLASH
 	dbw 44, QUAGSIRE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
 	dbw 44, ONIX
 	dbw 44, STEELIX
@@ -257,16 +257,16 @@ JohtoGrassWildMons:
 	dbw 44, GRAVELER
 	dbw 44, SANDSLASH
 	dbw 44, QUAGSIRE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
 	dbw 44, ONIX
 	dbw 44, STEELIX
 	dbw 44, STEELIX
 	; nite
 	dbw 44, GRAVELER
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, QUAGSIRE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
 	dbw 44, ONIX
 	dbw 44, STEELIX
@@ -279,28 +279,28 @@ JohtoGrassWildMons:
 	dbw 44, GOLBAT
 	dbw 44, GOLBAT
 	dbw 44, STEELIX
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 	; day
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
 	dbw 44, GOLBAT
 	dbw 44, STEELIX
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 	; nite
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
 	dbw 44, GOLBAT
 	dbw 44, STEELIX
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
+	dbw 44, RIBOMBEE
 
 	map_id UNION_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -308,7 +308,7 @@ JohtoGrassWildMons:
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
 	dbw 44, SANDSLASH
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, GRAVELER
 	dbw 44, STEELIX
 	dbw 44, STEELIX
@@ -317,7 +317,7 @@ JohtoGrassWildMons:
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
 	dbw 44, SANDSLASH
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, GRAVELER
 	dbw 44, STEELIX
 	dbw 44, STEELIX
@@ -326,7 +326,7 @@ JohtoGrassWildMons:
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
 	dbw 44, QUAGSIRE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, GRAVELER
 	dbw 44, STEELIX
 	dbw 44, STEELIX
@@ -490,7 +490,7 @@ JohtoGrassWildMons:
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
 	dbw 18, TYROGUE
-	dbw 18, RATICATE
+	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
 	; day
@@ -499,7 +499,7 @@ JohtoGrassWildMons:
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
 	dbw 18, TYROGUE
-	dbw 18, RATICATE
+	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
 	; nite
@@ -508,7 +508,7 @@ JohtoGrassWildMons:
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
 	dbw 18, TYROGUE
-	dbw 18, RATICATE
+	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
 
@@ -520,7 +520,7 @@ JohtoGrassWildMons:
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
 	dbw 18, TYROGUE
-	dbw 18, RATICATE
+	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
 	; day
@@ -529,7 +529,7 @@ JohtoGrassWildMons:
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
 	dbw 18, TYROGUE
-	dbw 18, RATICATE
+	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
 	; nite
@@ -538,7 +538,7 @@ JohtoGrassWildMons:
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
 	dbw 18, TYROGUE
-	dbw 18, RATICATE
+	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
 
@@ -1121,8 +1121,8 @@ JohtoGrassWildMons:
 	dbw  4, PIKIPEK
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
-	dbw  4, VENIPEDE
-	dbw  4, VENIPEDE
+	dbw  4, CUTIEFLY
+	dbw  4, CUTIEFLY
 	; day
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
@@ -1130,8 +1130,8 @@ JohtoGrassWildMons:
 	dbw  4, PIKIPEK
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
-	dbw  4, VENIPEDE
-	dbw  4, VENIPEDE
+	dbw  4, CUTIEFLY
+	dbw  4, CUTIEFLY
 	; nite
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
@@ -1206,7 +1206,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 44, ARBOK
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, WEEPINBELL
 	dbw 44, AMPHAROS
 	dbw 44, SCOLIPEDE
@@ -1215,7 +1215,7 @@ JohtoGrassWildMons:
 	dbw 44, JUMPLUFF
 	; day
 	dbw 44, ARBOK
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, WEEPINBELL
 	dbw 44, AMPHAROS
 	dbw 44, SCOLIPEDE
@@ -1224,7 +1224,7 @@ JohtoGrassWildMons:
 	dbw 44, JUMPLUFF
 	; nite
 	dbw 44, QUAGSIRE
-	dbw 44, RATICATE
+	dbw 44, RIBOMBEE
 	dbw 44, WEEPINBELL
 	dbw 44, AMPHAROS
 	dbw 44, NOCTOWL
@@ -1253,7 +1253,7 @@ JohtoGrassWildMons:
 	dbw 37, JUMPLUFF
 	dbw 37, JUMPLUFF
 	; nite
-	dbw 37, RATICATE
+	dbw 37, RIBOMBEE
 	dbw 37, NOCTOWL
 	dbw 37, GRAVELER
 	dbw 37, ARBOK
@@ -1447,7 +1447,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw  7, PICHU
 	dbw  7, ABRA
-	dbw  7, RATTATA
+	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
 	dbw  7, NATU
 	dbw  7, PONYTA
@@ -1456,7 +1456,7 @@ JohtoGrassWildMons:
 	; day
 	dbw  7, PICHU
 	dbw  7, ABRA
-	dbw  7, RATTATA
+	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
 	dbw  7, NATU
 	dbw  7, PONYTA
@@ -1465,7 +1465,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw  7, PICHU
 	dbw  7, ABRA
-	dbw  7, RATTATA
+	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
 	dbw  7, NATU
 	dbw  7, HOUNDOUR
@@ -1495,7 +1495,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw  7, MAREEP
 	dbw  7, HOUNDOUR
-	dbw  7, RATTATA
+	dbw  7, CUTIEFLY
 	dbw  7, LOTAD
 	dbw  7, PSYDUCK
 	dbw  7, RALTS
@@ -1525,7 +1525,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw  7, ELECTRIKE
 	dbw  7, HOUNDOUR
-	dbw  7, RATTATA
+	dbw  7, CUTIEFLY
 	dbw  7, CROAGUNK
 	dbw  7, PSYDUCK
 	dbw  7, MIME__JR
@@ -1584,7 +1584,7 @@ JohtoGrassWildMons:
 	dbw 2, PHANPY
 	; nite
 	dbw 2, HOOTHOOT
-	dbw 2, RATTATA
+	dbw 2, CUTIEFLY
 	dbw 2, SPINARAK
 	dbw 2, SKARMINI
 	dbw 2, PHANPY

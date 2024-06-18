@@ -17,8 +17,8 @@ AnimationIdlePointers:
 	dw VenipedeAnimationIdle
 	dw WhirlipedeAnimationIdle
 	dw ScolipedeAnimationIdle
-	dw RattataAnimationIdle
-	dw RaticateAnimationIdle
+	dw CutieflyAnimationIdle
+	dw RibombeeAnimationIdle
 	dw SpearowAnimationIdle
 	dw FearowAnimationIdle
 	dw EkansAnimationIdle

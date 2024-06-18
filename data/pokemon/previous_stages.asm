@@ -19,7 +19,7 @@ PreviousEvolutionStage::
 	dw VENIPEDE
 	dw WHIRLIPEDE
 	dw 0
-	dw RATTATA
+	dw CUTIEFLY
 	dw 0
 	dw SPEAROW
 	dw 0

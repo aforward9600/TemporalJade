@@ -20,8 +20,9 @@ Icons1:
 	dw VenipedeIcon
 	dw WhirlipedeIcon
 	dw ScolipedeIcon
-	dw RattataIcon
-	dw RaticateIcon
+	dw CutieflyIcon
+	dw RibombeeIcon
+	dw RibombeeIcon
 	dw SpearowIcon
 	dw FearowIcon
 	dw EkansIcon
@@ -147,8 +148,8 @@ StoutlandIcon:    INCBIN "gfx/icons/stoutland.2bpp"
 VenipedeIcon:     INCBIN "gfx/icons/venipede.2bpp"
 WhirlipedeIcon:   INCBIN "gfx/icons/whirlipede.2bpp"
 ScolipedeIcon:    INCBIN "gfx/icons/scolipede.2bpp"
-RattataIcon:      INCBIN "gfx/icons/rattata.2bpp"
-RaticateIcon:     INCBIN "gfx/icons/raticate.2bpp"
+CutieflyIcon:     INCBIN "gfx/icons/cutiefly.2bpp"
+RibombeeIcon:     INCBIN "gfx/icons/ribombee.2bpp"
 SpearowIcon:      INCBIN "gfx/icons/spearow.2bpp"
 FearowIcon:       INCBIN "gfx/icons/fearow.2bpp"
 EkansIcon:        INCBIN "gfx/icons/ekans.2bpp"

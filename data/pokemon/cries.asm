@@ -23,8 +23,8 @@ PokemonCries::
 	mon_cry CRY_WEEDLE,      $0ee,  $081 ; VENIPEDE
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; WHIRLIPEDE
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; SCOLIPEDE
-	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
-	mon_cry CRY_RATTATA,     $020,  $17f ; RATICATE
+	mon_cry CRY_PICHU,      -$03e,  $0fc ; CUTIEFLY
+	mon_cry CRY_PICHU,      -$029,  $3a0 ; RIBOMBEE
 	mon_cry CRY_SPEAROW,     $000,  $100 ; SPEAROW
 	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
 	mon_cry CRY_EKANS,       $012,  $0c0 ; EKANS

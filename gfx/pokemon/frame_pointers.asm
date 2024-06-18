@@ -17,8 +17,8 @@ FramesPointers:
 	dba VenipedeFrames
 	dba WhirlipedeFrames
 	dba ScolipedeFrames
-	dba RattataFrames
-	dba RaticateFrames
+	dba CutieflyFrames
+	dba RibombeeFrames
 	dba SpearowFrames
 	dba FearowFrames
 	dba EkansFrames

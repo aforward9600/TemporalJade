@@ -42,6 +42,7 @@ AlphabeticalPokedexOrder:
 	dw CROCONAW
 	dw CUBONE
 	dw CURSOLA
+	dw CUTIEFLY
 	dw CYNDAQUIL
 	dw DARTRIX
 	dw DECIDUEYE
@@ -231,12 +232,11 @@ AlphabeticalPokedexOrder:
 	dw RAITORA
 	dw RALTS
 	dw RAPIDASH
-	dw RATICATE
-	dw RATTATA
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
 	dw RHYPERIOR
+	dw RIBOMBEE
 	dw ROSELIA
 	dw ROSERADE
 	dw ROWLET
