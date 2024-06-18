@@ -47,105 +47,40 @@ _TitleScreen:
 ; Apply logo gradient:
 
 ; lines 3-4
-	hlbgcoord 0, 2
+	hlbgcoord 0, 3
 	ld bc, 2 * BG_MAP_WIDTH
 	ld a, 2
 	call ByteFill
 ; line 5
-	hlbgcoord 0, 4
+	hlbgcoord 0, 5
 	ld bc, BG_MAP_WIDTH
 	ld a, 3
 	call ByteFill
 ; line 6
-	hlbgcoord 0, 5
+	hlbgcoord 0, 6
 	ld bc, BG_MAP_WIDTH
 	ld a, 4
 	call ByteFill
 ; line 7
-	hlbgcoord 0, 6
+	hlbgcoord 0, 7
 	ld bc, BG_MAP_WIDTH
 	ld a, 5
 	call ByteFill
 ; lines 8-9
-	hlbgcoord 0, 7
+	hlbgcoord 0, 8
 	ld bc, 2 * BG_MAP_WIDTH
 	ld a, 6
 	call ByteFill
 
 ; 'CRYSTAL VERSION'
-	hlbgcoord 5, 8
+	hlbgcoord 5, 9
 	ld bc, NAME_LENGTH ; length of version text
-	ld a, 7
+	ld a, 1
 	call ByteFill
 
 ; Suicune gfx
-	hlbgcoord 0, 11
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
 	hlbgcoord 0, 12
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 0, 13
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 0, 14
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 0, 15
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 0, 16
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 0, 17
-	ld bc, 8 ; the rest of the screen
-	ld a, 1 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 11
-	ld bc, 8 ; the rest of the screen
-	ld a, 0 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 12
-	ld bc, 8 ; the rest of the screen
-	ld a, 0 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 13
-	ld bc, 8 ; the rest of the screen
-	ld a, 0 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 14
-	ld bc, 8 ; the rest of the screen
-	ld a, 0 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 15
-	ld bc, 8 ; the rest of the screen
-	ld a, 0 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 16
-	ld bc, 8 ; the rest of the screen
-	ld a, 0 | VRAM_BANK_1
-	call ByteFill
-
-	hlbgcoord 11, 17
-	ld bc, 8 ; the rest of the screen
+	ld bc, 6 * BG_MAP_WIDTH; the rest of the screen
 	ld a, 0 | VRAM_BANK_1
 	call ByteFill
 
@@ -170,7 +105,7 @@ _TitleScreen:
 	call ByteFill
 
 ; Draw Pokemon logo
-	hlcoord 0, 2
+	hlcoord 0, 3
 	lb bc, 7, 20
 	ld d, $80
 	ld e, $14
@@ -183,22 +118,9 @@ _TitleScreen:
 	ld e, $10
 	call DrawTitleGraphic
 
-; Initialize Dragonite?
-	hlcoord 0, 11
-	lb bc, 8, 8
-	ld d, $80
-	ld e, $10
-	call DrawTitleGraphic
-
-; Initialize Tyranitar?
-	hlcoord 11, 11
-	lb bc, 8, 8
-	ld d, $88
-	ld e, $10
-	call DrawTitleGraphic
-
-;	ld d, $0
-;	call LoadTyranitarFrame
+; Initialize Celebi?
+	ld d, $0
+	call LoadSuicuneFrame
 
 ; Initialize background crystal
 	call InitializeBackground
@@ -237,7 +159,7 @@ _TitleScreen:
 ; (This part is actually totally pointless, you can't
 ;  see anything until these values are overwritten!)
 
-	ld b, 78 / 2 ; alternate for 80 lines
+	ld b, 80 / 2 ; alternate for 80 lines
 	ld hl, wLYOverrides
 .loop
 ; $00 is the middle position
@@ -249,9 +171,9 @@ _TitleScreen:
 	jr nz, .loop
 
 ; Make sure the rest of the buffer is empty
-	ld hl, wLYOverrides + 78
+	ld hl, wLYOverrides + 80
 	xor a
-	ld bc, wLYOverridesEnd - (wLYOverrides + 78)
+	ld bc, wLYOverridesEnd - (wLYOverrides + 80)
 	call ByteFill
 
 ; Let LCD Stat know we're messing around with SCX
@@ -288,12 +210,6 @@ _TitleScreen:
 	xor a
 	ld [wSuicuneFrame], a
 
-	ldh [hBGMapMode], a
-
-	xor a
-	ld [wTyranitarFrame], a
-
-
 ; Play starting sound effect
 	call SFXChannelsOff
 	ld de, SFX_TITLE_SCREEN_ENTRANCE
@@ -324,76 +240,19 @@ SuicuneFrameIterator:
 	call LoadSuicuneFrame
 	ld a, $1
 	ldh [hBGMapMode], a
-	ldh [hBGMapThird], a
-	ret
-
-.Frames:
-	db $80 ; vTiles3 tile $80
-	db $80 ; vTiles3 tile $88
-	db $80 ; vTiles5 tile $00
-	db $80 ; vTiles5 tile $08
-
-LoadSuicuneFrame:
-	hlcoord 0, 11
-	ld b, 8
-.bgrows
-	ld c, 8
-.col
-	ld a, d
-	ld [hli], a
-	inc d
-	dec c
-	jr nz, .col
-	ld a, SCREEN_WIDTH - 8
-	add l
-	ld l, a
-	ld a, 0
-	adc h
-	ld h, a
-	ld a, 8
-	add d
-	ld d, a
-	dec b
-	jr nz, .bgrows
-	ret
-
-TyranitarFrameIterator:
-	ld hl, wTyranitarFrame
-	ld a, [hl]
-	ld c, a
-	inc [hl]
-
-; Only do this once every eight frames
-	and %111
-	ret nz
-
-	ld a, c
-	and %11000
-	sla a
-	swap a
-	ld e, a
-	ld d, $0
-	ld hl, .Frames
-	add hl, de
-	ld d, [hl]
-	xor a
-	ldh [hBGMapMode], a
-	call LoadTyranitarFrame
-	ld a, $1
-	ldh [hBGMapMode], a
 	ld a, $3
 	ldh [hBGMapThird], a
 	ret
 
 .Frames:
-	db $88 ; vTiles3 tile $80
+	db $80 ; vTiles3 tile $80
 	db $88 ; vTiles3 tile $88
-	db $88 ; vTiles5 tile $00
-	db $88 ; vTiles5 tile $08
+	db $00 ; vTiles5 tile $00
+	db $08 ; vTiles5 tile $08
 
-LoadTyranitarFrame:
-	hlcoord 11, 12
-	ld b, 8
+LoadSuicuneFrame:
+	hlcoord 6, 12
+	ld b, 6
 .bgrows
 	ld c, 8
 .col
