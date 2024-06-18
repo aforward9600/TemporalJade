@@ -427,7 +427,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
-	dbw  8, DIGLETT
+	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
 	dbw  8, SANDSHREW
@@ -436,7 +436,7 @@ JohtoGrassWildMons:
 	; day
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
-	dbw  8, DIGLETT
+	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
 	dbw  8, SANDSHREW
@@ -445,7 +445,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
-	dbw  8, DIGLETT
+	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
 	dbw  8, SANDSHREW
@@ -461,8 +461,8 @@ JohtoGrassWildMons:
 	dbw  8, MARILL
 	dbw  8, TYROGUE
 	dbw  8, TYROGUE
-	dbw  8, DIGLETT
-	dbw  8, DIGLETT
+	dbw  8, SANDYGAST
+	dbw  8, SANDYGAST
 	; day
 	dbw  8, SANDSHREW
 	dbw  8, ZUBAT
@@ -470,8 +470,8 @@ JohtoGrassWildMons:
 	dbw  8, MARILL
 	dbw  8, TYROGUE
 	dbw  8, TYROGUE
-	dbw  8, DIGLETT
-	dbw  8, DIGLETT
+	dbw  8, SANDYGAST
+	dbw  8, SANDYGAST
 	; nite
 	dbw  8, SANDSHREW
 	dbw  8, ZUBAT
@@ -479,8 +479,8 @@ JohtoGrassWildMons:
 	dbw  8, MARILL
 	dbw  8, TYROGUE
 	dbw  8, TYROGUE
-	dbw  8, DIGLETT
-	dbw  8, DIGLETT
+	dbw  8, SANDYGAST
+	dbw  8, SANDYGAST
 
 	map_id MOUNT_MORTAR_2F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1718,7 +1718,7 @@ JohtoGrassWildMons:
 	dbw 24, SKIPLOOM
 	dbw 24, VULPIX
 	dbw 24, GROWLITHE
-	dbw 24, DIGLETT
+	dbw 24, SANDYGAST
 	dbw 24, FARFETCH_D
 	dbw 24, TAUROS
 	dbw 24, GIRAFARIG
@@ -1727,7 +1727,7 @@ JohtoGrassWildMons:
 	dbw 24, SKIPLOOM
 	dbw 24, VULPIX
 	dbw 24, GROWLITHE
-	dbw 24, DIGLETT
+	dbw 24, SANDYGAST
 	dbw 24, FARFETCH_D
 	dbw 24, TAUROS
 	dbw 24, GIRAFARIG
@@ -1736,7 +1736,7 @@ JohtoGrassWildMons:
 	dbw 24, FEAROW
 	dbw 24, VULPIX
 	dbw 24, GROWLITHE
-	dbw 24, DIGLETT
+	dbw 24, SANDYGAST
 	dbw 24, FARFETCH_D
 	dbw 24, TAUROS
 	dbw 24, GIRAFARIG

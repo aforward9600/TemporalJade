@@ -1068,7 +1068,7 @@ BattleTowerMons3:
 	bigdw 73 ; SDef
 	db "RU-ZIyuRA@@"
 
-	dw DUGTRIO
+	dw PALOSSAND
 	db KINGS_ROCK
 	dw EARTHQUAKE, ROCK_SLIDE, SLASH, MUD_SLAP
 
@@ -1700,7 +1700,7 @@ endc
 	bigdw 80 ; SDef
 	db "HAtuSAMU@@@"
 
-	dw DUGTRIO
+	dw PALOSSAND
 	db KINGS_ROCK
 	dw EARTHQUAKE, GIGA_IMPACT, ROCK_SLIDE, MUD_SLAP
 
@@ -2186,7 +2186,7 @@ BattleTowerMons5:
 	bigdw 105 ; SDef
 	db "SUTA-MI-@@@"
 
-	dw DUGTRIO
+	dw PALOSSAND
 	db KINGS_ROCK
 	dw EARTHQUAKE, SLASH, GIGA_IMPACT, ROCK_SLIDE
 
@@ -3805,7 +3805,7 @@ BattleTowerMons8:
 	bigdw 157 ; SDef
 	db "MARUMAIN@@@"
 
-	dw DUGTRIO
+	dw PALOSSAND
 	db SCOPE_LENS
 	dw SLASH, EARTHQUAKE, THIEF, MUD_SLAP
 

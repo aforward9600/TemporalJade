@@ -73,8 +73,8 @@
 	const PARASECT   ; 2f
 	const VENONAT    ; 30
 	const VENOMOTH   ; 31
-	const DIGLETT    ; 32
-	const DUGTRIO    ; 33
+	const SANDYGAST  ; 32
+	const PALOSSAND  ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
 	const PSYDUCK    ; 36

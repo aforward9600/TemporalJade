@@ -55,8 +55,8 @@ OldPokedexOrder:
 	dw PARASECT
 	dw VENONAT
 	dw VENOMOTH
-	dw DIGLETT
-	dw DUGTRIO
+	dw SANDYGAST
+	dw PALOSSAND
 	dw MEOWTH
 	dw PERSIAN
 	dw PSYDUCK

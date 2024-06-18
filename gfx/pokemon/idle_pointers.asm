@@ -53,8 +53,8 @@ AnimationIdlePointers:
 	dw ParasectAnimationIdle
 	dw VenonatAnimationIdle
 	dw VenomothAnimationIdle
-	dw DiglettAnimationIdle
-	dw DugtrioAnimationIdle
+	dw SandygastAnimationIdle
+	dw PalossandAnimationIdle
 	dw MeowthAnimationIdle
 	dw PersianAnimationIdle
 	dw PsyduckAnimationIdle

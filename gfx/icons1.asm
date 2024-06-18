@@ -22,7 +22,6 @@ Icons1:
 	dw ScolipedeIcon
 	dw CutieflyIcon
 	dw RibombeeIcon
-	dw RibombeeIcon
 	dw SpearowIcon
 	dw FearowIcon
 	dw EkansIcon
@@ -57,8 +56,8 @@ Icons1:
 	dw ParasectIcon
 	dw VenonatIcon
 	dw VenomothIcon
-	dw DiglettIcon
-	dw DugtrioIcon
+	dw SandygastIcon
+	dw PalossandIcon
 	dw MeowthIcon
 	dw PersianIcon
 	dw PsyduckIcon
@@ -184,8 +183,8 @@ ParasIcon:        INCBIN "gfx/icons/paras.2bpp"
 ParasectIcon:     INCBIN "gfx/icons/parasect.2bpp"
 VenonatIcon:      INCBIN "gfx/icons/venonat.2bpp"
 VenomothIcon:     INCBIN "gfx/icons/venomoth.2bpp"
-DiglettIcon:      INCBIN "gfx/icons/diglett.2bpp"
-DugtrioIcon:      INCBIN "gfx/icons/dugtrio.2bpp"
+SandygastIcon:    INCBIN "gfx/icons/sandygast.2bpp"
+PalossandIcon:    INCBIN "gfx/icons/palossand.2bpp"
 MeowthIcon:       INCBIN "gfx/icons/meowth.2bpp"
 PersianIcon:      INCBIN "gfx/icons/persian.2bpp"
 PsyduckIcon:      INCBIN "gfx/icons/psyduck.2bpp"

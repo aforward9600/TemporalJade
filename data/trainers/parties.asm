@@ -1143,7 +1143,7 @@ endc
 	dw SLUDGE_BOMB, SYNTHESIS, ENERGY_BALL, SHADOW_BALL
 	db 63
 if DEF(_CHALLENGE)
-	dw DUGTRIO
+	dw PALOSSAND
 	db POWER_BAND
 	dw EARTHQUAKE, STONE_EDGE, SUCKER_PUNCH, AERIAL_ACE
 else
@@ -1197,7 +1197,7 @@ endc
 	dw SLUDGE_BOMB, SYNTHESIS, ENERGY_BALL, SHADOW_BALL
 	db 81
 if DEF(_CHALLENGE)
-	dw DUGTRIO
+	dw PALOSSAND
 	db POWER_BAND
 	dw EARTHQUAKE, STONE_EDGE, SUCKER_PUNCH, AERIAL_ACE
 else
@@ -3033,7 +3033,7 @@ endc
 	dw TAUROS
 	dw EARTHQUAKE, RETURN, SWORDS_DANCE, ZEN_HEADBUTT
 	db 62
-	dw DUGTRIO
+	dw PALOSSAND
 	dw EARTHQUAKE, SUCKER_PUNCH, ROCK_SLIDE, SLASH
 	db 63
 	dw VAPOREON
@@ -3126,7 +3126,7 @@ endc
 	next_list_item ; COOLTRAINERM (13)
 	db "Bumi@", TRAINERTYPE_NORMAL
 	db 76
-	dw DUGTRIO
+	dw PALOSSAND
 	db 76
 	dw GARCHOMP
 	db 76
@@ -3945,7 +3945,7 @@ endc
 	db 33
 	dw GOLBAT
 	db 33
-	dw DUGTRIO
+	dw PALOSSAND
 	db -1 ; end
 
 	next_list_item ; ManM (14) Radio Tower 2F
@@ -5817,7 +5817,7 @@ endc
 	next_list_item ; HIKER (4) Union Cave B2F
 	db "Gunther@", TRAINERTYPE_NORMAL
 	db 46
-	dw DUGTRIO
+	dw PALOSSAND
 	db 46
 	dw DUDUNSPARS
 	db 46
@@ -5837,11 +5837,11 @@ endc
 	next_list_item ; HIKER (6)
 	db "BENJAMIN@", TRAINERTYPE_NORMAL
 	db 14
-	dw DIGLETT
+	dw SANDYGAST
 	db 14
 	dw GEODUDE
 	db 16
-	dw DUGTRIO
+	dw PALOSSAND
 	db -1 ; end
 
 	next_list_item ; HIKER (7)
@@ -5903,10 +5903,10 @@ endc
 	next_list_item ; HIKER (10)
 	db "TIMOTHY@", TRAINERTYPE_MOVES
 	db 27
-	dw DIGLETT
+	dw SANDYGAST
 	dw MAGNITUDE, DIG, SAND_ATTACK, SLASH
 	db 27
-	dw DUGTRIO
+	dw PALOSSAND
 	dw MAGNITUDE, DIG, SAND_ATTACK, SLASH
 	db -1 ; end
 
@@ -5955,7 +5955,7 @@ endc
 	next_list_item ; HIKER (15)
 	db "SIDNEY@", TRAINERTYPE_NORMAL
 	db 34
-	dw DUGTRIO
+	dw PALOSSAND
 	db 32
 	dw ONIX
 	db -1 ; end
@@ -6008,7 +6008,7 @@ endc
 	dw PILOSWINE
 	dw EARTHQUAKE, BLIZZARD, REST, TAKE_DOWN
 	db 35
-	dw DUGTRIO
+	dw PALOSSAND
 	dw MAGNITUDE, DIG, MUD_SLAP, SLASH
 	db 38
 	dw STEELIX
@@ -7323,7 +7323,7 @@ CamperGroup:
 	next_list_item ; CAMPER (1)
 	db "Garret@", TRAINERTYPE_NORMAL
 	db 11
-	dw DIGLETT
+	dw SANDYGAST
 	db -1 ; end
 
 	next_list_item ; CAMPER (2) Route 32
@@ -7389,7 +7389,7 @@ endc
 	next_list_item ; CAMPER (8)
 	db "SID@", TRAINERTYPE_NORMAL
 	db 32
-	dw DUGTRIO
+	dw PALOSSAND
 	db 29
 	dw PRIMEAPE
 	db 29
@@ -8376,7 +8376,7 @@ GiovanniGroup:
 	next_list_item ; BLUE (1)
 	db "Giovanni@", TRAINERTYPE_ITEM_MOVES
 	db 78
-	dw DUGTRIO
+	dw PALOSSAND
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -8619,7 +8619,7 @@ else
 endc
 	dw DARK_PULSE, ENERGY_BALL, SYNTHESIS, COTTON_SPORE
 	db 55
-	dw DUGTRIO
+	dw PALOSSAND
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -9883,7 +9883,7 @@ MahoganyNinjaFGroup:
 	next_list_item ; MNINJA_F (2)
 	db "Ninja@", TRAINERTYPE_ITEM
 	db 38
-	dw DUGTRIO
+	dw PALOSSAND
 	db NO_ITEM
 	db 38
 	dw SEADRA
@@ -12882,7 +12882,7 @@ endc
 	db 73
 	dw HOUNDOOM
 	db 73
-	dw DUGTRIO
+	dw PALOSSAND
 	db 73
 	dw CROBAT
 	db -1 ; end

@@ -12,7 +12,7 @@ SpriteMons:
 	dw MUDKIP
 	dw TOGEPI
 	dw TOUCANNON
-	dw DIGLETT
+	dw SANDYGAST
 	dw POLIWAG
 	dw PIKACHU
 	dw CLEFAIRY

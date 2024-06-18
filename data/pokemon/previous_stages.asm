@@ -55,7 +55,7 @@ PreviousEvolutionStage::
 	dw 0    ;30
 	dw VENONAT
 	dw 0
-	dw DIGLETT
+	dw SANDYGAST
 	dw 0
 	dw MEOWTH
 	dw 0

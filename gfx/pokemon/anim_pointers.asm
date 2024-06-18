@@ -53,8 +53,8 @@ AnimationPointers:
 	dw ParasectAnimation
 	dw VenonatAnimation
 	dw VenomothAnimation
-	dw DiglettAnimation
-	dw DugtrioAnimation
+	dw SandygastAnimation
+	dw PalossandAnimation
 	dw MeowthAnimation
 	dw PersianAnimation
 	dw PsyduckAnimation

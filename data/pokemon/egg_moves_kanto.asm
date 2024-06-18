@@ -55,7 +55,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw VenonatEggMoves
 	dw NoEggMoves1
-	dw DiglettEggMoves
+	dw SandygastEggMoves
 	dw NoEggMoves1
 	dw MeowthEggMoves
 	dw NoEggMoves1
@@ -352,18 +352,9 @@ VenonatEggMoves:
 	dw SIGNAL_BEAM
 	dw -1 ; end
 
-DiglettEggMoves:
-	dw FAINT_ATTACK
-	dw SCREECH
-	dw ANCIENTPOWER
-	dw PURSUIT
-	dw ASTONISH
-	dw ENDURE
-	dw HEADBUTT
-	dw MUD_BOMB
-	dw REVERSAL
-	dw WORK_UP
-	dw HONE_CLAWS
+SandygastEggMoves:
+	dw AMNESIA
+	dw DESTINY_BOND
 	dw -1 ; end
 
 MeowthEggMoves:

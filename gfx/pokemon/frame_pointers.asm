@@ -53,8 +53,8 @@ FramesPointers:
 	dba ParasectFrames
 	dba VenonatFrames
 	dba VenomothFrames
-	dba DiglettFrames
-	dba DugtrioFrames
+	dba SandygastFrames
+	dba PalossandFrames
 	dba MeowthFrames
 	dba PersianFrames
 	dba PsyduckFrames

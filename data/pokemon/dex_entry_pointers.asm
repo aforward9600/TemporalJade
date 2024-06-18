@@ -54,8 +54,8 @@ PokedexDataPointerTable:
 	dba ParasectPokedexEntry
 	dba VenonatPokedexEntry
 	dba VenomothPokedexEntry
-	dba DiglettPokedexEntry
-	dba DugtrioPokedexEntry
+	dba SandygastPokedexEntry
+	dba PalossandPokedexEntry
 	dba MeowthPokedexEntry
 	dba PersianPokedexEntry
 	dba PsyduckPokedexEntry

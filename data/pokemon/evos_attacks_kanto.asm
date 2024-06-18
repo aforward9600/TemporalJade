@@ -55,8 +55,8 @@ EvosAttacksPointers1::
 	dw ParasectEvosAttacks
 	dw VenonatEvosAttacks
 	dw VenomothEvosAttacks
-	dw DiglettEvosAttacks
-	dw DugtrioEvosAttacks
+	dw SandygastEvosAttacks
+	dw PalossandEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
 	dw PsyduckEvosAttacks
@@ -1156,43 +1156,41 @@ endc
 	dbw 63, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
-DiglettEvosAttacks:
-	dbbw EVOLVE_LEVEL, 26, DUGTRIO
+SandygastEvosAttacks:
+	dbbw EVOLVE_LEVEL, 42, PALOSSAND
 	db 0 ; no more evolutions
-	dbw 1, SAND_ATTACK
-	dbw 1, SCRATCH
-	dbw 4, GROWL
-	dbw 7, ASTONISH
-	dbw 10, MUD_SLAP
-	dbw 14, MAGNITUDE
-	dbw 18, BULLDOZE
-	dbw 22, SUCKER_PUNCH
-	dbw 25, MUD_BOMB
-	dbw 28, EARTH_POWER
-	dbw 31, DIG
-	dbw 35, SLASH
-	dbw 39, EARTHQUAKE
-	dbw 43, FISSURE
+	dbw 1, HARDEN
+	dbw 1, ABSORB
+	dbw 5, ASTONISH
+	dbw 9, SAND_ATTACK
+	dbw 14, SAND_TOMB
+	dbw 18, MEGA_DRAIN
+	dbw 23, BULLDOZE
+	dbw 27, HYPNOSIS
+	dbw 32, IRON_DEFENSE
+	dbw 36, GIGA_DRAIN
+	dbw 41, SHADOW_BALL
+	dbw 45, EARTH_POWER
+	dbw 50, MOONLIGHT
+	dbw 54, SANDSTORM
 	db 0 ; no more level-up moves
 
-DugtrioEvosAttacks:
+PalossandEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SAND_TOMB
-	dbw 1, SAND_TOMB
-	dbw 1, SAND_ATTACK
-	dbw 1, SCRATCH
-	dbw 4, GROWL
-	dbw 7, ASTONISH
-	dbw 10, MUD_SLAP
-	dbw 14, MAGNITUDE
-	dbw 18, BULLDOZE
-	dbw 22, SUCKER_PUNCH
-	dbw 25, MUD_BOMB
-	dbw 30, EARTH_POWER
-	dbw 35, DIG
-	dbw 41, SLASH
-	dbw 47, EARTHQUAKE
-	dbw 53, FISSURE
+	dbw 1, HARDEN
+	dbw 1, ABSORB
+	dbw 5, ASTONISH
+	dbw 9, SAND_ATTACK
+	dbw 14, SAND_TOMB
+	dbw 18, MEGA_DRAIN
+	dbw 23, BULLDOZE
+	dbw 27, HYPNOSIS
+	dbw 32, IRON_DEFENSE
+	dbw 36, GIGA_DRAIN
+	dbw 41, SHADOW_BALL
+	dbw 47, EARTH_POWER
+	dbw 54, MOONLIGHT
+	dbw 60, SANDSTORM
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:

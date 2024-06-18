@@ -48,7 +48,6 @@ AlphabeticalPokedexOrder:
 	dw DECIDUEYE
 	dw DELIBIRD
 	dw DEWGONG
-	dw DIGLETT
 	dw DITTO
 	dw DODRIO
 	dw DODUO
@@ -58,7 +57,6 @@ AlphabeticalPokedexOrder:
 	dw DRATINI
 	dw DROWZEE
 	dw DUDUNSPARS
-	dw DUGTRIO
 	dw DUNSPARCE
 	dw DUSCLOPS
 	dw DUSKNOIR
@@ -202,6 +200,7 @@ AlphabeticalPokedexOrder:
 	dw OMANYTE
 	dw OMASTAR
 	dw ONIX
+	dw PALOSSAND
 	dw PARAS
 	dw PARASECT
 	dw PERSIAN
@@ -243,6 +242,7 @@ AlphabeticalPokedexOrder:
 	dw SALAMENCE
 	dw SANDSHREW
 	dw SANDSLASH
+	dw SANDYGAST
 	dw SCIZOR
 	dw SCOLIPEDE
 	dw SCYTHER

@@ -46,7 +46,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    1,              SET_UP_DOLL,       EVENT_DECO_CHARMANDER_DOLL,      SPRITE_TEPIG
 	decoration DECO_DOLL,    2,              SET_UP_DOLL,       EVENT_DECO_SQUIRTLE_DOLL,        SPRITE_MUDKIP_STILL
 	decoration DECO_DOLL,    9,              SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,         SPRITE_POLIWAG
-	decoration DECO_DOLL,    8,              SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,         SPRITE_DIGLETT_STILL
+	decoration DECO_DOLL,    8,              SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,         SPRITE_SANDYGAST_STILL
 	decoration DECO_DOLL,    18,             SET_UP_DOLL,       EVENT_DECO_STARMIE_DOLL,         SPRITE_STARMIE_STILL
 	decoration DECO_DOLL,    19,             SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,        SPRITE_MAGIKARP
 	decoration DECO_DOLL,    7,              SET_UP_DOLL,       EVENT_DECO_KOTORA_DOLL,          SPRITE_KOTORA
@@ -73,7 +73,7 @@ DecorationAttributePokemonNames:
 	dw CLEFAIRY   ;  5
 	dw JIGGLYPUFF ;  6
 	dw KOTORA     ;  7
-	dw DIGLETT    ;  8
+	dw SANDYGAST    ;  8
 	dw POLIWAG    ;  9
 	dw TOTODILE   ; 10
 	dw CUTIEFLY   ; 11

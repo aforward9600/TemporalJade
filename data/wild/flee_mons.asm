@@ -4,8 +4,8 @@ FleeMons:
 SometimesFleeMons:
 	dw ABRA
 	dw KADABRA
-	dw DIGLETT
-	dw DUGTRIO
+	dw SANDYGAST
+	dw PALOSSAND
 	dw MEOWTH
 	dw PERSIAN
 	dw -1
