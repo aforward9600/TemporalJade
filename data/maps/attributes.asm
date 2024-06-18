@@ -763,3 +763,4 @@ ENDM
 	map_attributes MoravilSchoolNursesOffice, MORAVIL_SCHOOL_NURSES_OFFICE, $00, 0
 	map_attributes MoravilSchoolStore, MORAVIL_SCHOOL_STORE, $00, 0
 	map_attributes MoravilSchoolComputerLab, MORAVIL_SCHOOL_COMPUTER_LAB, $00, 0
+	map_attributes MoravilSchoolPlayground, MORAVIL_SCHOOL_PLAYGROUND, $05, 0
