@@ -91,8 +91,8 @@ MoravilSchoolPlayground_MapEvents:
 	db 0 ; bg events
 
 	db 5 ; object events
-	object_event  8,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolRival, EVENT_SCHOOL_RIVAL
-	object_event 11,  9, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolPlaygroundSchoolboyScript, -1
-	object_event 15,  9, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolPlaygroundLassScript, -1
+	object_event 10,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolRival, EVENT_SCHOOL_RIVAL
+	object_event 13,  9, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolPlaygroundSchoolboyScript, -1
+	object_event 16,  9, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolPlaygroundLassScript, -1
 	object_event  3, 10, SPRITE_KID, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolPlaygroundKidScript, -1
 	object_event  4, 10, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoravilSchoolPlaygroundTwinScript, -1

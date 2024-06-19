@@ -19,6 +19,7 @@ ObjectActionPairPointers:
 	dw SetFacingSkyfall,               SetFacingCurrent
 	dw SetFacingPuddleSplash,          SetFacingStanding
 	dw SetFacingRunAction,             SetFacingCurrent
+	dw SetFacingSand,                  SetFacingStanding
 
 SetFacingStanding:
 	ld hl, OBJECT_FACING_STEP
@@ -299,6 +300,22 @@ SetFacingPuddleSplash:
 	add hl, bc
 	and 4
 	ld a, FACING_SPLASH_1
+	jr z, .ok
+	inc a ; FACING_SPLASH_2
+
+.ok
+	ld [hl], a
+	ret
+
+SetFacingSand:
+	ld hl, OBJECT_STEP_FRAME
+	add hl, bc
+	inc [hl]
+	ld a, [hl]
+	ld hl, OBJECT_FACING_STEP
+	add hl, bc
+	and 4
+	ld a, FACING_SAND_1
 	jr z, .ok
 	inc a ; FACING_SPLASH_2
 

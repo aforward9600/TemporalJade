@@ -341,13 +341,10 @@ ChooseWildEncounter:
 ; Store the level
 .ok
 	call Random
-	cp 35 percent
+	cp 50 percent
 	jr c, .waterdone
 	inc b
-	cp 65 percent
-	jr c, .waterdone
-	inc b
-	cp 85 percent
+	cp 75 percent
 	jr c, .waterdone
 	inc b
 .waterdone

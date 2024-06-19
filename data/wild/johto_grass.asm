@@ -2012,4 +2012,34 @@ JohtoGrassWildMons:
 	dbw 23, GOLBAT
 	dbw 23, STEELIX
 
+	map_id MORAVIL_SCHOOL_PLAYGROUND
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	; day
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	; nite
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+	dbw  4, SANDYGAST
+
 	db -1 ; end
