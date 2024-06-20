@@ -114,7 +114,7 @@ INCBIN "gfx/trainers/roughneck.gbcpal", middle_colors
 INCBIN "gfx/trainers/soldier.gbcpal", middle_colors
 INCBIN "gfx/trainers/karate_king.gbcpal", middle_colors
 INCBIN "gfx/trainers/ninja_m.gbcpal", middle_colors
-INCBIN "gfx/trainers/ninja_f.gbcpal", middle_colors
+INCBIN "gfx/trainers/schoolgirl.gbcpal", middle_colors
 INCLUDE "gfx/trainers/ferropexola.pal"
 
 KrisPalette:

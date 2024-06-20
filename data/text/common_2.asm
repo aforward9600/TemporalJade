@@ -888,7 +888,8 @@ UnknownText_0x1c0fdd::
 Text_WasSentToBillsPC::
 	text_ram wStringBuffer1
 	text " was"
-	line "sent to ADS."
+	line "sent to Amanita's"
+	cont "PC."
 	prompt
 
 UnknownText_0x1c1006::
@@ -1050,7 +1051,7 @@ UnknownText_0x1c12ae::
 	para "of @"
 	text_ram wStringBuffer1
 	text " in"
-	line "your Box."
+	line "your PC Box."
 	prompt
 
 UnknownText_0x1c12fc::
@@ -1068,8 +1069,8 @@ UnknownText_0x1c1328::
 	prompt
 
 UnknownText_0x1c1353::
-	text "<PLAYER> picked"
-	line "up the phone."
+	text "<PLAYER> turned on"
+	line "the PC."
 	prompt
 
 UnknownText_0x1c1368::
@@ -1120,25 +1121,24 @@ _PlayersPCNoRoomDepositText::
 	prompt
 
 UnknownText_0x1c144d::
-	text "<PLAYER> picked"
-	line "up the phone."
+	text "<PLAYER> turned on"
+	line "the PC."
 	prompt
 
 UnknownText_0x1c1462::
-	text "Call who?"
+	text "Access whose PC?"
 	done
 
 UnknownText_0x1c1474::
-	text "#mon Delivery"
+	text "Amanita's PC"
 	line "accessed."
 
 	para "#mon Storage"
-	line "System called."
+	line "System opened."
 	prompt
 
 UnknownText_0x1c14a4::
-	text "Accessed personal"
-	line "account."
+	text "Accessed own PC."
 
 	para "Item Storage"
 	line "System opened."
@@ -1148,22 +1148,22 @@ UnknownText_0x1c14d2::
 	text "Hello there!"
 	line "This is Prof"
 
-	para "Oak speaking!"
+	para "Juniper speaking!"
 	line "How are you?"
 	prompt
 
 UnknownText_0x1c1505::
 	text "…"
-	line "Call ended…"
+	line "Link closed…"
 	done
 
 _OakPCText1::
 	text "Want to get your"
-	line "Journal rated?"
+	line "#dex rated?"
 	done
 
 _OakPCText2::
-	text "Current Journal"
+	text "Current #dex"
 	line "completion level:"
 	prompt
 
@@ -1174,7 +1174,7 @@ _OakPCText3::
 	text_ram wStringBuffer4
 	text " #mon owned"
 
-	para "Prof.Oak's"
+	para "Prof.Juniper's"
 	line "Rating:"
 	done
 
@@ -1199,7 +1199,7 @@ _OakRating03::
 
 _OakRating04::
 	text "You need to fill"
-	line "up the Journal."
+	line "up the #dex."
 
 	para "Catch different"
 	line "kinds of #mon!"
@@ -1209,7 +1209,7 @@ _OakRating05::
 	text "You're trying--I"
 	line "can see that."
 
-	para "Your Journal is"
+	para "Your #dex is"
 	line "coming together."
 	done
 
@@ -1244,7 +1244,7 @@ _OakRating09::
 	done
 
 _OakRating10::
-	text "Your Journal is"
+	text "Your #dex is"
 	line "filling up. Keep"
 	cont "up the good work!"
 	done
@@ -1269,7 +1269,7 @@ _OakRating13::
 	text "Wow! You've found"
 	line "more #mon than"
 
-	para "the last Journal"
+	para "the last #dex"
 	line "research project!"
 	done
 
@@ -1284,7 +1284,7 @@ _OakRating14::
 
 _OakRating15::
 	text "Wow! You've hit"
-	line "200! Your Journal"
+	line "200! Your #dex"
 	cont "is looking great!"
 	done
 
@@ -1305,7 +1305,7 @@ _OakRating17::
 	done
 
 _OakRating18::
-	text "Your Journal is"
+	text "Your #dex is"
 	line "amazing! You're"
 
 	para "ready to turn"
@@ -1314,15 +1314,15 @@ _OakRating18::
 
 _OakRating19::
 	text "Whoa! A perfect"
-	line "Journal! I've"
+	line "#dex! I've"
 
 	para "dreamt about this!"
 	line "Congratulations!"
 	done
 
 _OakPCText4::
-	text "The call with"
-	line "Prof.Oak ended."
+	text "The call with Prof"
+	line "Juniper ended."
 	done
 
 UnknownText_0x1c19cd::
@@ -1388,7 +1388,7 @@ UnknownText_0x1c1adf::
 	prompt
 
 UnknownText_0x1c1b03::
-	text "Granny: <PLAYER>!"
+	text "Juniper: <PLAYER>!"
 	line "Are you certain"
 	cont "this is the time"
 	cont "to use that?"
@@ -1419,7 +1419,7 @@ UnknownText_0x1c1b57::
 
 UnknownText_0x1c1b6f::
 	text "Please remove the"
-	line "MAIL first."
+	line "Mail first."
 	prompt
 
 UnknownText_0x1c1b8e::

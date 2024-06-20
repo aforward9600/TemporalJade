@@ -731,17 +731,17 @@ CHRIS EQU __enum__
 	const RIVAL3_A_ROWLET
 	const RIVAL3_A_TEPIG
 	const RIVAL3_A_MUDKIP
-	const RIVAL3_B_DRATINI
-	const RIVAL3_C_LARVITAR
-	const RIVAL3_C_DRATINI
+	const RIVAL3_B_ROWLET
+	const RIVAL3_B_TEPIG
+	const RIVAL3_B_MUDKIP
 
 	trainerclass RIVAL4 ; 45
 	const RIVAL4_A_ROWLET
 	const RIVAL4_A_TEPIG
 	const RIVAL4_A_MUDKIP
-	const RIVAL4_B_DRATINI
-	const RIVAL4_C_LARVITAR
-	const RIVAL4_C_DRATINI
+	const RIVAL4_B_ROWLET
+	const RIVAL4_B_TEPIG
+	const RIVAL4_B_MUDKIP
 
 	trainerclass BREEDER ; 46
 	const EMILY
@@ -970,9 +970,9 @@ CHRIS EQU __enum__
 	const FNINJA_M_1
 	const FNINJA_M_2
 
-	trainerclass FNINJA_F
-	const FNINJA_F_1
-	const FNINJA_F_2
+	trainerclass SCHOOLGIRL
+	const BRIT
+	const JOLENE
 
 	trainerclass FERROPEXOLA_TRAINER
 	const FERROPEXOLA1

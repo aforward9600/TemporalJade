@@ -25,8 +25,8 @@ FuchsiaGymKogaScript:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_KOGA
-	setevent EVENT_BEAT_FNINJA_F1
-	setevent EVENT_BEAT_FNINJA_F2
+	setevent EVENT_BEAT_SCHOOLGIRL_BRIT
+	setevent EVENT_BEAT_SCHOOLGIRL_JOLENE
 	setevent EVENT_BEAT_FNINJA_M1
 	setevent EVENT_BEAT_FNINJA_M2
 	opentext
@@ -94,7 +94,7 @@ KogaText_LastMonText:
 	done
 
 FuchsiaGymNinjaF1:
-	trainer FNINJA_F, FNINJA_F_1, EVENT_BEAT_FNINJA_F1, FuchsiaGymNinjaF1BeforeText, FuchsiaGymNinjaF1BeatenText, 0, .Script
+	trainer SCHOOLGIRL, BRIT, EVENT_BEAT_SCHOOLGIRL_BRIT, FuchsiaGymNinjaF1BeforeText, FuchsiaGymNinjaF1BeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -105,7 +105,7 @@ FuchsiaGymNinjaF1:
 	end
 
 FuchsiaGymNinjaF2:
-	trainer FNINJA_F, FNINJA_F_2, EVENT_BEAT_FNINJA_F2, FuchsiaGymNinjaF2BeforeText, FuchsiaGymNinjaF2BeatenText, 0, .Script
+	trainer SCHOOLGIRL, JOLENE, EVENT_BEAT_SCHOOLGIRL_JOLENE, FuchsiaGymNinjaF2BeforeText, FuchsiaGymNinjaF2BeatenText, 0, .Script
 
 .Script:
 	endifjustbattled

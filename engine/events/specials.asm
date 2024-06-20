@@ -134,6 +134,12 @@ NameRivalFemale:
 .Hilbert:
 	db "Hilbert@"
 
+AskForPasswordInMap:
+	ld b, NAME_PASSWORD
+	ld de, wRedsName
+	farcall NamingScreen
+	ret
+
 NameRater:
 	farcall _NameRater
 	ret

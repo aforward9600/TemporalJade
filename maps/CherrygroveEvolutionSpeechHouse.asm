@@ -1,22 +1,22 @@
 	object_const_def ; object_event constants
-	const CHERRYGROVEEVOLUTIONSPEECHHOUSE_GRANNY
-	const CHERRYGROVEEVOLUTIONSPEECHHOUSE_BEAUTY
+	const CHERRYGROVEEVOLUTIONSPEECHHOUSE_TEACHER
+	const CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS
 
 CherrygroveEvolutionSpeechHouse_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-CherrygroveEvolutionSpeechHouseBeautyScript:
+CherrygroveEvolutionSpeechHouseTeacherScript:
 	opentext
-	writetext CherrygroveEvolutionSpeechHouseBeautyText
+	writetext CherrygroveEvolutionSpeechHouseTeacherText
 	waitbutton
 	closetext
 	end
 
-CherrygroveEvolutionSpeechHouseGrannyScript:
+CherrygroveEvolutionSpeechHouseLassScript:
 	opentext
-	writetext CherrygroveEvolutionSpeechHouseGrannyText
+	writetext CherrygroveEvolutionSpeechHouseLassText
 	waitbutton
 	closetext
 	end
@@ -24,25 +24,23 @@ CherrygroveEvolutionSpeechHouseGrannyScript:
 CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd magazinebookshelf
 
-CherrygroveEvolutionSpeechHouseBeautyText:
-	text "A professor in New"
-	line "Bark Town just got"
-	cont "his certification."
+CherrygroveTelevision:
+	jumpstd televisionscript
 
-	para "Apparently he"
-	line "specializes in"
-	cont "#mon evolution."
+CherrygroveEvolutionSpeechHouseTeacherText:
+	text "Perhaps I should"
+	line "get rid of the TV"
+	cont "for starters."
+
+	para "That might be a"
+	line "big help…"
 	done
 
-CherrygroveEvolutionSpeechHouseGrannyText:
-	text "Hmph!"
+CherrygroveEvolutionSpeechHouseLassText:
+	text "I don't wanna give"
+	line "up my #gear!"
 
-	para "Evolution! Pah!"
-
-	para "If Arcanine evolve"
-	line "from Growlithe,"
-	cont "then why are there"
-	cont "still Growlith?"
+	para "I'd be so bored!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:
@@ -60,5 +58,5 @@ CherrygroveEvolutionSpeechHouse_MapEvents:
 	bg_event  2,  1, BGEVENT_READ, CherrygroveTelevision
 
 	db 2 ; object events
-	object_event  3,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CherrygroveEvolutionSpeechHouseGrannyScript, -1
-	object_event  2,  5, SPRITE_BUENA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveEvolutionSpeechHouseBeautyScript, -1
+	object_event  3,  5, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CherrygroveEvolutionSpeechHouseTeacherScript, EVENT_ANTIQUO_TOWN_CIVILLIANS
+	object_event  2,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveEvolutionSpeechHouseLassScript, EVENT_ANTIQUO_TOWN_CIVILLIANS

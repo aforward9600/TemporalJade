@@ -97,6 +97,8 @@ AntiquoTownStop:
 	applymovement ANTIQUOTOWN_PAWN2, Pawn2MovesDownMovement
 	pause 10
 	applymovement ANTIQUOTOWN_KING, AntiquoTownKingMovesDownMovement
+	special FadeOutMusic
+	pause 30
 	playmusic MUSIC_KNIGHTS_TEMPORA
 	pause 5
 	applymovement ANTIQUOTOWN_PAWN2, Pawn2MovesBackIntoPlaceMovement
@@ -163,8 +165,11 @@ AntiquoTownStop:
 	callasm UpdateSprites
 	setscene SCENE_CHERRYGROVECITY_KNIGHT
 	clearevent EVENT_ANTIQUO_TOWN_CIVILLIANS
-	pause 15
+	special FadeOutMusic
+	pause 10
 	special RestartMapMusic
+	waitsfx
+	playmapmusic
 	end
 
 .PushPlayerBack:
@@ -558,7 +563,7 @@ AntiquoTownKingText4:
 
 	para "Through this, we"
 	line "can avoid the"
-	cont "catastrophy that"
+	cont "catastrophe that"
 	cont "awaits us at the"
 	cont "end of this"
 	cont "current path."
@@ -614,7 +619,7 @@ AntiquoTownCivilliansText:
 	cont "he said?"
 
 	para "That a great"
-	line "catastrophy awaits"
+	line "catastrophe awaits"
 	cont "us if we don't"
 	cont "stop using"
 	cont "technology?"
@@ -658,9 +663,9 @@ CherrygroveCity_MapEvents:
 	warp_event 23,  3, CHERRYGROVE_MART, 2
 	warp_event 29, 11, CHERRYGROVE_POKECENTER_1F, 1
 	warp_event 23,  7, CHERRYGROVE_GYM_SPEECH_HOUSE, 1
-	warp_event 17,  5, GUIDE_GENTS_HOUSE, 1
+	warp_event 17,  5, CHERRYGROVE_FISHER_HOUSE, 1
 	warp_event 19, 11, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, 1
-	warp_event 25,  0, CHERRYGROVE_FISHER_HOUSE, 1
+	warp_event 25,  0, GUIDE_GENTS_HOUSE, 1
 
 	db 3 ; coord events
 	coord_event 12,  9, SCENE_CHERRYGROVECITY_KNIGHTS, AntiquoTownStop

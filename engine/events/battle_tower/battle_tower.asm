@@ -1618,9 +1618,6 @@ LoadOpponentTrainerAndPokemonWithOTSprite:
 
 INCLUDE "data/trainers/sprites.asm"
 
-DummySpecial_170bd2:
-	ret
-
 CheckForBattleTowerRules:
 	farcall _CheckForBattleTowerRules
 	jr c, .ready

@@ -1145,32 +1145,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 49, XATU
-	dbw 49, TOUCANNON
-	dbw 49, TOUCANNON
-	dbw 49, SCOLIPEDE
-	dbw 49, HERDIER
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
+	dbw 4, LILLIPUP
+	dbw 4, POLIWAG
+	dbw 4, BELLSPROUT
+	dbw 4, PIKIPEK
+	dbw 4, GROWLITHE
+	dbw 4, GROWLITHE
+	dbw 4, PIKACHU
+	dbw 4, PIKACHU
 	; day
-	dbw 49, XATU
-	dbw 49, TOUCANNON
-	dbw 49, TOUCANNON
-	dbw 49, SCOLIPEDE
-	dbw 49, HERDIER
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
-	dbw 49, JUMPLUFF
+	dbw 4, LILLIPUP
+	dbw 4, POLIWAG
+	dbw 4, BELLSPROUT
+	dbw 4, PIKIPEK
+	dbw 4, GROWLITHE
+	dbw 4, GROWLITHE
+	dbw 4, PIKACHU
+	dbw 4, PIKACHU
 	; nite
-	dbw 49, XATU
-	dbw 49, NOCTOWL
-	dbw 49, POLIWHIRL
-	dbw 49, NOCTOWL
-	dbw 49, CROBAT
-	dbw 49, NOCTOWL
-	dbw 49, NOCTOWL
-	dbw 49, NOCTOWL
+	dbw 4, LILLIPUP
+	dbw 4, POLIWAG
+	dbw 4, BELLSPROUT
+	dbw 4, PIKIPEK
+	dbw 4, HOUNDOUR
+	dbw 4, HOUNDOUR
+	dbw 4, PIKACHU
+	dbw 4, PIKACHU
 
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

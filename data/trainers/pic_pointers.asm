@@ -109,5 +109,5 @@ TrainerPicPointers::
 	dba SoldierPic
 	dba KarateKingPic
 	dba MahoganyNinjaMPic
-	dba MahoganyNinjaFPic
+	dba SchoolgirlPic
 	dba FerropexolaPic

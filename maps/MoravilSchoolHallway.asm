@@ -86,7 +86,7 @@ ClassroomSignText:
 MoravilSchoolHallway_MapEvents:
 	db 0, 0 ; filler
 
-	db 8 ; warp events
+	db 9 ; warp events
 	warp_event  2, 13, MORAVIL_SCHOOL_OUTSIDE, 1
 	warp_event  3, 13, MORAVIL_SCHOOL_OUTSIDE, 2
 	warp_event  3,  1, MORAVIL_SCHOOL_NURSES_OFFICE, 1
@@ -95,6 +95,7 @@ MoravilSchoolHallway_MapEvents:
 	warp_event 11,  1, MORAVIL_SCHOOL_COMPUTER_LAB, 1
 	warp_event 11,  5, MORAVIL_SCHOOL_PLAYGROUND, 1
 	warp_event 12,  5, MORAVIL_SCHOOL_PLAYGROUND, 2
+	warp_event 19,  1, MORAVIL_SCHOOL_LIBRARY, 1
 
 	db 0 ; coord events
 

@@ -1214,3 +1214,6 @@ MoravilSchoolComputerLab_Blocks:
 
 MoravilSchoolPlayground_Blocks:
 	INCBIN "maps/MoravilSchoolPlayground.blk"
+
+MoravilSchoolLibrary_Blocks:
+	INCBIN "maps/MoravilSchoolLibrary.blk"

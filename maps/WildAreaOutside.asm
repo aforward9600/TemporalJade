@@ -40,7 +40,7 @@ RivalWalksUpLeft:
 	iftrue .Larvitar1
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL3, RIVAL3_C_LARVITAR
+	loadtrainer RIVAL3, RIVAL3_B_TEPIG
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -49,7 +49,7 @@ RivalWalksUpLeft:
 .Larvitar1:
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL3, RIVAL3_C_DRATINI
+	loadtrainer RIVAL3, RIVAL3_B_MUDKIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -105,7 +105,7 @@ RivalWalksUpLeft:
 	iftrue .Larvitar2
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL4, RIVAL4_C_LARVITAR
+	loadtrainer RIVAL4, RIVAL4_B_MUDKIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -114,7 +114,7 @@ RivalWalksUpLeft:
 .Larvitar2:
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL4, RIVAL4_C_DRATINI
+	loadtrainer RIVAL4, RIVAL4_B_TEPIG
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -174,7 +174,7 @@ RivalWalksUpRight:
 	iftrue .Larvitar3
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL3, RIVAL3_C_LARVITAR
+	loadtrainer RIVAL3, RIVAL3_B_ROWLET
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -183,7 +183,7 @@ RivalWalksUpRight:
 .Larvitar3:
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL3, RIVAL3_C_DRATINI
+	loadtrainer RIVAL3, RIVAL3_B_TEPIG
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -240,7 +240,7 @@ RivalWalksUpRight:
 	iftrue .Larvitar4
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL4, RIVAL4_C_LARVITAR
+	loadtrainer RIVAL4, RIVAL4_B_ROWLET
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -249,7 +249,7 @@ RivalWalksUpRight:
 .Larvitar4:
 	winlosstext RivalWildAreaWinText, RivalWildAreaLossText
 	setlasttalked WILDAREAOUTSIDE_RIVAL
-	loadtrainer RIVAL4, RIVAL4_C_DRATINI
+	loadtrainer RIVAL4, RIVAL4_B_ROWLET
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

@@ -8688,89 +8688,28 @@ Rival3Group:
 	dw MUDKIP
 	db -1 ; end
 
-	next_list_item ; RIVAL3 (4)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 17
-	dw EEVEE
-	db NO_ITEM
-	db 17
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 18
-	dw DRATINI
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 B_ROWLET
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKIPEK
+	db 11
+	dw ROWLET
 	db -1 ; end
 
-	next_list_item ; RIVAL3 (5)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 27
-	dw POLIWHIRL
-if DEF(_CHALLENGE)
-	db MYSTIC_WATER
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SYLVEON
-if DEF(_CHALLENGE)
-	db LEFTOVERS
-else
-	db NO_ITEM
-endc
-	db 29
-	dw PUPITAR
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 B_TEPIG
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKIPEK
+	db 11
+	dw TEPIG
 	db -1 ; end
 
-	next_list_item ; RIVAL3 (6)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 27
-	dw POLIWHIRL
-if DEF(_CHALLENGE)
-	db MYSTIC_WATER
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SYLVEON
-if DEF(_CHALLENGE)
-	db LEFTOVERS
-else
-	db NO_ITEM
-endc
-	db 29
-	dw DRAGONAIR
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL3 B_MUDKIP
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKIPEK
+	db 11
+	dw MUDKIP
 	db -1 ; end
 
 	end_list_items
@@ -13095,23 +13034,21 @@ FuchsiaNinjaMGroup:
 
 	end_list_items
 
-FuchsiaNinjaFGroup:
-	next_list_item ; FNINJA_F (1)
-	db "Ninja@", TRAINERTYPE_NORMAL
-	db 75
-	dw YANMEGA
-	db 75
-	dw TENTACRUEL
+SchoolgirlGroup:
+	next_list_item ; SCHOOLGIRL (1)
+	db "Brit@", TRAINERTYPE_NORMAL
+	db 10
+	dw TEDDIURSA
+	db 10
+	dw DRILBUR
 	db -1
 
-	next_list_item ; FNINJA_F (2)
-	db "Ninja@", TRAINERTYPE_MOVES
-	db 75
-	dw NIDOQUEEN
-	dw EARTHQUAKE, POISON_JAB, SUPERPOWER, BULK_UP
-	db 75
-	dw ARIADOS
-	dw GUNK_SHOT, X_SCISSOR, CRUNCH, SPIDER_WEB
+	next_list_item ; SCHOOLGIRL (2)
+	db "Jolene@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKACHU
+	db 10
+	dw CUTIEFLY
 	db -1
 
 	end_list_items

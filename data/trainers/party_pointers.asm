@@ -109,5 +109,5 @@ TrainerGroups:
 	dba SoldierGroup
 	dba KarateKingGroup
 	dba FuchsiaNinjaMGroup
-	dba FuchsiaNinjaFGroup
+	dba SchoolgirlGroup
 	dba FerropexolaGroup

@@ -764,3 +764,4 @@ ENDM
 	map_attributes MoravilSchoolStore, MORAVIL_SCHOOL_STORE, $00, 0
 	map_attributes MoravilSchoolComputerLab, MORAVIL_SCHOOL_COMPUTER_LAB, $00, 0
 	map_attributes MoravilSchoolPlayground, MORAVIL_SCHOOL_PLAYGROUND, $05, 0
+	map_attributes MoravilSchoolLibrary, MORAVIL_SCHOOL_LIBRARY, $00, 0

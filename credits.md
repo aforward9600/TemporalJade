@@ -119,9 +119,17 @@ Prism Team.
 
 Mudkip line sprites: Bloodless & Blue Rose
 
-Gen 5 Sprites: Bloodless
+Gen 5 Sprites, Regirock, Regice and Registeel back sprites: Bloodless
 
 Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
+
+Regigigas back sprite: COMBOY
+
+Regieleki front sprite: Pokemon Daybreak
+Back sprite: leParagon
+
+Regidrago front sprite: CyndArts
+Back sprite: leParagon
 
 Farigiraf sprite and animation: Nuuk.
 
@@ -142,7 +150,8 @@ Ariana, Archer and Giovanni trainer and overworld sprite: SirWhibbles
 
 Ampharos and overworld sprite: Prism Team
 
-Gible line sprites: Blue Emerald
+Gible line sprites, Regirock, Regice, Registeel and Regigigas
+front sprites: Blue Emerald
 
 Lance, Female Scientist and Cynthia overworld sprites: Rangi and the Polished Crystal Team.
 

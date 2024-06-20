@@ -107,5 +107,5 @@ TrainerClassNames::
 	db "Soldier@"
 	db "Karate King@"
 	db "Fuchsia@"
-	db "Fuchsia@"
+	db "Schoolgirl@"
 	db "Ferropexola@"

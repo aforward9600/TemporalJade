@@ -392,8 +392,8 @@
 	const EVENT_MUDKIP_POKEBALL_IN_LAB
 	const EVENT_GOT_TM_11_SUNNY_DAY
 	const EVENT_ROUTE_24_PINK_BOW
-	const EVENT_17F
-	const EVENT_180
+	const EVENT_GOT_PASSWORD_FOR_SCHOOL_GYM
+	const EVENT_OPENED_SCHOOL_GYM
 	const EVENT_181
 	const EVENT_182
 	const EVENT_183
@@ -1665,8 +1665,8 @@
 	const EVENT_CAUGHT_SNORLAX
 	const EVENT_BEAT_SNORLAX
 	const EVENT_BEAT_KOGA
-	const EVENT_BEAT_FNINJA_F1
-	const EVENT_BEAT_FNINJA_F2
+	const EVENT_BEAT_SCHOOLGIRL_BRIT
+	const EVENT_BEAT_SCHOOLGIRL_JOLENE
 ; Sprite visibility flags
 ; When these events are cleared, the sprite becomes visible; when set, the sprite is hidden.
 ; The map script command macros `disappear` and `appear` set/clear these flags and immediately apply the effect on visibility.

@@ -67,3 +67,4 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 42
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 43
 	tilecoll FLOOR, COUNTER, FLOOR, WALL ; 44
+	tilecoll WALL, WALL, WALL, WALL ; 45
