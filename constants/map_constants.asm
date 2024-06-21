@@ -538,7 +538,7 @@ ENDM
 	map_const MORAVIL_SCHOOL_COMPUTER_LAB,                  3,  7 ; 17
 	map_const MORAVIL_SCHOOL_PLAYGROUND,                   10,  8 ; 18
 	map_const MORAVIL_SCHOOL_LIBRARY,                       5,  9 ; 19
-
+	map_const MORAVIL_SCHOOL_GYM,                           3,  3 ; 20
 	newgroup
 
 	map_const ROUTE_47,                                    39, 19 ; 1

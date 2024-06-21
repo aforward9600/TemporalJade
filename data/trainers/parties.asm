@@ -2253,24 +2253,18 @@ endc
 SchoolboyGroup:
 	next_list_item ; SCHOOLBOY (1) Route 44
 	db "Finn@", TRAINERTYPE_NORMAL
-	db 7
-	dw ODDISH
-	db 7
+	db 10
+	dw POLIWAG
+	db 10
 	dw MAGBY
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (2)
 	db "Pierce@", TRAINERTYPE_NORMAL
-	db 29
-	dw VOLTORB
-	db 29
-	dw TANGELA
-	db 29
-	dw MARSHTOMP
-	db 29
-	dw CLEFAIRY
-	db 29
-	dw PONYTA
+	db 10
+	dw ZUBAT
+	db 10
+	dw BONSLY
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (3) Route 34

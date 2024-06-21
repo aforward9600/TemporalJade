@@ -562,10 +562,6 @@ INCLUDE "maps/SafariZoneMainOffice.asm"
 
 SECTION "Map Scripts 32", ROMX
 
-INCLUDE "maps/FastShipCabins_SE_SSE_CaptainsCabin.asm"
-INCLUDE "maps/FastShip1F.asm"
-INCLUDE "maps/FastShipCabins_NNW_NNE_NE.asm"
-INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
 INCLUDE "maps/SootheBellHouse.asm"
 INCLUDE "maps/Route15.asm"
 INCLUDE "maps/EcruteakTinTowerEntrance.asm"
@@ -577,3 +573,11 @@ INCLUDE "maps/MoravilSchoolStore.asm"
 INCLUDE "maps/MoravilSchoolComputerLab.asm"
 INCLUDE "maps/MoravilSchoolPlayground.asm"
 INCLUDE "maps/MoravilSchoolLibrary.asm"
+INCLUDE "maps/MoravilSchoolGym.asm"
+
+SECTION "Map Scripts 33", ROMX
+
+INCLUDE "maps/FastShipCabins_SE_SSE_CaptainsCabin.asm"
+INCLUDE "maps/FastShip1F.asm"
+INCLUDE "maps/FastShipCabins_NNW_NNE_NE.asm"
+INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
