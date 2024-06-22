@@ -6,13 +6,13 @@
 	const MURKROW_VALLEY    ; 01
 	const ROUTE_29          ; 02
 	const CHERRYGROVE_CITY  ; 03
+	const DARK_CAVE         ; 2c
 	const ROUTE_30          ; 04
 	const VIOLET_CITY       ; 06
 	const SPROUT_TOWER      ; 07
 	const BLACKTHORN_CITY   ; 29
 	const DRAGONS_DEN       ; 2a
 	const ROUTE_45          ; 2b
-	const DARK_CAVE         ; 2c
 	const ICE_PATH          ; 28
 	const ROUTE_44          ; 27
 	const MAHOGANY_TOWN     ; 24

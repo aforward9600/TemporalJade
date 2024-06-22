@@ -30,6 +30,7 @@ CherrygroveCity_MapScripts:
 	end
 
 .DummyScene2:
+	disappear ANTIQUOTOWN_KNIGHT
 	end
 
 .FlyPoint:
@@ -193,7 +194,61 @@ AntiquoTownTwinScript:
 	jumptextfaceplayer AntiquoTownTwinText
 
 AntiquoTownKnightStopLeft:
+	moveobject ANTIQUOTOWN_KNIGHT, 7, 7
+	showemote EMOTE_SHOCK, PLAYER, 15
+	turnobject PLAYER, DOWN
+	special FadeOutMusic
+	pause 15
+	appear ANTIQUOTOWN_KNIGHT
+	applymovement ANTIQUOTOWN_KNIGHT, AntiquoTownKnightMovesUpMovement
+	turnobject PLAYER, RIGHT
+	turnobject ANTIQUOTOWN_KNIGHT, LEFT
+	sjump AntiquoTownKnightConvene
+
 AntiquoTownKnightStopRight:
+	showemote EMOTE_SHOCK, PLAYER, 15
+	turnobject PLAYER, DOWN
+	special FadeOutMusic
+	pause 15
+	appear ANTIQUOTOWN_KNIGHT
+	applymovement ANTIQUOTOWN_KNIGHT, AntiquoTownKnightMovesUpMovement
+	turnobject PLAYER, LEFT
+	turnobject ANTIQUOTOWN_KNIGHT, RIGHT
+AntiquoTownKnightConvene:
+	playmusic MUSIC_RIVAL_ENCOUNTER
+	opentext
+	writetext AntiquoTownKnightText1
+	yesorno
+	iffalse .AntiquoTownKnightSaidNo
+	writetext AntiquoTownKnightSaidYesText
+	waitbutton
+	closetext
+	sjump .AntiquoTownKnightBattle
+
+.AntiquoTownKnightSaidNo:
+	writetext AntiquoTownKnightSaidNoText
+	waitbutton
+	closetext
+.AntiquoTownKnightBattle:
+	winlosstext AntiquoTownKnightWinText, AntiquoTownKnightLoseText
+	setlasttalked ANTIQUOTOWN_KNIGHT
+	loadtrainer WANDERER, KNIGHT
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	playmusic MUSIC_RIVAL_AFTER
+	opentext
+	writetext AntiquoTownKnightText2
+	waitbutton
+	closetext
+	applymovement ANTIQUOTOWN_KNIGHT, AntiquoTownKnightMovesUpMovement
+	disappear ANTIQUOTOWN_KNIGHT
+	setscene SCENE_CHERRYGROVECITY_NOTHING
+	special FadeOutMusic
+	pause 10
+	special RestartMapMusic
+	waitsfx
+	playmapmusic
 	end
 
 Pawn2MovesDownMovement:
@@ -204,6 +259,13 @@ Pawn2MovesDownMovement:
 
 PlayerMovesRightMovement:
 	step RIGHT
+	step_end
+
+AntiquoTownKnightMovesUpMovement:
+	step UP
+	step UP
+	step UP
+	step UP
 	step_end
 
 PlayerMovesToSquareMovement:
@@ -290,57 +352,71 @@ AntiquoTownFisherText:
 	line "join them…"
 	done
 
-CherrygroveRivalText_Seen:
+AntiquoTownKnightText1:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "So, you heard that"
+	line "speech, I suppose."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "What did you"
+	line "think?"
 
-	para "<……> <……> <……>"
-
-	para "Don't you get what"
-	line "I'm saying?"
-
-	para "Well, I too, have"
-	line "a good #MON."
-
-	para "I'll show you"
-	line "what I mean!"
+	para "He makes quite a"
+	line "compelling point,"
+	cont "doesn't he?"
 	done
 
-SilverCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+AntiquoTownKnightSaidNoText:
+	text "…Hm. I guess some"
+	line "people aren't"
+	cont "fooled after all."
+
+	para "…Say, you're a"
+	line "trainer, right?"
+
+	para "Care for a battle?"
+
+	para "I'm a wandering"
+	line "trainer myself."
 	done
 
-CherrygroveRivalText_YouLost:
-	text "<……> <……> <……>"
+AntiquoTownKnightSaidYesText:
+	text "…Hm. I guess some"
+	line "people are easily"
+	cont "convinced."
 
-	para "My name's ???."
+	para "…Say, you're a"
+	line "trainer, right?"
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Care for a battle?"
+
+	para "I'm a wandering"
+	line "trainer myself."
 	done
 
-SilverCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+AntiquoTownKnightWinText:
+	text "Well done."
 	done
 
-CherrygroveRivalText_YouWon:
-	text "<……> <……> <……>"
+AntiquoTownKnightLoseText:
+	text "It appears that I"
+	line "have one left."
+	done
 
-	para "My name's ???."
+AntiquoTownKnightText2:
+	text "Quite the battle."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "I enjoyed that."
+
+	para "Let us battle"
+	line "again in the"
+	cont "future."
+
+	para "I look forward to"
+	line "it."
+
+	para "…Unlike the other"
+	line "knights…"
 	done
 
 CherrygroveTeacherText_NoMapCard:
@@ -683,7 +759,7 @@ CherrygroveCity_MapEvents:
 	object_event  6,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
 	object_event  7,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
 	object_event  6,  4, SPRITE_KING, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_TEMPORAS
-	object_event  6,  7, SPRITE_KNIGHT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_KNIGHT
+	object_event  6,  7, SPRITE_KNIGHT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_KNIGHT
 	object_event  4,  8, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD
 	object_event  5, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD
 	object_event  8, 10, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ANTIQUO_TOWN_CROWD

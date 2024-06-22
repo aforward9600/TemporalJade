@@ -341,6 +341,18 @@ JuniperAfterStarter:
 	disappear JUNIPERSLAB_RIVAL
 	setevent EVENT_BEAT_LAB_RIVAL
 	setscene SCENE_JUNIPERSLAB_AIDE_GIVES_POTION
+	turnobject PLAYER, UP
+	opentext
+	writetext JuniperGivesPhoneNumber
+	waitbutton
+	closetext
+	addcellnum PHONE_ELM
+	opentext
+	writetext GotJunipersNumberText
+	playsound SFX_REGISTER_PHONE_NUMBER
+	waitsfx
+	waitbutton
+	closetext
 	end
 
 ElmsLabHealingMachine:
@@ -810,63 +822,6 @@ JunipersLabBiancaText2:
 	para "Be seein' ya!"
 	done
 
-ElmsLabOfficerText1:
-	text "Hm?"
-
-	para "You there!"
-	line "That journal you"
-	cont "have!"
-
-	para "May I see it?"
-
-	para "………Wonderful!"
-
-	para "These drawings and"
-	line "descriptions are"
-	cont "so detailed!"
-
-	para "You did all these?"
-	line "Truly incredible!"
-
-	para "I'm working on a"
-	line "high-tech"
-	cont "encyclopedia of"
-	cont "#mon!"
-
-	para "It's still in the"
-	line "early stages, so I"
-	cont "haven't made one."
-
-	para "…Oh, where are my"
-	line "manners? I haven't"
-	cont "introduced myself!"
-
-	para "I am Prof. Oak."
-
-	para "I was visiting my"
-	line "student, er, I"
-	cont "mean, my former"
-	cont "student Elm."
-
-	para "He has recently"
-	line "become a #mon"
-	cont "Professor himself,"
-	cont "and I wanted to"
-	cont "congratulate him!"
-
-	para "And your name is?"
-
-	para "………Ah, <PLAYER>,"
-	line "is it?"
-
-	para "Well met!"
-
-	para "I'm afraid I must"
-	line "be going, but I"
-	cont "think we will meet"
-	cont "again soon!"
-	done
-
 ElmsLabWindowText1:
 	text "The window's open."
 
@@ -1005,11 +960,19 @@ ElmsLabTrashcanText:
 	done
 
 ElmsLabPCText:
-	text "Observations On"
-	line "#mon Evolution"
+	text "Dear Aurea,"
 
-	para "…It says on the"
-	line "screen…"
+	para "Your mother and I"
+	line "miss you so much."
+
+	para "Perhaps one of"
+	line "these days I'll"
+	cont "have Skyla take us"
+	cont "up there in a"
+	cont "private plane!"
+
+	para "Your father,"
+	line "Cedric Juniper"
 	done
 
 ProfJuniperPickText:
@@ -1153,6 +1116,23 @@ BiancaGoodLuckText:
 	cont "throw it!"
 
 	para "Good luck!"
+	done
+
+JuniperGivesPhoneNumber:
+	text "Juniper: Oh,"
+	line "before I forget,"
+	cont "let me register"
+	cont "my number to your"
+	cont "#gear."
+
+	para "You can keep in"
+	line "touch with me"
+	cont "any time!"
+	done
+
+GotJunipersNumberText:
+	text "<PLAYER> got"
+	line "Juniper's number!"
 	done
 
 ElmsLab_MapEvents:

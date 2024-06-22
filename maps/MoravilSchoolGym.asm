@@ -93,6 +93,7 @@ GymLeaderSteve:
 	end
 
 .AlreadyDefeatedSteve:
+	opentext
 	writetext GymLeaderSteveResearchText
 	waitbutton
 NoRoomForHiddenPower:
@@ -158,7 +159,7 @@ MeetGymLeaderSteveText:
 	line "researched you,"
 	cont "<PLAYER>, and I"
 	cont "know what your"
-	cont "staring #mon"
+	cont "starting #mon"
 	cont "is!"
 
 	para "Don't believe me?"
@@ -188,6 +189,7 @@ GymLeaderSteveAfterText:
 ReceivedLearnedBadge:
 	text "<PLAYER> received"
 	line "the LearnedBadge!"
+	done
 
 LearnedBadgeText:
 	text "Steve: Congrats on"

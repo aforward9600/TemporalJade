@@ -105,17 +105,17 @@ ElmPhonePokerusText:
 	para "Apparently there's"
 	line "something called"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "#rus that in-"
+	line "fects #mon."
 
 	para "Yes, it's like a"
 	line "virus, so it's"
-	cont "called #RUS."
+	cont "called #rus."
 
 	para "It multiplies fast"
 	line "and infects other"
 
-	para "#MON too. But"
+	para "#mon too. But"
 	line "that's all."
 
 	para "It doesn't seem to"

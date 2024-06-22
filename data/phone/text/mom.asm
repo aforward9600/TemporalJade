@@ -36,7 +36,7 @@ MomPhoneNewBarkText:
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
+	para "Come see your mom"
 	line "sometime!"
 	done
 
@@ -57,7 +57,7 @@ MomOtherAreaText:
 	text "?"
 
 	para "Good luck on your"
-	line "#MON quest!"
+	line "#mon quest!"
 	done
 
 MomDeterminedText:
@@ -124,18 +124,17 @@ MomPhoneNoPokemonText:
 	text "Hello?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	line "Haven't you gotten"
+	cont "your #mon yet?"
 	done
 
 MomPhoneNoPokedexText:
 	text "Hello?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "Good luck on your"
+	line "journey!"
 	done
 
 MomPhoneNoGymQuestText:

@@ -53,6 +53,7 @@ MeetMomScript:
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
 	setscene SCENE_PLAYERS_HOUSE_NOTHING
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
@@ -81,6 +82,8 @@ MeetMomScript:
 	waitsfx
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
+	setflag ENGINE_PHONE_CARD
+	addcellnum PHONE_MOM
 	setscene SCENE_PLAYERS_HOUSE_NOTHING
 	variablesprite SPRITE_RIVAL, SPRITE_CHRIS
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -135,10 +138,8 @@ MomScript:
 	iftrue .BeatLeague
 	checkevent EVENT_GOT_JOURNAL
 	iftrue .FirstTimeBanking
-	checkevent EVENT_MASTERS_RIVAL_DONE
-	iftrue .GaveMysteryEgg
 	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
-	iftrue .GotAPokemon
+	iftrue .GaveMysteryEgg
 	writetext HurryUpElmIsWaitingText
 	waitbutton
 	closetext
@@ -175,10 +176,6 @@ MomScript:
 	waitbutton
 	closetext
 	setevent EVENT_GOT_JOURNAL
-	setevent EVENT_BLACKTHORN_HIKER
-	setevent EVENT_BLACKTHORN_BLACK_BELT
-	setmapscene MURKROW_VALLEY, SCENE_FINISHED
-	setmapscene ICE_PATH_B1F, SCENE_ICE_PATH_B1F_RIVAL
 	end
 
 GetDecoEvent:
@@ -381,10 +378,15 @@ ComeHomeForDSTText:
 	cont "Left or Right to"
 
 	para "switch between the"
-	line "clock and map."
+	line "clock, map and"
+	cont "phone."
 
-	para "See? Even I can"
-	line "understand it."
+	para "Oh, and I already"
+	line "added my number to"
+	cont "it."
+
+	para "Don't forget to"
+	line "call me sometimes!"
 	done
 
 WhatWasHisNameText:

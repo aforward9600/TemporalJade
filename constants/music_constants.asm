@@ -40,7 +40,7 @@
 	const MUSIC_NATIONAL_PARK                ; 23
 	const MUSIC_CREDITS                      ; 24
 	const MUSIC_AZALEA_TOWN                  ; 25
-	const MUSIC_CHERRYGROVE_CITY             ; 26
+	const MUSIC_FLOAROMA_TOWN                ; 26
 	const MUSIC_KIMONO_ENCOUNTER             ; 27
 	const MUSIC_UNION_CAVE                   ; 28
 	const MUSIC_ALOLA_WILD_BATTLE            ; 29
@@ -54,7 +54,7 @@
 	const MUSIC_ROCKET_BATTLE                ; 31
 	const MUSIC_PROF_ELM                     ; 32
 	const MUSIC_DARK_CAVE                    ; 33
-	const MUSIC_ROUTE_29                     ; 34
+	const MUSIC_ROUTE_101                    ; 34
 	const MUSIC_ROUTE_36                     ; 35
 	const MUSIC_SS_AQUA                      ; 36
 	const MUSIC_YOUNGSTER_ENCOUNTER          ; 37

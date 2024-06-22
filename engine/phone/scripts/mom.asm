@@ -1,12 +1,12 @@
 MomPhoneCalleeScript:
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftrue .bcec5
-	checkevent EVENT_DUDE_TALKED_TO_YOU
-	iftrue MomPhoneLectureScript
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue MomPhoneNoGymQuestScript
+;	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
+;	iftrue .bcec5
+;	checkevent EVENT_DUDE_TALKED_TO_YOU
+;	iftrue MomPhoneLectureScript
+;	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+;	iftrue MomPhoneNoGymQuestScript
 	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
-	iftrue MomPhoneNoPokedexScript
+	iftrue .bcec5
 	sjump MomPhoneNoPokemonScript
 
 .bcec5
@@ -23,7 +23,7 @@ MomPhoneCalleeScript:
 MomPhoneLandmark:
 	farwritetext MomPhoneLandmarkText
 	buttonsound
-	sjump MomSavingMoney
+	sjump MomPhoneHangUpScript
 
 MomPhonePalette1:
 	readvar VAR_MAPGROUP
@@ -34,20 +34,20 @@ MomPhonePalette1:
 	ifequal GROUP_GOLDENROD_CITY, .goldenrod
 	farwritetext MomPhoneGenericAreaText
 	buttonsound
-	sjump MomSavingMoney
+	sjump MomPhoneHangUpScript
 
 .newbark
 	farwritetext MomPhoneNewBarkText
 	buttonsound
-	sjump MomSavingMoney
+	sjump MomPhoneHangUpScript
 
 .cherrygrove
 	farwritetext MomPhoneCherrygroveText
 	buttonsound
-	sjump MomSavingMoney
+	sjump MomPhoneHangUpScript
 
 .violet
-	getlandmarkname STRING_BUFFER_4, SPROUT_TOWER
+	getlandmarkname STRING_BUFFER_4, VIOLET_CITY
 	sjump MomPhoneLandmark
 .azalea
 	getlandmarkname STRING_BUFFER_4, SLOWPOKE_WELL
@@ -59,12 +59,12 @@ MomPhonePalette1:
 MomPhonePalette2:
 	farwritetext MomOtherAreaText
 	buttonsound
-	sjump MomSavingMoney
+	sjump MomPhoneHangUpScript
 
 MomPhoneOther:
 	farwritetext MomDeterminedText
 	buttonsound
-	sjump MomSavingMoney
+	sjump MomPhoneHangUpScript
 
 MomSavingMoney:
 	checkflag ENGINE_MOM_SAVING_MONEY

@@ -221,7 +221,8 @@ Pokemon Stadium 2 Anthem - ShockSlayer
 Mewtwo Battle - ShockSlayer
 JohtoSafariZoneGate, JohtoSafariZone, Route 47, Gym Leader Victory,
 Zinnia Encounter and Battle, Alola Wild Pokemon, Little Root Town,
-Santalune Forest, Laverre City, Frost Cavern, Floaroma Town - Mmmmmmmmmmmmmmmmm
+Santalune Forest, Laverre City, Frost Cavern, Floaroma Town, Oreburgh Gate,
+Route 101, Cipher Peon - Mmmmmmmmmmmmmmmmm
 Cinnabar Mansion, Rocket Lair - Dannye
 NightTime coding and songs, Friendly Shop, Cynthia Battle, FRLG Gym Leader Song
 Unova Gym Battle and Giovanni Theme: TriteHexagon

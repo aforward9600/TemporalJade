@@ -29,17 +29,6 @@ Route40_MapScripts:
 	appear ROUTE40_MONICA
 	return
 
-TrainerLassArielle:
-	trainer LASS, ARIELLE, EVENT_BEAT_LASS_ARIELLE, LassArielleSeenText, LassArielleBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext LassArielleAfterBattleText
-	waitbutton
-	closetext
-	end
-
 TrainerSwimmerfAngie:
 	trainer SWIMMERF, ANGIE, EVENT_BEAT_SWIMMERF_ANGIE, SwimmerfAngieSeenText, SwimmerfAngieBeatenText, 0, .Script
 
@@ -225,29 +214,6 @@ BugCatcherArthurAfterBattleText2: ; unused
 	cont "a sing-songy"
 
 	para "voice."
-	done
-
-LassArielleSeenText:
-	text "The tide is low"
-	line "right now, so"
-
-	para "you can stand on"
-	line "the sand."
-	done
-
-LassArielleBeatenText:
-	text "That's just"
-	line "science!"
-	done
-
-LassArielleAfterBattleText:
-	text "We should probably"
-	line "get out of here"
-	cont "soon."
-
-	para "Don't want to be"
-	line "here when the"
-	cont "tide comes in."
 	done
 
 SwimmerfAngieSeenText:

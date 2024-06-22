@@ -40,7 +40,7 @@ Music:
 	dba Music_NationalPark
 	dba Music_Credits
 	dba Music_AzaleaTown
-	dba Music_CherrygroveCity
+	dba Music_FloaromaTown
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
 	dba Music_AlolaWildBattle
@@ -54,7 +54,7 @@ Music:
 	dba Music_RocketBattle
 	dba Music_ElmsLab
 	dba Music_DarkCave
-	dba Music_Route29
+	dba Music_Route101
 	dba Music_Route36
 	dba Music_SSAqua
 	dba Music_LookYoungster

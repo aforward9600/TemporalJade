@@ -2699,44 +2699,17 @@ endc
 
 LassGroup:
 	next_list_item ; LASS (1)
-	db "Jackie@", TRAINERTYPE_MOVES
-	db 12
-	dw SNUBBULL
-	dw SCARY_FACE, CHARM, BITE, LICK
-	db 12
-	dw IGGLYBUFF
-	dw MIMIC, SWEET_KISS, POUND, SING
-	db 12
-	dw CHIKORITA
-	dw SYNTHESIS, POISONPOWDER, RAZOR_LEAF, TACKLE
+	db "Jackie@", TRAINERTYPE_NORMAL
+	db 8
+	dw NIDORAN_F
+	db 8
+	dw DODUO
 	db -1 ; end
 
 	next_list_item ; LASS (3) Route 40
-	db "Arielle@", TRAINERTYPE_ITEM_MOVES
-	db 24
+	db "Arielle@", TRAINERTYPE_NORMAL
+	db 8
 	dw VULPIX
-if DEF(_CHALLENGE)
-	db CHARCOAL
-else
-	db NO_ITEM
-endc
-	dw FAINT_ATTACK, WILL_O_WISP, EMBER, CONFUSE_RAY
-	db 24
-	dw FURRET
-if DEF(_CHALLENGE)
-	db POWER_BAND
-else
-	db NO_ITEM
-endc
-	dw DIZZY_PUNCH, AGILITY, HONE_CLAWS, PURSUIT
-	db 25
-	dw RAICHU
-if DEF(_CHALLENGE)
-	db LIGHT_BALL
-else
-	db NO_ITEM
-endc
-	dw THUNDERPUNCH, QUICK_ATTACK, THUNDER_WAVE, BRICK_BREAK
 	db -1 ; end
 
 	next_list_item ; LASS (4)
@@ -4378,56 +4351,29 @@ endc
 
 BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (1)
-	db "Anton@", TRAINERTYPE_ITEM
-	db 50
-	dw ARIADOS
-if DEF(_CHALLENGE)
-	db SCOPE_LENS
-else
-	db NO_ITEM
-endc
-	db 50
-	dw LEDIAN
-	db NO_ITEM
-	db 50
-	dw HERACROSS
-	db NO_ITEM
-	db 50
-	dw TOUCANNON
-	db NO_ITEM
-	db 50
-	dw STOUTLAND
-if DEF(_CHALLENGE)
-	db SCOPE_LENS
-else
-	db NO_ITEM
-endc
-	db 51
-	dw VENOMOTH
-	db NO_ITEM
+	db "Anton@", TRAINERTYPE_NORMAL
+	db 7
+	dw CUTIEFLY
+	db 7
+	dw VENIPEDE
+	db 7
+	dw YANMA
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (2) Route 44
 	db "Colton@", TRAINERTYPE_NORMAL
-	db 7
-	dw CUTIEFLY ; replace with Cutiefly
+	db 6
+	dw CUTIEFLY
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (3)
-	db "Stevie@", TRAINERTYPE_ITEM
-	db 17
-	dw STOUTLAND
-if DEF(_CHALLENGE)
-	db SCOPE_LENS
-else
-	db NO_ITEM
-endc
-	db 17
-	dw TOUCANNON
-	db NO_ITEM
-	db 18
+	db "Stevie@", TRAINERTYPE_NORMAL
+	db 7
+	dw CUTIEFLY
+	db 7
+	dw VENIPEDE
+	db 7
 	dw YANMA
-	db NO_ITEM
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (4)
@@ -5772,14 +5718,14 @@ HikerGroup:
 
 	next_list_item ; HIKER (2) Mount Mortar 1F Inside
 	db "Ozzy@", TRAINERTYPE_ITEM
-	db 9
+	db 8
 	dw MACHOP
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
 	db NO_ITEM
 endc
-	db 9
+	db 8
 	dw BONSLY
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
@@ -8724,89 +8670,28 @@ Rival4Group:
 	dw MUDKIP
 	db -1 ; end
 
-	next_list_item ; RIVAL4 (4)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 17
-	dw EEVEE
-	db NO_ITEM
-	db 17
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 18
-	dw DRATINI
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL4 B_ROWLET
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKIPEK
+	db 11
+	dw ROWLET
 	db -1 ; end
 
-	next_list_item ; RIVAL4 (5)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 27
-	dw POLIWHIRL
-if DEF(_CHALLENGE)
-	db MYSTIC_WATER
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SYLVEON
-if DEF(_CHALLENGE)
-	db LEFTOVERS
-else
-	db NO_ITEM
-endc
-	db 29
-	dw PUPITAR
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL4 B_TEPIG
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKIPEK
+	db 11
+	dw TEPIG
 	db -1 ; end
 
-	next_list_item ; RIVAL4 (6)
-	db "<RIVAL>@", TRAINERTYPE_ITEM
-	db 27
-	dw POLIWHIRL
-if DEF(_CHALLENGE)
-	db MYSTIC_WATER
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SWINUB
-if DEF(_CHALLENGE)
-	db QUICK_CLAW
-else
-	db NO_ITEM
-endc
-	db 28
-	dw SYLVEON
-if DEF(_CHALLENGE)
-	db LEFTOVERS
-else
-	db NO_ITEM
-endc
-	db 29
-	dw DRAGONAIR
-if DEF(_CHALLENGE)
-	db SITRUS_BERRY
-else
-	db NO_ITEM
-endc
+	next_list_item ; RIVAL4 B_MUDKIP
+	db "<RIVAL>@", TRAINERTYPE_NORMAL
+	db 10
+	dw PIKIPEK
+	db 11
+	dw MUDKIP
 	db -1 ; end
 
 	end_list_items
@@ -9278,7 +9163,7 @@ if DEF(_CHALLENGE)
 	db SITRUS_BERRY
 else
 	db "Knight@", TRAINERTYPE_NORMAL
-	db 8
+	db 7
 	dw VENIPEDE
 	db 8
 	dw ZUBAT

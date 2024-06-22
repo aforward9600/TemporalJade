@@ -2168,7 +2168,7 @@ GetMapMusic::
 	jr .done
 
 .clearedmahogany
-	ld c, MUSIC_CHERRYGROVE_CITY
+	ld c, MUSIC_FLOAROMA_TOWN
 	jr .done
 
 GetMapTimeOfDay::

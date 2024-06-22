@@ -102,6 +102,7 @@ MoravilGymDoor:
 
 .GotPasswordRight:
 	scall ReturnToMapMoravilLibrary
+	closetext
 	pause 10
 	changeblock 4, 0, $3f
 	reloadmappart
@@ -109,6 +110,7 @@ MoravilGymDoor:
 	waitsfx
 	pause 5
 	setevent EVENT_OPENED_SCHOOL_GYM
+	opentext
 .GymDoorIsAlreadyUnlocked:
 	writetext TheGymDoorIsUnlockedText
 	waitbutton

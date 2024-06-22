@@ -1,11 +1,11 @@
 	object_const_def ; object_event constants
-	const ROUTE30_YOUNGSTER2
-	const ROUTE30_YOUNGSTER3
+	const ROUTE30_LASS
+	const ROUTE30_LASS2
 	const ROUTE30_BUG_CATCHER
-	const ROUTE30_YOUNGSTER4
+	const ROUTE30_YOUNGSTER
 	const ROUTE30_FRUIT_TREE1
 	const ROUTE30_FRUIT_TREE2
-	const ROUTE30_COOLTRAINER_F
+	const ROUTE30_GRAMPS
 	const ROUTE30_POKE_BALL
 
 Route30_MapScripts:
@@ -13,38 +13,24 @@ Route30_MapScripts:
 
 	db 0 ; callbacks
 
-TrainerYoungsterCotton:
-	trainer YOUNGSTER, COTTON, EVENT_BEAT_YOUNGSTER_COTTON, YoungsterCottonSeenText, YoungsterCottonBeatenText, 0, .Script
+TrainerLassJackie:
+	trainer LASS, JACKIE, EVENT_BEAT_LASS_JACKIE, LassJackieSeenText, LassJackieBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext YoungsterCottonAfterText
+	writetext LassJackieAfterBattleText
 	waitbutton
 	closetext
 	end
 
-TrainerCooltrainerMJacques:
-	trainer COOLTRAINERM, JACQUES, EVENT_BEAT_COOLTRAINERM_JACQUES, CooltrainerMJacquesSeenText, CooltrainerMJacquesBeatenText, 0, .Script
+TrainerLassArielle:
+	trainer LASS, ARIELLE, EVENT_BEAT_LASS_ARIELLE, LassArielleSeenText, LassArielleBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext CooltrainerMJacquesRematchText
-	yesorno
-	iffalse .Refused
-	playmusic MUSIC_HIKER_ENCOUNTER
-	writetext CooltrainerMJacquesLetsDoItText
-	waitbutton
-	winlosstext CooltrainerMJacquesBeatenText, 0
-	loadtrainer COOLTRAINERM, JACQUES
-	startbattle
-	reloadmapafterbattle
-	closetext
-	end
-
-.Refused:
-	writetext CooltrainerMJacquesRefusedText
+	writetext LassArielleAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -60,8 +46,8 @@ TrainerBugCatcherAnton:
 	closetext
 	end
 
-Route30YoungsterScript:
-	jumptextfaceplayer Route30YoungsterText
+Route30GrampsScript:
+	jumptextfaceplayer Route30GrampsText
 
 Route30LassScript:
 	jumptextfaceplayer Route30LassText
@@ -76,7 +62,7 @@ MrPokemonsHouseSign:
 	jumptext MrPokemonsHouseSignText
 
 Route30MaxRevive:
-	itemball MAX_REVIVE
+	itemball POISON_BARB
 
 Route30FruitTree1:
 	fruittree FRUITTREE_ROUTE_30_1
@@ -148,85 +134,124 @@ CooltrainerMJacquesRefusedText:
 	done
 
 BugCatcherAntonSeenText:
-	text "I'm the stronest"
-	line "Bug Catcher in"
-	cont "Johto!"
+	text "There aren't any"
+	line "Bug types around"
+	cont "here, but the"
+	cont "view of the river"
+	cont "is so pretty,"
+
+	para "I don't really"
+	line "mind."
 	done
 
 BugCatcherAntonBeatenText:
-	text "Not strong enough!"
+	text "Losing isn't a"
+	line "pretty sight!"
 	done
 
 BugCatcherAntonAfterText:
-	text "At least I think"
-	line "I am."
+	text "Falling into the"
+	line "Black River isn't"
 
-	para "You know of any"
-	line "Bug Catchers"
-	cont "stronger than me?"
-
-	para "I doubt it."
+	para "a pretty sight"
+	line "either."
 	done
 
-Route30YoungsterText:
-	text "Mr.#mon's"
-	line "house? It's a bit"
-	cont "farther north."
+Route30GrampsText:
+	text "I remember when"
+	line "the Black River"
+	cont "was so polluted,"
 
-	para "He's got some"
-	line "neat stuff."
+	para "it caught on fire!"
+
+	para "That was a serious"
+	line "wake-up call for"
+	cont "us."
 	done
 
 Route30LassText:
-	text "Cherrygrove City"
-	line "is so beautiful"
-	cont "this time of year."
+	text "Did you know there"
+	line "are Sandygast"
+	cont "living in the sand"
+	cont "box at the school?"
 
-	para "The cherry"
-	line "blossoms really"
-	cont "stand out."
+	para "I found out when"
+	line "one popped up and"
+	cont "scared the life"
+	cont "outta me!"
 	done
 
 Route30SignText:
-	text "Route 30"
+	text "Route 25"
 
-	para "Violet City -"
-	line "Cherrygrove City"
-
-	para "Cooltrainer Jacque"
-	line "is bored!"
+	para "Antiquo Town -"
+	line "Moravil School"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon's house"
-	line "straight ahead!"
+	text "Black River Pass"
+	line "and Black River"
+	cont "Bridge"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon's house"
+	text "Moravil School"
+	line "ahead"
+	done
+
+LassJackieSeenText:
+	text "I'm playing hooky"
+	line "today."
+	done
+
+LassJackieBeatenText:
+	text "I should have"
+	line "been in school!"
+	done
+
+LassJackieAfterBattleText:
+	text "Hopefully the"
+	line "truant officer"
+	cont "doesn't catch me."
+	done
+
+LassArielleSeenText:
+	text "That cave over"
+	line "there apparently"
+	cont "goes underneath"
+	cont "the Black River."
+	done
+
+LassArielleBeatenText:
+	text "It goes right"
+	line "under the water!"
+	done
+
+LassArielleAfterBattleText:
+	text "Or so I've been"
+	line "told."
 	done
 
 Route30_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	db 1 ; warp events
 	warp_event 34,  7, BLACK_RIVER_PASSAGE_ROUTE_25, 1
-	warp_event 33,  5, MR_POKEMONS_HOUSE, 1
 
 	db 0 ; coord events
 
 	db 4 ; bg events
-	bg_event 25, 43, BGEVENT_READ, Route30Sign
-	bg_event 29, 29, BGEVENT_READ, MrPokemonsHouseDirectionsSign
-	bg_event 31,  5, BGEVENT_READ, MrPokemonsHouseSign
-	bg_event 30,  9, BGEVENT_ITEM, Route30HiddenPotion
+	bg_event 45, 15, BGEVENT_READ, Route30Sign
+	bg_event 32,  8, BGEVENT_READ, MrPokemonsHouseDirectionsSign
+	bg_event 16,  8, BGEVENT_READ, MrPokemonsHouseSign
+	bg_event 35, 14, BGEVENT_ITEM, Route30HiddenPotion
 
 	db 8 ; object events
-	object_event 26, 42, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterCotton, 0
-	object_event 21, 23, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerMJacques, -1
-	object_event 20,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherAnton, -1
-	object_event 27, 32, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route30LassScript, -1
-	object_event 21, 39, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree1, -1
-	object_event 27,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree2, -1
-	object_event 18, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30YoungsterScript, -1
-	object_event 24, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route30MaxRevive, EVENT_ROUTE_30_ANTIDOTE
+	object_event  6, 12, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerLassJackie, -1
+	object_event 42, 11, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerLassArielle, -1
+	object_event 24,  9, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherAnton, -1
+	object_event 34, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route30LassScript, -1
+	object_event 49, 11, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree1, -1
+	object_event 12,  6, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree2, -1
+	object_event 18, 14, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30GrampsScript, -1
+	object_event 15,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route30MaxRevive, EVENT_ROUTE_30_ANTIDOTE

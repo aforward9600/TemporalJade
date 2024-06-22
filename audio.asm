@@ -55,7 +55,7 @@ INCLUDE "audio/music/contestresults.asm"
 
 SECTION "Songs 3", ROMX
 
-INCLUDE "audio/music/route29.asm"
+INCLUDE "audio/music/route101.asm"
 INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
@@ -163,7 +163,7 @@ INCLUDE "audio/music/littleroottown.asm"
 INCLUDE "audio/music/kantowildbattle.asm"
 INCLUDE "audio/music/route36.asm"
 INCLUDE "audio/music/ecruteakcity.asm"
-INCLUDE "audio/music/cherrygrovecity.asm"
+INCLUDE "audio/music/floaromatown.asm"
 INCLUDE "audio/music/violetcity.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 INCLUDE "audio/music/lavendertown.asm"

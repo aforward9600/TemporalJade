@@ -143,17 +143,6 @@ TrainerFisherNoah:
 	closetext
 	end
 
-TrainerLassJackie:
-	trainer LASS, JACKIE, EVENT_BEAT_LASS_JACKIE, LassJackieSeenText, LassJackieBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext LassJackieAfterBattleText
-	waitbutton
-	closetext
-	end
-
 WesleyScript:
 	faceplayer
 	opentext
@@ -397,23 +386,6 @@ CooltrainermAaronAfterBattleText:
 	line "constant battling."
 	done
 
-LassJackieSeenText:
-	text "This lake is so"
-	line "pretty, don't you"
-	cont "agree?"
-	done
-
-LassJackieBeatenText:
-	text "Well, I think it"
-	line "is."
-	done
-
-LassJackieAfterBattleText:
-	text "I could stay here"
-	line "forever looking at"
-	cont "this lake."
-	done
-
 MeetWesleyText:
 	text "Howdy! They call"
 	line "me the Week Guy."
@@ -540,7 +512,7 @@ LakeOfRage_MapEvents:
 	object_event  9, 32, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageCooltrainerFScript, -1
 	object_event 32, 21, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerFisherAidan, -1
 	object_event 29, 26, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerFisherNoah, -1
-	object_event 37,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerLassJackie, -1
+	object_event 37,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, ObjectEvent, -1
 	object_event 27,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WesleyScript, EVENT_LAKE_OF_RAGE_WESLEY_OF_WEDNESDAY
 	object_event  2, 13, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageElixer, EVENT_LAKE_OF_RAGE_ELIXER
 	object_event  8,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, LakeOfRageTMDetect, EVENT_LAKE_OF_RAGE_TM_DETECT
