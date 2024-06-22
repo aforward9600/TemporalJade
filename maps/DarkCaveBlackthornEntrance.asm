@@ -119,7 +119,7 @@ DarkCaveBlackthornEntrance_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
-	warp_event 27,  3, DARK_CAVE_NEW_ENTRANCE, 2
+	warp_event 27,  3, BLACK_RIVER_PASSAGE_ROUTE_25, 2
 	warp_event  3, 25, DARK_CAVE_VIOLET_ENTRANCE, 2
 	warp_event  7,  1, ROCKET_LAIR_HALLWAY_1, 1
 

@@ -3,7 +3,7 @@
 SwarmGrassWildMons:
 
 ; Dunsparce swarm
-	map_id DARK_CAVE_NEW_ENTRANCE
+	map_id BLACK_RIVER_PASSAGE_ROUTE_25
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 2, GEODUDE

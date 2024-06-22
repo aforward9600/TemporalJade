@@ -210,7 +210,7 @@ Route30_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event 23, 39, ROUTE_30_BERRY_HOUSE, 1
+	warp_event 34,  7, BLACK_RIVER_PASSAGE_ROUTE_25, 1
 	warp_event 33,  5, MR_POKEMONS_HOUSE, 1
 
 	db 0 ; coord events

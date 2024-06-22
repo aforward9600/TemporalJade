@@ -1026,8 +1026,8 @@ RivalsHouse1F_Blocks:
 RivalsHouse2F_Blocks:
 	INCBIN "maps/RivalsHouse2F.blk"
 
-DarkCaveNewEntrance_Blocks:
-	INCBIN "maps/DarkCaveNewEntrance.blk"
+BlackRiverPassageRoute25_Blocks:
+	INCBIN "maps/BlackRiverPassageRoute25.blk"
 
 BellchimePath_Blocks:
 	INCBIN "maps/BellchimePath.blk"

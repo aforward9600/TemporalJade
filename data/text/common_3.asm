@@ -1075,6 +1075,11 @@ UnknownText_0x1c5862::
 	line "to exit."
 	done
 
+PokegearSelectPagerText::
+	text "Which #mon will"
+	line "you call?"
+	done
+
 UnknownText_0x1c587d::
 	text "Delete this stored"
 	line "phone number?"

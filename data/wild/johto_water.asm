@@ -282,4 +282,11 @@ JohtoWaterWildMons:
 	dbw 15, SHELLDER
 	dbw 15, LAPRAS
 
+	map_id BLACK_RIVER_PASSAGE_ROUTE_25
+	db 10 percent
+	dbw 20, SLOWPOKE
+	dbw 20, GOLDEEN
+	dbw 20, LAPRAS
+	dbw 20, SEAKING
+
 	db -1 ; end

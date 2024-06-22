@@ -693,7 +693,7 @@ ENDM
 	map_attributes MastersHouse1F, MASTERS_HOUSE_1F, $00, 0
 	map_attributes MastersHouse2F, MASTERS_HOUSE_2F, $00, 0
 	map_attributes RivalsHouse2F, RIVALS_HOUSE_2F, $00, 0
-	map_attributes DarkCaveNewEntrance, DARK_CAVE_NEW_ENTRANCE, $00, 0
+	map_attributes BlackRiverPassageRoute25, BLACK_RIVER_PASSAGE_ROUTE_25, $00, 0
 	map_attributes BellchimePath, BELLCHIME_PATH, $05, 0
 	map_attributes EcruteakMoveTutorHouse, ECRUTEAK_MOVE_TUTOR_HOUSE, $00, 0
 	map_attributes FossilHouse, FOSSIL_HOUSE, $00, 0

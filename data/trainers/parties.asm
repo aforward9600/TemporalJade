@@ -5772,17 +5772,14 @@ HikerGroup:
 
 	next_list_item ; HIKER (2) Mount Mortar 1F Inside
 	db "Ozzy@", TRAINERTYPE_ITEM
-	db 15
-	dw GEODUDE
+	db 9
+	dw MACHOP
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
 	db NO_ITEM
 endc
-	db 15
-	dw MACHOP
-	db NO_ITEM
-	db 15
+	db 9
 	dw BONSLY
 if DEF(_CHALLENGE)
 	db FOCUS_SASH

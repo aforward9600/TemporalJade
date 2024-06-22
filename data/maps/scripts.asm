@@ -445,7 +445,7 @@ SECTION "Map Scripts 26", ROMX
 INCLUDE "maps/GoldenrodJail.asm"
 INCLUDE "maps/EcruteakMoveTutorHouse.asm"
 INCLUDE "maps/Route40BattleTowerGate.asm"
-INCLUDE "maps/DarkCaveNewEntrance.asm"
+INCLUDE "maps/BlackRiverPassageRoute25.asm"
 INCLUDE "maps/Route2NuggetHouse.asm"
 INCLUDE "maps/ViridianPokecenter1F.asm"
 INCLUDE "maps/TrainerHouseB1F.asm"

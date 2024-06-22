@@ -1652,35 +1652,35 @@ JohtoGrassWildMons:
 	dbw 75, CROBAT
 	dbw 75, CROBAT
 
-	map_id DARK_CAVE_NEW_ENTRANCE
+	map_id BLACK_RIVER_PASSAGE_ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, ZUBAT
-	dbw 2, CLEFFA
+	dbw 3, ZUBAT
+	dbw 2, GEODUDE
 	dbw 2, WOOPER
-	dbw 2, WYNAUT
+	dbw 2, DRILBUR
 	dbw 2, TEDDIURSA
-	dbw 2, WOOPER
-	dbw 2, CYNDAQUIL
-	dbw 2, CYNDAQUIL
+	dbw 2, DRILBUR
+	dbw 2, TEDDIURSA
+	dbw 2, TEDDIURSA
 	; day
-	dbw 2, ZUBAT
-	dbw 2, CLEFFA
+	dbw 3, ZUBAT
+	dbw 2, GEODUDE
 	dbw 2, WOOPER
-	dbw 2, WYNAUT
+	dbw 2, DRILBUR
 	dbw 2, TEDDIURSA
-	dbw 2, WOOPER
-	dbw 2, CYNDAQUIL
-	dbw 2, CYNDAQUIL
+	dbw 2, DRILBUR
+	dbw 2, TEDDIURSA
+	dbw 2, TEDDIURSA
 	; nite
-	dbw 2, ZUBAT
-	dbw 2, CLEFFA
+	dbw 3, ZUBAT
+	dbw 2, GEODUDE
 	dbw 2, WOOPER
-	dbw 2, WYNAUT
+	dbw 2, DRILBUR
 	dbw 2, TEDDIURSA
-	dbw 2, WOOPER
-	dbw 2, CYNDAQUIL
-	dbw 2, CYNDAQUIL
+	dbw 2, DRILBUR
+	dbw 2, TEDDIURSA
+	dbw 2, TEDDIURSA
 
 	map_id CLIFF_CAVE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

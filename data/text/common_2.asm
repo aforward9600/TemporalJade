@@ -309,7 +309,7 @@ UnknownText_0x1c05c8::
 	prompt
 
 UnknownText_0x1c05dd::
-	text "Scyther appeared"
+	text "Absol appeared"
 	line "and cut!"
 	prompt
 
@@ -319,7 +319,7 @@ UnknownText_0x1c05ec::
 	prompt
 
 UnknownText_0x1c0609::
-	text "Voltorb illuminat-"
+	text "Pikachu illuminat-"
 	line "ed the area!@"
 	text_waitbutton
 	text_end

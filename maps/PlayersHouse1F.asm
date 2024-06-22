@@ -52,6 +52,7 @@ MeetMomScript:
 	waitsfx
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
+	setflag ENGINE_PHONE_CARD
 	setscene SCENE_PLAYERS_HOUSE_NOTHING
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2

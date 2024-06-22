@@ -10,13 +10,13 @@ Landmarks:
 	landmark 148, 124, MurkrowValleyName
 	landmark 132, 124, Route29Name
 	landmark 116, 124, AntiquoTownName
+	landmark 116, 116, DarkCaveName
 	landmark 108, 116, Route30Name
 	landmark  92, 116, MoravilSchoolName
 	landmark  92, 116, SproutTowerName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
-	landmark 112,  72, DarkCaveName
 	landmark 130,  38, IcePathName
 	landmark 120,  44, Route44Name
 	landmark 140,  60, AcituTownName
@@ -211,7 +211,7 @@ Route43Name:         db "Route 43@"
 Route44Name:         db "Route 44@"
 Route45Name:         db "Route 45@"
 Route46Name:         db "Route 46@"
-DarkCaveName:        db "Dark Cave@"
+DarkCaveName:        db "Black River¯Pass@"
 IlexForestName:      db "Ilex¯Forest@"
 BurnedTowerName:     db "Burned¯Tower@"
 FastShipName:        db "Fast Ship@"

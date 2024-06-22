@@ -1,5 +1,5 @@
 	object_const_def ; object_event constants
-	const EARLSPOKEMONACADEMY_EARL
+	const EARLSPOKEMONACADEMY_TEACHER
 	const EARLSPOKEMONACADEMY_YOUNGSTER1
 	const EARLSPOKEMONACADEMY_GAMEBOY_KID1
 	const EARLSPOKEMONACADEMY_GAMEBOY_KID2
@@ -12,26 +12,24 @@ EarlsPokemonAcademy_MapScripts:
 	db 0 ; callbacks
 
 AcademyEarl:
-	applymovement EARLSPOKEMONACADEMY_EARL, AcademyEarlSpinMovement
 	faceplayer
 	opentext
-	writetext AcademyEarlIntroText
-	yesorno
-	iffalse .Part1
-	writetext AcademyEarlTeachHowToWinText
-	yesorno
-	iffalse .Done
-.Part1:
-	writetext AcademyEarlTeachMoreText
-	yesorno
-	iffalse .Done
-	writetext AcademyEarlTeachHowToRaiseWellText
+	checkevent EVENT_GOT_VOLTORB_CALL
+	iftrue .AlreadyGotVoltorbCall
+	checkflag ENGINE_GLACIERBADGE
+	iftrue .GiveVoltorbCall
+	writetext ClassroomTeacherText1
 	waitbutton
 	closetext
 	end
 
-.Done:
-	writetext AcademyEarlNoMoreToTeachText
+.GiveVoltorbCall:
+	writetext TeacherGiveVoltorbCallText
+	buttonsound
+	verbosegiveitem VOLTORB_CALL
+	setevent EVENT_GOT_VOLTORB_CALL
+.AlreadyGotVoltorbCall:
+	writetext TeacherVoltorbCallExplanationText
 	waitbutton
 	closetext
 	end
@@ -63,7 +61,23 @@ EarlsPokemonAcademyGameboyKid2Script:
 	end
 
 EarlsPokemonAcademyYoungster2Script:
-	jumptextfaceplayer EarlsPokemonAcademyYoungster2Text
+	faceplayer
+	opentext
+	checkevent EVENT_GOT_TM10_HIDDEN_POWER
+	iftrue .AlreadyHaveTM10HiddenPower
+	writetext EarlsPokemonAcademyYoungster2Text
+	waitbutton
+	closetext
+	end
+
+.AlreadyHaveTM10HiddenPower:
+	writetext EarlsPokemonAcademyYoungsterHPText
+	waitbutton
+	special HiddenPowerGuru
+.Done:
+	waitbutton
+	closetext
+	end
 
 AcademyBlackboard:
 	opentext
@@ -124,7 +138,7 @@ AcademyBlackboard:
 	db "SLP@"
 	db "BRN@"
 	db "FRZ@"
-	db "QUIT@"
+	db "Quit@"
 
 AcademyNotebook:
 	opentext
@@ -150,94 +164,53 @@ AcademyStickerMachine:
 AcademyBookshelf:
 	jumpstd difficultbookshelf
 
-AcademyEarlSpinMovement:
-	turn_head DOWN
-	turn_head LEFT
-	turn_head UP
-	turn_head RIGHT
-	turn_head DOWN
-	turn_head LEFT
-	turn_head UP
-	turn_head RIGHT
-	turn_head DOWN
-	turn_head LEFT
-	turn_head UP
-	turn_head RIGHT
-	turn_head DOWN
-	step_end
+TeacherGiveVoltorbCallText:
+	text "Oh, you've beaten"
+	line "Steve?"
 
-AcademyEarlIntroText:
-	text "Earl, I am!"
+	para "Good for you."
 
-	para "Wonderful are"
-	line "#mon, yes!"
+	para "He can be tough"
+	line "if you're not"
+	cont "prepared."
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "It's customary that"
+	line "I hand these out"
+	cont "to trainers that"
+	cont "defeat him."
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "It's a #mon"
+	line "Call."
+
+	para "Use it to call"
+	line "a wild #mon to"
+	cont "help you."
+
+	para "You'll find more"
+	line "of these along"
+	cont "your journey."
 	done
 
-AcademyEarlTeachHowToWinText:
-	text "Good! Teach you,"
-	line "I will!"
+TeacherVoltorbCallExplanationText:
+	text "That one is the"
+	line "Pikachu Call."
 
-	para "In battle, #mon"
-	line "top on list jump"
-	cont "out first!"
-
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
-
-	para "More from me you"
-	line "want to hear?"
+	para "It will light up"
+	line "darkened areas."
 	done
 
-AcademyEarlTeachMoreText:
-	text "So, want to know"
-	line "how to raise"
-	cont "#mon well?"
-	done
+ClassroomTeacherText1:
+	text "If you study hard"
+	line "enough, you'll"
+	cont "easily defeat the"
+	cont "Gym Leader."
 
-AcademyEarlTeachHowToRaiseWellText:
-	text "Fine! Teach you,"
-	line "I will!"
+	para "Come back and see"
+	line "me after you get"
+	cont "your badge."
 
-	para "If #mon come"
-	line "out in battle even"
-
-	para "briefly, some Exp."
-	line "Points it gets."
-
-	para "At top of list put"
-	line "weak #mon."
-
-	para "Switch in battle"
-	line "quick!"
-
-	para "If you have Exp."
-	line "Share on, all"
-	cont "#mon gain Exp."
-
-	para "even if not in"
-	line "battle!"
-
-	para "This way, weak"
-	line "#mon strong"
-	cont "become!"
-	done
-
-AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
-
-	para "Good to #mon"
-	line "you must be!"
+	para "I'll give you a"
+	line "useful item."
 	done
 
 EarlsPokemonAcademyYoungster1Text:
@@ -270,16 +243,20 @@ EarlsPokemonAcademyGameboyKid2Text:
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A #mon holding"
-	line "a Berry will heal"
-	cont "itself in battle."
+	text "Comeback after you"
+	line "get a Technical"
+	cont "Machine for a move"
+	cont "whose type varies."
 
-	para "Many other items"
-	line "can be held by"
-	cont "#mon…"
+	para "I can help you use"
+	line "it."
+	done
 
-	para "It sure is tough"
-	line "taking notes…"
+EarlsPokemonAcademyYoungsterHPText:
+	text "So, which #mon"
+	line "shall I analyze"
+	cont "and produce its"
+	cont "hidden power?"
 	done
 
 AcademyBlackboardText:
@@ -457,9 +434,9 @@ EarlsPokemonAcademy_MapEvents:
 	bg_event  4,  0, BGEVENT_READ, AcademyBlackboard
 
 	db 6 ; object events
-	object_event  4,  2, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AcademyEarl, -1
+	object_event  4,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AcademyEarl, -1
 	object_event  2,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyYoungster1Script, -1
 	object_event  3, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyGameboyKid1Script, -1
 	object_event  4, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyGameboyKid2Script, -1
-	object_event  4,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyYoungster2Script, -1
+	object_event  4,  7, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyYoungster2Script, -1
 	object_event  2,  4, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AcademyNotebook, -1

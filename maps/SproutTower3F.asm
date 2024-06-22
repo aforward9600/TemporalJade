@@ -32,7 +32,7 @@ SproutTower3F_MapScripts:
 SageLiScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_HM05_FLASH
+	checkevent EVENT_GOT_VOLTORB_CALL
 	iftrue .GotFlash
 	writetext SageLiSeenText
 	waitbutton
@@ -45,7 +45,7 @@ SageLiScript:
 	writetext SageLiTakeThisFlashText
 	buttonsound
 	verbosegiveitem VOLTORB_CALL
-	setevent EVENT_GOT_HM05_FLASH
+	setevent EVENT_GOT_VOLTORB_CALL
 	setevent EVENT_BEAT_SAGE_LI
 	writetext SageLiFlashExplanationText
 	waitbutton

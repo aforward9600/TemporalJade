@@ -2240,7 +2240,7 @@ SwarmScript:
 
 .dunsparce
 	setflag ENGINE_SWARM
-	swarm DARK_CAVE_NEW_ENTRANCE
+	swarm BLACK_RIVER_PASSAGE_ROUTE_25
 	getlandmarkname STRING_BUFFER_5, DARK_CAVE
 	getmonname STRING_BUFFER_3, DUNSPARCE
 	farwritetext CaveSwarmText

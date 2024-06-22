@@ -147,7 +147,7 @@ ENDM
 	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
 	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
-	map_const DARK_CAVE_NEW_ENTRANCE,                       6,  4 ; 92
+	map_const BLACK_RIVER_PASSAGE_ROUTE_25,                12,  4 ; 92
 	map_const LIGHTHOUSE_ELEVATOR,                          2,  2 ; 93
 	map_const BURNED_TOWER_2F,                             10,  9 ; 94
 	map_const TEAM_ROCKET_BASE_JAIL,                        5,  9 ; 95

@@ -166,7 +166,7 @@ ItemNames::
 	db "Royal Rock@"
 	db "Scyther Call@"
 	db "Golem Call@"
-	db "Voltorb Call@"
+	db "Pikachu Call@"
 	db "Machamp Call@"
 	db "SnubbullCall@"
 	db "Lapras CallA@"

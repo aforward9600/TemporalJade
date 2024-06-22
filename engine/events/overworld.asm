@@ -312,8 +312,8 @@ Script_UseFlash:
 	reloadmappart
 	special UpdateTimePals
 	refreshscreen
-	pokepic VOLTORB
-	cry VOLTORB
+	pokepic PIKACHU
+	cry PIKACHU
 	pause 10
 	closepokepic
 	closetext
