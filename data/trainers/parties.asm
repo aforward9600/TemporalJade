@@ -7029,7 +7029,7 @@ PicnickerGroup:
 	db 12
 	dw KOTORA
 	db 12
-	dw AZURILL
+	dw ABSOL
 	db -1 ; end
 
 	next_list_item ; PICNICKER (4) Route 32

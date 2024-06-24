@@ -61,7 +61,7 @@ EggMovePointers2::
 	dw MareepEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw AzurillEggMoves
+	dw AbsolEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw BonslyEggMoves
@@ -377,19 +377,15 @@ MareepEggMoves:
 	dw FLATTER
 	dw -1 ; end
 
-AzurillEggMoves:
-	dw PRESENT
-	dw AMNESIA
-	dw FUTURE_SIGHT
-	dw BELLY_DRUM
-	dw PERISH_SONG
-	dw SUPERSONIC
-	dw FORESIGHT
-	dw BODY_SLAM
-	dw ENCORE
-	dw SING
-	dw SLAM
-	dw MUDDY_WATER
+AbsolEggMoves:
+	dw BATON_PASS
+	dw DOUBLE_EDGE
+	dw FAINT_ATTACK
+	dw MEAN_LOOK
+	dw MEGAHORN
+	dw PLAY_ROUGH
+	dw SUCKER_PUNCH
+	dw ZEN_HEADBUTT
 	dw -1 ; end
 
 BonslyEggMoves:

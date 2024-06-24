@@ -216,7 +216,7 @@ PokemonCries::
 	mon_cry CRY_MAREEP,      $022,  $0d8 ; MAREEP
 	mon_cry CRY_MAREEP,     -$007,  $180 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS
-	mon_cry CRY_MARILL,      $11b,  $070 ; AZURILL
+	mon_cry CRY_SPEAROW,     $795,  $0a7 ; ABSOL
 	mon_cry CRY_MARILL,      $11b,  $120 ; MARILL
 	mon_cry CRY_MARILL,      $0b6,  $180 ; AZUMARILL
 	mon_cry CRY_CLEFFA,     -$050,  $0bc ; BONSLY

@@ -210,7 +210,7 @@ FramesPointers:
 	dba MareepFrames
 	dba FlaaffyFrames
 	dba AmpharosFrames
-	dba AzurillFrames
+	dba AbsolFrames
 	dba MarillFrames
 	dba AzumarillFrames
 	dba BonslyFrames

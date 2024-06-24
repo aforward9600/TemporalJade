@@ -210,7 +210,7 @@ AnimationPointers:
 	dw MareepAnimation
 	dw FlaaffyAnimation
 	dw AmpharosAnimation
-	dw AzurillAnimation
+	dw AbsolAnimation
 	dw MarillAnimation
 	dw AzumarillAnimation
 	dw BonslyAnimation

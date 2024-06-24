@@ -709,7 +709,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTileMap
 
-	ld hl, AZURILL
+	ld hl, ABSOL
 	call GetPokemonIDFromIndex
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
@@ -770,7 +770,7 @@ OakText1:
 OakText2:
 	text_far _OakText2
 	text_asm
-	ld hl, AZURILL
+	ld hl, ABSOL
 	call GetPokemonIDFromIndex
 	call PlayMonCry
 	call WaitSFX

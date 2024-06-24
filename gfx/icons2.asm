@@ -88,7 +88,7 @@ Icons2:
 	dw MareepIcon
 	dw FlaaffyIcon
 	dw AmpharosIcon
-	dw AzurillIcon
+	dw AbsolIcon
 	dw MarillIcon
 	dw AzumarillIcon
 	dw BonslyIcon
@@ -215,7 +215,7 @@ XatuIcon:         INCBIN "gfx/icons/xatu.2bpp"
 MareepIcon:       INCBIN "gfx/icons/mareep.2bpp"
 FlaaffyIcon:      INCBIN "gfx/icons/flaaffy.2bpp"
 AmpharosIcon:     INCBIN "gfx/icons/ampharos.2bpp"
-AzurillIcon:      INCBIN "gfx/icons/azurill.2bpp"
+AbsolIcon:        INCBIN "gfx/icons/absol.2bpp"
 MarillIcon:       INCBIN "gfx/icons/marill.2bpp"
 AzumarillIcon:    INCBIN "gfx/icons/azumarill.2bpp"
 BonslyIcon:       INCBIN "gfx/icons/bonsly.2bpp"

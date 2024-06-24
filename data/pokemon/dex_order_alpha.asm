@@ -2,6 +2,7 @@
 
 AlphabeticalPokedexOrder:
 	dw ABRA
+	dw ABSOL
 	dw AERODACTYL
 	dw AGGRON
 	dw AIPOM
@@ -16,7 +17,6 @@ AlphabeticalPokedexOrder:
 	dw ARON
 	dw ARTICUNO
 	dw AZUMARILL
-	dw AZURILL
 	dw BAGON
 	dw BAYLEEF
 	dw BELLOSSOM

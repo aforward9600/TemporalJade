@@ -211,7 +211,7 @@ PokedexDataPointerTable:
 	dba MareepPokedexEntry
 	dba FlaaffyPokedexEntry
 	dba AmpharosPokedexEntry
-	dba AzurillPokedexEntry
+	dba AbsolPokedexEntry
 	dba MarillPokedexEntry
 	dba AzumarillPokedexEntry
 	dba BonslyPokedexEntry

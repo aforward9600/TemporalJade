@@ -432,8 +432,8 @@ PokemonPicPointers::
 	dba FlaaffyBackpic
 	dba AmpharosFrontpic
 	dba AmpharosBackpic
-	dba AzurillFrontpic
-	dba AzurillBackpic
+	dba AbsolFrontpic
+	dba AbsolBackpic
 	dba MarillFrontpic
 	dba MarillBackpic
 	dba AzumarillFrontpic

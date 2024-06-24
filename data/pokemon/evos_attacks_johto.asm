@@ -60,7 +60,7 @@ EvosAttacksPointers2::
 	dw MareepEvosAttacks
 	dw FlaaffyEvosAttacks
 	dw AmpharosEvosAttacks
-	dw AzurillEvosAttacks
+	dw AbsolEvosAttacks
 	dw MarillEvosAttacks
 	dw AzumarillEvosAttacks
 	dw BonslyEvosAttacks
@@ -1389,19 +1389,27 @@ AmpharosEvosAttacks:
 	dbw 65, DRAGON_PULSE
 	db 0 ; no more level-up moves
 
-AzurillEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
+AbsolEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, SPLASH
-	dbw 1, WATER_GUN
-	dbw 2, TAIL_WHIP
-	dbw 5, DOUBLESLAP
-	dbw 7, BUBBLE
-	dbw 10, CHARM
-	dbw 13, BUBBLEBEAM
-	dbw 16, SWEET_KISS
-	dbw 20, SLAM
-	dbw 23, BOUNCE
+	dbw 1, PERISH_SONG
+	dbw 1, FUTURE_SIGHT
+	dbw 1, SCRATCH
+	dbw 4, LEER
+	dbw 7, QUICK_ATTACK
+	dbw 10, PURSUIT
+	dbw 13, HONE_CLAWS
+	dbw 16, BITE
+	dbw 19, DOUBLE_TEAM
+	dbw 22, SLASH
+	dbw 25, SWORDS_DANCE
+	dbw 29, NIGHT_SLASH
+	dbw 33, DETECT
+	dbw 37, PSYCHO_CUT
+	dbw 41, CATASTROPHE
+	dbw 45, SUCKER_PUNCH
+	dbw 49, RAZOR_WIND
+	dbw 53, FUTURE_SIGHT
+	dbw 57, PERISH_SONG
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:

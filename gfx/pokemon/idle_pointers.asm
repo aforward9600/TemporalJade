@@ -210,7 +210,7 @@ AnimationIdlePointers:
 	dw MareepAnimationIdle
 	dw FlaaffyAnimationIdle
 	dw AmpharosAnimationIdle
-	dw AzurillAnimationIdle
+	dw AbsolAnimationIdle
 	dw MarillAnimationIdle
 	dw AzumarillAnimationIdle
 	dw BonslyAnimationIdle

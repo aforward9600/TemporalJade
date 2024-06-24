@@ -36,8 +36,8 @@ OddEggSpecies:
 	dw IGGLYBUFF
 	dw MUNCHLAX
 	dw MUNCHLAX
-	dw AZURILL
-	dw AZURILL
+	dw ABSOL
+	dw ABSOL
 	dw HAPPINY
 	dw HAPPINY
 	dw TYROGUE

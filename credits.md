@@ -114,7 +114,7 @@ Mime Jr. Back Sprite: lakeofdance
 
 Duskull, Dusclops, Dusknoir, Bronzor, Bronzong, Ralts, Kirlia, Gardevoir, Gallade,
 Budew, Roselia, Roserade, Electrike, Manectric, Cacnea, Cacturne, Croagunk,
-Toxicroak, Snorunt, Glalie, Froslass, Aggron, Lotad, Lombre, Ludicolo sprites:
+Toxicroak, Snorunt, Glalie, Froslass, Aggron, Lotad, Lombre, Ludicolo, Absol sprites:
 Prism Team.
 
 Mudkip line sprites: Bloodless & Blue Rose
@@ -225,7 +225,7 @@ Santalune Forest, Laverre City, Frost Cavern, Floaroma Town, Oreburgh Gate,
 Route 101, Cipher Peon - Mmmmmmmmmmmmmmmmm
 Cinnabar Mansion, Rocket Lair - Dannye
 NightTime coding and songs, Friendly Shop, Cynthia Battle, FRLG Gym Leader Song
-Unova Gym Battle and Giovanni Theme: TriteHexagon
+Unova Gym Battle, Regi Battle and Giovanni Theme: TriteHexagon
 Lugia Battle: Pigu
 Kanto Legend Battle XY: GACT and Pigu
 Ho-Oh Battle: Pigu

@@ -210,7 +210,7 @@ BitmasksPointers:
 	dw MareepBitmasks
 	dw FlaaffyBitmasks
 	dw AmpharosBitmasks
-	dw AzurillBitmasks
+	dw AbsolBitmasks
 	dw MarillBitmasks
 	dw AzumarillBitmasks
 	dw BonslyBitmasks

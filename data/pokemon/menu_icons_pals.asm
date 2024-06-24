@@ -222,7 +222,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PINK   ; MAREEP
 	icon_pals RED,    PINK   ; FAAFFY
 	icon_pals RED,    PURPLE ; AMPHAROS
-	icon_pals BLUE,   GREEN  ; AZURILL
+	icon_pals BLUE,   RED    ; ABSOL
 	icon_pals BLUE,   GREEN  ; MARILL
 	icon_pals BLUE,   RED    ; AZUMARILL
 	icon_pals GREEN,  RED    ; BONSLY

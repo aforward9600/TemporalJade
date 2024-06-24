@@ -214,7 +214,7 @@ PokemonNames::
 	db "Mareep@@@@"
 	db "Flaaffy@@@"
 	db "Ampharos@@"
-	db "Azurill@@@"
+	db "Absol@@@@@"
 	db "Marill@@@@"
 	db "Azumarill@"
 	db "Bonsly@@@@"

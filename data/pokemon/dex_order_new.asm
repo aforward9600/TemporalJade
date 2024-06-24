@@ -69,7 +69,7 @@ NewPokedexOrder:
 	dw LUDICOLO
 	dw HOUNDOUR
 	dw HOUNDOOM
-	dw AZURILL
+	dw ABSOL
 	dw MARILL
 	dw AZUMARILL
 	dw WOOPER

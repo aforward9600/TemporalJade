@@ -452,8 +452,8 @@ INCBIN "gfx/pokemon/flaaffy/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/flaaffy/shiny.pal"
 INCBIN "gfx/pokemon/ampharos/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/ampharos/shiny.pal"
-INCBIN "gfx/pokemon/azurill/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/azurill/shiny.pal"
+INCBIN "gfx/pokemon/absol/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/absol/shiny.pal"
 INCBIN "gfx/pokemon/marill/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/marill/shiny.pal"
 INCBIN "gfx/pokemon/azumarill/front.gbcpal", middle_colors

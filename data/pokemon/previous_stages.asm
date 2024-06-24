@@ -212,7 +212,7 @@ PreviousEvolutionStage::
 	dw MAREEP
 	dw FLAAFFY
 	dw 0
-	dw AZURILL
+	dw 0
 	dw MARILL    ;b8
 	dw 0
 	dw BONSLY

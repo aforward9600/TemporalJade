@@ -231,7 +231,7 @@ JOHTO_POKEMON EQU const_value
 	const MAREEP     ; b3
 	const FLAAFFY    ; b4
 	const AMPHAROS   ; b5
-	const AZURILL
+	const ABSOL
 	const MARILL     ; b7
 	const AZUMARILL  ; b8
 	const BONSLY

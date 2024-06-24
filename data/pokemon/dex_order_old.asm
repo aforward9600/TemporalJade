@@ -212,7 +212,7 @@ OldPokedexOrder:
 	dw MAREEP
 	dw FLAAFFY
 	dw AMPHAROS
-	dw AZURILL
+	dw ABSOL
 	dw MARILL
 	dw AZUMARILL
 	dw BONSLY
