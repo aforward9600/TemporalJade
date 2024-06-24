@@ -272,7 +272,7 @@ MonMenuIconPals:
 	icon_pals PINK,   PURPLE ; CURSOLA
 	icon_pals BLUE,   GRAY   ; REMORAID
 	icon_pals RED,    GREEN  ; OCTILLERY
-	icon_pals RED,    PINK   ; DELIBIRD
+	icon_pals RED,    BLUE   ; ORTHWORM
 	icon_pals BLUE,   TEAL   ; MANTYKE
 	icon_pals BLUE,   TEAL   ; MANTINE
 	icon_pals RED,    GREEN  ; SKARMINI

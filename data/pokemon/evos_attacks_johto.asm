@@ -110,7 +110,7 @@ EvosAttacksPointers2::
 	dw CursolaEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
-	dw DelibirdEvosAttacks
+	dw OrthwormEvosAttacks
 	dw MantykeEvosAttacks
 	dw MantineEvosAttacks
 	dw SkarminiEvosAttacks
@@ -2506,10 +2506,22 @@ OctilleryEvosAttacks:
 	dbw 58, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-DelibirdEvosAttacks:
+OrthwormEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, PRESENT
-	dbw 25, DRILL_PECK
+	dbw 1, TACKLE
+	dbw 1, WRAP
+	dbw 1, HARDEN
+	dbw 7, MUD_SLAP
+	dbw 12, ROCK_TOMB
+	dbw 16, BULLDOZE
+	dbw 21, IRON_HEAD
+	dbw 26, TAKE_DOWN
+	dbw 30, DIG
+	dbw 34, SANDSTORM
+	dbw 38, IRON_DEFENSE
+	dbw 43, IRON_TAIL
+	dbw 47, EARTHQUAKE
+	dbw 52, RECOVER
 	db 0 ; no more level-up moves
 
 MantykeEvosAttacks:

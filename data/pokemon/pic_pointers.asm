@@ -535,8 +535,8 @@ PokemonPicPointers::
 	dba RemoraidBackpic
 	dba OctilleryFrontpic
 	dba OctilleryBackpic
-	dba DelibirdFrontpic
-	dba DelibirdBackpic
+	dba OrthwormFrontpic
+	dba OrthwormBackpic
 	dba MantykeFrontpic
 	dba MantykeBackpic
 	dba MantineFrontpic

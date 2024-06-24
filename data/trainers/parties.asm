@@ -2971,7 +2971,7 @@ endc
 	dw MUK
 	dw POISON_JAB, SCREECH, BELCH, KNOCK_OFF
 	db 47
-	dw DELIBIRD
+	dw ORTHWORM
 	dw HAIL, BLIZZARD, DRILL_PECK, PRESENT
 	db 47
 	dw SWAMPERT
@@ -3939,7 +3939,7 @@ endc
 	dw QWILFISH
 	dw SURF, POISON_JAB, REST, SLEEP_TALK
 	db 33
-	dw DELIBIRD
+	dw ORTHWORM
 	dw ICY_WIND, AERIAL_ACE, PRESENT, ROOST
 	db -1 ; end
 
@@ -6098,7 +6098,7 @@ endc
 	next_list_item ; BIKER (11) Route 3
 	db "Calvin@", TRAINERTYPE_MOVES
 	db 70
-	dw DELIBIRD
+	dw ORTHWORM
 	dw ICE_BEAM, DRILL_PECK, PRESENT, ROOST
 	db 70
 	dw CACTURNE
@@ -7895,7 +7895,7 @@ BoarderGroup:
 	next_list_item ; BOARDER (2) Ice Path
 	db "Brody@", TRAINERTYPE_MOVES
 	db 24
-	dw DELIBIRD
+	dw ORTHWORM
 	dw ICE_SHARD, AERIAL_ACE, FUTURE_SIGHT, PRESENT
 	db 24
 	dw GLACEON
@@ -7909,7 +7909,7 @@ BoarderGroup:
 	db 11
 	dw SWINUB
 	db 12
-	dw DELIBIRD
+	dw ORTHWORM
 	db -1 ; end
 
 	end_list_items
@@ -8024,7 +8024,7 @@ endc
 	next_list_item ; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_ITEM
 	db 32
-	dw DELIBIRD
+	dw ORTHWORM
 	db ORAN_BERRY
 	db -1 ; end
 
@@ -12672,7 +12672,7 @@ endc
 	next_list_item ; ROUGHNECK (7) Route 18
 	db "Moe@", TRAINERTYPE_MOVES
 	db 74
-	dw DELIBIRD
+	dw ORTHWORM
 	dw BLIZZARD, HAIL, DRILL_PECK, STEEL_WING
 	db 74
 	dw RHYPERIOR

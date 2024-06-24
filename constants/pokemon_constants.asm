@@ -281,7 +281,7 @@ JOHTO_POKEMON EQU const_value
 	const CURSOLA    ; ff
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
-	const DELIBIRD   ; e1
+	const ORTHWORM   ; e1
 	const MANTYKE
 	const MANTINE    ; e2
 	const SKARMINI   ; fc

@@ -12,7 +12,7 @@ Icons3:
 	dw CursolaIcon
 	dw RemoraidIcon
 	dw OctilleryIcon
-	dw DelibirdIcon
+	dw OrthwormIcon
 	dw MantykeIcon
 	dw MantineIcon
 	dw SkarminiIcon
@@ -85,7 +85,7 @@ CorsolaIcon:	  INCBIN "gfx/icons/corsola.2bpp"
 CursolaIcon:	  INCBIN "gfx/icons/cursola.2bpp"
 RemoraidIcon:	  INCBIN "gfx/icons/remoraid.2bpp"
 OctilleryIcon:    INCBIN "gfx/icons/octillery.2bpp"
-DelibirdIcon:	  INCBIN "gfx/icons/delibird.2bpp"
+OrthwormIcon:	  INCBIN "gfx/icons/orthworm.2bpp"
 MantykeIcon:	  INCBIN "gfx/icons/mantyke.2bpp"
 MantineIcon:	  INCBIN "gfx/icons/mantine.2bpp"
 SkarminiIcon:	  INCBIN "gfx/icons/skarmini.2bpp"

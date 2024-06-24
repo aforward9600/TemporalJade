@@ -260,7 +260,7 @@ AnimationIdlePointers:
 	dw CursolaAnimationIdle
 	dw RemoraidAnimationIdle
 	dw OctilleryAnimationIdle
-	dw DelibirdAnimationIdle
+	dw OrthwormAnimationIdle
 	dw MantykeAnimationIdle
 	dw MantineAnimationIdle
 	dw SkarminiAnimationIdle

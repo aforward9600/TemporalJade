@@ -262,7 +262,7 @@ OldPokedexOrder:
 	dw CURSOLA
 	dw REMORAID
 	dw OCTILLERY
-	dw DELIBIRD
+	dw ORTHWORM
 	dw MANTYKE
 	dw MANTINE
 	dw SKARMINI

@@ -92,7 +92,7 @@ NewPokedexOrder:
 	dw MAMOSWINE
 	dw TANGELA
 	dw TANGROWTH
-	dw DELIBIRD
+	dw ORTHWORM
 	dw SMOOCHUM
 	dw JYNX
 	dw ELEKID

@@ -46,7 +46,6 @@ AlphabeticalPokedexOrder:
 	dw CYNDAQUIL
 	dw DARTRIX
 	dw DECIDUEYE
-	dw DELIBIRD
 	dw DEWGONG
 	dw DITTO
 	dw DODRIO
@@ -202,6 +201,7 @@ AlphabeticalPokedexOrder:
 	dw OMANYTE
 	dw OMASTAR
 	dw ONIX
+	dw ORTHWORM
 	dw PALOSSAND
 	dw PARAS
 	dw PARASECT

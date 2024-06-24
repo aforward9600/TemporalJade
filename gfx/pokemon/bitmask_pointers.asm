@@ -260,7 +260,7 @@ BitmasksPointers:
 	dw CursolaBitmasks
 	dw RemoraidBitmasks
 	dw OctilleryBitmasks
-	dw DelibirdBitmasks
+	dw OrthwormBitmasks
 	dw MantykeBitmasks
 	dw MantineBitmasks
 	dw SkarminiBitmasks

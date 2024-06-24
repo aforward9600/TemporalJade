@@ -260,7 +260,7 @@ FramesPointers:
 	dba CursolaFrames
 	dba RemoraidFrames
 	dba OctilleryFrames
-	dba DelibirdFrames
+	dba OrthwormFrames
 	dba MantykeFrames
 	dba MantineFrames
 	dba SkarminiFrames

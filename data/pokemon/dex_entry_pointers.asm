@@ -261,7 +261,7 @@ PokedexDataPointerTable:
 	dba CursolaPokedexEntry
 	dba RemoraidPokedexEntry
 	dba OctilleryPokedexEntry
-	dba DelibirdPokedexEntry
+	dba OrthwormPokedexEntry
 	dba MantykePokedexEntry
 	dba MantinePokedexEntry
 	dba SkarminiPokedexEntry

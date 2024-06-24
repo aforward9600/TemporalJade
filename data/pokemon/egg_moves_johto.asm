@@ -111,7 +111,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw RemoraidEggMoves
 	dw NoEggMoves2
-	dw DelibirdEggMoves
+	dw OrthwormEggMoves
 	dw MantykeEggMoves
 	dw NoEggMoves2
 	dw SkarminiEggMoves
@@ -637,17 +637,8 @@ RemoraidEggMoves:
 	dw WATER_PULSE
 	dw -1 ; end
 
-DelibirdEggMoves:
-	dw AURORA_BEAM
-	dw QUICK_ATTACK
-	dw FUTURE_SIGHT
-	dw SPLASH
-	dw RAPID_SPIN
-	dw DESTINY_BOND
-	dw ICE_PUNCH
-	dw ICE_SHARD
-	dw FAKE_OUT
-	dw DUALWINGBEAT
+OrthwormEggMoves:
+	dw COIL
 	dw -1 ; end
 
 MantykeEggMoves:

@@ -1147,7 +1147,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1156,7 +1156,7 @@ KantoGrassWildMons:
 	; day
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1165,7 +1165,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 66, DEWGONG
 	dbw 66, FROSLASS
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1177,7 +1177,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1186,7 +1186,7 @@ KantoGrassWildMons:
 	; day
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1195,7 +1195,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 66, DEWGONG
 	dbw 66, FROSLASS
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1207,7 +1207,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1216,7 +1216,7 @@ KantoGrassWildMons:
 	; day
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1225,7 +1225,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 66, DEWGONG
 	dbw 66, FROSLASS
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1237,7 +1237,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1246,7 +1246,7 @@ KantoGrassWildMons:
 	; day
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1255,7 +1255,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 66, DEWGONG
 	dbw 66, FROSLASS
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1267,7 +1267,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1276,7 +1276,7 @@ KantoGrassWildMons:
 	; day
 	dbw 66, DEWGONG
 	dbw 66, GLALIE
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE
@@ -1285,7 +1285,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 66, DEWGONG
 	dbw 66, FROSLASS
-	dbw 66, DELIBIRD
+	dbw 66, ORTHWORM
 	dbw 66, CROBAT
 	dbw 66, JYNX
 	dbw 66, MAMOSWINE

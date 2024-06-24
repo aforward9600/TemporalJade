@@ -260,7 +260,7 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw RemoraidAnimation
 	dw OctilleryAnimation
-	dw DelibirdAnimation
+	dw OrthwormAnimation
 	dw MantykeAnimation
 	dw MantineAnimation
 	dw SkarminiAnimation

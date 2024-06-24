@@ -266,7 +266,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CURSOLA
 	mon_cry CRY_SUNFLORA,    $00d,  $100 ; REMORAID
 	mon_cry CRY_TOTODILE,    $000,  $180 ; OCTILLERY
-	mon_cry CRY_TEDDIURSA,   $002,  $06a ; DELIBIRD
+	mon_cry CRY_SLOWKING,    $104,  $200 ; ORTHWORM
 	mon_cry CRY_MANTINE,    -$0fa,  $0a0 ; MANTYKE
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; MANTINE
 	mon_cry CRY_AMPHAROS,    $8a9,  $096 ; SKARMINI

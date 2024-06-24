@@ -578,7 +578,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, SMOOCHUM
 	dbw 3, SMOOCHUM
@@ -587,7 +587,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, SMOOCHUM
 	dbw 3, SMOOCHUM
@@ -596,7 +596,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, SMOOCHUM
 	dbw 3, SMOOCHUM
@@ -608,7 +608,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SMOOCHUM
@@ -617,7 +617,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SMOOCHUM
@@ -626,7 +626,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SMOOCHUM
@@ -638,7 +638,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SMOOCHUM
@@ -647,7 +647,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SMOOCHUM
@@ -656,7 +656,7 @@ JohtoGrassWildMons:
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SEEL
-	dbw 3, DELIBIRD
+	dbw 3, ORTHWORM
 	dbw 3, SWINUB
 	dbw 3, ZUBAT
 	dbw 3, SMOOCHUM
@@ -668,7 +668,7 @@ JohtoGrassWildMons:
 	dbw 2, SWINUB
 	dbw 2, ZUBAT
 	dbw 2, SEEL
-	dbw 2, DELIBIRD
+	dbw 2, ORTHWORM
 	dbw 2, SWINUB
 	dbw 2, ZUBAT
 	dbw 2, SMOOCHUM
@@ -677,7 +677,7 @@ JohtoGrassWildMons:
 	dbw 2, SWINUB
 	dbw 2, ZUBAT
 	dbw 2, SEEL
-	dbw 2, DELIBIRD
+	dbw 2, ORTHWORM
 	dbw 2, SWINUB
 	dbw 2, ZUBAT
 	dbw 2, SMOOCHUM
@@ -686,7 +686,7 @@ JohtoGrassWildMons:
 	dbw 2, SWINUB
 	dbw 2, ZUBAT
 	dbw 2, SEEL
-	dbw 2, DELIBIRD
+	dbw 2, ORTHWORM
 	dbw 2, SWINUB
 	dbw 2, ZUBAT
 	dbw 2, SMOOCHUM

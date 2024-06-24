@@ -264,7 +264,7 @@ PokemonNames::
 	db "Cursola@@@"
 	db "Remoraid@@"
 	db "Octillery@"
-	db "Delibird@@"
+	db "Orthworm@@"
 	db "Mantyke@@@"
 	db "Mantine@@@"
 	db "Skarmini@@"

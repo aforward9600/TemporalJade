@@ -163,7 +163,7 @@ SwarmGrassWildMons:
 	; morn
 	dbw 2, SNEASEL
 	dbw 2, SNEASEL
-	dbw 2, DELIBIRD
+	dbw 2, ORTHWORM
 	dbw 2, SNEASEL
 	dbw 2, SNEASEL
 	dbw 2, ZUBAT
@@ -172,7 +172,7 @@ SwarmGrassWildMons:
 	; day
 	dbw 2, SNEASEL
 	dbw 2, SNEASEL
-	dbw 2, DELIBIRD
+	dbw 2, ORTHWORM
 	dbw 2, SNEASEL
 	dbw 2, SNEASEL
 	dbw 2, ZUBAT
@@ -181,7 +181,7 @@ SwarmGrassWildMons:
 	; nite
 	dbw 2, SNEASEL
 	dbw 2, SNEASEL
-	dbw 2, DELIBIRD
+	dbw 2, ORTHWORM
 	dbw 2, SNEASEL
 	dbw 2, SNEASEL
 	dbw 2, ZUBAT
