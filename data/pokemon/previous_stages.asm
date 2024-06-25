@@ -172,7 +172,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw TIRTOUGA
 	dw 0
-	dw KABUTO
+	dw ARCHEN
 	dw 0
 	dw 0
 	dw MUNCHLAX

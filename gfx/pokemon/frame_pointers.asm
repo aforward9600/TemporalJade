@@ -170,8 +170,8 @@ FramesPointers:
 	dba PorygonZFrames
 	dba TirtougaFrames
 	dba CarracostaFrames
-	dba KabutoFrames
-	dba KabutopsFrames
+	dba ArchenFrames
+	dba ArcheopsFrames
 	dba AerodactylFrames
 	dba MunchlaxFrames
 	dba SnorlaxFrames

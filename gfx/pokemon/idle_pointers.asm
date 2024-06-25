@@ -170,8 +170,8 @@ AnimationIdlePointers:
 	dw PorygonZAnimationIdle
 	dw TirtougaAnimationIdle
 	dw CarracostaAnimationIdle
-	dw KabutoAnimationIdle
-	dw KabutopsAnimationIdle
+	dw ArchenAnimationIdle
+	dw ArcheopsAnimationIdle
 	dw AerodactylAnimationIdle
 	dw MunchlaxAnimationIdle
 	dw SnorlaxAnimationIdle

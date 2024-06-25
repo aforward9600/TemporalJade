@@ -482,8 +482,8 @@ ChooseMagikarp2:
 	sjump RivalDratiniScript
 
 ChooseKabuto:
-	pokepic KABUTO
-	cry KABUTO
+	pokepic ARCHEN
+	cry ARCHEN
 	waitbutton
 	closepokepic
 	opentext
@@ -495,12 +495,12 @@ ChooseKabuto:
 	writetext ChoseKabutoText
 	buttonsound
 	waitsfx
-	getmonname STRING_BUFFER_3, KABUTO
+	getmonname STRING_BUFFER_3, ARCHEN
 	writetext RecievedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke KABUTO, 5, ORAN_BERRY
+	givepoke ARCHEN, 5, ORAN_BERRY
 	closetext
 	sjump RivalLarvitarScript
 

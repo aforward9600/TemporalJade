@@ -182,8 +182,8 @@ MonMenuIconPals:
 	icon_pals PINK,   BLUE   ; PORYGON_Z
 	icon_pals BLUE,   TEAL   ; TIRTOUGA
 	icon_pals BLUE,   TEAL   ; CARRACOSTA
-	icon_pals BROWN,  TEAL   ; KABUTO
-	icon_pals BROWN,  TEAL   ; KABUTOPS
+	icon_pals BLUE,   GREEN  ; ARCHEN
+	icon_pals BLUE,   GREEN  ; ARCHEOPS
 	icon_pals GRAY,   PURPLE ; AERODACTYL
 	icon_pals BROWN,  BLUE   ; MUNCHLAX
 	icon_pals BROWN,  BLUE   ; SNORLAX

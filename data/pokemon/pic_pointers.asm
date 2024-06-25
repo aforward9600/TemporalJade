@@ -352,10 +352,10 @@ PokemonPicPointers::
 	dba TirtougaBackpic
 	dba CarracostaFrontpic
 	dba CarracostaBackpic
-	dba KabutoFrontpic
-	dba KabutoBackpic
-	dba KabutopsFrontpic
-	dba KabutopsBackpic
+	dba ArchenFrontpic
+	dba ArchenBackpic
+	dba ArcheopsFrontpic
+	dba ArcheopsBackpic
 	dba AerodactylFrontpic
 	dba AerodactylBackpic
 	dba MunchlaxFrontpic

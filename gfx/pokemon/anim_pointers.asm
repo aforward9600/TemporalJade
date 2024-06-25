@@ -170,8 +170,8 @@ AnimationPointers:
 	dw PorygonZAnimation
 	dw TirtougaAnimation
 	dw CarracostaAnimation
-	dw KabutoAnimation
-	dw KabutopsAnimation
+	dw ArchenAnimation
+	dw ArcheopsAnimation
 	dw AerodactylAnimation
 	dw MunchlaxAnimation
 	dw SnorlaxAnimation

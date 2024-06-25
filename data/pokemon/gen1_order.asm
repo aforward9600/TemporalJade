@@ -88,8 +88,8 @@ Pokered_MonIndices:
 	db SYLVEON ; MISSINGNO.
 	db DRATINI
 	db DRAGONAIR
-	db KABUTO
-	db KABUTOPS
+	db ARCHEN
+	db ARCHEOPS
 	db HORSEA
 	db SEADRA
 	db PORYGON_Z ; MISSINGNO.

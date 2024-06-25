@@ -170,8 +170,8 @@ BitmasksPointers:
 	dw PorygonZBitmasks
 	dw TirtougaBitmasks
 	dw CarracostaBitmasks
-	dw KabutoBitmasks
-	dw KabutopsBitmasks
+	dw ArchenBitmasks
+	dw ArcheopsBitmasks
 	dw AerodactylBitmasks
 	dw MunchlaxBitmasks
 	dw SnorlaxBitmasks

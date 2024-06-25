@@ -21,7 +21,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw TirtougaEggMoves
 	dw NoEggMoves2
-	dw KabutoEggMoves
+	dw ArchenEggMoves
 	dw NoEggMoves2
 	dw AerodactylEggMoves
 	dw MunchlaxEggMoves
@@ -210,16 +210,12 @@ TirtougaEggMoves:
 	dw WHIRLPOOL
 	dw -1 ; end
 
-KabutoEggMoves:
-	dw BUBBLEBEAM
-	dw AURORA_BEAM
-	dw RAPID_SPIN
-	dw DIG
-	dw FLAIL
-	dw CONFUSE_RAY
-	dw MUD_SHOT
-	dw SCREECH
-	dw TAKE_DOWN
+ArchenEggMoves:
+	dw BITE
+	dw DRAGON_PULSE
+	dw EARTH_POWER
+	dw KNOCK_OFF
+	dw STEEL_WING
 	dw -1 ; end
 
 AerodactylEggMoves:

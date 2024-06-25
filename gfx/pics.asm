@@ -385,9 +385,9 @@ SECTION "Poliwhirl Front", ROMX
 
 PoliwhirlFrontpic:   INCBIN "gfx/pokemon/poliwhirl/front.animated.2bpp.lz"
 
-SECTION "Kabutops Front", ROMX
+SECTION "Archeops Front", ROMX
 
-KabutopsFrontpic:    INCBIN "gfx/pokemon/kabutops/front.animated.2bpp.lz"
+ArcheopsFrontpic:    INCBIN "gfx/pokemon/archeops/front.animated.2bpp.lz"
 
 SECTION "Ampharos Front", ROMX
 
@@ -662,7 +662,7 @@ CuboneBackpic:       INCBIN "gfx/pokemon/cubone/back.2bpp.lz"
 GruntmPic:           INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 GloomBackpic:        INCBIN "gfx/pokemon/gloom/back.2bpp.lz"
 MagcargoBackpic:     INCBIN "gfx/pokemon/magcargo/back.2bpp.lz"
-KabutopsBackpic:     INCBIN "gfx/pokemon/kabutops/back.2bpp.lz"
+ArcheopsBackpic:     INCBIN "gfx/pokemon/archeops/back.2bpp.lz"
 StoutlandBackpic:    INCBIN "gfx/pokemon/stoutland/back.2bpp.lz"
 ArcanineBackpic:     INCBIN "gfx/pokemon/arcanine/back.2bpp.lz"
 FlareonBackpic:      INCBIN "gfx/pokemon/flareon/back.2bpp.lz"
@@ -754,7 +754,7 @@ SeakingBackpic:      INCBIN "gfx/pokemon/seaking/back.2bpp.lz"
 BurglarPic:          INCBIN "gfx/trainers/burglar.2bpp.lz"
 PsyduckBackpic:      INCBIN "gfx/pokemon/psyduck/back.2bpp.lz"
 PikachuBackpic:      INCBIN "gfx/pokemon/pikachu/back.2bpp.lz"
-KabutoFrontpic:      INCBIN "gfx/pokemon/kabuto/front.animated.2bpp.lz"
+ArchenFrontpic:      INCBIN "gfx/pokemon/archen/front.animated.2bpp.lz"
 MareepBackpic:       INCBIN "gfx/pokemon/mareep/back.2bpp.lz"
 RemoraidBackpic:     INCBIN "gfx/pokemon/remoraid/back.2bpp.lz"
 DittoFrontpic:       INCBIN "gfx/pokemon/ditto/front.animated.2bpp.lz"
@@ -827,7 +827,7 @@ HoothootBackpic:     INCBIN "gfx/pokemon/hoothoot/back.2bpp.lz"
 NoctowlBackpic:      INCBIN "gfx/pokemon/noctowl/back.2bpp.lz"
 EnokiPic:            INCBIN "gfx/trainers/enoki.2bpp.lz"
 SlugmaBackpic:       INCBIN "gfx/pokemon/slugma/back.2bpp.lz"
-KabutoBackpic:       INCBIN "gfx/pokemon/kabuto/back.2bpp.lz"
+ArchenBackpic:       INCBIN "gfx/pokemon/archen/back.2bpp.lz"
 VictreebelBackpic:   INCBIN "gfx/pokemon/victreebel/back.2bpp.lz"
 MeowthBackpic:       INCBIN "gfx/pokemon/meowth/back.2bpp.lz"
 MeganiumBackpic:     INCBIN "gfx/pokemon/meganium/back.2bpp.lz"

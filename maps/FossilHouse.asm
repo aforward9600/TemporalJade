@@ -149,7 +149,7 @@ ScientistScript:
 	writetext GotKabutoText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke KABUTO, 20
+	givepoke ARCHEN, 20
 	clearevent EVENT_GAVE_DOME_FOSSIL
 	writetext TakeGoodCareText
 	waitbutton

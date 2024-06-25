@@ -20,8 +20,8 @@ EvosAttacksPointers2::
 	dw PorygonZEvosAttacks
 	dw TirtougaEvosAttacks
 	dw CarracostaEvosAttacks
-	dw KabutoEvosAttacks
-	dw KabutopsEvosAttacks
+	dw ArchenEvosAttacks
+	dw ArcheopsEvosAttacks
 	dw AerodactylEvosAttacks
 	dw MunchlaxEvosAttacks
 	dw SnorlaxEvosAttacks
@@ -485,7 +485,7 @@ TirtougaEvosAttacks:
 	dbw 35, CURSE
 	dbw 38, SHELL_SMASH
 	dbw 41, AQUA_TAIL
-	dbw 45, ROCK_SLIDE
+	dbw 45, JURASSICBEAM
 	dbw 48, RAIN_DANCE
 	dbw 50, WAVE_CRASH
 	db 0 ; no more level-up moves
@@ -507,45 +507,54 @@ CarracostaEvosAttacks:
 	dbw 35, CURSE
 	dbw 40, SHELL_SMASH
 	dbw 45, AQUA_TAIL
-	dbw 51, ROCK_SLIDE
+	dbw 51, JURASSICBEAM
 	dbw 56, RAIN_DANCE
 	dbw 61, WAVE_CRASH
 	db 0 ; no more level-up moves
 
-KabutoEvosAttacks:
-	dbbw EVOLVE_LEVEL, 30, KABUTOPS
+ArchenEvosAttacks:
+	dbbw EVOLVE_LEVEL, 37, ARCHEOPS
 	db 0 ; no more evolutions
-	dbw 1, SCRATCH
-	dbw 1, HARDEN
-	dbw 6, ABSORB
-	dbw 11, LEER
-	dbw 16, MUD_SHOT
-	dbw 21, SAND_ATTACK
-	dbw 26, ENDURE
-	dbw 31, AQUA_JET
-	dbw 36, MEGA_DRAIN
-	dbw 41, METAL_SOUND
-	dbw 46, ANCIENTPOWER
-	dbw 50, WAVE_CRASH
+	dbw 1, QUICK_ATTACK
+	dbw 1, LEER
+	dbw 1, WING_ATTACK
+	dbw 5, ROCK_THROW
+	dbw 8, DOUBLE_TEAM
+	dbw 11, SCARY_FACE
+	dbw 15, AERIAL_ACE
+	dbw 18, ANCIENTPOWER
+	dbw 21, AGILITY
+	dbw 25, REST
+	dbw 28, ACROBATICS
+	dbw 31, DRAGONBREATH
+	dbw 35, CRUNCH
+	dbw 38, DRAGON_CLAW
+	dbw 41, U_TURN
+	dbw 45, ROCK_SLIDE
+	dbw 48, JURASSICBEAM
+	dbw 50, THRASH
 	db 0 ; no more level-up moves
 
-KabutopsEvosAttacks:
+ArcheopsEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SLASH
-	dbw 1, SLASH
-	dbw 1, SCRATCH
-	dbw 1, HARDEN
-	dbw 6, ABSORB
-	dbw 11, LEER
-	dbw 16, MUD_SHOT
-	dbw 21, SAND_ATTACK
-	dbw 26, ENDURE
-	dbw 31, AQUA_JET
-	dbw 39, MEGA_DRAIN
-	dbw 45, METAL_SOUND
-	dbw 54, ANCIENTPOWER
-	dbw 63, WAVE_CRASH
-	dbw 72, NIGHT_SLASH
+	dbw 1, QUICK_ATTACK
+	dbw 1, LEER
+	dbw 1, WING_ATTACK
+	dbw 5, ROCK_THROW
+	dbw 8, DOUBLE_TEAM
+	dbw 11, SCARY_FACE
+	dbw 15, AERIAL_ACE
+	dbw 18, ANCIENTPOWER
+	dbw 21, AGILITY
+	dbw 25, REST
+	dbw 28, ACROBATICS
+	dbw 31, DRAGONBREATH
+	dbw 35, CRUNCH
+	dbw 40, DRAGON_CLAW
+	dbw 45, U_TURN
+	dbw 51, ROCK_SLIDE
+	dbw 56, JURASSICBEAM
+	dbw 61, THRASH
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:

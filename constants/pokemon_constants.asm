@@ -191,8 +191,8 @@ JOHTO_POKEMON EQU const_value
 	const PORYGON_Z
 	const TIRTOUGA   ; 8a
 	const CARRACOSTA ; 8b
-	const KABUTO     ; 8c
-	const KABUTOPS   ; 8d
+	const ARCHEN     ; 8c
+	const ARCHEOPS   ; 8d
 	const AERODACTYL ; 8e
 	const MUNCHLAX
 	const SNORLAX    ; 8f

@@ -176,8 +176,8 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $212,  $270 ; PORYGON_Z
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; TIRTOUGA
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; CARRACOSTA
-	mon_cry CRY_CATERPIE,    $0bb,  $0c0 ; KABUTO
-	mon_cry CRY_FEAROW,      $0ee,  $081 ; KABUTOPS
+	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; ARCHEN
+	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; AERODACTYL
 	mon_cry CRY_GRIMER,      $055,  $081 ; MUNCHLAX
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX

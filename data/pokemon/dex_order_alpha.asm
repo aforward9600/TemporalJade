@@ -13,6 +13,8 @@ AlphabeticalPokedexOrder:
 	dw ANNIHILAPE
 	dw ARBOK
 	dw ARCANINE
+	dw ARCHEN
+	dw ARCHEOPS
 	dw ARIADOS
 	dw ARON
 	dw ARTICUNO
@@ -128,8 +130,6 @@ AlphabeticalPokedexOrder:
 	dw JOLTEON
 	dw JUMPLUFF
 	dw JYNX
-	dw KABUTO
-	dw KABUTOPS
 	dw KADABRA
 	dw KANGASKHAN
 	dw KINGDRA

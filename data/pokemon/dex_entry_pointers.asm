@@ -171,8 +171,8 @@ PokedexDataPointerTable:
 	dba PorygonZPokedexEntry
 	dba TirtougaPokedexEntry
 	dba CarracostaPokedexEntry
-	dba KabutoPokedexEntry
-	dba KabutopsPokedexEntry
+	dba ArchenPokedexEntry
+	dba ArcheopsPokedexEntry
 	dba AerodactylPokedexEntry
 	dba MunchlaxPokedexEntry
 	dba SnorlaxPokedexEntry

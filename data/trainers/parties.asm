@@ -1867,7 +1867,7 @@ else
 endc
 	dw JURASSICBEAM, SURF, SHELL_SMASH, ICE_BEAM
 	db 69
-	dw KABUTOPS
+	dw ARCHEOPS
 if DEF(_CHALLENGE)
 	db MYSTIC_WATER
 else
@@ -3771,7 +3771,7 @@ endc
 	dw KOTORA
 	db NO_ITEM
 	db 19
-	dw KABUTO
+	dw ARCHEN
 	db NO_ITEM
 	db -1 ; end
 
@@ -3884,7 +3884,7 @@ endc
 	dw KOTORA
 	db NO_ITEM
 	db 22
-	dw KABUTO
+	dw ARCHEN
 	db NO_ITEM
 	db -1 ; end
 
@@ -5828,7 +5828,7 @@ else
 endc
 	dw EARTHQUAKE, STONE_EDGE, EXPLOSION, DOUBLE_EDGE
 	db 54
-	dw KABUTOPS
+	dw ARCHEOPS
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -6222,7 +6222,7 @@ endc
 	next_list_item ; BIKER Route 15
 	db "Burgess@", TRAINERTYPE_NORMAL
 	db 74
-	dw KABUTOPS
+	dw ARCHEOPS
 	db 74
 	dw AZUMARILL
 	db 74
@@ -8491,7 +8491,7 @@ endc
 	dw ROSERADE
 	dw PETAL_BLIZZ, SLUDGE_BOMB, SPIKES, GRASSWHISTLE
 	db 43
-	dw KABUTOPS
+	dw ARCHEOPS
 	dw WATERFALL, ROCK_TOMB, SLASH, AQUA_JET
 	db 43
 	dw TOXICROAK
@@ -9570,7 +9570,7 @@ endc
 	dw MACHAMP
 	db NO_ITEM
 	db 68
-	dw KABUTOPS
+	dw ARCHEOPS
 	db NO_ITEM
 	db 68
 	dw AGGRON

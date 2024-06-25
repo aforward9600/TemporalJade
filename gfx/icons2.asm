@@ -48,8 +48,8 @@ Icons2:
 	dw PorygonZIcon
 	dw TirtougaIcon
 	dw CarracostaIcon
-	dw KabutoIcon
-	dw KabutopsIcon
+	dw ArchenIcon
+	dw ArcheopsIcon
 	dw AerodactylIcon
 	dw MunchlaxIcon
 	dw SnorlaxIcon
@@ -175,8 +175,8 @@ Porygon2Icon:     INCBIN "gfx/icons/porygon2.2bpp"
 PorygonZIcon:     INCBIN "gfx/icons/porygon_z.2bpp"
 TirtougaIcon:     INCBIN "gfx/icons/tirtouga.2bpp"
 CarracostaIcon:   INCBIN "gfx/icons/carracosta.2bpp"
-KabutoIcon:       INCBIN "gfx/icons/kabuto.2bpp"
-KabutopsIcon:     INCBIN "gfx/icons/kabutops.2bpp"
+ArchenIcon:       INCBIN "gfx/icons/archen.2bpp"
+ArcheopsIcon:     INCBIN "gfx/icons/archeops.2bpp"
 AerodactylIcon:   INCBIN "gfx/icons/aerodactyl.2bpp"
 MunchlaxIcon:     INCBIN "gfx/icons/munchlax.2bpp"
 SnorlaxIcon:      INCBIN "gfx/icons/snorlax.2bpp"
