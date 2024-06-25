@@ -168,8 +168,8 @@ FramesPointers:
 	dba PorygonFrames
 	dba Porygon2Frames
 	dba PorygonZFrames
-	dba OmanyteFrames
-	dba OmastarFrames
+	dba TirtougaFrames
+	dba CarracostaFrames
 	dba KabutoFrames
 	dba KabutopsFrames
 	dba AerodactylFrames

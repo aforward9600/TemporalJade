@@ -174,8 +174,8 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; PORYGON
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYGON2
 	mon_cry CRY_SEEL,        $212,  $270 ; PORYGON_Z
-	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; OMANYTE
-	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; OMASTAR
+	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; TIRTOUGA
+	mon_cry CRY_BLASTOISE,   $000,  $100 ; CARRACOSTA
 	mon_cry CRY_CATERPIE,    $0bb,  $0c0 ; KABUTO
 	mon_cry CRY_FEAROW,      $0ee,  $081 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; AERODACTYL

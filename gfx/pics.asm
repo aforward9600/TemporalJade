@@ -194,9 +194,9 @@ SECTION "Primeape Front", ROMX
 
 PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 
-SECTION "Omastar Front", ROMX
+SECTION "Carracosta Front", ROMX
 
-OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
+CarracostaBackpic:      INCBIN "gfx/pokemon/carracosta/back.2bpp.lz"
 
 
 SECTION "Dodrio Front", ROMX
@@ -467,7 +467,7 @@ MurkrowFrontpic:     INCBIN "gfx/pokemon/murkrow/front.animated.2bpp.lz"
 GravelerFrontpic:    INCBIN "gfx/pokemon/graveler/front.animated.2bpp.lz"
 LedybaFrontpic:      INCBIN "gfx/pokemon/ledyba/front.animated.2bpp.lz"
 GengarFrontpic:      INCBIN "gfx/pokemon/gengar/front.animated.2bpp.lz"
-OmastarFrontpic:     INCBIN "gfx/pokemon/omastar/front.animated.2bpp.lz"
+CarracostaFrontpic:  INCBIN "gfx/pokemon/carracosta/front.animated.2bpp.lz"
 PiloswineFrontpic:   INCBIN "gfx/pokemon/piloswine/front.animated.2bpp.lz"
 PalossandFrontpic:   INCBIN "gfx/pokemon/palossand/front.animated.2bpp.lz"
 MagnetonFrontpic:    INCBIN "gfx/pokemon/magneton/front.animated.2bpp.lz"
@@ -599,7 +599,7 @@ PokefanfPic:         INCBIN "gfx/trainers/pokefan_f.2bpp.lz"
 VenomothBackpic:     INCBIN "gfx/pokemon/venomoth/back.2bpp.lz"
 ClairPic:            INCBIN "gfx/trainers/clair.2bpp.lz"
 PokemaniacPic:       INCBIN "gfx/trainers/pokemaniac.2bpp.lz"
-OmanyteFrontpic:     INCBIN "gfx/pokemon/omanyte/front.animated.2bpp.lz"
+TirtougaFrontpic:    INCBIN "gfx/pokemon/tirtouga/front.animated.2bpp.lz"
 SkierPic:            INCBIN "gfx/trainers/skier.2bpp.lz"
 PupitarFrontpic:     INCBIN "gfx/pokemon/pupitar/front.animated.2bpp.lz"
 BellsproutFrontpic:  INCBIN "gfx/pokemon/bellsprout/front.animated.2bpp.lz"
@@ -673,8 +673,8 @@ StarmieBackpic:      INCBIN "gfx/pokemon/starmie/back.2bpp.lz"
 
 SECTION "Pics 13", ROMX
 
-OmanyteBackpic:      INCBIN "gfx/pokemon/omanyte/back.2bpp.lz"
-VenipedeBackpic:       INCBIN "gfx/pokemon/venipede/back.2bpp.lz"
+TirtougaBackpic:     INCBIN "gfx/pokemon/tirtouga/back.2bpp.lz"
+VenipedeBackpic:     INCBIN "gfx/pokemon/venipede/back.2bpp.lz"
 ScientistPic:        INCBIN "gfx/trainers/scientist.2bpp.lz"
 QwilfishBackpic:     INCBIN "gfx/pokemon/qwilfish/back.2bpp.lz"
 GligarBackpic:       INCBIN "gfx/pokemon/gligar/back.2bpp.lz"

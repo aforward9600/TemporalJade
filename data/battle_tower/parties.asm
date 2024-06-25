@@ -1815,7 +1815,7 @@ endc
 	bigdw 106 ; SDef
 	db "HUoRETOSU@@"
 
-	dw OMASTAR
+	dw CARRACOSTA
 	db SITRUS_BERRY
 	dw ICE_BEAM, SURF, ANCIENTPOWER, SHELL_SMASH
 
@@ -4777,7 +4777,7 @@ BattleTowerMons10:
 	bigdw 183 ; SDef
 	db "NAtuSI-@@@@"
 
-	dw OMASTAR
+	dw CARRACOSTA
 	db LEFTOVERS
 	dw SURF, JURASSICBEAM, BLIZZARD, SHELL_SMASH
 

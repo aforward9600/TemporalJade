@@ -189,8 +189,8 @@ JOHTO_POKEMON EQU const_value
 	const PORYGON    ; 89
 	const PORYGON2   ; e9
 	const PORYGON_Z
-	const OMANYTE    ; 8a
-	const OMASTAR    ; 8b
+	const TIRTOUGA   ; 8a
+	const CARRACOSTA ; 8b
 	const KABUTO     ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e

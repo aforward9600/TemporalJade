@@ -168,8 +168,8 @@ BitmasksPointers:
 	dw PorygonBitmasks
 	dw Porygon2Bitmasks
 	dw PorygonZBitmasks
-	dw OmanyteBitmasks
-	dw OmastarBitmasks
+	dw TirtougaBitmasks
+	dw CarracostaBitmasks
 	dw KabutoBitmasks
 	dw KabutopsBitmasks
 	dw AerodactylBitmasks

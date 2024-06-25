@@ -348,10 +348,10 @@ PokemonPicPointers::
 	dba Porygon2Backpic
 	dba PorygonZFrontpic
 	dba PorygonZBackpic
-	dba OmanyteFrontpic
-	dba OmanyteBackpic
-	dba OmastarFrontpic
-	dba OmastarBackpic
+	dba TirtougaFrontpic
+	dba TirtougaBackpic
+	dba CarracostaFrontpic
+	dba CarracostaBackpic
 	dba KabutoFrontpic
 	dba KabutoBackpic
 	dba KabutopsFrontpic

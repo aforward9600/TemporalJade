@@ -170,7 +170,7 @@ PreviousEvolutionStage::
 	dw PORYGON
 	dw PORYGON2
 	dw 0
-	dw OMANYTE
+	dw TIRTOUGA
 	dw 0
 	dw KABUTO
 	dw 0

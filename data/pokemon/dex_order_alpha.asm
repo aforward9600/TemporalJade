@@ -28,6 +28,7 @@ AlphabeticalPokedexOrder:
 	dw BUDEW
 	dw CACNEA
 	dw CACTURNE
+	dw CARRACOSTA
 	dw CELEBI
 	dw CHANSEY
 	dw CHIKORITA
@@ -198,8 +199,6 @@ AlphabeticalPokedexOrder:
 	dw NOWN
 	dw OCTILLERY
 	dw ODDISH
-	dw OMANYTE
-	dw OMASTAR
 	dw ONIX
 	dw ORTHWORM
 	dw PALOSSAND
@@ -288,6 +287,7 @@ AlphabeticalPokedexOrder:
 	dw TENTACOOL
 	dw TENTACRUEL
 	dw TEPIG
+	dw TIRTOUGA
 	dw TOGEKISS
 	dw TOGEPI
 	dw TOGETIC

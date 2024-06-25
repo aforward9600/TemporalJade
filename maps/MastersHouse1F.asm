@@ -283,8 +283,8 @@ ChooseMewtwo:
 	sjump RivalLarvitarScript
 
 ChooseOmanyte:
-	pokepic OMANYTE
-	cry OMANYTE
+	pokepic TIRTOUGA
+	cry TIRTOUGA
 	waitbutton
 	closepokepic
 	opentext
@@ -296,12 +296,12 @@ ChooseOmanyte:
 	writetext ChoseOmanyteText
 	buttonsound
 	waitsfx
-	getmonname STRING_BUFFER_3, OMANYTE
+	getmonname STRING_BUFFER_3, TIRTOUGA
 	writetext RecievedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke OMANYTE, 5, ORAN_BERRY
+	givepoke TIRTOUGA, 5, ORAN_BERRY
 	closetext
 	sjump RivalLarvitarScript
 

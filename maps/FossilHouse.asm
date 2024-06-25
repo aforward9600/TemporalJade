@@ -133,7 +133,7 @@ ScientistScript:
 	writetext GotOmanyteText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke OMANYTE, 20
+	givepoke TIRTOUGA, 20
 	clearevent EVENT_GAVE_HELIX_FOSSIL
 	writetext TakeGoodCareText
 	waitbutton

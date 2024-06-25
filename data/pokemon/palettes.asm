@@ -368,10 +368,10 @@ INCBIN "gfx/pokemon/porygon2/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/porygon2/shiny.pal"
 INCBIN "gfx/pokemon/porygon_z/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/porygon_z/shiny.pal"
-INCBIN "gfx/pokemon/omanyte/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/omanyte/shiny.pal"
-INCBIN "gfx/pokemon/omastar/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/omastar/shiny.pal"
+INCBIN "gfx/pokemon/tirtouga/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/tirtouga/shiny.pal"
+INCBIN "gfx/pokemon/carracosta/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/carracosta/shiny.pal"
 INCBIN "gfx/pokemon/kabuto/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/kabuto/shiny.pal"
 INCBIN "gfx/pokemon/kabutops/front.gbcpal", middle_colors

@@ -180,8 +180,8 @@ MonMenuIconPals:
 	icon_pals PINK,   BLUE   ; PORYGON
 	icon_pals PINK,   BLUE   ; PORYGON2
 	icon_pals PINK,   BLUE   ; PORYGON_Z
-	icon_pals BLUE,   BROWN  ; OMANYTE
-	icon_pals BLUE,   BROWN  ; OMASTAR
+	icon_pals BLUE,   TEAL   ; TIRTOUGA
+	icon_pals BLUE,   TEAL   ; CARRACOSTA
 	icon_pals BROWN,  TEAL   ; KABUTO
 	icon_pals BROWN,  TEAL   ; KABUTOPS
 	icon_pals GRAY,   PURPLE ; AERODACTYL

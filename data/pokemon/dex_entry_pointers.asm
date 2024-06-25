@@ -169,8 +169,8 @@ PokedexDataPointerTable:
 	dba PorygonPokedexEntry
 	dba Porygon2PokedexEntry
 	dba PorygonZPokedexEntry
-	dba OmanytePokedexEntry
-	dba OmastarPokedexEntry
+	dba TirtougaPokedexEntry
+	dba CarracostaPokedexEntry
 	dba KabutoPokedexEntry
 	dba KabutopsPokedexEntry
 	dba AerodactylPokedexEntry

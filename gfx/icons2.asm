@@ -46,8 +46,8 @@ Icons2:
 	dw PorygonIcon
 	dw Porygon2Icon
 	dw PorygonZIcon
-	dw OmanyteIcon
-	dw OmastarIcon
+	dw TirtougaIcon
+	dw CarracostaIcon
 	dw KabutoIcon
 	dw KabutopsIcon
 	dw AerodactylIcon
@@ -173,8 +173,8 @@ SylveonIcon:      INCBIN "gfx/icons/sylveon.2bpp"
 PorygonIcon:      INCBIN "gfx/icons/porygon.2bpp"
 Porygon2Icon:     INCBIN "gfx/icons/porygon2.2bpp"
 PorygonZIcon:     INCBIN "gfx/icons/porygon_z.2bpp"
-OmanyteIcon:      INCBIN "gfx/icons/omanyte.2bpp"
-OmastarIcon:      INCBIN "gfx/icons/omastar.2bpp"
+TirtougaIcon:     INCBIN "gfx/icons/tirtouga.2bpp"
+CarracostaIcon:   INCBIN "gfx/icons/carracosta.2bpp"
 KabutoIcon:       INCBIN "gfx/icons/kabuto.2bpp"
 KabutopsIcon:     INCBIN "gfx/icons/kabutops.2bpp"
 AerodactylIcon:   INCBIN "gfx/icons/aerodactyl.2bpp"

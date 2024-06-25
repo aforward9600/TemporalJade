@@ -168,8 +168,8 @@ AnimationPointers:
 	dw PorygonAnimation
 	dw Porygon2Animation
 	dw PorygonZAnimation
-	dw OmanyteAnimation
-	dw OmastarAnimation
+	dw TirtougaAnimation
+	dw CarracostaAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation
 	dw AerodactylAnimation

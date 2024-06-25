@@ -18,8 +18,8 @@ EvosAttacksPointers2::
 	dw PorygonEvosAttacks
 	dw Porygon2EvosAttacks
 	dw PorygonZEvosAttacks
-	dw OmanyteEvosAttacks
-	dw OmastarEvosAttacks
+	dw TirtougaEvosAttacks
+	dw CarracostaEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks
@@ -467,43 +467,49 @@ PorygonZEvosAttacks:
 	dbw 70, NASTY_PLOT
 	db 0 ; no more level-up moves
 
-OmanyteEvosAttacks:
-	dbbw EVOLVE_LEVEL, 30, OMASTAR
+TirtougaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 37, CARRACOSTA
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, WITHDRAW
-	dbw 7, BITE
-	dbw 10, WATER_GUN
-	dbw 16, ROLLOUT
-	dbw 19, LEER
-	dbw 25, MUD_SHOT
-	dbw 28, WATER_PULSE
-	dbw 34, PROTECT
-	dbw 37, ANCIENTPOWER
-	dbw 43, GROWTH
-	dbw 46, JURASSICBEAM
-	dbw 50, SHELL_SMASH
-	dbw 55, HYDRO_PUMP
+	dbw 1, WATER_GUN
+	dbw 5, ROLLOUT
+	dbw 8, BITE
+	dbw 11, PROTECT
+	dbw 15, AQUA_JET
+	dbw 18, ANCIENTPOWER
+	dbw 21, CRUNCH
+	dbw 25, REST
+	dbw 28, WATERFALL
+	dbw 31, ROCK_TOMB
+	dbw 35, CURSE
+	dbw 38, SHELL_SMASH
+	dbw 41, AQUA_TAIL
+	dbw 45, ROCK_SLIDE
+	dbw 48, RAIN_DANCE
+	dbw 50, WAVE_CRASH
 	db 0 ; no more level-up moves
 
-OmastarEvosAttacks:
+CarracostaEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SPIKE_CANNON
-	dbw 1, SPIKE_CANNON
 	dbw 1, TACKLE
 	dbw 1, WITHDRAW
-	dbw 7, BITE
-	dbw 10, WATER_GUN
-	dbw 16, ROLLOUT
-	dbw 19, LEER
-	dbw 25, MUD_SHOT
-	dbw 28, WATER_PULSE
-	dbw 37, PROTECT
-	dbw 43, ANCIENTPOWER
-	dbw 48, GROWTH
-	dbw 56, JURASSICBEAM
-	dbw 67, SHELL_SMASH
-	dbw 75, HYDRO_PUMP
+	dbw 1, WATER_GUN
+	dbw 5, ROLLOUT
+	dbw 8, BITE
+	dbw 11, PROTECT
+	dbw 15, AQUA_JET
+	dbw 18, ANCIENTPOWER
+	dbw 21, CRUNCH
+	dbw 25, REST
+	dbw 28, WATERFALL
+	dbw 31, ROCK_TOMB
+	dbw 35, CURSE
+	dbw 40, SHELL_SMASH
+	dbw 45, AQUA_TAIL
+	dbw 51, ROCK_SLIDE
+	dbw 56, RAIN_DANCE
+	dbw 61, WAVE_CRASH
 	db 0 ; no more level-up moves
 
 KabutoEvosAttacks:

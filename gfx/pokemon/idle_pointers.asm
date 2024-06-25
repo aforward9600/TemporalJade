@@ -168,8 +168,8 @@ AnimationIdlePointers:
 	dw PorygonAnimationIdle
 	dw Porygon2AnimationIdle
 	dw PorygonZAnimationIdle
-	dw OmanyteAnimationIdle
-	dw OmastarAnimationIdle
+	dw TirtougaAnimationIdle
+	dw CarracostaAnimationIdle
 	dw KabutoAnimationIdle
 	dw KabutopsAnimationIdle
 	dw AerodactylAnimationIdle

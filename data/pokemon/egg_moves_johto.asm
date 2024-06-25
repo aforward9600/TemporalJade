@@ -19,7 +19,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw OmanyteEggMoves
+	dw TirtougaEggMoves
 	dw NoEggMoves2
 	dw KabutoEggMoves
 	dw NoEggMoves2
@@ -62,7 +62,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw AbsolEggMoves
-	dw NoEggMoves2
+	dw MarillEggMoves
 	dw NoEggMoves2
 	dw BonslyEggMoves
 	dw NoEggMoves2
@@ -199,16 +199,15 @@ EeveeEggMoves:
 	dw ENDURE
 	dw -1 ; end
 
-OmanyteEggMoves:
-	dw BUBBLEBEAM
-	dw AURORA_BEAM
+TirtougaEggMoves:
+	dw BODY_SLAM
+	dw FLAIL
+	dw IRON_DEFENSE
+	dw KNOCK_OFF
+	dw ROCK_THROW
 	dw SLAM
-	dw SUPERSONIC
-	dw HAZE
-	dw SPIKES
 	dw WATER_PULSE
 	dw WHIRLPOOL
-	dw MUDDY_WATER
 	dw -1 ; end
 
 KabutoEggMoves:
@@ -386,6 +385,21 @@ AbsolEggMoves:
 	dw PLAY_ROUGH
 	dw SUCKER_PUNCH
 	dw ZEN_HEADBUTT
+	dw -1 ; end
+
+MarillEggMoves:
+	dw PRESENT
+	dw AMNESIA
+	dw FUTURE_SIGHT
+	dw BELLY_DRUM
+	dw PERISH_SONG
+	dw SUPERSONIC
+	dw FORESIGHT
+	dw BODY_SLAM
+	dw ENCORE
+	dw SING
+	dw SLAM
+	dw MUDDY_WATER
 	dw -1 ; end
 
 BonslyEggMoves:
