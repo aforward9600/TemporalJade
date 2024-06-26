@@ -33,13 +33,23 @@ Route24YoungsterGordy:
 .Script:
 	endifjustbattled
 	opentext
+	writetext Route24YoungsterGordyRematchText
+	yesorno
+	iffalse .Refused
+	playmusic MUSIC_YOUNGSTER_ENCOUNTER
+	writetext Route24YoungsterGordyLetsDoItText
+	waitbutton
+	winlosstext Route24YoungsterGordyBeatenText, 0
+	loadtrainer YOUNGSTER, GORDY
+	startbattle
+	reloadmapafterbattle
+	closetext
+	end
+
+.Refused:
 	writetext Route24YoungsterGordyAfterText
 	waitbutton
 	closetext
-;	winlosstext CooltrainermJroseBeatenText, 0
-;	loadtrainer COOLTRAINERM, EMILE
-;	startbattle
-;	reloadmapafterbattle
 	end
 
 Route24BugCatcherColton:
@@ -229,26 +239,30 @@ Route24YoungsterTimmyAfterText:
 	done
 
 Route24YoungsterGordySeenText:
-	text "I sometimes forget"
-	line "type advantages."
-
-	para "I used Earthquake"
-	line "against a"
-	cont "Dragonite once."
-
-	para "Whoops!"
+	text "Can you believe"
+	line "the guard at the"
+	cont "gate won't let"
+	cont "me through?!"
 	done
 
 Route24YoungsterGordyBeatenText:
-	text "Oh snap!"
+	text "I guess that's why."
 	done
 
 Route24YoungsterGordyAfterText:
-	text "I like to sing"
-	line "songs to a melody"
-	cont "that sounds like"
-	cont "you'd hear it in"
-	cont "a #mon Center."
+	text "Fine. It seems"
+	line "like you need"
+	cont "badges to get"
+	cont "through the gate."
+	done
+
+Route24YoungsterGordyRematchText:
+	text "You here for a"
+	line "rematch?"
+	done
+
+Route24YoungsterGordyLetsDoItText:
+	text "Bring it on!"
 	done
 
 Route29Sign1Text:
@@ -256,6 +270,10 @@ Route29Sign1Text:
 
 	para "Antiquo Town -"
 	line "Murkrow Valley"
+
+	para "Youngster Gordy"
+	line "is always itching"
+	cont "for a fight."
 	done
 
 Route29Sign2Text:
@@ -263,6 +281,10 @@ Route29Sign2Text:
 
 	para "Antiquo Town -"
 	line "Murkrow Valley"
+
+	para "Youngster Gordy"
+	line "is always itching"
+	cont "for a fight."
 	done
 
 VictoryRoadGateSignText:

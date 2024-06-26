@@ -58,11 +58,11 @@ MoravilSchoolSignText:
 MoravilSchoolOutside_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	db 4 ; warp events
 	warp_event 11,  7, MORAVIL_SCHOOL_HALLWAY, 1
 	warp_event 12,  7, MORAVIL_SCHOOL_HALLWAY, 2
-;	warp_event  4, 18, MORAVIL_SCHOOL_GATE, 1
-;	warp_event  4, 19, MORAVIL_SCHOOL_HALLWAY, 2
+	warp_event  4, 18, ROUTE_38_ECRUTEAK_GATE, 3
+	warp_event  4, 19, ROUTE_38_ECRUTEAK_GATE, 4
 
 	db 0 ; coord events
 

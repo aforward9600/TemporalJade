@@ -13,9 +13,10 @@ Landmarks:
 	landmark 116, 116, DarkCaveName
 	landmark 108, 116, Route30Name
 	landmark  92, 116, MoravilSchoolName
-	landmark  92, 116, SproutTowerName
-	landmark 132,  44, BlackthornCityName
-	landmark 132,  36, DragonsDenName
+	landmark  84, 116, Route31Name
+	landmark  76, 116, CrescentLakeName
+	landmark  84, 100, HusCavernName
+	landmark  84,  92, ZaconiaTownName
 	landmark 132,  64, Route45Name
 	landmark 130,  38, IcePathName
 	landmark 120,  44, Route44Name
@@ -57,7 +58,6 @@ Landmarks:
 	landmark  84, 124, UnionCaveName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
-	landmark  96,  60, Route31Name
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
 	landmark 132, 140, VictoryRoadOnagaName
@@ -110,7 +110,7 @@ Landmarks:
 	landmark 132, 140, VictoryRoadName
 	landmark  28,  44, Route23Name
 	landmark  28,  36, IndigoPlateauName
-	landmark  28,  92, Route26Name
+	landmark  96,  60, Route31Name
 	landmark  20, 100, Route27Name
 	landmark  12, 100, TohjoFallsName
 	landmark  20,  68, Route28Name
@@ -118,7 +118,7 @@ Landmarks:
 
 MurkrowValleyName:   db "Murkrow¯Valley@"
 AntiquoTownName:     db "Antiquo¯Town@"
-SproutTowerName:     db "Violet City@"
+CrescentLakeName:    db "Crescent¯Lake@"
 EmissVillageName:    db "Emiss¯Village@"
 SirakisCityName:     db "Sirakis¯City@"
 EcruteakCityName:    db "Ecruteak¯City@"
@@ -127,7 +127,7 @@ CianwoodCityName:    db "Cianwood¯City@"
 CliffsEdgeGateName:  db "Cliff's Edge¯Gate@"
 AcituTownName:       db "Acitu Town@"
 UnknownName:         db "???@"
-BlackthornCityName:  db "Blackthorn¯City@"
+ZaconiaTownName:     db "Zaconia¯Town@"
 LakeOfRageName:      db "Lake Of¯Rage@"
 SilverCaveName:      db "Silver Cave@"
 MoravilSchoolName:   db "Moravil¯School@"
@@ -142,7 +142,7 @@ TinTowerName:        db "Bell Tower@"
 LighthouseName:      db "Lighthouse@"
 WhirlIslandsName:    db "Whirl¯Islands@"
 MtMortarName:        db "Mt.Mortar@"
-DragonsDenName:      db "Dragon's¯Den@"
+HusCavernName:       db "Hu's Cavern@"
 IcePathName:         db "Ice Path@"
 NotApplicableName:   db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
 PalletTownName:      db "Pallet Town@"
@@ -195,7 +195,7 @@ Route27Name:         db "Route 27@"
 Route28Name:         db "Route 28@"
 Route29Name:         db "Route 24@"
 Route30Name:         db "Route 25@"
-Route31Name:         db "Route 31@"
+Route31Name:         db "Route 26@"
 Route32Name:         db "Route 32@"
 Route33Name:         db "Route 33@"
 Route34Name:         db "Route 34@"

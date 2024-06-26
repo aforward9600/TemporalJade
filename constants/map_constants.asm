@@ -244,6 +244,9 @@ ENDM
 	map_const AZALEA_GYM,                                   5,  8 ;  5
 	map_const ROUTE_33,                                    10,  9 ;  6
 	map_const AZALEA_TOWN,                                 20,  9 ;  7
+	map_const ROUTE_31,                                    10, 39 ;  8
+	map_const CRESCENT_LAKE,                               20, 20 ;  9
+	map_const ROUTE_26_HEAL_HOUSE,                          4,  4 ; 10
 
 	newgroup                                                      ;  9
 
@@ -484,7 +487,7 @@ ENDM
 
 	newgroup                                                      ; 24
 
-	map_const ROUTE_26,                                    10, 54 ;  1
+	map_const ROUTE_26,                                    20,  9 ;  1
 	map_const ROUTE_27,                                    40,  9 ;  2
 	map_const ROUTE_29,                                    30, 11 ;  3
 	map_const MURKROW_VALLEY,                              20, 11 ;  4
@@ -493,7 +496,6 @@ ENDM
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  7
 	map_const PLAYERS_NEIGHBORS_HOUSE,                      4,  4 ;  8
 	map_const ELMS_HOUSE,                                   4,  4 ;  9
-	map_const ROUTE_26_HEAL_HOUSE,                          4,  4 ; 10
 	map_const DAY_OF_WEEK_SIBLINGS_HOUSE,                   4,  4 ; 11
 	map_const ROUTE_27_SANDSTORM_HOUSE,                     4,  4 ; 12
 	map_const ROUTE_29_ROUTE_46_GATE,                       5,  4 ; 13
@@ -520,7 +522,6 @@ ENDM
 	newgroup                                                      ; 26
 
 	map_const ROUTE_30,                                    27, 10 ;  1
-	map_const ROUTE_31,                                    20,  9 ;  2
 	map_const CHERRYGROVE_CITY,                            20,  9 ;  3
 	map_const CHERRYGROVE_MART,                             6,  4 ;  4
 	map_const CHERRYGROVE_POKECENTER_1F,                    5,  4 ;  5
@@ -539,6 +540,7 @@ ENDM
 	map_const MORAVIL_SCHOOL_PLAYGROUND,                   10,  8 ; 18
 	map_const MORAVIL_SCHOOL_LIBRARY,                       5,  9 ; 19
 	map_const MORAVIL_SCHOOL_GYM,                           3,  3 ; 20
+
 	newgroup
 
 	map_const ROUTE_47,                                    39, 19 ; 1

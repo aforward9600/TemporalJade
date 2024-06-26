@@ -9,9 +9,10 @@
 	const DARK_CAVE         ; 2c
 	const ROUTE_30          ; 04
 	const VIOLET_CITY       ; 06
-	const SPROUT_TOWER      ; 07
-	const BLACKTHORN_CITY   ; 29
+	const ROUTE_31          ; 05
+	const CRESCENT_LAKE     ; 07
 	const DRAGONS_DEN       ; 2a
+	const BLACKTHORN_CITY   ; 29
 	const ROUTE_45          ; 2b
 	const ICE_PATH          ; 28
 	const ROUTE_44          ; 27
@@ -53,7 +54,6 @@
 	const UNION_CAVE        ; 0a
 	const ROUTE_32          ; 08
 	const RUINS_OF_ALPH     ; 09
-	const ROUTE_31          ; 05
 	const ROUTE_46          ; 2d
 	const SILVER_CAVE       ; 2e
 	const VICTORY_ROAD_ONAGA

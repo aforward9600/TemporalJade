@@ -289,4 +289,11 @@ JohtoWaterWildMons:
 	dbw 20, LAPRAS
 	dbw 20, SEAKING
 
+	map_id CRESCENT_LAKE
+	db 10 percent
+	dbw 20, MAGIKARP
+	dbw 20, POLIWHIRL
+	dbw 20, QUAGSIRE
+	dbw 20, GYARADOS
+
 	db -1 ; end

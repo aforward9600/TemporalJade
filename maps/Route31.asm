@@ -1,238 +1,233 @@
 	object_const_def ; object_event constants
-	const ROUTE31_FISHER
+	const ROUTE31_COOLTRAINER_M1
+	const ROUTE31_COOLTRAINER_M2
+	const ROUTE31_COOLTRAINER_F1
+	const ROUTE31_COOLTRAINER_F2
 	const ROUTE31_YOUNGSTER
-	const ROUTE31_TEACHER
-	const ROUTE31_COOLTRAINER_M
+	const ROUTE31_FISHER
 	const ROUTE31_FRUIT_TREE
-	const ROUTE31_POKE_BALL1
-	const ROUTE31_POKE_BALL2
-	const ROUTE31_COOLTRAINER_F
+	const ROUTE31_POKE_BALL
 
 Route31_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-TrainerTeacherKawakami:
-	trainer TEACHER, KAWAKAMI, EVENT_BEAT_TEACHER_KAWAKAMI, TeacherKawakamiSeenText, TeacherKawakamiBeatenText, 0, .Script
+TrainerCooltrainermJuan:
+	trainer COOLTRAINERM, JUAN, EVENT_BEAT_COOLTRAINERM_JUAN, CooltrainermJuanSeenText, CooltrainermJuanBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext TeacherKawakamiAfterText
+	writetext CooltrainermJuanAfterBattleText
 	waitbutton
 	closetext
 	end
 
-Route31MailRecipientScript:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_TM56_DREAM_EATER
-	iftrue .DescribeNightmare
-	writetext Text_Route31SleepyMan
-	buttonsound
-	verbosegiveitem TM_DREAM_EATER
-	iffalse .NoRoomForItems
-	setevent EVENT_GOT_TM56_DREAM_EATER
-	closetext
-	end
-
-.DescribeNightmare:
-	writetext Text_Route31DescribeNightmare
-	waitbutton
-.NoRoomForItems:
-	closetext
-	end
-
-TrainerCooltrainerFJessie:
-	trainer COOLTRAINERF, JESSIE, EVENT_BEAT_COOLTRAINERF_JESSIE, CooltrainerFJessieSeenText, CooltrainerFJessieBeatenText, 0, .Script
+TrainerCooltrainermGaven3:
+	trainer COOLTRAINERM, GAVEN1, EVENT_BEAT_COOLTRAINERM_GAVEN, CooltrainermGaven3SeenText, CooltrainermGaven3BeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext CooltrainerFJessieRematchText
-	yesorno
-	iffalse .Refused
-	playmusic MUSIC_BEAUTY_ENCOUNTER
-	writetext CooltrainerFJessieLetsDoItText
-	waitbutton
-	winlosstext CooltrainerFJessieBeatenText, 0
-	loadtrainer COOLTRAINERF, JESSIE
-	startbattle
-	reloadmapafterbattle
-	closetext
-	end
-
-.Refused:
-	writetext CooltrainerFJessieRefusedText
+	writetext CooltrainermGavenAfterText
 	waitbutton
 	closetext
 	end
 
-Route31YoungsterScript:
-	jumptextfaceplayer Route31YoungsterText
+TrainerCooltrainerfMary:
+	trainer COOLTRAINERF, MARY1, EVENT_BEAT_COOLTRAINERF_MARY, CooltrainerfMarySeenText, CooltrainerfMaryBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext CooltrainerfMaryAfterBattleText
+	waitbutton
+	closetext
+	end
+
+TrainerCooltrainerfTessa:
+	trainer COOLTRAINERF, BETH1, EVENT_BEAT_COOLTRAINERF_TESSA, CooltrainerfTessaSeenText, CooltrainerfTessaBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext CooltrainerfTessaAfterText
+	waitbutton
+	closetext
+	end
+
+Route31PsychicScript:
+	jumptextfaceplayer Route31PsychicText
+
+Route31FisherScript:
+	jumptextfaceplayer Route31FisherText
 
 Route31Sign:
 	jumptext Route31SignText
 
-DarkCaveSign:
-	jumptext DarkCaveSignText
-
-Route31CooltrainerMScript:
-	jumptextfaceplayer Route31CooltrainerMText
+Route31HusCavernSign:
+	jumptext Route31HusCavernSignText
 
 Route31FruitTree:
 	fruittree FRUITTREE_ROUTE_31
 
-Route31Potion:
-	itemball FULL_RESTORE
+Route31MaxElixer:
+	itemball TM_DRAGON_PULSE
 
-Route31PokeBall:
-	itemball ULTRA_BALL
+CooltrainermJuanSeenText:
+	text "Vaporeon is one"
+	line "of my favorite"
+	cont "#mon!"
 
-Route31CooltrainerMText:
-	text "Sorry, but Dark"
-	line "Cave is off-"
-	cont "limits right now."
+	para "…"
 
-	para "The cave-in"
-	line "should be cleared"
-	cont "up soon."
+	para "Why are you"
+	line "looking at me"
+	cont "like that for?"
 	done
 
-TeacherKawakamiSeenText:
-	text "You should always"
-	line "be open to"
-	cont "learning!"
+CooltrainermJuanBeatenText:
+	text "Was it something"
+	line "I said?"
 	done
 
-TeacherKawakamiBeatenText:
-	text "Looks like I need"
-	line "to be more open to"
-	cont "learning as well!"
+CooltrainermJuanAfterBattleText:
+	text "Did you know that"
+	line "in terms of battle"
+	cont "capabilities,"
+
+	para "that Vaporeon is"
+	line "neat?"
+
+	para "…"
+
+	para "What did you think"
+	line "I was going to"
+	cont "say?"
 	done
 
-TeacherKawakamiAfterText:
-	text "See, I learned"
-	line "something new."
-
-	para "Be sure to keep"
-	line "learning!"
+CooltrainermGaven3SeenText:
+	text "It's time to make"
+	line "my dreams come"
+	cont "true!"
 	done
 
-Text_Route31SleepyMan:
-	text "… Hnuurg… Huh?"
-
-	para "I walked too far"
-	line "today looking for"
-	cont "#mon."
-
-	para "My feet hurt and"
-	line "I'm sleepy…"
-
-	para "I took a nap, but"
-	line "then I started to"
-	cont "feel like…"
-
-	para "Something was"
-	line "eating my dreams…"
-
-	para "…Huh?"
-
-	para "Wh-where did this"
-	line "TM come from?"
-
-	para "H-here, you take"
-	line "it!"
+CooltrainermGaven3BeatenText:
+	text "I can't give up!"
 	done
 
-Text_Route31DescribeNightmare:
-	text "Ugh…I don't feel"
-	line "so good now…"
+CooltrainermGavenAfterText:
+	text "I just need to"
+	line "work on my team's"
+	cont "strengths!"
 
-	para "Something must"
-	line "have been eating"
-	cont "my dreams…"
-
-	para "When Dream Eater"
-	line "is used on a"
-
-	para "sleeping #mon,"
-	line "it heals the user."
-
-	para "Scary, huh?"
+	para "Then we'll be"
+	line "unstoppable!"
 	done
 
-Route31YoungsterText:
-	text "Have you met Mr."
-	line "#mon?"
+CooltrainerfMarySeenText:
+	text "If I beat you,"
+	line "I think I'll have"
+	cont "the confidence to"
 
-	para "He lives just"
-	line "South of here."
-
-	para "He's a little odd,"
-	line "so I don't visit."
+	para "take on the"
+	line "#mon League!"
 	done
 
-CooltrainerFJessieSeenText:
-	text "Not too many"
-	line "trainers make it"
-	cont "this far."
+CooltrainerfMaryBeatenText:
+	text "Maybe I'm not"
+	line "ready…"
 	done
 
-CooltrainerFJessieBeatenText:
-	text "I can see why!"
+CooltrainerfMaryAfterBattleText:
+	text "I've defeated"
+	line "eight Gym Leaders,"
+
+	para "but I guess I'm"
+	line "not quite there"
+	cont "yet…"
 	done
 
-CooltrainerFJessieRematchText:
-	text "Want a rematch?"
+CooltrainerfTessaSeenText:
+	text "Let's see who's"
+	line "ready for the"
+	cont "#mon League!"
 	done
 
-CooltrainerFJessieLetsDoItText:
-	text "Let's get to it!"
+CooltrainerfTessaBeatenText:
+	text "You apparently"
+	line "are!"
 	done
 
-CooltrainerFJessieRefusedText:
-	text "7 badges is no"
-	line "joke. No wonder"
-	cont "you're so strong!"
+CooltrainerfTessaAfterText:
+	text "We'll win soon"
+	line "enough, I know it!"
+	done
+
+Route31PsychicText:
+	text "Darn!"
+
+	para "I was just beaten"
+	line "by a really strong"
+	cont "trainer!"
+
+	para "Swept me away!"
+
+	para "I'll need to train"
+	line "more if I want to"
+	cont "stand a chance!"
+	done
+
+Route31FisherText:
+	text "I'm not battling"
+	line "today."
+
+	para "Just here to fish."
+
+	para "I don't think I'm"
+	line "of the same level"
+	cont "as everyone else"
+	cont "here."
 	done
 
 Route31SignText:
 	text "Route 31"
 
-	para "Violet City -"
-	line "Cherrygrove City"
+	para "North to Hu's"
+	line "Cavern"
 
-	para "Cooltrainer Jessie"
-	line "is waiting for"
-	cont "battle!"
+	para "West to Crescent"
+	line "Lake"
 	done
 
-DarkCaveSignText:
-	text "Dark Cave"
+Route31HusCavernSignText:
+	text "Hu's Cavern"
+
+	para "Route 26 -"
+	line "Zaconia Town"
 	done
 
 Route31_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
-	warp_event  4,  6, ROUTE_31_VIOLET_GATE, 3
-	warp_event  4,  7, ROUTE_31_VIOLET_GATE, 4
-	warp_event 34,  5, DARK_CAVE_VIOLET_ENTRANCE, 1
+	warp_event 11, 70, ROUTE_38_ECRUTEAK_GATE, 1
+	warp_event 11, 71, ROUTE_38_ECRUTEAK_GATE, 2
+	warp_event 15, 27, ROUTE_26_HEAL_HOUSE, 1
 
 	db 0 ; coord events
 
 	db 2 ; bg events
-	bg_event  7,  5, BGEVENT_READ, Route31Sign
-	bg_event 31,  5, BGEVENT_READ, DarkCaveSign
+	bg_event  9, 69, BGEVENT_READ, Route31Sign
+	bg_event  8, 10, BGEVENT_READ, Route31HusCavernSign
 
 	db 8 ; object events
-	object_event 17,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31MailRecipientScript, -1
-	object_event  9,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31YoungsterScript, -1
-	object_event 19, 13, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerTeacherKawakami, -1
-	object_event 34,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31CooltrainerMScript, EVENT_DARK_CAVE_GUARD
-	object_event 16,  7, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31FruitTree, -1
-	object_event 29,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route31Potion, EVENT_ROUTE_31_POTION
-	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route31PokeBall, EVENT_ROUTE_31_POKE_BALL
-	object_event 30,  8, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerFJessie, -1
+	object_event 14, -6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainermJuan, -1
+	object_event  4,  4, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermGaven3, -1
+	object_event  9, -6, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfMary, -1
+	object_event  8, 31, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfTessa, -1
+	object_event 16, 50, SPRITE_PSYCHIC, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route31PsychicScript, -1
+	object_event  8, 68, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route31FisherScript, -1
+	object_event 14, 24, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31FruitTree, -1
+	object_event  9, -6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, Route31MaxElixer, EVENT_ROUTE_26_MAX_ELIXER

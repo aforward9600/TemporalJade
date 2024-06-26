@@ -1220,3 +1220,6 @@ MoravilSchoolLibrary_Blocks:
 
 MoravilSchoolGym_Blocks:
 	INCBIN "maps/MoravilSchoolGym.blk"
+
+CrescentLake_Blocks:
+	INCBIN "maps/CrescentLake.blk"

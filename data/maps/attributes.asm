@@ -167,7 +167,11 @@ ENDM
 
 	map_attributes Route31, ROUTE_31, $05, WEST
 ;	connection south, Route30, ROUTE_30, 10
-	connection west, VioletCity, VIOLET_CITY, -9
+	connection west, CrescentLake, CRESCENT_LAKE, 25
+
+	map_attributes CrescentLake, CRESCENT_LAKE, $05, WEST | EAST
+	connection west, Route36, ROUTE_36, 0
+	connection east, Route31, ROUTE_31, -25
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH
 	connection north, VioletCity, VIOLET_CITY, 0
@@ -185,10 +189,9 @@ ENDM
 	connection north, Route36, ROUTE_36, 0
 	connection south, GoldenrodCity, GOLDENROD_CITY, -5
 
-	map_attributes Route36, ROUTE_36, $05, NORTH | SOUTH | EAST
-	connection north, Route37, ROUTE_37, 10
-	connection south, Route35, ROUTE_35, 0
-	connection east, VioletCity, VIOLET_CITY, 0
+	map_attributes Route36, ROUTE_36, $05, WEST | EAST
+	connection west, Route37, ROUTE_37, 10
+	connection east, CrescentLake, CRESCENT_LAKE, 0
 
 	map_attributes Route37, ROUTE_37, $05, NORTH | SOUTH
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5

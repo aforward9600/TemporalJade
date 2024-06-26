@@ -1175,32 +1175,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 48, LEDIAN
-	dbw 48, TOUCANNON
-	dbw 48, WEEPINBELL
-	dbw 48, SCOLIPEDE
-	dbw 48, HERDIER
-	dbw 48, JUMPLUFF
-	dbw 48, JUMPLUFF
-	dbw 48, JUMPLUFF
+	dbw 8, LILLIPUP
+	dbw 8, PIKIPEK
+	dbw 8, DROWZEE
+	dbw 8, MANKEY
+	dbw 8, MANKEY
+	dbw 8, HOPPIP
+	dbw 8, ABRA
+	dbw 8, ABRA
 	; day
-	dbw 48, LEDIAN
-	dbw 48, TOUCANNON
-	dbw 48, WEEPINBELL
-	dbw 48, SCOLIPEDE
-	dbw 48, HERDIER
-	dbw 48, JUMPLUFF
-	dbw 48, JUMPLUFF
-	dbw 48, JUMPLUFF
+	dbw 8, LILLIPUP
+	dbw 8, PIKIPEK
+	dbw 8, DROWZEE
+	dbw 8, MANKEY
+	dbw 8, MANKEY
+	dbw 8, HOPPIP
+	dbw 8, ABRA
+	dbw 8, ABRA
 	; nite
-	dbw 48, ARIADOS
-	dbw 48, POLIWHIRL
-	dbw 48, WEEPINBELL
-	dbw 48, NOCTOWL
-	dbw 48, CROBAT
-	dbw 48, GENGAR
-	dbw 48, GENGAR
-	dbw 48, GENGAR
+	dbw 8, LILLIPUP
+	dbw 8, PIKIPEK
+	dbw 8, DROWZEE
+	dbw 8, MANKEY
+	dbw 8, MANKEY
+	dbw 8, HOPPIP
+	dbw 8, GASTLY
+	dbw 8, GASTLY
 
 	map_id ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2041,5 +2041,35 @@ JohtoGrassWildMons:
 	dbw  4, SANDYGAST
 	dbw  4, SANDYGAST
 	dbw  4, SANDYGAST
+
+	map_id CRESCENT_LAKE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw  9, KRABBY
+	dbw  9, KRABBY
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	; day
+	dbw  9, KRABBY
+	dbw  9, KRABBY
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	; nite
+	dbw  9, KRABBY
+	dbw  9, KRABBY
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
+	dbw  9, SANDYGAST
 
 	db -1 ; end

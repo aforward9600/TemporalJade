@@ -82,32 +82,6 @@ MagikarpLengthRaterScript:
 	end
 
 MagikarpLengthOldRodScript:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_OLD_ROD
-	iftrue .GotOldRod
-	writetext OldRodText_Question
-	yesorno
-	iffalse .Refused
-	writetext OldRodText_Yes
-	buttonsound
-	verbosegiveitem OLD_ROD
-	writetext OldRodText_GiveOldRod
-	waitbutton
-	closetext
-	setevent EVENT_GOT_OLD_ROD
-	end
-
-.Refused:
-	writetext OldRodText_No
-	waitbutton
-	closetext
-	end
-
-.GotOldRod:
-	writetext OldRodText_After
-	waitbutton
-	closetext
 	end
 
 LakeOfRageMagikarpHouseUnusedRecordSign:
@@ -227,46 +201,6 @@ LakeOfRageMagikarpHouseUnusedRecordText:
 	text_end
 
 	text_end ; unused
-
-OldRodText_Question:
-	text "This is a great"
-	line "fishing spot."
-
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
-
-	para "Would you like one"
-	line "of my Rods?"
-	done
-
-OldRodText_Yes:
-	text "Heh, that's good"
-	line "to hear."
-
-	para "Now you're an"
-	line "angler too!"
-	done
-
-OldRodText_GiveOldRod:
-	text "Fishing is great!"
-
-	para "If there's water,"
-	line "be it the sea or a"
-
-	para "stream, try out"
-	line "your Rod."
-	done
-
-OldRodText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
-	done
-
-OldRodText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
-	done
 
 PlayerGotMagikarpDollText:
 	text "<PLAYER> received"
