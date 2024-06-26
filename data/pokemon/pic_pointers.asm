@@ -224,10 +224,10 @@ PokemonPicPointers::
 	dba DrowzeeBackpic
 	dba HypnoFrontpic
 	dba HypnoBackpic
-	dba KrabbyFrontpic
-	dba KrabbyBackpic
-	dba KinglerFrontpic
-	dba KinglerBackpic
+	dba CorphishFrontpic
+	dba CorphishBackpic
+	dba CrawdauntFrontpic
+	dba CrawdauntBackpic
 	dba VoltorbFrontpic
 	dba VoltorbBackpic
 	dba ElectrodeFrontpic

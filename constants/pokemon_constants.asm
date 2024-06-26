@@ -126,8 +126,8 @@
 	const STEELIX    ; d0
 	const DROWZEE    ; 60
 	const HYPNO      ; 61
-	const KRABBY     ; 62
-	const KINGLER    ; 63
+	const CORPHISH   ; 62
+	const CRAWDAUNT  ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66

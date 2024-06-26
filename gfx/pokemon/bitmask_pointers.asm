@@ -106,8 +106,8 @@ BitmasksPointers:
 	dw SteelixBitmasks
 	dw DrowzeeBitmasks
 	dw HypnoBitmasks
-	dw KrabbyBitmasks
-	dw KinglerBitmasks
+	dw CorphishBitmasks
+	dw CrawdauntBitmasks
 	dw VoltorbBitmasks
 	dw ElectrodeBitmasks
 	dw ExeggcuteBitmasks

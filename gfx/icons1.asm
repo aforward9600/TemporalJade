@@ -109,8 +109,8 @@ Icons1:
 	dw SteelixIcon
 	dw DrowzeeIcon
 	dw HypnoIcon
-	dw KrabbyIcon
-	dw KinglerIcon
+	dw CorphishIcon
+	dw CrawdauntIcon
 	dw VoltorbIcon
 	dw ElectrodeIcon
 	dw ExeggcuteIcon
@@ -236,8 +236,8 @@ OnixIcon:         INCBIN "gfx/icons/onix.2bpp"
 SteelixIcon:      INCBIN "gfx/icons/steelix.2bpp"
 DrowzeeIcon:      INCBIN "gfx/icons/drowzee.2bpp"
 HypnoIcon:        INCBIN "gfx/icons/hypno.2bpp"
-KrabbyIcon:       INCBIN "gfx/icons/krabby.2bpp"
-KinglerIcon:      INCBIN "gfx/icons/kingler.2bpp"
+CorphishIcon:     INCBIN "gfx/icons/corphish.2bpp"
+CrawdauntIcon:    INCBIN "gfx/icons/crawdaunt.2bpp"
 VoltorbIcon:      INCBIN "gfx/icons/voltorb.2bpp"
 ElectrodeIcon:    INCBIN "gfx/icons/electrode.2bpp"
 ExeggcuteIcon:    INCBIN "gfx/icons/exeggcute.2bpp"

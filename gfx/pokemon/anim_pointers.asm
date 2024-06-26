@@ -106,8 +106,8 @@ AnimationPointers:
 	dw SteelixAnimation
 	dw DrowzeeAnimation
 	dw HypnoAnimation
-	dw KrabbyAnimation
-	dw KinglerAnimation
+	dw CorphishAnimation
+	dw CrawdauntAnimation
 	dw VoltorbAnimation
 	dw ElectrodeAnimation
 	dw ExeggcuteAnimation

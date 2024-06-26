@@ -106,8 +106,8 @@ AnimationIdlePointers:
 	dw SteelixAnimationIdle
 	dw DrowzeeAnimationIdle
 	dw HypnoAnimationIdle
-	dw KrabbyAnimationIdle
-	dw KinglerAnimationIdle
+	dw CorphishAnimationIdle
+	dw CrawdauntAnimationIdle
 	dw VoltorbAnimationIdle
 	dw ElectrodeAnimationIdle
 	dw ExeggcuteAnimationIdle

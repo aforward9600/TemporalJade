@@ -108,8 +108,8 @@ OldPokedexOrder:
 	dw STEELIX
 	dw DROWZEE
 	dw HYPNO
-	dw KRABBY
-	dw KINGLER
+	dw CORPHISH
+	dw CRAWDAUNT
 	dw VOLTORB
 	dw ELECTRODE
 	dw EXEGGCUTE

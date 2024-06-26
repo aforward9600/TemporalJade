@@ -108,8 +108,8 @@ EvosAttacksPointers1::
 	dw SteelixEvosAttacks
 	dw DrowzeeEvosAttacks
 	dw HypnoEvosAttacks
-	dw KrabbyEvosAttacks
-	dw KinglerEvosAttacks
+	dw CorphishEvosAttacks
+	dw CrawdauntEvosAttacks
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw ExeggcuteEvosAttacks
@@ -2245,47 +2245,47 @@ HypnoEvosAttacks:
 	dbw 61, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-KrabbyEvosAttacks:
-	dbbw EVOLVE_LEVEL, 28, KINGLER
+CorphishEvosAttacks:
+	dbbw EVOLVE_LEVEL, 30, CRAWDAUNT
 	db 0 ; no more evolutions
-	dbw 1, AQUA_JET
-	dbw 1, LEER
-	dbw 5, VICEGRIP
-	dbw 9, LEER
-	dbw 11, HARDEN
-	dbw 15, BUBBLEBEAM
-	dbw 19, MUD_SHOT
-	dbw 21, METAL_CLAW
-	dbw 25, STOMP
-	dbw 29, PROTECT
-	dbw 31, GUILLOTINE
-	dbw 35, SLAM
-	dbw 39, WATERFALL
-	dbw 41, CRABHAMMER
-	dbw 45, FLAIL
-	dbw 51, WAVE_CRASH
+	dbw 1, BUBBLE
+	dbw 5, HARDEN
+	dbw 7, VICEGRIP
+	dbw 10, LEER
+	dbw 14, BUBBLEBEAM
+	dbw 17, PROTECT
+	dbw 20, DOUBLE_HIT_M
+	dbw 23, KNOCK_OFF
+	dbw 26, NIGHT_SLASH
+	dbw 31, WATERFALL
+	dbw 34, SHELL_SMASH
+	dbw 37, SWORDS_DANCE
+	dbw 39, CRUNCH
+	dbw 43, CRABHAMMER
+	dbw 48, GUILLOTINE
+	dbw 53, WAVE_CRASH
 	db 0 ; no more level-up moves
 
-KinglerEvosAttacks:
+CrawdauntEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, BULLDOZE
-	dbw 1, BULLDOZE
-	dbw 1, AQUA_JET
-	dbw 1, LEER
-	dbw 5, VICEGRIP
-	dbw 9, LEER
-	dbw 11, HARDEN
-	dbw 15, BUBBLEBEAM
-	dbw 19, MUD_SHOT
-	dbw 21, METAL_CLAW
-	dbw 25, STOMP
-	dbw 32, PROTECT
-	dbw 37, GUILLOTINE
-	dbw 44, SLAM
-	dbw 51, WATERFALL
-	dbw 56, CRABHAMMER
-	dbw 63, FLAIL
-	dbw 69, WAVE_CRASH
+	dbw LEARN_EVO_MOVE, SWIFT
+	dbw 1, SWIFT
+	dbw 1, BUBBLE
+	dbw 5, HARDEN
+	dbw 7, VICEGRIP
+	dbw 10, LEER
+	dbw 14, BUBBLEBEAM
+	dbw 17, PROTECT
+	dbw 20, DOUBLE_HIT_M
+	dbw 23, KNOCK_OFF
+	dbw 26, NIGHT_SLASH
+	dbw 32, WATERFALL
+	dbw 36, SHELL_SMASH
+	dbw 40, SWORDS_DANCE
+	dbw 43, CRUNCH
+	dbw 48, CRABHAMMER
+	dbw 54, GUILLOTINE
+	dbw 58, WAVE_CRASH
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:

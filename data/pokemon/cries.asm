@@ -112,8 +112,8 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELIX
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
 	mon_cry CRY_DROWZEE,     $0ee,  $0c0 ; HYPNO
-	mon_cry CRY_KRABBY,      $020,  $160 ; KRABBY
-	mon_cry CRY_KRABBY,      $0ee,  $160 ; KINGLER
+	mon_cry CRY_KRABBY,      $020,  $160 ; CORPHISH
+	mon_cry CRY_KRABBY,      $0ee,  $160 ; CRAWDAUNT
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; ELECTRODE
 	mon_cry CRY_DIGLETT,     $000,  $100 ; EXEGGCUTE

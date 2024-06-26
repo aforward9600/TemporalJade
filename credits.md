@@ -133,8 +133,8 @@ Back sprite: leParagon
 
 Farigiraf sprite and animation: Nuuk.
 
-Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga and
-Carracosta sprites
+Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
+Carracosta, Corphish and Crawdaunt sprites
 
 Ein trainer sprite: Sindorman
 

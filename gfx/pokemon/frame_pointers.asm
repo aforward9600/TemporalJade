@@ -106,8 +106,8 @@ FramesPointers:
 	dba SteelixFrames
 	dba DrowzeeFrames
 	dba HypnoFrames
-	dba KrabbyFrames
-	dba KinglerFrames
+	dba CorphishFrames
+	dba CrawdauntFrames
 	dba VoltorbFrames
 	dba ElectrodeFrames
 	dba ExeggcuteFrames

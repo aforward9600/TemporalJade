@@ -108,7 +108,7 @@ PreviousEvolutionStage::
 	dw 0    ;60
 	dw DROWZEE
 	dw 0
-	dw KRABBY
+	dw CORPHISH
 	dw 0
 	dw VOLTORB
 	dw 0

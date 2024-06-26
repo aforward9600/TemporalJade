@@ -118,8 +118,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   BROWN  ; STEELIX
 	icon_pals BROWN,  PURPLE ; DROWZE
 	icon_pals RED,    PINK   ; HYPNO
-	icon_pals RED,    GRAY   ; KRABBY
-	icon_pals RED,    GRAY   ; KINGLER
+	icon_pals RED,    PINK   ; CORPHISH
+	icon_pals RED,    PINK   ; CRAWDAUNT
 	icon_pals RED,    BLUE   ; VOLTORB
 	icon_pals RED,    BLUE   ; ELECTRODE
 	icon_pals PINK,   GREEN  ; EXEGGCUTE

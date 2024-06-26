@@ -24,17 +24,17 @@ FishGroups:
 .Shore_Old:
 	dbbw  70 percent + 1, 10, MAGIKARP
 	dbbw  85 percent + 1, 10, MAGIKARP
-	dbbw 100 percent,     10, KRABBY
+	dbbw 100 percent,     10, CORPHISH
 .Shore_Good:
 	dbbw  35 percent,     20, MAGIKARP
-	dbbw  70 percent,     20, KRABBY
+	dbbw  70 percent,     20, CORPHISH
 	dbbw  90 percent + 1, 20, HORSEA
 	dbbw 100 percent,      0, TIME_GROUP
 .Shore_Super:
-	dbbw  40 percent,     40, KRABBY
+	dbbw  40 percent,     40, CORPHISH
 	dbbw  70 percent,      1, TIME_GROUP
-	dbbw  90 percent + 1, 40, KRABBY
-	dbbw 100 percent,     40, KINGLER
+	dbbw  90 percent + 1, 40, CORPHISH
+	dbbw 100 percent,     40, CRAWDAUNT
 
 .Ocean_Old:
 	dbbw  70 percent + 1, 10, MAGIKARP
@@ -159,23 +159,23 @@ FishGroups:
 .WhirlIslands_Old:
 	dbbw  70 percent + 1, 10, MAGIKARP
 	dbbw  85 percent + 1, 10, MAGIKARP
-	dbbw 100 percent,     10, KRABBY
+	dbbw 100 percent,     10, CORPHISH
 .WhirlIslands_Good:
 	dbbw  35 percent,     20, MAGIKARP
-	dbbw  70 percent,     20, KRABBY
-	dbbw  90 percent + 1, 20, KRABBY
+	dbbw  70 percent,     20, CORPHISH
+	dbbw  90 percent + 1, 20, CORPHISH
 	dbbw 100 percent,     18, TIME_GROUP
 .WhirlIslands_Super:
-	dbbw  40 percent,     40, KRABBY
+	dbbw  40 percent,     40, CORPHISH
 	dbbw  70 percent,     19, TIME_GROUP
-	dbbw  90 percent + 1, 40, KINGLER
+	dbbw  90 percent + 1, 40, CRAWDAUNT
 	dbbw 100 percent,     40, SEADRA
 
 .Qwilfish_NoSwarm_Old:
 .Qwilfish_Old:
 	dbbw  70 percent + 1, 10, MAGIKARP
 	dbbw  85 percent + 1, 10, TENTACOOL
-	dbbw 100 percent,     10, KRABBY
+	dbbw 100 percent,     10, CORPHISH
 .Qwilfish_NoSwarm_Good:
 .Qwilfish_Good:
 	dbbw  35 percent,     20, MAGIKARP
@@ -185,7 +185,7 @@ FishGroups:
 .Qwilfish_NoSwarm_Super:
 .Qwilfish_Super:
 	dbbw  40 percent,     40, TENTACRUEL
-	dbbw  70 percent,     40, KINGLER
+	dbbw  70 percent,     40, CRAWDAUNT
 	dbbw  90 percent + 1, 40, OCTILLERY
 	dbbw 100 percent,     40, QWILFISH
 

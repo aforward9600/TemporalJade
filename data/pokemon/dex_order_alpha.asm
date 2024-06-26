@@ -39,7 +39,9 @@ AlphabeticalPokedexOrder:
 	dw CLEFAIRY
 	dw CLEFFA
 	dw CLOYSTER
+	dw CORPHISH
 	dw CORSOLA
+	dw CRAWDAUNT
 	dw CROAGUNK
 	dw CROBAT
 	dw CROCONAW
@@ -133,11 +135,9 @@ AlphabeticalPokedexOrder:
 	dw KADABRA
 	dw KANGASKHAN
 	dw KINGDRA
-	dw KINGLER
 	dw KIRLIA
 	dw KOFFING
 	dw KOTORA
-	dw KRABBY
 	dw LAIRON
 	dw LANTURN
 	dw LAPRAS

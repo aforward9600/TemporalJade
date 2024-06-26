@@ -108,7 +108,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw DrowzeeEggMoves
 	dw NoEggMoves1
-	dw KrabbyEggMoves
+	dw CorphishEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -560,13 +560,14 @@ DrowzeeEggMoves:
 	dw FLATTER
 	dw -1 ; end
 
-KrabbyEggMoves:
-	dw HAZE
-	dw AMNESIA
-	dw FLAIL
-	dw SLAM
+CorphishEggMoves:
 	dw ANCIENTPOWER
-	dw ENDURE
+	dw AQUA_JET
+	dw BODY_SLAM
+	dw DOUBLE_EDGE
+	dw KNOCK_OFF
+	dw METAL_CLAW
+	dw SUPERPOWER
 	dw -1 ; end
 
 ExeggcuteEggMoves:

@@ -284,9 +284,9 @@ SECTION "Golbat Front", ROMX
 
 GolbatFrontpic:      INCBIN "gfx/pokemon/golbat/front.animated.2bpp.lz"
 
-SECTION "Kingler Front", ROMX
+SECTION "Crawdaunt Front", ROMX
 
-KinglerFrontpic:     INCBIN "gfx/pokemon/kingler/front.animated.2bpp.lz"
+CrawdauntFrontpic:     INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
 
 SECTION "Exeggcute Front", ROMX
 
@@ -553,7 +553,7 @@ MankeyFrontpic:      INCBIN "gfx/pokemon/mankey/front.animated.2bpp.lz"
 CelebiFrontpic:      INCBIN "gfx/pokemon/celebi/front.animated.2bpp.lz"
 MediumPic:           INCBIN "gfx/trainers/medium.2bpp.lz"
 PinecoFrontpic:      INCBIN "gfx/pokemon/pineco/front.animated.2bpp.lz"
-KrabbyFrontpic:      INCBIN "gfx/pokemon/krabby/front.animated.2bpp.lz"
+CorphishFrontpic:    INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
 FisherPic:           INCBIN "gfx/trainers/fisher.2bpp.lz"
 JigglypuffFrontpic:  INCBIN "gfx/pokemon/jigglypuff/front.animated.2bpp.lz"
 ParasFrontpic:       INCBIN "gfx/pokemon/paras/front.animated.2bpp.lz"
@@ -621,7 +621,7 @@ SuicuneBackpic:      INCBIN "gfx/pokemon/suicune/back.2bpp.lz"
 SlowkingBackpic:     INCBIN "gfx/pokemon/slowking/back.2bpp.lz"
 ElekidBackpic:       INCBIN "gfx/pokemon/elekid/back.2bpp.lz"
 CelebiBackpic:       INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
-KrabbyBackpic:       INCBIN "gfx/pokemon/krabby/back.2bpp.lz"
+CorphishBackpic:     INCBIN "gfx/pokemon/corphish/back.2bpp.lz"
 BugCatcherPic:       INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
 
@@ -809,7 +809,7 @@ EspeonBackpic:       INCBIN "gfx/pokemon/espeon/back.2bpp.lz"
 LillipupFrontpic:    INCBIN "gfx/pokemon/lillipup/front.animated.2bpp.lz"
 TotodileBackpic:     INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
 SnubbullBackpic:     INCBIN "gfx/pokemon/snubbull/back.2bpp.lz"
-KinglerBackpic:      INCBIN "gfx/pokemon/kingler/back.2bpp.lz"
+CrawdauntBackpic:    INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
 GengarBackpic:       INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
 CutieflyBackpic:     INCBIN "gfx/pokemon/cutiefly/back.2bpp.lz"
 YoungsterPic:        INCBIN "gfx/trainers/youngster.2bpp.lz"

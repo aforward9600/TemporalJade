@@ -695,28 +695,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
-	dbw 22, KRABBY
-	dbw 24, KRABBY
+	dbw 22, CORPHISH
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, GOLBAT
 	dbw 24, GOLBAT
@@ -725,28 +725,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
-	dbw 22, KRABBY
-	dbw 24, KRABBY
+	dbw 22, CORPHISH
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, GOLBAT
 	dbw 24, GOLBAT
@@ -755,28 +755,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
-	dbw 22, KRABBY
-	dbw 24, KRABBY
+	dbw 22, CORPHISH
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, GOLBAT
 	dbw 24, GOLBAT
@@ -785,28 +785,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
-	dbw 22, KRABBY
-	dbw 24, KRABBY
+	dbw 22, CORPHISH
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, GOLBAT
 	dbw 24, GOLBAT
@@ -815,28 +815,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
 	dbw 22, SEEL
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, SEEL
 	dbw 24, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 22, KRABBY
+	dbw 22, CORPHISH
 	dbw 23, ZUBAT
-	dbw 22, KRABBY
-	dbw 24, KRABBY
+	dbw 22, CORPHISH
+	dbw 24, CORPHISH
 	dbw 25, GOLBAT
 	dbw 24, GOLBAT
 	dbw 24, GOLBAT
@@ -845,28 +845,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 23, KRABBY
+	dbw 23, CORPHISH
 	dbw 24, ZUBAT
 	dbw 23, SEEL
-	dbw 25, KRABBY
+	dbw 25, CORPHISH
 	dbw 26, GOLBAT
 	dbw 25, SEEL
 	dbw 25, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 23, KRABBY
+	dbw 23, CORPHISH
 	dbw 24, ZUBAT
 	dbw 23, SEEL
-	dbw 25, KRABBY
+	dbw 25, CORPHISH
 	dbw 26, GOLBAT
 	dbw 25, SEEL
 	dbw 25, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 23, KRABBY
+	dbw 23, CORPHISH
 	dbw 24, ZUBAT
-	dbw 23, KRABBY
-	dbw 25, KRABBY
+	dbw 23, CORPHISH
+	dbw 25, CORPHISH
 	dbw 26, GOLBAT
 	dbw 25, GOLBAT
 	dbw 25, GOLBAT
@@ -875,28 +875,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, ZUBAT
 	dbw 24, SEEL
-	dbw 26, KRABBY
+	dbw 26, CORPHISH
 	dbw 27, GOLBAT
 	dbw 26, SEEL
 	dbw 26, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, ZUBAT
 	dbw 24, SEEL
-	dbw 26, KRABBY
+	dbw 26, CORPHISH
 	dbw 27, GOLBAT
 	dbw 26, SEEL
 	dbw 26, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 24, KRABBY
+	dbw 24, CORPHISH
 	dbw 25, ZUBAT
-	dbw 24, KRABBY
-	dbw 26, KRABBY
+	dbw 24, CORPHISH
+	dbw 26, CORPHISH
 	dbw 27, GOLBAT
 	dbw 26, GOLBAT
 	dbw 26, GOLBAT
@@ -905,28 +905,28 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 25, KRABBY
+	dbw 25, CORPHISH
 	dbw 26, ZUBAT
 	dbw 25, SEEL
-	dbw 27, KRABBY
+	dbw 27, CORPHISH
 	dbw 28, GOLBAT
 	dbw 27, SEEL
 	dbw 27, SEEL
 	dbw 24, SEEL
 	; day
-	dbw 25, KRABBY
+	dbw 25, CORPHISH
 	dbw 26, ZUBAT
 	dbw 25, SEEL
-	dbw 27, KRABBY
+	dbw 27, CORPHISH
 	dbw 28, GOLBAT
 	dbw 27, SEEL
 	dbw 27, SEEL
 	dbw 24, SEEL
 	; nite
-	dbw 25, KRABBY
+	dbw 25, CORPHISH
 	dbw 26, ZUBAT
-	dbw 25, KRABBY
-	dbw 27, KRABBY
+	dbw 25, CORPHISH
+	dbw 27, CORPHISH
 	dbw 28, GOLBAT
 	dbw 27, GOLBAT
 	dbw 27, GOLBAT
@@ -1690,7 +1690,7 @@ JohtoGrassWildMons:
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
-	dbw 23, KINGLER
+	dbw 23, CRAWDAUNT
 	dbw 23, QUAGSIRE
 	dbw 23, STEELIX
 	; day
@@ -1699,7 +1699,7 @@ JohtoGrassWildMons:
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
-	dbw 23, KINGLER
+	dbw 23, CRAWDAUNT
 	dbw 23, QUAGSIRE
 	dbw 23, STEELIX
 	; nite
@@ -1708,7 +1708,7 @@ JohtoGrassWildMons:
 	dbw 23, MISDREAVUS
 	dbw 23, GEODUDE
 	dbw 23, ONIX
-	dbw 23, KINGLER
+	dbw 23, CRAWDAUNT
 	dbw 23, GOLBAT
 	dbw 23, STEELIX
 
@@ -1990,7 +1990,7 @@ JohtoGrassWildMons:
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
-	dbw 23, KINGLER
+	dbw 23, CRAWDAUNT
 	dbw 23, QUAGSIRE
 	dbw 23, STEELIX
 	; day
@@ -1999,7 +1999,7 @@ JohtoGrassWildMons:
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
-	dbw 23, KINGLER
+	dbw 23, CRAWDAUNT
 	dbw 23, QUAGSIRE
 	dbw 23, STEELIX
 	; nite
@@ -2008,7 +2008,7 @@ JohtoGrassWildMons:
 	dbw 23, MISDREAVUS
 	dbw 23, GEODUDE
 	dbw 23, ONIX
-	dbw 23, KINGLER
+	dbw 23, CRAWDAUNT
 	dbw 23, GOLBAT
 	dbw 23, STEELIX
 
@@ -2045,8 +2045,8 @@ JohtoGrassWildMons:
 	map_id CRESCENT_LAKE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw  9, KRABBY
-	dbw  9, KRABBY
+	dbw  9, CORPHISH
+	dbw  9, CORPHISH
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
@@ -2054,8 +2054,8 @@ JohtoGrassWildMons:
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
 	; day
-	dbw  9, KRABBY
-	dbw  9, KRABBY
+	dbw  9, CORPHISH
+	dbw  9, CORPHISH
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
@@ -2063,8 +2063,8 @@ JohtoGrassWildMons:
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
 	; nite
-	dbw  9, KRABBY
-	dbw  9, KRABBY
+	dbw  9, CORPHISH
+	dbw  9, CORPHISH
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST
 	dbw  9, SANDYGAST

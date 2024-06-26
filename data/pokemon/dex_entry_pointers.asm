@@ -107,8 +107,8 @@ PokedexDataPointerTable:
 	dba SteelixPokedexEntry
 	dba DrowzeePokedexEntry
 	dba HypnoPokedexEntry
-	dba KrabbyPokedexEntry
-	dba KinglerPokedexEntry
+	dba CorphishPokedexEntry
+	dba CrawdauntPokedexEntry
 	dba VoltorbPokedexEntry
 	dba ElectrodePokedexEntry
 	dba ExeggcutePokedexEntry

@@ -3017,7 +3017,7 @@ endc
 	dw HITMONTOP
 	dw ROCK_SLIDE, CLOSE_COMBAT, GYRO_BALL, BULK_UP
 	db 67
-	dw KINGLER
+	dw CRAWDAUNT
 	dw CRABHAMMER, BULLDOZE, FLAIL, PROTECT
 	db 67
 	dw WEAVILE
@@ -4626,7 +4626,7 @@ endc
 	next_list_item ; FISHER (3)
 	db "Foster@", TRAINERTYPE_MOVES
 	db 74
-	dw KINGLER
+	dw CRAWDAUNT
 	dw WAVE_CRASH, EARTHQUAKE, CRABHAMMER, PROTECT
 	db -1 ; end
 
@@ -4962,7 +4962,7 @@ endc
 	next_list_item ; SWIMMERM (8) MATHEW Route 41
 	db "Rod@", TRAINERTYPE_NORMAL
 	db 26
-	dw KINGLER
+	dw CRAWDAUNT
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (9)
@@ -5281,7 +5281,7 @@ SailorGroup:
 	dw POLIWAG
 	dw BUBBLE, HYPNOSIS, RAIN_DANCE, DOUBLESLAP
 	db 19
-	dw KRABBY
+	dw CORPHISH
 	dw MUD_SHOT, AQUA_JET, LEER, VICEGRIP
 	db 18
 	dw TYROGUE
@@ -5293,7 +5293,7 @@ SailorGroup:
 	db 73
 	dw MACHAMP
 	db 73
-	dw KINGLER
+	dw CRAWDAUNT
 	db -1 ; end
 
 	next_list_item ; SAILOR (3)
@@ -5305,10 +5305,10 @@ SailorGroup:
 	next_list_item ; SAILOR (4)
 	db "KENT@", TRAINERTYPE_MOVES
 	db 18
-	dw KRABBY
+	dw CORPHISH
 	dw BUBBLE, LEER, VICEGRIP, HARDEN
 	db 20
-	dw KRABBY
+	dw CORPHISH
 	dw BUBBLEBEAM, LEER, VICEGRIP, HARDEN
 	db -1 ; end
 
@@ -5333,7 +5333,7 @@ SailorGroup:
 	next_list_item ; SAILOR (7)
 	db "GARRETT@", TRAINERTYPE_NORMAL
 	db 34
-	dw KINGLER
+	dw CRAWDAUNT
 	db -1 ; end
 
 	next_list_item ; SAILOR (8)
@@ -6131,7 +6131,7 @@ endc
 	db 71
 	dw EXCADRILL
 	db 71
-	dw KINGLER
+	dw CRAWDAUNT
 	db 71
 	dw XATU
 	db 72
@@ -7348,7 +7348,7 @@ endc
 	next_list_item ; CAMPER (11)
 	db "Jaoquin@", TRAINERTYPE_MOVES
 	db 52
-	dw KINGLER
+	dw CRAWDAUNT
 	dw WATERFALL, EARTHQUAKE, SWORDS_DANCE, X_SCISSOR
 	db 52
 	dw LEDIAN
@@ -12678,7 +12678,7 @@ endc
 	dw RHYPERIOR
 	dw ROCK_WRECKER, MEGAHORN, EARTHQUAKE, HAMMER_ARM
 	db 74
-	dw KINGLER
+	dw CRAWDAUNT
 	dw WAVE_CRASH, EARTHQUAKE, GIGA_IMPACT, SWORDS_DANCE
 	db -1 ; end
 
