@@ -8,52 +8,52 @@ Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	dbbw       0,   0, SpecialMapName
 	landmark 148, 124, MurkrowValleyName
-	landmark 132, 124, Route29Name
+	landmark 132, 124, Route24Name
 	landmark 116, 124, AntiquoTownName
 	landmark 116, 116, DarkCaveName
-	landmark 108, 116, Route30Name
+	landmark 108, 116, Route25Name
 	landmark  92, 116, MoravilSchoolName
-	landmark  84, 116, Route31Name
+	landmark  84, 116, Route26Name
 	landmark  76, 116, CrescentLakeName
 	landmark  84, 100, HusCavernName
-	landmark  84,  92, ZaconiaTownName
-	landmark 132,  64, Route45Name
-	landmark 130,  38, IcePathName
-	landmark 120,  44, Route44Name
-	landmark 140,  60, AcituTownName
-	landmark 109,  45, UnknownName
-	landmark 108,  36, Route43Name
-	landmark 108,  28, LakeOfRageName
-	landmark  92,  44, Route42Name
-	landmark  84,  44, MtMortarName
-	landmark  68,  44, EcruteakCityName
-	landmark  69,  42, BellchimePathName
-	landmark  70,  42, TinTowerName
-	landmark  66,  42, BurnedTowerName
-	landmark  52,  44, Route38Name
-	landmark  36,  48, Route39Name
-	landmark  36,  60, OlivineCityName
-	landmark  38,  62, LighthouseName
+	landmark  84,  92, ZaconiaCityName
+	landmark  76,  92, Route27Name
+	landmark  60,  92, OrrianDesertName
+	landmark  52,  84, ScantelesTownName
+	landmark  84,  80, Route28Name
+	landmark 104,  84, Route29Name
+	landmark 124,  84, OenidVillageName
+	landmark  84,  60, SirakisCityName
+	landmark  84,  44, Route30Name
+	landmark  92,  36, BlackRiverCityName
+	landmark  94,  32, MetronIncName
+	landmark  92,  28, BlackRiverLakeName
+	landmark  60,  60, Route31Name
+	landmark  60,  48, Route32Name
+	landmark  60,  44, EmissVillageName
+	landmark  60,  20, OnagaCastleName
+	landmark  36,  60, RocherCityName
+	landmark  28,  52, Route33Name
+	landmark  12,  52, WhiteRiverFallsName
+	landmark  12,  28, LakeOnteriorName
+	landmark 116,  60, Route34Name
+	landmark 124,  52, TitanShrineName
+	landmark 140,  60, AcituCityName
+	landmark 148,  52, Route35Name
+	landmark 148,  28, MtAdadackName
+	landmark  60, 116, Route36Name
+	landmark  32, 116, Route37Name
+	landmark   4, 124, Route38Name
+	landmark   4, 140, DigitLakeName
 	landmark  28,  56, BattleTowerName
-	landmark  28,  64, Route40Name
-	landmark  28,  92, WhirlIslandsName
-	landmark  28, 100, Route41Name
-	landmark  20, 100, CianwoodCityName
-	landmark  20,  99, CliffsEdgeGateName
 	landmark  12, 100, Route47Name
 	landmark  11, 100, CliffCaveName
 	landmark   4,  92, Route48Name
 	landmark   4,  84, WildAreaName
-	landmark  68,  52, Route37Name
-	landmark  64,  60, Route36Name
 	landmark  52,  60, NationalParkName
-	landmark  52,  76, Route35Name
-	landmark  84,  60, SirakisCityName
 	landmark  50,  92, RadioTowerName
 	landmark  52, 112, Route34Name
 	landmark  52, 120, IlexForestName
-	landmark  60,  28, EmissVillageName
-	landmark  70, 122, SlowpokeWellName
 	landmark  82, 124, Route33Name
 	landmark  84, 124, UnionCaveName
 	landmark  84,  92, Route32Name
@@ -121,14 +121,14 @@ AntiquoTownName:     db "Antiquo¯Town@"
 CrescentLakeName:    db "Crescent¯Lake@"
 EmissVillageName:    db "Emiss¯Village@"
 SirakisCityName:     db "Sirakis¯City@"
-EcruteakCityName:    db "Ecruteak¯City@"
-OlivineCityName:     db "Olivine¯City@"
-CianwoodCityName:    db "Cianwood¯City@"
-CliffsEdgeGateName:  db "Cliff's Edge¯Gate@"
-AcituTownName:       db "Acitu Town@"
-UnknownName:         db "???@"
-ZaconiaTownName:     db "Zaconia¯Town@"
-LakeOfRageName:      db "Lake Of¯Rage@"
+OenidVillageName:    db "Oenid¯Village@"
+RocherCityName:      db "Rochér City@"
+WhiteRiverFallsName: db "White River¯Falls@"
+BlackRiverLakeName:  db "Oenid Lake@"
+AcituCityName:       db "Acitu City@"
+OnagaCastleName:     db "Onaga¯Castle@"
+ZaconiaCityName:     db "Zaconia¯City@"
+BlackRiverCityName:  db "Black River¯City@"
 SilverCaveName:      db "Silver Cave@"
 MoravilSchoolName:   db "Moravil¯School@"
 RuinsOfAlphName:     db "Ruins¯Of Alph@"
@@ -137,13 +137,13 @@ SlowpokeWellName:    db "Slowpoke¯Well@"
 RadioTowerName:      db "Goldenrod¯Tower@"
 PowerPlantName:      db "Power Plant@"
 NationalParkName:    db "National¯Forest@"
-BellchimePathName:   db "Bellchime¯Path@"
-TinTowerName:        db "Bell Tower@"
-LighthouseName:      db "Lighthouse@"
-WhirlIslandsName:    db "Whirl¯Islands@"
-MtMortarName:        db "Mt.Mortar@"
+OrrianDesertName:    db "Orrian¯Desert@"
+MetronIncName:       db "Metron Inc.@"
+DigitLakeName:       db "Digit Lake@"
+TitanShrineName:     db "Titan¯Shrine@"
+MtAdadackName:       db "Mt.Adadack@"
 HusCavernName:       db "Hu's Cavern@"
-IcePathName:         db "Ice Path@"
+ScantelesTownName:   db "Scanteles¯Town@"
 NotApplicableName:   db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
 PalletTownName:      db "Pallet Town@"
 ViridianCityName:    db "Viridian¯City@"
@@ -193,9 +193,9 @@ Route25Name:         db "Route 25@"
 Route26Name:         db "Route 26@"
 Route27Name:         db "Route 27@"
 Route28Name:         db "Route 28@"
-Route29Name:         db "Route 24@"
-Route30Name:         db "Route 25@"
-Route31Name:         db "Route 26@"
+Route29Name:         db "Route 29@"
+Route30Name:         db "Route 30@"
+Route31Name:         db "Route 31@"
 Route32Name:         db "Route 32@"
 Route33Name:         db "Route 33@"
 Route34Name:         db "Route 34@"
@@ -213,7 +213,7 @@ Route45Name:         db "Route 45@"
 Route46Name:         db "Route 46@"
 DarkCaveName:        db "Black River¯Pass@"
 IlexForestName:      db "Ilex¯Forest@"
-BurnedTowerName:     db "Burned¯Tower@"
+LakeOnteriorName:    db "Lake¯Onterior@"
 FastShipName:        db "Fast Ship@"
 ViridianForestName:  db "Viridian¯Forest@"
 DiglettsCaveName:    db "Diglett's¯Cave@"

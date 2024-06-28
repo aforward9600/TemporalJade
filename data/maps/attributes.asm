@@ -167,11 +167,11 @@ ENDM
 
 	map_attributes Route31, ROUTE_31, $05, WEST
 ;	connection south, Route30, ROUTE_30, 10
-	connection west, CrescentLake, CRESCENT_LAKE, 25
+	connection west, CrescentLake, CRESCENT_LAKE, 24
 
 	map_attributes CrescentLake, CRESCENT_LAKE, $05, WEST | EAST
 	connection west, Route36, ROUTE_36, 0
-	connection east, Route31, ROUTE_31, -25
+	connection east, Route31, ROUTE_31, -24
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH
 	connection north, VioletCity, VIOLET_CITY, 0

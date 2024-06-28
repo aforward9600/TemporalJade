@@ -82,7 +82,7 @@ CrescentLakeSignText:
 	text "Crescent Lake"
 
 	para "Route 26 -"
-	line "Route 36"
+	line "Route 35"
 	done
 
 CrescentLake_MapEvents:
@@ -93,7 +93,7 @@ CrescentLake_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event 37, 19, BGEVENT_READ, CrescentLakeSign
+	bg_event 33, 18, BGEVENT_READ, CrescentLakeSign
 
 	db 1 ; object events
-	object_event  28, 19, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CrescenLakeFisherScript, -1
+	object_event 30, 21, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CrescenLakeFisherScript, -1

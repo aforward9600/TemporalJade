@@ -12,47 +12,47 @@
 	const ROUTE_31          ; 05
 	const CRESCENT_LAKE     ; 07
 	const DRAGONS_DEN       ; 2a
-	const BLACKTHORN_CITY   ; 29
-	const ROUTE_45          ; 2b
-	const ICE_PATH          ; 28
-	const ROUTE_44          ; 27
-	const MAHOGANY_TOWN     ; 24
-	const UNKNOWN
-	const ROUTE_43          ; 25
-	const LAKE_OF_RAGE      ; 26
-	const ROUTE_42          ; 22
-	const MT_MORTAR         ; 23
-	const ECRUTEAK_CITY     ; 16
+	const AZALEA_TOWN       ; 0c
+	const ROUTE_44          ; 1a
 	const BELLCHIME_PATH
+	const ICE_PATH          ; 28
+	const ROUTE_45          ; 27
+	const ROUTE_43          ; 2b
+	const ECRUTEAK_CITY     ; 16
+	const GOLDENROD_CITY    ; 10
+	const ROUTE_42          ; 25
+	const LAKE_OF_RAGE      ; 26
 	const TIN_TOWER         ; 17
-	const BURNED_TOWER      ; 18
-	const ROUTE_38          ; 19
-	const ROUTE_39          ; 1a
+	const CLIFFS_EDGE_GATE
+	const ROUTE_41          ; 22
+	const ROUTE_32          ; 20
+	const SLOWPOKE_WELL     ; 0d
+	const UNKNOWN
 	const OLIVINE_CITY      ; 1b
+	const ROUTE_33          ; 08
+	const CIANWOOD_CITY     ; 21
+	const BURNED_TOWER      ; 18
+	const ROUTE_34          ; 0b
+	const WHIRL_ISLANDS     ; 1f
+	const MAHOGANY_TOWN     ; 24
+	const ROUTE_35          ; 0f
+	const MT_MORTAR         ; 23
+	const ROUTE_36          ; 12
+	const ROUTE_37          ; 14
+	const ROUTE_38          ; 15
 	const LIGHTHOUSE        ; 1c
 	const BATTLE_TOWER      ; 1d
-	const ROUTE_40          ; 1e
-	const WHIRL_ISLANDS     ; 1f
-	const ROUTE_41          ; 20
-	const CIANWOOD_CITY     ; 21
-	const CLIFFS_EDGE_GATE
 	const ROUTE_47          ; 61
 	const CLIFF_CAVE
 	const ROUTE_48          ; 62
 	const WILD_AREA_OUTSIDE ; 60
-	const ROUTE_37          ; 15
-	const ROUTE_36          ; 14
 	const NATIONAL_PARK     ; 13
-	const ROUTE_35          ; 12
-	const GOLDENROD_CITY    ; 10
 	const RADIO_TOWER       ; 11
-	const ROUTE_34          ; 0f
+	const ROUTE_39          ; 19
 	const ILEX_FOREST       ; 0e
-	const AZALEA_TOWN       ; 0c
-	const SLOWPOKE_WELL     ; 0d
-	const ROUTE_33          ; 0b
 	const UNION_CAVE        ; 0a
-	const ROUTE_32          ; 08
+	const BLACKTHORN_CITY   ; 29
+	const ROUTE_40          ; 1e
 	const RUINS_OF_ALPH     ; 09
 	const ROUTE_46          ; 2d
 	const SILVER_CAVE       ; 2e

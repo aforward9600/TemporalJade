@@ -17,6 +17,10 @@ Route38EcruteakGate_MapScripts:
 Route38EcruteakGateOfficerScript:
 	jumptextfaceplayer MoravilGateGuardText4
 
+MoravilGateGuardStopsYou4:
+	applymovement PLAYER, MoravilGateMovement1
+MoravilGateGuardStopsYou3:
+	applymovement PLAYER, MoravilGateMovement1
 MoravilGateGuardStopsYou2:
 	applymovement PLAYER, MoravilGateMovement1
 MoravilGateGuardStopsYou1:
@@ -91,11 +95,13 @@ Route38EcruteakGate_MapEvents:
 	warp_event  9,  4, MORAVIL_SCHOOL_OUTSIDE, 3
 	warp_event  9,  5, MORAVIL_SCHOOL_OUTSIDE, 4
 
-	db 2 ; coord events
-	coord_event 5, 4, SCENE_DEFAULT, MoravilGateGuardStopsYou1
-	coord_event 5, 5, SCENE_DEFAULT, MoravilGateGuardStopsYou2
+	db 4 ; coord events
+	coord_event 8, 3, SCENE_DEFAULT, MoravilGateGuardStopsYou1
+	coord_event 8, 4, SCENE_DEFAULT, MoravilGateGuardStopsYou2
+	coord_event 8, 5, SCENE_DEFAULT, MoravilGateGuardStopsYou3
+	coord_event 8, 6, SCENE_DEFAULT, MoravilGateGuardStopsYou4
 
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route38EcruteakGateOfficerScript, -1
+	object_event  8,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route38EcruteakGateOfficerScript, -1

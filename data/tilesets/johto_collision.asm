@@ -169,15 +169,15 @@
 	tilecoll SAND, SAND, SAND, SAND ; a8
 	tilecoll WALL, WALL, WALL, WALL ; a9
 	tilecoll WALL, WALL, WALL, WALL ; aa
-	tilecoll UP_WALL, UP_WALL, FLOOR, FLOOR ; ab
+	tilecoll SAND, PUDDLE, SAND, PUDDLE ; ab
 	tilecoll BUOY, BUOY, WATER, WATER ; ac
 	tilecoll WATER, WATER, BUOY, BUOY ; ad
-	tilecoll FLOOR, FLOOR, WALL, FLOOR ; ae
-	tilecoll WALL, WALL, CAVE, WALL ; af
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ae
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; af
 	tilecoll UP_WALL, WALL, FLOOR, WALL ; b0
 	tilecoll WALL, UP_WALL, WALL, FLOOR ; b1
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b2
-	tilecoll UP_WALL, WALL, FLOOR, WALL ; b3
+	tilecoll SAND, WALL, SAND, SAND ; b3
 	tilecoll PUDDLE, SAND, PUDDLE, SAND ; b4
 	tilecoll WATER, PUDDLE, WATER, PUDDLE ; b5
 	tilecoll WALL, WALL, WALL, WALL ; b6
