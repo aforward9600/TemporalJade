@@ -47,9 +47,9 @@ PreviousEvolutionStage::
 	dw ZUBAT
 	dw GOLBAT
 	dw 0
-	dw ODDISH
-	dw GLOOM
-	dw GLOOM
+	dw COTTONEE
+	dw 0
+	dw PETILIL
 	dw 0
 	dw PARAS
 	dw 0    ;30

@@ -397,7 +397,7 @@ SwarmGrassWildMons:
 	; nite
 	dbw 37, PARASECT
 	dbw 37, PARASECT
-	dbw 37, GLOOM
+	dbw 37, WHIMSICOTT
 	dbw 37, GOLDUCK
 	dbw 37, VENOMOTH
 	dbw 37, PARASECT

@@ -65,10 +65,10 @@
 	const ZUBAT      ; 29
 	const GOLBAT     ; 2a
 	const CROBAT     ; a9
-	const ODDISH     ; 2b
-	const GLOOM      ; 2c
-	const VILEPLUME  ; 2d
-	const BELLOSSOM  ; b6
+	const COTTONEE   ; 2b
+	const WHIMSICOTT ; 2c
+	const PETILIL    ; 2d
+	const LILLIGANT  ; b6
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const VENONAT    ; 30

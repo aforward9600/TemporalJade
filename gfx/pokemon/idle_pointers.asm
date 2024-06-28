@@ -45,10 +45,10 @@ AnimationIdlePointers:
 	dw ZubatAnimationIdle
 	dw GolbatAnimationIdle
 	dw CrobatAnimationIdle
-	dw OddishAnimationIdle
-	dw GloomAnimationIdle
-	dw VileplumeAnimationIdle
-	dw BellossomAnimationIdle
+	dw CottoneeAnimationIdle
+	dw WhimsicottAnimationIdle
+	dw PetililAnimationIdle
+	dw LilligantAnimationIdle
 	dw ParasAnimationIdle
 	dw ParasectAnimationIdle
 	dw VenonatAnimationIdle

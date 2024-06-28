@@ -203,7 +203,7 @@ KantoGrassWildMons:
 	dbw  2, ROWLET
 	dbw  3, ROWLET
 	; nite
-	dbw 66, VILEPLUME
+	dbw 66, PETILIL
 	dbw 66, TANGROWTH
 	dbw 66, MR__MIME
 	dbw 66, NOCTOWL
@@ -775,12 +775,12 @@ KantoGrassWildMons:
 	; nite
 	dbw 68, VENOMOTH
 	dbw 68, ARIADOS
-	dbw 68, GLOOM
+	dbw 68, WHIMSICOTT
 	dbw 68, KADABRA
 	dbw 68, ARIADOS
 	dbw 68, ARIADOS
 	dbw 68, ARIADOS
-	dbw 68, VILEPLUME
+	dbw 68, PETILIL
 
 	map_id ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -805,10 +805,10 @@ KantoGrassWildMons:
 	; nite
 	dbw 68, VENOMOTH
 	dbw 68, ARIADOS
-	dbw 68, GLOOM
+	dbw 68, WHIMSICOTT
 	dbw 68, KADABRA
 	dbw 68, ARIADOS
-	dbw 68, VILEPLUME
+	dbw 68, PETILIL
 	dbw 2, TEPIG
 	dbw 3, TEPIG
 

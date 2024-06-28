@@ -47,10 +47,10 @@ EvosAttacksPointers1::
 	dw ZubatEvosAttacks
 	dw GolbatEvosAttacks
 	dw CrobatEvosAttacks
-	dw OddishEvosAttacks
-	dw GloomEvosAttacks
-	dw VileplumeEvosAttacks
-	dw BellossomEvosAttacks
+	dw CottoneeEvosAttacks
+	dw WhimsicottEvosAttacks
+	dw PetililEvosAttacks
+	dw LilligantEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
 	dw VenonatEvosAttacks
@@ -990,79 +990,71 @@ CrobatEvosAttacks:
 	dbw 56, BRAVE_BIRD
 	db 0 ; no more level-up moves
 
-OddishEvosAttacks:
-	dbbw EVOLVE_LEVEL, 21, GLOOM
+CottoneeEvosAttacks:
+	dbbw EVOLVE_ITEM, SUN_STONE, WHIMSICOTT
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
+	dbw 1, FAIRY_WIND
+	dbw 4, GROWTH
+	dbw 8, LEECH_SEED
+	dbw 10, STUN_SPORE
+	dbw 13, MEGA_DRAIN
+	dbw 17, COTTON_SPORE
+	dbw 19, RAZOR_LEAF
+	dbw 22, POISONPOWDER
+	dbw 26, GIGA_DRAIN
+	dbw 28, CHARM
+	dbw 31, DAZZLINGLEAM
+	dbw 35, ENERGY_BALL
+	dbw 37, SAFEGUARD
+	dbw 40, SUNNY_DAY
+	dbw 44, STRENGTH_SAP
+	dbw 46, SOLARBEAM
+	db 0 ; no more level-up moves
+
+WhimsicottEvosAttacks:
+	db 0 ; no more evolutions
 	dbw 1, GROWTH
-	dbw 5, SWEET_SCENT
-	dbw 9, ACID
-	dbw 13, POISONPOWDER
-	dbw 14, STUN_SPORE
-	dbw 15, SLEEP_POWDER
-	dbw 19, BULLET_SEED
-	dbw 23, MEGA_DRAIN
-	dbw 27, VENOSHOCK
-	dbw 31, MOONLIGHT
-	dbw 35, GIGA_DRAIN
-	dbw 39, TOXIC
-	dbw 43, LEECH_SEED
-	dbw 47, MOONBLAST
-	dbw 51, PETAL_DANCE
+	dbw 1, LEECH_SEED
+	dbw 1, MEGA_DRAIN
+	dbw 1, COTTON_SPORE
+	dbw 10, GUST
+	dbw 28, AIR_SLASH
+	dbw 46, HURRICANE
+	dbw 50, MOONBLAST
 	db 0 ; no more level-up moves
 
-GloomEvosAttacks:
-	dbbw EVOLVE_ITEM, LEAF_STONE, VILEPLUME
-	dbbw EVOLVE_ITEM, SUN_STONE, BELLOSSOM
+PetililEvosAttacks:
+	dbbw EVOLVE_ITEM, SUN_STONE, LILLIGANT
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
+	dbw 4, GROWTH
+	dbw 8, LEECH_SEED
+	dbw 10, SLEEP_POWDER
+	dbw 13, MEGA_DRAIN
+	dbw 17, SYNTHESIS
+	dbw 19, MAGICAL_LEAF
+	dbw 22, STUN_SPORE
+	dbw 26, GIGA_DRAIN
+	dbw 28, HEAL_BELL
+	dbw 31, GRASSWHISTLE
+	dbw 35, ENERGY_BALL
+	dbw 37, STRENGTH_SAP
+	dbw 40, SUNNY_DAY
+	dbw 44, BATON_PASS
+	dbw 46, SOLARBEAM
+	db 0 ; no more level-up moves
+
+LilligantEvosAttacks:
+	db 0 ; no more evolutions
 	dbw 1, GROWTH
-	dbw 5, SWEET_SCENT
-	dbw 9, ACID
-	dbw 13, POISONPOWDER
-	dbw 14, STUN_SPORE
-	dbw 15, SLEEP_POWDER
-	dbw 19, BULLET_SEED
-	dbw 24, MEGA_DRAIN
-	dbw 29, VENOSHOCK
-	dbw 34, MOONLIGHT
-	dbw 39, GIGA_DRAIN
-	dbw 44, TOXIC
-	dbw 49, LEECH_SEED
-	dbw 54, MOONBLAST
-	dbw 59, PETAL_DANCE
-	db 0 ; no more level-up moves
-
-VileplumeEvosAttacks:
-	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, PETAL_BLIZZ
-	dbw 1, PETAL_BLIZZ
-	dbw 1, ABSORB
-	dbw 1, SWEET_SCENT
-	dbw 1, STUN_SPORE
-	dbw 59, PETAL_DANCE
-	dbw 69, SOLARBEAM
-	db 0 ; no more level-up moves
-
-BellossomEvosAttacks:
-	db 0 ; no more evolutions
-if DEF(_FAITHFUL)
-	dbw LEARN_EVO_MOVE, MAGICAL_LEAF
-else
-	dbw LEARN_EVO_MOVE, MOONBLAST
-endc
-if DEF(_FAITHFUL)
-	dbw 1, MAGICAL_LEAF
-else
-	dbw 1, MOONBLAST
-endc
-	dbw 1, ABSORB
-	dbw 1, SWEET_SCENT
-	dbw 1, STUN_SPORE
-	dbw 1, PETAL_DANCE
-	dbw 39, QUIVER_DANCE
-	dbw 59, PETAL_DANCE
-	dbw 69, SOLARBEAM
+	dbw 1, LEECH_SEED
+	dbw 1, MEGA_DRAIN
+	dbw 1, SYNTHESIS
+	dbw 10, SING
+	dbw 28, QUIVER_DANCE
+	dbw 46, PETAL_DANCE
+	dbw 50, PETAL_BLIZZ
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:

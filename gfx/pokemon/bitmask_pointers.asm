@@ -45,10 +45,10 @@ BitmasksPointers:
 	dw ZubatBitmasks
 	dw GolbatBitmasks
 	dw CrobatBitmasks
-	dw OddishBitmasks
-	dw GloomBitmasks
-	dw VileplumeBitmasks
-	dw BellossomBitmasks
+	dw CottoneeBitmasks
+	dw WhimsicottBitmasks
+	dw PetililBitmasks
+	dw LilligantBitmasks
 	dw ParasBitmasks
 	dw ParasectBitmasks
 	dw VenonatBitmasks

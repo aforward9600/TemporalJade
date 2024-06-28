@@ -21,7 +21,6 @@ AlphabeticalPokedexOrder:
 	dw AZUMARILL
 	dw BAGON
 	dw BAYLEEF
-	dw BELLOSSOM
 	dw BELLSPROUT
 	dw BLISSEY
 	dw BONSLY
@@ -41,6 +40,7 @@ AlphabeticalPokedexOrder:
 	dw CLOYSTER
 	dw CORPHISH
 	dw CORSOLA
+	dw COTTONEE
 	dw CRAWDAUNT
 	dw CROAGUNK
 	dw CROBAT
@@ -101,7 +101,6 @@ AlphabeticalPokedexOrder:
 	dw GLALIE
 	dw GLIGAR
 	dw GLISCOR
-	dw GLOOM
 	dw GOLBAT
 	dw GOLDEEN
 	dw GOLDUCK
@@ -147,6 +146,7 @@ AlphabeticalPokedexOrder:
 	dw LEDYBA
 	dw LICKILICKY
 	dw LICKITUNG
+	dw LILLIGANT
 	dw LILLIPUP
 	dw LOMBRE
 	dw LOTAD
@@ -198,13 +198,13 @@ AlphabeticalPokedexOrder:
 	dw NOCTOWL
 	dw NOWN
 	dw OCTILLERY
-	dw ODDISH
 	dw ONIX
 	dw ORTHWORM
 	dw PALOSSAND
 	dw PARAS
 	dw PARASECT
 	dw PERSIAN
+	dw PETILIL
 	dw PHANPY
 	dw PICHU
 	dw PIGNITE
@@ -307,12 +307,12 @@ AlphabeticalPokedexOrder:
 	dw VENOMOTH
 	dw VENONAT
 	dw VICTREEBEL
-	dw VILEPLUME
 	dw VOLTORB
 	dw VULPIX
 	dw WEAVILE
 	dw WEEPINBELL
 	dw WEEZING
+	dw WHIMSICOTT
 	dw WHIRLIPEDE
 	dw WIGGLYTUFF
 	dw WOBBUFFET

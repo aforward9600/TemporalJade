@@ -57,10 +57,10 @@ MonMenuIconPals:
 	icon_pals BLUE,   GREEN  ; ZUBAT
 	icon_pals BLUE,   RED    ; GOLBAT
 	icon_pals PURPLE, PINK   ; CROBAT
-	icon_pals GREEN,  BROWN  ; ODDISH
-	icon_pals RED,    BROWN  ; GLOOM
-	icon_pals RED,    BROWN  ; VILEPLUME
-	icon_pals GREEN,  RED    ; BELLOSSOM
+	icon_pals GREEN,  RED    ; COTTONEE
+	icon_pals BROWN,  BLUE   ; WHIMSICOTT
+	icon_pals GREEN,  RED    ; PETILIL
+	icon_pals GREEN,  BLUE   ; LILLIGANT
 	icon_pals RED,    BROWN  ; PARAS
 	icon_pals RED,    BROWN  ; PARASECT
 	icon_pals RED,    PURPLE ; CUTIEFLY

@@ -46,10 +46,10 @@ PokedexDataPointerTable:
 	dba ZubatPokedexEntry
 	dba GolbatPokedexEntry
 	dba CrobatPokedexEntry
-	dba OddishPokedexEntry
-	dba GloomPokedexEntry
-	dba VileplumePokedexEntry
-	dba BellossomPokedexEntry
+	dba CottoneePokedexEntry
+	dba WhimsicottPokedexEntry
+	dba PetililPokedexEntry
+	dba LilligantPokedexEntry
 	dba ParasPokedexEntry
 	dba ParasectPokedexEntry
 	dba VenonatPokedexEntry

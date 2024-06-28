@@ -102,14 +102,14 @@ PokemonPicPointers::
 	dba GolbatBackpic
 	dba CrobatFrontpic
 	dba CrobatBackpic
-	dba OddishFrontpic
-	dba OddishBackpic
-	dba GloomFrontpic
-	dba GloomBackpic
-	dba VileplumeFrontpic
-	dba VileplumeBackpic
-	dba BellossomFrontpic
-	dba BellossomBackpic
+	dba CottoneeFrontpic
+	dba CottoneeBackpic
+	dba WhimsicottFrontpic
+	dba WhimsicottBackpic
+	dba PetililFrontpic
+	dba PetililBackpic
+	dba LilligantFrontpic
+	dba LilligantBackpic
 	dba ParasFrontpic
 	dba ParasBackpic
 	dba ParasectFrontpic

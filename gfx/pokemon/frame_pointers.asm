@@ -45,10 +45,10 @@ FramesPointers:
 	dba ZubatFrames
 	dba GolbatFrames
 	dba CrobatFrames
-	dba OddishFrames
-	dba GloomFrames
-	dba VileplumeFrames
-	dba BellossomFrames
+	dba CottoneeFrames
+	dba WhimsicottFrames
+	dba PetililFrames
+	dba LilligantFrames
 	dba ParasFrames
 	dba ParasectFrames
 	dba VenonatFrames

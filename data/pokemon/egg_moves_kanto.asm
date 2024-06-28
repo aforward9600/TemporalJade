@@ -47,9 +47,9 @@ EggMovePointers1:
 	dw ZubatEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw OddishEggMoves
+	dw CottoneeEggMoves
 	dw NoEggMoves1
-	dw NoEggMoves1
+	dw PetililEggMoves
 	dw NoEggMoves1
 	dw ParasEggMoves
 	dw NoEggMoves1
@@ -312,12 +312,18 @@ ZubatEggMoves:
 	dw STRENGTH_SAP
 	dw -1 ; end
 
-OddishEggMoves:
-	dw RAZOR_LEAF
-	dw FLAIL
-	dw SYNTHESIS
-	dw STRENGTH_SAP
+CottoneeEggMoves:
+	dw ENCORE
+	dw GRASSWHISTLE
 	dw -1 ; end
+
+PetililEggMoves:
+	dw CHARM
+	dw ENCORE
+	dw ENDURE
+	dw GRASSWHISTLE
+	dw SWEET_SCENT
+	dw -1
 
 ParasEggMoves:
 	dw FALSE_SWIPE

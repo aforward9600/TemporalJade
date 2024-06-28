@@ -19,7 +19,7 @@ Landmarks:
 	landmark  84,  92, ZaconiaCityName
 	landmark  76,  92, Route27Name
 	landmark  60,  92, OrrianDesertName
-	landmark  52,  84, ScantelesTownName
+	landmark  44,  92, ScantelesTownName
 	landmark  84,  80, Route28Name
 	landmark 104,  84, Route29Name
 	landmark 124,  84, OenidVillageName

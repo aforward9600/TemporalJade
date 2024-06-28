@@ -45,10 +45,10 @@ AnimationPointers:
 	dw ZubatAnimation
 	dw GolbatAnimation
 	dw CrobatAnimation
-	dw OddishAnimation
-	dw GloomAnimation
-	dw VileplumeAnimation
-	dw BellossomAnimation
+	dw CottoneeAnimation
+	dw WhimsicottAnimation
+	dw PetililAnimation
+	dw LilligantAnimation
 	dw ParasAnimation
 	dw ParasectAnimation
 	dw VenonatAnimation

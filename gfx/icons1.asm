@@ -48,10 +48,10 @@ Icons1:
 	dw ZubatIcon
 	dw GolbatIcon
 	dw CrobatIcon
-	dw OddishIcon
-	dw GloomIcon
-	dw VileplumeIcon
-	dw BellossomIcon
+	dw CottoneeIcon
+	dw WhimsicottIcon
+	dw PetililIcon
+	dw LilligantIcon
 	dw ParasIcon
 	dw ParasectIcon
 	dw VenonatIcon
@@ -175,10 +175,10 @@ WigglytuffIcon:   INCBIN "gfx/icons/wigglytuff.2bpp"
 ZubatIcon:        INCBIN "gfx/icons/zubat.2bpp"
 GolbatIcon:       INCBIN "gfx/icons/golbat.2bpp"
 CrobatIcon:       INCBIN "gfx/icons/crobat.2bpp"
-OddishIcon:       INCBIN "gfx/icons/oddish.2bpp"
-GloomIcon:        INCBIN "gfx/icons/gloom.2bpp"
-VileplumeIcon:    INCBIN "gfx/icons/vileplume.2bpp"
-BellossomIcon:    INCBIN "gfx/icons/bellossom.2bpp"
+CottoneeIcon:     INCBIN "gfx/icons/cottonee.2bpp"
+WhimsicottIcon:   INCBIN "gfx/icons/whimsicott.2bpp"
+PetililIcon:      INCBIN "gfx/icons/petilil.2bpp"
+LilligantIcon:    INCBIN "gfx/icons/lilligant.2bpp"
 ParasIcon:        INCBIN "gfx/icons/paras.2bpp"
 ParasectIcon:     INCBIN "gfx/icons/parasect.2bpp"
 VenonatIcon:      INCBIN "gfx/icons/venonat.2bpp"

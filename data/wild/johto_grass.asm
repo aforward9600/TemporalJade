@@ -415,7 +415,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 37, ARIADOS
 	dbw 37, NOCTOWL
-	dbw 37, GLOOM
+	dbw 37, WHIMSICOTT
 	dbw 37, GOLDUCK
 	dbw 37, VENOMOTH
 	dbw 37, PARASECT
@@ -1147,7 +1147,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 4, LILLIPUP
 	dbw 4, POLIWAG
-	dbw 4, BELLSPROUT
+	dbw 4, PETILIL
 	dbw 4, PIKIPEK
 	dbw 4, GROWLITHE
 	dbw 4, GROWLITHE
@@ -1156,7 +1156,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 4, LILLIPUP
 	dbw 4, POLIWAG
-	dbw 4, BELLSPROUT
+	dbw 4, PETILIL
 	dbw 4, PIKIPEK
 	dbw 4, GROWLITHE
 	dbw 4, GROWLITHE
@@ -1165,7 +1165,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 4, LILLIPUP
 	dbw 4, POLIWAG
-	dbw 4, BELLSPROUT
+	dbw 4, COTTONEE
 	dbw 4, PIKIPEK
 	dbw 4, HOUNDOUR
 	dbw 4, HOUNDOUR
@@ -1328,7 +1328,7 @@ JohtoGrassWildMons:
 	dbw 27, DROWZEE
 	dbw 27, WHIRLIPEDE
 	dbw 27, WEEPINBELL
-	dbw 27, GLOOM
+	dbw 27, WHIMSICOTT
 	dbw 27, DODUO
 	dbw 27, DODUO
 	dbw 27, EKANS
@@ -1337,7 +1337,7 @@ JohtoGrassWildMons:
 	dbw 27, DROWZEE
 	dbw 27, WHIRLIPEDE
 	dbw 27, WEEPINBELL
-	dbw 27, GLOOM
+	dbw 27, WHIMSICOTT
 	dbw 27, DODUO
 	dbw 27, DODUO
 	dbw 27, EKANS
@@ -1346,7 +1346,7 @@ JohtoGrassWildMons:
 	dbw 27, DROWZEE
 	dbw 27, WHIRLIPEDE
 	dbw 27, WEEPINBELL
-	dbw 27, GLOOM
+	dbw 27, WHIMSICOTT
 	dbw 27, NOCTOWL
 	dbw 27, NOCTOWL
 	dbw 27, HOUNDOUR
@@ -1536,7 +1536,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 5, BELLSPROUT
-	dbw 5, ODDISH
+	dbw 5, COTTONEE
 	dbw 5, POLIWAG
 	dbw 5, EKANS
 	dbw 5, BUDEW
@@ -1545,7 +1545,7 @@ JohtoGrassWildMons:
 	dbw 5, CHIKORITA
 	; day
 	dbw 5, BELLSPROUT
-	dbw 5, ODDISH
+	dbw 5, COTTONEE
 	dbw 5, POLIWAG
 	dbw 5, EKANS
 	dbw 5, BUDEW
@@ -1554,7 +1554,7 @@ JohtoGrassWildMons:
 	dbw 5, CHIKORITA
 	; nite
 	dbw 5, BELLSPROUT
-	dbw 5, ODDISH
+	dbw 5, COTTONEE
 	dbw 5, POLIWAG
 	dbw 5, EKANS
 	dbw 5, BUDEW
@@ -1865,7 +1865,7 @@ JohtoGrassWildMons:
 	map_id WILD_AREA_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 15, ODDISH
+	dbw 15, COTTONEE
 	dbw 15, BELLSPROUT
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
@@ -1874,7 +1874,7 @@ JohtoGrassWildMons:
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
 	; day
-	dbw 15, ODDISH
+	dbw 15, COTTONEE
 	dbw 15, BELLSPROUT
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
@@ -1883,7 +1883,7 @@ JohtoGrassWildMons:
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
 	; nite
-	dbw 15, ODDISH
+	dbw 15, COTTONEE
 	dbw 15, BELLSPROUT
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
