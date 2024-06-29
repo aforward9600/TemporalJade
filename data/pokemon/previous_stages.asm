@@ -217,8 +217,8 @@ PreviousEvolutionStage::
 	dw 0
 	dw BONSLY
 	dw 0
-	dw HOPPIP
-	dw SKIPLOOM
+	dw LITWICK
+	dw LAMPENT
 	dw 0
 	dw AIPOM
 	dw 0

@@ -485,23 +485,23 @@ KantoGrassWildMons:
 	map_id ROUTE_11
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 70, SKIPLOOM
+	dbw 70, LAMPENT
 	dbw 70, RIBOMBEE
 	dbw 70, MAGNETON
 	dbw 70, SCOLIPEDE
 	dbw 70, RIBOMBEE
-	dbw 70, JUMPLUFF
-	dbw 70, JUMPLUFF
-	dbw 70, JUMPLUFF
+	dbw 70, CHANDELURE
+	dbw 70, CHANDELURE
+	dbw 70, CHANDELURE
 	; day
-	dbw 70, SKIPLOOM
+	dbw 70, LAMPENT
 	dbw 70, RIBOMBEE
 	dbw 70, MAGNETON
 	dbw 70, SCOLIPEDE
 	dbw 70, RIBOMBEE
-	dbw 70, JUMPLUFF
-	dbw 70, JUMPLUFF
-	dbw 70, JUMPLUFF
+	dbw 70, CHANDELURE
+	dbw 70, CHANDELURE
+	dbw 70, CHANDELURE
 	; nite
 	dbw 70, DROWZEE
 	dbw 70, RIBOMBEE
@@ -518,18 +518,18 @@ KantoGrassWildMons:
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
 	dbw 71, SCOLIPEDE
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; day
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
 	dbw 71, SCOLIPEDE
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; nite
@@ -548,18 +548,18 @@ KantoGrassWildMons:
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
 	dbw 71, SCOLIPEDE
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; day
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
 	dbw 71, SCOLIPEDE
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; nite
@@ -578,18 +578,18 @@ KantoGrassWildMons:
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
 	dbw 71, SCOLIPEDE
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; day
 	dbw 71, NIDORINO
 	dbw 71, NIDORINA
 	dbw 71, SCOLIPEDE
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
-	dbw 71, JUMPLUFF
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
+	dbw 71, CHANDELURE
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; nite

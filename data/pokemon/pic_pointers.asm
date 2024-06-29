@@ -442,12 +442,12 @@ PokemonPicPointers::
 	dba BonslyBackpic
 	dba SudowoodoFrontpic
 	dba SudowoodoBackpic
-	dba HoppipFrontpic
-	dba HoppipBackpic
-	dba SkiploomFrontpic
-	dba SkiploomBackpic
-	dba JumpluffFrontpic
-	dba JumpluffBackpic
+	dba LitwickFrontpic
+	dba LitwickBackpic
+	dba LampentFrontpic
+	dba LampentBackpic
+	dba ChandelureFrontpic
+	dba ChandelureBackpic
 	dba AipomFrontpic
 	dba AipomBackpic
 	dba AmbipomFrontpic

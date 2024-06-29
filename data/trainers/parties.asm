@@ -2109,7 +2109,7 @@ if DEF(_CHALLENGE)
 	db SPECIALSPECS
 	dw PSYCHIC_M, MOONBLAST, CALM_MIND, THUNDERBOLT
 else
-	dw JUMPLUFF
+	dw CHANDELURE
 	db NO_ITEM
 	dw ACROBATICS, BATON_PASS, AGILITY, GIGA_DRAIN
 endc
@@ -2591,7 +2591,7 @@ endc
 	next_list_item ; BIRD_KEEPER (7) Route 44
 	db "Sal@", TRAINERTYPE_ITEM
 	db 6
-	dw HOPPIP
+	dw LITWICK
 	db NO_ITEM
 	db 7
 	dw SPEAROW
@@ -2782,7 +2782,7 @@ else
 	dw FIRE_BLAST, EARTH_POWER, SUNNY_DAY, SOLARBEAM
 endc
 	db 74
-	dw JUMPLUFF
+	dw CHANDELURE
 	dw GIGA_DRAIN, ACROBATICS, U_TURN, SLEEP_POWDER
 	db -1 ; end
 
@@ -3119,7 +3119,7 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (1)
 	db "Teresa@", TRAINERTYPE_NORMAL
 	db 26
-	dw SKIPLOOM
+	dw LAMPENT
 	db 26
 	dw WOBBUFFET
 	db 27
@@ -3131,7 +3131,7 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (2)
 	db "Ariel@", TRAINERTYPE_ITEM_MOVES
 	db 21
-	dw SKIPLOOM
+	dw LAMPENT
 	db NO_ITEM
 	dw FAIRY_WIND, SLEEP_POWDER, BULLET_SEED, LEECH_SEED
 	db 21
@@ -3252,7 +3252,7 @@ endc
 	dw DEWGONG
 	dw ICE_BEAM, AQUA_TAIL, SHEER_COLD, REST
 	db 62
-	dw JUMPLUFF
+	dw CHANDELURE
 	dw AIR_SLASH, U_TURN, GIGA_DRAIN, ACROBATICS
 	db 62
 	dw DUSKNOIR
@@ -4261,7 +4261,7 @@ endc
 	db 49
 	dw FLAREON
 	db 49
-	dw JUMPLUFF
+	dw CHANDELURE
 	db 49
 	dw BRONZONG
 	db 50
@@ -7017,9 +7017,9 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (2)
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 9
-	dw HOPPIP
+	dw LITWICK
 	db 9
-	dw HOPPIP
+	dw LITWICK
 	db 12
 	dw ROWLET
 	db -1 ; end
@@ -7048,7 +7048,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (5) Route 46
 	db "Barbara@", TRAINERTYPE_NORMAL
 	db 52
-	dw JUMPLUFF
+	dw CHANDELURE
 	db 52
 	dw MILTANK
 	db 52
@@ -7090,9 +7090,9 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (9)
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 14
-	dw HOPPIP
+	dw LITWICK
 	db 14
-	dw HOPPIP
+	dw LITWICK
 	db 17
 	dw DARTRIX
 	db -1 ; end
@@ -7126,9 +7126,9 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (13)
 	db "HEIDI@", TRAINERTYPE_NORMAL
 	db 32
-	dw SKIPLOOM
+	dw LAMPENT
 	db 32
-	dw SKIPLOOM
+	dw LAMPENT
 	db -1 ; end
 
 	next_list_item ; PICNICKER (14)
@@ -7142,9 +7142,9 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (15)
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 26
-	dw SKIPLOOM
+	dw LAMPENT
 	db 26
-	dw SKIPLOOM
+	dw LAMPENT
 	db 29
 	dw DARTRIX
 	db -1 ; end
@@ -7227,9 +7227,9 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (24)
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 30
-	dw SKIPLOOM
+	dw LAMPENT
 	db 30
-	dw SKIPLOOM
+	dw LAMPENT
 	db 32
 	dw DARTRIX
 	db -1 ; end
@@ -7237,10 +7237,10 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (25)
 	db "GINA@", TRAINERTYPE_MOVES
 	db 33
-	dw JUMPLUFF
+	dw CHANDELURE
 	dw STUN_SPORE, SUNNY_DAY, LEECH_SEED, COTTON_SPORE
 	db 33
-	dw JUMPLUFF
+	dw CHANDELURE
 	dw SUNNY_DAY, SLEEP_POWDER, LEECH_SEED, COTTON_SPORE
 	db 38
 	dw DECIDUEYE
@@ -8427,7 +8427,7 @@ GruntFGroup:
 	next_list_item ; GruntF (6) Radio Tower 2F
 	db "Lady@", TRAINERTYPE_MOVES
 	db 34
-	dw JUMPLUFF
+	dw CHANDELURE
 	dw GIGA_DRAIN, ACROBATICS, LEECH_SEED, SLEEP_POWDER
 	db 34
 	dw CHANSEY
@@ -9675,7 +9675,7 @@ endc
 	next_list_item ; MNINJA_M (6)
 	db "Ninja@", TRAINERTYPE_NORMAL
 	db 38
-	dw JUMPLUFF
+	dw CHANDELURE
 	db 38
 	dw HERACROSS
 	db 38
@@ -12571,7 +12571,7 @@ RoughneckGroup:
 	db 70
 	dw ARBOK
 	db 70
-	dw JUMPLUFF
+	dw CHANDELURE
 	db 70
 	dw ALAKAZAM
 	db 71

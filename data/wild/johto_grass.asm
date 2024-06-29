@@ -1180,7 +1180,7 @@ JohtoGrassWildMons:
 	dbw 8, DROWZEE
 	dbw 8, MANKEY
 	dbw 8, MANKEY
-	dbw 8, HOPPIP
+	dbw 8, LITWICK
 	dbw 8, ABRA
 	dbw 8, ABRA
 	; day
@@ -1189,7 +1189,7 @@ JohtoGrassWildMons:
 	dbw 8, DROWZEE
 	dbw 8, MANKEY
 	dbw 8, MANKEY
-	dbw 8, HOPPIP
+	dbw 8, LITWICK
 	dbw 8, ABRA
 	dbw 8, ABRA
 	; nite
@@ -1198,7 +1198,7 @@ JohtoGrassWildMons:
 	dbw 8, DROWZEE
 	dbw 8, MANKEY
 	dbw 8, MANKEY
-	dbw 8, HOPPIP
+	dbw 8, LITWICK
 	dbw 8, GASTLY
 	dbw 8, GASTLY
 
@@ -1211,8 +1211,8 @@ JohtoGrassWildMons:
 	dbw 44, AMPHAROS
 	dbw 44, SCOLIPEDE
 	dbw 44, TOXICROAK
-	dbw 44, JUMPLUFF
-	dbw 44, JUMPLUFF
+	dbw 44, CHANDELURE
+	dbw 44, CHANDELURE
 	; day
 	dbw 44, ARBOK
 	dbw 44, RIBOMBEE
@@ -1220,8 +1220,8 @@ JohtoGrassWildMons:
 	dbw 44, AMPHAROS
 	dbw 44, SCOLIPEDE
 	dbw 44, TOXICROAK
-	dbw 44, JUMPLUFF
-	dbw 44, JUMPLUFF
+	dbw 44, CHANDELURE
+	dbw 44, CHANDELURE
 	; nite
 	dbw 44, QUAGSIRE
 	dbw 44, RIBOMBEE
@@ -1240,18 +1240,18 @@ JohtoGrassWildMons:
 	dbw 37, GRAVELER
 	dbw 37, ARBOK
 	dbw 37, CACTURNE
-	dbw 37, JUMPLUFF
-	dbw 37, JUMPLUFF
-	dbw 37, JUMPLUFF
+	dbw 37, CHANDELURE
+	dbw 37, CHANDELURE
+	dbw 37, CHANDELURE
 	; day
 	dbw 37, FURRET
 	dbw 37, FEAROW
 	dbw 37, GRAVELER
 	dbw 37, ARBOK
 	dbw 37, CACTURNE
-	dbw 37, JUMPLUFF
-	dbw 37, JUMPLUFF
-	dbw 37, JUMPLUFF
+	dbw 37, CHANDELURE
+	dbw 37, CHANDELURE
+	dbw 37, CHANDELURE
 	; nite
 	dbw 37, RIBOMBEE
 	dbw 37, NOCTOWL
@@ -1715,7 +1715,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_48
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 24, SKIPLOOM
+	dbw 24, LAMPENT
 	dbw 24, VULPIX
 	dbw 24, GROWLITHE
 	dbw 24, SANDYGAST
@@ -1724,7 +1724,7 @@ JohtoGrassWildMons:
 	dbw 24, GIRAFARIG
 	dbw 24, GIRAFARIG
 	; day
-	dbw 24, SKIPLOOM
+	dbw 24, LAMPENT
 	dbw 24, VULPIX
 	dbw 24, GROWLITHE
 	dbw 24, SANDYGAST
@@ -1869,7 +1869,7 @@ JohtoGrassWildMons:
 	dbw 15, BELLSPROUT
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
-	dbw 15, HOPPIP
+	dbw 15, LITWICK
 	dbw 15, SHUCKLE
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
@@ -1878,7 +1878,7 @@ JohtoGrassWildMons:
 	dbw 15, BELLSPROUT
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
-	dbw 15, HOPPIP
+	dbw 15, LITWICK
 	dbw 15, SHUCKLE
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
@@ -1887,7 +1887,7 @@ JohtoGrassWildMons:
 	dbw 15, BELLSPROUT
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
-	dbw 15, HOPPIP
+	dbw 15, LITWICK
 	dbw 15, SHUCKLE
 	dbw 15, CACNEA
 	dbw 15, ROSELIA

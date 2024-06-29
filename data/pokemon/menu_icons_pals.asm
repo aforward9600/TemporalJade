@@ -227,9 +227,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   RED    ; AZUMARILL
 	icon_pals GREEN,  RED    ; BONSLY
 	icon_pals GREEN,  RED    ; SUDOWOODO
-	icon_pals RED,    GREEN  ; HOPPIP
-	icon_pals GREEN,  PURPLE ; SKIPLOOM
-	icon_pals BLUE,   PINK   ; JUMPLUFF
+	icon_pals BLUE,   RED    ; LITWICK
+	icon_pals BLUE,   RED    ; LAMPENT
+	icon_pals BLUE,   RED    ; CHANDELURE
 	icon_pals PURPLE, PINK   ; AIPOM
 	icon_pals PURPLE, PINK   ; AMBIPOM
 	icon_pals GREEN,  TEAL   ; SUNKERN

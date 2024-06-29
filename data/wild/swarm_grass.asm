@@ -441,7 +441,7 @@ SwarmGrassWildMons:
 	; morn
 	dbw 44, TOXICROAK
 	dbw 44, TOXICROAK
-	dbw 44, JUMPLUFF
+	dbw 44, CHANDELURE
 	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
 	dbw 44, SCOLIPEDE
@@ -450,7 +450,7 @@ SwarmGrassWildMons:
 	; day
 	dbw 44, TOXICROAK
 	dbw 44, TOXICROAK
-	dbw 44, JUMPLUFF
+	dbw 44, CHANDELURE
 	dbw 44, SCOLIPEDE
 	dbw 44, AMPHAROS
 	dbw 44, SCOLIPEDE

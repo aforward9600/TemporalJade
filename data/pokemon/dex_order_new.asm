@@ -247,9 +247,9 @@ NewPokedexOrder:
 	dw GASTLY
 	dw HAUNTER
 	dw GENGAR
-	dw HOPPIP
-	dw SKIPLOOM
-	dw JUMPLUFF
+	dw LITWICK
+	dw LAMPENT
+	dw CHANDELURE
 	dw RHYHORN
 	dw RHYDON
 	dw RHYPERIOR

@@ -216,9 +216,9 @@ PokedexDataPointerTable:
 	dba AzumarillPokedexEntry
 	dba BonslyPokedexEntry
 	dba SudowoodoPokedexEntry
-	dba HoppipPokedexEntry
-	dba SkiploomPokedexEntry
-	dba JumpluffPokedexEntry
+	dba LitwickPokedexEntry
+	dba LampentPokedexEntry
+	dba ChandelurePokedexEntry
 	dba AipomPokedexEntry
 	dba AmbipomPokedexEntry
 	dba SunkernPokedexEntry

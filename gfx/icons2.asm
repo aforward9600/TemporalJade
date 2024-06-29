@@ -93,9 +93,9 @@ Icons2:
 	dw AzumarillIcon
 	dw BonslyIcon
 	dw SudowoodoIcon
-	dw HoppipIcon
-	dw SkiploomIcon
-	dw JumpluffIcon
+	dw LitwickIcon
+	dw LampentIcon
+	dw ChandelureIcon
 	dw AipomIcon
 	dw AmbipomIcon
 	dw SunkernIcon
@@ -220,9 +220,9 @@ MarillIcon:       INCBIN "gfx/icons/marill.2bpp"
 AzumarillIcon:    INCBIN "gfx/icons/azumarill.2bpp"
 BonslyIcon:       INCBIN "gfx/icons/bonsly.2bpp"
 SudowoodoIcon:    INCBIN "gfx/icons/sudowoodo.2bpp"
-HoppipIcon:       INCBIN "gfx/icons/hoppip.2bpp"
-SkiploomIcon:     INCBIN "gfx/icons/skiploom.2bpp"
-JumpluffIcon:     INCBIN "gfx/icons/jumpluff.2bpp"
+LitwickIcon:      INCBIN "gfx/icons/litwick.2bpp"
+LampentIcon:      INCBIN "gfx/icons/lampent.2bpp"
+ChandelureIcon:   INCBIN "gfx/icons/chandelure.2bpp"
 AipomIcon:        INCBIN "gfx/icons/aipom.2bpp"
 AmbipomIcon:      INCBIN "gfx/icons/ambipom.2bpp"
 SunkernIcon:      INCBIN "gfx/icons/sunkern.2bpp"

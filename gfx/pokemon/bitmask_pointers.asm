@@ -215,9 +215,9 @@ BitmasksPointers:
 	dw AzumarillBitmasks
 	dw BonslyBitmasks
 	dw SudowoodoBitmasks
-	dw HoppipBitmasks
-	dw SkiploomBitmasks
-	dw JumpluffBitmasks
+	dw LitwickBitmasks
+	dw LampentBitmasks
+	dw ChandelureBitmasks
 	dw AipomBitmasks
 	dw AmbipomBitmasks
 	dw SunkernBitmasks

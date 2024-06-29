@@ -215,9 +215,9 @@ FramesPointers:
 	dba AzumarillFrames
 	dba BonslyFrames
 	dba SudowoodoFrames
-	dba HoppipFrames
-	dba SkiploomFrames
-	dba JumpluffFrames
+	dba LitwickFrames
+	dba LampentFrames
+	dba ChandelureFrames
 	dba AipomFrames
 	dba AmbipomFrames
 	dba SunkernFrames

@@ -215,9 +215,9 @@ AnimationIdlePointers:
 	dw AzumarillAnimationIdle
 	dw BonslyAnimationIdle
 	dw SudowoodoAnimationIdle
-	dw HoppipAnimationIdle
-	dw SkiploomAnimationIdle
-	dw JumpluffAnimationIdle
+	dw LitwickAnimationIdle
+	dw LampentAnimationIdle
+	dw ChandelureAnimationIdle
 	dw AipomAnimationIdle
 	dw AmbipomAnimationIdle
 	dw SunkernAnimationIdle

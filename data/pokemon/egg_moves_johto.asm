@@ -66,7 +66,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw BonslyEggMoves
 	dw NoEggMoves2
-	dw HoppipEggMoves
+	dw LitwickEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw AipomEggMoves
@@ -407,16 +407,10 @@ BonslyEggMoves:
 	dw HARDEN
 	dw -1 ; end
 
-HoppipEggMoves:
-	dw CONFUSION
-	dw GROWL
-	dw ENCORE
-	dw DOUBLE_EDGE
-	dw AMNESIA
-	dw PAY_DAY
-	dw SEED_BOMB
-	dw STRENGTH_SAP
-	dw AGILITY
+LitwickEggMoves:
+	dw ACID
+	dw ACID_ARMOR
+	dw HAZE
 	dw -1 ; end
 
 AipomEggMoves:

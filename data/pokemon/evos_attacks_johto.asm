@@ -65,9 +65,9 @@ EvosAttacksPointers2::
 	dw AzumarillEvosAttacks
 	dw BonslyEvosAttacks
 	dw SudowoodoEvosAttacks
-	dw HoppipEvosAttacks
-	dw SkiploomEvosAttacks
-	dw JumpluffEvosAttacks
+	dw LitwickEvosAttacks
+	dw LampentEvosAttacks
+	dw ChandelureEvosAttacks
 	dw AipomEvosAttacks
 	dw AmbipomEvosAttacks
 	dw SunkernEvosAttacks
@@ -1508,89 +1508,57 @@ SudowoodoEvosAttacks:
 	dbw 58, ROCK_WRECKER
 	db 0 ; no more level-up moves
 
-HoppipEvosAttacks:
-	dbbw EVOLVE_LEVEL, 18, SKIPLOOM
+LitwickEvosAttacks:
+	dbbw EVOLVE_LEVEL, 41, LAMPENT
 	db 0 ; no more evolutions
-	dbw 1, ABSORB
-	dbw 1, SPLASH
-	dbw 1, SYNTHESIS
-	dbw 1, TAIL_WHIP
-	dbw 1, TACKLE
-	dbw 4, SYNTHESIS
-	dbw 6, TAIL_WHIP
-	dbw 8, GUST
-	dbw 10, FAIRY_WIND
-	dbw 12, POISONPOWDER
-	dbw 14, STUN_SPORE
-	dbw 16, SLEEP_POWDER
-	dbw 19, BULLET_SEED
-	dbw 22, LEECH_SEED
-	dbw 25, MEGA_DRAIN
-	dbw 28, ACROBATICS
-	dbw 31, SUNNY_DAY
-	dbw 34, COTTON_SPORE
-	dbw 37, U_TURN
-	dbw 40, AIR_SLASH
-	dbw 43, GIGA_DRAIN
-	dbw 46, HURRICANE
-	dbw 49, BATON_PASS
+	dbw 1, EMBER
+	dbw 1, ASTONISH
+	dbw 3, MINIMIZE
+	dbw 5, SMOG
+	dbw 7, FIRE_SPIN
+	dbw 10, CONFUSE_RAY
+	dbw 13, NIGHT_SHADE
+	dbw 16, WILL_O_WISP
+	dbw 20, FLAME_BURST
+	dbw 24, DESTINY_BOND
+	dbw 28, HEX
+	dbw 33, STRENGTH_SAP
+	dbw 38, INFERNO
+	dbw 43, CURSE
+	dbw 49, SHADOW_BALL
+	dbw 55, PAIN_SPLIT
+	dbw 61, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-SkiploomEvosAttacks:
-	dbbw EVOLVE_LEVEL, 27, JUMPLUFF
+LampentEvosAttacks:
+	dbbw EVOLVE_ITEM, DUSK_STONE, CHANDELURE
 	db 0 ; no more evolutions
-	dbw 1, ABSORB
-	dbw 1, SPLASH
-	dbw 1, SYNTHESIS
-	dbw 1, TAIL_WHIP
-	dbw 1, TACKLE
-	dbw 4, SYNTHESIS
-	dbw 6, TAIL_WHIP
-	dbw 8, GUST
-	dbw 10, FAIRY_WIND
-	dbw 12, POISONPOWDER
-	dbw 14, STUN_SPORE
-	dbw 16, SLEEP_POWDER
-	dbw 20, BULLET_SEED
-	dbw 24, LEECH_SEED
-	dbw 28, MEGA_DRAIN
-	dbw 32, ACROBATICS
-	dbw 36, SUNNY_DAY
-	dbw 40, COTTON_SPORE
-	dbw 44, U_TURN
-	dbw 48, AIR_SLASH
-	dbw 52, GIGA_DRAIN
-	dbw 56, HURRICANE
-	dbw 60, BATON_PASS
+	dbw 1, EMBER
+	dbw 1, ASTONISH
+	dbw 3, MINIMIZE
+	dbw 5, SMOG
+	dbw 7, FIRE_SPIN
+	dbw 10, CONFUSE_RAY
+	dbw 13, NIGHT_SHADE
+	dbw 16, WILL_O_WISP
+	dbw 20, FLAME_BURST
+	dbw 24, DESTINY_BOND
+	dbw 28, HEX
+	dbw 33, STRENGTH_SAP
+	dbw 38, INFERNO
+	dbw 45, CURSE
+	dbw 53, SHADOW_BALL
+	dbw 61, PAIN_SPLIT
+	dbw 69, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-JumpluffEvosAttacks:
+ChandelureEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, MAGICAL_LEAF
-	dbw 1, MAGICAL_LEAF
-	dbw 1, ABSORB
-	dbw 1, SPLASH
-	dbw 1, SYNTHESIS
-	dbw 1, TAIL_WHIP
-	dbw 1, TACKLE
-	dbw 4, SYNTHESIS
-	dbw 6, TAIL_WHIP
-	dbw 8, GUST
-	dbw 10, FAIRY_WIND
-	dbw 12, POISONPOWDER
-	dbw 14, STUN_SPORE
-	dbw 16, SLEEP_POWDER
-	dbw 20, BULLET_SEED
-	dbw 24, LEECH_SEED
-	dbw 29, MEGA_DRAIN
-	dbw 34, ACROBATICS
-	dbw 39, SUNNY_DAY
-	dbw 44, COTTON_SPORE
-	dbw 49, U_TURN
-	dbw 54, AIR_SLASH
-	dbw 59, GIGA_DRAIN
-	dbw 64, HURRICANE
-	dbw 69, BATON_PASS
+	dbw 1, PAIN_SPLIT
+	dbw 1, SMOG
+	dbw 1, CONFUSE_RAY
+	dbw 1, FLAME_BURST
+	dbw 1, HEX
 	db 0 ; no more level-up moves
 
 AipomEvosAttacks:

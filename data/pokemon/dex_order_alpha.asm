@@ -31,6 +31,7 @@ AlphabeticalPokedexOrder:
 	dw CACTURNE
 	dw CARRACOSTA
 	dw CELEBI
+	dw CHANDELURE
 	dw CHANSEY
 	dw CHIKORITA
 	dw CHINCHOU
@@ -121,7 +122,6 @@ AlphabeticalPokedexOrder:
 	dw HO_OH
 	dw HONCHKROW
 	dw HOOTHOOT
-	dw HOPPIP
 	dw HORSEA
 	dw HOUNDOOM
 	dw HOUNDOUR
@@ -129,7 +129,6 @@ AlphabeticalPokedexOrder:
 	dw IGGLYBUFF
 	dw JIGGLYPUFF
 	dw JOLTEON
-	dw JUMPLUFF
 	dw JYNX
 	dw KADABRA
 	dw KANGASKHAN
@@ -138,6 +137,7 @@ AlphabeticalPokedexOrder:
 	dw KOFFING
 	dw KOTORA
 	dw LAIRON
+	dw LAMPENT
 	dw LANTURN
 	dw LAPRAS
 	dw LARVITAR
@@ -148,6 +148,7 @@ AlphabeticalPokedexOrder:
 	dw LICKITUNG
 	dw LILLIGANT
 	dw LILLIPUP
+	dw LITWICK
 	dw LOMBRE
 	dw LOTAD
 	dw LUDICOLO
@@ -254,7 +255,6 @@ AlphabeticalPokedexOrder:
 	dw SHUCKLE
 	dw SKARMINI
 	dw SKARMORY
-	dw SKIPLOOM
 	dw SLOWBRO
 	dw SLOWKING
 	dw SLOWPOKE

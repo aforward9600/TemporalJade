@@ -215,9 +215,9 @@ AnimationPointers:
 	dw AzumarillAnimation
 	dw BonslyAnimation
 	dw SudowoodoAnimation
-	dw HoppipAnimation
-	dw SkiploomAnimation
-	dw JumpluffAnimation
+	dw LitwickAnimation
+	dw LampentAnimation
+	dw ChandelureAnimation
 	dw AipomAnimation
 	dw AmbipomAnimation
 	dw SunkernAnimation
