@@ -60,7 +60,6 @@ INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
 INCLUDE "audio/music/printer.asm"
-INCLUDE "audio/music/dahliaafterbattle.asm"
 
 
 SECTION "Songs 4", ROMX
@@ -197,3 +196,4 @@ INCLUDE "audio/music/gymleaderbattlexy.asm"
 INCLUDE "audio/music/championbattlebw2.asm"
 INCLUDE "audio/music/eventghetsis.asm"
 INCLUDE "audio/music/moravilschool.asm"
+INCLUDE "audio/music/dahliaafterbattle.asm"

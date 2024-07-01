@@ -67,4 +67,10 @@ Cries:
 	dba Cry_Aipom
 	dba Cry_Dunsparce
 	dba Cry_Donphan
+	dba Cry_Whimsicott
+	dba Cry_Karrablast
+	dba Cry_Shelmet
+	dba Cry_Tirtouga
+	dba Cry_Hydreigon
+	dba Cry_Stoutland
 ;	dba Cry_Pikipek

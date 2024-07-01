@@ -17,9 +17,9 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $11b,  $070 ; PIKIPEK
 	mon_cry CRY_SPEAROW,     $000,  $100 ; TRUMBEAK
 	mon_cry CRY_FEAROW,      $040,  $120 ; TOUCANNON
-	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; LILLIPUP
-	mon_cry CRY_GROWLITHE,   $010,  $0d0 ; HERDIER
-	mon_cry CRY_WEEDLE,      $000,  $100 ; STOUTLAND
+	mon_cry CRY_SUNFLORA,   -$077,  $0e0 ; LILLIPUP
+	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; HERDIER
+	mon_cry CRY_STOUTLAND,  -$201,  $0b0 ; STOUTLAND
 	mon_cry CRY_WEEDLE,      $0ee,  $081 ; VENIPEDE
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; WHIRLIPEDE
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; SCOLIPEDE
@@ -52,9 +52,9 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; GOLBAT
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT
 	mon_cry CRY_MARILL,      $0d7,  $140 ; COTTONEE
-	mon_cry CRY_MARILL,      $027,  $170 ; WHIMSICOTT
+	mon_cry CRY_WHIMSICOTT,  $0fa,  $100 ; WHIMSICOTT
 	mon_cry CRY_SUNFLORA,   -$047,  $0b4 ; PETILIL
-	mon_cry CRY_SUNFLORA,   -$057,  $1b4 ; LILLIGANT
+	mon_cry CRY_HYDREIGON,   $172,  $0b2 ; LILLIGANT
 	mon_cry CRY_PARAS,       $020,  $160 ; PARAS
 	mon_cry CRY_PARAS,       $042,  $17f ; PARASECT
 	mon_cry CRY_PICHU,      -$03e,  $0fc ; CUTIEFLY
@@ -174,10 +174,10 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; PORYGON
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYGON2
 	mon_cry CRY_SEEL,        $212,  $270 ; PORYGON_Z
-	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; TIRTOUGA
-	mon_cry CRY_BLASTOISE,   $000,  $100 ; CARRACOSTA
-	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; ARCHEN
-	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS
+	mon_cry CRY_TIRTOUGA,    $056,  $0c4 ; TIRTOUGA
+	mon_cry CRY_WHIMSICOTT, -$1f9,  $130 ; CARRACOSTA
+	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; ARCHEN
+	mon_cry CRY_WHIMSICOTT,  $05b,  $0b7 ; ARCHEOPS
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; AERODACTYL
 	mon_cry CRY_GRIMER,      $055,  $081 ; MUNCHLAX
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX

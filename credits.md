@@ -27,7 +27,7 @@ Dark Zeta, PiaCarrot, and cardboardbox for new evolution moves and fixing the gl
 
 Vulcandth and Rangi: Level Caught Design Flaw Fix
 
-Focus Sash, Power Band, SpecialSpecs, Wide Lens, Life Orb, Choice Band, Choice Scarf and Choice Specs coding: AzureKeys
+New cries, Focus Sash, Power Band, SpecialSpecs, Wide Lens, Life Orb, Choice Band, Choice Scarf and Choice Specs coding: AzureKeys
 
 New Swarming System: Dragon Arbock
 
@@ -134,7 +134,10 @@ Back sprite: leParagon
 Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
-Carracosta, Cottonee, Whimsicott, Corphish and Crawdaunt sprites
+Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish
+and Crawdaunt sprites
+
+Shelmet and Accelgor animations: PokeMMO Generation 2 Sprites Mod
 
 Petil and Lilligant sprites: COMBOY collection
 
