@@ -408,10 +408,10 @@ PokemonPicPointers::
 	dba KarrablastBackpic
 	dba EscavalierFrontpic
 	dba EscavalierBackpic
-	dba SpinarakFrontpic
-	dba SpinarakBackpic
-	dba AriadosFrontpic
-	dba AriadosBackpic
+	dba ShelmetFrontpic
+	dba ShelmetBackpic
+	dba AccelgorFrontpic
+	dba AccelgorBackpic
 	dba ChinchouFrontpic
 	dba ChinchouBackpic
 	dba LanturnFrontpic

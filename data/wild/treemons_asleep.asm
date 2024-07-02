@@ -18,7 +18,7 @@ AsleepTreeMonsDay:
 	dw VENONAT
 	dw HOOTHOOT
 	dw NOCTOWL
-	dw SPINARAK
+	dw SHELMET
 	dw HERACROSS
 	dw PINSIR
 	dw VENOMOTH
@@ -28,7 +28,7 @@ AsleepTreeMonsMorn:
 	dw VENONAT
 	dw HOOTHOOT
 	dw NOCTOWL
-	dw SPINARAK
+	dw SHELMET
 	dw HERACROSS
 	dw PINSIR
 	dw VENOMOTH

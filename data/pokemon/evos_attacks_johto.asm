@@ -48,8 +48,8 @@ EvosAttacksPointers2::
 	dw NoctowlEvosAttacks
 	dw KarrablastEvosAttacks
 	dw EscavalierEvosAttacks
-	dw SpinarakEvosAttacks
-	dw AriadosEvosAttacks
+	dw ShelmetEvosAttacks
+	dw AccelgorEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
 	dw TogepiEvosAttacks
@@ -1144,59 +1144,43 @@ EscavalierEvosAttacks:
 	dbw 60, MEGAHORN
 	db 0 ; no more level-up moves
 
-SpinarakEvosAttacks:
-	dbbw EVOLVE_LEVEL, 22, ARIADOS
+ShelmetEvosAttacks:
+	dbbw EVOLVE_ITEM, LINK_CABLE, ACCELGOR
 	db 0 ; no more evolutions
-	dbw 1, CONSTRICT
-	dbw 1, POISON_STING
-	dbw 1, STRING_SHOT
-	dbw 5, ABSORB
-	dbw 8, PAYBACK
-	dbw 12, SCARY_FACE
-	dbw 15, NIGHT_SHADE
-	dbw 19, SHADOW_SNEAK
-	dbw 22, FURY_SWIPES
-	dbw 26, SUCKER_PUNCH
-	dbw 29, SPIDER_WEB
-	dbw 33, AGILITY
-	dbw 36, X_SCISSOR
-	dbw 40, ZEN_HEADBUTT
-if DEF(_FAITHFUL)
-	dbw 43, POISON_JAB
-else
-	dbw 43, CRUNCH
-endc
-	dbw 47, CROSS_POISON
-	dbw 23, LEECH_LIFE
-	dbw 54, GUNK_SHOT
+	dbw 1, ABSORB
+	dbw 4, ACID
+	dbw 8, MEGA_DRAIN
+	dbw 13, CURSE
+	dbw 16, SIGNAL_BEAM
+	dbw 20, REST
+	dbw 25, GIGA_DRAIN
+	dbw 28, PROTECT
+	dbw 32, ACID_ARMOR
+	dbw 37, BUG_BUZZ
+	dbw 40, BODY_SLAM
+	dbw 44, SIGNAL_WAVE
+	dbw 49, RECOVER
+	dbw 50, POWER_GEM
+	dbw 56, BELCH
 	db 0 ; no more level-up moves
 
-AriadosEvosAttacks:
+AccelgorEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SWORDS_DANCE
-	dbw 1, SWORDS_DANCE
-	dbw 1, CONSTRICT
-	dbw 1, POISON_STING
-	dbw 1, STRING_SHOT
-	dbw 5, ABSORB
-	dbw 8, PAYBACK
-	dbw 12, SCARY_FACE
-	dbw 15, NIGHT_SHADE
-	dbw 19, SHADOW_SNEAK
-	dbw 23, FURY_SWIPES
-	dbw 28, SUCKER_PUNCH
-	dbw 32, SPIDER_WEB
-	dbw 37, AGILITY
-	dbw 41, X_SCISSOR
-	dbw 46, ZEN_HEADBUTT
-if DEF(_FAITHFUL)
-	dbw 50, POISON_JAB
-else
-	dbw 50, CRUNCH
-endc
-	dbw 55, CROSS_POISON
-	dbw 58, LEECH_LIFE
-	dbw 63, GUNK_SHOT
+	dbw 1, ABSORB
+	dbw 4, ACID
+	dbw 8, MEGA_DRAIN
+	dbw 13, CURSE
+	dbw 16, SIGNAL_BEAM
+	dbw 20, REST
+	dbw 25, GIGA_DRAIN
+	dbw 28, PROTECT
+	dbw 32, AGILITY
+	dbw 37, BUG_BUZZ
+	dbw 40, U_TURN
+	dbw 44, SIGNAL_WAVE
+	dbw 49, RECOVER
+	dbw 52, POWER_GEM
+	dbw 56, BELCH
 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:

@@ -198,8 +198,8 @@ AnimationPointers:
 	dw NoctowlAnimation
 	dw KarrablastAnimation
 	dw EscavalierAnimation
-	dw SpinarakAnimation
-	dw AriadosAnimation
+	dw ShelmetAnimation
+	dw AccelgorAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
 	dw TogepiAnimation

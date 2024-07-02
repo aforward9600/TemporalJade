@@ -198,8 +198,8 @@ AnimationIdlePointers:
 	dw NoctowlAnimationIdle
 	dw KarrablastAnimationIdle
 	dw EscavalierAnimationIdle
-	dw SpinarakAnimationIdle
-	dw AriadosAnimationIdle
+	dw ShelmetAnimationIdle
+	dw AccelgorAnimationIdle
 	dw ChinchouAnimationIdle
 	dw LanturnAnimationIdle
 	dw TogepiAnimationIdle

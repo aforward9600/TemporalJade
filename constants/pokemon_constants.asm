@@ -219,8 +219,8 @@ JOHTO_POKEMON EQU const_value
 	const NOCTOWL    ; a4
 	const KARRABLAST ; a5
 	const ESCAVALIER ; a6
-	const SPINARAK   ; a7
-	const ARIADOS    ; a8
+	const SHELMET    ; a7
+	const ACCELGOR   ; a8
 	const CHINCHOU   ; aa
 	const LANTURN    ; ab
 	const TOGEPI     ; af

@@ -361,9 +361,9 @@ SECTION "Heracross Front", ROMX
 HeracrossFrontpic:   INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"
 
 
-SECTION "Ariados Front", ROMX
+SECTION "Accelgor Front", ROMX
 
-AriadosFrontpic:     INCBIN "gfx/pokemon/ariados/front.animated.2bpp.lz"
+AccelgorFrontpic:     INCBIN "gfx/pokemon/accelgor/front.animated.2bpp.lz"
 
 SECTION "Noctowl Front", ROMX
 
@@ -778,7 +778,7 @@ MukBackpic:          INCBIN "gfx/pokemon/muk/back.2bpp.lz"
 OrthwormBackpic:     INCBIN "gfx/pokemon/orthworm/back.2bpp.lz"
 SabrinaPic:          INCBIN "gfx/trainers/sabrina.2bpp.lz"
 MagikarpBackpic:     INCBIN "gfx/pokemon/magikarp/back.2bpp.lz"
-AriadosBackpic:      INCBIN "gfx/pokemon/ariados/back.2bpp.lz"
+AccelgorBackpic:     INCBIN "gfx/pokemon/accelgor/back.2bpp.lz"
 SneaselBackpic:      INCBIN "gfx/pokemon/sneasel/back.2bpp.lz"
 UmbreonBackpic:      INCBIN "gfx/pokemon/umbreon/back.2bpp.lz"
 MurkrowBackpic:      INCBIN "gfx/pokemon/murkrow/back.2bpp.lz"
@@ -860,8 +860,8 @@ ChikoritaBackpic:    INCBIN "gfx/pokemon/chikorita/back.2bpp.lz"
 CorsolaBackpic:      INCBIN "gfx/pokemon/corsola/back.2bpp.lz"
 ChinchouBackpic:     INCBIN "gfx/pokemon/chinchou/back.2bpp.lz"
 ChanseyBackpic:      INCBIN "gfx/pokemon/chansey/back.2bpp.lz"
-LampentBackpic:     INCBIN "gfx/pokemon/lampent/back.2bpp.lz"
-SpinarakFrontpic:    INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lz"
+LampentBackpic:      INCBIN "gfx/pokemon/lampent/back.2bpp.lz"
+ShelmetFrontpic:     INCBIN "gfx/pokemon/shelmet/front.animated.2bpp.lz"
 Rival2Pic:           INCBIN "gfx/trainers/rival2.2bpp.lz"
 UnownWFrontpic:      INCBIN "gfx/pokemon/unown_w/front.animated.2bpp.lz"
 TepigBackpic:        INCBIN "gfx/pokemon/tepig/back.2bpp.lz"
@@ -946,7 +946,7 @@ DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
 
 SECTION "Pics 18", ROMX
 
-SpinarakBackpic:     INCBIN "gfx/pokemon/spinarak/back.2bpp.lz"
+ShelmetBackpic:      INCBIN "gfx/pokemon/shelmet/back.2bpp.lz"
 RaikouBackpic:       INCBIN "gfx/pokemon/raikou/back.2bpp.lz"
 UnownKFrontpic:      INCBIN "gfx/pokemon/unown_k/front.animated.2bpp.lz"
 HoundourBackpic:     INCBIN "gfx/pokemon/houndour/back.2bpp.lz"

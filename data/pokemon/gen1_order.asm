@@ -205,8 +205,8 @@ Pokered_MonIndices:
 	db NOCTOWL
 	db KARRABLAST
 	db ESCAVALIER
-	db SPINARAK
-	db ARIADOS
+	db SHELMET
+	db ACCELGOR
 	db CROBAT
 	db CHINCHOU
 	db LANTURN

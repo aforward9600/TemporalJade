@@ -199,8 +199,8 @@ PokedexDataPointerTable:
 	dba NoctowlPokedexEntry
 	dba KarrablastPokedexEntry
 	dba EscavalierPokedexEntry
-	dba SpinarakPokedexEntry
-	dba AriadosPokedexEntry
+	dba ShelmetPokedexEntry
+	dba AccelgorPokedexEntry
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
 	dba TogepiPokedexEntry

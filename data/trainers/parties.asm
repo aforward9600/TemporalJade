@@ -1482,7 +1482,7 @@ else
 endc
 	dw HYDRO_PUMP, BELCH, TOXIC, HEX
 	db 75
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -2937,7 +2937,7 @@ else
 endc
 	dw EARTHQUAKE, ACROBATICS, PINCIRFLURRY, BRICK_BREAK
 	db 63
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -3791,7 +3791,7 @@ endc
 	dw KOFFING
 	db NO_ITEM
 	db 22
-	dw SPINARAK
+	dw SHELMET
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4414,7 +4414,7 @@ endc
 	dw PINSIR
 	db NO_ITEM
 	db 24
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -4529,7 +4529,7 @@ endc
 	dw ESCAVALIER
 	db NO_ITEM
 	db 69
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -7533,7 +7533,7 @@ endc
 	next_list_item ; EXECUTIVEF (2)
 	db "Ariana@", TRAINERTYPE_ITEM_MOVES
 	db 35
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -8121,7 +8121,7 @@ TwinsGroup:
 	next_list_item ; TWINS (1) Azalea Gym
 	db "Sami & Sam@", TRAINERTYPE_ITEM
 	db 43
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -8166,7 +8166,7 @@ else
 	db NO_ITEM
 endc
 	db 43
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -8783,7 +8783,7 @@ else
 endc
 	dw SLUDGE_BOMB, DARK_PULSE, SHADOW_BALL, SUCKER_PUNCH
 	db 48
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -9740,7 +9740,7 @@ else
 endc
 	dw FLASH_CANNON, THUNDERBOLT, CONVERSION, RECOVER
 	db 38
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -12285,7 +12285,7 @@ endc
 	next_list_item ; DELINQUENT3 (Route 4)
 	db "Sharon@", TRAINERTYPE_ITEM
 	db 70
-	dw ARIADOS
+	dw ACCELGOR
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else

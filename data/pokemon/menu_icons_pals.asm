@@ -210,8 +210,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  TEAL   ; NOCTOWL
 	icon_pals BLUE,   TEAL   ; KARRABLAST
 	icon_pals RED,    PINK   ; ESCAVALIER
-	icon_pals GREEN,  PURPLE ; SPINARAK
-	icon_pals RED,    PURPLE ; ARIADOS
+	icon_pals RED,    PINK   ; SHELMET
+	icon_pals RED,    PINK   ; ACCELGOR
 	icon_pals BLUE,   TEAL   ; CHINCHOU
 	icon_pals BLUE,   TEAL   ; LANTURN
 	icon_pals RED,    BLUE   ; TOGEPI

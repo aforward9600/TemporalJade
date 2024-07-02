@@ -198,8 +198,8 @@ BitmasksPointers:
 	dw NoctowlBitmasks
 	dw KarrablastBitmasks
 	dw EscavalierBitmasks
-	dw SpinarakBitmasks
-	dw AriadosBitmasks
+	dw ShelmetBitmasks
+	dw AccelgorBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
 	dw TogepiBitmasks

@@ -3,6 +3,7 @@
 AlphabeticalPokedexOrder:
 	dw ABRA
 	dw ABSOL
+	dw ACCELGOR
 	dw AERODACTYL
 	dw AGGRON
 	dw AIPOM
@@ -15,7 +16,6 @@ AlphabeticalPokedexOrder:
 	dw ARCANINE
 	dw ARCHEN
 	dw ARCHEOPS
-	dw ARIADOS
 	dw ARON
 	dw ARTICUNO
 	dw AZUMARILL
@@ -252,6 +252,7 @@ AlphabeticalPokedexOrder:
 	dw SENTRET
 	dw SHELGON
 	dw SHELLDER
+	dw SHELMET
 	dw SHUCKLE
 	dw SKARMINI
 	dw SKARMORY
@@ -266,7 +267,6 @@ AlphabeticalPokedexOrder:
 	dw SNORUNT
 	dw SNUBBULL
 	dw SPEAROW
-	dw SPINARAK
 	dw STANTLER
 	dw STARMIE
 	dw STARYU

@@ -76,8 +76,8 @@ Icons2:
 	dw NoctowlIcon
 	dw KarrablastIcon
 	dw EscavalierIcon
-	dw SpinarakIcon
-	dw AriadosIcon
+	dw ShelmetIcon
+	dw AccelgorIcon
 	dw ChinchouIcon
 	dw LanturnIcon
 	dw TogepiIcon
@@ -203,8 +203,8 @@ HoothootIcon:     INCBIN "gfx/icons/hoothoot.2bpp"
 NoctowlIcon:      INCBIN "gfx/icons/noctowl.2bpp"
 KarrablastIcon:   INCBIN "gfx/icons/karrablast.2bpp"
 EscavalierIcon:   INCBIN "gfx/icons/escavalier.2bpp"
-SpinarakIcon:     INCBIN "gfx/icons/spinarak.2bpp"
-AriadosIcon:      INCBIN "gfx/icons/ariados.2bpp"
+ShelmetIcon:      INCBIN "gfx/icons/shelmet.2bpp"
+AccelgorIcon:     INCBIN "gfx/icons/accelgor.2bpp"
 ChinchouIcon:     INCBIN "gfx/icons/chinchou.2bpp"
 LanturnIcon:      INCBIN "gfx/icons/lanturn.2bpp"
 TogepiIcon:       INCBIN "gfx/icons/togepi.2bpp"

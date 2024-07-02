@@ -175,7 +175,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 27, NIDORINO
 	dbw 27, NIDORINA
-	dbw 27, ARIADOS
+	dbw 27, ACCELGOR
 	dbw 27, HERDIER
 	dbw 27, SCYTHER
 	dbw 27, SCYTHER
@@ -413,7 +413,7 @@ JohtoGrassWildMons:
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	; nite
-	dbw 37, ARIADOS
+	dbw 37, ACCELGOR
 	dbw 37, NOCTOWL
 	dbw 37, WHIMSICOTT
 	dbw 37, GOLDUCK
@@ -1373,7 +1373,7 @@ JohtoGrassWildMons:
 	dbw 12, MEOWTH
 	dbw 12, MEOWTH
 	; nite
-	dbw 12, SPINARAK
+	dbw 12, SHELMET
 	dbw 12, NIDORAN_M
 	dbw 12, HOOTHOOT
 	dbw 12, NIDORAN_F
@@ -1585,7 +1585,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 2, HOOTHOOT
 	dbw 2, CUTIEFLY
-	dbw 2, SPINARAK
+	dbw 2, SHELMET
 	dbw 2, SKARMINI
 	dbw 2, PHANPY
 	dbw 2, SKARMINI
@@ -1794,7 +1794,7 @@ JohtoGrassWildMons:
 	dbw 15, EEVEE
 	; nite
 	dbw 15, EXEGGCUTE
-	dbw 15, SPINARAK
+	dbw 15, SHELMET
 	dbw 15, LICKITUNG
 	dbw 15, NIDORAN_M
 	dbw 15, SNUBBULL

@@ -198,8 +198,8 @@ FramesPointers:
 	dba NoctowlFrames
 	dba KarrablastFrames
 	dba EscavalierFrames
-	dba SpinarakFrames
-	dba AriadosFrames
+	dba ShelmetFrames
+	dba AccelgorFrames
 	dba ChinchouFrames
 	dba LanturnFrames
 	dba TogepiFrames

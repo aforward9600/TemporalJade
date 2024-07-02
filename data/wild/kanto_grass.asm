@@ -237,7 +237,7 @@ KantoGrassWildMons:
 	dbw 66, NIDORINO
 	dbw 66, NOCTOWL
 	dbw 66, DONPHAN
-	dbw 66, ARIADOS
+	dbw 66, ACCELGOR
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
@@ -774,12 +774,12 @@ KantoGrassWildMons:
 	dbw 68, VICTREEBEL
 	; nite
 	dbw 68, VENOMOTH
-	dbw 68, ARIADOS
+	dbw 68, ACCELGOR
 	dbw 68, WHIMSICOTT
 	dbw 68, KADABRA
-	dbw 68, ARIADOS
-	dbw 68, ARIADOS
-	dbw 68, ARIADOS
+	dbw 68, ACCELGOR
+	dbw 68, ACCELGOR
+	dbw 68, ACCELGOR
 	dbw 68, PETILIL
 
 	map_id ROUTE_25
@@ -804,10 +804,10 @@ KantoGrassWildMons:
 	dbw 3, TEPIG
 	; nite
 	dbw 68, VENOMOTH
-	dbw 68, ARIADOS
+	dbw 68, ACCELGOR
 	dbw 68, WHIMSICOTT
 	dbw 68, KADABRA
-	dbw 68, ARIADOS
+	dbw 68, ACCELGOR
 	dbw 68, PETILIL
 	dbw 2, TEPIG
 	dbw 3, TEPIG
@@ -925,7 +925,7 @@ KantoGrassWildMons:
 	; nite
 	dbw 63, STOUTLAND
 	dbw 63, VENOMOTH
-	dbw 63, ARIADOS
+	dbw 63, ACCELGOR
 	dbw 63, PARASECT
 	dbw 63, SCYTHER
 	dbw 63, YANMEGA

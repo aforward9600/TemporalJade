@@ -49,7 +49,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw KarrablastEggMoves
 	dw NoEggMoves2
-	dw SpinarakEggMoves
+	dw ShelmetEggMoves
 	dw NoEggMoves2
 	dw ChinchouEggMoves
 	dw NoEggMoves2
@@ -323,15 +323,13 @@ KarrablastEggMoves:
 	dw SCREECH
 	dw -1 ; end
 
-SpinarakEggMoves:
-	dw PSYBEAM
-	dw DISABLE
-	dw SONICBOOM
+ShelmetEggMoves:
 	dw BATON_PASS
+	dw DOUBLE_EDGE
+	dw ENDURE
+	dw MUD_SLAP
 	dw PURSUIT
-	dw MEGAHORN
-	dw NIGHT_SLASH
-	dw TWINEEDLE
+	dw SPIKES
 	dw -1 ; end
 
 ChinchouEggMoves:

@@ -200,7 +200,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw KARRABLAST
 	dw 0
-	dw SPINARAK   ;a8
+	dw SHELMET   ;a8
 	dw 0
 	dw CHINCHOU
 	dw 0
