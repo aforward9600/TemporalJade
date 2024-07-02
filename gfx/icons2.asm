@@ -74,8 +74,8 @@ Icons2:
 	dw FurretIcon
 	dw HoothootIcon
 	dw NoctowlIcon
-	dw LedybaIcon
-	dw LedianIcon
+	dw KarrablastIcon
+	dw EscavalierIcon
 	dw SpinarakIcon
 	dw AriadosIcon
 	dw ChinchouIcon
@@ -201,8 +201,8 @@ SentretIcon:      INCBIN "gfx/icons/sentret.2bpp"
 FurretIcon:       INCBIN "gfx/icons/furret.2bpp"
 HoothootIcon:     INCBIN "gfx/icons/hoothoot.2bpp"
 NoctowlIcon:      INCBIN "gfx/icons/noctowl.2bpp"
-LedybaIcon:       INCBIN "gfx/icons/ledyba.2bpp"
-LedianIcon:       INCBIN "gfx/icons/ledian.2bpp"
+KarrablastIcon:   INCBIN "gfx/icons/karrablast.2bpp"
+EscavalierIcon:   INCBIN "gfx/icons/escavalier.2bpp"
 SpinarakIcon:     INCBIN "gfx/icons/spinarak.2bpp"
 AriadosIcon:      INCBIN "gfx/icons/ariados.2bpp"
 ChinchouIcon:     INCBIN "gfx/icons/chinchou.2bpp"

@@ -198,7 +198,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw HOOTHOOT
 	dw 0
-	dw LEDYBA
+	dw KARRABLAST
 	dw 0
 	dw SPINARAK   ;a8
 	dw 0

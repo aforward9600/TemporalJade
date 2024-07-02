@@ -197,8 +197,8 @@ PokedexDataPointerTable:
 	dba FurretPokedexEntry
 	dba HoothootPokedexEntry
 	dba NoctowlPokedexEntry
-	dba LedybaPokedexEntry
-	dba LedianPokedexEntry
+	dba KarrablastPokedexEntry
+	dba EscavalierPokedexEntry
 	dba SpinarakPokedexEntry
 	dba AriadosPokedexEntry
 	dba ChinchouPokedexEntry

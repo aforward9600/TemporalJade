@@ -1,7 +1,7 @@
 BaseData2:
 INCLUDE "data/pokemon/base_stats/noctowl.asm"
-INCLUDE "data/pokemon/base_stats/ledyba.asm"
-INCLUDE "data/pokemon/base_stats/ledian.asm"
+INCLUDE "data/pokemon/base_stats/karrablast.asm"
+INCLUDE "data/pokemon/base_stats/escavalier.asm"
 INCLUDE "data/pokemon/base_stats/spinarak.asm"
 INCLUDE "data/pokemon/base_stats/ariados.asm"
 INCLUDE "data/pokemon/base_stats/chinchou.asm"

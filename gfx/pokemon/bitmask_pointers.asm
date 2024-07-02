@@ -196,8 +196,8 @@ BitmasksPointers:
 	dw FurretBitmasks
 	dw HoothootBitmasks
 	dw NoctowlBitmasks
-	dw LedybaBitmasks
-	dw LedianBitmasks
+	dw KarrablastBitmasks
+	dw EscavalierBitmasks
 	dw SpinarakBitmasks
 	dw AriadosBitmasks
 	dw ChinchouBitmasks

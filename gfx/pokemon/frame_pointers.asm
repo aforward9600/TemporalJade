@@ -196,8 +196,8 @@ FramesPointers:
 	dba FurretFrames
 	dba HoothootFrames
 	dba NoctowlFrames
-	dba LedybaFrames
-	dba LedianFrames
+	dba KarrablastFrames
+	dba EscavalierFrames
 	dba SpinarakFrames
 	dba AriadosFrames
 	dba ChinchouFrames

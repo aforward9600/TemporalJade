@@ -404,10 +404,10 @@ PokemonPicPointers::
 	dba HoothootBackpic
 	dba NoctowlFrontpic
 	dba NoctowlBackpic
-	dba LedybaFrontpic
-	dba LedybaBackpic
-	dba LedianFrontpic
-	dba LedianBackpic
+	dba KarrablastFrontpic
+	dba KarrablastBackpic
+	dba EscavalierFrontpic
+	dba EscavalierBackpic
 	dba SpinarakFrontpic
 	dba SpinarakBackpic
 	dba AriadosFrontpic

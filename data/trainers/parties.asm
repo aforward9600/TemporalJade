@@ -1921,7 +1921,7 @@ endc
 	dw WAVE_CRASH, PLAY_ROUGH, BELLY_DRUM, ICE_PUNCH
 if DEF(_CHALLENGE)
 	db 70
-	dw LEDIAN
+	dw ESCAVALIER
 	db SILVERPOWDER
 	dw X_SCISSOR, CLOSE_COMBAT, BATON_PASS, BULK_UP
 endc
@@ -2353,7 +2353,7 @@ endc
 	next_list_item ; SCHOOLBOY (11)
 	db "NATE@", TRAINERTYPE_NORMAL
 	db 32
-	dw LEDIAN
+	dw ESCAVALIER
 	db 32
 	dw EXEGGUTOR
 	db -1 ; end
@@ -4391,7 +4391,7 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (5)
 	db "Elmer@", TRAINERTYPE_ITEM
 	db 30
-	dw LEDIAN
+	dw ESCAVALIER
 	db NO_ITEM
 	db 30
 	dw YANMA
@@ -4526,7 +4526,7 @@ endc
 	dw SCYTHER
 	db NO_ITEM
 	db 68
-	dw LEDIAN
+	dw ESCAVALIER
 	db NO_ITEM
 	db 69
 	dw ARIADOS
@@ -7007,7 +7007,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (1) Ice Path
 	db "Haylee@", TRAINERTYPE_NORMAL
 	db 8
-	dw LEDYBA
+	dw KARRABLAST
 	db 6
 	dw SENTRET
 	db 7
@@ -7298,7 +7298,7 @@ endc
 	db 28
 	dw DUNSPARCE
 	db 28
-	dw LEDIAN
+	dw ESCAVALIER
 	db 28
 	dw AIPOM
 	db -1 ; end
@@ -7351,7 +7351,7 @@ endc
 	dw CRAWDAUNT
 	dw WATERFALL, EARTHQUAKE, SWORDS_DANCE, X_SCISSOR
 	db 52
-	dw LEDIAN
+	dw ESCAVALIER
 	dw QUIVER_DANCE, DRAIN_PUNCH, X_SCISSOR, THUNDERPUNCH
 	db 52
 	dw WYRDEER
@@ -7577,7 +7577,7 @@ endc
 	next_list_item ; EXECUTIVEF (3)
 	db "Ariana@", TRAINERTYPE_ITEM_MOVES
 	db 37
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -8128,7 +8128,7 @@ else
 	db NO_ITEM
 endc
 	db 43
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -8159,7 +8159,7 @@ endc
 	next_list_item ; TWINS (4)
 	db "Sami & Sam@", TRAINERTYPE_ITEM
 	db 43
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -8826,7 +8826,7 @@ ChigusaGroup:
 	next_list_item ; CHIGUSA1
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 27
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -8874,7 +8874,7 @@ endc
 	next_list_item ; CHIGUSA2
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 30
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11225,7 +11225,7 @@ ChigusaGroup2:
 	next_list_item ; CHIGUSA3
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 33
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11276,7 +11276,7 @@ endc
 	next_list_item ; CHIGUSA4
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 43
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11327,7 +11327,7 @@ endc
 	next_list_item ; CHIGUSA5
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 50
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11390,7 +11390,7 @@ endc
 	next_list_item ; CHIGUSA6
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 54
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11453,7 +11453,7 @@ endc
 	next_list_item ; CHIGUSA7
 	db "Chigusa@", TRAINERTYPE_ITEM_MOVES
 	db 67
-	dw LEDIAN
+	dw ESCAVALIER
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else

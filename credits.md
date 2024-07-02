@@ -80,6 +80,8 @@ Skarmini back sprite: Frogtoes
 
 Skarmini Animation: Ryans-Tryin
 
+Tornadus, Thunderus, Landorus and Enamorus sprites: utytft
+
 New Ledian Sprite and Munchlax credits sprite: Rangi
 
 Azurill and Dahlia credits sprite: FrenchOrange & Ferropexola

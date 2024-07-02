@@ -78,4 +78,5 @@
 	const CRY_TIRTOUGA
 	const CRY_HYDREIGON
 	const CRY_STOUTLAND
+	const CRY_CUBCHOO
 ;	const CRY_PIKIPEK

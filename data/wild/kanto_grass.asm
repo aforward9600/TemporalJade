@@ -219,7 +219,7 @@ KantoGrassWildMons:
 	dbw 66, NIDORINO
 	dbw 66, SCOLIPEDE
 	dbw 66, URSALUNA
-	dbw 66, LEDIAN
+	dbw 66, ESCAVALIER
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
@@ -228,7 +228,7 @@ KantoGrassWildMons:
 	dbw 66, NIDORINO
 	dbw 66, SCOLIPEDE
 	dbw 66, URSALUNA
-	dbw 66, LEDIAN
+	dbw 66, ESCAVALIER
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
@@ -907,7 +907,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 63, TOUCANNON
 	dbw 63, VENOMOTH
-	dbw 63, LEDIAN
+	dbw 63, ESCAVALIER
 	dbw 63, PARASECT
 	dbw 63, SCYTHER
 	dbw 63, YANMEGA
@@ -916,7 +916,7 @@ KantoGrassWildMons:
 	; day
 	dbw 63, TOUCANNON
 	dbw 63, VENOMOTH
-	dbw 63, LEDIAN
+	dbw 63, ESCAVALIER
 	dbw 63, PARASECT
 	dbw 63, SCYTHER
 	dbw 63, YANMEGA

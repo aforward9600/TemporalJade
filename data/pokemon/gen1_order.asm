@@ -203,8 +203,8 @@ Pokered_MonIndices:
 	db FURRET
 	db HOOTHOOT
 	db NOCTOWL
-	db LEDYBA
-	db LEDIAN
+	db KARRABLAST
+	db ESCAVALIER
 	db SPINARAK
 	db ARIADOS
 	db CROBAT

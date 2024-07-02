@@ -157,7 +157,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 27, NIDORINO
 	dbw 27, NIDORINA
-	dbw 27, LEDIAN
+	dbw 27, ESCAVALIER
 	dbw 27, TOUCANNON
 	dbw 27, SCYTHER
 	dbw 27, SCYTHER
@@ -166,7 +166,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 27, NIDORINO
 	dbw 27, NIDORINA
-	dbw 27, LEDIAN
+	dbw 27, ESCAVALIER
 	dbw 27, TOUCANNON
 	dbw 27, SCYTHER
 	dbw 27, SCYTHER
@@ -395,20 +395,20 @@ JohtoGrassWildMons:
 	map_id ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 37, LEDIAN
+	dbw 37, ESCAVALIER
 	dbw 37, SCOLIPEDE
 	dbw 37, TOUCANNON
 	dbw 37, HERDIER
-	dbw 37, LEDIAN
+	dbw 37, ESCAVALIER
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	; day
-	dbw 37, LEDIAN
+	dbw 37, ESCAVALIER
 	dbw 37, SCOLIPEDE
 	dbw 37, TOUCANNON
 	dbw 37, HERDIER
-	dbw 37, LEDIAN
+	dbw 37, ESCAVALIER
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, PARASECT
@@ -1355,7 +1355,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 12, LEDYBA
+	dbw 12, KARRABLAST
 	dbw 12, NIDORAN_F
 	dbw 12, VENIPEDE
 	dbw 12, NIDORAN_M
@@ -1567,7 +1567,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 2, VENIPEDE
 	dbw 2, SENTRET
-	dbw 2, LEDYBA
+	dbw 2, KARRABLAST
 	dbw 2, SKARMINI
 	dbw 2, PHANPY
 	dbw 2, SKARMINI
@@ -1576,7 +1576,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 2, VENIPEDE
 	dbw 2, SENTRET
-	dbw 2, LEDYBA
+	dbw 2, KARRABLAST
 	dbw 2, SKARMINI
 	dbw 2, PHANPY
 	dbw 2, SKARMINI
@@ -1776,7 +1776,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 15, EXEGGCUTE
-	dbw 15, LEDYBA
+	dbw 15, KARRABLAST
 	dbw 15, LICKITUNG
 	dbw 15, NIDORAN_M
 	dbw 15, SNUBBULL
@@ -1785,7 +1785,7 @@ JohtoGrassWildMons:
 	dbw 15, EEVEE
 	; day
 	dbw 15, EXEGGCUTE
-	dbw 15, LEDYBA
+	dbw 15, KARRABLAST
 	dbw 15, LICKITUNG
 	dbw 15, NIDORAN_M
 	dbw 15, SNUBBULL

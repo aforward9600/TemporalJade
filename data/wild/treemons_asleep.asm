@@ -7,7 +7,7 @@ AsleepTreeMonsNite:
 	dw SPEAROW
 	dw EKANS
 	dw EXEGGCUTE
-	dw LEDYBA
+	dw KARRABLAST
 	dw AIPOM
 	dw MUNCHLAX
 	dw SWABLU

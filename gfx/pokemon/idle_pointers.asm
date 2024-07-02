@@ -196,8 +196,8 @@ AnimationIdlePointers:
 	dw FurretAnimationIdle
 	dw HoothootAnimationIdle
 	dw NoctowlAnimationIdle
-	dw LedybaAnimationIdle
-	dw LedianAnimationIdle
+	dw KarrablastAnimationIdle
+	dw EscavalierAnimationIdle
 	dw SpinarakAnimationIdle
 	dw AriadosAnimationIdle
 	dw ChinchouAnimationIdle

@@ -89,7 +89,7 @@ EZChat_SortedPokemon:
 .ra:       db YANMEGA, RAICHU, CHANSEY, RIBOMBEE, LAPRAS, PETILIL, LANTURN, -1
 .ri:       db PIGNITE, EMBOAR, URSARING, -1
 .ru:       db JYNX, GLACEON, -1
-.re:       db MAGNETON, LEDIAN, LEDYBA, -1
+.re:       db MAGNETON, ESCAVALIER, KARRABLAST, -1
 .ro:       db VULPIX, -1
 .wa:       db CHANDELURE, TOTODILE, MACHOP ;, -1
 .end:      db -1

@@ -381,7 +381,7 @@ SwarmGrassWildMons:
 	dbw 37, PARASECT
 	dbw 37, TOUCANNON
 	dbw 37, STOUTLAND
-	dbw 37, LEDIAN
+	dbw 37, ESCAVALIER
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, PARASECT
@@ -390,7 +390,7 @@ SwarmGrassWildMons:
 	dbw 37, PARASECT
 	dbw 37, TOUCANNON
 	dbw 37, STOUTLAND
-	dbw 37, LEDIAN
+	dbw 37, ESCAVALIER
 	dbw 37, PARASECT
 	dbw 37, PARASECT
 	dbw 37, PARASECT

@@ -47,7 +47,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw HoothootEggMoves
 	dw NoEggMoves2
-	dw LedybaEggMoves
+	dw KarrablastEggMoves
 	dw NoEggMoves2
 	dw SpinarakEggMoves
 	dw NoEggMoves2
@@ -312,14 +312,15 @@ HoothootEggMoves:
 	dw NIGHT_SHADE
 	dw -1 ; end
 
-LedybaEggMoves:
-	dw PSYBEAM
-	dw BUG_BUZZ
+KarrablastEggMoves:
 	dw COUNTER
-	dw ENCORE
-	dw SCREECH
-	dw SILVER_WIND
+	dw FAINT_ATTACK
+	dw DRILL_RUN
+	dw HORN_ATTACK
 	dw KNOCK_OFF
+	dw MEGAHORN
+	dw PURSUIT
+	dw SCREECH
 	dw -1 ; end
 
 SpinarakEggMoves:

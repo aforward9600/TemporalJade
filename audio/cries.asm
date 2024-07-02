@@ -29,6 +29,11 @@ Cry_Stoutland:
 	channel 5, Cry_Stoutland_Ch5
 	channel 6, Cry_Stoutland_Ch6
 
+Cry_Cubchoo:
+	channel_count 2
+	channel 5, Cry_Cubchoo_Ch5
+	channel 6, Cry_Cubchoo_Ch6
+
 Cry_Marill:
 	channel_count 3
 	channel 5, Cry_Marill_Ch5
@@ -2056,6 +2061,7 @@ Cry_Fearow_Ch8:
 
 Cry_Growlithe_Ch5:
 	duty_cycle_pattern 2, 2, 1, 1
+Cry_Growlithe_Body_1:
 	square_note 3, 15, 4, 1601
 	square_note 13, 13, 6, 1825
 	square_note 8, 15, 4, 1817
@@ -2064,6 +2070,7 @@ Cry_Growlithe_Ch5:
 
 Cry_Growlithe_Ch6:
 	duty_cycle_pattern 3, 0, 3, 0
+Cry_Growlithe_Body_2:
 	square_note 4, 15, 4, 1408
 	square_note 14, 14, 6, 1760
 	square_note 8, 13, 5, 1752
@@ -2286,6 +2293,14 @@ Cry_Stoutland_Ch6:
 	square_note 3, 6, 2, 1761
 	square_note 14, 11, 3, 1665
 	sound_ret
+
+Cry_Cubchoo_Ch5:
+	duty_cycle_pattern 3, 2, 1, 0
+	sound_jump Cry_Growlithe_Body_1
+
+Cry_Cubchoo_Ch6:
+	duty_cycle $0
+	sound_jump Cry_Growlithe_Body_2
 
 ;Cry_Pikipek_Ch5:
 ;	sound_duty 0, 0, 3, 3

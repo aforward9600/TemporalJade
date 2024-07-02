@@ -76,6 +76,7 @@ AlphabeticalPokedexOrder:
 	dw ELEKID
 	dw EMBOAR
 	dw ENTEI
+	dw ESCAVALIER
 	dw ESPEON
 	dw EXCADRILL
 	dw EXEGGCUTE
@@ -132,6 +133,7 @@ AlphabeticalPokedexOrder:
 	dw JYNX
 	dw KADABRA
 	dw KANGASKHAN
+	dw KARRABLAST
 	dw KINGDRA
 	dw KIRLIA
 	dw KOFFING
@@ -142,8 +144,6 @@ AlphabeticalPokedexOrder:
 	dw LAPRAS
 	dw LARVITAR
 	dw LEAFEON
-	dw LEDIAN
-	dw LEDYBA
 	dw LICKILICKY
 	dw LICKITUNG
 	dw LILLIGANT

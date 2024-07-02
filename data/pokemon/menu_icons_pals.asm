@@ -208,8 +208,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  PINK   ; FURRET
 	icon_pals BROWN,  TEAL   ; HOOTHOOT
 	icon_pals BROWN,  TEAL   ; NOCTOWL
-	icon_pals RED,    PINK   ; LEDYBA
-	icon_pals RED,    PINK   ; LEDIAN
+	icon_pals BLUE,   TEAL   ; KARRABLAST
+	icon_pals RED,    PINK   ; ESCAVALIER
 	icon_pals GREEN,  PURPLE ; SPINARAK
 	icon_pals RED,    PURPLE ; ARIADOS
 	icon_pals BLUE,   TEAL   ; CHINCHOU

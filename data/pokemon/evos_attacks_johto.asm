@@ -46,8 +46,8 @@ EvosAttacksPointers2::
 	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
-	dw LedybaEvosAttacks
-	dw LedianEvosAttacks
+	dw KarrablastEvosAttacks
+	dw EscavalierEvosAttacks
 	dw SpinarakEvosAttacks
 	dw AriadosEvosAttacks
 	dw ChinchouEvosAttacks
@@ -1104,52 +1104,44 @@ endc
 	dbw 60, HURRICANE
 	db 0 ; no more level-up moves
 
-LedybaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 18, LEDIAN
+KarrablastEvosAttacks:
+	dbbw EVOLVE_ITEM, LINK_CABLE, ESCAVALIER
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 5, SUPERSONIC
-	dbw 8, SWIFT
-	dbw 12, LIGHT_SCREEN
-	dbw 12, REFLECT
-	dbw 12, SAFEGUARD
-	dbw 15, MACH_PUNCH
-	dbw 19, SILVER_WIND
-	dbw 22, COMET_PUNCH
-	dbw 26, BATON_PASS
-	dbw 29, AGILITY
-	dbw 33, BUG_BUZZ
-	dbw 36, AIR_SLASH
-	dbw 40, DOUBLE_EDGE
+	dbw 1, PECK
+	dbw 4, LEER
+	dbw 8, ENDURE
+	dbw 13, FURY_CUTTER
+	dbw 16, FURY_ATTACK
+	dbw 20, HEADBUTT
+	dbw 25, FALSE_SWIPE
+	dbw 28, BUG_BUZZ
+	dbw 32, SLASH
+	dbw 37, TAKE_DOWN
+	dbw 40, SCARY_FACE
+	dbw 44, X_SCISSOR
+	dbw 49, FLAIL
+	dbw 52, SWORDS_DANCE
+	dbw 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-LedianEvosAttacks:
+EscavalierEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, QUIVER_DANCE
-	dbw 1, QUIVER_DANCE
-	dbw 1, TACKLE
-	dbw 5, SUPERSONIC
-	dbw 8, SWIFT
-	dbw 12, LIGHT_SCREEN
-	dbw 12, REFLECT
-	dbw 12, SAFEGUARD
-	dbw 15, MACH_PUNCH
-	dbw 20, SILVER_WIND
-	dbw 24, COMET_PUNCH
-	dbw 29, BATON_PASS
-	dbw 33, AGILITY
-	dbw 38, BUG_BUZZ
-if DEF(_FAITHFUL)
-	dbw 42, AIR_SLASH
-else
-	dbw 42, AURA_SPHERE
-endc
-	dbw 47, DOUBLE_EDGE
-if DEF(_FAITHFUL)
-	dbw 50, HURRICANE
-else
-	dbw 50, CLOSE_COMBAT
-endc
+	dbw 1, PECK
+	dbw 4, LEER
+	dbw 8, DETECT
+	dbw 13, TWINEEDLE
+	dbw 16, FURY_ATTACK
+	dbw 20, HEADBUTT
+	dbw 25, FALSE_SWIPE
+	dbw 28, BUG_BUZZ
+	dbw 32, SLASH
+	dbw 37, IRON_HEAD
+	dbw 40, IRON_DEFENSE
+	dbw 44, X_SCISSOR
+	dbw 49, REVERSAL
+	dbw 52, SWORDS_DANCE
+	dbw 56, GIGA_IMPACT
+	dbw 60, MEGAHORN
 	db 0 ; no more level-up moves
 
 SpinarakEvosAttacks:

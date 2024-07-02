@@ -196,8 +196,8 @@ AnimationPointers:
 	dw FurretAnimation
 	dw HoothootAnimation
 	dw NoctowlAnimation
-	dw LedybaAnimation
-	dw LedianAnimation
+	dw KarrablastAnimation
+	dw EscavalierAnimation
 	dw SpinarakAnimation
 	dw AriadosAnimation
 	dw ChinchouAnimation

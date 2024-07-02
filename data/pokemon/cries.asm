@@ -202,10 +202,10 @@ PokemonCries::
 	mon_cry CRY_SENTRET,     $06b,  $102 ; FURRET
 	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; HOOTHOOT
 	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; NOCTOWL
-	mon_cry CRY_LEDYBA,      $000,  $0de ; LEDYBA
-	mon_cry CRY_LEDYBA,     -$096,  $138 ; LEDIAN
-	mon_cry CRY_SPINARAK,    $011,  $200 ; SPINARAK
-	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; ARIADOS
+	mon_cry CRY_KARRABLAST,  $00e,  $0d7 ; KARRABLAST
+	mon_cry CRY_CUBCHOO,    -$047,  $160 ; ESCAVALIER
+	mon_cry CRY_SHELMET,     $00f,  $0af ; SHELMET
+	mon_cry CRY_SHELMET,    -$2c3,  $0c4 ; ACCELGOR
 	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; CHINCHOU
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; LANTURN
 	mon_cry CRY_TOGEPI,      $010,  $100 ; TOGEPI
