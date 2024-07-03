@@ -99,8 +99,8 @@ EvosAttacksPointers1::
 	dw DewgongEvosAttacks
 	dw GrimerEvosAttacks
 	dw MukEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
+	dw MareanieEvosAttacks
+	dw ToxapexEvosAttacks
 	dw GastlyEvosAttacks
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
@@ -2044,39 +2044,40 @@ MukEvosAttacks:
 	dbw 57, TOXIC
 	db 0 ; no more level-up moves
 
-ShellderEvosAttacks:
-	dbbw EVOLVE_ITEM, WATER_STONE, CLOYSTER
+MareanieEvosAttacks:
+	dbbw EVOLVE_LEVEL, 38, TOXAPEX
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, WITHDRAW
-	dbw 1, WATER_GUN
-	dbw 8, SUPERSONIC
-	dbw 13, ICICLE_SPEAR
-	dbw 16, PROTECT
-	dbw 20, LEER
-	dbw 25, CLAMP
-	dbw 28, ICE_SHARD
-	dbw 32, WATERFALL
-	dbw 37, AURORA_BEAM
-	dbw 40, WHIRLPOOL
-	dbw 44, WATER_PULSE
-	dbw 49, IRON_DEFENSE
-	dbw 52, ICE_BEAM
-	dbw 56, SHELL_SMASH
-	dbw 61, WAVE_CRASH
+	dbw 1, POISON_STING
+	dbw 5, PECK
+	dbw 9, BITE
+	dbw 13, SPIKES
+	dbw 17, DETECT
+	dbw 21, TOXIC
+	dbw 25, VENOSHOCK
+	dbw 29, SPIKE_CANNON
+	dbw 33, RECOVER
+	dbw 37, POISON_JAB
+	dbw 41, KNOCK_OFF
+	dbw 45, PIN_MISSILE
+	dbw 49, WAVE_CRASH
 	db 0 ; no more level-up moves
 
-CloysterEvosAttacks:
+ToxapexEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SPIKES
-	dbw 1, SPIKES
-	dbw 1, WITHDRAW
-	dbw 1, SUPERSONIC
-	dbw 1, AURORA_BEAM
-	dbw 1, PROTECT
-	dbw 13, SPIKE_CANNON
-	dbw 28, ICICLE_CRASH
-	dbw 61, EXPLOSION
+	dbw 1, POISON_STING
+	dbw 5, PECK
+	dbw 9, BITE
+	dbw 13, SPIKES
+	dbw 17, DETECT
+	dbw 21, TOXIC
+	dbw 25, VENOSHOCK
+	dbw 29, SPIKE_CANNON
+	dbw 33, RECOVER
+	dbw 37, POISON_JAB
+	dbw 44, KNOCK_OFF
+	dbw 51, PIN_MISSILE
+	dbw 58, WAVE_CRASH
+	dbw 65, GUNK_SHOT
 	db 0 ; no more level-up moves
 
 GastlyEvosAttacks:

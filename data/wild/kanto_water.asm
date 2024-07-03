@@ -194,14 +194,14 @@ KantoWaterWildMons:
 	map_id SEAFOAM_ISLAND_B3F
 	db 6 percent
 	dbw 65, DEWGONG
-	dbw 65, CLOYSTER
+	dbw 65, TOXAPEX
 	dbw 68, GOLDUCK
 	dbw 68, SLOWBRO
 
 	map_id SEAFOAM_ISLAND_B4F
 	db 6 percent
 	dbw 65, DEWGONG
-	dbw 65, CLOYSTER
+	dbw 65, TOXAPEX
 	dbw 68, GOLDUCK
 	dbw 68, SLOWBRO
 

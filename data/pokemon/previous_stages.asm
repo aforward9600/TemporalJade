@@ -99,7 +99,7 @@ PreviousEvolutionStage::
 	dw 0     ;58
 	dw GRIMER
 	dw 0
-	dw SHELLDER
+	dw MAREANIE
 	dw 0
 	dw GASTLY
 	dw HAUNTER

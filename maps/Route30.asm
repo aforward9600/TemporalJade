@@ -218,13 +218,14 @@ LassJackieAfterBattleText:
 LassArielleSeenText:
 	text "That cave over"
 	line "there apparently"
-	cont "goes underneath"
-	cont "the Black River."
+	cont "goes up north"
+	cont "to Oenid Village."
 	done
 
 LassArielleBeatenText:
 	text "It goes right"
-	line "under the water!"
+	line "through the"
+	cont "mountain!"
 	done
 
 LassArielleAfterBattleText:

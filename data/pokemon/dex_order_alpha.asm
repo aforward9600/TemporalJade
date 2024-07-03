@@ -38,7 +38,6 @@ AlphabeticalPokedexOrder:
 	dw CLEFABLE
 	dw CLEFAIRY
 	dw CLEFFA
-	dw CLOYSTER
 	dw CORPHISH
 	dw CORSOLA
 	dw COTTONEE
@@ -169,6 +168,7 @@ AlphabeticalPokedexOrder:
 	dw MANKEY
 	dw MANTINE
 	dw MANTYKE
+	dw MAREANIE
 	dw MAREEP
 	dw MARILL
 	dw MAROWAK
@@ -251,7 +251,6 @@ AlphabeticalPokedexOrder:
 	dw SEEL
 	dw SENTRET
 	dw SHELGON
-	dw SHELLDER
 	dw SHELMET
 	dw SHUCKLE
 	dw SKARMINI
@@ -293,6 +292,7 @@ AlphabeticalPokedexOrder:
 	dw TOGETIC
 	dw TOTODILE
 	dw TOUCANNON
+	dw TOXAPEX
 	dw TOXICROAK
 	dw TRUMBEAK
 	dw TYPHLOSION

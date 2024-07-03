@@ -206,10 +206,10 @@ PokemonPicPointers::
 	dba GrimerBackpic
 	dba MukFrontpic
 	dba MukBackpic
-	dba ShellderFrontpic
-	dba ShellderBackpic
-	dba CloysterFrontpic
-	dba CloysterBackpic
+	dba MareanieFrontpic
+	dba MareanieBackpic
+	dba ToxapexFrontpic
+	dba ToxapexBackpic
 	dba GastlyFrontpic
 	dba GastlyBackpic
 	dba HaunterFrontpic

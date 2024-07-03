@@ -99,7 +99,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw GrimerEggMoves
 	dw NoEggMoves1
-	dw ShellderEggMoves
+	dw MareanieEggMoves
 	dw NoEggMoves1
 	dw GastlyEggMoves
 	dw NoEggMoves1
@@ -525,17 +525,8 @@ GrimerEggMoves:
 	dw SHADOW_PUNCH
 	dw -1 ; end
 
-ShellderEggMoves:
-	dw BUBBLEBEAM
-	dw TAKE_DOWN
-	dw BARRIER
-	dw RAPID_SPIN
-	dw SCREECH
-	dw AVALANCHE
-	dw ICICLE_SPEAR
-	dw MUD_SHOT
-	dw ROCK_BLAST
-	dw WATER_PULSE
+MareanieEggMoves:
+	dw HAZE
 	dw -1 ; end
 
 GastlyEggMoves:

@@ -100,8 +100,8 @@ Icons1:
 	dw DewgongIcon
 	dw GrimerIcon
 	dw MukIcon
-	dw ShellderIcon
-	dw CloysterIcon
+	dw MareanieIcon
+	dw ToxapexIcon
 	dw GastlyIcon
 	dw HaunterIcon
 	dw GengarIcon
@@ -227,8 +227,8 @@ SeelIcon:         INCBIN "gfx/icons/seel.2bpp"
 DewgongIcon:      INCBIN "gfx/icons/dewgong.2bpp"
 GrimerIcon:       INCBIN "gfx/icons/grimer.2bpp"
 MukIcon:          INCBIN "gfx/icons/muk.2bpp"
-ShellderIcon:     INCBIN "gfx/icons/shellder.2bpp"
-CloysterIcon:     INCBIN "gfx/icons/cloyster.2bpp"
+MareanieIcon:     INCBIN "gfx/icons/mareanie.2bpp"
+ToxapexIcon:      INCBIN "gfx/icons/toxapex.2bpp"
 GastlyIcon:       INCBIN "gfx/icons/gastly.2bpp"
 HaunterIcon:      INCBIN "gfx/icons/haunter.2bpp"
 GengarIcon:       INCBIN "gfx/icons/gengar.2bpp"

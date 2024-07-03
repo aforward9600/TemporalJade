@@ -21,35 +21,35 @@ Landmarks:
 	landmark  60,  92, OrrianDesertName
 	landmark  44,  92, ScantelesTownName
 	landmark  84,  80, Route28Name
-	landmark 104,  84, Route29Name
-	landmark 124,  84, OenidVillageName
 	landmark  84,  60, SirakisCityName
-	landmark  84,  44, Route30Name
+	landmark  84,  44, Route29Name
 	landmark  92,  36, BlackRiverCityName
 	landmark  94,  32, MetronIncName
 	landmark  92,  28, BlackRiverLakeName
-	landmark  60,  60, Route31Name
-	landmark  60,  48, Route32Name
+	landmark  56,  60, Route30Name
+	landmark  60,  52, Route31Name
 	landmark  60,  44, EmissVillageName
 	landmark  60,  20, OnagaCastleName
 	landmark  36,  60, RocherCityName
-	landmark  28,  52, Route33Name
+	landmark  28,  52, Route32Name
 	landmark  12,  52, WhiteRiverFallsName
 	landmark  12,  28, LakeOnteriorName
-	landmark 116,  60, Route34Name
+	landmark 108,  68, BlackRiverName
+	landmark 124,  60, Route33Name
 	landmark 124,  52, TitanShrineName
 	landmark 140,  60, AcituCityName
-	landmark 148,  52, Route35Name
+	landmark 148,  52, Route34Name
 	landmark 148,  28, MtAdadackName
+	landmark 116,  84, Route35Name
+	landmark 124,  84, OenidVillageName
+	landmark 132,  84, TitaniumCaveName
 	landmark  60, 116, Route36Name
 	landmark  32, 116, Route37Name
 	landmark   4, 124, Route38Name
 	landmark   4, 140, DigitLakeName
 	landmark  28,  56, BattleTowerName
 	landmark  12, 100, Route47Name
-	landmark  11, 100, CliffCaveName
 	landmark   4,  92, Route48Name
-	landmark   4,  84, WildAreaName
 	landmark  52,  60, NationalParkName
 	landmark  50,  92, RadioTowerName
 	landmark  52, 112, Route34Name
@@ -221,10 +221,10 @@ TohjoFallsName:      db "Tohjo Falls@"
 UndergroundName:     db "Underground@"
 BattleTowerName:     db "Battle¯Tower@"
 SpecialMapName:      db "Special@"
-WildAreaName:        db "Wild Area@"
+BlackRiverName:      db "Black River@"
 Route47Name:         db "Route 47@"
 Route48Name:         db "Route 48@"
-CliffCaveName:       db "Cliff Cave@"
+TitaniumCaveName:    db "Titanium¯Cave@"
 CinnabarVolcanoName: db "Cinnabar¯Volcano@"
 VictoryRoadOnagaName: db "Victory¯Road@"
 UnknownName2:        db "???@"

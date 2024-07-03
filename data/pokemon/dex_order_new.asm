@@ -222,8 +222,8 @@ NewPokedexOrder:
 	dw DEWGONG
 	dw STARYU
 	dw STARMIE
-	dw SHELLDER
-	dw CLOYSTER
+	dw MAREANIE
+	dw TOXAPEX
 	dw MURKROW
 	dw HONCHKROW
 	dw UNOWN

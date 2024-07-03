@@ -97,8 +97,8 @@ BitmasksPointers:
 	dw DewgongBitmasks
 	dw GrimerBitmasks
 	dw MukBitmasks
-	dw ShellderBitmasks
-	dw CloysterBitmasks
+	dw MareanieBitmasks
+	dw ToxapexBitmasks
 	dw GastlyBitmasks
 	dw HaunterBitmasks
 	dw GengarBitmasks

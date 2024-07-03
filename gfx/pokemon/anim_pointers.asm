@@ -97,8 +97,8 @@ AnimationPointers:
 	dw DewgongAnimation
 	dw GrimerAnimation
 	dw MukAnimation
-	dw ShellderAnimation
-	dw CloysterAnimation
+	dw MareanieAnimation
+	dw ToxapexAnimation
 	dw GastlyAnimation
 	dw HaunterAnimation
 	dw GengarAnimation

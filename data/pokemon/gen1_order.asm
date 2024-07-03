@@ -21,7 +21,7 @@ Pokered_MonIndices:
 	db ARCANINE
 	db MEW
 	db GYARADOS
-	db SHELLDER
+	db MAREANIE
 	db TENTACOOL
 	db GASTLY
 	db SCYTHER
@@ -137,7 +137,7 @@ Pokered_MonIndices:
 	db MUK
 	db ELEKID ; MISSINGNO.
 	db CRAWDAUNT
-	db CLOYSTER
+	db TOXAPEX
 	db TANGROWTH ; MISSINGNO.
 	db ELECTRODE
 	db CLEFABLE

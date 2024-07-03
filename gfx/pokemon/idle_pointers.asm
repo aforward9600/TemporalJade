@@ -97,8 +97,8 @@ AnimationIdlePointers:
 	dw DewgongAnimationIdle
 	dw GrimerAnimationIdle
 	dw MukAnimationIdle
-	dw ShellderAnimationIdle
-	dw CloysterAnimationIdle
+	dw MareanieAnimationIdle
+	dw ToxapexAnimationIdle
 	dw GastlyAnimationIdle
 	dw HaunterAnimationIdle
 	dw GengarAnimationIdle

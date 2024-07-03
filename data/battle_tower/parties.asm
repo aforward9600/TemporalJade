@@ -3969,7 +3969,7 @@ BattleTowerMons9:
 	bigdw 181 ; SDef
 	db "SUTA-MI-@@@"
 
-	dw CLOYSTER
+	dw TOXAPEX
 	db LEFTOVERS
 	dw EXPLOSION, ICICLE_CRASH, WATERFALL, SHELL_SMASH
 

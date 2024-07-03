@@ -17,35 +17,35 @@
 	const BELLCHIME_PATH
 	const ICE_PATH          ; 28
 	const ROUTE_45          ; 27
-	const ROUTE_43          ; 2b
-	const ECRUTEAK_CITY     ; 16
 	const GOLDENROD_CITY    ; 10
-	const ROUTE_42          ; 25
+	const ROUTE_43          ; 25
 	const LAKE_OF_RAGE      ; 26
 	const TIN_TOWER         ; 17
 	const CLIFFS_EDGE_GATE
-	const ROUTE_41          ; 22
-	const ROUTE_32          ; 20
+	const ROUTE_42          ; 22
+	const ROUTE_41          ; 20
 	const SLOWPOKE_WELL     ; 0d
 	const UNKNOWN
 	const OLIVINE_CITY      ; 1b
-	const ROUTE_33          ; 08
+	const ROUTE_32          ; 08
 	const CIANWOOD_CITY     ; 21
 	const BURNED_TOWER      ; 18
-	const ROUTE_34          ; 0b
+	const WILD_AREA_OUTSIDE ; 60
+	const ROUTE_33          ; 0b
 	const WHIRL_ISLANDS     ; 1f
 	const MAHOGANY_TOWN     ; 24
-	const ROUTE_35          ; 0f
+	const ROUTE_34          ; 0f
 	const MT_MORTAR         ; 23
+	const ROUTE_35          ; 2b
+	const ECRUTEAK_CITY     ; 16
+	const CLIFF_CAVE
 	const ROUTE_36          ; 12
 	const ROUTE_37          ; 14
 	const ROUTE_38          ; 15
 	const LIGHTHOUSE        ; 1c
 	const BATTLE_TOWER      ; 1d
 	const ROUTE_47          ; 61
-	const CLIFF_CAVE
 	const ROUTE_48          ; 62
-	const WILD_AREA_OUTSIDE ; 60
 	const NATIONAL_PARK     ; 13
 	const RADIO_TOWER       ; 11
 	const ROUTE_39          ; 19

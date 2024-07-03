@@ -98,8 +98,8 @@ PokedexDataPointerTable:
 	dba DewgongPokedexEntry
 	dba GrimerPokedexEntry
 	dba MukPokedexEntry
-	dba ShellderPokedexEntry
-	dba CloysterPokedexEntry
+	dba MareaniePokedexEntry
+	dba ToxapexPokedexEntry
 	dba GastlyPokedexEntry
 	dba HaunterPokedexEntry
 	dba GengarPokedexEntry

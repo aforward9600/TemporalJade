@@ -97,8 +97,8 @@ FramesPointers:
 	dba DewgongFrames
 	dba GrimerFrames
 	dba MukFrames
-	dba ShellderFrames
-	dba CloysterFrames
+	dba MareanieFrames
+	dba ToxapexFrames
 	dba GastlyFrames
 	dba HaunterFrames
 	dba GengarFrames

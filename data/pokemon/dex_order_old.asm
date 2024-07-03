@@ -99,8 +99,8 @@ OldPokedexOrder:
 	dw DEWGONG
 	dw GRIMER
 	dw MUK
-	dw SHELLDER
-	dw CLOYSTER
+	dw MAREANIE
+	dw TOXAPEX
 	dw GASTLY
 	dw HAUNTER
 	dw GENGAR

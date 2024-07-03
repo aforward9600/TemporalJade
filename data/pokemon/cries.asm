@@ -103,8 +103,8 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $023,  $17f ; DEWGONG
 	mon_cry CRY_GRIMER,      $000,  $100 ; GRIMER
 	mon_cry CRY_MUK,         $0ef,  $17f ; MUK
-	mon_cry CRY_FEAROW,      $000,  $100 ; SHELLDER
-	mon_cry CRY_FEAROW,      $06f,  $160 ; CLOYSTER
+	mon_cry CRY_FEAROW,      $000,  $100 ; MAREANIE
+	mon_cry CRY_FEAROW,      $06f,  $160 ; TOXAPEX
 	mon_cry CRY_METAPOD,     $000,  $100 ; GASTLY
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; HAUNTER
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR

@@ -208,8 +208,8 @@ TimeFishGroups:
 	;     day             nite
 	dbwbw 20, CORSOLA,    20, STARYU     ; 0
 	dbwbw 40, CORSOLA,    40, STARYU     ; 1
-	dbwbw 20, SHELLDER,   20, SHELLDER   ; 2
-	dbwbw 40, SHELLDER,   40, SHELLDER   ; 3
+	dbwbw 20, MAREANIE,   20, MAREANIE   ; 2
+	dbwbw 40, MAREANIE,   40, MAREANIE   ; 3
 	dbwbw 20, GOLDEEN,    20, GOLDEEN    ; 4
 	dbwbw 40, GOLDEEN,    40, GOLDEEN    ; 5
 	dbwbw 20, POLIWAG,    20, POLIWAG    ; 6

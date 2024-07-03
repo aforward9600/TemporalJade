@@ -173,7 +173,7 @@ JohtoWaterWildMons:
 	map_id ROUTE_41
 	db 6 percent ; encounter rate
 	dbw 21, TENTACOOL
-	dbw 22, SHELLDER
+	dbw 22, MAREANIE
 	dbw 23, STARYU
 	dbw 24, MANTINE
 
@@ -229,7 +229,7 @@ JohtoWaterWildMons:
 	map_id CIANWOOD_CITY
 	db 6 percent ; encounter rate
 	dbw 21, TENTACOOL
-	dbw 22, SHELLDER
+	dbw 22, MAREANIE
 	dbw 23, STARYU
 	dbw 24, MANTINE
 
@@ -279,7 +279,7 @@ JohtoWaterWildMons:
 	db 10 percent ; encounter rate
 	dbw 15, SLOWPOKE
 	dbw 15, STARYU
-	dbw 15, SHELLDER
+	dbw 15, MAREANIE
 	dbw 15, LAPRAS
 
 	map_id BLACK_RIVER_PASSAGE_ROUTE_25

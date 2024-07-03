@@ -1904,7 +1904,7 @@ Sensational1Group:
 	next_list_item ; SENSATIONAL1 (1)
 	db "Violet@", TRAINERTYPE_ITEM_MOVES
 	db 70
-	dw CLOYSTER
+	dw TOXAPEX
 if DEF(_CHALLENGE)
 	db LEFTOVERS
 else
@@ -2741,10 +2741,10 @@ LassGroup:
 	next_list_item ; Lass (6) Route 34
 	db "Kate@", TRAINERTYPE_MOVES
 	db 31
-	dw SHELLDER
+	dw MAREANIE
 	dw ICE_SHARD, CLAMP, PROTECT, ICICLE_SPEAR
 	db 32
-	dw CLOYSTER
+	dw TOXAPEX
 	dw ICE_SHARD, WATERFALL, PROTECT, ICICLE_SPEAR
 	db -1 ; end
 
@@ -4891,7 +4891,7 @@ endc
 	next_list_item ; SWIMMERM (3)
 	db "Jaxson@", TRAINERTYPE_NORMAL
 	db 23
-	dw SHELLDER
+	dw MAREANIE
 	db 23
 	dw MARSHTOMP
 	db 23
@@ -4986,11 +4986,11 @@ endc
 	next_list_item ; SWIMMERM (11)
 	db "DARYL@", TRAINERTYPE_NORMAL
 	db 24
-	dw SHELLDER
+	dw MAREANIE
 	db 25
-	dw CLOYSTER
+	dw TOXAPEX
 	db 24
-	dw SHELLDER
+	dw MAREANIE
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (12)
@@ -5031,7 +5031,7 @@ endc
 	dw DEWGONG
 	dw SHEER_COLD, FAKE_OUT, ICE_BEAM, AQUA_TAIL
 	db 73
-	dw CLOYSTER
+	dw TOXAPEX
 	dw ICICLE_CRASH, SHELL_SMASH, RAPID_SPIN, WAVE_CRASH
 	db -1 ; end
 
@@ -5148,10 +5148,10 @@ SwimmerFGroup:
 	next_list_item ; SWIMMERF (6) Route 41
 	db "Lois@", TRAINERTYPE_MOVES
 	db 24
-	dw SHELLDER
+	dw MAREANIE
 	dw LEER, PROTECT, ICICLE_SPEAR, WATER_GUN
 	db 25
-	dw CLOYSTER
+	dw TOXAPEX
 	dw LEER, PROTECT, ICICLE_SPEAR, WATER_GUN
 	db -1 ; end
 
@@ -5987,7 +5987,7 @@ BikerGroup:
 	next_list_item ; BIKER (1) Route 22
 	db "Buford@", TRAINERTYPE_MOVES
 	db 67
-	dw CLOYSTER
+	dw TOXAPEX
 	dw SURF, ICE_BEAM, SPIKES, ICICLE_SPEAR
 	db 67
 	dw HYPNO
@@ -7888,7 +7888,7 @@ BoarderGroup:
 	dw SNEASEL
 	dw METAL_CLAW, ICE_SHARD, FAINT_ATTACK, LEER
 	db 23
-	dw CLOYSTER
+	dw TOXAPEX
 	dw SUPERSONIC, SPIKE_CANNON, ICICLE_SPEAR, WATER_GUN
 	db -1 ; end
 
@@ -7905,7 +7905,7 @@ BoarderGroup:
 	next_list_item ; BOARDER (3) Mahogany Gym
 	db "Sonny@", TRAINERTYPE_NORMAL
 	db 11
-	dw SHELLDER
+	dw MAREANIE
 	db 11
 	dw SWINUB
 	db 12

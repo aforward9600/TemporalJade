@@ -109,8 +109,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   GRAY   ; DEWGONG
 	icon_pals PURPLE, GREEN  ; GRIMER
 	icon_pals PURPLE, GREEN  ; MUK
-	icon_pals PURPLE, RED    ; SHELLDER
-	icon_pals PURPLE, BLUE   ; CLOYSTER
+	icon_pals BLUE,   PINK   ; MAREANIE
+	icon_pals BLUE,   PINK   ; TOXAPEX
 	icon_pals PURPLE, BLUE   ; GASTLY
 	icon_pals RED,    BLUE   ; HAUNTER
 	icon_pals RED,    PURPLE ; GENGAR
