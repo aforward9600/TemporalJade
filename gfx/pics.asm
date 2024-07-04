@@ -320,9 +320,9 @@ SECTION "Electabuzz Front", ROMX
 
 ElectabuzzFrontpic:  INCBIN "gfx/pokemon/electabuzz/front.animated.2bpp.lz"
 
-SECTION "Mantine Front", ROMX
+SECTION "Volcarona Front", ROMX
 
-MantineFrontpic:     INCBIN "gfx/pokemon/mantine/front.animated.2bpp.lz"
+VolcaronaFrontpic:     INCBIN "gfx/pokemon/volcarona/front.animated.2bpp.lz"
 
 SECTION "Lickitung Front", ROMX
 
@@ -965,7 +965,7 @@ UnownNFrontpic:      INCBIN "gfx/pokemon/unown_n/front.animated.2bpp.lz"
 TangelaBackpic:      INCBIN "gfx/pokemon/tangela/back.2bpp.lz"
 VoltorbBackpic:      INCBIN "gfx/pokemon/voltorb/back.2bpp.lz"
 UnownJFrontpic:      INCBIN "gfx/pokemon/unown_j/front.animated.2bpp.lz"
-MantineBackpic:      INCBIN "gfx/pokemon/mantine/back.2bpp.lz"
+VolcaronaBackpic:    INCBIN "gfx/pokemon/volcarona/back.2bpp.lz"
 UnownLFrontpic:      INCBIN "gfx/pokemon/unown_l/front.animated.2bpp.lz"
 PiloswineBackpic:    INCBIN "gfx/pokemon/piloswine/back.2bpp.lz"
 UnownMFrontpic:      INCBIN "gfx/pokemon/unown_m/front.animated.2bpp.lz"
@@ -1057,8 +1057,8 @@ BonslyFrontpic:      INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lz"
 BonslyBackpic:       INCBIN "gfx/pokemon/bonsly/back.2bpp.lz"
 MimeJrFrontpic:      INCBIN "gfx/pokemon/mimejr/front.animated.2bpp.lz"
 MimeJrBackpic:       INCBIN "gfx/pokemon/mimejr/back.2bpp.lz"
-MantykeFrontpic:     INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"
-MantykeBackpic:      INCBIN "gfx/pokemon/mantyke/back.2bpp.lz"
+LarvestaFrontpic:    INCBIN "gfx/pokemon/larvesta/front.animated.2bpp.lz"
+LarvestaBackpic:     INCBIN "gfx/pokemon/larvesta/back.2bpp.lz"
 HappinyFrontpic:     INCBIN "gfx/pokemon/happiny/front.animated.2bpp.lz"
 HappinyBackpic:      INCBIN "gfx/pokemon/happiny/back.2bpp.lz"
 HexManiacPic:        INCBIN "gfx/trainers/hex_maniac.2bpp.lz"

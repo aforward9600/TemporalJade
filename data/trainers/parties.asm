@@ -37,7 +37,7 @@ if DEF(_CHALLENGE)
 	db SPECIALSPECS
 	dw EARTH_POWER, FLAMETHROWER, GRASS_KNOT, THUNDERPUNCH
 else
-	dw MANTINE
+	dw VOLCARONA
 	db NO_ITEM
 	dw RAIN_DANCE, AQUA_RING, AIR_SLASH, HYDRO_PUMP
 endc
@@ -91,7 +91,7 @@ if DEF(_CHALLENGE)
 	db SPECIALSPECS
 	dw EARTH_POWER, FLAMETHROWER, GRASS_KNOT, THUNDERPUNCH
 else
-	dw MANTINE
+	dw VOLCARONA
 	db NO_ITEM
 	dw RAIN_DANCE, AQUA_RING, AIR_SLASH, HYDRO_PUMP
 endc
@@ -146,7 +146,7 @@ if DEF(_CHALLENGE)
 	db SPECIALSPECS
 	dw EARTH_POWER, FLAMETHROWER, GRASS_KNOT, THUNDERPUNCH
 else
-	dw MANTINE
+	dw VOLCARONA
 	db NO_ITEM
 	dw RAIN_DANCE, AQUA_RING, HURRICANE, HYDRO_PUMP
 endc
@@ -3083,7 +3083,7 @@ endc
 	dw SUNFLORA
 	dw GIGA_DRAIN, FIRE_BLAST, SUNNY_DAY, EARTH_POWER
 	db 61
-	dw MANTINE
+	dw VOLCARONA
 	dw HYDRO_PUMP, ICE_BEAM, AIR_SLASH, AQUA_RING
 	db 61
 	dw FROSLASS
@@ -3461,7 +3461,7 @@ endc
 	next_list_item ; COOLTRAINERF (21) Union Cave B2F
 	db "Ella@", TRAINERTYPE_NORMAL
 	db 46
-	dw MANTINE
+	dw VOLCARONA
 	db 46
 	dw WEAVILE
 	db 46
@@ -3596,7 +3596,7 @@ endc
 	db 19
 	dw CUBONE
 	db 18
-	dw MANTYKE
+	dw LARVESTA
 	db -1 ; end
 
 	end_list_items
@@ -3924,7 +3924,7 @@ endc
 	db 33
 	dw GLIGAR
 	db 33
-	dw MANTINE
+	dw VOLCARONA
 	db -1 ; end
 
 	next_list_item ; ManM (15) Radio Tower 4F
@@ -4598,7 +4598,7 @@ FisherGroup:
 	db 31
 	dw QWILFISH
 	db 31
-	dw MANTINE
+	dw VOLCARONA
 	db 32
 	dw GYARADOS
 	db -1 ; end
@@ -4742,7 +4742,7 @@ endc
 	next_list_item ; FISHER (13)
 	db "Manfred@", TRAINERTYPE_NORMAL
 	db 75
-	dw MANTINE
+	dw VOLCARONA
 	db 75
 	dw OCTILLERY
 	db -1 ; end
@@ -5114,7 +5114,7 @@ SwimmerFGroup:
 	next_list_item ; SWIMMERF (2)
 	db "Kaitlyn@", TRAINERTYPE_NORMAL
 	db 22
-	dw MANTYKE
+	dw LARVESTA
 	db 23
 	dw SEEL
 	db -1 ; end
@@ -7276,7 +7276,7 @@ endc
 	dw URSARING
 	db NO_ITEM
 	db 46
-	dw MANTINE
+	dw VOLCARONA
 	db NO_ITEM
 	db 47
 	dw RAPIDASH

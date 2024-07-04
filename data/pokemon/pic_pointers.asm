@@ -537,10 +537,10 @@ PokemonPicPointers::
 	dba OctilleryBackpic
 	dba OrthwormFrontpic
 	dba OrthwormBackpic
-	dba MantykeFrontpic
-	dba MantykeBackpic
-	dba MantineFrontpic
-	dba MantineBackpic
+	dba LarvestaFrontpic
+	dba LarvestaBackpic
+	dba VolcaronaFrontpic
+	dba VolcaronaBackpic
 	dba SkarminiFrontpic
 	dba SkarminiBackpic
 	dba SkarmoryFrontpic

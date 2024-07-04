@@ -175,7 +175,7 @@ JohtoWaterWildMons:
 	dbw 21, TENTACOOL
 	dbw 22, MAREANIE
 	dbw 23, STARYU
-	dbw 24, MANTINE
+	dbw 24, GYARADOS
 
 	map_id ROUTE_42
 	db 4 percent ; encounter rate
@@ -231,7 +231,7 @@ JohtoWaterWildMons:
 	dbw 21, TENTACOOL
 	dbw 22, MAREANIE
 	dbw 23, STARYU
-	dbw 24, MANTINE
+	dbw 24, GYARADOS
 
 	map_id OLIVINE_CITY
 	db 6 percent ; encounter rate

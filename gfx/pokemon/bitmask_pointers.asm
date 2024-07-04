@@ -261,8 +261,8 @@ BitmasksPointers:
 	dw RemoraidBitmasks
 	dw OctilleryBitmasks
 	dw OrthwormBitmasks
-	dw MantykeBitmasks
-	dw MantineBitmasks
+	dw LarvestaBitmasks
+	dw VolcaronaBitmasks
 	dw SkarminiBitmasks
 	dw SkarmoryBitmasks
 	dw HoundourBitmasks

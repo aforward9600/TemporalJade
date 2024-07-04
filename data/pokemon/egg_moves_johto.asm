@@ -112,7 +112,7 @@ EggMovePointers2::
 	dw RemoraidEggMoves
 	dw NoEggMoves2
 	dw OrthwormEggMoves
-	dw MantykeEggMoves
+	dw LarvestaEggMoves
 	dw NoEggMoves2
 	dw SkarminiEggMoves
 	dw NoEggMoves2
@@ -644,14 +644,11 @@ OrthwormEggMoves:
 	dw COIL
 	dw -1 ; end
 
-MantykeEggMoves:
-	dw TWISTER
-	dw HYDRO_PUMP
-	dw HAZE
-	dw SLAM
-	dw AMNESIA
-	dw MIRROR_COAT
-	dw SIGNAL_BEAM
+LarvestaEggMoves:
+	dw ENDURE
+	dw FORESIGHT
+	dw HARDEN
+	dw STRING_SHOT
 	dw -1 ; end
 
 SkarminiEggMoves:

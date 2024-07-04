@@ -273,8 +273,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   GRAY   ; REMORAID
 	icon_pals RED,    GREEN  ; OCTILLERY
 	icon_pals RED,    BLUE   ; ORTHWORM
-	icon_pals BLUE,   TEAL   ; MANTYKE
-	icon_pals BLUE,   TEAL   ; MANTINE
+	icon_pals RED,    PINK   ; LARVESTA
+	icon_pals RED,    PINK   ; VOLCARONA
 	icon_pals RED,    GREEN  ; SKARMINI
 	icon_pals RED,    GREEN  ; SKARMORY
 	icon_pals RED,    GRAY   ; HOUNDOUR

@@ -263,7 +263,7 @@ PreviousEvolutionStage::
 	dw REMORAID   ;e0
 	dw 0
 	dw 0
-	dw MANTYKE
+	dw LARVESTA
 	dw 0
 	dw SKARMINI
 	dw 0

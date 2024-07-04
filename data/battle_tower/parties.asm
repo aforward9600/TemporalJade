@@ -3690,7 +3690,7 @@ BattleTowerMons8:
 	bigdw 189 ; SDef
 	db "RU-ZIyuRA@@"
 
-	dw MANTINE
+	dw VOLCARONA
 	db SITRUS_BERRY
 	dw RAIN_DANCE, CONFUSE_RAY, HURRICANE, HYDRO_PUMP
 

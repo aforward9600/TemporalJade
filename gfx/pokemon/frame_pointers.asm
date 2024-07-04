@@ -261,8 +261,8 @@ FramesPointers:
 	dba RemoraidFrames
 	dba OctilleryFrames
 	dba OrthwormFrames
-	dba MantykeFrames
-	dba MantineFrames
+	dba LarvestaFrames
+	dba VolcaronaFrames
 	dba SkarminiFrames
 	dba SkarmoryFrames
 	dba HoundourFrames

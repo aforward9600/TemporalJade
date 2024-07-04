@@ -262,8 +262,8 @@ PokedexDataPointerTable:
 	dba RemoraidPokedexEntry
 	dba OctilleryPokedexEntry
 	dba OrthwormPokedexEntry
-	dba MantykePokedexEntry
-	dba MantinePokedexEntry
+	dba LarvestaPokedexEntry
+	dba VolcaronaPokedexEntry
 	dba SkarminiPokedexEntry
 	dba SkarmoryPokedexEntry
 	dba HoundourPokedexEntry

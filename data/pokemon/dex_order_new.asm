@@ -276,8 +276,8 @@ NewPokedexOrder:
 	dw CURSOLA
 	dw PSYDUCK
 	dw GOLDUCK
-	dw MANTYKE
-	dw MANTINE
+	dw LARVESTA
+	dw VOLCARONA
 	dw DROWZEE
 	dw HYPNO
 	dw REMORAID

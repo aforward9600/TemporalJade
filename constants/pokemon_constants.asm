@@ -282,8 +282,8 @@ JOHTO_POKEMON EQU const_value
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
 	const ORTHWORM   ; e1
-	const MANTYKE
-	const MANTINE    ; e2
+	const LARVESTA
+	const VOLCARONA    ; e2
 	const SKARMINI   ; fc
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4

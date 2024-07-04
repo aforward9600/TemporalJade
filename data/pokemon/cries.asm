@@ -267,8 +267,8 @@ PokemonCries::
 	mon_cry CRY_SUNFLORA,    $00d,  $100 ; REMORAID
 	mon_cry CRY_TOTODILE,    $000,  $180 ; OCTILLERY
 	mon_cry CRY_SLOWKING,    $104,  $200 ; ORTHWORM
-	mon_cry CRY_MANTINE,    -$0fa,  $0a0 ; MANTYKE
-	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; MANTINE
+	mon_cry CRY_CYNDAQUIL,  -$4c7,  $0f5 ; LARVESTA
+	mon_cry CRY_METAPOD,    -$420,  $1a6 ; VOLCARONA
 	mon_cry CRY_AMPHAROS,    $8a9,  $096 ; SKARMINI
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; SKARMORY
 	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; HOUNDOUR

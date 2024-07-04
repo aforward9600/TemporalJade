@@ -142,6 +142,7 @@ AlphabeticalPokedexOrder:
 	dw LAMPENT
 	dw LANTURN
 	dw LAPRAS
+	dw LARVESTA
 	dw LARVITAR
 	dw LEAFEON
 	dw LICKILICKY
@@ -167,8 +168,6 @@ AlphabeticalPokedexOrder:
 	dw MAMOSWINE
 	dw MANECTRIC
 	dw MANKEY
-	dw MANTINE
-	dw MANTYKE
 	dw MAREANIE
 	dw MAREEP
 	dw MARILL
@@ -309,6 +308,7 @@ AlphabeticalPokedexOrder:
 	dw VENOMOTH
 	dw VENONAT
 	dw VICTREEBEL
+	dw VOLCARONA
 	dw VOLTORB
 	dw VULPIX
 	dw WEAVILE

@@ -261,8 +261,8 @@ AnimationIdlePointers:
 	dw RemoraidAnimationIdle
 	dw OctilleryAnimationIdle
 	dw OrthwormAnimationIdle
-	dw MantykeAnimationIdle
-	dw MantineAnimationIdle
+	dw LarvestaAnimationIdle
+	dw VolcaronaAnimationIdle
 	dw SkarminiAnimationIdle
 	dw SkarmoryAnimationIdle
 	dw HoundourAnimationIdle

@@ -111,8 +111,8 @@ EvosAttacksPointers2::
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
 	dw OrthwormEvosAttacks
-	dw MantykeEvosAttacks
-	dw MantineEvosAttacks
+	dw LarvestaEvosAttacks
+	dw VolcaronaEvosAttacks
 	dw SkarminiEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
@@ -2505,45 +2505,39 @@ OrthwormEvosAttacks:
 	dbw 52, RECOVER
 	db 0 ; no more level-up moves
 
-MantykeEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, MANTINE
+LarvestaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 59, VOLCARONA
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, BUBBLE
-	dbw 3, SUPERSONIC
-	dbw 7, BUBBLEBEAM
-	dbw 11, CONFUSE_RAY
-	dbw 14, WING_ATTACK
-	dbw 16, HEADBUTT
-	dbw 19, WATER_PULSE
-	dbw 23, PROTECT
-	dbw 27, TAKE_DOWN
-	dbw 32, AGILITY
-	dbw 36, AIR_SLASH
-	dbw 39, AQUA_RING
-	dbw 46, BOUNCE
-	dbw 49, HYDRO_PUMP
+	dbw 1, EMBER
+	dbw 1, STRING_SHOT
+	dbw 10, ABSORB
+	dbw 20, TAKE_DOWN
+	dbw 30, FLAME_CHARGE
+	dbw 40, PIN_MISSILE
+	dbw 50, DOUBLE_EDGE
+	dbw 60, FLAME_WHEEL
+	dbw 70, BUG_BUZZ
+	dbw 80, AMNESIA
+	dbw 90, THRASH
+	dbw 100, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
-MantineEvosAttacks:
+VolcaronaEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, BUBBLE
-	dbw 3, SUPERSONIC
-	dbw 7, BUBBLEBEAM
-	dbw 11, CONFUSE_RAY
-	dbw 14, WING_ATTACK
-	dbw 16, HEADBUTT
-	dbw 19, WATER_PULSE
-	dbw 23, PROTECT
-	dbw 27, TAKE_DOWN
-	dbw 32, AGILITY
-	dbw 36, AIR_SLASH
-	dbw 39, AQUA_RING
-	dbw 46, BOUNCE
-	dbw 49, HYDRO_PUMP
-	dbw 52, RAIN_DANCE
-	dbw 55, HURRICANE
+	dbw LEARN_EVO_MOVE, QUIVER_DANCE
+	dbw 1, QUIVER_DANCE
+	dbw 1, EMBER
+	dbw 1, STRING_SHOT
+	dbw 10, ABSORB
+	dbw 20, GUST
+	dbw 30, FIRE_SPIN
+	dbw 40, WHIRLWIND
+	dbw 50, SILVER_WIND
+	dbw 60, HEAT_WAVE
+	dbw 70, BUG_BUZZ
+	dbw 80, HURRICANE
+	dbw 90, SIGNAL_WAVE
+	dbw 100, BLAST_BURN
 	db 0 ; no more level-up moves
 
 SkarminiEvosAttacks:

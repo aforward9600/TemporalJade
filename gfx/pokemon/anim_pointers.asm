@@ -261,8 +261,8 @@ AnimationPointers:
 	dw RemoraidAnimation
 	dw OctilleryAnimation
 	dw OrthwormAnimation
-	dw MantykeAnimation
-	dw MantineAnimation
+	dw LarvestaAnimation
+	dw VolcaronaAnimation
 	dw SkarminiAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation
