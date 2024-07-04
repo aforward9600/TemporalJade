@@ -61,8 +61,8 @@ EZChat_SortedPokemon:
 .sa_za:    db RHYHORN, GLISCOR, KINGDRA, HITMONLEE, ZAPDOS, JOLTEON, DRILBUR, EXCADRILL, -1 ; RHYDON should lead this list
 .shi_ji:   db SEADRA, MAREANIE, VAPOREON, DEWGONG, -1
 .su_zu:    db AMBIPOM, STARMIE, SCYTHER, ZUBAT, STOUTLAND, HYPNO, DROWZEE, -1
-.se_ze:    db MUDKIP, WYNAUT, -1
-.so_zo:    db WOBBUFFET, -1
+.se_ze:    db MUDKIP, SKORUPI, -1
+.so_zo:    db DRAPION, -1
 .ta_da:    db PALOSSAND, HORSEA, EXEGGCUTE, -1
 .chi_dhi:  db CHIKORITA, CHINCHOU, -1
 .tsu_du:   db SHUCKLE, -1

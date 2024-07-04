@@ -136,12 +136,13 @@ Back sprite: leParagon
 Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
-Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish
-and Crawdaunt sprites
+Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
+Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty sprites
 
-Shelmet and Accelgor animations: PokeMMO Generation 2 Sprites Mod
+Shelmet, Accelgor, Karrablast and Escavalier animations:
+PokeMMO Generation 2 Sprites Mod
 
-Petil and Lilligant sprites: COMBOY collection
+Petil and Lilligant sprites, various Gen 5 back sprites: COMBOY collection
 
 Ein trainer sprite: Sindorman
 
@@ -155,7 +156,7 @@ Agatha and Oak sprites: Tetra
 
 Ariana, Archer and Giovanni trainer and overworld sprite: SirWhibbles
 
-Ampharos and overworld sprite: Prism Team
+Ampharos and overworld sprite, Skorupi and Drapion sprites: Prism Team
 
 Gible line sprites, Regirock, Regice, Registeel and Regigigas
 front sprites: Blue Emerald

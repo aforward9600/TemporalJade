@@ -81,8 +81,8 @@ EvosAttacksPointers2::
 	dw MisdreavusEvosAttacks
 	dw MismagiusEvosAttacks
 	dw UnownEvosAttacks
-	dw WynautEvosAttacks
-	dw WobbuffetEvosAttacks
+	dw SkorupiEvosAttacks
+	dw DrapionEvosAttacks
 	dw GirafarigEvosAttacks
 	dw FarigirafEvosAttacks
 	dw PinecoEvosAttacks
@@ -1835,25 +1835,47 @@ UnownEvosAttacks:
 	dbw 1, HIDDEN_POWER
 	db 0 ; no more level-up moves
 
-WynautEvosAttacks:
-	dbbw EVOLVE_LEVEL, 15, WOBBUFFET
+SkorupiEvosAttacks:
+	dbbw EVOLVE_LEVEL, 40, DRAPION
 	db 0 ; no more evolutions
-	dbw 1, CHARM
-	dbw 1, SPLASH
-	dbw 1, ENCORE
-	dbw 1, AMNESIA
-	dbw 15, COUNTER
-	dbw 15, DESTINY_BOND
-	dbw 15, MIRROR_COAT
-	dbw 15, SAFEGUARD
+	dbw 1, BITE
+	dbw 1, POISON_STING
+	dbw 1, LEER
+	dbw 5, KNOCK_OFF
+	dbw 9, PIN_MISSILE
+	dbw 13, WORK_UP
+	dbw 16, PURSUIT
+	dbw 20, SIGNAL_BEAM
+	dbw 23, POISON_FANG
+	dbw 27, VENOSHOCK
+	dbw 30, HONE_CLAWS
+	dbw 34, TOXIC
+	dbw 38, NIGHT_SLASH
+	dbw 41, SCARY_FACE
+	dbw 45, CRUNCH
+	dbw 47, LEECH_LIFE
+	dbw 49, CROSS_POISON
 	db 0 ; no more level-up moves
 
-WobbuffetEvosAttacks:
+DrapionEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, COUNTER
-	dbw 1, MIRROR_COAT
-	dbw 1, SAFEGUARD
-	dbw 1, DESTINY_BOND
+	dbw 1, BITE
+	dbw 1, POISON_STING
+	dbw 1, LEER
+	dbw 5, KNOCK_OFF
+	dbw 9, PIN_MISSILE
+	dbw 13, WORK_UP
+	dbw 16, PURSUIT
+	dbw 20, SIGNAL_BEAM
+	dbw 23, POISON_FANG
+	dbw 27, VENOSHOCK
+	dbw 30, HONE_CLAWS
+	dbw 34, TOXIC
+	dbw 38, NIGHT_SLASH
+	dbw 43, SCARY_FACE
+	dbw 49, CRUNCH
+	dbw 53, LEECH_LIFE
+	dbw 57, CROSS_POISON
 	db 0 ; no more level-up moves
 
 GirafarigEvosAttacks:

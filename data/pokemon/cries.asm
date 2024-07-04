@@ -237,8 +237,8 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISDREAVUS
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS
 	mon_cry CRY_HOOTHOOT,    $162,  $100 ; UNOWN
-	mon_cry CRY_AMPHAROS,    $27b,  $050 ; WYNAUT
-	mon_cry CRY_AMPHAROS,    $27b,  $144 ; WOBBUFFET
+	mon_cry CRY_AMPHAROS,    $1c8,  $190 ; SKORUPI
+	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; FARIGIRAF
 	mon_cry CRY_SLOWKING,    $080,  $100 ; PINECO

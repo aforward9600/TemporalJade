@@ -240,7 +240,7 @@ Pokered_MonIndices:
 	db SLOWKING
 	db MISDREAVUS
 	db UNOWN
-	db WOBBUFFET
+	db DRAPION
 	db GIRAFARIG
 	db PINECO
 	db FORRETRESS
@@ -250,5 +250,5 @@ Pokered_MonIndices:
 	db SNUBBULL
 	db GRANBULL
 	db QWILFISH
-	db WOBBUFFET
-	db WOBBUFFET
+	db DRAPION
+	db DRAPION

@@ -39,7 +39,7 @@ SpriteMons:
 	dw SMOOCHUM
 	dw MEOWTH
 	dw SYLVEON
-	dw WOBBUFFET
+	dw DRAPION
 	dw RIBOMBEE
 	dw AMPHAROS
 	dw FARFETCH_D

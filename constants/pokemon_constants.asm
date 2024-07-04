@@ -252,8 +252,8 @@ JOHTO_POKEMON EQU const_value
 	const MISDREAVUS ; c8
 	const MISMAGIUS  ; fd
 	const UNOWN      ; c9
-	const WYNAUT
-	const WOBBUFFET  ; ca
+	const SKORUPI
+	const DRAPION  ; ca
 	const GIRAFARIG  ; cb
 	const FARIGIRAF
 	const PINECO     ; cc

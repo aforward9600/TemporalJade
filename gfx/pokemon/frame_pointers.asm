@@ -231,8 +231,8 @@ FramesPointers:
 	dba MisdreavusFrames
 	dba MismagiusFrames
 	dba UnownFrames
-	dba WynautFrames
-	dba WobbuffetFrames
+	dba SkorupiFrames
+	dba DrapionFrames
 	dba GirafarigFrames
 	dba FarigirafFrames
 	dba PinecoFrames

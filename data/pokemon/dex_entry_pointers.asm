@@ -232,8 +232,8 @@ PokedexDataPointerTable:
 	dba MisdreavusPokedexEntry
 	dba MismagiusPokedexEntry
 	dba UnownPokedexEntry
-	dba WynautPokedexEntry
-	dba WobbuffetPokedexEntry
+	dba SkorupiPokedexEntry
+	dba DrapionPokedexEntry
 	dba GirafarigPokedexEntry
 	dba FarigirafPokedexEntry
 	dba PinecoPokedexEntry

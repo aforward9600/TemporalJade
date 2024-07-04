@@ -109,8 +109,8 @@ Icons2:
 	dw MisdreavusIcon
 	dw MismagiusIcon
 	dw UnownIcon
-	dw WynautIcon
-	dw WobbuffetIcon
+	dw SkorupiIcon
+	dw DrapionIcon
 	dw GirafarigIcon
 	dw FarigirafIcon
 	dw PinecoIcon
@@ -236,8 +236,8 @@ HonchkrowIcon:    INCBIN "gfx/icons/honchkrow.2bpp"
 MisdreavusIcon:   INCBIN "gfx/icons/misdreavus.2bpp"
 MismagiusIcon:    INCBIN "gfx/icons/mismagius.2bpp"
 UnownIcon:        INCBIN "gfx/icons/unown.2bpp"
-WynautIcon:       INCBIN "gfx/icons/wynaut.2bpp"
-WobbuffetIcon:    INCBIN "gfx/icons/wobbuffet.2bpp"
+SkorupiIcon:      INCBIN "gfx/icons/skorupi.2bpp"
+DrapionIcon:      INCBIN "gfx/icons/drapion.2bpp"
 GirafarigIcon:    INCBIN "gfx/icons/girafarig.2bpp"
 FarigirafIcon:    INCBIN "gfx/icons/farigiraf.2bpp"
 PinecoIcon:       INCBIN "gfx/icons/pineco.2bpp"

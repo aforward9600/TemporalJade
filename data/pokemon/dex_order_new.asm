@@ -62,8 +62,8 @@ NewPokedexOrder:
 	dw KINGDRA
 	dw CROAGUNK
 	dw TOXICROAK
-	dw WYNAUT
-	dw WOBBUFFET
+	dw SKORUPI
+	dw DRAPION
 	dw LOTAD
 	dw LOMBRE
 	dw LUDICOLO

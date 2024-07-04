@@ -1056,7 +1056,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 50, CROBAT
-	dbw 50, WOBBUFFET
+	dbw 50, DRAPION
 	dbw 50, GOLEM
 	dbw 50, CLEFAIRY
 	dbw 50, URSARING
@@ -1065,7 +1065,7 @@ JohtoGrassWildMons:
 	dbw 50, DUNSPARCE
 	; day
 	dbw 50, CROBAT
-	dbw 50, WOBBUFFET
+	dbw 50, DRAPION
 	dbw 50, GOLEM
 	dbw 50, CLEFAIRY
 	dbw 50, URSARING
@@ -1074,7 +1074,7 @@ JohtoGrassWildMons:
 	dbw 50, DUNSPARCE
 	; nite
 	dbw 50, CROBAT
-	dbw 50, WOBBUFFET
+	dbw 50, DRAPION
 	dbw 50, GOLEM
 	dbw 50, CLEFAIRY
 	dbw 50, URSARING
@@ -1086,7 +1086,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 50, CROBAT
-	dbw 50, WOBBUFFET
+	dbw 50, DRAPION
 	dbw 50, GOLEM
 	dbw 50, CLEFAIRY
 	dbw 50, URSARING
@@ -1095,7 +1095,7 @@ JohtoGrassWildMons:
 	dbw 50, DUNSPARCE
 	; day
 	dbw 50, CROBAT
-	dbw 50, WOBBUFFET
+	dbw 50, DRAPION
 	dbw 50, GOLEM
 	dbw 50, CLEFAIRY
 	dbw 50, URSARING
@@ -1104,7 +1104,7 @@ JohtoGrassWildMons:
 	dbw 50, DUNSPARCE
 	; nite
 	dbw 50, CROBAT
-	dbw 50, WOBBUFFET
+	dbw 50, DRAPION
 	dbw 50, GOLEM
 	dbw 50, CLEFAIRY
 	dbw 50, URSARING
@@ -1808,7 +1808,7 @@ JohtoGrassWildMons:
 	dbw 15, BRONZOR
 	dbw 15, SMEARGLE
 	dbw 15, PARAS
-	dbw 15, WOBBUFFET
+	dbw 15, DRAPION
 	dbw 15, CUBONE
 	dbw 15, GLIGAR
 	dbw 15, MISDREAVUS
@@ -1817,7 +1817,7 @@ JohtoGrassWildMons:
 	dbw 15, BRONZOR
 	dbw 15, SMEARGLE
 	dbw 15, PARAS
-	dbw 15, WOBBUFFET
+	dbw 15, DRAPION
 	dbw 15, CUBONE
 	dbw 15, GLIGAR
 	dbw 15, MISDREAVUS
@@ -1826,7 +1826,7 @@ JohtoGrassWildMons:
 	dbw 15, BRONZOR
 	dbw 15, SMEARGLE
 	dbw 15, PARAS
-	dbw 15, WOBBUFFET
+	dbw 15, DRAPION
 	dbw 15, CUBONE
 	dbw 15, GLIGAR
 	dbw 15, MISDREAVUS

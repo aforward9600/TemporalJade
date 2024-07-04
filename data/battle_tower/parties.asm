@@ -73,7 +73,7 @@ BattleTowerMons1:
 	bigdw 34 ; SDef
 	db "BURAtuKI-@@"
 
-	dw WOBBUFFET
+	dw DRAPION
 	db FOCUS_SASH
 	dw COUNTER, MIRROR_COAT, SAFEGUARD, DESTINY_BOND
 
@@ -1631,7 +1631,7 @@ endc
 	bigdw 84 ; SDef
 	db "SUTA-MI-@@@"
 
-	dw WOBBUFFET
+	dw DRAPION
 	db LEFTOVERS
 	dw COUNTER, MIRROR_COAT, SAFEGUARD, DESTINY_BOND
 
@@ -2580,7 +2580,7 @@ BattleTowerMons6:
 	bigdw 128 ; SDef
 	db "SANDA-@@@@@"
 
-	dw WOBBUFFET
+	dw DRAPION
 	db LEFTOVERS
 	dw COUNTER, MIRROR_COAT, DESTINY_BOND, SAFEGUARD
 

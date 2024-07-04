@@ -494,10 +494,10 @@ INCLUDE "gfx/pokemon/mismagius/normal.pal"
 INCLUDE "gfx/pokemon/mismagius/shiny.pal"
 INCLUDE "gfx/pokemon/unown/normal.pal" ; not front.gbcpal
 INCLUDE "gfx/pokemon/unown/shiny.pal"
-INCLUDE "gfx/pokemon/wynaut/normal.pal"
-INCLUDE "gfx/pokemon/wynaut/shiny.pal"
-INCBIN "gfx/pokemon/wobbuffet/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/wobbuffet/shiny.pal"
+INCBIN  "gfx/pokemon/skorupi/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/skorupi/shiny.pal"
+INCBIN "gfx/pokemon/drapion/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/drapion/shiny.pal"
 INCBIN "gfx/pokemon/girafarig/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/girafarig/shiny.pal"
 INCLUDE "gfx/pokemon/farigiraf/normal.pal"

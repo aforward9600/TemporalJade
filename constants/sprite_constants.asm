@@ -200,7 +200,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_SMOOCHUM ; bd
 	const SPRITE_MEOWTH ; bc
 	const SPRITE_SYLVEON ; bd
-	const SPRITE_WOBBUFFET ; be
+	const SPRITE_DRAPION ; be
 	const SPRITE_RIBOMBEE ; bf
 	const SPRITE_AMPHAROS ; c0
 	const SPRITE_FARFETCHD ; c1

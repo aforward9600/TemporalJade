@@ -231,8 +231,8 @@ AnimationIdlePointers:
 	dw MisdreavusAnimationIdle
 	dw MismagiusAnimationIdle
 	dw UnownAnimationIdle
-	dw WynautAnimationIdle
-	dw WobbuffetAnimationIdle
+	dw SkorupiAnimationIdle
+	dw DrapionAnimationIdle
 	dw GirafarigAnimationIdle
 	dw FarigirafAnimationIdle
 	dw PinecoAnimationIdle

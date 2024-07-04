@@ -243,8 +243,8 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; MISDREAVUS
 	icon_pals PINK,   BLUE   ; MISMAGIUS
 	icon_pals BROWN,  BROWN  ; UNOWN
-	icon_pals BLUE,   PURPLE ; WYNAUT
-	icon_pals BLUE,   PURPLE ; WOBBUFFET
+	icon_pals BLUE,   RED    ; SKORUPI
+	icon_pals PURPLE, RED    ; DRAPION
 	icon_pals PURPLE, BLUE   ; GIRAFARIG
 	icon_pals BROWN,  RED    ; FARIGIRAF
 	icon_pals BLUE,   BROWN  ; PINECO

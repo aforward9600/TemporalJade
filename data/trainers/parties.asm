@@ -3121,7 +3121,7 @@ CooltrainerFGroup:
 	db 26
 	dw LAMPENT
 	db 26
-	dw WOBBUFFET
+	dw DRAPION
 	db 27
 	dw MUNCHLAX
 	db 27
@@ -3233,7 +3233,7 @@ else
 	dw SHELL_SMASH, FLAMETHROWER, RECOVER, FLASH_CANNON
 endc
 	db 52
-	dw WOBBUFFET
+	dw DRAPION
 	dw COUNTER, DESTINY_BOND, MIRROR_COAT, SAFEGUARD
 	db 52
 	dw LILLIGANT
@@ -6881,7 +6881,7 @@ PsychicGroup:
 	next_list_item ; PSYCHIC_T (1) Route 42
 	db "Jordan@", TRAINERTYPE_MOVES
 	db 9
-	dw WYNAUT
+	dw SKORUPI
 	dw CHARM, SPLASH, ENCORE, AMNESIA
 	db 9
 	dw RALTS

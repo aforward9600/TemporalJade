@@ -82,7 +82,7 @@ EggMovePointers2::
 	dw MisdreavusEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw NoEggMoves2
+	dw SkorupiEggMoves
 	dw NoEggMoves2
 	dw GirafarigEggMoves
 	dw NoEggMoves2
@@ -853,6 +853,19 @@ LotadEggMoves:
 	dw SWEET_SCENT
 	dw SYNTHESIS
 	dw GIGA_DRAIN
+	dw -1
+
+SkorupiEggMoves:
+	dw AGILITY
+	dw CONFUSE_RAY
+	dw FAINT_ATTACK
+	dw NIGHT_SLASH
+	dw PURSUIT
+	dw SAND_ATTACK
+	dw SCREECH
+	dw SLASH
+	dw TWINEEDLE
+	dw WHIRLWIND
 	dw -1
 
 NoEggMoves2:

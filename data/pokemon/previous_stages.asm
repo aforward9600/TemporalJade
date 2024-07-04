@@ -233,7 +233,7 @@ PreviousEvolutionStage::
 	dw MISDREAVUS ;c8
 	dw 0
 	dw 0
-	dw WYNAUT
+	dw SKORUPI
 	dw 0
 	dw GIRAFARIG
 	dw 0

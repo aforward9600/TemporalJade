@@ -58,6 +58,7 @@ AlphabeticalPokedexOrder:
 	dw DONPHAN
 	dw DRAGONAIR
 	dw DRAGONITE
+	dw DRAPION
 	dw DRATINI
 	dw DRILBUR
 	dw DROWZEE
@@ -255,6 +256,7 @@ AlphabeticalPokedexOrder:
 	dw SHUCKLE
 	dw SKARMINI
 	dw SKARMORY
+	dw SKORUPI
 	dw SLOWBRO
 	dw SLOWKING
 	dw SLOWPOKE
@@ -315,9 +317,7 @@ AlphabeticalPokedexOrder:
 	dw WHIMSICOTT
 	dw WHIRLIPEDE
 	dw WIGGLYTUFF
-	dw WOBBUFFET
 	dw WOOPER
-	dw WYNAUT
 	dw WYRDEER
 	dw XATU
 	dw YANMA

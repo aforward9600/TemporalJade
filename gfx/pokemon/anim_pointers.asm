@@ -231,8 +231,8 @@ AnimationPointers:
 	dw MisdreavusAnimation
 	dw MismagiusAnimation
 	dw UnownAnimation
-	dw WynautAnimation
-	dw WobbuffetAnimation
+	dw SkorupiAnimation
+	dw DrapionAnimation
 	dw GirafarigAnimation
 	dw FarigirafAnimation
 	dw PinecoAnimation

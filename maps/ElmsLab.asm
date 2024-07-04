@@ -38,16 +38,15 @@ ElmsLab_MapScripts:
 ProfJuniperScript:
 	faceplayer
 	opentext
-	checkscene 
-	ifequal SCENE_JUNIPERSLAB_CANT_LEAVE, .JunipersLabCantLeave
-	iftrue .JunipersLabCantLeave
-	writetext FirstElmText
+	checkevent EVENT_GOT_A_POKEMON_FROM_JUNIPER
+	iftrue .JuniperFirstText
+	writetext ProfJuniperPickText
 	waitbutton
 	closetext
 	end
 
-.JunipersLabCantLeave:
-	writetext ProfJuniperPickText
+.JuniperFirstText:
+	writetext FirstElmText
 	waitbutton
 	closetext
 	end
@@ -610,32 +609,11 @@ AfterRivalRowletMovement:
 	step_end
 
 FirstElmText:
-	text "Hello!"
+	text "Juniper: Good luck"
+	line "on your journey!"
 
-	para "Who might you be?"
-
-	para "……<PLAYER>? I see!"
-	
-	para "I am Prof. Elm!"
-
-	para "I'm a researcher of"
-	line "#mon evolution!"
-
-	para "Where do they come"
-	line "from?"
-
-	para "How do they"
-	line "change?"
-
-	para "These are the"
-	line "answers I seek!"
-
-	para "Feel free to look"
-	line "through the book-"
-	cont "shelves for my"
-	cont "notes!"
-
-	para "They could help!"
+	para "Be sure to call me"
+	line "any time you want!"
 	done
 
 JunipersLabRivalText1:
