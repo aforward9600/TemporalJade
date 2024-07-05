@@ -41,7 +41,7 @@ Pokered_MonIndices:
 	db CHANSEY
 	db MACHOKE
 	db MR__MIME
-	db HITMONLEE
+	db SCRAFTY
 	db HITMONCHAN
 	db ARBOK
 	db PARASECT
@@ -79,7 +79,7 @@ Pokered_MonIndices:
 	db CORPHISH
 	db CORPHISH ; MISSINGNO.
 	db KINGDRA ; MISSINGNO.
-	db TYROGUE ; MISSINGNO.
+	db SCRAGGY ; MISSINGNO.
 	db VULPIX
 	db NINETALES
 	db PIKACHU

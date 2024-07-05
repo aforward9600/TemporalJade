@@ -459,8 +459,8 @@ JohtoGrassWildMons:
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
 	dbw  8, MARILL
-	dbw  8, TYROGUE
-	dbw  8, TYROGUE
+	dbw  8, SCRAGGY
+	dbw  8, SCRAGGY
 	dbw  8, SANDYGAST
 	dbw  8, SANDYGAST
 	; day
@@ -468,8 +468,8 @@ JohtoGrassWildMons:
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
 	dbw  8, MARILL
-	dbw  8, TYROGUE
-	dbw  8, TYROGUE
+	dbw  8, SCRAGGY
+	dbw  8, SCRAGGY
 	dbw  8, SANDYGAST
 	dbw  8, SANDYGAST
 	; nite
@@ -477,8 +477,8 @@ JohtoGrassWildMons:
 	dbw  8, ZUBAT
 	dbw  8, MACHOP
 	dbw  8, MARILL
-	dbw  8, TYROGUE
-	dbw  8, TYROGUE
+	dbw  8, SCRAGGY
+	dbw  8, SCRAGGY
 	dbw  8, SANDYGAST
 	dbw  8, SANDYGAST
 
@@ -489,7 +489,7 @@ JohtoGrassWildMons:
 	dbw 18, ZUBAT
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
-	dbw 18, TYROGUE
+	dbw 18, SCRAGGY
 	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
@@ -498,7 +498,7 @@ JohtoGrassWildMons:
 	dbw 18, ZUBAT
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
-	dbw 18, TYROGUE
+	dbw 18, SCRAGGY
 	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
@@ -507,7 +507,7 @@ JohtoGrassWildMons:
 	dbw 18, ZUBAT
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
-	dbw 18, TYROGUE
+	dbw 18, SCRAGGY
 	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
@@ -519,7 +519,7 @@ JohtoGrassWildMons:
 	dbw 18, ZUBAT
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
-	dbw 18, TYROGUE
+	dbw 18, SCRAGGY
 	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
@@ -528,7 +528,7 @@ JohtoGrassWildMons:
 	dbw 18, ZUBAT
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
-	dbw 18, TYROGUE
+	dbw 18, SCRAGGY
 	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX
@@ -537,7 +537,7 @@ JohtoGrassWildMons:
 	dbw 18, ZUBAT
 	dbw 18, GOLBAT
 	dbw 18, MANKEY
-	dbw 18, TYROGUE
+	dbw 18, SCRAGGY
 	dbw 18, RIBOMBEE
 	dbw 18, ONIX
 	dbw 18, ONIX

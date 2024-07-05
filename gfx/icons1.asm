@@ -117,8 +117,8 @@ Icons1:
 	dw ExeggutorIcon
 	dw CuboneIcon
 	dw MarowakIcon
-	dw TyrogueIcon
-	dw HitmonleeIcon
+	dw ScraggyIcon
+	dw ScraftyIcon
 	dw HitmonchanIcon
 	dw HitmontopIcon
 	dw LickitungIcon
@@ -244,8 +244,8 @@ ExeggcuteIcon:    INCBIN "gfx/icons/exeggcute.2bpp"
 ExeggutorIcon:    INCBIN "gfx/icons/exeggutor.2bpp"
 CuboneIcon:       INCBIN "gfx/icons/cubone.2bpp"
 MarowakIcon:      INCBIN "gfx/icons/marowak.2bpp"
-TyrogueIcon:      INCBIN "gfx/icons/tyrogue.2bpp"
-HitmonleeIcon:    INCBIN "gfx/icons/hitmonlee.2bpp"
+ScraggyIcon:      INCBIN "gfx/icons/scraggy.2bpp"
+ScraftyIcon:      INCBIN "gfx/icons/scrafty.2bpp"
 HitmonchanIcon:   INCBIN "gfx/icons/hitmonchan.2bpp"
 HitmontopIcon:    INCBIN "gfx/icons/hitmontop.2bpp"
 LickitungIcon:    INCBIN "gfx/icons/lickitung.2bpp"

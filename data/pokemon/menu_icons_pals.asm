@@ -126,8 +126,8 @@ MonMenuIconPals:
 	icon_pals GREEN,  RED    ; EXEGGUTOR
 	icon_pals BROWN,  TEAL   ; CUBONE
 	icon_pals PURPLE, BLUE   ; MAROWAK
-	icon_pals BROWN,  BLUE   ; TYROGUE
-	icon_pals BROWN,  TEAL   ; HITMONLEE
+	icon_pals RED,   GREEN   ; SCRAGGY
+	icon_pals RED,   GREEN   ; SCRAFTY
 	icon_pals BROWN,  BLUE   ; HITMONCHAN
 	icon_pals RED,    PURPLE ; HITMONTOP
 	icon_pals PINK,   RED    ; LICKITUNG

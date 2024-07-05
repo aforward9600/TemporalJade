@@ -114,8 +114,8 @@ AnimationPointers:
 	dw ExeggutorAnimation
 	dw CuboneAnimation
 	dw MarowakAnimation
-	dw TyrogueAnimation
-	dw HitmonleeAnimation
+	dw ScraggyAnimation
+	dw ScraftyAnimation
 	dw HitmonchanAnimation
 	dw HitmontopAnimation
 	dw LickitungAnimation

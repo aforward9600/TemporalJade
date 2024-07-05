@@ -114,8 +114,8 @@ FramesPointers:
 	dba ExeggutorFrames
 	dba CuboneFrames
 	dba MarowakFrames
-	dba TyrogueFrames
-	dba HitmonleeFrames
+	dba ScraggyFrames
+	dba ScraftyFrames
 	dba HitmonchanFrames
 	dba HitmontopFrames
 	dba LickitungFrames

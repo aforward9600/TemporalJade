@@ -81,9 +81,9 @@ SECTION "Nidoqueen Front", ROMX
 
 NidoqueenFrontpic:   INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
 
-SECTION "Hitmonlee Front", ROMX
+SECTION "Scrafty Front", ROMX
 
-HitmonleeFrontpic:   INCBIN "gfx/pokemon/hitmonlee/front.animated.2bpp.lz"
+ScraftyFrontpic:   INCBIN "gfx/pokemon/scrafty/front.animated.2bpp.lz"
 
 SECTION "Scizor Front", ROMX
 
@@ -565,7 +565,7 @@ KoffingFrontpic:     INCBIN "gfx/pokemon/koffing/front.animated.2bpp.lz"
 VenonatFrontpic:     INCBIN "gfx/pokemon/venonat/front.animated.2bpp.lz"
 ExeggutorBackpic:    INCBIN "gfx/pokemon/exeggutor/back.2bpp.lz"
 LanturnFrontpic:     INCBIN "gfx/pokemon/lanturn/front.animated.2bpp.lz"
-TyrogueFrontpic:     INCBIN "gfx/pokemon/tyrogue/front.animated.2bpp.lz"
+ScraggyFrontpic:     INCBIN "gfx/pokemon/scraggy/front.animated.2bpp.lz"
 LampentFrontpic:     INCBIN "gfx/pokemon/lampent/front.animated.2bpp.lz"
 MareepFrontpic:      INCBIN "gfx/pokemon/mareep/front.animated.2bpp.lz"
 ChuckPic:            INCBIN "gfx/trainers/chuck.2bpp.lz"
@@ -726,13 +726,13 @@ KurtPic:             INCBIN "gfx/trainers/kurt.2bpp.lz"
 MarowakBackpic:      INCBIN "gfx/pokemon/marowak/back.2bpp.lz"
 GeodudeBackpic:      INCBIN "gfx/pokemon/geodude/back.2bpp.lz"
 ScytherBackpic:      INCBIN "gfx/pokemon/scyther/back.2bpp.lz"
-PetililBackpic:    INCBIN "gfx/pokemon/petilil/back.2bpp.lz"
+PetililBackpic:      INCBIN "gfx/pokemon/petilil/back.2bpp.lz"
 HitmonchanBackpic:   INCBIN "gfx/pokemon/hitmonchan/back.2bpp.lz"
-ChandelureBackpic:     INCBIN "gfx/pokemon/chandelure/back.2bpp.lz"
+ChandelureBackpic:   INCBIN "gfx/pokemon/chandelure/back.2bpp.lz"
 CooltrainermPic:     INCBIN "gfx/trainers/cooltrainer_m.2bpp.lz"
 SwampertBackpic:     INCBIN "gfx/pokemon/swampert/back.2bpp.lz"
 MisdreavusBackpic:   INCBIN "gfx/pokemon/misdreavus/back.2bpp.lz"
-TyrogueBackpic:      INCBIN "gfx/pokemon/tyrogue/back.2bpp.lz"
+ScraggyBackpic:      INCBIN "gfx/pokemon/scraggy/back.2bpp.lz"
 GeodudeFrontpic:     INCBIN "gfx/pokemon/geodude/front.animated.2bpp.lz"
 ScizorBackpic:       INCBIN "gfx/pokemon/scizor/back.2bpp.lz"
 GirafarigBackpic:    INCBIN "gfx/pokemon/girafarig/back.2bpp.lz"
@@ -910,7 +910,7 @@ UnownGFrontpic:      INCBIN "gfx/pokemon/unown_g/front.animated.2bpp.lz"
 ArbokBackpic:        INCBIN "gfx/pokemon/arbok/back.2bpp.lz"
 PolitoedBackpic:     INCBIN "gfx/pokemon/politoed/back.2bpp.lz"
 DragoniteBackpic:    INCBIN "gfx/pokemon/dragonite/back.2bpp.lz"
-HitmonleeBackpic:    INCBIN "gfx/pokemon/hitmonlee/back.2bpp.lz"
+ScraftyBackpic:      INCBIN "gfx/pokemon/scrafty/back.2bpp.lz"
 NatuFrontpic:        INCBIN "gfx/pokemon/natu/front.animated.2bpp.lz"
 UrsaringBackpic:     INCBIN "gfx/pokemon/ursaring/back.2bpp.lz"
 SagePic:             INCBIN "gfx/trainers/sage.2bpp.lz"

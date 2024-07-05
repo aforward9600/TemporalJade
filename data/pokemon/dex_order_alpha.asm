@@ -118,7 +118,6 @@ AlphabeticalPokedexOrder:
 	dw HERACROSS
 	dw HERDIER
 	dw HITMONCHAN
-	dw HITMONLEE
 	dw HITMONTOP
 	dw HO_OH
 	dw HONCHKROW
@@ -245,6 +244,8 @@ AlphabeticalPokedexOrder:
 	dw SANDYGAST
 	dw SCIZOR
 	dw SCOLIPEDE
+	dw SCRAFTY
+	dw SCRAGGY
 	dw SCYTHER
 	dw SEADRA
 	dw SEAKING
@@ -298,7 +299,6 @@ AlphabeticalPokedexOrder:
 	dw TRUMBEAK
 	dw TYPHLOSION
 	dw TYRANITAR
-	dw TYROGUE
 	dw UMBREON
 	dw UNOWN
 	dw URSALUNA

@@ -116,7 +116,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw CuboneEggMoves
 	dw NoEggMoves1
-	dw TyrogueEggMoves
+	dw ScraggyEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -584,14 +584,14 @@ CuboneEggMoves:
 	dw ENDURE
 	dw -1 ; end
 
-TyrogueEggMoves:
-	dw RAPID_SPIN
-	dw HI_JUMP_KICK
-	dw MACH_PUNCH
-	dw MIND_READER
-	dw BULLET_PUNCH
-	dw PURSUIT
-	dw ENDURE
+ScraggyEggMoves:
+	dw ACID_SPRAY
+	dw AMNESIA
+	dw COUNTER
+	dw DETECT
+	dw FAKE_OUT
+	dw FAINT_ATTACK
+	dw ZEN_HEADBUTT
 	dw -1 ; end
 
 LickitungEggMoves:

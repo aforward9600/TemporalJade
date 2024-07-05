@@ -115,8 +115,8 @@ PokedexDataPointerTable:
 	dba ExeggutorPokedexEntry
 	dba CubonePokedexEntry
 	dba MarowakPokedexEntry
-	dba TyroguePokedexEntry
-	dba HitmonleePokedexEntry
+	dba ScraggyPokedexEntry
+	dba ScraftyPokedexEntry
 	dba HitmonchanPokedexEntry
 	dba HitmontopPokedexEntry
 	dba LickitungPokedexEntry

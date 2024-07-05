@@ -116,8 +116,8 @@ EvosAttacksPointers1::
 	dw ExeggutorEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakEvosAttacks
-	dw TyrogueEvosAttacks
-	dw HitmonleeEvosAttacks
+	dw ScraggyEvosAttacks
+	dw ScraftyEvosAttacks
 	dw HitmonchanEvosAttacks
 	dw HitmontopEvosAttacks
 	dw LickitungEvosAttacks
@@ -2403,36 +2403,45 @@ MarowakEvosAttacks:
 	dbw 65, BONE_RUSH
 	db 0 ; no more level-up moves
 
-TyrogueEvosAttacks:
-	dbbbw EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
-	dbbbw EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
-	dbbbw EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
+ScraggyEvosAttacks:
+	dbbw EVOLVE_LEVEL, 39, SCRAFTY
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, FORESIGHT
-	dbw 1, FOCUS_ENERGY
-	dbw 1, FAKE_OUT
+	dbw 1, LEER
+	dbw 1, HEADBUTT
+	dbw 5, SAND_ATTACK
+	dbw 9, FAINT_ATTACK
+	dbw 12, SWAGGER
+	dbw 16, LOW_KICK
+	dbw 20, PAYBACK
+	dbw 23, BRICK_BREAK
+	dbw 27, FAKE_OUT
+	dbw 31, HI_JUMP_KICK
+	dbw 34, SCARY_FACE
+	dbw 38, CRUNCH
+	dbw 42, CATASTROPHE
+	dbw 45, DOUBLE_EDGE
+	dbw 48, DYNAMICPUNCH
+;	dbw 50, HEAD_SMASH
 	db 0 ; no more level-up moves
 
-HitmonleeEvosAttacks:
+ScraftyEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, DOUBLE_KICK
-	dbw 1, DOUBLE_KICK
-	dbw 5, MEDITATE
-	dbw 9, ROLLING_KICK
-	dbw 13, JUMP_KICK
-	dbw 17, BRICK_BREAK
-	dbw 21, FOCUS_ENERGY
-	dbw 25, AERIAL_ACE
-	dbw 29, HI_JUMP_KICK
-	dbw 33, MIND_READER
-	dbw 37, FORESIGHT
-	dbw 41, DETECT
-	dbw 45, BLAZE_KICK
-	dbw 49, ENDURE
-	dbw 53, MEGA_KICK
-	dbw 57, CLOSE_COMBAT
-	dbw 61, REVERSAL
+	dbw 1, LEER
+	dbw 1, HEADBUTT
+	dbw 5, SAND_ATTACK
+	dbw 9, FAINT_ATTACK
+	dbw 12, SWAGGER
+	dbw 16, LOW_KICK
+	dbw 20, PAYBACK
+	dbw 23, BRICK_BREAK
+	dbw 27, FAKE_OUT
+	dbw 31, HI_JUMP_KICK
+	dbw 34, SCARY_FACE
+	dbw 38, CRUNCH
+	dbw 45, CATASTROPHE
+	dbw 51, DOUBLE_EDGE
+	dbw 58, DYNAMICPUNCH
+;	dbw 65, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 HitmonchanEvosAttacks:

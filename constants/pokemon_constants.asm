@@ -134,8 +134,8 @@
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
-	const TYROGUE    ; ec
-	const HITMONLEE  ; 6a
+	const SCRAGGY    ; ec
+	const SCRAFTY    ; 6a
 	const HITMONCHAN ; 6b
 	const HITMONTOP  ; ed
 	const LICKITUNG  ; 6c

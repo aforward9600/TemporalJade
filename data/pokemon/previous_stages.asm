@@ -116,9 +116,9 @@ PreviousEvolutionStage::
 	dw 0      ;68
 	dw CUBONE
 	dw 0
-	dw TYROGUE
-	dw TYROGUE
-	dw TYROGUE
+	dw SCRAGGY
+	dw 0
+	dw 0 ; RIOLU
 	dw 0
 	dw LICKITUNG
 	dw 0

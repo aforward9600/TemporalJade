@@ -120,8 +120,8 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,     $000,  $100 ; EXEGGUTOR
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; CUBONE
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; MAROWAK
-	mon_cry CRY_AIPOM,       $02c,  $108 ; TYROGUE
-	mon_cry CRY_GOLEM,       $080,  $140 ; HITMONLEE
+	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; SCRAGGY
+	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; SCRAFTY
 	mon_cry CRY_SEEL,        $0ee,  $140 ; HITMONCHAN
 	mon_cry CRY_SLUGMA,      $000,  $100 ; HITMONTOP
 	mon_cry CRY_SEEL,        $000,  $100 ; LICKITUNG
