@@ -156,7 +156,8 @@ Agatha and Oak sprites: Tetra
 
 Ariana, Archer and Giovanni trainer and overworld sprite: SirWhibbles
 
-Ampharos and overworld sprite, Skorupi and Drapion sprites: Prism Team
+Ampharos and overworld sprite, Riolu, Lucario, Skorupi and 
+Drapion sprites: Prism Team
 
 Gible line sprites, Regirock, Regice, Registeel and Regigigas
 front sprites: Blue Emerald

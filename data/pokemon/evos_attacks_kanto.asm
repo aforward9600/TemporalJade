@@ -228,7 +228,7 @@ TepigEvosAttacks:
 	dbw 27, FIRE_FANG
 	dbw 31, PAYBACK
 	dbw 33, FLAMETHROWER
-	dbw 37, DOUBLE_EDGE
+	dbw 37, HEAD_SMASH
 	dbw 39, ROAR
 	dbw 43, FLARE_BLITZ
 	db 0 ; no more level-up moves
@@ -249,7 +249,7 @@ PigniteEvosAttacks:
 	dbw 31, FIRE_FANG
 	dbw 36, PAYBACK
 	dbw 39, FLAMETHROWER
-	dbw 44, DOUBLE_EDGE
+	dbw 44, HEAD_SMASH
 	dbw 47, ROAR
 	dbw 52, FLARE_BLITZ
 	db 0 ; no more level-up moves
@@ -269,7 +269,7 @@ EmboarEvosAttacks:
 	dbw 31, FIRE_FANG
 	dbw 38, PAYBACK
 	dbw 43, FLAMETHROWER
-	dbw 50, DOUBLE_EDGE
+	dbw 50, HEAD_SMASH
 	dbw 55, ROAR
 	dbw 62, FLARE_BLITZ
 	db 0 ; no more level-up moves
@@ -2421,7 +2421,7 @@ ScraggyEvosAttacks:
 	dbw 42, CATASTROPHE
 	dbw 45, DOUBLE_EDGE
 	dbw 48, DYNAMICPUNCH
-;	dbw 50, HEAD_SMASH
+	dbw 50, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 ScraftyEvosAttacks:
@@ -2441,7 +2441,7 @@ ScraftyEvosAttacks:
 	dbw 45, CATASTROPHE
 	dbw 51, DOUBLE_EDGE
 	dbw 58, DYNAMICPUNCH
-;	dbw 65, HEAD_SMASH
+	dbw 65, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 HitmonchanEvosAttacks:

@@ -226,7 +226,7 @@
 	const COSMIC_POWER ; da
 	const SAFEGUARD    ; db
 	const PAIN_SPLIT   ; dc
-	const SACRED_FIRE  ; dd
+	const HEAD_SMASH   ; dd
 	const MAGNITUDE    ; de
 	const DYNAMICPUNCH ; df
 	const MEGAHORN     ; e0

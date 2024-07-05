@@ -219,7 +219,7 @@ MoveNames::
 	db "Cosmic Power@"
 	db "Safeguard@"
 	db "Pain Split@"
-	db "Sacred Fire@"
+	db "Head Smash@"
 	db "Magnitude@"
 	db "Dynamicpunch@"
 	db "Megahorn@"

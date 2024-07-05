@@ -245,7 +245,7 @@ BattleAnimations::
 	dw BattleAnim_CosmicPower
 	dw BattleAnim_Safeguard
 	dw BattleAnim_PainSplit
-	dw BattleAnim_SacredFire
+	dw BattleAnim_HeadSmash
 	dw BattleAnim_Magnitude
 	dw BattleAnim_Dynamicpunch
 	dw BattleAnim_Megahorn
@@ -2494,6 +2494,7 @@ BattleAnim_GigaImpact:
 BattleAnim_WoodHammer:
 BattleAnim_HiHorsepower:
 BattleAnim_HeadlongRush:
+BattleAnim_HeadSmash:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $10
@@ -4738,7 +4739,6 @@ BattleAnim_PainSplit:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_SacredFire:
 BattleAnim_FlareBlitz:
 BattleAnim_Inferno:
 	anim_1gfx ANIM_GFX_FIRE

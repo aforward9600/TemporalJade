@@ -1479,9 +1479,8 @@ SudowoodoEvosAttacks:
 	dbw 40, SUCKER_PUNCH
 	dbw 43, DOUBLE_EDGE
 	dbw 47, STONE_EDGE
-	dbw 50, WOOD_HAMMER
-	dbw 54, HAMMER_ARM
-	dbw 58, ROCK_WRECKER
+	dbw 50, HAMMER_ARM
+	dbw 54, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 LitwickEvosAttacks:

@@ -684,6 +684,7 @@ PhanpyEggMoves:
 	dw PLAY_ROUGH
 	dw SNORE
 	dw MUD_SLAP
+	dw HEAD_SMASH
 	dw -1 ; end
 
 StantlerEggMoves:
@@ -786,6 +787,7 @@ AronEggMoves:
 	dw REVERSAL
 	dw STOMP
 	dw SUPERPOWER
+	dw HEAD_SMASH
 	dw -1 ; end
 
 LarvitarEggMoves:

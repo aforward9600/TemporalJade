@@ -270,6 +270,7 @@ NidoranMEggMoves:
 	dw FOCUS_ENERGY
 	dw SUCKER_PUNCH
 	dw HONE_CLAWS
+	dw HEAD_SMASH
 	dw -1 ; end
 
 CleffaEggMoves:
@@ -546,6 +547,7 @@ OnixEggMoves:
 	dw DEFENSE_CURL
 	dw ROCK_BLAST
 	dw ROLLOUT
+	dw HEAD_SMASH
 	dw -1 ; end
 
 DrowzeeEggMoves:

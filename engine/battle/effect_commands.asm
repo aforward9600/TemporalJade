@@ -216,7 +216,6 @@ CheckPlayerTurn:
 
 .thawing_moves
 	dw FLAME_WHEEL
-	dw SACRED_FIRE
 	dw -1
 
 .not_frozen
@@ -454,7 +453,6 @@ CheckEnemyTurn:
 
 .thawing_moves
 	dw FLAME_WHEEL
-	dw SACRED_FIRE
 	dw -1
 
 .not_frozen

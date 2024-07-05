@@ -154,6 +154,7 @@ AlphabeticalMoveList::
 	dw HAZE
 	dw HEADBUTT
 	dw HEADLONGRUSH
+	dw HEAD_SMASH
 	dw HEAL_BELL
 	dw HEAT_WAVE
 	dw HEX
@@ -290,7 +291,6 @@ AlphabeticalMoveList::
 	dw ROLLOUT
 	dw ROOST
 	dw ROUND_M
-	dw SACRED_FIRE
 	dw SAFEGUARD
 	dw SAND_ATTACK
 	dw SANDSTORM

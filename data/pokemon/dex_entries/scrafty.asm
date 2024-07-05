@@ -6,5 +6,5 @@
 	next "that enters their"
 
 	page "territory. Each"
-	next "can spit acidic"
+	next "can spit acid"
 	next "from its mouth.@"

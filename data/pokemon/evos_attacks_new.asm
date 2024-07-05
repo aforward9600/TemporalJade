@@ -52,7 +52,7 @@ EnteiEvosAttacks:
 	dbw 64, ZEN_HEADBUTT
 	dbw 71, FLARE_BLITZ
 	dbw 78, BULK_UP
-	dbw 85, SACRED_FIRE
+	dbw 85, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
@@ -267,7 +267,7 @@ HoOhEvosAttacks:
 	dbw 23, EXTRASENSORY
 	dbw 29, SUNNY_DAY
 	dbw 37, FIRE_BLAST
-	dbw 43, SACRED_FIRE
+	dbw 43, HEAD_SMASH
 	dbw 50, DUALWINGBEAT
 	dbw 57, ANCIENTPOWER
 	dbw 65, SAFEGUARD

@@ -225,7 +225,7 @@ MoveDescriptions1:
 	dw CosmicPowerDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
-	dw SacredFireDescription
+	dw HeadSmashDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
@@ -1295,9 +1295,9 @@ PainSplitDescription:
 	db   "Adds user & foe's"
 	next "HPs. Shares total.@"
 
-SacredFireDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+HeadSmashDescription:
+	db   "A headbutt that"
+	next "hurts the user.@"
 
 MagnitudeDescription:
 	db   "A ground attack"
