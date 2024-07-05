@@ -42,7 +42,7 @@ Pokered_MonIndices:
 	db MACHOKE
 	db MR__MIME
 	db SCRAFTY
-	db HITMONCHAN
+	db RIOLU
 	db ARBOK
 	db PARASECT
 	db PSYDUCK

@@ -118,7 +118,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw ScraggyEggMoves
 	dw NoEggMoves1
-	dw NoEggMoves1
+	dw RioluEggMoves
 	dw NoEggMoves1
 	dw LickitungEggMoves
 	dw NoEggMoves1
@@ -594,6 +594,19 @@ ScraggyEggMoves:
 	dw FAKE_OUT
 	dw FAINT_ATTACK
 	dw ZEN_HEADBUTT
+	dw -1 ; end
+
+RioluEggMoves:
+	dw AGILITY
+	dw BITE
+	dw CIRCLE_THROW
+	dw CROSS_CHOP
+	dw CRUNCH
+	dw DETECT
+	dw HI_JUMP_KICK
+	dw IRON_DEFENSE
+	dw LOW_KICK
+	dw MIND_READER
 	dw -1 ; end
 
 LickitungEggMoves:

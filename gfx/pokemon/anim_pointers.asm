@@ -116,8 +116,8 @@ AnimationPointers:
 	dw MarowakAnimation
 	dw ScraggyAnimation
 	dw ScraftyAnimation
-	dw HitmonchanAnimation
-	dw HitmontopAnimation
+	dw RioluAnimation
+	dw LucarioAnimation
 	dw LickitungAnimation
 	dw LickilickyAnimation
 	dw KoffingAnimation

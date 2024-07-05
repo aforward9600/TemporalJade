@@ -116,8 +116,8 @@ AnimationIdlePointers:
 	dw MarowakAnimationIdle
 	dw ScraggyAnimationIdle
 	dw ScraftyAnimationIdle
-	dw HitmonchanAnimationIdle
-	dw HitmontopAnimationIdle
+	dw RioluAnimationIdle
+	dw LucarioAnimationIdle
 	dw LickitungAnimationIdle
 	dw LickilickyAnimationIdle
 	dw KoffingAnimationIdle

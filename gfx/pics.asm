@@ -207,9 +207,9 @@ SECTION "Slowking Front", ROMX
 
 SlowkingFrontpic:    INCBIN "gfx/pokemon/slowking/front.animated.2bpp.lz"
 
-SECTION "Hitmontop Front", ROMX
+SECTION "Lucario Front", ROMX
 
-HitmontopFrontpic:   INCBIN "gfx/pokemon/hitmontop/front.animated.2bpp.lz"
+LucarioFrontpic:   INCBIN "gfx/pokemon/lucario/front.animated.2bpp.lz"
 
 SECTION "Onix Front", ROMX
 
@@ -576,7 +576,7 @@ KimonoGirlPic:       INCBIN "gfx/trainers/kimono_girl.2bpp.lz"
 AlakazamBackpic:     INCBIN "gfx/pokemon/alakazam/back.2bpp.lz"
 AipomFrontpic:       INCBIN "gfx/pokemon/aipom/front.animated.2bpp.lz"
 AbraFrontpic:        INCBIN "gfx/pokemon/abra/front.animated.2bpp.lz"
-HitmontopBackpic:    INCBIN "gfx/pokemon/hitmontop/back.2bpp.lz"
+LucarioBackpic:      INCBIN "gfx/pokemon/lucario/back.2bpp.lz"
 ToxapexBackpic:      INCBIN "gfx/pokemon/toxapex/back.2bpp.lz"
 HoothootFrontpic:    INCBIN "gfx/pokemon/hoothoot/front.animated.2bpp.lz"
 UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
@@ -727,7 +727,7 @@ MarowakBackpic:      INCBIN "gfx/pokemon/marowak/back.2bpp.lz"
 GeodudeBackpic:      INCBIN "gfx/pokemon/geodude/back.2bpp.lz"
 ScytherBackpic:      INCBIN "gfx/pokemon/scyther/back.2bpp.lz"
 PetililBackpic:      INCBIN "gfx/pokemon/petilil/back.2bpp.lz"
-HitmonchanBackpic:   INCBIN "gfx/pokemon/hitmonchan/back.2bpp.lz"
+RioluBackpic:        INCBIN "gfx/pokemon/riolu/back.2bpp.lz"
 ChandelureBackpic:   INCBIN "gfx/pokemon/chandelure/back.2bpp.lz"
 CooltrainermPic:     INCBIN "gfx/trainers/cooltrainer_m.2bpp.lz"
 SwampertBackpic:     INCBIN "gfx/pokemon/swampert/back.2bpp.lz"
@@ -1193,7 +1193,7 @@ KarateKingPic:       INCBIN "gfx/trainers/karate_king.2bpp.lz"
 FerropexolaPic:      INCBIN "gfx/trainers/ferropexola.2bpp.lz"
 SchoolgirlPic:       INCBIN "gfx/trainers/schoolgirl.2bpp.lz"
 CyndaquilFrontpic:   INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"
-HitmonchanFrontpic:  INCBIN "gfx/pokemon/hitmonchan/front.animated.2bpp.lz"
+RioluFrontpic:       INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lz"
 
 SECTION "Unown Pics 2", ROMX
 

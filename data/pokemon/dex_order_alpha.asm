@@ -117,8 +117,6 @@ AlphabeticalPokedexOrder:
 	dw HAUNTER
 	dw HERACROSS
 	dw HERDIER
-	dw HITMONCHAN
-	dw HITMONTOP
 	dw HO_OH
 	dw HONCHKROW
 	dw HOOTHOOT
@@ -151,6 +149,7 @@ AlphabeticalPokedexOrder:
 	dw LITWICK
 	dw LOMBRE
 	dw LOTAD
+	dw LUCARIO
 	dw LUDICOLO
 	dw LUGIA
 	dw MACHAMP
@@ -237,6 +236,7 @@ AlphabeticalPokedexOrder:
 	dw RHYHORN
 	dw RHYPERIOR
 	dw RIBOMBEE
+	dw RIOLU
 	dw ROSELIA
 	dw ROSERADE
 	dw ROWLET

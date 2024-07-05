@@ -126,10 +126,10 @@ MonMenuIconPals:
 	icon_pals GREEN,  RED    ; EXEGGUTOR
 	icon_pals BROWN,  TEAL   ; CUBONE
 	icon_pals PURPLE, BLUE   ; MAROWAK
-	icon_pals RED,   GREEN   ; SCRAGGY
-	icon_pals RED,   GREEN   ; SCRAFTY
-	icon_pals BROWN,  BLUE   ; HITMONCHAN
-	icon_pals RED,    PURPLE ; HITMONTOP
+	icon_pals RED,    GREEN  ; SCRAGGY
+	icon_pals RED,    GREEN  ; SCRAFTY
+	icon_pals BLUE,   PINK   ; RIOLU
+	icon_pals BLUE,   PINK   ; LUCARIO
 	icon_pals PINK,   RED    ; LICKITUNG
 	icon_pals PINK,   RED    ; LICKILICKY
 	icon_pals PURPLE, BLUE   ; KOFFING

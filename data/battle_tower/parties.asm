@@ -789,7 +789,7 @@ BattleTowerMons2:
 	bigdw 42 ; SDef
 	db "HAtuSAMU@@@"
 
-	dw HITMONCHAN
+	dw LUCARIO
 	db SITRUS_BERRY
 	dw THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MEGA_PUNCH
 
@@ -4823,7 +4823,7 @@ BattleTowerMons10:
 	bigdw 147 ; SDef
 	db "GORO-NIya@@"
 
-	dw HITMONCHAN
+	dw LUCARIO
 	db FOCUS_BAND
 	dw CLOSE_COMBAT, FIRE_PUNCH, THUNDERPUNCH, ICE_PUNCH
 

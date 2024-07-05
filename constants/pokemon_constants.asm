@@ -136,8 +136,8 @@
 	const MAROWAK    ; 69
 	const SCRAGGY    ; ec
 	const SCRAFTY    ; 6a
-	const HITMONCHAN ; 6b
-	const HITMONTOP  ; ed
+	const RIOLU      ; 6b
+	const LUCARIO    ; ed
 	const LICKITUNG  ; 6c
 	const LICKILICKY
 	const KOFFING    ; 6d

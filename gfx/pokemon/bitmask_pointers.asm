@@ -116,8 +116,8 @@ BitmasksPointers:
 	dw MarowakBitmasks
 	dw ScraggyBitmasks
 	dw ScraftyBitmasks
-	dw HitmonchanBitmasks
-	dw HitmontopBitmasks
+	dw RioluBitmasks
+	dw LucarioBitmasks
 	dw LickitungBitmasks
 	dw LickilickyBitmasks
 	dw KoffingBitmasks

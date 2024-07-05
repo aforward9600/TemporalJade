@@ -122,8 +122,8 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; MAROWAK
 	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; SCRAGGY
 	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; SCRAFTY
-	mon_cry CRY_SEEL,        $0ee,  $140 ; HITMONCHAN
-	mon_cry CRY_SLUGMA,      $000,  $100 ; HITMONTOP
+	mon_cry CRY_SUNFLORA,    $702,  $100 ; RIOLU
+	mon_cry CRY_SLUGMA,     -$25c,  $0e0 ; LUCARIO
 	mon_cry CRY_SEEL,        $000,  $100 ; LICKITUNG
 	mon_cry CRY_SEEL,        $000,  $100 ; LICKILICKY
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; KOFFING

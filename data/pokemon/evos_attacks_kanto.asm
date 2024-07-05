@@ -118,8 +118,8 @@ EvosAttacksPointers1::
 	dw MarowakEvosAttacks
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
-	dw HitmonchanEvosAttacks
-	dw HitmontopEvosAttacks
+	dw RioluEvosAttacks
+	dw LucarioEvosAttacks
 	dw LickitungEvosAttacks
 	dw LickilickyEvosAttacks
 	dw KoffingEvosAttacks
@@ -2444,45 +2444,43 @@ ScraftyEvosAttacks:
 	dbw 65, HEAD_SMASH
 	db 0 ; no more level-up moves
 
-HitmonchanEvosAttacks:
+RioluEvosAttacks:
+	dbbw EVOLVE_HAPPINESS, TR_MORNDAY, LUCARIO
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, MACH_PUNCH
-	dbw 1, MACH_PUNCH
-	dbw 1, COMET_PUNCH
-	dbw 6, AGILITY
-	dbw 11, PURSUIT
-	dbw 21, AERIAL_ACE
-	dbw 26, BULLET_PUNCH
-	dbw 31, REVENGE
-	dbw 36, THUNDERPUNCH
-	dbw 36, ICE_PUNCH
-	dbw 36, FIRE_PUNCH
-	dbw 41, BRICK_BREAK
-	dbw 46, MEGA_PUNCH
-	dbw 50, DETECT
-	dbw 56, DYNAMICPUNCH
-	dbw 61, COUNTER
-	dbw 66, CLOSE_COMBAT
+	dbw 1, FORESIGHT
+	dbw 1, QUICK_ATTACK
+	dbw 1, ENDURE
+	dbw 6, COUNTER
+	dbw 11, FAKE_OUT
+	dbw 15, KARATE_CHOP
+	dbw 19, MIMIC
+	dbw 24, SCREECH
+	dbw 29, REVERSAL
+	dbw 47, NASTY_PLOT
+	dbw 50, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-HitmontopEvosAttacks:
+LucarioEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, ROLLING_KICK
-	dbw 1, ROLLING_KICK
-	dbw 1, TACKLE
-	dbw 6, FOCUS_ENERGY
-	dbw 10, PURSUIT
-	dbw 15, QUICK_ATTACK
-	dbw 21, RAPID_SPIN
-	dbw 24, DIG
-	dbw 28, COUNTER
-	dbw 33, TRIPLE_KICK
-	dbw 37, AGILITY
-	dbw 42, GYRO_BALL
-	dbw 46, BULK_UP
-	dbw 50, DETECT
+	dbw LEARN_EVO_MOVE, AURA_SPHERE
+	dbw 1, AURA_SPHERE
+	dbw 1, FORESIGHT
+	dbw 1, QUICK_ATTACK
+	dbw 1, ENDURE
+	dbw 6, COUNTER
+	dbw 11, FAKE_OUT
+	dbw 15, POWERUPPUNCH
+	dbw 19, SWORDS_DANCE
+	dbw 24, METAL_SOUND
+	dbw 29, BONE_RUSH
+	dbw 33, DETECT
+	dbw 37, MIRROR_COAT
+	dbw 42, WORK_UP
+	dbw 47, CALM_MIND
+	dbw 51, MORNING_SUN
 	dbw 55, CLOSE_COMBAT
-	dbw 60, ROCK_SLIDE
+	dbw 60, DRAGON_PULSE
+	dbw 65, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 LickitungEvosAttacks:

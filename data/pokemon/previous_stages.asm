@@ -118,7 +118,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw SCRAGGY
 	dw 0
-	dw 0 ; RIOLU
+	dw RIOLU
 	dw 0
 	dw LICKITUNG
 	dw 0

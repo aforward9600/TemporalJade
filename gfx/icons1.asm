@@ -119,8 +119,8 @@ Icons1:
 	dw MarowakIcon
 	dw ScraggyIcon
 	dw ScraftyIcon
-	dw HitmonchanIcon
-	dw HitmontopIcon
+	dw RioluIcon
+	dw LucarioIcon
 	dw LickitungIcon
 	dw LickilickyIcon
 	dw KoffingIcon
@@ -246,8 +246,8 @@ CuboneIcon:       INCBIN "gfx/icons/cubone.2bpp"
 MarowakIcon:      INCBIN "gfx/icons/marowak.2bpp"
 ScraggyIcon:      INCBIN "gfx/icons/scraggy.2bpp"
 ScraftyIcon:      INCBIN "gfx/icons/scrafty.2bpp"
-HitmonchanIcon:   INCBIN "gfx/icons/hitmonchan.2bpp"
-HitmontopIcon:    INCBIN "gfx/icons/hitmontop.2bpp"
+RioluIcon:        INCBIN "gfx/icons/riolu.2bpp"
+LucarioIcon:      INCBIN "gfx/icons/lucario.2bpp"
 LickitungIcon:    INCBIN "gfx/icons/lickitung.2bpp"
 LickilickyIcon:   INCBIN "gfx/icons/lickilicky.2bpp"
 KoffingIcon:      INCBIN "gfx/icons/koffing.2bpp"

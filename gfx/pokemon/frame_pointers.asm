@@ -116,8 +116,8 @@ FramesPointers:
 	dba MarowakFrames
 	dba ScraggyFrames
 	dba ScraftyFrames
-	dba HitmonchanFrames
-	dba HitmontopFrames
+	dba RioluFrames
+	dba LucarioFrames
 	dba LickitungFrames
 	dba LickilickyFrames
 	dba KoffingFrames

@@ -117,8 +117,8 @@ PokedexDataPointerTable:
 	dba MarowakPokedexEntry
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
-	dba HitmonchanPokedexEntry
-	dba HitmontopPokedexEntry
+	dba RioluPokedexEntry
+	dba LucarioPokedexEntry
 	dba LickitungPokedexEntry
 	dba LickilickyPokedexEntry
 	dba KoffingPokedexEntry

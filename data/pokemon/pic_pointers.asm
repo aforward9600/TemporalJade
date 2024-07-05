@@ -244,10 +244,10 @@ PokemonPicPointers::
 	dba ScraggyBackpic
 	dba ScraftyFrontpic
 	dba ScraftyBackpic
-	dba HitmonchanFrontpic
-	dba HitmonchanBackpic
-	dba HitmontopFrontpic
-	dba HitmontopBackpic
+	dba RioluFrontpic
+	dba RioluBackpic
+	dba LucarioFrontpic
+	dba LucarioBackpic
 	dba LickitungFrontpic
 	dba LickitungBackpic
 	dba LickilickyFrontpic
