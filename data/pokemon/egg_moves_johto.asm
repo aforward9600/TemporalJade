@@ -81,7 +81,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw MisdreavusEggMoves
 	dw NoEggMoves2
-	dw NoEggMoves2
+	dw BasculinEggMoves
 	dw SkorupiEggMoves
 	dw NoEggMoves2
 	dw GirafarigEggMoves
@@ -852,6 +852,16 @@ LotadEggMoves:
 	dw SWEET_SCENT
 	dw SYNTHESIS
 	dw GIGA_DRAIN
+	dw -1
+
+BasculinEggMoves:
+	dw AGILITY
+	dw BUBBLEBEAM
+	dw HEAD_SMASH
+	dw MUD_SHOT
+	dw RAGE
+	dw REVENGE
+	dw SWIFT
 	dw -1
 
 SkorupiEggMoves:

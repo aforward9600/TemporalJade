@@ -1,11 +1,11 @@
 UnownPicPointers::
 ; entries correspond to Unown letters, two apiece
-	dba UnownAFrontpic
-	dba UnownABackpic
-	dba UnownBFrontpic
-	dba UnownBBackpic
-	dba UnownCFrontpic
-	dba UnownCBackpic
+	dba BasculinRFrontpic
+	dba BasculinRBackpic
+	dba BasculinBFrontpic
+	dba BasculinBBackpic
+	dba BasculinWFrontpic
+	dba BasculinWBackpic
 	dba UnownDFrontpic
 	dba UnownDBackpic
 	dba UnownEFrontpic

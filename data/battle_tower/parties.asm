@@ -418,7 +418,7 @@ BattleTowerMons1:
 	bigdw 25 ; SDef
 	db "HERAKUROSU@"
 
-	dw UNOWN
+	dw BASCULIN
 	db ORAN_BERRY
 	dw HIDDEN_POWER, 0, 0, 0
 

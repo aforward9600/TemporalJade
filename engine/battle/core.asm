@@ -3477,16 +3477,16 @@ LoadEnemyMonToSwitchTo:
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .skip_unown
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .skip_unown
@@ -6352,16 +6352,16 @@ LoadEnemyMon:
 	ld a, [wTempEnemyMonSpecies]
 	call GetPokemonIndexFromID ; will be preserved for the Magikarp check
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .Magikarp
 		ld a, h
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec a
 		else
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .Magikarp
@@ -8573,16 +8573,16 @@ InitEnemyWildmon:
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub UNOWN
-	if HIGH(UNOWN) == 0
+	sub BASCULIN
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .skip_unown
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .skip_unown

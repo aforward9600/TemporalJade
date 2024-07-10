@@ -1,7 +1,7 @@
 UnownAnimationPointers:
-	dw UnownAAnimation
-	dw UnownBAnimation
-	dw UnownCAnimation
+	dw BasculinRAnimation
+	dw BasculinBAnimation
+	dw BasculinWAnimation
 	dw UnownDAnimation
 	dw UnownEAnimation
 	dw UnownFAnimation

@@ -841,6 +841,45 @@ Unreferenced_Function97cc:
 
 _GetMonPalettePointer:
 	call GetPokemonIndexFromID
+	ld a, l
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
+		or h
+	else
+		jr nz, .not_basculin
+		if HIGH(BASCULIN) == 1
+			dec h
+		else
+			ld a, h
+			cp HIGH(BASCULIN)
+		endc
+	endc
+	jr z, .is_basculin
+.not_basculin:
+	add hl, hl
+	add hl, hl
+	add hl, hl
+	ld bc, PokemonPalettes
+	add hl, bc
+	ret
+
+.is_basculin:
+	ld a, [wUnownLetter]
+	cp UNOWN_A
+	jr z, .not_basculin
+	ld a, [wUnownLetter]
+	cp UNOWN_B
+	jr z, .basculin_blue
+	ld hl, -2
+	add hl, hl
+	add hl, hl
+	add hl, hl
+	ld bc, PokemonPalettes
+	add hl, bc
+	ret
+
+.basculin_blue:
+	ld hl, -1
 	add hl, hl
 	add hl, hl
 	add hl, hl

@@ -6414,16 +6414,16 @@ Function102d48:
 	ld a, [wTempSpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .asm_102d98
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .asm_102d98

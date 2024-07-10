@@ -217,18 +217,18 @@ PrintPartyMonPage1:
 	push hl
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 		pop hl
 	else
 		ld a, h
 		pop hl
 		jr nz, .not_unown
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec a
 		else
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr z, .asm_1dc469

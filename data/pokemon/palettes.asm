@@ -1,20 +1,10 @@
 ; Eggs are negative now
 INCBIN "gfx/pokemon/egg/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/egg/shiny.pal"
-
-; -2
-	RGB 30, 26, 11
-	RGB 23, 16, 00
-; -2 shiny
-	RGB 30, 26, 11
-	RGB 23, 16, 00
-
-; -1
-	RGB 23, 23, 23
-	RGB 17, 17, 17
-; -1 shiny
-	RGB 23, 23, 23
-	RGB 17, 17, 17
+INCBIN "gfx/pokemon/basculin_w/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/basculin_w/shiny.pal"
+INCBIN "gfx/pokemon/basculin_b/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/basculin_b/shiny.pal"
 
 PokemonPalettes:
 ; entries correspond to Pokémon species, two apiece
@@ -492,8 +482,8 @@ INCBIN "gfx/pokemon/misdreavus/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/misdreavus/shiny.pal"
 INCLUDE "gfx/pokemon/mismagius/normal.pal"
 INCLUDE "gfx/pokemon/mismagius/shiny.pal"
-INCLUDE "gfx/pokemon/unown/normal.pal" ; not front.gbcpal
-INCLUDE "gfx/pokemon/unown/shiny.pal"
+INCBIN "gfx/pokemon/basculin_r/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/basculin_r/shiny.pal"
 INCBIN  "gfx/pokemon/skorupi/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/skorupi/shiny.pal"
 INCBIN "gfx/pokemon/drapion/front.gbcpal", middle_colors

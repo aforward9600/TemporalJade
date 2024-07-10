@@ -664,6 +664,7 @@ InitializeEventsScript:
 	setmapscene VICTORY_ROAD_GATE, SCENE_VICTORY_ROAD_GATE_GUARD
 	setevent EVENT_VICTORY_ROAD_GATE_GUARD_2
 	setevent EVENT_ANTIQUO_TOWN_KNIGHT
+	setflag ENGINE_UNLOCKED_UNOWNS_A_TO_K
 	return
 
 AskNumber1MScript:

@@ -1,7 +1,7 @@
 UnownAnimationIdlePointers:
-	dw UnownAAnimationIdle
-	dw UnownBAnimationIdle
-	dw UnownCAnimationIdle
+	dw BasculinRAnimationIdle
+	dw BasculinBAnimationIdle
+	dw BasculinWAnimationIdle
 	dw UnownDAnimationIdle
 	dw UnownEAnimationIdle
 	dw UnownFAnimationIdle

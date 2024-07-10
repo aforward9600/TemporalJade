@@ -358,12 +358,12 @@ ChooseWildEncounter:
 	jr c, .nowildbattle
 
 	ld a, l
-	sub LOW(UNOWN)
+	sub LOW(BASCULIN)
 	jr nz, .done
-	if HIGH(UNOWN) > 1
+	if HIGH(BASCULIN) > 1
 		ld a, h
-		cp HIGH(UNOWN)
-	elif HIGH(UNOWN) == 1
+		cp HIGH(BASCULIN)
+	elif HIGH(BASCULIN) == 1
 		ld a, h
 		dec a
 	else

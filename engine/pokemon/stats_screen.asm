@@ -958,16 +958,16 @@ StatsScreen_PlaceFrontpic:
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	cp LOW(UNOWN)
+	cp LOW(BASCULIN)
 	ld a, h
 	hlcoord 0, 0
 	jp nz, PrepMonFrontpic
-	if HIGH(UNOWN) == 0
+	if HIGH(BASCULIN) == 0
 		and a
-	elif HIGH(UNOWN) == 1
+	elif HIGH(BASCULIN) == 1
 		dec a
 	else
-		cp HIGH(UNOWN)
+		cp HIGH(BASCULIN)
 	endc
 	jp nz, PrepMonFrontpic
 	xor a
@@ -979,16 +979,16 @@ StatsScreen_PlaceFrontpic:
 	push hl
 	call GetPokemonIndexFromID
 	ld a, l
-	cp LOW(UNOWN)
+	cp LOW(BASCULIN)
 	ld a, h
 	pop hl
 	jr nz, .not_unown_egg
-	if HIGH(UNOWN) == 0
+	if HIGH(BASCULIN) == 0
 		and a
-	elif HIGH(UNOWN) == 1
+	elif HIGH(BASCULIN) == 1
 		dec a
 	else
-		cp HIGH(UNOWN)
+		cp HIGH(BASCULIN)
 	endc
 	jr z, .unownegg
 .not_unown_egg

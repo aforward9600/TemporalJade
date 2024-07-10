@@ -231,7 +231,7 @@ PokedexDataPointerTable:
 	dba HonchkrowPokedexEntry
 	dba MisdreavusPokedexEntry
 	dba MismagiusPokedexEntry
-	dba UnownPokedexEntry
+	dba BasculinPokedexEntry
 	dba SkorupiPokedexEntry
 	dba DrapionPokedexEntry
 	dba GirafarigPokedexEntry

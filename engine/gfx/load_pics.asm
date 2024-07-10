@@ -37,7 +37,7 @@ GetUnownLetter:
 	ldh [hDividend], a
 	ldh [hDividend + 1], a
 	ldh [hDividend + 2], a
-	ld a, $ff / NUM_UNOWN + 1
+	ld a, 85
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
@@ -45,6 +45,10 @@ GetUnownLetter:
 ; Increment to get 1-26
 	ldh a, [hQuotient + 3]
 	inc a
+	cp NUM_UNOWN + 1
+	jr c, .valid
+	ld a, UNOWN_A
+.valid
 	ld [wUnownLetter], a
 	ret
 
@@ -122,16 +126,16 @@ GetPicIndirectPointer:
 	ld b, h
 	ld c, l
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .not_unown
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr z, .unown

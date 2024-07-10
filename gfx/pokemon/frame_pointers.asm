@@ -230,7 +230,7 @@ FramesPointers:
 	dba HonchkrowFrames
 	dba MisdreavusFrames
 	dba MismagiusFrames
-	dba UnownFrames
+	dba BasculinFrames
 	dba SkorupiFrames
 	dba DrapionFrames
 	dba GirafarigFrames

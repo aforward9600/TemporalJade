@@ -2826,7 +2826,7 @@ Pokedex_LoadUnownFrontpicTiles:
 	add hl, de
 	ld a, [hl]
 	ld [wUnownLetter], a
-	ld hl, UNOWN
+	ld hl, BASCULIN
 	call GetPokemonIDFromIndex
 	ld [wCurPartySpecies], a
 	ld l, LOCKED_MON_ID_DEX_SELECTED

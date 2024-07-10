@@ -139,10 +139,12 @@ Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
 Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
 Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty sprites
 
-Shelmet, Accelgor, Karrablast and Escavalier animations:
+Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
+Karrablast and Escavalier animations:
 PokeMMO Generation 2 Sprites Mod
 
-Petil and Lilligant sprites, various Gen 5 back sprites: COMBOY collection
+Petil and Lilligant sprites, Deino, Zweilous, Hydreigon, Haxorus,
+various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
 Ein trainer sprite: Sindorman
 

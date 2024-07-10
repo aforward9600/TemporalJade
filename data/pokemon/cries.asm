@@ -236,7 +236,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISDREAVUS
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS
-	mon_cry CRY_HOOTHOOT,    $162,  $100 ; UNOWN
+	mon_cry CRY_SUNFLORA,    $122,  $110 ; BASCULIN
 	mon_cry CRY_AMPHAROS,    $1c8,  $190 ; SKORUPI
 	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
@@ -328,3 +328,7 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
 	mon_cry CRY_HOOTHOOT,    $162,  $100 ; NOWN
 	mon_cry CRY_DROWZEE,     $000,  $000 ; MISSINGNO
+
+;	mon_cry CRY_METAPOD,     $094,  $100 ; DEINO
+;	mon_cry CRY_VULPIX,     -$0ee,  $090 ; ZWEILOUS
+;	mon_cry CRY_HYDREIGON,   $000,  $0f4 ; HYDREIGON

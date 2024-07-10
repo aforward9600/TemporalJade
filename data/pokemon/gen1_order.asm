@@ -239,7 +239,7 @@ Pokered_MonIndices:
 	db MURKROW
 	db SLOWKING
 	db MISDREAVUS
-	db UNOWN
+	db BASCULIN
 	db DRAPION
 	db GIRAFARIG
 	db PINECO

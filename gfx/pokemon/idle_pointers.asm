@@ -230,7 +230,7 @@ AnimationIdlePointers:
 	dw HonchkrowAnimationIdle
 	dw MisdreavusAnimationIdle
 	dw MismagiusAnimationIdle
-	dw UnownAnimationIdle
+	dw BasculinAnimationIdle
 	dw SkorupiAnimationIdle
 	dw DrapionAnimationIdle
 	dw GirafarigAnimationIdle

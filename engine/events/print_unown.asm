@@ -56,7 +56,7 @@ _UnownPrinter:
 	call .UpdateUnownFrontpic
 	call WaitBGMap
 
-	ld hl, UNOWN
+	ld hl, BASCULIN
 	call GetPokemonIDFromIndex
 	ld [wCurPartySpecies], a
 	xor a
@@ -137,7 +137,7 @@ _UnownPrinter:
 	jr z, .vacant
 	inc a
 	ld [wUnownLetter], a
-	ld hl, UNOWN
+	ld hl, BASCULIN
 	call GetPokemonIDFromIndex
 	ld [wCurPartySpecies], a
 	xor a

@@ -226,7 +226,7 @@ NewPokedexOrder:
 	dw TOXAPEX
 	dw MURKROW
 	dw HONCHKROW
-	dw UNOWN
+	dw BASCULIN
 	dw MISDREAVUS
 	dw MISMAGIUS
 	dw MAGIKARP

@@ -361,16 +361,16 @@ endr
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .done
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .done
@@ -480,16 +480,16 @@ AddTempmonToParty:
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .done
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .done
@@ -1075,15 +1075,15 @@ SendMonIntoBox:
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
+	sub LOW(BASCULIN)
 	jr nz, .not_unown
-	if HIGH(UNOWN) == 0
+	if HIGH(BASCULIN) == 0
 		or h
-	elif HIGH(UNOWN) == 1
+	elif HIGH(BASCULIN) == 1
 		dec h
 	else
 		ld a, h
-		cp HIGH(UNOWN)
+		cp HIGH(BASCULIN)
 	endc
 	jr nz, .not_unown
 	ld hl, sBoxMon1DVs

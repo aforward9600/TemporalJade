@@ -1,7 +1,7 @@
 UnownBitmasksPointers:
-	dw UnownABitmasks
-	dw UnownBBitmasks
-	dw UnownCBitmasks
+	dw BasculinRBitmasks
+	dw BasculinBBitmasks
+	dw BasculinWBitmasks
 	dw UnownDBitmasks
 	dw UnownEBitmasks
 	dw UnownFBitmasks

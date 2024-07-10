@@ -215,32 +215,32 @@ JohtoGrassWildMons:
 	map_id RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
 	; day
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
 	; nite
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
+	dbw 5, BASCULIN
 
 	map_id UNION_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1145,7 +1145,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 4, LILLIPUP
+	dbw 4, BASCULIN
 	dbw 4, POLIWAG
 	dbw 4, PETILIL
 	dbw 4, PIKIPEK
@@ -1154,7 +1154,7 @@ JohtoGrassWildMons:
 	dbw 4, PIKACHU
 	dbw 4, PIKACHU
 	; day
-	dbw 4, LILLIPUP
+	dbw 4, BASCULIN
 	dbw 4, POLIWAG
 	dbw 4, PETILIL
 	dbw 4, PIKIPEK
@@ -1163,7 +1163,7 @@ JohtoGrassWildMons:
 	dbw 4, PIKACHU
 	dbw 4, PIKACHU
 	; nite
-	dbw 4, LILLIPUP
+	dbw 4, BASCULIN
 	dbw 4, POLIWAG
 	dbw 4, COTTONEE
 	dbw 4, PIKIPEK

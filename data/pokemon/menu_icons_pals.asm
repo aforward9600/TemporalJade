@@ -242,7 +242,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; HONCHKROW
 	icon_pals RED,    BLUE   ; MISDREAVUS
 	icon_pals PINK,   BLUE   ; MISMAGIUS
-	icon_pals BROWN,  BROWN  ; UNOWN
+	icon_pals GREEN,  GREEN  ; BASCULIN
 	icon_pals BLUE,   RED    ; SKORUPI
 	icon_pals PURPLE, RED    ; DRAPION
 	icon_pals PURPLE, BLUE   ; GIRAFARIG

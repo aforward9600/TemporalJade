@@ -392,16 +392,16 @@ Function17d1f1:
 
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		ret nz
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	ret nz

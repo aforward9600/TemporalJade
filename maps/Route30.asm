@@ -59,6 +59,7 @@ MrPokemonsHouseDirectionsSign:
 	jumptext MrPokemonsHouseDirectionsSignText
 
 MrPokemonsHouseSign:
+	setflag ENGINE_UNLOCKED_UNOWNS_A_TO_K
 	jumptext MrPokemonsHouseSignText
 
 Route30MaxRevive:

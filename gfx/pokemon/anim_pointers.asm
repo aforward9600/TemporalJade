@@ -230,7 +230,7 @@ AnimationPointers:
 	dw HonchkrowAnimation
 	dw MisdreavusAnimation
 	dw MismagiusAnimation
-	dw UnownAnimation
+	dw BasculinAnimation
 	dw SkorupiAnimation
 	dw DrapionAnimation
 	dw GirafarigAnimation

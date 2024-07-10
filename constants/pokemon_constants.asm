@@ -251,7 +251,7 @@ JOHTO_POKEMON EQU const_value
 	const HONCHKROW  ; fe
 	const MISDREAVUS ; c8
 	const MISMAGIUS  ; fd
-	const UNOWN      ; c9
+	const BASCULIN   ; c9
 	const SKORUPI
 	const DRAPION  ; ca
 	const GIRAFARIG  ; cb

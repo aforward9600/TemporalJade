@@ -230,7 +230,7 @@ BitmasksPointers:
 	dw HonchkrowBitmasks
 	dw MisdreavusBitmasks
 	dw MismagiusBitmasks
-	dw UnownBitmasks
+	dw BasculinBitmasks
 	dw SkorupiBitmasks
 	dw DrapionBitmasks
 	dw GirafarigBitmasks

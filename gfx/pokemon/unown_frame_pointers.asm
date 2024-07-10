@@ -1,7 +1,7 @@
 UnownFramesPointers:
-	dw UnownAFrames
-	dw UnownBFrames
-	dw UnownCFrames
+	dw BasculinRFrames
+	dw BasculinBFrames
+	dw BasculinWFrames
 	dw UnownDFrames
 	dw UnownEFrames
 	dw UnownFFrames

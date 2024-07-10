@@ -20,6 +20,7 @@ AlphabeticalPokedexOrder:
 	dw ARTICUNO
 	dw AZUMARILL
 	dw BAGON
+	dw BASCULIN
 	dw BAYLEEF
 	dw BELLSPROUT
 	dw BLISSEY
@@ -300,7 +301,6 @@ AlphabeticalPokedexOrder:
 	dw TYPHLOSION
 	dw TYRANITAR
 	dw UMBREON
-	dw UNOWN
 	dw URSALUNA
 	dw URSARING
 	dw VAPOREON

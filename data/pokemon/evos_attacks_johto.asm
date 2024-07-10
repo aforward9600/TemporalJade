@@ -80,7 +80,7 @@ EvosAttacksPointers2::
 	dw HonchkrowEvosAttacks
 	dw MisdreavusEvosAttacks
 	dw MismagiusEvosAttacks
-	dw UnownEvosAttacks
+	dw BasculinEvosAttacks
 	dw SkorupiEvosAttacks
 	dw DrapionEvosAttacks
 	dw GirafarigEvosAttacks
@@ -1829,9 +1829,26 @@ MismagiusEvosAttacks:
 	dbw 1, SHADOW_BALL
 	db 0 ; no more level-up moves
 
-UnownEvosAttacks:
+BasculinEvosAttacks:
+;	dbbw EVOLVE_LEVEL, 40, BASCLEGION
 	db 0 ; no more evolutions
-	dbw 1, HIDDEN_POWER
+	dbw 1, TAIL_WHIP
+	dbw 1, TACKLE
+	dbw 1, WATER_GUN
+	dbw 5, HEADBUTT
+	dbw 7, BITE
+	dbw 9, AQUA_JET
+	dbw 11, THIEF
+	dbw 14, TAKE_DOWN
+	dbw 17, CRUNCH
+	dbw 20, AQUA_TAIL
+	dbw 23, SCREECH
+	dbw 26, DOUBLE_EDGE
+	dbw 30, SCARY_FACE
+	dbw 34, FLAIL
+	dbw 38, CLOSE_COMBAT
+	dbw 42, THRASH
+	dbw 46, HEAD_SMASH
 	db 0 ; no more level-up moves
 
 SkorupiEvosAttacks:

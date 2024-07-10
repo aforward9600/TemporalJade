@@ -87,7 +87,7 @@ DecorationAttributePokemonNames:
 	dw MAGIKARP   ; 19
 	dw LAPRAS     ; 20
 	dw SNORLAX    ; 21
-	dw UNOWN      ; 22
+	dw MURKROW      ; 22
 	dw DRATINI    ; 23
 	dw LARVITAR   ; 24
 	dw SALAMENCE

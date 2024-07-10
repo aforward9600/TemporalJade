@@ -343,16 +343,16 @@ EvolveAfterBattle_MasterLoop:
 	ld a, [wTempSpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(UNOWN)
-	if HIGH(UNOWN) == 0
+	sub LOW(BASCULIN)
+	if HIGH(BASCULIN) == 0
 		or h
 	else
 		jr nz, .skip_unown
-		if HIGH(UNOWN) == 1
+		if HIGH(BASCULIN) == 1
 			dec h
 		else
 			ld a, h
-			cp HIGH(UNOWN)
+			cp HIGH(BASCULIN)
 		endc
 	endc
 	jr nz, .skip_unown

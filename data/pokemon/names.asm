@@ -234,7 +234,7 @@ PokemonNames::
 	db "Honchkrow@"
 	db "Misdreavus"
 	db "Mismagius@"
-	db "Unown@@@@@"
+	db "Basculin@@"
 	db "Skorupi@@@"
 	db "Drapion@@@"
 	db "Girafarig@"

@@ -459,16 +459,16 @@ PokeAnim_IsUnown:
 	push hl
 	call GetPokemonIndexFromID
 	ld a, l
-	cp LOW(UNOWN)
+	cp LOW(BASCULIN)
 	ld a, h
 	pop hl
 	ret nz
-	if HIGH(UNOWN) == 0
+	if HIGH(BASCULIN) == 0
 		and a
-	elif HIGH(UNOWN) == 1
+	elif HIGH(BASCULIN) == 1
 		dec a
 	else
-		cp HIGH(UNOWN)
+		cp HIGH(BASCULIN)
 	endc
 	ret
 
