@@ -232,6 +232,7 @@ PokedexDataPointerTable:
 	dba MisdreavusPokedexEntry
 	dba MismagiusPokedexEntry
 	dba BasculinPokedexEntry
+	dba BasclegionPokedexEntry
 	dba SkorupiPokedexEntry
 	dba DrapionPokedexEntry
 	dba GirafarigPokedexEntry

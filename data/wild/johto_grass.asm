@@ -1145,7 +1145,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 4, BASCULIN
+	dbw 4, LILLIPUP
 	dbw 4, POLIWAG
 	dbw 4, PETILIL
 	dbw 4, PIKIPEK
@@ -1154,7 +1154,7 @@ JohtoGrassWildMons:
 	dbw 4, PIKACHU
 	dbw 4, PIKACHU
 	; day
-	dbw 4, BASCULIN
+	dbw 4, LILLIPUP
 	dbw 4, POLIWAG
 	dbw 4, PETILIL
 	dbw 4, PIKIPEK
@@ -1163,7 +1163,7 @@ JohtoGrassWildMons:
 	dbw 4, PIKACHU
 	dbw 4, PIKACHU
 	; nite
-	dbw 4, BASCULIN
+	dbw 4, LILLIPUP
 	dbw 4, POLIWAG
 	dbw 4, COTTONEE
 	dbw 4, PIKIPEK

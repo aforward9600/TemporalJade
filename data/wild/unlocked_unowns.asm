@@ -15,9 +15,9 @@ UnlockedUnownLetterSets:
 .End
 
 .Set_A_K:
-	unown_set A, B, C, D, E, F, G, H, I, J, K
+	unown_set A, B, C
 .Set_L_R:
-	unown_set L, M, N, O, P, Q, R
+	unown_set L, M, N, O, P, Q, R, D, E, F, G, H, I, J, K
 .Set_S_W:
 	unown_set S, T, U, V, W
 .Set_X_Z:

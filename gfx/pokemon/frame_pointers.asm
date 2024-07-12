@@ -231,6 +231,7 @@ FramesPointers:
 	dba MisdreavusFrames
 	dba MismagiusFrames
 	dba BasculinFrames
+	dba BasclegionFrames
 	dba SkorupiFrames
 	dba DrapionFrames
 	dba GirafarigFrames

@@ -109,6 +109,7 @@ Icons2:
 	dw MisdreavusIcon
 	dw MismagiusIcon
 	dw BasculinIcon
+	dw BasclegionIcon
 	dw SkorupiIcon
 	dw DrapionIcon
 	dw GirafarigIcon
@@ -127,7 +128,6 @@ Icons2:
 	dw SneaselIcon
 	dw WeavileIcon
 	dw TeddiursaIcon
-	dw UrsaringIcon
 
 RhyperiorIcon:    INCBIN "gfx/icons/rhyperior.2bpp"
 HappinyIcon:      INCBIN "gfx/icons/happiny.2bpp"
@@ -236,6 +236,7 @@ HonchkrowIcon:    INCBIN "gfx/icons/honchkrow.2bpp"
 MisdreavusIcon:   INCBIN "gfx/icons/misdreavus.2bpp"
 MismagiusIcon:    INCBIN "gfx/icons/mismagius.2bpp"
 BasculinIcon:     INCBIN "gfx/icons/basculin_r.2bpp"
+BasclegionIcon:   INCBIN "gfx/icons/basclegion.2bpp"
 SkorupiIcon:      INCBIN "gfx/icons/skorupi.2bpp"
 DrapionIcon:      INCBIN "gfx/icons/drapion.2bpp"
 GirafarigIcon:    INCBIN "gfx/icons/girafarig.2bpp"
@@ -254,4 +255,3 @@ HeracrossIcon:    INCBIN "gfx/icons/heracross.2bpp"
 SneaselIcon:	  INCBIN "gfx/icons/sneasel.2bpp"
 WeavileIcon:	  INCBIN "gfx/icons/weavile.2bpp"
 TeddiursaIcon:    INCBIN "gfx/icons/teddiursa.2bpp"
-UrsaringIcon:     INCBIN "gfx/icons/ursaring.2bpp"

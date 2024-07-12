@@ -20,6 +20,7 @@ AlphabeticalPokedexOrder:
 	dw ARTICUNO
 	dw AZUMARILL
 	dw BAGON
+	dw BASCLEGION
 	dw BASCULIN
 	dw BAYLEEF
 	dw BELLSPROUT

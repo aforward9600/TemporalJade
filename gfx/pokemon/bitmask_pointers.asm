@@ -231,6 +231,7 @@ BitmasksPointers:
 	dw MisdreavusBitmasks
 	dw MismagiusBitmasks
 	dw BasculinBitmasks
+	dw BasclegionBitmasks
 	dw SkorupiBitmasks
 	dw DrapionBitmasks
 	dw GirafarigBitmasks

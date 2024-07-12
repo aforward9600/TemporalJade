@@ -140,13 +140,15 @@ Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
 Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty sprites
 
 Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
-Karrablast and Escavalier animations:
+Basculin, Karrablast and Escavalier animations:
 PokeMMO Generation 2 Sprites Mod
 
 Petil and Lilligant sprites, Deino, Zweilous, Hydreigon, Haxorus,
 various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
 Ein trainer sprite: Sindorman
+
+Basculegion sprites: Katten, PKMNTrainerRick & dwg6m9
 
 Walker sprites: Kage
 

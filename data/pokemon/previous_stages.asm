@@ -232,6 +232,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw MISDREAVUS ;c8
 	dw 0
+	dw BASCULIN
 	dw 0
 	dw SKORUPI
 	dw 0

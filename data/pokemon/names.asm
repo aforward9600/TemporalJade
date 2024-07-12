@@ -235,6 +235,7 @@ PokemonNames::
 	db "Misdreavus"
 	db "Mismagius@"
 	db "Basculin@@"
+	db "Basclegion"
 	db "Skorupi@@@"
 	db "Drapion@@@"
 	db "Girafarig@"

@@ -231,6 +231,7 @@ AnimationPointers:
 	dw MisdreavusAnimation
 	dw MismagiusAnimation
 	dw BasculinAnimation
+	dw BasclegionAnimation
 	dw SkorupiAnimation
 	dw DrapionAnimation
 	dw GirafarigAnimation

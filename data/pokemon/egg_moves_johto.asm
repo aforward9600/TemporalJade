@@ -82,6 +82,7 @@ EggMovePointers2::
 	dw MisdreavusEggMoves
 	dw NoEggMoves2
 	dw BasculinEggMoves
+	dw NoEggMoves2
 	dw SkorupiEggMoves
 	dw NoEggMoves2
 	dw GirafarigEggMoves

@@ -477,6 +477,8 @@ PokemonPicPointers::
 	dbw -1, -1
 	dbw -1, -1
 
+	dba BasclegionFrontpic
+	dba BasclegionBackpic
 	dba SkorupiFrontpic
 	dba SkorupiBackpic
 	dba DrapionFrontpic

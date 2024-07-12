@@ -2,6 +2,7 @@ SECTION "Mon Icons 3", ROMX
 
 Icons3:
 
+	dw UrsaringIcon
 	dw UrsalunaIcon
 	dw SlugmaIcon
 	dw MagcargoIcon
@@ -75,6 +76,7 @@ Icons3:
 	dw NownIcon
 	dw MissingnoIcon
 
+UrsaringIcon:     INCBIN "gfx/icons/ursaring.2bpp"
 UrsalunaIcon:     INCBIN "gfx/icons/ursaluna.2bpp"
 SlugmaIcon:       INCBIN "gfx/icons/slugma.2bpp"
 MagcargoIcon:     INCBIN "gfx/icons/magcargo.2bpp"

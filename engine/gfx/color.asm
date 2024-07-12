@@ -863,13 +863,27 @@ _GetMonPalettePointer:
 	add hl, bc
 	ret
 
+.basculin_red:
+	pop hl
+	add hl, hl
+	add hl, hl
+	add hl, hl
+	ld bc, PokemonPalettes
+	add hl, bc
+	ret
+
 .is_basculin:
+	push hl
+	ld l, c
+	ld h, b
+	predef GetUnownLetter
 	ld a, [wUnownLetter]
 	cp UNOWN_A
-	jr z, .not_basculin
+	jr z, .basculin_red
 	ld a, [wUnownLetter]
 	cp UNOWN_B
 	jr z, .basculin_blue
+	pop hl
 	ld hl, -2
 	add hl, hl
 	add hl, hl
@@ -879,6 +893,7 @@ _GetMonPalettePointer:
 	ret
 
 .basculin_blue:
+	pop hl
 	ld hl, -1
 	add hl, hl
 	add hl, hl

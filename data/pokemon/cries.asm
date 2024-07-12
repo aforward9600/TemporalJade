@@ -237,6 +237,7 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISDREAVUS
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS
 	mon_cry CRY_SUNFLORA,    $122,  $110 ; BASCULIN
+	mon_cry CRY_SUNFLORA,    $002,  $160 ; BASCLEGION
 	mon_cry CRY_AMPHAROS,    $1c8,  $190 ; SKORUPI
 	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG

@@ -883,6 +883,8 @@ TrumbeakBackpic:     INCBIN "gfx/pokemon/trumbeak/back.2bpp.lz"
 JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
 CottoneeBackpic:     INCBIN "gfx/pokemon/cottonee/back.2bpp.lz"
 UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
+BasclegionFrontpic:  INCBIN "gfx/pokemon/basclegion/front.animated.2bpp.lz"
+BasclegionBackpic:   INCBIN "gfx/pokemon/basclegion/back.2bpp.lz"
 
 
 SECTION "Pics 17", ROMX
