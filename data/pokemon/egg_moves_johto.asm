@@ -166,7 +166,7 @@ EggMovePointers2::
 	dw GibleEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw BagonEggMoves
+	dw DeinoEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
@@ -814,16 +814,14 @@ GibleEggMoves:
 	dw TWISTER
 	dw -1 ; end
 
-BagonEggMoves:
-	dw DRAGON_RAGE
-	dw DRAGON_RUSH
-	dw FIRE_FANG
-	dw HYDRO_PUMP
-	dw THRASH
-	dw TWISTER
-	dw DRAGONBREATH
-	dw EXTREMESPEED
-	dw HEAT_WAVE
+DeinoEggMoves:
+	dw ASTONISH
+	dw BELCH
+	dw DARK_PULSE
+	dw DOUBLE_HIT_M
+	dw EARTH_POWER
+	dw HEAD_SMASH
+	dw SCREECH
 	dw -1 ; end
 
 SwabluEggMoves:

@@ -10,9 +10,9 @@ EvosAttacksPointers3::
 	dw GibleEvosAttacks
 	dw GabiteEvosAttacks
 	dw GarchompEvosAttacks
-	dw BagonEvosAttacks
-	dw ShelgonEvosAttacks
-	dw SalamenceEvosAttacks
+	dw DeinoEvosAttacks
+	dw ZweilousEvosAttacks
+	dw HydreigonEvosAttacks
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
@@ -183,61 +183,71 @@ GarchompEvosAttacks:
 	dbw 55, DRAGON_RUSH
 	db 0 ; no more level-up moves
 
-BagonEvosAttacks:
-	dbbw EVOLVE_LEVEL, 25, SHELGON
+DeinoEvosAttacks:
+	dbbw EVOLVE_LEVEL, 50, ZWEILOUS
 	db 0 ; no more evolutions
-	dbw 1, RAGE
-	dbw 4, EMBER
-	dbw 7, LEER
-	dbw 10, BITE
-	dbw 13, DRACO_FANG
-	dbw 17, HEADBUTT
-	dbw 21, FOCUS_ENERGY
+	dbw 1, TACKLE
+	dbw 1, DRAGON_RAGE
+	dbw 4, FOCUS_ENERGY
+	dbw 9, BITE
+	dbw 12, HEADBUTT
+	dbw 17, DRAGONBREATH
+	dbw 20, ROAR
 	dbw 25, CRUNCH
-	dbw 29, DRAGON_CLAW
-	dbw 34, ZEN_HEADBUTT
-	dbw 39, SCARY_FACE
-	dbw 44, FLAMETHROWER
-	dbw 49, DOUBLE_EDGE
+	dbw 28, SLAM
+	dbw 32, DRAGON_PULSE
+	dbw 38, WORK_UP
+	dbw 42, DRAGON_RUSH
+	dbw 48, BODY_SLAM
+	dbw 50, SCARY_FACE
+	dbw 58, HYPER_VOICE
+	dbw 62, OUTRAGE
 	db 0 ; no more level-up moves
 
-ShelgonEvosAttacks:
-	dbbw EVOLVE_LEVEL, 50, SALAMENCE
+ZweilousEvosAttacks:
+	dbbw EVOLVE_LEVEL, 64, HYDREIGON
 	db 0 ; no more evolutions
-	dbw 1, RAGE
-	dbw 4, EMBER
-	dbw 7, LEER
-	dbw 10, BITE
-	dbw 13, DRACO_FANG
-	dbw 17, HEADBUTT
-	dbw 21, FOCUS_ENERGY
+	dbw LEARN_EVO_MOVE, DOUBLE_HIT_M
+	dbw 1, DOUBLE_HIT_M
+	dbw 1, TACKLE
+	dbw 1, DRAGON_RAGE
+	dbw 4, FOCUS_ENERGY
+	dbw 9, BITE
+	dbw 12, HEADBUTT
+	dbw 17, DRAGONBREATH
+	dbw 20, ROAR
 	dbw 25, CRUNCH
-	dbw 32, DRAGON_CLAW
-	dbw 35, ZEN_HEADBUTT
-	dbw 42, SCARY_FACE
-	dbw 49, FLAMETHROWER
-	dbw 56, DOUBLE_EDGE
+	dbw 28, SLAM
+	dbw 32, DRAGON_PULSE
+	dbw 38, WORK_UP
+	dbw 42, DRAGON_RUSH
+	dbw 48, BODY_SLAM
+	dbw 50, SCARY_FACE
+	dbw 66, HYPER_VOICE
+	dbw 71, OUTRAGE
 	db 0 ; no more level-up moves
 
-SalamenceEvosAttacks:
+HydreigonEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, FLY
-	dbw 1, FLY
-	dbw 1, RAGE
-	dbw 4, EMBER
-	dbw 7, LEER
-	dbw 10, BITE
-	dbw 13, DRACO_FANG
-	dbw 17, HEADBUTT
-	dbw 21, FOCUS_ENERGY
+	dbw LEARN_EVO_MOVE, CATASTROPHE
+	dbw 1, CATASTROPHE
+	dbw 1, DOUBLE_HIT_M
+	dbw 1, TACKLE
+	dbw 1, DRAGON_RAGE
+	dbw 4, FOCUS_ENERGY
+	dbw 9, BITE
+	dbw 12, HEADBUTT
+	dbw 17, DRAGONBREATH
+	dbw 20, ROAR
 	dbw 25, CRUNCH
-	dbw 32, DRAGON_CLAW
-	dbw 35, ZEN_HEADBUTT
-	dbw 42, SCARY_FACE
-	dbw 49, FLAMETHROWER
-	dbw 54, DUALWINGBEAT
-	dbw 63, DOUBLE_EDGE
-	dbw 69, OUTRAGE
+	dbw 28, SLAM
+	dbw 32, DRAGON_PULSE
+	dbw 38, WORK_UP
+	dbw 42, DRAGON_RUSH
+	dbw 48, BODY_SLAM
+	dbw 50, SCARY_FACE
+	dbw 68, HYPER_VOICE
+	dbw 79, OUTRAGE
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:

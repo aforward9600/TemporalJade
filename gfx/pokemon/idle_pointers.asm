@@ -315,9 +315,9 @@ AnimationIdlePointers:
 	dw GibleAnimationIdle
 	dw GabiteAnimationIdle
 	dw GarchompAnimationIdle
-	dw BagonAnimationIdle
-	dw ShelgonAnimationIdle
-	dw SalamenceAnimationIdle
+	dw DeinoAnimationIdle
+	dw ZweilousAnimationIdle
+	dw HydreigonAnimationIdle
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle

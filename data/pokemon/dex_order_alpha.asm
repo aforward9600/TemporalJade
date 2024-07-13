@@ -19,7 +19,6 @@ AlphabeticalPokedexOrder:
 	dw ARON
 	dw ARTICUNO
 	dw AZUMARILL
-	dw BAGON
 	dw BASCLEGION
 	dw BASCULIN
 	dw BAYLEEF
@@ -53,6 +52,7 @@ AlphabeticalPokedexOrder:
 	dw CYNDAQUIL
 	dw DARTRIX
 	dw DECIDUEYE
+	dw DEINO
 	dw DEWGONG
 	dw DITTO
 	dw DODRIO
@@ -125,6 +125,7 @@ AlphabeticalPokedexOrder:
 	dw HORSEA
 	dw HOUNDOOM
 	dw HOUNDOUR
+	dw HYDREIGON
 	dw HYPNO
 	dw IGGLYBUFF
 	dw JIGGLYPUFF
@@ -242,7 +243,6 @@ AlphabeticalPokedexOrder:
 	dw ROSELIA
 	dw ROSERADE
 	dw ROWLET
-	dw SALAMENCE
 	dw SANDYGAST
 	dw SCIZOR
 	dw SCOLIPEDE
@@ -253,7 +253,6 @@ AlphabeticalPokedexOrder:
 	dw SEAKING
 	dw SEEL
 	dw SENTRET
-	dw SHELGON
 	dw SHELMET
 	dw SHUCKLE
 	dw SKARMINI
@@ -325,3 +324,4 @@ AlphabeticalPokedexOrder:
 	dw YANMEGA
 	dw ZAPDOS
 	dw ZUBAT
+	dw ZWEILOUS

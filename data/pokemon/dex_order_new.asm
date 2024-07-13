@@ -10,9 +10,9 @@ NewPokedexOrder:
 	dw GIBLE
 	dw GABITE
 	dw GARCHOMP
-	dw BAGON
-	dw SHELGON
-	dw SALAMENCE
+	dw DEINO
+	dw ZWEILOUS
+	dw HYDREIGON
 	dw SNORUNT
 	dw GLALIE
 	dw FROSLASS

@@ -90,4 +90,4 @@ DecorationAttributePokemonNames:
 	dw MURKROW      ; 22
 	dw DRATINI    ; 23
 	dw LARVITAR   ; 24
-	dw SALAMENCE
+	dw HYDREIGON

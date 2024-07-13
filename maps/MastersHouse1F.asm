@@ -145,8 +145,8 @@ DratiniPokeballScript:
 	sjump RivalLarvitarScript
 
 ChooseBagon:
-	pokepic BAGON
-	cry BAGON
+	pokepic DEINO
+	cry DEINO
 	waitbutton
 	closepokepic
 	opentext
@@ -158,12 +158,12 @@ ChooseBagon:
 	writetext ChoseBagonText
 	buttonsound
 	waitsfx
-	getmonname STRING_BUFFER_3, BAGON
+	getmonname STRING_BUFFER_3, DEINO
 	writetext RecievedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke BAGON, 5, ORAN_BERRY
+	givepoke DEINO, 5, ORAN_BERRY
 	closetext
 	sjump RivalLarvitarScript
 

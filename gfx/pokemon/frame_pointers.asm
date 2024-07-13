@@ -315,9 +315,9 @@ FramesPointers:
 	dba GibleFrames
 	dba GabiteFrames
 	dba GarchompFrames
-	dba BagonFrames
-	dba ShelgonFrames
-	dba SalamenceFrames
+	dba DeinoFrames
+	dba ZweilousFrames
+	dba HydreigonFrames
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames

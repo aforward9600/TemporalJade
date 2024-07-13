@@ -67,9 +67,9 @@ Icons3:
 	dw GibleIcon
 	dw GabiteIcon
 	dw GarchompIcon
-	dw BagonIcon
-	dw ShelgonIcon
-	dw SalamenceIcon
+	dw DeinoIcon
+	dw ZweilousIcon
+	dw HydreigonIcon
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
@@ -141,11 +141,11 @@ TyranitarIcon:	  INCBIN "gfx/icons/tyranitar.2bpp"
 GibleIcon:        INCBIN "gfx/icons/gible.2bpp"
 GabiteIcon:       INCBIN "gfx/icons/gabite.2bpp"
 GarchompIcon:     INCBIN "gfx/icons/garchomp.2bpp"
-BagonIcon:	      INCBIN "gfx/icons/bagon.2bpp"
-ShelgonIcon:	  INCBIN "gfx/icons/shelgon.2bpp"
-SalamenceIcon:	  INCBIN "gfx/icons/salamence.2bpp"
-LugiaIcon:	      INCBIN "gfx/icons/lugia.2bpp"
-HoOhIcon:	      INCBIN "gfx/icons/ho_oh.2bpp"
-CelebiIcon:	      INCBIN "gfx/icons/celebi.2bpp"
+DeinoIcon:	  INCBIN "gfx/icons/deino.2bpp"
+ZweilousIcon:	  INCBIN "gfx/icons/zweilous.2bpp"
+HydreigonIcon:	  INCBIN "gfx/icons/hydreigon.2bpp"
+LugiaIcon:	  INCBIN "gfx/icons/lugia.2bpp"
+HoOhIcon:	  INCBIN "gfx/icons/ho_oh.2bpp"
+CelebiIcon:	  INCBIN "gfx/icons/celebi.2bpp"
 NownIcon:         INCBIN "gfx/icons/nown.2bpp"
 MissingnoIcon:	  INCBIN "gfx/icons/missingno.2bpp"

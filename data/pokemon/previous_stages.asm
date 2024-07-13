@@ -317,8 +317,8 @@ PreviousEvolutionStage::
 	dw GIBLE
 	dw GABITE
 	dw 0
-	dw BAGON
-	dw SHELGON
+	dw DEINO
+	dw ZWEILOUS
 	dw 0
 	dw 0
 	dw 0

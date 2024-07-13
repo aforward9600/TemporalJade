@@ -317,9 +317,9 @@ OldPokedexOrder:
 	dw GIBLE
 	dw GABITE
 	dw GARCHOMP
-	dw BAGON
-	dw SHELGON
-	dw SALAMENCE
+	dw DEINO
+	dw ZWEILOUS
+	dw HYDREIGON
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI

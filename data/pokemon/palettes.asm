@@ -652,12 +652,12 @@ INCLUDE "gfx/pokemon/gabite/normal.pal"
 INCLUDE "gfx/pokemon/gabite/shiny.pal"
 INCLUDE "gfx/pokemon/garchomp/normal.pal"
 INCLUDE "gfx/pokemon/garchomp/shiny.pal"
-INCBIN "gfx/pokemon/bagon/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/bagon/shiny.pal"
-INCLUDE "gfx/pokemon/shelgon/normal.pal"
-INCLUDE "gfx/pokemon/shelgon/shiny.pal"
-INCBIN "gfx/pokemon/salamence/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/salamence/shiny.pal"
+INCBIN "gfx/pokemon/deino/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/deino/shiny.pal"
+INCBIN "gfx/pokemon/zweilous/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/zweilous/shiny.pal"
+INCBIN "gfx/pokemon/hydreigon/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/hydreigon/shiny.pal"
 INCBIN "gfx/pokemon/lugia/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/lugia/shiny.pal"
 INCBIN "gfx/pokemon/ho_oh/front.gbcpal", middle_colors

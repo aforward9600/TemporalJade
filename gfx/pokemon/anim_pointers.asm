@@ -315,9 +315,9 @@ AnimationPointers:
 	dw GibleAnimation
 	dw GabiteAnimation
 	dw GarchompAnimation
-	dw BagonAnimation
-	dw ShelgonAnimation
-	dw SalamenceAnimation
+	dw DeinoAnimation
+	dw ZweilousAnimation
+	dw HydreigonAnimation
 	dw LugiaAnimation
 	dw HoOhAnimation
 	dw CelebiAnimation

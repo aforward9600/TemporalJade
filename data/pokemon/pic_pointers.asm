@@ -645,12 +645,12 @@ PokemonPicPointers::
 	dba GabiteBackpic
 	dba GarchompFrontpic
 	dba GarchompBackpic
-	dba BagonFrontpic
-	dba BagonBackpic
-	dba ShelgonFrontpic
-	dba ShelgonBackpic
-	dba SalamenceFrontpic
-	dba SalamenceBackpic
+	dba DeinoFrontpic
+	dba DeinoBackpic
+	dba ZweilousFrontpic
+	dba ZweilousBackpic
+	dba HydreigonFrontpic
+	dba HydreigonBackpic
 	dba LugiaFrontpic
 	dba LugiaBackpic
 	dba HoOhFrontpic

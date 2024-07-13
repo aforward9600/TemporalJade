@@ -316,9 +316,9 @@ PokedexDataPointerTable:
 	dba GiblePokedexEntry
 	dba GabitePokedexEntry
 	dba GarchompPokedexEntry
-	dba BagonPokedexEntry
-	dba ShelgonPokedexEntry
-	dba SalamencePokedexEntry
+	dba DeinoPokedexEntry
+	dba ZweilousPokedexEntry
+	dba HydreigonPokedexEntry
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry

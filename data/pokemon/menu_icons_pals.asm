@@ -327,9 +327,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   PINK   ; GIBLE
 	icon_pals BLUE,   PINK   ; GABITE
 	icon_pals BLUE,   PINK   ; GARCHOMP
-	icon_pals BLUE,   PINK   ; BAGON
-	icon_pals BLUE,   PINK   ; SHELGON
-	icon_pals BLUE,   PINK   ; SALAMENCE
+	icon_pals BLUE,   GREEN  ; DEINO
+	icon_pals BLUE,   GREEN  ; ZWEILOUS
+	icon_pals BLUE,   GREEN  ; HYDREIGON
 	icon_pals BLUE,   RED    ; LUGIA
 	icon_pals RED,    GREEN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI

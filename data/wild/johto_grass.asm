@@ -1899,28 +1899,28 @@ JohtoGrassWildMons:
 	dbw 20, LARVITAR
 	dbw 40, DRAGONAIR
 	dbw 40, PUPITAR
-	dbw 25, BAGON
-	dbw 25, BAGON
-	dbw 25, BAGON
-	dbw 50, SHELGON
+	dbw 25, DEINO
+	dbw 25, DEINO
+	dbw 25, DEINO
+	dbw 50, ZWEILOUS
 	; day
 	dbw 20, DRATINI
 	dbw 20, LARVITAR
 	dbw 40, DRAGONAIR
 	dbw 40, PUPITAR
-	dbw 25, BAGON
-	dbw 25, BAGON
-	dbw 25, BAGON
-	dbw 50, SHELGON
+	dbw 25, DEINO
+	dbw 25, DEINO
+	dbw 25, DEINO
+	dbw 50, ZWEILOUS
 	; nite
 	dbw 20, DRATINI
 	dbw 20, LARVITAR
 	dbw 40, DRAGONAIR
 	dbw 40, PUPITAR
-	dbw 25, BAGON
-	dbw 25, BAGON
-	dbw 25, BAGON
-	dbw 50, SHELGON
+	dbw 25, DEINO
+	dbw 25, DEINO
+	dbw 25, DEINO
+	dbw 50, ZWEILOUS
 
 	map_id ROUTE_47
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite

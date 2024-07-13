@@ -13,7 +13,7 @@ GiveDratini:
 	ld a, [bc]
 	ld c, a
 	push hl
-	ld hl, BAGON
+	ld hl, DEINO
 	call GetPokemonIDFromIndex
 	pop hl
 	ld b, a

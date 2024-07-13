@@ -321,15 +321,11 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_F,   $f26,  $0c0 ; GIBLE
 	mon_cry CRY_NIDORAN_F,   $e15,  $200 ; GABITE
 	mon_cry CRY_RAICHU,      $f1f,  $130 ; GARCHOMP
-	mon_cry CRY_NIDORAN_F,   $f26,  $0c0 ; BAGON
-	mon_cry CRY_NIDORAN_F,   $e15,  $200 ; SHELGON
-	mon_cry CRY_RAICHU,      $f1f,  $130 ; SALAMENCE
+	mon_cry CRY_METAPOD,     $094,  $100 ; DEINO
+	mon_cry CRY_VULPIX,     -$0ee,  $090 ; ZWEILOUS
+	mon_cry CRY_HYDREIGON,   $000,  $0f4 ; HYDREIGON
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
 	mon_cry CRY_HOOTHOOT,    $162,  $100 ; NOWN
 	mon_cry CRY_DROWZEE,     $000,  $000 ; MISSINGNO
-
-;	mon_cry CRY_METAPOD,     $094,  $100 ; DEINO
-;	mon_cry CRY_VULPIX,     -$0ee,  $090 ; ZWEILOUS
-;	mon_cry CRY_HYDREIGON,   $000,  $0f4 ; HYDREIGON

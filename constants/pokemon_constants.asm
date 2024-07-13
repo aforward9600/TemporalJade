@@ -336,9 +336,9 @@ JOHTO_POKEMON EQU const_value
 	const GIBLE
 	const GABITE
 	const GARCHOMP
-	const BAGON      ; f9
-	const SHELGON    ; fa
-	const SALAMENCE  ; fb
+	const DEINO
+	const ZWEILOUS
+	const HYDREIGON
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb

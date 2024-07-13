@@ -133,17 +133,19 @@ Back sprite: leParagon
 Regidrago front sprite: CyndArts
 Back sprite: leParagon
 
+PotatoCheep: Zweilous and Hydreigon front sprites.
+
 Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
 Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
 Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty sprites
 
-Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
+Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
 Basculin, Karrablast and Escavalier animations:
 PokeMMO Generation 2 Sprites Mod
 
-Petil and Lilligant sprites, Deino, Zweilous, Hydreigon, Haxorus,
+Petil and Lilligant sprites, Haxorus,
 various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
 Ein trainer sprite: Sindorman

@@ -315,9 +315,9 @@ BitmasksPointers:
 	dw GibleBitmasks
 	dw GabiteBitmasks
 	dw GarchompBitmasks
-	dw BagonBitmasks
-	dw ShelgonBitmasks
-	dw SalamenceBitmasks
+	dw DeinoBitmasks
+	dw ZweilousBitmasks
+	dw HydreigonBitmasks
 	dw LugiaBitmasks
 	dw HoOhBitmasks
 	dw CelebiBitmasks

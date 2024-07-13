@@ -229,16 +229,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, BAGON
+	getmonname STRING_BUFFER_3, DEINO
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	loadmonindex 3, BAGON
+	loadmonindex 3, DEINO
 	special GameCornerPrizeMonCheckDex
-	givepoke BAGON, 15
+	givepoke DEINO, 15
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 
@@ -253,7 +253,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db 4 ; items
 	db "Bronzor     800@"
 	db "Cubone     1500@"
-	db "Bagon      3000@"
+	db "Deino      3000@"
 	db "Cancel@"
 
 .CannotGetPrize:
