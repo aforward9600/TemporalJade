@@ -68,9 +68,9 @@ BitmasksPointers:
 	dw PoliwhirlBitmasks
 	dw PoliwrathBitmasks
 	dw PolitoedBitmasks
-	dw AbraBitmasks
-	dw KadabraBitmasks
-	dw AlakazamBitmasks
+	dw SolosisBitmasks
+	dw DuosionBitmasks
+	dw ReuniclusBitmasks
 	dw MachopBitmasks
 	dw MachokeBitmasks
 	dw MachampBitmasks

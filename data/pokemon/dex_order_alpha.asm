@@ -1,13 +1,11 @@
 ; Every Pokémon sorted alphabetically by name.
 
 AlphabeticalPokedexOrder:
-	dw ABRA
 	dw ABSOL
 	dw ACCELGOR
 	dw AERODACTYL
 	dw AGGRON
 	dw AIPOM
-	dw ALAKAZAM
 	dw ALTARIA
 	dw AMBIPOM
 	dw AMPHAROS
@@ -66,6 +64,7 @@ AlphabeticalPokedexOrder:
 	dw DROWZEE
 	dw DUDUNSPARS
 	dw DUNSPARCE
+	dw DUOSION
 	dw DUSCLOPS
 	dw DUSKNOIR
 	dw DUSKULL
@@ -131,7 +130,6 @@ AlphabeticalPokedexOrder:
 	dw JIGGLYPUFF
 	dw JOLTEON
 	dw JYNX
-	dw KADABRA
 	dw KANGASKHAN
 	dw KARRABLAST
 	dw KINGDRA
@@ -235,6 +233,7 @@ AlphabeticalPokedexOrder:
 	dw RALTS
 	dw RAPIDASH
 	dw REMORAID
+	dw REUNICLUS
 	dw RHYDON
 	dw RHYHORN
 	dw RHYPERIOR
@@ -268,6 +267,7 @@ AlphabeticalPokedexOrder:
 	dw SNORLAX
 	dw SNORUNT
 	dw SNUBBULL
+	dw SOLOSIS
 	dw SPEAROW
 	dw STANTLER
 	dw STARMIE

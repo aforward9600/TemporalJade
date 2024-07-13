@@ -2,8 +2,8 @@ FleeMons:
 ; referenced by TryEnemyFlee and FastBallMultiplier
 
 SometimesFleeMons:
-	dw ABRA
-	dw KADABRA
+	dw SOLOSIS
+	dw DUOSION
 	dw SANDYGAST
 	dw PALOSSAND
 	dw MEOWTH

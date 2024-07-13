@@ -68,9 +68,9 @@ FramesPointers:
 	dba PoliwhirlFrames
 	dba PoliwrathFrames
 	dba PolitoedFrames
-	dba AbraFrames
-	dba KadabraFrames
-	dba AlakazamFrames
+	dba SolosisFrames
+	dba DuosionFrames
+	dba ReuniclusFrames
 	dba MachopFrames
 	dba MachokeFrames
 	dba MachampFrames

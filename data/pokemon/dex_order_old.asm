@@ -70,9 +70,9 @@ OldPokedexOrder:
 	dw POLIWHIRL
 	dw POLIWRATH
 	dw POLITOED
-	dw ABRA
-	dw KADABRA
-	dw ALAKAZAM
+	dw SOLOSIS
+	dw DUOSION
+	dw REUNICLUS
 	dw MACHOP
 	dw MACHOKE
 	dw MACHAMP

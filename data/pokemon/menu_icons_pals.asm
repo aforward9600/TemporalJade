@@ -80,9 +80,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; POLIWHIRL
 	icon_pals BLUE,   TEAL   ; POLIWRATH
 	icon_pals GREEN,  TEAL   ; POLITOED
-	icon_pals BROWN,  PURPLE ; ABRA
-	icon_pals BROWN,  PURPLE ; KADABRA
-	icon_pals BROWN,  PURPLE ; ALAKAZAM
+	icon_pals GREEN,  BLUE   ; SOLOSIS
+	icon_pals GREEN,  BLUE   ; DUOSION
+	icon_pals GREEN,  BLUE   ; SOLOSIS
 	icon_pals BROWN,  GRAY   ; MACHOP
 	icon_pals BROWN,  GRAY   ; MACHOKE
 	icon_pals BROWN,  GRAY   ; MACHAMP

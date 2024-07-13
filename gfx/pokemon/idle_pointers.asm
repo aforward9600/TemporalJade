@@ -68,9 +68,9 @@ AnimationIdlePointers:
 	dw PoliwhirlAnimationIdle
 	dw PoliwrathAnimationIdle
 	dw PolitoedAnimationIdle
-	dw AbraAnimationIdle
-	dw KadabraAnimationIdle
-	dw AlakazamAnimationIdle
+	dw SolosisAnimationIdle
+	dw DuosionAnimationIdle
+	dw ReuniclusAnimationIdle
 	dw MachopAnimationIdle
 	dw MachokeAnimationIdle
 	dw MachampAnimationIdle

@@ -70,9 +70,9 @@ EvosAttacksPointers1::
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
 	dw PolitoedEvosAttacks
-	dw AbraEvosAttacks
-	dw KadabraEvosAttacks
-	dw AlakazamEvosAttacks
+	dw SolosisEvosAttacks
+	dw DuosionEvosAttacks
+	dw ReuniclusEvosAttacks
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
@@ -1432,55 +1432,68 @@ PolitoedEvosAttacks:
 	dbw 48, HYPER_VOICE
 	db 0 ; no more level-up moves
 
-AbraEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, KADABRA
+SolosisEvosAttacks:
+	dbbw EVOLVE_LEVEL, 32, SOLOSIS
 	db 0 ; no more evolutions
-	dbw 1, TELEPORT
+	dbw 1, CONFUSION
+	dbw 3, REFLECT
+	dbw 7, ROLLOUT
+	dbw 10, DEFENSE_CURL
+	dbw 14, HIDDEN_POWER
+	dbw 16, LIGHT_SCREEN
+	dbw 19, CHARM
+	dbw 24, RECOVER
+	dbw 25, PSYBEAM
+	dbw 28, DRAININGKISS
+	dbw 31, FUTURE_SIGHT
+	dbw 33, PAIN_SPLIT
+	dbw 37, PSYCHIC_M
+	dbw 40, CALM_MIND
+	dbw 46, MIRROR_COAT
+	dbw 48, EXPLOSION
 	db 0 ; no more level-up moves
 
-KadabraEvosAttacks:
-	dbbw EVOLVE_ITEM, LINK_CABLE, ALAKAZAM
+DuosionEvosAttacks:
+	dbbw EVOLVE_LEVEL, 41, REUNICLUS
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, KINESIS
-	dbw 1, KINESIS
-	dbw 1, TELEPORT
 	dbw 1, CONFUSION
-	dbw 16, CONFUSION
-	dbw 18, DISABLE
-	dbw 21, PSYBEAM
-	dbw 23, HYPNOSIS
-	dbw 26, REFLECT
-	dbw 28, PSYCHO_CUT
-	dbw 31, RECOVER
-	dbw 33, BARRIER
-	dbw 36, EXTRASENSORY
-	dbw 38, PSYCHIC_M
-	dbw 41, DREAM_EATER
-	dbw 43, FUTURE_SIGHT
-	dbw 46, NASTY_PLOT
+	dbw 3, REFLECT
+	dbw 7, ROLLOUT
+	dbw 10, DEFENSE_CURL
+	dbw 14, HIDDEN_POWER
+	dbw 16, LIGHT_SCREEN
+	dbw 19, CHARM
+	dbw 24, RECOVER
+	dbw 25, PSYBEAM
+	dbw 28, DRAININGKISS
+	dbw 31, FUTURE_SIGHT
+	dbw 34, PAIN_SPLIT
+	dbw 39, PSYCHIC_M
+	dbw 43, CALM_MIND
+	dbw 50, MIRROR_COAT
+	dbw 53, EXPLOSION
 	db 0 ; no more level-up moves
 
-AlakazamEvosAttacks:
+ReuniclusEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, CALM_MIND
-	dbw 1, CALM_MIND
-	dbw 1, KINESIS
-	dbw 1, TELEPORT
+	dbw LEARN_EVO_MOVE, DIZZY_PUNCH
+	dbw 1, DIZZY_PUNCH
 	dbw 1, CONFUSION
-	dbw 16, KINESIS
-	dbw 16, CONFUSION
-	dbw 18, DISABLE
-	dbw 21, PSYBEAM
-	dbw 23, HYPNOSIS
-	dbw 26, REFLECT
-	dbw 28, PSYCHO_CUT
-	dbw 31, RECOVER
-	dbw 33, BARRIER
-	dbw 36, EXTRASENSORY
-	dbw 38, PSYCHIC_M
-	dbw 41, DREAM_EATER
-	dbw 43, FUTURE_SIGHT
-	dbw 46, NASTY_PLOT
+	dbw 3, REFLECT
+	dbw 7, ROLLOUT
+	dbw 10, DEFENSE_CURL
+	dbw 14, HIDDEN_POWER
+	dbw 16, LIGHT_SCREEN
+	dbw 19, CHARM
+	dbw 24, RECOVER
+	dbw 25, PSYBEAM
+	dbw 28, DRAININGKISS
+	dbw 31, FUTURE_SIGHT
+	dbw 34, PAIN_SPLIT
+	dbw 39, PSYCHIC_M
+	dbw 45, CALM_MIND
+	dbw 54, MIRROR_COAT
+	dbw 59, EXPLOSION
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:

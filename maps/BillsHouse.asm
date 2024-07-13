@@ -107,8 +107,8 @@ BillsGrandpa:
 
 BillsHouseAbra:
 	refreshscreen
-	pokepic ABRA
-	cry ABRA
+	pokepic SOLOSIS
+	cry SOLOSIS
 	waitbutton
 	closepokepic
 	opentext
@@ -263,4 +263,4 @@ BillsHouse_MapEvents:
 
 	db 2 ; object events
 	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BillsGrandpa, -1
-	object_event  4,  1, SPRITE_ABRA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BillsHouseAbra, -1
+	object_event  4,  1, SPRITE_SOLOSIS, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BillsHouseAbra, -1

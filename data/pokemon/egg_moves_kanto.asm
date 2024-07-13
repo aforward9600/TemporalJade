@@ -70,7 +70,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw AbraEggMoves
+	dw SolosisEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw MachopEggMoves
@@ -420,10 +420,11 @@ PoliwagEggMoves:
 	dw WATER_PULSE
 	dw -1 ; end
 
-AbraEggMoves:
-	dw ENCORE
-	dw BARRIER
-	dw KNOCK_OFF
+SolosisEggMoves:
+	dw ACID_ARMOR
+	dw ASTONISH
+	dw CONFUSE_RAY
+	dw NIGHT_SHADE
 	dw -1 ; end
 
 MachopEggMoves:

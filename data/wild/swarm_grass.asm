@@ -504,29 +504,29 @@ SwarmGrassWildMons:
 	dbw 27, DITTO
 	dbw 27, DITTO
 	dbw 27, YANMA
-	dbw 27, KADABRA
+	dbw 27, DUOSION
 	dbw 27, JIGGLYPUFF
 	dbw 27, YANMA
-	dbw 27, KADABRA
-	dbw 27, KADABRA
+	dbw 27, DUOSION
+	dbw 27, DUOSION
 	; day
 	dbw 27, DITTO
 	dbw 27, DITTO
 	dbw 27, YANMA
-	dbw 27, KADABRA
+	dbw 27, DUOSION
 	dbw 27, JIGGLYPUFF
 	dbw 27, YANMA
-	dbw 27, KADABRA
-	dbw 27, KADABRA
+	dbw 27, DUOSION
+	dbw 27, DUOSION
 	; nite
 	dbw 27, DITTO
 	dbw 27, DITTO
 	dbw 27, YANMA
-	dbw 27, KADABRA
+	dbw 27, DUOSION
 	dbw 27, JIGGLYPUFF
 	dbw 27, YANMA
-	dbw 27, KADABRA
-	dbw 27, KADABRA
+	dbw 27, DUOSION
+	dbw 27, DUOSION
 
 	map_id ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

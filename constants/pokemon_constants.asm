@@ -88,9 +88,9 @@
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
 	const POLITOED   ; ba
-	const ABRA       ; 3f
-	const KADABRA    ; 40
-	const ALAKAZAM   ; 41
+	const SOLOSIS    ; 3f
+	const DUOSION    ; 40
+	const REUNICLUS  ; 41
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44

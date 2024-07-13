@@ -310,27 +310,27 @@ KantoGrassWildMons:
 	dbw 68, SCOLIPEDE
 	dbw 68, JIGGLYPUFF
 	dbw 68, WIGGLYTUFF
-	dbw 68, KADABRA
-	dbw 68, KADABRA
-	dbw 68, ALAKAZAM
+	dbw 68, DUOSION
+	dbw 68, DUOSION
+	dbw 68, REUNICLUS
 	; day
 	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
 	dbw 68, SCOLIPEDE
 	dbw 68, JIGGLYPUFF
 	dbw 68, WIGGLYTUFF
-	dbw 68, KADABRA
-	dbw 68, KADABRA
-	dbw 68, ALAKAZAM
+	dbw 68, DUOSION
+	dbw 68, DUOSION
+	dbw 68, REUNICLUS
 	; nite
 	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
 	dbw 68, SCOLIPEDE
 	dbw 68, JIGGLYPUFF
 	dbw 68, WIGGLYTUFF
-	dbw 68, KADABRA
-	dbw 68, KADABRA
-	dbw 68, ALAKAZAM
+	dbw 68, DUOSION
+	dbw 68, DUOSION
+	dbw 68, REUNICLUS
 
 	map_id ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -370,27 +370,27 @@ KantoGrassWildMons:
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
-	dbw 69, KADABRA
-	dbw 69, KADABRA
-	dbw 69, ALAKAZAM
+	dbw 69, DUOSION
+	dbw 69, DUOSION
+	dbw 69, REUNICLUS
 	; day
 	dbw 69, RIBOMBEE
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
-	dbw 69, KADABRA
-	dbw 69, KADABRA
-	dbw 69, ALAKAZAM
+	dbw 69, DUOSION
+	dbw 69, DUOSION
+	dbw 69, REUNICLUS
 	; nite
 	dbw 69, MURKROW
 	dbw 69, HONCHKROW
 	dbw 69, HOUNDOOM
 	dbw 69, PERSIAN
 	dbw 69, JIGGLYPUFF
-	dbw 69, KADABRA
-	dbw 69, KADABRA
-	dbw 69, ALAKAZAM
+	dbw 69, DUOSION
+	dbw 69, DUOSION
+	dbw 69, REUNICLUS
 
 	map_id ROUTE_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -400,27 +400,27 @@ KantoGrassWildMons:
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
-	dbw 69, KADABRA
-	dbw 69, KADABRA
-	dbw 69, ALAKAZAM
+	dbw 69, DUOSION
+	dbw 69, DUOSION
+	dbw 69, REUNICLUS
 	; day
 	dbw 69, RIBOMBEE
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
 	dbw 69, JIGGLYPUFF
-	dbw 69, KADABRA
-	dbw 69, KADABRA
-	dbw 69, ALAKAZAM
+	dbw 69, DUOSION
+	dbw 69, DUOSION
+	dbw 69, REUNICLUS
 	; nite
 	dbw 69, MURKROW
 	dbw 69, HONCHKROW
 	dbw 69, HOUNDOOM
 	dbw 69, HAUNTER
 	dbw 69, JIGGLYPUFF
-	dbw 69, KADABRA
-	dbw 69, KADABRA
-	dbw 69, ALAKAZAM
+	dbw 69, DUOSION
+	dbw 69, DUOSION
+	dbw 69, REUNICLUS
 
 	map_id ROUTE_9
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -758,7 +758,7 @@ KantoGrassWildMons:
 	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
-	dbw 68, KADABRA
+	dbw 68, DUOSION
 	dbw 68, TOUCANNON
 	dbw 68, TOUCANNON
 	dbw 68, TOUCANNON
@@ -767,7 +767,7 @@ KantoGrassWildMons:
 	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
-	dbw 68, KADABRA
+	dbw 68, DUOSION
 	dbw 68, TOUCANNON
 	dbw 68, TOUCANNON
 	dbw 68, TOUCANNON
@@ -776,7 +776,7 @@ KantoGrassWildMons:
 	dbw 68, VENOMOTH
 	dbw 68, ACCELGOR
 	dbw 68, WHIMSICOTT
-	dbw 68, KADABRA
+	dbw 68, DUOSION
 	dbw 68, ACCELGOR
 	dbw 68, ACCELGOR
 	dbw 68, ACCELGOR
@@ -788,7 +788,7 @@ KantoGrassWildMons:
 	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
-	dbw 68, KADABRA
+	dbw 68, DUOSION
 	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	dbw 2, TEPIG
@@ -797,7 +797,7 @@ KantoGrassWildMons:
 	dbw 68, STOUTLAND
 	dbw 68, TOUCANNON
 	dbw 68, WEEPINBELL
-	dbw 68, KADABRA
+	dbw 68, DUOSION
 	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	dbw 2, TEPIG
@@ -806,7 +806,7 @@ KantoGrassWildMons:
 	dbw 68, VENOMOTH
 	dbw 68, ACCELGOR
 	dbw 68, WHIMSICOTT
-	dbw 68, KADABRA
+	dbw 68, DUOSION
 	dbw 68, ACCELGOR
 	dbw 68, PETILIL
 	dbw 2, TEPIG

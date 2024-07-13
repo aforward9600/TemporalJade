@@ -198,9 +198,9 @@ NewPokedexOrder:
 	dw TOGEPI
 	dw TOGETIC
 	dw TOGEKISS
-	dw ABRA
-	dw KADABRA
-	dw ALAKAZAM
+	dw SOLOSIS
+	dw DUOSION
+	dw REUNICLUS
 	dw MACHOP
 	dw MACHOKE
 	dw MACHAMP

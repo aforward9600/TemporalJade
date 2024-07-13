@@ -71,9 +71,9 @@ Icons1:
 	dw PoliwhirlIcon
 	dw PoliwrathIcon
 	dw PolitoedIcon
-	dw AbraIcon
-	dw KadabraIcon
-	dw AlakazamIcon
+	dw SolosisIcon
+	dw DuosionIcon
+	dw ReuniclusIcon
 	dw MachopIcon
 	dw MachokeIcon
 	dw MachampIcon
@@ -198,9 +198,9 @@ PoliwagIcon:      INCBIN "gfx/icons/poliwag.2bpp"
 PoliwhirlIcon:    INCBIN "gfx/icons/poliwhirl.2bpp"
 PoliwrathIcon:    INCBIN "gfx/icons/poliwrath.2bpp"
 PolitoedIcon:     INCBIN "gfx/icons/politoed.2bpp"
-AbraIcon:         INCBIN "gfx/icons/abra.2bpp"
-KadabraIcon:      INCBIN "gfx/icons/kadabra.2bpp"
-AlakazamIcon:     INCBIN "gfx/icons/alakazam.2bpp"
+SolosisIcon:      INCBIN "gfx/icons/solosis.2bpp"
+DuosionIcon:      INCBIN "gfx/icons/duosion.2bpp"
+ReuniclusIcon:    INCBIN "gfx/icons/reuniclus.2bpp"
 MachopIcon:       INCBIN "gfx/icons/machop.2bpp"
 MachokeIcon:      INCBIN "gfx/icons/machoke.2bpp"
 MachampIcon:      INCBIN "gfx/icons/machamp.2bpp"

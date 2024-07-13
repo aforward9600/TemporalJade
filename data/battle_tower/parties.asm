@@ -582,7 +582,7 @@ BattleTowerMons2:
 	bigdw 37 ; SDef
 	db "HAGANE-RU@@"
 
-	dw KADABRA
+	dw DUOSION
 	db TWISTEDSPOON
 	dw PSYCHIC_M, PSYCH_UP, TOXIC, DAZZLINGLEAM
 
@@ -1577,7 +1577,7 @@ BattleTowerMons4:
 	bigdw 65 ; SDef
 	db "HAGANE-RU@@"
 
-	dw ALAKAZAM
+	dw REUNICLUS
 	db KINGS_ROCK
 if DEF(_FAITHFUL)
 	dw PSYCHIC_M, THUNDERPUNCH, RECOVER, FIRE_PUNCH

@@ -64,7 +64,7 @@ SpriteMons:
 	dw MACHAMP
 	dw IGGLYBUFF
 	dw QUAGSIRE
-	dw ABRA
+	dw SOLOSIS
 	dw MISSINGNO
 	dw MEWTWO
 	dw CHANSEY

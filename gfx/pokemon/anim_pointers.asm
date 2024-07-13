@@ -68,9 +68,9 @@ AnimationPointers:
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation
 	dw PolitoedAnimation
-	dw AbraAnimation
-	dw KadabraAnimation
-	dw AlakazamAnimation
+	dw SolosisAnimation
+	dw DuosionAnimation
+	dw ReuniclusAnimation
 	dw MachopAnimation
 	dw MachokeAnimation
 	dw MachampAnimation

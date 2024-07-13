@@ -148,12 +148,12 @@ PokemonPicPointers::
 	dba PoliwrathBackpic
 	dba PolitoedFrontpic
 	dba PolitoedBackpic
-	dba AbraFrontpic
-	dba AbraBackpic
-	dba KadabraFrontpic
-	dba KadabraBackpic
-	dba AlakazamFrontpic
-	dba AlakazamBackpic
+	dba SolosisFrontpic
+	dba SolosisBackpic
+	dba DuosionFrontpic
+	dba DuosionBackpic
+	dba ReuniclusFrontpic
+	dba ReuniclusBackpic
 	dba MachopFrontpic
 	dba MachopBackpic
 	dba MachokeFrontpic

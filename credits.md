@@ -145,7 +145,7 @@ Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor,
 Basculin, Karrablast and Escavalier animations:
 PokeMMO Generation 2 Sprites Mod
 
-Petil and Lilligant sprites, Haxorus,
+Solosis, Duosion, Reuniclus, Petil and Lilligant sprites, Haxorus,
 various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
 Ein trainer sprite: Sindorman

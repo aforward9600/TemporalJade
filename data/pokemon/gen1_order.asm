@@ -36,7 +36,7 @@ Pokered_MonIndices:
 	db FEAROW
 	db VENIPEDE
 	db SLOWPOKE
-	db KADABRA
+	db DUOSION
 	db GRAVELER
 	db CHANSEY
 	db MACHOKE
@@ -146,8 +146,8 @@ Pokered_MonIndices:
 	db MAROWAK
 	db BLISSEY ; MISSINGNO.
 	db HAUNTER
-	db ABRA
-	db ALAKAZAM
+	db SOLOSIS
+	db REUNICLUS
 	db WHIRLIPEDE
 	db SCOLIPEDE
 	db STARMIE

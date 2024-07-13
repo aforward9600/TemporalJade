@@ -70,8 +70,8 @@ PreviousEvolutionStage::
 	dw POLIWHIRL
 	dw POLIWHIRL
 	dw 0
-	dw ABRA       ;40
-	dw KADABRA
+	dw SOLOSIS      ;40
+	dw DUOSION
 	dw 0
 	dw MACHOP
 	dw MACHOKE

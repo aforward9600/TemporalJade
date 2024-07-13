@@ -74,9 +74,9 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,      $000,  $17f ; POLIWRATH
 	mon_cry CRY_CLEFFA,     -$2a3,  $1c8 ; POLITOED
-	mon_cry CRY_METAPOD,     $0c0,  $081 ; ABRA
-	mon_cry CRY_METAPOD,     $0a8,  $140 ; KADABRA
-	mon_cry CRY_METAPOD,     $098,  $17f ; ALAKAZAM
+	mon_cry CRY_EKANS,       $200,  $090 ; SOLOSIS
+	mon_cry CRY_AMPHAROS,    $185,  $184 ; DUOSION
+	mon_cry CRY_AMPHAROS,    $233,  $190 ; REUNICLUS
 	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; MACHOP
 	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; MACHOKE
 	mon_cry CRY_GROWLITHE,   $008,  $140 ; MACHAMP

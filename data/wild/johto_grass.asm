@@ -1181,8 +1181,8 @@ JohtoGrassWildMons:
 	dbw 8, MANKEY
 	dbw 8, MANKEY
 	dbw 8, LITWICK
-	dbw 8, ABRA
-	dbw 8, ABRA
+	dbw 8, SOLOSIS
+	dbw 8, SOLOSIS
 	; day
 	dbw 8, LILLIPUP
 	dbw 8, PIKIPEK
@@ -1190,8 +1190,8 @@ JohtoGrassWildMons:
 	dbw 8, MANKEY
 	dbw 8, MANKEY
 	dbw 8, LITWICK
-	dbw 8, ABRA
-	dbw 8, ABRA
+	dbw 8, SOLOSIS
+	dbw 8, SOLOSIS
 	; nite
 	dbw 8, LILLIPUP
 	dbw 8, PIKIPEK
@@ -1298,7 +1298,7 @@ JohtoGrassWildMons:
 	dbw 27, SNUBBULL
 	dbw 27, WHIRLIPEDE
 	dbw 27, GROWLITHE
-	dbw 27, KADABRA
+	dbw 27, DUOSION
 	dbw 27, JIGGLYPUFF
 	dbw 27, DITTO
 	dbw 27, YANMA
@@ -1307,7 +1307,7 @@ JohtoGrassWildMons:
 	dbw 27, SNUBBULL
 	dbw 27, WHIRLIPEDE
 	dbw 27, GROWLITHE
-	dbw 27, KADABRA
+	dbw 27, DUOSION
 	dbw 27, JIGGLYPUFF
 	dbw 27, DITTO
 	dbw 27, YANMA
@@ -1316,7 +1316,7 @@ JohtoGrassWildMons:
 	dbw 27, DROWZEE
 	dbw 27, NOCTOWL
 	dbw 27, PSYDUCK
-	dbw 27, KADABRA
+	dbw 27, DUOSION
 	dbw 27, JIGGLYPUFF
 	dbw 27, DITTO
 	dbw 27, YANMA
@@ -1446,7 +1446,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw  7, PICHU
-	dbw  7, ABRA
+	dbw  7, SOLOSIS
 	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
 	dbw  7, NATU
@@ -1455,7 +1455,7 @@ JohtoGrassWildMons:
 	dbw  7, ELEKID
 	; day
 	dbw  7, PICHU
-	dbw  7, ABRA
+	dbw  7, SOLOSIS
 	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
 	dbw  7, NATU
@@ -1464,7 +1464,7 @@ JohtoGrassWildMons:
 	dbw  7, ELEKID
 	; nite
 	dbw  7, PICHU
-	dbw  7, ABRA
+	dbw  7, SOLOSIS
 	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
 	dbw  7, NATU

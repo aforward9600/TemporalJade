@@ -69,9 +69,9 @@ PokedexDataPointerTable:
 	dba PoliwhirlPokedexEntry
 	dba PoliwrathPokedexEntry
 	dba PolitoedPokedexEntry
-	dba AbraPokedexEntry
-	dba KadabraPokedexEntry
-	dba AlakazamPokedexEntry
+	dba SolosisPokedexEntry
+	dba DuosionPokedexEntry
+	dba ReuniclusPokedexEntry
 	dba MachopPokedexEntry
 	dba MachokePokedexEntry
 	dba MachampPokedexEntry
