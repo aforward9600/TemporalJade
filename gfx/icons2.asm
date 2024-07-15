@@ -123,7 +123,7 @@ Icons2:
 	dw SnubbullIcon
 	dw GranbullIcon
 	dw QwilfishIcon
-	dw ShuckleIcon
+	dw OverqwilIcon
 	dw HeracrossIcon
 	dw SneaselIcon
 	dw WeavileIcon
@@ -250,7 +250,7 @@ GliscorIcon:      INCBIN "gfx/icons/gliscor.2bpp"
 SnubbullIcon:     INCBIN "gfx/icons/snubbull.2bpp"
 GranbullIcon:	  INCBIN "gfx/icons/granbull.2bpp"
 QwilfishIcon:     INCBIN "gfx/icons/qwilfish.2bpp"
-ShuckleIcon:      INCBIN "gfx/icons/shuckle.2bpp"
+OverqwilIcon:     INCBIN "gfx/icons/overqwil.2bpp"
 HeracrossIcon:    INCBIN "gfx/icons/heracross.2bpp"
 SneaselIcon:	  INCBIN "gfx/icons/sneasel.2bpp"
 WeavileIcon:	  INCBIN "gfx/icons/weavile.2bpp"

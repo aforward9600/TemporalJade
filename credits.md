@@ -62,7 +62,7 @@ Move Steel Slice: Mskd.
 Rangi and the Polished Crystal team for Route 47 and 48 maps, Cherry Tree and the Town Map expansion and many overworld sprites,
 Wynaut sprites and animations, Yanmega back sprite.
 
-Ambipom back sprite, Annihilape sprite, Regional forms: ShadowOne333
+Ambipom back sprite, Annihilape sprite, Overqwil, Regional forms: ShadowOne333
 
 Annihilape sprite: Sea and ShadowOne333
 

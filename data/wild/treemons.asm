@@ -128,7 +128,7 @@ TreeMonSet_Rock:
 	dbbw 50, 15, GEODUDE
 	dbbw 20, 15, CORPHISH
 	dbbw 20, 15, BONSLY
-	dbbw 10, 15, SHUCKLE
+	dbbw 10, 15, BONSLY
 	db -1
 
 TreeMonSet_Route_47:

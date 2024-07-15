@@ -246,7 +246,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw SNUBBULL
 	dw 0
-	dw 0
+	dw QWILFISH
 	dw 0
 	dw 0
 	dw SNEASEL

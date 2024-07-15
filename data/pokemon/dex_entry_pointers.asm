@@ -246,7 +246,7 @@ PokedexDataPointerTable:
 	dba SnubbullPokedexEntry
 	dba GranbullPokedexEntry
 	dba QwilfishPokedexEntry
-	dba ShucklePokedexEntry
+	dba OverqwilPokedexEntry
 	dba HeracrossPokedexEntry
 	dba SneaselPokedexEntry
 	dba WeavilePokedexEntry

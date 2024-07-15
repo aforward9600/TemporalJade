@@ -505,8 +505,8 @@ PokemonPicPointers::
 	dba GranbullBackpic
 	dba QwilfishFrontpic
 	dba QwilfishBackpic
-	dba ShuckleFrontpic
-	dba ShuckleBackpic
+	dba OverqwilFrontpic
+	dba OverqwilBackpic
 	dba HeracrossFrontpic
 	dba HeracrossBackpic
 	dba SneaselFrontpic

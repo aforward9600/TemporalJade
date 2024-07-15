@@ -95,7 +95,7 @@ EvosAttacksPointers2::
 	dw SnubbullEvosAttacks
 	dw GranbullEvosAttacks
 	dw QwilfishEvosAttacks
-	dw ShuckleEvosAttacks
+	dw OverqwilEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselEvosAttacks
 	dw WeavileEvosAttacks
@@ -2170,6 +2170,7 @@ GranbullEvosAttacks:
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:
+	dbbw EVOLVE_HAPPINESS, TR_EVENITE, OVERQWIL
 	db 0 ; no more evolutions
 	dbw 1, SPIKES
 	dbw 1, TACKLE
@@ -2189,6 +2190,29 @@ QwilfishEvosAttacks:
 	dbw 49, POISON_JAB
 	dbw 53, DESTINY_BOND
 	dbw 57, WAVE_CRASH
+	dbw 60, GUNK_SHOT
+	db 0 ; no more level-up moves
+
+OverqwilEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SPIKES
+	dbw 1, TACKLE
+	dbw 1, POISON_STING
+	dbw 1, WATER_GUN
+	dbw 9, HARDEN
+	dbw 9, MINIMIZE
+	dbw 13, BITE
+	dbw 17, ROLLOUT
+	dbw 21, TOXIC
+	dbw 25, DEFENSE_CURL
+	dbw 29, REVENGE
+	dbw 33, CRUNCH
+	dbw 37, PIN_MISSILE
+	dbw 41, TAKE_DOWN
+	dbw 45, KNOCK_OFF
+	dbw 49, POISON_JAB
+	dbw 53, DESTINY_BOND
+	dbw 57, CATASTROPHE
 	dbw 60, GUNK_SHOT
 	db 0 ; no more level-up moves
 

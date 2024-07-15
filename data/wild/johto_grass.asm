@@ -1870,7 +1870,7 @@ JohtoGrassWildMons:
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
 	dbw 15, LITWICK
-	dbw 15, SHUCKLE
+	dbw 15, OVERQWIL
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
 	; day
@@ -1879,7 +1879,7 @@ JohtoGrassWildMons:
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
 	dbw 15, LITWICK
-	dbw 15, SHUCKLE
+	dbw 15, OVERQWIL
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
 	; nite
@@ -1888,7 +1888,7 @@ JohtoGrassWildMons:
 	dbw 15, SUNKERN
 	dbw 15, TANGELA
 	dbw 15, LITWICK
-	dbw 15, SHUCKLE
+	dbw 15, OVERQWIL
 	dbw 15, CACNEA
 	dbw 15, ROSELIA
 

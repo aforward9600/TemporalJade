@@ -1,5 +1,4 @@
 GivePokerusAndConvertBerries:
-	call ConvertBerriesToBerryJuice
 	ld hl, wPartyMon1PokerusStatus
 	ld a, [wPartyCount]
 	ld b, a
@@ -130,7 +129,7 @@ ConvertBerriesToBerryJuice:
 	call Random
 	cp 6 percent + 1 ; 1/16 chance
 	ret nc
-	ld hl, SHUCKLE
+	ld hl, OVERQWIL
 	call GetPokemonIDFromIndex
 	ld [wTempSpecies], a
 	ld hl, wPartyMons

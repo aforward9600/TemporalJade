@@ -257,7 +257,7 @@ MonMenuIconPals:
 	icon_pals PINK,   BLUE   ; SNUBBULL
 	icon_pals PURPLE, TEAL   ; GRANBULL
 	icon_pals BLUE,   RED    ; QWILFISH
-	icon_pals RED,    BLUE   ; SHUCKLE
+	icon_pals PURPLE, BLUE   ; OVERQWIL
 	icon_pals BLUE,   PURPLE ; HERACROSS
 	icon_pals RED,    PINK   ; SNEASEL
 	icon_pals RED,    PINK   ; WEAVILE

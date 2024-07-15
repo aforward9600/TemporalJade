@@ -200,6 +200,7 @@ AlphabeticalPokedexOrder:
 	dw OCTILLERY
 	dw ONIX
 	dw ORTHWORM
+	dw OVERQWIL
 	dw PALOSSAND
 	dw PARAS
 	dw PARASECT
@@ -252,7 +253,6 @@ AlphabeticalPokedexOrder:
 	dw SEEL
 	dw SENTRET
 	dw SHELMET
-	dw SHUCKLE
 	dw SIRFETCH_D
 	dw SKARMINI
 	dw SKARMORY

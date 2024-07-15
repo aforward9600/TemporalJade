@@ -249,7 +249,7 @@ PokemonNames::
 	db "Snubbull@@"
 	db "Granbull@@"
 	db "Qwilfish@@"
-	db "Shuckle@@@"
+	db "Overqwil@@"
 	db "Heracross@"
 	db "Sneasel@@@"
 	db "Weavile@@@"

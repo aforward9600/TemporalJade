@@ -245,7 +245,7 @@ AnimationPointers:
 	dw SnubbullAnimation
 	dw GranbullAnimation
 	dw QwilfishAnimation
-	dw ShuckleAnimation
+	dw OverqwilAnimation
 	dw HeracrossAnimation
 	dw SneaselAnimation
 	dw WeavileAnimation

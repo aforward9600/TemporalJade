@@ -47,7 +47,7 @@ SpriteMons:
 	dw POLIWRATH
 	dw PERSIAN
 	dw HERACROSS
-	dw SHUCKLE
+	dw OVERQWIL
 	dw SWINUB
 	dw SNEASEL
 	dw MILTANK

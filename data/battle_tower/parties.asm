@@ -2002,7 +2002,7 @@ BattleTowerMons5:
 	bigdw 97 ; SDef
 	db "HERUGA-@@@@"
 
-	dw SHUCKLE
+	dw OVERQWIL
 	db LEFTOVERS
 	dw SANDSTORM, REST, TOXIC, WRAP
 
@@ -4268,7 +4268,7 @@ BattleTowerMons9:
 	bigdw 159 ; SDef
 	db "EA-MUDO@@@@"
 
-	dw SHUCKLE
+	dw OVERQWIL
 	db LEFTOVERS
 	dw TOXIC, WRAP, PROTECT, ENCORE
 

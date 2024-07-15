@@ -245,7 +245,7 @@ FramesPointers:
 	dba SnubbullFrames
 	dba GranbullFrames
 	dba QwilfishFrames
-	dba ShuckleFrames
+	dba OverqwilFrames
 	dba HeracrossFrames
 	dba SneaselFrames
 	dba WeavileFrames

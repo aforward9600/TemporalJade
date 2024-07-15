@@ -451,7 +451,7 @@ KurtGroup:
 	next_list_item ; KURT (1)
 	db "Kurt@", TRAINERTYPE_ITEM_MOVES
 	db 42
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db LEFTOVERS
 else
@@ -505,7 +505,7 @@ endc
 	next_list_item ; KURT (2)
 	db "Kurt@", TRAINERTYPE_ITEM_MOVES
 	db 49
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db LEFTOVERS
 else
@@ -563,7 +563,7 @@ endc
 	next_list_item ; KURT (3)
 	db "Kurt@", TRAINERTYPE_ITEM_MOVES
 	db 53
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db LEFTOVERS
 else
@@ -621,7 +621,7 @@ endc
 	next_list_item ; KURT (3)
 	db "Kurt@", TRAINERTYPE_ITEM_MOVES
 	db 67
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db LEFTOVERS
 else
@@ -2885,8 +2885,8 @@ endc
 	dw GYARADOS
 	db "Karpe Diem@"
 	db 52
-	dw SHUCKLE
-	db "Shuckle@"
+	dw OVERQWIL
+	db "OVERQWIL@"
 	db 52
 	dw DITTO
 	db "Ditto@"
@@ -4536,7 +4536,7 @@ else
 	db NO_ITEM
 endc
 	db 68
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -4580,7 +4580,7 @@ endc
 	dw PARASECT
 	db NO_ITEM
 	db 43
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -6531,7 +6531,7 @@ endc
 	dw MANKEY
 	db NO_ITEM
 	db 23
-	dw SHUCKLE
+	dw OVERQWIL
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -12945,7 +12945,7 @@ FerropexolaGroup:
 	db LEFTOVERS
 	dw SOFTBOILED, REFLECT, ICE_BEAM, HEAL_BELL
 	db 100
-	dw SHUCKLE
+	dw OVERQWIL
 	db LEFTOVERS
 	dw TOXIC, SANDSTORM, REST, ROCK_SLIDE
 	db 100

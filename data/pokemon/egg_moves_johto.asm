@@ -96,7 +96,7 @@ EggMovePointers2::
 	dw SnubbullEggMoves
 	dw NoEggMoves2
 	dw QwilfishEggMoves
-	dw ShuckleEggMoves
+	dw NoEggMoves2
 	dw HeracrossEggMoves
 	dw SneaselEggMoves
 	dw NoEggMoves2
@@ -546,11 +546,6 @@ QwilfishEggMoves:
 	dw ACID_SPRAY
 	dw SIGNAL_BEAM
 	dw WATER_PULSE
-	dw -1 ; end
-
-ShuckleEggMoves:
-	dw SWEET_SCENT
-	dw KNOCK_OFF
 	dw -1 ; end
 
 HeracrossEggMoves:

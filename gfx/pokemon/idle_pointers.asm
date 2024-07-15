@@ -245,7 +245,7 @@ AnimationIdlePointers:
 	dw SnubbullAnimationIdle
 	dw GranbullAnimationIdle
 	dw QwilfishAnimationIdle
-	dw ShuckleAnimationIdle
+	dw OverqwilAnimationIdle
 	dw HeracrossAnimationIdle
 	dw SneaselAnimationIdle
 	dw WeavileAnimationIdle

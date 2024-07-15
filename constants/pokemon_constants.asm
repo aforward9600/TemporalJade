@@ -266,7 +266,7 @@ JOHTO_POKEMON EQU const_value
 	const SNUBBULL   ; d1
 	const GRANBULL   ; d2
 	const QWILFISH   ; d3
-	const SHUCKLE    ; d5
+	const OVERQWIL    ; d5
 	const HERACROSS  ; d6
 	const SNEASEL    ; d7
 	const WEAVILE

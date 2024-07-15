@@ -247,7 +247,7 @@ OldPokedexOrder:
 	dw SNUBBULL
 	dw GRANBULL
 	dw QWILFISH
-	dw SHUCKLE
+	dw OVERQWIL
 	dw HERACROSS
 	dw SNEASEL
 	dw WEAVILE

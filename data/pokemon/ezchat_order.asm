@@ -65,7 +65,7 @@ EZChat_SortedPokemon:
 .so_zo:    db DRAPION, -1
 .ta_da:    db PALOSSAND, HORSEA, EXEGGCUTE, -1
 .chi_dhi:  db CHIKORITA, CHINCHOU, -1
-.tsu_du:   db SHUCKLE, -1
+.tsu_du:   db OVERQWIL, -1
 .te_de:    db SANDYGAST, KINGDRA, LEAFEON, PORYGON2, AMPHAROS, -1
 .to_do:    db DODUO, DODRIO, ELEKID, KOFFING, TENTACRUEL, TOGETIC, TOGEPI, GOLDEEN, TRUMBEAK, MAGMORTAR, -1
 .na:       db COTTONEE, EXEGGUTOR, -1

@@ -251,7 +251,7 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; SNUBBULL
 	mon_cry CRY_DUNSPARCE,   $000,  $180 ; GRANBULL
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
-	mon_cry CRY_DUNSPARCE,   $290,  $0a8 ; SHUCKLE
+	mon_cry CRY_SLOWKING,    $160,  $0e0 ; OVERQWIL
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; HERACROSS
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASEL
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASEL

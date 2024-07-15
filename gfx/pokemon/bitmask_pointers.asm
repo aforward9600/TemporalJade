@@ -245,7 +245,7 @@ BitmasksPointers:
 	dw SnubbullBitmasks
 	dw GranbullBitmasks
 	dw QwilfishBitmasks
-	dw ShuckleBitmasks
+	dw OverqwilBitmasks
 	dw HeracrossBitmasks
 	dw SneaselBitmasks
 	dw WeavileBitmasks

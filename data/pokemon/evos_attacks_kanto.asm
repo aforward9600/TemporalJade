@@ -1892,7 +1892,7 @@ MagnezoneEvosAttacks:
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
-	dbbw EVOLVE_LEVEL, 29, SIRFETCH_D
+	dbbw EVOLVE_LEVEL, 30, SIRFETCH_D
 	db 0 ; no more evolutions
 	dbw 1, PECK
 	dbw 1, SAND_ATTACK
