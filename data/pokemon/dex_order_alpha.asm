@@ -206,7 +206,6 @@ AlphabeticalPokedexOrder:
 	dw PERSIAN
 	dw PETILIL
 	dw PHANPY
-	dw PICHU
 	dw PIGNITE
 	dw PIKACHU
 	dw PIKIPEK
@@ -254,6 +253,7 @@ AlphabeticalPokedexOrder:
 	dw SENTRET
 	dw SHELMET
 	dw SHUCKLE
+	dw SIRFETCH_D
 	dw SKARMINI
 	dw SKARMORY
 	dw SKORUPI

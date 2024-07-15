@@ -23,7 +23,6 @@ FramesPointers:
 	dba FearowFrames
 	dba EkansFrames
 	dba ArbokFrames
-	dba PichuFrames
 	dba PikachuFrames
 	dba RaichuFrames
 	dba DrilburFrames
@@ -91,6 +90,7 @@ FramesPointers:
 	dba MagnetonFrames
 	dba MagnezoneFrames
 	dba FarfetchDFrames
+	dba SirfetchDFrames
 	dba DoduoFrames
 	dba DodrioFrames
 	dba SeelFrames

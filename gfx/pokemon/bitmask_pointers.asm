@@ -23,7 +23,6 @@ BitmasksPointers:
 	dw FearowBitmasks
 	dw EkansBitmasks
 	dw ArbokBitmasks
-	dw PichuBitmasks
 	dw PikachuBitmasks
 	dw RaichuBitmasks
 	dw DrilburBitmasks
@@ -91,6 +90,7 @@ BitmasksPointers:
 	dw MagnetonBitmasks
 	dw MagnezoneBitmasks
 	dw FarfetchDBitmasks
+	dw SirfetchDBitmasks
 	dw DoduoBitmasks
 	dw DodrioBitmasks
 	dw SeelBitmasks

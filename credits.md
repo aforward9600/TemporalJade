@@ -62,9 +62,11 @@ Move Steel Slice: Mskd.
 Rangi and the Polished Crystal team for Route 47 and 48 maps, Cherry Tree and the Town Map expansion and many overworld sprites,
 Wynaut sprites and animations, Yanmega back sprite.
 
-Ambipom back sprite, Annihilape sprite: ShadowOne333
+Ambipom back sprite, Annihilape sprite, Regional forms: ShadowOne333
 
 Annihilape sprite: Sea and ShadowOne333
+
+Regional forms animations: Scarlax
 
 Ursaluna sprites and animation: Cure, ShadowOne333, Scarlax
 
@@ -121,11 +123,9 @@ Prism Team.
 
 Mudkip line sprites: Bloodless & Blue Rose
 
-Gen 5 Sprites, Regirock, Regice and Registeel back sprites: Bloodless
+Gen 5 Sprites: Bloodless
 
 Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
-
-Regigigas back sprite: COMBOY
 
 Regieleki front sprite: Pokemon Daybreak
 Back sprite: leParagon
@@ -139,14 +139,14 @@ Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
 Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
-Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty sprites
+Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty Joltik, Galvantula sprites
 
 Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
 Basculin, Karrablast and Escavalier animations:
 PokeMMO Generation 2 Sprites Mod
 
-Solosis, Duosion, Reuniclus, Petil and Lilligant sprites, Haxorus,
-various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
+Solosis, Duosion, Reuniclus, Petil, Lilligant, Haxorus, Timburr, Gurdurr,
+Conkeldurr, various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
 Ein trainer sprite: Sindorman
 
@@ -165,8 +165,11 @@ Ariana, Archer and Giovanni trainer and overworld sprite: SirWhibbles
 Ampharos and overworld sprite, Riolu, Lucario, Skorupi and 
 Drapion sprites: Prism Team
 
-Gible line sprites, Regirock, Regice, Registeel and Regigigas
-front sprites: Blue Emerald
+Gible line sprites front sprites: Blue Emerald
+
+Regice, Regirock, and Registeel sprites: Mr Dustman, Sadfish, and Poisonous Gas
+
+Regigigas sprites: Blue Emerald
 
 Lance, Female Scientist and Cynthia overworld sprites: Rangi and the Polished Crystal Team.
 

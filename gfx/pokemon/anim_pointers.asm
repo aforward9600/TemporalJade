@@ -23,7 +23,6 @@ AnimationPointers:
 	dw FearowAnimation
 	dw EkansAnimation
 	dw ArbokAnimation
-	dw PichuAnimation
 	dw PikachuAnimation
 	dw RaichuAnimation
 	dw DrilburAnimation
@@ -91,6 +90,7 @@ AnimationPointers:
 	dw MagnetonAnimation
 	dw MagnezoneAnimation
 	dw FarfetchDAnimation
+	dw SirfetchDAnimation
 	dw DoduoAnimation
 	dw DodrioAnimation
 	dw SeelAnimation

@@ -24,7 +24,6 @@ PokedexDataPointerTable:
 	dba FearowPokedexEntry
 	dba EkansPokedexEntry
 	dba ArbokPokedexEntry
-	dba PichuPokedexEntry
 	dba PikachuPokedexEntry
 	dba RaichuPokedexEntry
 	dba DrilburPokedexEntry
@@ -92,6 +91,7 @@ PokedexDataPointerTable:
 	dba MagnetonPokedexEntry
 	dba MagnezonePokedexEntry
 	dba FarfetchDPokedexEntry
+	dba SirfetchDPokedexEntry
 	dba DoduoPokedexEntry
 	dba DodrioPokedexEntry
 	dba SeelPokedexEntry

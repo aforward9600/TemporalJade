@@ -23,7 +23,6 @@ AnimationIdlePointers:
 	dw FearowAnimationIdle
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle
-	dw PichuAnimationIdle
 	dw PikachuAnimationIdle
 	dw RaichuAnimationIdle
 	dw DrilburAnimationIdle
@@ -91,6 +90,7 @@ AnimationIdlePointers:
 	dw MagnetonAnimationIdle
 	dw MagnezoneAnimationIdle
 	dw FarfetchDAnimationIdle
+	dw SirfetchDAnimationIdle
 	dw DoduoAnimationIdle
 	dw DodrioAnimationIdle
 	dw SeelAnimationIdle

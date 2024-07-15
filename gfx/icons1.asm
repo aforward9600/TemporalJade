@@ -26,7 +26,6 @@ Icons1:
 	dw FearowIcon
 	dw EkansIcon
 	dw ArbokIcon
-	dw PichuIcon
 	dw PikachuIcon
 	dw RaichuIcon
 	dw DrilburIcon
@@ -94,6 +93,7 @@ Icons1:
 	dw MagnetonIcon
 	dw MagnezoneIcon
 	dw FarfetchdIcon
+	dw SirfetchdIcon
 	dw DoduoIcon
 	dw DodrioIcon
 	dw SeelIcon
@@ -153,7 +153,6 @@ SpearowIcon:      INCBIN "gfx/icons/spearow.2bpp"
 FearowIcon:       INCBIN "gfx/icons/fearow.2bpp"
 EkansIcon:        INCBIN "gfx/icons/ekans.2bpp"
 ArbokIcon:        INCBIN "gfx/icons/arbok.2bpp"
-PichuIcon:        INCBIN "gfx/icons/pichu.2bpp"
 PikachuIcon:      INCBIN "gfx/icons/pikachu.2bpp"
 RaichuIcon:       INCBIN "gfx/icons/raichu.2bpp"
 DrilburIcon:      INCBIN "gfx/icons/drilbur.2bpp"
@@ -221,6 +220,7 @@ MagnemiteIcon:    INCBIN "gfx/icons/magnemite.2bpp"
 MagnetonIcon:     INCBIN "gfx/icons/magneton.2bpp"
 MagnezoneIcon:    INCBIN "gfx/icons/magnezone.2bpp"
 FarfetchdIcon:    INCBIN "gfx/icons/farfetch_d.2bpp"
+SirfetchdIcon:    INCBIN "gfx/icons/sirfetch_d.2bpp"
 DoduoIcon:        INCBIN "gfx/icons/doduo.2bpp"
 DodrioIcon:       INCBIN "gfx/icons/dodrio.2bpp"
 SeelIcon:         INCBIN "gfx/icons/seel.2bpp"

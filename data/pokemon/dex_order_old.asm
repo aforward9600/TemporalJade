@@ -25,7 +25,6 @@ OldPokedexOrder:
 	dw FEAROW
 	dw EKANS
 	dw ARBOK
-	dw PICHU
 	dw PIKACHU
 	dw RAICHU
 	dw DRILBUR
@@ -93,6 +92,7 @@ OldPokedexOrder:
 	dw MAGNETON
 	dw MAGNEZONE
 	dw FARFETCH_D
+	dw SIRFETCH_D
 	dw DODUO
 	dw DODRIO
 	dw SEEL

@@ -43,7 +43,6 @@
 	const FEAROW     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18
-	const PICHU      ; ac
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const DRILBUR    ; 1b
@@ -111,6 +110,7 @@
 	const MAGNETON   ; 52
 	const MAGNEZONE
 	const FARFETCH_D ; 53
+	const SIRFETCH_D
 	const DODUO      ; 54
 	const DODRIO     ; 55
 	const SEEL       ; 56

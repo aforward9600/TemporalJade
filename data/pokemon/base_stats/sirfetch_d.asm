@@ -1,16 +1,16 @@
 	db 0 ; species ID placeholder
 
-	db  52,  95,  55,  55,  58,  62
-	evs  0,   1,   0,   0,   0,   0
+	db  62, 135,  95,  65,  68,  82
+	evs  0,   2,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIGHTING, FIGHTING ; type
 	db 45 ; catch rate
-	db 132 ; base exp
+	db 177 ; base exp
 	db NO_ITEM, STICK ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
-	INCBIN "gfx/pokemon/farfetch_d/front.dimensions"
+	INCBIN "gfx/pokemon/sirfetch_d/front.dimensions"
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_GROUND ; egg groups
 

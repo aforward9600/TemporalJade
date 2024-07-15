@@ -22,7 +22,7 @@ BillsHouse_MapScripts:
 	loadmonindex BILLSHOUSE_INDEX_STARYU, STARYU
 	loadmonindex BILLSHOUSE_INDEX_GROWLITHE, GROWLITHE
 	loadmonindex BILLSHOUSE_INDEX_VULPIX, VULPIX
-	loadmonindex BILLSHOUSE_INDEX_PICHU, PICHU
+	loadmonindex BILLSHOUSE_INDEX_PICHU, PIKACHU
 	return
 
 BillsGrandpa:

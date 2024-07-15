@@ -28,8 +28,8 @@ prob_total = 0
 	prob 1
 
 OddEggSpecies:
-	dw PICHU
-	dw PICHU
+	dw PIKACHU
+	dw PIKACHU
 	dw CLEFFA
 	dw CLEFFA
 	dw IGGLYBUFF

@@ -25,7 +25,6 @@ EvosAttacksPointers1::
 	dw FearowEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
-	dw PichuEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw DrilburEvosAttacks
@@ -93,6 +92,7 @@ EvosAttacksPointers1::
 	dw MagnetonEvosAttacks
 	dw MagnezoneEvosAttacks
 	dw FarfetchDEvosAttacks
+	dw SirfetchDEvosAttacks
 	dw DoduoEvosAttacks
 	dw DodrioEvosAttacks
 	dw SeelEvosAttacks
@@ -616,17 +616,6 @@ ArbokEvosAttacks:
 	dbw 51, HAZE
 	dbw 56, COIL
 	dbw 63, GUNK_SHOT
-	db 0 ; no more level-up moves
-
-PichuEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
-	db 0 ; no more evolutions
-	dbw 1, THUNDERSHOCK
-	dbw 1, CHARM
-	dbw 5, TAIL_WHIP
-	dbw 10, SWEET_KISS
-	dbw 13, NASTY_PLOT
-	dbw 18, THUNDER_WAVE
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
@@ -1903,25 +1892,45 @@ MagnezoneEvosAttacks:
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
+	dbbw EVOLVE_LEVEL, 29, SIRFETCH_D
 	db 0 ; no more evolutions
 	dbw 1, PECK
-	dbw 1, POISON_JAB
 	dbw 1, SAND_ATTACK
-	dbw 1, LEER
-	dbw 7, FURY_ATTACK
-	dbw 9, WING_ATTACK
-	dbw 13, KNOCK_OFF
-	dbw 19, SLASH
-	dbw 21, AIR_CUTTER
-	dbw 25, SWORDS_DANCE
-	dbw 31, AGILITY
-	dbw 33, NIGHT_SLASH
-	dbw 37, ACROBATICS
-	dbw 43, ROOST
-	dbw 45, FALSE_SWIPE
-	dbw 49, DUALWINGBEAT
+	dbw 5, LEER
+	dbw 10, FURY_ATTACK
+	dbw 15, ROCK_SMASH
+	dbw 20, FAINT_ATTACK
+	dbw 25, DETECT
+	dbw 30, KNOCK_OFF
+	dbw 35, ROOST
+	dbw 40, BRICK_BREAK
+	dbw 45, SWORDS_DANCE
+	dbw 50, SLAM
 	dbw 55, LEAF_BLADE
-	dbw 60, BRAVE_BIRD
+	dbw 60, SUPERPOWER
+	dbw 65, BRAVE_BIRD
+	db 0 ; no more level-up moves
+
+SirfetchDEvosAttacks:
+	db 0 ; no more evolutions
+	dbw LEARN_EVO_MOVE, IRON_DEFENSE
+	dbw 1, IRON_DEFENSE
+	dbw 1, PECK
+	dbw 1, SAND_ATTACK
+	dbw 5, LEER
+	dbw 10, FURY_ATTACK
+	dbw 15, ROCK_SMASH
+	dbw 20, FAINT_ATTACK
+	dbw 25, DETECT
+	dbw 30, KNOCK_OFF
+	dbw 35, ROOST
+	dbw 40, BRICK_BREAK
+	dbw 45, SWORDS_DANCE
+	dbw 50, SLAM
+	dbw 55, LEAF_BLADE
+	dbw 60, SUPERPOWER
+	dbw 65, BRAVE_BIRD
+	dbw 70, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:

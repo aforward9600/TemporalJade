@@ -483,16 +483,12 @@ SlowpokeEggMoves:
 	dw -1 ; end
 
 FarfetchDEggMoves:
-	dw FORESIGHT
-	dw MIRROR_MOVE
-	dw GUST
-	dw QUICK_ATTACK
+	dw COUNTER
+	dw DOUBLE_EDGE
 	dw FLAIL
-	dw FEATHERDANCE
-	dw MUD_SLAP
 	dw NIGHT_SLASH
-	dw REVENGE
-	dw LEAF_BLADE
+	dw QUICK_ATTACK
+	dw SKY_ATTACK
 	dw -1 ; end
 
 DoduoEggMoves:

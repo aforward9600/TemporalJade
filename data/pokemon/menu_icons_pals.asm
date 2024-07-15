@@ -35,7 +35,6 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; FEAROW
 	icon_pals PURPLE, TEAL   ; EKANS
 	icon_pals PURPLE, GREEN  ; ARBOK
-	icon_pals RED,    RED    ; PICHU
 	icon_pals RED,    TEAL   ; PIKACHU
 	icon_pals RED,    BROWN  ; RAICHU
 	icon_pals BLUE,   RED    ; DRILBUR
@@ -102,7 +101,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   BROWN  ; MAGNEMITE
 	icon_pals GRAY,   BROWN  ; MAGNETON
 	icon_pals GRAY,   BROWN  ; MAGNEZONE
-	icon_pals BROWN,  BLUE   ; FARFETCH_D
+	icon_pals BROWN,  BROWN  ; FARFETCH_D
+	icon_pals GREEN,  RED    ; SIRFETCH_D
 	icon_pals BROWN,  PINK   ; DODUO
 	icon_pals BROWN,  PINK   ; DODRIO
 	icon_pals BLUE,   GRAY   ; SEEL

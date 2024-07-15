@@ -1,10 +1,10 @@
 	db "Wild Duck@" ; species name
-	dw 207, 330 ; height, weight
+	dw 207, 926 ; height, weight
 
-	db   "In order to pre-"
-	next "vent their"
-	next "extinction, more"
+	db   "The Farfetch'd of"
+	next "the Onaga region"
+	next "are brave warriors"
 
-	page "people have made"
-	next "an effort to breed"
-	next "these #mon.@"
+	page "and they wield"
+	next "thick, tough leeks"
+	next "in battle.@"

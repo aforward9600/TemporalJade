@@ -58,8 +58,6 @@ PokemonPicPointers::
 	dba EkansBackpic
 	dba ArbokFrontpic
 	dba ArbokBackpic
-	dba PichuFrontpic
-	dba PichuBackpic
 	dba PikachuFrontpic
 	dba PikachuBackpic
 	dba RaichuFrontpic
@@ -194,6 +192,8 @@ PokemonPicPointers::
 	dba MagnezoneBackpic
 	dba FarfetchDFrontpic
 	dba FarfetchDBackpic
+	dba SirfetchDFrontpic
+	dba SirfetchDBackpic
 	dba DoduoFrontpic
 	dba DoduoBackpic
 	dba DodrioFrontpic

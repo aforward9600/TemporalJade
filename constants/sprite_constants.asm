@@ -215,7 +215,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_RAICHU ; ca
 	const SPRITE_CLEFAIRY_P ; cb
 	const SPRITE_DUSKNOIR ; cc
-	const SPRITE_PICHU ; cd
+	const SPRITE_SIRFETCH_D ; cd
 	const SPRITE_RAIKOU_P ; ce
 	const SPRITE_SUICUNE_P ; cf
 	const SPRITE_ENTEI_P ; d0

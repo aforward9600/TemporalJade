@@ -25,7 +25,6 @@ PreviousEvolutionStage::
 	dw 0
 	dw EKANS      ;18
 	dw 0
-	dw PICHU
 	dw PIKACHU
 	dw 0
 	dw DRILBUR
@@ -92,6 +91,7 @@ PreviousEvolutionStage::
 	dw MAGNEMITE
 	dw MAGNETON
 	dw 0
+	dw FARFETCH_D
 	dw 0
 	dw DODUO
 	dw 0

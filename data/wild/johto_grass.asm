@@ -1445,7 +1445,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw  7, PICHU
+	dbw  7, PIKACHU
 	dbw  7, SOLOSIS
 	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
@@ -1454,7 +1454,7 @@ JohtoGrassWildMons:
 	dbw  7, ELEKID
 	dbw  7, ELEKID
 	; day
-	dbw  7, PICHU
+	dbw  7, PIKACHU
 	dbw  7, SOLOSIS
 	dbw  7, CUTIEFLY
 	dbw  7, BONSLY
@@ -1463,7 +1463,7 @@ JohtoGrassWildMons:
 	dbw  7, ELEKID
 	dbw  7, ELEKID
 	; nite
-	dbw  7, PICHU
+	dbw  7, PIKACHU
 	dbw  7, SOLOSIS
 	dbw  7, CUTIEFLY
 	dbw  7, BONSLY

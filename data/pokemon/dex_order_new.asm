@@ -152,7 +152,6 @@ NewPokedexOrder:
 	dw LUCARIO
 	dw DUNSPARCE
 	dw DUDUNSPARS
-	dw PICHU
 	dw PIKACHU
 	dw RAICHU
 	dw ONIX
@@ -269,6 +268,7 @@ NewPokedexOrder:
 	dw SEAKING
 	dw SHUCKLE
 	dw FARFETCH_D
+	dw SIRFETCH_D
 	dw TENTACOOL
 	dw TENTACRUEL
 	dw CHINCHOU
