@@ -2374,7 +2374,7 @@ SwarmScript:
 	setflag ENGINE_SWARM
 	swarm ILEX_FOREST
 	getlandmarkname STRING_BUFFER_5, ILEX_FOREST
-	getmonname STRING_BUFFER_3, PARASECT
+	getmonname STRING_BUFFER_3, GALVANTULA
 	farwritetext CaveSwarmText
 	waitbutton
 	closetext

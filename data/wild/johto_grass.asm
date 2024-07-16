@@ -400,27 +400,27 @@ JohtoGrassWildMons:
 	dbw 37, TOUCANNON
 	dbw 37, HERDIER
 	dbw 37, ESCAVALIER
-	dbw 37, PARASECT
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	; day
 	dbw 37, ESCAVALIER
 	dbw 37, SCOLIPEDE
 	dbw 37, TOUCANNON
 	dbw 37, HERDIER
 	dbw 37, ESCAVALIER
-	dbw 37, PARASECT
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	; nite
 	dbw 37, ACCELGOR
 	dbw 37, NOCTOWL
 	dbw 37, WHIMSICOTT
 	dbw 37, GOLDUCK
 	dbw 37, VENOMOTH
-	dbw 37, PARASECT
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -968,7 +968,7 @@ JohtoGrassWildMons:
 	dbw 75, CROBAT
 	dbw 75, CONKELDURR
 	dbw 75, URSARING
-	dbw 75, PARASECT
+	dbw 75, GALVANTULA
 	dbw 75, SNEASEL
 	dbw 75, PUPITAR
 	dbw 75, PUPITAR
@@ -977,7 +977,7 @@ JohtoGrassWildMons:
 	dbw 75, CROBAT
 	dbw 75, CONKELDURR
 	dbw 75, URSARING
-	dbw 75, PARASECT
+	dbw 75, GALVANTULA
 	dbw 75, SNEASEL
 	dbw 75, PUPITAR
 	dbw 75, PUPITAR
@@ -1028,28 +1028,28 @@ JohtoGrassWildMons:
 	dbw 76, CROBAT
 	dbw 76, CROBAT
 	dbw 76, CROBAT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
 	; day
 	dbw 76, CROBAT
 	dbw 76, CROBAT
 	dbw 76, CROBAT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
 	; nite
 	dbw 76, MISDREAVUS
 	dbw 76, CROBAT
 	dbw 76, CROBAT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
-	dbw 76, PARASECT
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
+	dbw 76, GALVANTULA
 	dbw 76, MISMAGIUS
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE
@@ -1807,7 +1807,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 15, BRONZOR
 	dbw 15, SMEARGLE
-	dbw 15, PARAS
+	dbw 15, JOLTIK
 	dbw 15, DRAPION
 	dbw 15, CUBONE
 	dbw 15, GLIGAR
@@ -1816,7 +1816,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 15, BRONZOR
 	dbw 15, SMEARGLE
-	dbw 15, PARAS
+	dbw 15, JOLTIK
 	dbw 15, DRAPION
 	dbw 15, CUBONE
 	dbw 15, GLIGAR
@@ -1825,7 +1825,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 15, BRONZOR
 	dbw 15, SMEARGLE
-	dbw 15, PARAS
+	dbw 15, JOLTIK
 	dbw 15, DRAPION
 	dbw 15, CUBONE
 	dbw 15, GLIGAR

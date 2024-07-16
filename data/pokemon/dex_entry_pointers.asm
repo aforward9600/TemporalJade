@@ -49,8 +49,8 @@ PokedexDataPointerTable:
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
 	dba LilligantPokedexEntry
-	dba ParasPokedexEntry
-	dba ParasectPokedexEntry
+	dba JoltikPokedexEntry
+	dba GalvantulaPokedexEntry
 	dba VenonatPokedexEntry
 	dba VenomothPokedexEntry
 	dba SandygastPokedexEntry

@@ -75,5 +75,5 @@ BugContestant_YoungsterSamuel:
 BugContestant_SchoolboyPierce:
 	db SCHOOLBOY, PIERCE
 	dw VENONAT,    267
-	dw PARAS,      254
+	dw JOLTIK,      254
 	dw HERDIER,     259

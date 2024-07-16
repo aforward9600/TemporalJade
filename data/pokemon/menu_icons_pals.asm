@@ -60,8 +60,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  BLUE   ; WHIMSICOTT
 	icon_pals GREEN,  RED    ; PETILIL
 	icon_pals GREEN,  BLUE   ; LILLIGANT
-	icon_pals RED,    BROWN  ; PARAS
-	icon_pals RED,    BROWN  ; PARASECT
+	icon_pals BLUE,   PURPLE ; JOLTIK
+	icon_pals BLUE,   GRAY   ; GALVANTULA
 	icon_pals RED,    PURPLE ; CUTIEFLY
 	icon_pals RED,    PURPLE ; RIBOMBEE
 	icon_pals BROWN,  GRAY   ; SANDYGHAST

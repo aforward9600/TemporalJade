@@ -94,6 +94,7 @@ AlphabeticalPokedexOrder:
 	dw FURRET
 	dw GABITE
 	dw GALLADE
+	dw GALVANTULA
 	dw GARCHOMP
 	dw GARDEVOIR
 	dw GASTLY
@@ -131,6 +132,7 @@ AlphabeticalPokedexOrder:
 	dw IGGLYBUFF
 	dw JIGGLYPUFF
 	dw JOLTEON
+	dw JOLTIK
 	dw JYNX
 	dw KANGASKHAN
 	dw KARRABLAST
@@ -201,8 +203,6 @@ AlphabeticalPokedexOrder:
 	dw ORTHWORM
 	dw OVERQWIL
 	dw PALOSSAND
-	dw PARAS
-	dw PARASECT
 	dw PERSIAN
 	dw PETILIL
 	dw PHANPY

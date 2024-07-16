@@ -48,8 +48,8 @@ BitmasksPointers:
 	dw WhimsicottBitmasks
 	dw PetililBitmasks
 	dw LilligantBitmasks
-	dw ParasBitmasks
-	dw ParasectBitmasks
+	dw JoltikBitmasks
+	dw GalvantulaBitmasks
 	dw VenonatBitmasks
 	dw VenomothBitmasks
 	dw SandygastBitmasks

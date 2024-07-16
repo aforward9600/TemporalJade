@@ -48,8 +48,8 @@ AnimationPointers:
 	dw WhimsicottAnimation
 	dw PetililAnimation
 	dw LilligantAnimation
-	dw ParasAnimation
-	dw ParasectAnimation
+	dw JoltikAnimation
+	dw GalvantulaAnimation
 	dw VenonatAnimation
 	dw VenomothAnimation
 	dw SandygastAnimation

@@ -51,8 +51,8 @@ Icons1:
 	dw WhimsicottIcon
 	dw PetililIcon
 	dw LilligantIcon
-	dw ParasIcon
-	dw ParasectIcon
+	dw JoltikIcon
+	dw GalvantulaIcon
 	dw VenonatIcon
 	dw VenomothIcon
 	dw SandygastIcon
@@ -178,8 +178,8 @@ CottoneeIcon:     INCBIN "gfx/icons/cottonee.2bpp"
 WhimsicottIcon:   INCBIN "gfx/icons/whimsicott.2bpp"
 PetililIcon:      INCBIN "gfx/icons/petilil.2bpp"
 LilligantIcon:    INCBIN "gfx/icons/lilligant.2bpp"
-ParasIcon:        INCBIN "gfx/icons/paras.2bpp"
-ParasectIcon:     INCBIN "gfx/icons/parasect.2bpp"
+JoltikIcon:       INCBIN "gfx/icons/joltik.2bpp"
+GalvantulaIcon:   INCBIN "gfx/icons/galvantula.2bpp"
 VenonatIcon:      INCBIN "gfx/icons/venonat.2bpp"
 VenomothIcon:     INCBIN "gfx/icons/venomoth.2bpp"
 SandygastIcon:    INCBIN "gfx/icons/sandygast.2bpp"

@@ -50,7 +50,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw PETILIL
 	dw 0
-	dw PARAS
+	dw JOLTIK
 	dw 0    ;30
 	dw VENONAT
 	dw 0

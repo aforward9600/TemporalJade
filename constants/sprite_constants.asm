@@ -184,7 +184,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_JIGGLYPUFF ; ad
 	const SPRITE_GRIMER ; ae
 	const SPRITE_EKANS ; af
-	const SPRITE_PARAS ; b0
+	const SPRITE_JOLTIK ; b0
 	const SPRITE_TENTACOOL ; b1
 	const SPRITE_TAUROS ; b2
 	const SPRITE_TIMBURR ; b3

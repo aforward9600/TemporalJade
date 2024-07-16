@@ -25,7 +25,7 @@ GenerateShinySwarm:
 	cp LAKE_OF_RAGE
 	jp z, .kotora
 	cp ILEX_FOREST
-	jp z, .parasect
+	jp z, .galvantula
 	cp UNION_CAVE
 	jp z, .gligar
 	cp ROUTE_32
@@ -287,20 +287,20 @@ GenerateShinySwarm:
 	jp nz, .skipshineswarm
 	jr .rollshiny
 
-.parasect
+.galvantula
 	ld a, [wCurPartySpecies]
 	call GetPokemonIndexFromID
 	ld a, l
-	sub LOW(PARASECT)
-	if HIGH(PARASECT) == 0
+	sub LOW(GALVANTULA)
+	if HIGH(GALVANTULA) == 0
 		or h
 	else
 		jr nz, .skipshineswarm
-		if HIGH(PARASECT)
+		if HIGH(GALVANTULA)
 			dec h
 		else
 			ld a, h
-			cp HIGH(PARASECT)
+			cp HIGH(GALVANTULA)
 		endc
 	endc
 	jr nz, .skipshineswarm

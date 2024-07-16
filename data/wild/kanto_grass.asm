@@ -38,7 +38,7 @@ KantoGrassWildMons:
 	dbw 67, GOLBAT
 	dbw 67, GRAVELER
 	dbw 67, EXCADRILL
-	dbw 67, PARASECT
+	dbw 67, GALVANTULA
 	dbw 67, GOLEM
 	dbw 67, CLEFAIRY
 	dbw 67, CLEFAIRY
@@ -47,7 +47,7 @@ KantoGrassWildMons:
 	dbw 67, GOLBAT
 	dbw 67, GRAVELER
 	dbw 67, EXCADRILL
-	dbw 67, PARASECT
+	dbw 67, GALVANTULA
 	dbw 67, GOLEM
 	dbw 67, CLEFAIRY
 	dbw 67, CLEFAIRY
@@ -56,7 +56,7 @@ KantoGrassWildMons:
 	dbw 67, GOLBAT
 	dbw 67, GRAVELER
 	dbw 67, EXCADRILL
-	dbw 67, PARASECT
+	dbw 67, GALVANTULA
 	dbw 67, GOLEM
 	dbw 67, CLEFAIRY
 	dbw 67, CLEFAIRY
@@ -908,7 +908,7 @@ KantoGrassWildMons:
 	dbw 63, TOUCANNON
 	dbw 63, VENOMOTH
 	dbw 63, ESCAVALIER
-	dbw 63, PARASECT
+	dbw 63, GALVANTULA
 	dbw 63, SCYTHER
 	dbw 63, YANMEGA
 	dbw 63, PIKACHU
@@ -917,7 +917,7 @@ KantoGrassWildMons:
 	dbw 63, TOUCANNON
 	dbw 63, VENOMOTH
 	dbw 63, ESCAVALIER
-	dbw 63, PARASECT
+	dbw 63, GALVANTULA
 	dbw 63, SCYTHER
 	dbw 63, YANMEGA
 	dbw 63, PIKACHU
@@ -926,7 +926,7 @@ KantoGrassWildMons:
 	dbw 63, STOUTLAND
 	dbw 63, VENOMOTH
 	dbw 63, ACCELGOR
-	dbw 63, PARASECT
+	dbw 63, GALVANTULA
 	dbw 63, SCYTHER
 	dbw 63, YANMEGA
 	dbw 63, PIKACHU

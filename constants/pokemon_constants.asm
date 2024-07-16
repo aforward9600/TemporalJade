@@ -68,8 +68,8 @@
 	const WHIMSICOTT ; 2c
 	const PETILIL    ; 2d
 	const LILLIGANT  ; b6
-	const PARAS      ; 2e
-	const PARASECT   ; 2f
+	const JOLTIK     ; 2e
+	const GALVANTULA ; 2f
 	const VENONAT    ; 30
 	const VENOMOTH   ; 31
 	const SANDYGAST  ; 32

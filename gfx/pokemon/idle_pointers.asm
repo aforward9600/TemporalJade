@@ -48,8 +48,8 @@ AnimationIdlePointers:
 	dw WhimsicottAnimationIdle
 	dw PetililAnimationIdle
 	dw LilligantAnimationIdle
-	dw ParasAnimationIdle
-	dw ParasectAnimationIdle
+	dw JoltikAnimationIdle
+	dw GalvantulaAnimationIdle
 	dw VenonatAnimationIdle
 	dw VenomothAnimationIdle
 	dw SandygastAnimationIdle

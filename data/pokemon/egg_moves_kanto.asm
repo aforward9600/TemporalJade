@@ -51,7 +51,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw PetililEggMoves
 	dw NoEggMoves1
-	dw ParasEggMoves
+	dw JoltikEggMoves
 	dw NoEggMoves1
 	dw VenonatEggMoves
 	dw NoEggMoves1
@@ -326,21 +326,12 @@ PetililEggMoves:
 	dw SWEET_SCENT
 	dw -1
 
-ParasEggMoves:
-	dw FALSE_SWIPE
-	dw SCREECH
-	dw COUNTER
-	dw PSYBEAM
-	dw FLAIL
-	dw LIGHT_SCREEN
-	dw PURSUIT
-	dw AGILITY
+JoltikEggMoves:
 	dw CROSS_POISON
-	dw ENDURE
-	dw LEECH_SEED
-	dw METAL_CLAW
-	dw SWEET_SCENT
-	dw STRENGTH_SAP
+	dw FAINT_ATTACK
+	dw PIN_MISSILE
+	dw POISON_STING
+	dw PURSUIT
 	dw -1 ; end
 
 VenonatEggMoves:

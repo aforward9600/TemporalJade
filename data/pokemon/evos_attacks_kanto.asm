@@ -50,8 +50,8 @@ EvosAttacksPointers1::
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
 	dw LilligantEvosAttacks
-	dw ParasEvosAttacks
-	dw ParasectEvosAttacks
+	dw JoltikEvosAttacks
+	dw GalvantulaEvosAttacks
 	dw VenonatEvosAttacks
 	dw VenomothEvosAttacks
 	dw SandygastEvosAttacks
@@ -1046,41 +1046,47 @@ LilligantEvosAttacks:
 	dbw 50, PETAL_BLIZZ
 	db 0 ; no more level-up moves
 
-ParasEvosAttacks:
-	dbbw EVOLVE_LEVEL, 24, PARASECT
+JoltikEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, GALVANTULA
 	db 0 ; no more evolutions
-	dbw 1, SCRATCH
-	dbw 6, STUN_SPORE
-	dbw 6, POISONPOWDER
-	dbw 11, ABSORB
-	dbw 17, FURY_CUTTER
-	dbw 22, SPORE
-	dbw 27, SLASH
-	dbw 33, GROWTH
-	dbw 38, GIGA_DRAIN
-	dbw 43, HEAL_BELL
-	dbw 49, LEECH_LIFE
-	dbw 54, X_SCISSOR
-	dbw 60, SOLAR_BLADE
+	dbw 1, STRING_SHOT
+	dbw 1, NUZZLE
+	dbw 1, SPIDER_WEB
+	dbw 4, THUNDER_WAVE
+	dbw 7, SCREECH
+	dbw 12, FURY_CUTTER
+	dbw 15, CHARGE_BEAM
+	dbw 18, SIGNAL_BEAM
+	dbw 23, SCARY_FACE
+	dbw 26, SLASH
+	dbw 29, THUNDERBOLT
+	dbw 34, BUG_BUZZ
+	dbw 37, AGILITY
+	dbw 40, SUCKER_PUNCH
+	dbw 45, DISCHARGE
+	dbw 48, SIGNAL_WAVE
 	db 0 ; no more level-up moves
 
-ParasectEvosAttacks:
+GalvantulaEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SWORDS_DANCE
-	dbw 1, SWORDS_DANCE
-	dbw 1, SCRATCH
-	dbw 6, STUN_SPORE
-	dbw 6, POISONPOWDER
-	dbw 11, ABSORB
-	dbw 17, FURY_CUTTER
-	dbw 22, SPORE
-	dbw 29, SLASH
-	dbw 37, GROWTH
-	dbw 44, GIGA_DRAIN
-	dbw 51, HEAL_BELL
-	dbw 59, LEECH_LIFE
-	dbw 66, X_SCISSOR
-	dbw 71, SOLAR_BLADE
+	dbw LEARN_EVO_MOVE, QUIVER_DANCE
+	dbw 1, QUIVER_DANCE
+	dbw 1, STRING_SHOT
+	dbw 1, NUZZLE
+	dbw 1, SPIDER_WEB
+	dbw 4, THUNDER_WAVE
+	dbw 7, SCREECH
+	dbw 12, FURY_CUTTER
+	dbw 15, CHARGE_BEAM
+	dbw 18, SIGNAL_BEAM
+	dbw 23, SCARY_FACE
+	dbw 26, SLASH
+	dbw 29, THUNDERBOLT
+	dbw 34, BUG_BUZZ
+	dbw 37, AGILITY
+	dbw 40, SUCKER_PUNCH
+	dbw 45, DISCHARGE
+	dbw 48, SIGNAL_WAVE
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:

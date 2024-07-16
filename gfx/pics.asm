@@ -348,9 +348,9 @@ SECTION "Azumarill Front", ROMX
 
 AzumarillFrontpic:   INCBIN "gfx/pokemon/azumarill/front.animated.2bpp.lz"
 
-SECTION "Parasect Front", ROMX
+SECTION "Galvantula Front", ROMX
 
-ParasectFrontpic:    INCBIN "gfx/pokemon/parasect/front.animated.2bpp.lz"
+GalvantulaFrontpic:    INCBIN "gfx/pokemon/galvantula/front.animated.2bpp.lz"
 
 SECTION "Mr Mime Front", ROMX
 
@@ -539,7 +539,7 @@ Porygon2Frontpic:    INCBIN "gfx/pokemon/porygon2/front.animated.2bpp.lz"
 DrilburFrontpic:     INCBIN "gfx/pokemon/drilbur/front.animated.2bpp.lz"
 NidoranFFrontpic:    INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
 VenipedeFrontpic:    INCBIN "gfx/pokemon/venipede/front.animated.2bpp.lz"
-ParasectBackpic:     INCBIN "gfx/pokemon/parasect/back.2bpp.lz"
+GalvantulaBackpic:   INCBIN "gfx/pokemon/galvantula/back.2bpp.lz"
 QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
 
 
@@ -554,7 +554,7 @@ PinecoFrontpic:      INCBIN "gfx/pokemon/pineco/front.animated.2bpp.lz"
 CorphishFrontpic:    INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
 FisherPic:           INCBIN "gfx/trainers/fisher.2bpp.lz"
 JigglypuffFrontpic:  INCBIN "gfx/pokemon/jigglypuff/front.animated.2bpp.lz"
-ParasFrontpic:       INCBIN "gfx/pokemon/paras/front.animated.2bpp.lz"
+JoltikFrontpic:      INCBIN "gfx/pokemon/joltik/front.animated.2bpp.lz"
 NidokingBackpic:     INCBIN "gfx/pokemon/nidoking/back.2bpp.lz"
 PokefanmPic:         INCBIN "gfx/trainers/pokefan_m.2bpp.lz"
 BoarderPic:          INCBIN "gfx/trainers/boarder.2bpp.lz"
@@ -887,7 +887,7 @@ BasclegionBackpic:   INCBIN "gfx/pokemon/basclegion/back.2bpp.lz"
 
 SECTION "Pics 17", ROMX
 
-ParasBackpic:        INCBIN "gfx/pokemon/paras/back.2bpp.lz"
+JoltikBackpic:       INCBIN "gfx/pokemon/joltik/back.2bpp.lz"
 VaporeonBackpic:     INCBIN "gfx/pokemon/vaporeon/back.2bpp.lz"
 TentacoolBackpic:    INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
 ArianaPic:           INCBIN "gfx/trainers/ariana.2bpp.lz"

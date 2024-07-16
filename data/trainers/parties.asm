@@ -2331,9 +2331,9 @@ endc
 	next_list_item ; SCHOOLBOY (9)
 	db "BILLY@", TRAINERTYPE_NORMAL
 	db 27
-	dw PARAS
+	dw JOLTIK
 	db 27
-	dw PARAS
+	dw JOLTIK
 	db 27
 	dw POLIWHIRL
 	db 35
@@ -3563,7 +3563,7 @@ endc
 	next_list_item ; BEAUTY (14)
 	db "Vicky@", TRAINERTYPE_MOVES
 	db 73
-	dw PARASECT
+	dw GALVANTULA
 	dw LEECH_LIFE, SOLAR_BLADE, SUNNY_DAY, SPORE
 	db 73
 	dw MEGANIUM
@@ -4428,7 +4428,7 @@ endc
 	next_list_item ; BUG_CATCHER (7)
 	db "Buzzy@", TRAINERTYPE_NORMAL
 	db 33
-	dw PARASECT
+	dw GALVANTULA
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (8)
@@ -4474,7 +4474,7 @@ endc
 	next_list_item ; BUG_CATCHER (11) Viridian Forest
 	db "Olly@", TRAINERTYPE_NORMAL
 	db 67
-	dw PARASECT
+	dw GALVANTULA
 	db 68
 	dw VENOMOTH
 	db 69
@@ -4577,7 +4577,7 @@ endc
 	next_list_item ; BUG_CATCHER (19) AZALEA GYM
 	db "Pete@", TRAINERTYPE_ITEM
 	db 43
-	dw PARASECT
+	dw GALVANTULA
 	db NO_ITEM
 	db 43
 	dw OVERQWIL
@@ -5543,7 +5543,7 @@ endc
 	dw SLOWPOKE
 	dw CURSE, WATER_GUN, GROWL, HEADBUTT
 	db 17
-	dw PARAS
+	dw JOLTIK
 	dw FURY_CUTTER, ABSORB, STUN_SPORE, SCRATCH
 	db -1 ; end
 
@@ -12271,7 +12271,7 @@ endc
 	next_list_item ; DELINQUENT2 (Route 3)
 	db "Tracy@", TRAINERTYPE_NORMAL
 	db 70
-	dw PARASECT
+	dw GALVANTULA
 	db 70
 	dw CURSOLA
 	db 70

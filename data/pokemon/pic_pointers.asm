@@ -108,10 +108,10 @@ PokemonPicPointers::
 	dba PetililBackpic
 	dba LilligantFrontpic
 	dba LilligantBackpic
-	dba ParasFrontpic
-	dba ParasBackpic
-	dba ParasectFrontpic
-	dba ParasectBackpic
+	dba JoltikFrontpic
+	dba JoltikBackpic
+	dba GalvantulaFrontpic
+	dba GalvantulaBackpic
 	dba VenonatFrontpic
 	dba VenonatBackpic
 	dba VenomothFrontpic

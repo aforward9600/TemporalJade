@@ -176,8 +176,8 @@ NewPokedexOrder:
 	dw MILTANK
 	dw YANMA
 	dw YANMEGA
-	dw PARAS
-	dw PARASECT
+	dw JOLTIK
+	dw GALVANTULA
 	dw HAPPINY
 	dw CHANSEY
 	dw BLISSEY

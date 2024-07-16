@@ -48,8 +48,8 @@ FramesPointers:
 	dba WhimsicottFrames
 	dba PetililFrames
 	dba LilligantFrames
-	dba ParasFrames
-	dba ParasectFrames
+	dba JoltikFrames
+	dba GalvantulaFrames
 	dba VenonatFrames
 	dba VenomothFrames
 	dba SandygastFrames

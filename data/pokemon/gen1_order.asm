@@ -44,7 +44,7 @@ Pokered_MonIndices:
 	db SCRAFTY
 	db RIOLU
 	db ARBOK
-	db PARASECT
+	db GALVANTULA
 	db PSYDUCK
 	db DROWZEE
 	db GOLEM
@@ -107,7 +107,7 @@ Pokered_MonIndices:
 	db TIMBURR
 	db ZUBAT
 	db EKANS
-	db PARAS
+	db JOLTIK
 	db POLIWHIRL
 	db POLIWRATH
 	db LILLIPUP

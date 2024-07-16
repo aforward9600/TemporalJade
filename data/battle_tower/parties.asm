@@ -2879,7 +2879,7 @@ BattleTowerMons6:
 	bigdw 103 ; SDef
 	db "SANDOPAN@@@"
 
-	dw PARASECT
+	dw GALVANTULA
 	db SITRUS_BERRY
 	dw SPORE, X_SCISSOR, SUNNY_DAY, SOLAR_BLADE
 

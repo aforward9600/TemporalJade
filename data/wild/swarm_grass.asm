@@ -377,32 +377,32 @@ SwarmGrassWildMons:
 	map_id ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	dbw 37, TOUCANNON
 	dbw 37, STOUTLAND
 	dbw 37, ESCAVALIER
-	dbw 37, PARASECT
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	; day
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	dbw 37, TOUCANNON
 	dbw 37, STOUTLAND
 	dbw 37, ESCAVALIER
-	dbw 37, PARASECT
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	; nite
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 	dbw 37, WHIMSICOTT
 	dbw 37, GOLDUCK
 	dbw 37, VENOMOTH
-	dbw 37, PARASECT
-	dbw 37, PARASECT
-	dbw 37, PARASECT
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
+	dbw 37, GALVANTULA
 
 ; Gligar Swarm
 	map_id UNION_CAVE_1F
