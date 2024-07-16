@@ -152,12 +152,12 @@ PokemonPicPointers::
 	dba DuosionBackpic
 	dba ReuniclusFrontpic
 	dba ReuniclusBackpic
-	dba MachopFrontpic
-	dba MachopBackpic
-	dba MachokeFrontpic
-	dba MachokeBackpic
-	dba MachampFrontpic
-	dba MachampBackpic
+	dba TimburrFrontpic
+	dba TimburrBackpic
+	dba GurdurrFrontpic
+	dba GurdurrBackpic
+	dba ConkeldurrFrontpic
+	dba ConkeldurrBackpic
 	dba BellsproutFrontpic
 	dba BellsproutBackpic
 	dba WeepinbellFrontpic

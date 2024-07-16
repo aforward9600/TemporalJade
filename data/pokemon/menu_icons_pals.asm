@@ -81,10 +81,10 @@ MonMenuIconPals:
 	icon_pals GREEN,  TEAL   ; POLITOED
 	icon_pals GREEN,  BLUE   ; SOLOSIS
 	icon_pals GREEN,  BLUE   ; DUOSION
-	icon_pals GREEN,  BLUE   ; SOLOSIS
-	icon_pals BROWN,  GRAY   ; MACHOP
-	icon_pals BROWN,  GRAY   ; MACHOKE
-	icon_pals BROWN,  GRAY   ; MACHAMP
+	icon_pals GREEN,  BLUE   ; REUNICLUS
+	icon_pals PINK,   RED    ; TIMBUR
+	icon_pals PINK,   RED    ; GURDURR
+	icon_pals PINK,   RED    ; CONKELDURR
 	icon_pals GREEN,  PURPLE ; BELLSPROUT
 	icon_pals GREEN,  PURPLE ; WEEPINBELL
 	icon_pals GREEN,  BLUE   ; VICTREEBEL

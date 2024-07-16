@@ -73,7 +73,7 @@ EggMovePointers1:
 	dw SolosisEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw MachopEggMoves
+	dw TimburrEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw BellsproutEggMoves
@@ -427,14 +427,13 @@ SolosisEggMoves:
 	dw NIGHT_SHADE
 	dw -1 ; end
 
-MachopEggMoves:
-	dw MEDITATE
-	dw ROLLING_KICK
-	dw ENCORE
-	dw BULLET_PUNCH
+TimburrEggMoves:
 	dw COUNTER
-	dw CLOSE_COMBAT
-	dw KNOCK_OFF
+	dw DETECT
+	dw DRAIN_PUNCH
+	dw ENDURE
+	dw FORESIGHT
+	dw REVERSAL
 	dw -1 ; end
 
 BellsproutEggMoves:

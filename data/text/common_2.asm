@@ -390,17 +390,18 @@ UnknownText_0x1c073b::
 	done
 
 UnknownText_0x1c0751::
-	text "Machamp is using"
-	line "Strength already."
+	text "Conkeldurr is"
+	line "using Strength"
+	cont "already."
 	prompt
 
 UnknownText_0x1c0774::
-	text "Machamp used"
+	text "Conkeldurr used"
 	line "Strength!"
 	done
 
 UnknownText_0x1c0788::
-	text "Machamp can"
+	text "Conkeldurr can"
 	line "move boulders."
 	prompt
 
@@ -409,7 +410,7 @@ UnknownText_0x1c07a0::
 	line "able to move this."
 
 	para "Want to call"
-	line "Machamp?"
+	line "Conkeldurr?"
 	done
 
 UnknownText_0x1c07d8::

@@ -72,9 +72,9 @@ EvosAttacksPointers1::
 	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
 	dw ReuniclusEvosAttacks
-	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
-	dw MachampEvosAttacks
+	dw TimburrEvosAttacks
+	dw GurdurrEvosAttacks
+	dw ConkeldurrEvosAttacks
 	dw BellsproutEvosAttacks
 	dw WeepinbellEvosAttacks
 	dw VictreebelEvosAttacks
@@ -1485,71 +1485,66 @@ ReuniclusEvosAttacks:
 	dbw 59, EXPLOSION
 	db 0 ; no more level-up moves
 
-MachopEvosAttacks:
-	dbbw EVOLVE_LEVEL, 28, MACHOKE
+TimburrEvosAttacks:
+	dbbw EVOLVE_LEVEL, 25, GURDURR
 	db 0 ; no more evolutions
-	dbw 1, LOW_KICK
+	dbw 1, POUND
 	dbw 1, LEER
-	dbw 3, FOCUS_ENERGY
-	dbw 7, KARATE_CHOP
-	dbw 9, FORESIGHT
-	dbw 13, LOW_SWEEP
-	dbw 15, SEISMIC_TOSS
-	dbw 19, REVENGE
-	dbw 21, KNOCK_OFF
-	dbw 25, VITAL_THROW
-	dbw 27, BRICK_BREAK
-	dbw 31, DUAL_CHOP
-	dbw 33, SUBMISSION
-	dbw 37, BULK_UP
-	dbw 39, CROSS_CHOP
-	dbw 43, SCARY_FACE
-	dbw 45, DYNAMICPUNCH
+	dbw 4, FOCUS_ENERGY
+	dbw 8, WORK_UP
+	dbw 12, LOW_KICK
+	dbw 16, ROCK_THROW
+	dbw 20, KARATE_CHOP
+	dbw 24, HEADBUTT
+	dbw 28, BULK_UP
+	dbw 31, ROCK_SLIDE
+	dbw 34, DYNAMICPUNCH
+	dbw 37, SCARY_FACE
+	dbw 40, HAMMER_ARM
+	dbw 43, STONE_EDGE
+	dbw 46, KNOCK_OFF
+	dbw 49, SUPERPOWER
 	db 0 ; no more level-up moves
 
-MachokeEvosAttacks:
-	dbbw EVOLVE_ITEM, LINK_CABLE, MACHAMP
+GurdurrEvosAttacks:
+	dbbw EVOLVE_ITEM, LINK_CABLE, CONKELDURR
 	db 0 ; no more evolutions
-	dbw 1, LOW_KICK
+	dbw 1, POUND
 	dbw 1, LEER
-	dbw 3, FOCUS_ENERGY
-	dbw 7, KARATE_CHOP
-	dbw 9, FORESIGHT
-	dbw 13, LOW_SWEEP
-	dbw 15, SEISMIC_TOSS
-	dbw 19, REVENGE
-	dbw 21, KNOCK_OFF
-	dbw 25, VITAL_THROW
-	dbw 27, BRICK_BREAK
-	dbw 33, DUAL_CHOP
-	dbw 37, SUBMISSION
-	dbw 43, BULK_UP
-	dbw 47, CROSS_CHOP
-	dbw 53, SCARY_FACE
-	dbw 57, DYNAMICPUNCH
+	dbw 4, FOCUS_ENERGY
+	dbw 8, WORK_UP
+	dbw 12, LOW_KICK
+	dbw 16, ROCK_THROW
+	dbw 20, KARATE_CHOP
+	dbw 24, HEADBUTT
+	dbw 29, BULK_UP
+	dbw 33, ROCK_SLIDE
+	dbw 37, DYNAMICPUNCH
+	dbw 41, SCARY_FACE
+	dbw 45, HAMMER_ARM
+	dbw 49, STONE_EDGE
+	dbw 53, KNOCK_OFF
+	dbw 57, SUPERPOWER
 	db 0 ; no more level-up moves
 
-MachampEvosAttacks:
+ConkeldurrEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, STRENGTH
-	dbw 1, STRENGTH
-	dbw 1, LOW_KICK
+	dbw 1, POUND
 	dbw 1, LEER
-	dbw 3, FOCUS_ENERGY
-	dbw 7, KARATE_CHOP
-	dbw 9, FORESIGHT
-	dbw 13, LOW_SWEEP
-	dbw 15, SEISMIC_TOSS
-	dbw 19, REVENGE
-	dbw 21, KNOCK_OFF
-	dbw 25, VITAL_THROW
-	dbw 27, BRICK_BREAK
-	dbw 33, DUAL_CHOP
-	dbw 37, SUBMISSION
-	dbw 43, BULK_UP
-	dbw 47, CROSS_CHOP
-	dbw 53, SCARY_FACE
-	dbw 57, DYNAMICPUNCH
+	dbw 4, FOCUS_ENERGY
+	dbw 8, WORK_UP
+	dbw 12, LOW_KICK
+	dbw 16, ROCK_THROW
+	dbw 20, KARATE_CHOP
+	dbw 24, HEADBUTT
+	dbw 29, BULK_UP
+	dbw 33, ROCK_SLIDE
+	dbw 37, DYNAMICPUNCH
+	dbw 41, SCARY_FACE
+	dbw 45, HAMMER_ARM
+	dbw 49, STONE_EDGE
+	dbw 53, KNOCK_OFF
+	dbw 57, SUPERPOWER
 	db 0 ; no more level-up moves
 
 BellsproutEvosAttacks:

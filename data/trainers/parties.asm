@@ -5291,7 +5291,7 @@ SailorGroup:
 	next_list_item ; SAILOR (2)
 	db "Hewbert@", TRAINERTYPE_NORMAL
 	db 73
-	dw MACHAMP
+	dw CONKELDURR
 	db 73
 	dw CRAWDAUNT
 	db -1 ; end
@@ -5315,9 +5315,9 @@ SailorGroup:
 	next_list_item ; SAILOR (5)
 	db "ERNEST@", TRAINERTYPE_NORMAL
 	db 18
-	dw MACHOP
+	dw TIMBURR
 	db 18
-	dw MACHOP
+	dw TIMBURR
 	db 18
 	dw POLIWHIRL
 	db -1 ; end
@@ -5339,21 +5339,21 @@ SailorGroup:
 	next_list_item ; SAILOR (8)
 	db "KENNETH@", TRAINERTYPE_NORMAL
 	db 28
-	dw MACHOP
+	dw TIMBURR
 	db 28
-	dw MACHOP
+	dw TIMBURR
 	db 28
 	dw POLIWRATH
 	db 28
-	dw MACHOP
+	dw TIMBURR
 	db -1 ; end
 
 	next_list_item ; SAILOR (9)
 	db "STANLY@", TRAINERTYPE_NORMAL
 	db 31
-	dw MACHOP
+	dw TIMBURR
 	db 33
-	dw MACHOKE
+	dw GURDURR
 	db 26
 	dw PSYDUCK
 	db -1 ; end
@@ -5361,7 +5361,7 @@ SailorGroup:
 	next_list_item ; SAILOR (10) HARRY
 	db "Larry@", TRAINERTYPE_NORMAL
 	db 17
-	dw MACHOP
+	dw TIMBURR
 	db 18
 	dw CHINCHOU
 	db -1 ; end
@@ -5711,7 +5711,7 @@ HikerGroup:
 	db 42
 	dw GOLEM
 	db 42
-	dw MACHAMP
+	dw CONKELDURR
 	db 43
 	dw DUDUNSPARS
 	db -1 ; end
@@ -5719,7 +5719,7 @@ HikerGroup:
 	next_list_item ; HIKER (2) Mount Mortar 1F Inside
 	db "Ozzy@", TRAINERTYPE_ITEM
 	db 8
-	dw MACHOP
+	dw TIMBURR
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -5737,7 +5737,7 @@ endc
 	next_list_item ; HIKER (3)
 	db "Phil@", TRAINERTYPE_ITEM
 	db 26
-	dw MACHOP
+	dw TIMBURR
 	db NO_ITEM
 	db 27
 	dw RHYHORN
@@ -5768,7 +5768,7 @@ endc
 	db 11
 	dw GEODUDE
 	db 11
-	dw MACHOP
+	dw TIMBURR
 	db -1 ; end
 
 	next_list_item ; HIKER (6)
@@ -5784,11 +5784,11 @@ endc
 	next_list_item ; HIKER (7)
 	db "ERIK@", TRAINERTYPE_NORMAL
 	db 24
-	dw MACHOP
+	dw TIMBURR
 	db 27
 	dw GRAVELER
 	db 27
-	dw MACHOP
+	dw TIMBURR
 	db -1 ; end
 
 	next_list_item ; HIKER (8)
@@ -5868,7 +5868,7 @@ endc
 	db 27
 	dw GRAVELER
 	db 29
-	dw MACHOKE
+	dw GURDURR
 	db -1 ; end
 
 	next_list_item ; HIKER (13)
@@ -5912,7 +5912,7 @@ endc
 	next_list_item ; HIKER (17)
 	db "JIM@", TRAINERTYPE_NORMAL
 	db 35
-	dw MACHAMP
+	dw CONKELDURR
 	db -1 ; end
 
 	next_list_item ; HIKER (18)
@@ -5925,7 +5925,7 @@ else
 	db NO_ITEM
 endc
 	db 46
-	dw MACHAMP
+	dw CONKELDURR
 	db NO_ITEM
 	db 46
 	dw SUDOWOODO
@@ -5965,7 +5965,7 @@ endc
 	db 30
 	dw GRAVELER
 	db 32
-	dw MACHOKE
+	dw GURDURR
 	db -1 ; end
 
 	next_list_item ; HIKER (22)
@@ -5977,7 +5977,7 @@ endc
 	dw GOLEM
 	dw MAGNITUDE, SELFDESTRUCT, DEFENSE_CURL, ROLLOUT
 	db 34
-	dw MACHOKE
+	dw GURDURR
 	dw KARATE_CHOP, VITAL_THROW, HEADBUTT, DIG
 	db -1 ; end
 
@@ -6046,7 +6046,7 @@ BikerGroup:
 	next_list_item ; BIKER (7) Route 17
 	db "Bimmy@", TRAINERTYPE_NORMAL
 	db 76
-	dw MACHAMP
+	dw CONKELDURR
 	db -1 ; end
 
 	next_list_item ; BIKER (8) Route 17
@@ -6212,7 +6212,7 @@ endc
 	next_list_item ; BIKER Route 14
 	db "Jamie@", TRAINERTYPE_NORMAL
 	db 74
-	dw MACHAMP
+	dw CONKELDURR
 	db 74
 	dw MUK
 	db 74
@@ -6538,7 +6538,7 @@ else
 	db NO_ITEM
 endc
 	db 24
-	dw MACHOP
+	dw TIMBURR
 	db NO_ITEM
 	db -1 ; end
 
@@ -6579,7 +6579,7 @@ else
 endc
 	dw SPIKES, SELFDESTRUCT, BULLDOZE, ROCK_TOMB
 	db 32
-	dw MACHOKE
+	dw GURDURR
 if DEF(_CHALLENGE)
 	db QUICK_CLAW
 else
@@ -6598,7 +6598,7 @@ endc
 	next_list_item ; BLACKBELT_T (5) Cianwood Gym
 	db "Satoshi@", TRAINERTYPE_MOVES
 	db 25
-	dw MACHOP
+	dw TIMBURR
 	dw LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
 	db 26
 	dw CROAGUNK
@@ -6625,7 +6625,7 @@ endc
 	next_list_item ; BLACKBELT_T (8)
 	db "Minoru@", TRAINERTYPE_NORMAL
 	db 52
-	dw MACHAMP
+	dw CONKELDURR
 	db 52
 	dw RIOLU
 	db 52
@@ -6639,11 +6639,11 @@ endc
 	next_list_item ; BLACKBELT_T (9)
 	db "WAI@", TRAINERTYPE_NORMAL
 	db 30
-	dw MACHOKE
+	dw GURDURR
 	db 32
-	dw MACHOKE
+	dw GURDURR
 	db 34
-	dw MACHOKE
+	dw GURDURR
 	db -1 ; end
 
 	end_list_items
@@ -6677,7 +6677,7 @@ endc
 	dw THUNDER_FANG, FIRE_FANG, BITE, HOWL
 if DEF(_CHALLENGE)
 	db 23
-	dw MACHOP
+	dw TIMBURR
 	db BLACKBELT
 	dw KNOCK_OFF, BRICK_BREAK, FORESIGHT, ROCK_TOMB
 endc
@@ -6718,7 +6718,7 @@ else
 endc
 	dw FLAMETHROWER, BITE, THUNDER_FANG, EXTREMESPEED
 	db 36
-	dw MACHOKE
+	dw GURDURR
 if DEF(_CHALLENGE)
 	db BLACKBELT
 else
@@ -6762,7 +6762,7 @@ else
 endc
 	dw THUNDER_FANG, FAINT_ATTACK, SNARL, FIRE_FANG
 	db 39
-	dw MACHOKE
+	dw GURDURR
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -6806,7 +6806,7 @@ else
 endc
 	dw WILL_O_WISP, CRUNCH, THUNDER_FANG, FLAMETHROWER
 	db 45
-	dw MACHAMP
+	dw CONKELDURR
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -6850,7 +6850,7 @@ else
 endc
 	dw WILL_O_WISP, THUNDER_FANG, DARK_PULSE, FLAMETHROWER
 	db 58
-	dw MACHAMP
+	dw CONKELDURR
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -9521,7 +9521,7 @@ endc
 	dw LANTURN
 	db NO_ITEM
 	db 31
-	dw MACHOKE
+	dw GURDURR
 	db NO_ITEM
 	db -1 ; end
 
@@ -9567,7 +9567,7 @@ else
 	db NO_ITEM
 endc
 	db 68
-	dw MACHAMP
+	dw CONKELDURR
 	db NO_ITEM
 	db 68
 	dw ARCHEOPS
@@ -9665,7 +9665,7 @@ endc
 	dw URSARING
 	dw SHADOW_CLAW, SLASH, PLAY_ROUGH, CHARM
 	db 38
-	dw MACHAMP
+	dw CONKELDURR
 	dw STRENGTH, BRICK_BREAK, KNOCK_OFF, BULK_UP
 	db 39
 	dw ARCANINE
@@ -10460,7 +10460,7 @@ else
 endc
 	dw NASTY_PLOT, THUNDERBOLT, TRI_ATTACK, PSYCHIC_M
 	db 60
-	dw MACHAMP
+	dw CONKELDURR
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -11803,7 +11803,7 @@ FedLeaderGroup:
 	dw WEAVILE
 	dw NIGHT_SLASH, ICICLE_CRASH, BRICK_BREAK, SWORDS_DANCE
 	db 79
-	dw MACHAMP
+	dw CONKELDURR
 	dw CROSS_CHOP, STONE_EDGE, EARTHQUAKE, BULK_UP
 	db 79
 	dw SWAMPERT
@@ -12742,7 +12742,7 @@ SoldierGroup:
 	db NO_ITEM
 	dw GRASS_KNOT, THUNDERBOLT, SNARL, PROTECT
 	db 72
-	dw MACHAMP
+	dw CONKELDURR
 	db NO_ITEM
 	dw BULK_UP, CROSS_CHOP, KNOCK_OFF, STRENGTH
 	db 73
@@ -12883,7 +12883,7 @@ endc
 	dw POLIWRATH
 	dw WAVE_CRASH, CLOSE_COMBAT, ICE_PUNCH, HYPNOSIS
 	db 75
-	dw MACHAMP
+	dw CONKELDURR
 	dw CROSS_CHOP, EARTHQUAKE, STONE_EDGE, KNOCK_OFF
 	db -1 ; end
 

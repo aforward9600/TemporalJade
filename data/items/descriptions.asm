@@ -920,12 +920,12 @@ GolemCallDesc:
 	next "smash rocks.@"
 
 VoltorbCallDesc:
-	db   "Calls a Voltorb to"
+	db   "Calls a Pikachu to"
 	next "light up darkness.@"
 
 MachampCallDesc:
-	db   "Calls a Machamp to"
-	next "move boulders.@"
+	db   "Calls a Conkeldurr"
+	next "to move boulders.@"
 
 SnubbullCallDesc:
 	db   "Calls a Snubbull"

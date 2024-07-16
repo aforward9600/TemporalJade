@@ -1160,7 +1160,7 @@ BattleTowerMons3:
 	bigdw 60 ; SDef
 	db "HERUGA-@@@@"
 
-	dw MACHAMP
+	dw CONKELDURR
 	db LUM_BERRY
 	dw CROSS_CHOP, ICE_PUNCH, EARTHQUAKE, FIRE_BLAST
 
@@ -2140,7 +2140,7 @@ BattleTowerMons5:
 	bigdw 129 ; SDef
 	db "YADOKINGU@@"
 
-	dw MACHAMP
+	dw CONKELDURR
 	db SITRUS_BERRY
 	dw CROSS_CHOP, EARTHQUAKE, FIRE_BLAST, THUNDERPUNCH
 
@@ -2534,7 +2534,7 @@ BattleTowerMons6:
 	bigdw 112 ; SDef
 	db "PORIGON2@@@"
 
-	dw MACHAMP
+	dw CONKELDURR
 	db QUICK_CLAW
 	dw FIRE_PUNCH, CROSS_CHOP, THUNDERPUNCH, EARTHQUAKE
 
@@ -4130,7 +4130,7 @@ BattleTowerMons9:
 	bigdw 201 ; SDef
 	db "E-HUi@@@@@@"
 
-	dw MACHAMP
+	dw CONKELDURR
 	db QUICK_CLAW
 	dw CROSS_CHOP, VITAL_THROW, FIRE_PUNCH, EARTHQUAKE
 
@@ -4409,7 +4409,7 @@ BattleTowerMons10:
 	bigdw 191 ; SDef
 	db "HERUGA-@@@@"
 
-	dw MACHAMP
+	dw CONKELDURR
 	db QUICK_CLAW
 	dw CROSS_CHOP, EARTHQUAKE, GIGA_IMPACT, VITAL_THROW
 

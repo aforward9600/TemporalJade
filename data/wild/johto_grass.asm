@@ -426,7 +426,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw  8, ZUBAT
-	dbw  8, MACHOP
+	dbw  8, TIMBURR
 	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
@@ -435,7 +435,7 @@ JohtoGrassWildMons:
 	dbw  8, ARON
 	; day
 	dbw  8, ZUBAT
-	dbw  8, MACHOP
+	dbw  8, TIMBURR
 	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
@@ -444,7 +444,7 @@ JohtoGrassWildMons:
 	dbw  8, ARON
 	; nite
 	dbw  8, ZUBAT
-	dbw  8, MACHOP
+	dbw  8, TIMBURR
 	dbw  8, SANDYGAST
 	dbw  8, MARILL
 	dbw  8, GEODUDE
@@ -457,7 +457,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw  8, DRILBUR
 	dbw  8, ZUBAT
-	dbw  8, MACHOP
+	dbw  8, TIMBURR
 	dbw  8, MARILL
 	dbw  8, SCRAGGY
 	dbw  8, SCRAGGY
@@ -466,7 +466,7 @@ JohtoGrassWildMons:
 	; day
 	dbw  8, DRILBUR
 	dbw  8, ZUBAT
-	dbw  8, MACHOP
+	dbw  8, TIMBURR
 	dbw  8, MARILL
 	dbw  8, SCRAGGY
 	dbw  8, SCRAGGY
@@ -475,7 +475,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw  8, DRILBUR
 	dbw  8, ZUBAT
-	dbw  8, MACHOP
+	dbw  8, TIMBURR
 	dbw  8, MARILL
 	dbw  8, SCRAGGY
 	dbw  8, SCRAGGY
@@ -966,7 +966,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 75, CROBAT
-	dbw 75, MACHAMP
+	dbw 75, CONKELDURR
 	dbw 75, URSARING
 	dbw 75, PARASECT
 	dbw 75, SNEASEL
@@ -975,7 +975,7 @@ JohtoGrassWildMons:
 	dbw 75, TYRANITAR
 	; day
 	dbw 75, CROBAT
-	dbw 75, MACHAMP
+	dbw 75, CONKELDURR
 	dbw 75, URSARING
 	dbw 75, PARASECT
 	dbw 75, SNEASEL
@@ -984,7 +984,7 @@ JohtoGrassWildMons:
 	dbw 75, TYRANITAR
 	; nite
 	dbw 75, CROBAT
-	dbw 75, MACHAMP
+	dbw 75, CONKELDURR
 	dbw 75, GOLDUCK
 	dbw 75, GOLDUCK
 	dbw 75, SNEASEL
@@ -1686,7 +1686,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 23, ZUBAT
-	dbw 23, MACHOP
+	dbw 23, TIMBURR
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
@@ -1695,7 +1695,7 @@ JohtoGrassWildMons:
 	dbw 23, STEELIX
 	; day
 	dbw 23, ZUBAT
-	dbw 23, MACHOP
+	dbw 23, TIMBURR
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
@@ -1704,7 +1704,7 @@ JohtoGrassWildMons:
 	dbw 23, STEELIX
 	; nite
 	dbw 23, ZUBAT
-	dbw 23, MACHOP
+	dbw 23, TIMBURR
 	dbw 23, MISDREAVUS
 	dbw 23, GEODUDE
 	dbw 23, ONIX
@@ -1986,7 +1986,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 23, ZUBAT
-	dbw 23, MACHOP
+	dbw 23, TIMBURR
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
@@ -1995,7 +1995,7 @@ JohtoGrassWildMons:
 	dbw 23, STEELIX
 	; day
 	dbw 23, ZUBAT
-	dbw 23, MACHOP
+	dbw 23, TIMBURR
 	dbw 23, WOOPER
 	dbw 23, GEODUDE
 	dbw 23, ONIX
@@ -2004,7 +2004,7 @@ JohtoGrassWildMons:
 	dbw 23, STEELIX
 	; nite
 	dbw 23, ZUBAT
-	dbw 23, MACHOP
+	dbw 23, TIMBURR
 	dbw 23, MISDREAVUS
 	dbw 23, GEODUDE
 	dbw 23, ONIX

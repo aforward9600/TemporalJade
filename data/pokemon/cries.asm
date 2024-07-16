@@ -76,9 +76,9 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $200,  $090 ; SOLOSIS
 	mon_cry CRY_AMPHAROS,    $185,  $184 ; DUOSION
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; REUNICLUS
-	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; MACHOP
-	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; MACHOKE
-	mon_cry CRY_GROWLITHE,   $008,  $140 ; MACHAMP
+	mon_cry CRY_SPEAROW,    -$080,  $0ac ; TIMBURR
+	mon_cry CRY_AMPHAROS,   -$154,  $160 ; GURDURR
+	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; CONKELDURR
 	mon_cry CRY_PSYDUCK,     $055,  $081 ; BELLSPROUT
 	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; WEEPINBELL
 	mon_cry CRY_WEEPINBELL,  $066,  $14c ; VICTREEBEL

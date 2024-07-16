@@ -70,9 +70,9 @@ AnimationIdlePointers:
 	dw SolosisAnimationIdle
 	dw DuosionAnimationIdle
 	dw ReuniclusAnimationIdle
-	dw MachopAnimationIdle
-	dw MachokeAnimationIdle
-	dw MachampAnimationIdle
+	dw TimburrAnimationIdle
+	dw GurdurrAnimationIdle
+	dw ConkeldurrAnimationIdle
 	dw BellsproutAnimationIdle
 	dw WeepinbellAnimationIdle
 	dw VictreebelAnimationIdle

@@ -71,9 +71,9 @@ PokedexDataPointerTable:
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry
-	dba MachopPokedexEntry
-	dba MachokePokedexEntry
-	dba MachampPokedexEntry
+	dba TimburrPokedexEntry
+	dba GurdurrPokedexEntry
+	dba ConkeldurrPokedexEntry
 	dba BellsproutPokedexEntry
 	dba WeepinbellPokedexEntry
 	dba VictreebelPokedexEntry

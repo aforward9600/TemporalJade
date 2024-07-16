@@ -70,9 +70,9 @@ AnimationPointers:
 	dw SolosisAnimation
 	dw DuosionAnimation
 	dw ReuniclusAnimation
-	dw MachopAnimation
-	dw MachokeAnimation
-	dw MachampAnimation
+	dw TimburrAnimation
+	dw GurdurrAnimation
+	dw ConkeldurrAnimation
 	dw BellsproutAnimation
 	dw WeepinbellAnimation
 	dw VictreebelAnimation

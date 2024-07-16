@@ -70,9 +70,9 @@ FramesPointers:
 	dba SolosisFrames
 	dba DuosionFrames
 	dba ReuniclusFrames
-	dba MachopFrames
-	dba MachokeFrames
-	dba MachampFrames
+	dba TimburrFrames
+	dba GurdurrFrames
+	dba ConkeldurrFrames
 	dba BellsproutFrames
 	dba WeepinbellFrames
 	dba VictreebelFrames

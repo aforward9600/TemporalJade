@@ -67,27 +67,27 @@ KantoGrassWildMons:
 	; morn
 	dbw 73, ONIX
 	dbw 73, GOLEM
-	dbw 73, MACHOKE
+	dbw 73, GURDURR
 	dbw 73, GOLBAT
-	dbw 73, MACHAMP
+	dbw 73, CONKELDURR
 	dbw 73, MAROWAK
 	dbw 73, MAROWAK
 	dbw 73, MAROWAK
 	; day
 	dbw 73, ONIX
 	dbw 73, GOLEM
-	dbw 73, MACHOKE
+	dbw 73, GURDURR
 	dbw 73, GOLBAT
-	dbw 73, MACHAMP
+	dbw 73, CONKELDURR
 	dbw 73, MAROWAK
 	dbw 73, MAROWAK
 	dbw 73, MAROWAK
 	; nite
 	dbw 73, ONIX
 	dbw 73, GOLEM
-	dbw 73, MACHOKE
+	dbw 73, GURDURR
 	dbw 73, GOLBAT
-	dbw 73, MACHAMP
+	dbw 73, CONKELDURR
 	dbw 73, MAROWAK
 	dbw 73, MAROWAK
 	dbw 73, MAROWAK
@@ -97,27 +97,27 @@ KantoGrassWildMons:
 	; morn
 	dbw 73, ONIX
 	dbw 73, GOLEM
-	dbw 73, MACHOKE
+	dbw 73, GURDURR
 	dbw 73, GOLBAT
-	dbw 73, MACHAMP
+	dbw 73, CONKELDURR
 	dbw 73, KANGASKHAN
 	dbw 73, KANGASKHAN
 	dbw 73, KANGASKHAN
 	; day
 	dbw 73, ONIX
 	dbw 73, GOLEM
-	dbw 73, MACHOKE
+	dbw 73, GURDURR
 	dbw 73, GOLBAT
-	dbw 73, MACHAMP
+	dbw 73, CONKELDURR
 	dbw 73, KANGASKHAN
 	dbw 73, KANGASKHAN
 	dbw 73, KANGASKHAN
 	; nite
 	dbw 73, ONIX
 	dbw 73, GOLEM
-	dbw 73, MACHOKE
+	dbw 73, GURDURR
 	dbw 73, GOLBAT
-	dbw 73, MACHAMP
+	dbw 73, CONKELDURR
 	dbw 73, KANGASKHAN
 	dbw 73, KANGASKHAN
 	dbw 73, KANGASKHAN

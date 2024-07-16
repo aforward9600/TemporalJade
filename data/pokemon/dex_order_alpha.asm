@@ -37,6 +37,7 @@ AlphabeticalPokedexOrder:
 	dw CLEFABLE
 	dw CLEFAIRY
 	dw CLEFFA
+	dw CONKELDURR
 	dw CORPHISH
 	dw CORSOLA
 	dw COTTONEE
@@ -113,6 +114,7 @@ AlphabeticalPokedexOrder:
 	dw GRAVELER
 	dw GRIMER
 	dw GROWLITHE
+	dw GURDURR
 	dw GYARADOS
 	dw HAPPINY
 	dw HAUNTER
@@ -153,9 +155,6 @@ AlphabeticalPokedexOrder:
 	dw LUCARIO
 	dw LUDICOLO
 	dw LUGIA
-	dw MACHAMP
-	dw MACHOKE
-	dw MACHOP
 	dw MAGBY
 	dw MAGCARGO
 	dw MAGIKARP
@@ -289,6 +288,7 @@ AlphabeticalPokedexOrder:
 	dw TENTACOOL
 	dw TENTACRUEL
 	dw TEPIG
+	dw TIMBURR
 	dw TIRTOUGA
 	dw TOGEKISS
 	dw TOGEPI

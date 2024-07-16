@@ -1028,8 +1028,8 @@ Script_UsedStrength:
 	pause 15
 	readmem wBuffer6
 	refreshscreen
-	pokepic MACHAMP
-	cry MACHAMP
+	pokepic CONKELDURR
+	cry CONKELDURR
 	pause 3
 	closepokepic
 	writetext .StrengthAllowedItToMoveBoulders

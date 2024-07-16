@@ -187,7 +187,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_PARAS ; b0
 	const SPRITE_TENTACOOL ; b1
 	const SPRITE_TAUROS ; b2
-	const SPRITE_MACHOP ; b3
+	const SPRITE_TIMBURR ; b3
 	const SPRITE_VOLTORB ; b4
 	const SPRITE_LAPRAS ; b5
 	const SPRITE_RHYDON ; b6
@@ -204,7 +204,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_RIBOMBEE ; bf
 	const SPRITE_AMPHAROS ; c0
 	const SPRITE_FARFETCHD ; c1
-	const SPRITE_MACHOKE ; c2
+	const SPRITE_GURDURR ; c2
 	const SPRITE_POLIWRATH ; c3
 	const SPRITE_PERSIAN ; c4
 	const SPRITE_HERACROSS ; c5
@@ -222,7 +222,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_ARTICUNO ; d1
 	const SPRITE_ZAPDOS ; d2
 	const SPRITE_SPEAROW ; d3
-	const SPRITE_MACHAMP ; d4
+	const SPRITE_CONKELDURR ; d4
 	const SPRITE_IGGLYBUFF ; d5
 	const SPRITE_QUAGSIRE ; d6
 	const SPRITE_SOLOSIS ; d7

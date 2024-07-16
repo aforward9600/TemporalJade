@@ -72,8 +72,8 @@ PreviousEvolutionStage::
 	dw SOLOSIS      ;40
 	dw DUOSION
 	dw 0
-	dw MACHOP
-	dw MACHOKE
+	dw TIMBURR
+	dw GURDURR
 	dw 0
 	dw BELLSPROUT
 	dw WEEPINBELL

@@ -39,7 +39,7 @@ Pokered_MonIndices:
 	db DUOSION
 	db GRAVELER
 	db CHANSEY
-	db MACHOKE
+	db GURDURR
 	db MR__MIME
 	db SCRAFTY
 	db RIOLU
@@ -104,7 +104,7 @@ Pokered_MonIndices:
 	db FLAREON
 	db JOLTEON
 	db VAPOREON
-	db MACHOP
+	db TIMBURR
 	db ZUBAT
 	db EKANS
 	db PARAS
@@ -124,7 +124,7 @@ Pokered_MonIndices:
 	db PIKIPEK
 	db TRUMBEAK
 	db TOUCANNON
-	db MACHAMP
+	db CONKELDURR
 	db MAGMORTAR ; MISSINGNO.
 	db GOLDUCK
 	db HYPNO

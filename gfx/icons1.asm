@@ -73,9 +73,9 @@ Icons1:
 	dw SolosisIcon
 	dw DuosionIcon
 	dw ReuniclusIcon
-	dw MachopIcon
-	dw MachokeIcon
-	dw MachampIcon
+	dw TimburrIcon
+	dw GurdurrIcon
+	dw ConkeldurrIcon
 	dw BellsproutIcon
 	dw WeepinbellIcon
 	dw VictreebelIcon
@@ -200,9 +200,9 @@ PolitoedIcon:     INCBIN "gfx/icons/politoed.2bpp"
 SolosisIcon:      INCBIN "gfx/icons/solosis.2bpp"
 DuosionIcon:      INCBIN "gfx/icons/duosion.2bpp"
 ReuniclusIcon:    INCBIN "gfx/icons/reuniclus.2bpp"
-MachopIcon:       INCBIN "gfx/icons/machop.2bpp"
-MachokeIcon:      INCBIN "gfx/icons/machoke.2bpp"
-MachampIcon:      INCBIN "gfx/icons/machamp.2bpp"
+TimburrIcon:      INCBIN "gfx/icons/timburr.2bpp"
+GurdurrIcon:      INCBIN "gfx/icons/gurdurr.2bpp"
+ConkeldurrIcon:   INCBIN "gfx/icons/conkeldurr.2bpp"
 BellsproutIcon:   INCBIN "gfx/icons/bellsprout.2bpp"
 WeepinbellIcon:   INCBIN "gfx/icons/weepinbell.2bpp"
 VictreebelIcon:   INCBIN "gfx/icons/victreebel.2bpp"

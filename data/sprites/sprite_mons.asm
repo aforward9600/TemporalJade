@@ -26,7 +26,7 @@ SpriteMons:
 	dw PARAS
 	dw TENTACOOL
 	dw TAUROS
-	dw MACHOP
+	dw TIMBURR
 	dw VOLTORB
 	dw LAPRAS
 	dw RHYDON
@@ -43,7 +43,7 @@ SpriteMons:
 	dw RIBOMBEE
 	dw AMPHAROS
 	dw FARFETCH_D
-	dw MACHOKE
+	dw GURDURR
 	dw POLIWRATH
 	dw PERSIAN
 	dw HERACROSS
@@ -61,7 +61,7 @@ SpriteMons:
 	dw ARTICUNO
 	dw ZAPDOS
 	dw SPEAROW
-	dw MACHAMP
+	dw CONKELDURR
 	dw IGGLYBUFF
 	dw QUAGSIRE
 	dw SOLOSIS

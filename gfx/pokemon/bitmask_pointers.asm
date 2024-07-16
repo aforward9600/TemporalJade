@@ -70,9 +70,9 @@ BitmasksPointers:
 	dw SolosisBitmasks
 	dw DuosionBitmasks
 	dw ReuniclusBitmasks
-	dw MachopBitmasks
-	dw MachokeBitmasks
-	dw MachampBitmasks
+	dw TimburrBitmasks
+	dw GurdurrBitmasks
+	dw ConkeldurrBitmasks
 	dw BellsproutBitmasks
 	dw WeepinbellBitmasks
 	dw VictreebelBitmasks
