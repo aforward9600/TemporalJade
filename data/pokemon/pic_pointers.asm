@@ -66,12 +66,12 @@ PokemonPicPointers::
 	dba DrilburBackpic
 	dba ExcadrillFrontpic
 	dba ExcadrillBackpic
-	dba NidoranFFrontpic
-	dba NidoranFBackpic
-	dba NidorinaFrontpic
-	dba NidorinaBackpic
-	dba NidoqueenFrontpic
-	dba NidoqueenBackpic
+	dba SewaddleFrontpic
+	dba SewaddleBackpic
+	dba SwadloonFrontpic
+	dba SwadloonBackpic
+	dba LeavannyFrontpic
+	dba LeavannyBackpic
 	dba NidoranMFrontpic
 	dba NidoranMBackpic
 	dba NidorinoFrontpic

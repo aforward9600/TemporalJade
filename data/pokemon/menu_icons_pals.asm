@@ -39,9 +39,9 @@ MonMenuIconPals:
 	icon_pals RED,    BROWN  ; RAICHU
 	icon_pals BLUE,   RED    ; DRILBUR
 	icon_pals RED,    BLUE   ; EXCADRILL
-	icon_pals BLUE,   PINK   ; NIDORAN_F
-	icon_pals BLUE,   PINK   ; NIDORINA
-	icon_pals BLUE,   PINK   ; NIDOQUEEN
+	icon_pals GREEN,  BLUE   ; SEWADDLE
+	icon_pals GREEN,  GREEN  ; SWADLOON
+	icon_pals GREEN,  GREEN  ; LEAVANNY
 	icon_pals PURPLE, BLUE   ; NIDORAN_M
 	icon_pals PURPLE, BLUE   ; NIDORINA
 	icon_pals PURPLE, BLUE   ; NIDOKING

@@ -29,9 +29,9 @@ EvosAttacksPointers1::
 	dw RaichuEvosAttacks
 	dw DrilburEvosAttacks
 	dw ExcadrillEvosAttacks
-	dw NidoranFEvosAttacks
-	dw NidorinaEvosAttacks
-	dw NidoqueenEvosAttacks
+	dw SewaddleEvosAttacks
+	dw SwadloonEvosAttacks
+	dw LeavannyEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
 	dw NidokingEvosAttacks
@@ -691,53 +691,48 @@ ExcadrillEvosAttacks:
 	dbw 62, FISSURE
 	db 0 ; no more level-up moves
 
-NidoranFEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, NIDORINA
+SewaddleEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, SWADLOON
 	db 0 ; no more evolutions
-	dbw 1, GROWL
-	dbw 1, SCRATCH
-	dbw 7, TAIL_WHIP
-	dbw 9, DOUBLE_KICK
-	dbw 13, POISON_STING
-	dbw 19, FURY_SWIPES
-	dbw 21, BITE
-	dbw 25, DOUBLE_TEAM
-	dbw 31, TOXIC
-	dbw 33, FLATTER
-	dbw 37, CRUNCH
-	dbw 43, VENOSHOCK
-	dbw 45, POISON_FANG
-	db 0 ; no more level-up moves
-
-NidorinaEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
-	db 0 ; no more evolutions
-	dbw 1, GROWL
-	dbw 1, SCRATCH
-	dbw 7, TAIL_WHIP
-	dbw 9, DOUBLE_KICK
-	dbw 13, POISON_STING
-	dbw 20, FURY_SWIPES
-	dbw 23, BITE
-	dbw 28, DOUBLE_TEAM
-	dbw 35, TOXIC
-	dbw 38, FLATTER
-	dbw 43, CRUNCH
-	dbw 50, VENOSHOCK
-	dbw 58, POISON_FANG
-	db 0 ; no more level-up moves
-
-NidoqueenEvosAttacks:
-	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SUPERPOWER
-	dbw 1, SUPERPOWER
 	dbw 1, TACKLE
-	dbw 1, SCRATCH
-	dbw 1, DOUBLE_KICK
-	dbw 1, TAIL_WHIP
-	dbw 23, STOMP
-	dbw 35, BODY_SLAM
-	dbw 43, EARTH_POWER
+	dbw 1, STRING_SHOT
+	dbw 8, PIN_MISSILE
+	dbw 15, RAZOR_LEAF
+	dbw 22, SIGNAL_BEAM
+	dbw 29, ENDURE
+	dbw 31, SPIDER_WEB
+	dbw 36, BUG_BUZZ
+	dbw 43, FLAIL
+	db 0 ; no more level-up moves
+
+SwadloonEvosAttacks:
+	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, LEAVANNY
+	db 0 ; no more evolutions
+	dbw LEARN_EVO_MOVE, PROTECT
+	dbw 1, PROTECT
+	dbw 1, GRASSWHISTLE
+	dbw 1, TACKLE
+	dbw 1, STRING_SHOT
+	dbw 1, PIN_MISSILE
+	dbw 1, RAZOR_LEAF
+	db 0 ; no more level-up moves
+
+LeavannyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw LEARN_EVO_MOVE, SLASH
+	dbw 1, SLASH
+	dbw 1, TACKLE
+	dbw 1, STRING_SHOT
+	dbw 8, PIN_MISSILE
+	dbw 15, RAZOR_LEAF
+	dbw 22, SIGNAL_BEAM
+	dbw 29, X_SCISSOR
+	dbw 32, HONE_CLAWS
+	dbw 36, LEAF_BLADE
+	dbw 39, LEECH_LIFE
+	dbw 43, HEAL_BELL
+	dbw 46, SWORDS_DANCE
+	dbw 50, SOLAR_BLADE
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:

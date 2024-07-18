@@ -147,6 +147,7 @@ AlphabeticalPokedexOrder:
 	dw LARVESTA
 	dw LARVITAR
 	dw LEAFEON
+	dw LEAVANNY
 	dw LICKILICKY
 	dw LICKITUNG
 	dw LILLIGANT
@@ -190,10 +191,7 @@ AlphabeticalPokedexOrder:
 	dw MURKROW
 	dw NATU
 	dw NIDOKING
-	dw NIDOQUEEN
-	dw NIDORAN_F
 	dw NIDORAN_M
-	dw NIDORINA
 	dw NIDORINO
 	dw NINETALES
 	dw NOCTOWL
@@ -252,6 +250,7 @@ AlphabeticalPokedexOrder:
 	dw SEEL
 	dw SENTRET
 	dw SHELMET
+	dw SEWADDLE
 	dw SIRFETCH_D
 	dw SKARMINI
 	dw SKARMORY
@@ -278,6 +277,7 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SWABLU
+	dw SWADLOON
 	dw SWAMPERT
 	dw SYLVEON
 	dw SWINUB

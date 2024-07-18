@@ -142,7 +142,7 @@ Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
 Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty Joltik, Galvantula sprites
 
 Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
-Basculin, Karrablast and Escavalier animations:
+Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny animations:
 PokeMMO Generation 2 Sprites Mod
 
 Solosis, Duosion, Reuniclus, Petil, Lilligant, Haxorus, Timburr, Gurdurr,

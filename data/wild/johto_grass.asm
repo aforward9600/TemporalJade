@@ -156,7 +156,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 27, NIDORINO
-	dbw 27, NIDORINA
+	dbw 27, SWADLOON
 	dbw 27, ESCAVALIER
 	dbw 27, TOUCANNON
 	dbw 27, SCYTHER
@@ -165,7 +165,7 @@ JohtoGrassWildMons:
 	dbw 27, PINSIR
 	; day
 	dbw 27, NIDORINO
-	dbw 27, NIDORINA
+	dbw 27, SWADLOON
 	dbw 27, ESCAVALIER
 	dbw 27, TOUCANNON
 	dbw 27, SCYTHER
@@ -174,7 +174,7 @@ JohtoGrassWildMons:
 	dbw 27, PINSIR
 	; nite
 	dbw 27, NIDORINO
-	dbw 27, NIDORINA
+	dbw 27, SWADLOON
 	dbw 27, ACCELGOR
 	dbw 27, HERDIER
 	dbw 27, SCYTHER
@@ -1175,32 +1175,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 8, LILLIPUP
-	dbw 8, PIKIPEK
-	dbw 8, DROWZEE
-	dbw 8, MANKEY
-	dbw 8, MANKEY
-	dbw 8, LITWICK
-	dbw 8, SOLOSIS
-	dbw 8, SOLOSIS
+	dbw 7, LILLIPUP
+	dbw 7, PIKIPEK
+	dbw 7, CUTIEFLY
+	dbw 7, MANKEY
+	dbw 7, MANKEY
+	dbw 7, LITWICK
+	dbw 7, SOLOSIS
+	dbw 7, SOLOSIS
 	; day
-	dbw 8, LILLIPUP
-	dbw 8, PIKIPEK
-	dbw 8, DROWZEE
-	dbw 8, MANKEY
-	dbw 8, MANKEY
-	dbw 8, LITWICK
-	dbw 8, SOLOSIS
-	dbw 8, SOLOSIS
+	dbw 7, LILLIPUP
+	dbw 7, PIKIPEK
+	dbw 7, CUTIEFLY
+	dbw 7, MANKEY
+	dbw 7, MANKEY
+	dbw 7, LITWICK
+	dbw 7, SOLOSIS
+	dbw 7, SOLOSIS
 	; nite
-	dbw 8, LILLIPUP
-	dbw 8, PIKIPEK
-	dbw 8, DROWZEE
-	dbw 8, MANKEY
-	dbw 8, MANKEY
-	dbw 8, LITWICK
-	dbw 8, GASTLY
-	dbw 8, GASTLY
+	dbw 7, LILLIPUP
+	dbw 7, PIKIPEK
+	dbw 7, CUTIEFLY
+	dbw 7, MANKEY
+	dbw 7, MANKEY
+	dbw 7, LITWICK
+	dbw 7, GASTLY
+	dbw 7, GASTLY
 
 	map_id ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1356,7 +1356,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 12, KARRABLAST
-	dbw 12, NIDORAN_F
+	dbw 12, SEWADDLE
 	dbw 12, VENIPEDE
 	dbw 12, NIDORAN_M
 	dbw 12, MIME__JR
@@ -1365,7 +1365,7 @@ JohtoGrassWildMons:
 	dbw 12, FARFETCH_D
 	; day
 	dbw 12, DODUO
-	dbw 12, NIDORAN_F
+	dbw 12, SEWADDLE
 	dbw 12, VENIPEDE
 	dbw 12, NIDORAN_M
 	dbw 12, MIME__JR
@@ -1376,7 +1376,7 @@ JohtoGrassWildMons:
 	dbw 12, SHELMET
 	dbw 12, NIDORAN_M
 	dbw 12, HOOTHOOT
-	dbw 12, NIDORAN_F
+	dbw 12, SEWADDLE
 	dbw 12, MIME__JR
 	dbw 12, JIGGLYPUFF
 	dbw 12, MURKROW
@@ -1747,7 +1747,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 15, CLEFAIRY
 	dbw 15, JIGGLYPUFF
-	dbw 15, NIDORAN_F
+	dbw 15, SEWADDLE
 	dbw 15, SUNKERN
 	dbw 15, VENONAT
 	dbw 15, MANKEY
@@ -1756,7 +1756,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 15, CLEFAIRY
 	dbw 15, JIGGLYPUFF
-	dbw 15, NIDORAN_F
+	dbw 15, SEWADDLE
 	dbw 15, SUNKERN
 	dbw 15, VENONAT
 	dbw 15, MANKEY
@@ -1765,7 +1765,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 15, CLEFAIRY
 	dbw 15, JIGGLYPUFF
-	dbw 15, NIDORAN_F
+	dbw 15, SEWADDLE
 	dbw 15, SUNKERN
 	dbw 15, VENONAT
 	dbw 15, MANKEY

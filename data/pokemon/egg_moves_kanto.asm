@@ -30,7 +30,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw DrilburEggMoves
 	dw NoEggMoves1
-	dw NidoranFEggMoves
+	dw SewaddleEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NidoranMEggMoves
@@ -247,16 +247,13 @@ DrilburEggMoves:
 	dw SKULL_BASH
 	dw -1 ; end
 
-NidoranFEggMoves:
-	dw SUPERSONIC
-	dw DISABLE
-	dw TAKE_DOWN
-	dw FOCUS_ENERGY
-	dw CHARM
-	dw COUNTER
-	dw ENDURE
-	dw PURSUIT
-	dw HONE_CLAWS
+SewaddleEggMoves:
+	dw AGILITY
+	dw AIR_SLASH
+	dw BATON_PASS
+	dw RAZOR_WIND
+	dw SCREECH
+	dw SILVER_WIND
 	dw -1 ; end
 
 NidoranMEggMoves:

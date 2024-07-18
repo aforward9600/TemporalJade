@@ -2701,7 +2701,7 @@ LassGroup:
 	next_list_item ; LASS (1)
 	db "Jackie@", TRAINERTYPE_NORMAL
 	db 8
-	dw NIDORAN_F
+	dw SEWADDLE
 	db 8
 	dw DODUO
 	db -1 ; end
@@ -3384,7 +3384,7 @@ endc
 	dw LILLIGANT
 	dw MOONBLAST, GIGA_DRAIN, QUIVER_DANCE, SLUDGE_BOMB
 	db 73
-	dw NIDOQUEEN
+	dw LEAVANNY
 	dw EARTHQUAKE, POISON_JAB, SUPERPOWER, BULK_UP
 	db -1 ; end
 
@@ -3445,7 +3445,7 @@ endc
 	dw TOUCANNON
 	dw SIGNAL_WAVE, AIR_SLASH, QUIVER_DANCE, BATON_PASS
 	db 61
-	dw NIDOQUEEN
+	dw LEAVANNY
 	dw EARTHQUAKE, SUPERPOWER, POISON_JAB, CRUNCH
 	db 62
 	dw GARDEVOIR
@@ -3655,7 +3655,7 @@ endc
 	next_list_item ; POKEMANIAC (4)
 	db "SHANE@", TRAINERTYPE_NORMAL
 	db 16
-	dw NIDORINA
+	dw SWADLOON
 	db 16
 	dw NIDORINO
 	db -1 ; end
@@ -3742,7 +3742,7 @@ endc
 	db 15
 	dw NIDORAN_M
 	db 15
-	dw NIDORAN_F
+	dw SEWADDLE
 	db 16
 	dw LOMBRE
 	db -1 ; end
@@ -7110,7 +7110,7 @@ PicnickerGroup:
 	db 15
 	dw WEEPINBELL
 	db 15
-	dw NIDORINA
+	dw SWADLOON
 	db -1 ; end
 
 	next_list_item ; PICNICKER (12)
@@ -7120,7 +7120,7 @@ PicnickerGroup:
 	db 19
 	dw NIDORINO
 	db 21
-	dw NIDOQUEEN
+	dw LEAVANNY
 	db -1 ; end
 
 	next_list_item ; PICNICKER (13)
@@ -7134,7 +7134,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (14)
 	db "EDNA@", TRAINERTYPE_NORMAL
 	db 30
-	dw NIDORINA
+	dw SWADLOON
 	db 34
 	dw RAICHU
 	db -1 ; end
@@ -7208,7 +7208,7 @@ PicnickerGroup:
 	db 26
 	dw NIDORINO
 	db 26
-	dw NIDOQUEEN
+	dw LEAVANNY
 	db -1 ; end
 
 	next_list_item ; PICNICKER (23)
@@ -7220,7 +7220,7 @@ PicnickerGroup:
 	dw NIDOKING
 	dw EARTHQUAKE, DOUBLE_KICK, POISON_STING, IRON_TAIL
 	db 32
-	dw NIDOQUEEN
+	dw LEAVANNY
 	dw EARTHQUAKE, DOUBLE_KICK, TAIL_WHIP, BODY_SLAM
 	db -1 ; end
 
@@ -7521,7 +7521,7 @@ if DEF(_CHALLENGE)
 	dw DRAININGKISS, MOONLIGHT, MAGICAL_LEAF, CONFUSION
 endc
 	db 23
-	dw NIDORINA
+	dw SWADLOON
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -7565,7 +7565,7 @@ else
 endc
 	dw PSYBEAM, RECOVER, CALM_MIND, DAZZLINGLEAM
 	db 36
-	dw NIDOQUEEN
+	dw LEAVANNY
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -7609,7 +7609,7 @@ else
 endc
 	dw PSYBEAM, RECOVER, CALM_MIND, DAZZLINGLEAM
 	db 39
-	dw NIDOQUEEN
+	dw LEAVANNY
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -7654,7 +7654,7 @@ else
 	dw PSYCHIC_M, ENERGY_BALL, DAZZLINGLEAM, CALM_MIND
 endc
 	db 46
-	dw NIDOQUEEN
+	dw LEAVANNY
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -7699,7 +7699,7 @@ else
 	dw PSYCHIC_M, ENERGY_BALL, DAZZLINGLEAM, NASTY_PLOT
 endc
 	db 57
-	dw NIDOQUEEN
+	dw LEAVANNY
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -8339,7 +8339,7 @@ else
 endc
 	dw EARTHQUAKE, POISON_JAB, FLATTER, BRICK_BREAK
 	db 78
-	dw NIDOQUEEN
+	dw LEAVANNY
 if DEF(_CHALLENGE)
 	db LEFTOVERS
 else
@@ -12378,7 +12378,7 @@ else
 	dw SIGNAL_WAVE, JURASSICBEAM, NASTY_PLOT, HYPNOSIS
 endc
 	db 76
-	dw NIDOQUEEN
+	dw LEAVANNY
 	dw POISON_JAB, EARTHQUAKE, SUPERPOWER, BODY_SLAM
 	db 76
 	dw SKARMORY

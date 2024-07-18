@@ -70,4 +70,4 @@ SpriteMons:
 	dw CHANSEY
 	dw MAROWAK
 	dw MEW
-	dw NIDORAN_F
+	dw SEWADDLE

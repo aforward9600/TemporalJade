@@ -215,7 +215,7 @@ KantoGrassWildMons:
 	map_id ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 66, NIDORINA
+	dbw 66, SWADLOON
 	dbw 66, NIDORINO
 	dbw 66, SCOLIPEDE
 	dbw 66, URSALUNA
@@ -224,7 +224,7 @@ KantoGrassWildMons:
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
 	; day
-	dbw 66, NIDORINA
+	dbw 66, SWADLOON
 	dbw 66, NIDORINO
 	dbw 66, SCOLIPEDE
 	dbw 66, URSALUNA
@@ -233,7 +233,7 @@ KantoGrassWildMons:
 	dbw 66, PIKACHU
 	dbw 66, PIKACHU
 	; nite
-	dbw 66, NIDORINA
+	dbw 66, SWADLOON
 	dbw 66, NIDORINO
 	dbw 66, NOCTOWL
 	dbw 66, DONPHAN
@@ -250,7 +250,7 @@ KantoGrassWildMons:
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
 	dbw 67, ARBOK
-	dbw 67, NIDOQUEEN
+	dbw 67, LEAVANNY
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; day
@@ -259,7 +259,7 @@ KantoGrassWildMons:
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
 	dbw 67, ARBOK
-	dbw 67, NIDOQUEEN
+	dbw 67, LEAVANNY
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; nite
@@ -280,7 +280,7 @@ KantoGrassWildMons:
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
 	dbw 67, ARBOK
-	dbw 67, NIDOQUEEN
+	dbw 67, LEAVANNY
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; day
@@ -289,7 +289,7 @@ KantoGrassWildMons:
 	dbw 67, JIGGLYPUFF
 	dbw 67, JIGGLYPUFF
 	dbw 67, ARBOK
-	dbw 67, NIDOQUEEN
+	dbw 67, LEAVANNY
 	dbw 67, NIDOKING
 	dbw 67, NIDOKING
 	; nite
@@ -516,7 +516,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 71, NIDORINO
-	dbw 71, NIDORINA
+	dbw 71, SWADLOON
 	dbw 71, SCOLIPEDE
 	dbw 71, CHANDELURE
 	dbw 71, CHANDELURE
@@ -525,7 +525,7 @@ KantoGrassWildMons:
 	dbw 71, BLISSEY
 	; day
 	dbw 71, NIDORINO
-	dbw 71, NIDORINA
+	dbw 71, SWADLOON
 	dbw 71, SCOLIPEDE
 	dbw 71, CHANDELURE
 	dbw 71, CHANDELURE
@@ -546,7 +546,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 71, NIDORINO
-	dbw 71, NIDORINA
+	dbw 71, SWADLOON
 	dbw 71, SCOLIPEDE
 	dbw 71, CHANDELURE
 	dbw 71, CHANDELURE
@@ -555,7 +555,7 @@ KantoGrassWildMons:
 	dbw 71, BLISSEY
 	; day
 	dbw 71, NIDORINO
-	dbw 71, NIDORINA
+	dbw 71, SWADLOON
 	dbw 71, SCOLIPEDE
 	dbw 71, CHANDELURE
 	dbw 71, CHANDELURE
@@ -576,7 +576,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 71, NIDORINO
-	dbw 71, NIDORINA
+	dbw 71, SWADLOON
 	dbw 71, SCOLIPEDE
 	dbw 71, CHANDELURE
 	dbw 71, CHANDELURE
@@ -585,7 +585,7 @@ KantoGrassWildMons:
 	dbw 71, BLISSEY
 	; day
 	dbw 71, NIDORINO
-	dbw 71, NIDORINA
+	dbw 71, SWADLOON
 	dbw 71, SCOLIPEDE
 	dbw 71, CHANDELURE
 	dbw 71, CHANDELURE

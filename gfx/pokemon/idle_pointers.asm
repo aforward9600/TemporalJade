@@ -27,9 +27,9 @@ AnimationIdlePointers:
 	dw RaichuAnimationIdle
 	dw DrilburAnimationIdle
 	dw ExcadrillAnimationIdle
-	dw NidoranFAnimationIdle
-	dw NidorinaAnimationIdle
-	dw NidoqueenAnimationIdle
+	dw SewaddleAnimationIdle
+	dw SwadloonAnimationIdle
+	dw LeavannyAnimationIdle
 	dw NidoranMAnimationIdle
 	dw NidorinoAnimationIdle
 	dw NidokingAnimationIdle

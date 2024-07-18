@@ -28,9 +28,9 @@ PokedexDataPointerTable:
 	dba RaichuPokedexEntry
 	dba DrilburPokedexEntry
 	dba ExcadrillPokedexEntry
-	dba NidoranFPokedexEntry
-	dba NidorinaPokedexEntry
-	dba NidoqueenPokedexEntry
+	dba SewaddlePokedexEntry
+	dba SwadloonPokedexEntry
+	dba LeavannyPokedexEntry
 	dba NidoranMPokedexEntry
 	dba NidorinoPokedexEntry
 	dba NidokingPokedexEntry

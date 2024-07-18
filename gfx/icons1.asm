@@ -30,9 +30,9 @@ Icons1:
 	dw RaichuIcon
 	dw DrilburIcon
 	dw ExcadrillIcon
-	dw NidoranFIcon
-	dw NidorinaIcon
-	dw NidoqueenIcon
+	dw SewaddleIcon
+	dw SwadloonIcon
+	dw LeavannyIcon
 	dw NidoranMIcon
 	dw NidorinoIcon
 	dw NidokingIcon
@@ -157,9 +157,9 @@ PikachuIcon:      INCBIN "gfx/icons/pikachu.2bpp"
 RaichuIcon:       INCBIN "gfx/icons/raichu.2bpp"
 DrilburIcon:      INCBIN "gfx/icons/drilbur.2bpp"
 ExcadrillIcon:    INCBIN "gfx/icons/excadrill.2bpp"
-NidoranFIcon:     INCBIN "gfx/icons/nidoran_f.2bpp"
-NidorinaIcon:     INCBIN "gfx/icons/nidorina.2bpp"
-NidoqueenIcon:    INCBIN "gfx/icons/nidoqueen.2bpp"
+SewaddleIcon:     INCBIN "gfx/icons/sewaddle.2bpp"
+SwadloonIcon:     INCBIN "gfx/icons/swadloon.2bpp"
+LeavannyIcon:     INCBIN "gfx/icons/leavanny.2bpp"
 NidoranMIcon:     INCBIN "gfx/icons/nidoran_m.2bpp"
 NidorinoIcon:     INCBIN "gfx/icons/nidorino.2bpp"
 NidokingIcon:     INCBIN "gfx/icons/nidoking.2bpp"

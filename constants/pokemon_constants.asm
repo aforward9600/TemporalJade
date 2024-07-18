@@ -47,9 +47,9 @@
 	const RAICHU     ; 1a
 	const DRILBUR    ; 1b
 	const EXCADRILL  ; 1c
-	const NIDORAN_F  ; 1d
-	const NIDORINA   ; 1e
-	const NIDOQUEEN  ; 1f
+	const SEWADDLE   ; 1d
+	const SWADLOON   ; 1e
+	const LEAVANNY   ; 1f
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21
 	const NIDOKING   ; 22

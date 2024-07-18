@@ -27,9 +27,9 @@ FramesPointers:
 	dba RaichuFrames
 	dba DrilburFrames
 	dba ExcadrillFrames
-	dba NidoranFFrames
-	dba NidorinaFrames
-	dba NidoqueenFrames
+	dba SewaddleFrames
+	dba SwadloonFrames
+	dba LeavannyFrames
 	dba NidoranMFrames
 	dba NidorinoFrames
 	dba NidokingFrames

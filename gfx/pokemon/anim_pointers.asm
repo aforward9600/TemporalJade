@@ -27,9 +27,9 @@ AnimationPointers:
 	dw RaichuAnimation
 	dw DrilburAnimation
 	dw ExcadrillAnimation
-	dw NidoranFAnimation
-	dw NidorinaAnimation
-	dw NidoqueenAnimation
+	dw SewaddleAnimation
+	dw SwadloonAnimation
+	dw LeavannyAnimation
 	dw NidoranMAnimation
 	dw NidorinoAnimation
 	dw NidokingAnimation

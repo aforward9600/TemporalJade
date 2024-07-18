@@ -33,9 +33,9 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; RAICHU
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; DRILBUR
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; EXCADRILL
-	mon_cry CRY_NIDORAN_F,   $000,  $100 ; NIDORAN_F
-	mon_cry CRY_NIDORAN_F,   $02c,  $160 ; NIDORINA
-	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; NIDOQUEEN
+	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; SEWADDLE
+	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; SWADLOON
+	mon_cry CRY_HOOTHOOT,    $128,  $160 ; LEAVANNY
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; NIDORAN_M
 	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; NIDORINO
 	mon_cry CRY_RAICHU,      $000,  $100 ; NIDOKING

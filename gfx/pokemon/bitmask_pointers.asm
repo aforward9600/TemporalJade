@@ -27,9 +27,9 @@ BitmasksPointers:
 	dw RaichuBitmasks
 	dw DrilburBitmasks
 	dw ExcadrillBitmasks
-	dw NidoranFBitmasks
-	dw NidorinaBitmasks
-	dw NidoqueenBitmasks
+	dw SewaddleBitmasks
+	dw SwadloonBitmasks
+	dw LeavannyBitmasks
 	dw NidoranMBitmasks
 	dw NidorinoBitmasks
 	dw NidokingBitmasks

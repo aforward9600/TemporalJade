@@ -29,8 +29,8 @@ PreviousEvolutionStage::
 	dw 0
 	dw DRILBUR
 	dw 0
-	dw NIDORAN_F
-	dw NIDORINA
+	dw SEWADDLE
+	dw LEAVANNY
 	dw 0  ;20
 	dw NIDORAN_M
 	dw NIDORINO

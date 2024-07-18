@@ -776,5 +776,5 @@ Daycare_CheckAlternateOffspring:
 	ret
 
 .alternate_offspring_table
-	dw NIDORAN_F, NIDORAN_M
+	dw MILTANK, TAUROS
 	dw -1
