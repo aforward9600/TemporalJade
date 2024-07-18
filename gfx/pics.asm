@@ -296,9 +296,9 @@ SECTION "Magcargo Front", ROMX
 
 MagcargoFrontpic:    INCBIN "gfx/pokemon/magcargo/front.animated.2bpp.lz"
 
-SECTION "Persian Front", ROMX
+SECTION "Liepard Front", ROMX
 
-PersianFrontpic:     INCBIN "gfx/pokemon/persian/front.animated.2bpp.lz"
+LiepardFrontpic:     INCBIN "gfx/pokemon/liepard/front.animated.2bpp.lz"
 
 SECTION "Stantler Front", ROMX
 
@@ -534,7 +534,7 @@ MarthaPic:           INCBIN "gfx/trainers/martha.2bpp.lz"
 GrimerFrontpic:      INCBIN "gfx/pokemon/grimer/front.animated.2bpp.lz"
 StaryuFrontpic:      INCBIN "gfx/pokemon/staryu/front.animated.2bpp.lz"
 HikerPic:            INCBIN "gfx/trainers/hiker.2bpp.lz"
-MeowthFrontpic:      INCBIN "gfx/pokemon/meowth/front.animated.2bpp.lz"
+PurrloinFrontpic:    INCBIN "gfx/pokemon/purrloin/front.animated.2bpp.lz"
 Porygon2Frontpic:    INCBIN "gfx/pokemon/porygon2/front.animated.2bpp.lz"
 DrilburFrontpic:     INCBIN "gfx/pokemon/drilbur/front.animated.2bpp.lz"
 SewaddleFrontpic:    INCBIN "gfx/pokemon/sewaddle/front.animated.2bpp.lz"
@@ -687,7 +687,7 @@ HeracrossBackpic:    INCBIN "gfx/pokemon/heracross/back.2bpp.lz"
 UnownDFrontpic:      INCBIN "gfx/pokemon/unown_d/front.animated.2bpp.lz"
 MiltankBackpic:      INCBIN "gfx/pokemon/miltank/back.2bpp.lz"
 SteelixBackpic:      INCBIN "gfx/pokemon/steelix/back.2bpp.lz"
-PersianBackpic:      INCBIN "gfx/pokemon/persian/back.2bpp.lz"
+LiepardBackpic:      INCBIN "gfx/pokemon/liepard/back.2bpp.lz"
 LtSurgePic:          INCBIN "gfx/trainers/pvt_surge.2bpp.lz"
 TeacherPic:          INCBIN "gfx/trainers/teacher.2bpp.lz"
 EggPic:              INCBIN "gfx/pokemon/egg/front.animated.2bpp.lz"
@@ -825,7 +825,7 @@ EnokiPic:            INCBIN "gfx/trainers/enoki.2bpp.lz"
 SlugmaBackpic:       INCBIN "gfx/pokemon/slugma/back.2bpp.lz"
 ArchenBackpic:       INCBIN "gfx/pokemon/archen/back.2bpp.lz"
 VictreebelBackpic:   INCBIN "gfx/pokemon/victreebel/back.2bpp.lz"
-MeowthBackpic:       INCBIN "gfx/pokemon/meowth/back.2bpp.lz"
+PurrloinBackpic:     INCBIN "gfx/pokemon/purrloin/back.2bpp.lz"
 MeganiumBackpic:     INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
 PicnickerPic:        INCBIN "gfx/trainers/picnicker.2bpp.lz"
 LickitungBackpic:    INCBIN "gfx/pokemon/lickitung/back.2bpp.lz"

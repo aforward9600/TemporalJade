@@ -125,6 +125,8 @@ Mudkip line sprites: Bloodless & Blue Rose
 
 Gen 5 Sprites: Bloodless
 
+Pokewilds team: Purrloin
+
 Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
 
 Regieleki front sprite: Pokemon Daybreak
@@ -200,7 +202,7 @@ LuigiTKO
 
 Substitute sprite: LuigiTKO
 
-Gen 3, 6 and 7 minisprites:
+Gen 3, 6 and 7 minisprites, Liepard sprites:
 EeVeeEe1999
 
 Gen 7 sprites: Major Agnostic

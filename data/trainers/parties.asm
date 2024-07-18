@@ -304,7 +304,7 @@ if DEF(_CHALLENGE)
 	db POLKADOT_BOW
 	dw PIXIE_PUNCH, WATERFALL, SUPERPOWER, ICE_PUNCH
 else
-	dw PERSIAN
+	dw LIEPARD
 	db NO_ITEM
 	dw SLASH, POWER_GEM, NASTY_PLOT, SWIFT
 endc
@@ -359,7 +359,7 @@ if DEF(_CHALLENGE)
 	db POLKADOT_BOW
 	dw PIXIE_PUNCH, WATERFALL, ICE_PUNCH, SUPERPOWER
 else
-	dw PERSIAN
+	dw LIEPARD
 	db NO_ITEM
 	dw SLASH, POWER_GEM, NASTY_PLOT, SWIFT
 endc
@@ -414,7 +414,7 @@ if DEF(_CHALLENGE)
 	db POLKADOT_BOW
 	dw PIXIE_PUNCH, WAVE_CRASH, ICE_PUNCH, SUPERPOWER
 else
-	dw PERSIAN
+	dw LIEPARD
 	db NO_ITEM
 	dw SLASH, NIGHT_SLASH, SWORDS_DANCE, PLAY_ROUGH
 endc
@@ -4139,7 +4139,7 @@ endc
 	next_list_item ; GENTLEMAN (2) Route 34
 	db "Frank@", TRAINERTYPE_NORMAL
 	db 33
-	dw PERSIAN
+	dw LIEPARD
 	db -1 ; end
 
 	next_list_item ; GENTLEMAN (3)
@@ -6342,7 +6342,7 @@ BurglarGroup:
 	next_list_item ; BURGLAR (5) Cinnabar Gym
 	db "Arsene@", TRAINERTYPE_MOVES
 	db 70
-	dw PERSIAN
+	dw LIEPARD
 	dw SLASH, PLAY_ROUGH, NIGHT_SLASH, GIGA_IMPACT
 	db 70
 	dw FLAREON
@@ -8011,13 +8011,13 @@ endc
 	next_list_item ; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
 	db 28
-	dw MEOWTH
+	dw PURRLOIN
 	db ORAN_BERRY
 	db 28
-	dw MEOWTH
+	dw PURRLOIN
 	db ORAN_BERRY
 	db 28
-	dw MEOWTH
+	dw PURRLOIN
 	db ORAN_BERRY
 	db -1 ; end
 
@@ -8278,7 +8278,7 @@ PokefanFGroup:
 	next_list_item ; POKEFANF (6)
 	db "JAIME@", TRAINERTYPE_ITEM
 	db 16
-	dw MEOWTH
+	dw PURRLOIN
 	db ORAN_BERRY
 	db -1 ; end
 
@@ -8326,7 +8326,7 @@ if DEF(_CHALLENGE)
 	db QUICK_CLAW
 	dw VOLT_TACKLE, CLOSE_COMBAT, BULK_UP, ICE_PUNCH
 else
-	dw PERSIAN
+	dw LIEPARD
 	db NO_ITEM
 	dw SLASH, PLAY_ROUGH, NIGHT_SLASH, HONE_CLAWS
 endc
@@ -8405,7 +8405,7 @@ GruntFGroup:
 	next_list_item ; GruntF (4) Lighthouse
 	db "Lady@", TRAINERTYPE_NORMAL
 	db 21
-	dw MEOWTH
+	dw PURRLOIN
 	db 20
 	dw COTTONEE
 	db 21
@@ -8442,7 +8442,7 @@ GruntFGroup:
 	db 34
 	dw NINETALES
 	db 34
-	dw PERSIAN
+	dw LIEPARD
 	db -1 ; end
 
 	next_list_item ; GruntF (8) Radio Tower 3F
@@ -8757,7 +8757,7 @@ HexManiacGroup:
 	next_list_item ; HEX_MANIAC (4) Ilex Forest
 	db "Maeve@", TRAINERTYPE_NORMAL
 	db 41
-	dw PERSIAN
+	dw LIEPARD
 	db 41
 	dw UMBREON
 	db 42
@@ -9159,7 +9159,7 @@ if DEF(_CHALLENGE)
 	dw ZUBAT
 	db WIDE_LENS
 	db 16
-	dw MEOWTH
+	dw PURRLOIN
 	db SITRUS_BERRY
 else
 	db "Knight@", TRAINERTYPE_NORMAL
@@ -9196,7 +9196,7 @@ else
 endc
 	dw AERIAL_ACE, CONFUSE_RAY, BITE, ASTONISH
 	db 23
-	dw MEOWTH
+	dw PURRLOIN
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
@@ -9242,7 +9242,7 @@ else
 endc
 	dw LEECH_LIFE, POISON_FANG, AERIAL_ACE, CONFUSE_RAY
 	db 37
-	dw PERSIAN
+	dw LIEPARD
 if DEF(_CHALLENGE)
 	db PINK_BOW
 else
@@ -9296,7 +9296,7 @@ else
 endc
 	dw CROSS_POISON, LEECH_LIFE, AERIAL_ACE, CONFUSE_RAY
 	db 46
-	dw PERSIAN
+	dw LIEPARD
 if DEF(_CHALLENGE)
 	db PINK_BOW
 else
@@ -12426,7 +12426,7 @@ endc
 	db 74
 	dw ESPEON
 	db 74
-	dw PERSIAN
+	dw LIEPARD
 	db -1 ; end
 
 	next_list_item ; DELINQUENT12 (Route 13)

@@ -55,8 +55,8 @@ PokedexDataPointerTable:
 	dba VenomothPokedexEntry
 	dba SandygastPokedexEntry
 	dba PalossandPokedexEntry
-	dba MeowthPokedexEntry
-	dba PersianPokedexEntry
+	dba PurrloinPokedexEntry
+	dba LiepardPokedexEntry
 	dba PsyduckPokedexEntry
 	dba GolduckPokedexEntry
 	dba MankeyPokedexEntry

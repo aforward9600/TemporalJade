@@ -56,8 +56,8 @@ OldPokedexOrder:
 	dw VENOMOTH
 	dw SANDYGAST
 	dw PALOSSAND
-	dw MEOWTH
-	dw PERSIAN
+	dw PURRLOIN
+	dw LIEPARD
 	dw PSYDUCK
 	dw GOLDUCK
 	dw MANKEY

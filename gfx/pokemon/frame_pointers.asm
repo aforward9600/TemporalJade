@@ -54,8 +54,8 @@ FramesPointers:
 	dba VenomothFrames
 	dba SandygastFrames
 	dba PalossandFrames
-	dba MeowthFrames
-	dba PersianFrames
+	dba PurrloinFrames
+	dba LiepardFrames
 	dba PsyduckFrames
 	dba GolduckFrames
 	dba MankeyFrames

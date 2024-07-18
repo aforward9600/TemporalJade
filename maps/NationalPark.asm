@@ -93,8 +93,8 @@ NationalParkGrampsScript:
 
 NationalParkPersian:
 	refreshscreen
-	pokepic MEOWTH
-	cry MEOWTH
+	pokepic PURRLOIN
+	cry PURRLOIN
 	waitbutton
 	closepokepic
 	faceplayer
@@ -490,7 +490,7 @@ NationalPark_MapEvents:
 	object_event 35, 31, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, BugCatcherElmer, -1
 	object_event 10, 41, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerEngineerOswald, -1
 	object_event 18, 32, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkGrampsScript, -1
-	object_event 22, 40, SPRITE_MEOWTH, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkPersian, -1
+	object_event 22, 40, SPRITE_PURRLOIN, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkPersian, -1
 	object_event  3,  2, SPRITE_ENGINEER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerEngineerHarvey, -1
 	object_event 18,  2, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NationalParkPokefanF2Script, -1
 	object_event 36,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerBugCatcherBuzzy, -1

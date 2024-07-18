@@ -57,7 +57,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw SandygastEggMoves
 	dw NoEggMoves1
-	dw MeowthEggMoves
+	dw PurrloinEggMoves
 	dw NoEggMoves1
 	dw PsyduckEggMoves
 	dw NoEggMoves1
@@ -344,16 +344,10 @@ SandygastEggMoves:
 	dw DESTINY_BOND
 	dw -1 ; end
 
-MeowthEggMoves:
-	dw SPITE
+PurrloinEggMoves:
 	dw CHARM
-	dw HYPNOSIS
-	dw AMNESIA
-	dw FLAIL
-	dw ODOR_SLEUTH
-	dw TAIL_WHIP
-	dw WORK_UP
-	dw HONE_CLAWS
+	dw ENCORE
+	dw FAINT_ATTACK
 	dw -1 ; end
 
 PsyduckEggMoves:

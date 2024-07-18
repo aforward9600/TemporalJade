@@ -56,7 +56,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw SANDYGAST
 	dw 0
-	dw MEOWTH
+	dw PURRLOIN
 	dw 0
 	dw PSYDUCK
 	dw 0    ;38

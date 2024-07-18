@@ -54,8 +54,8 @@ AnimationPointers:
 	dw VenomothAnimation
 	dw SandygastAnimation
 	dw PalossandAnimation
-	dw MeowthAnimation
-	dw PersianAnimation
+	dw PurrloinAnimation
+	dw LiepardAnimation
 	dw PsyduckAnimation
 	dw GolduckAnimation
 	dw MankeyAnimation

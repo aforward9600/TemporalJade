@@ -54,8 +54,8 @@ BitmasksPointers:
 	dw VenomothBitmasks
 	dw SandygastBitmasks
 	dw PalossandBitmasks
-	dw MeowthBitmasks
-	dw PersianBitmasks
+	dw PurrloinBitmasks
+	dw LiepardBitmasks
 	dw PsyduckBitmasks
 	dw GolduckBitmasks
 	dw MankeyBitmasks

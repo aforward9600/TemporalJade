@@ -75,7 +75,7 @@ Pokered_MonIndices:
 	db ARTICUNO
 	db ZAPDOS
 	db DITTO
-	db MEOWTH
+	db PURRLOIN
 	db CORPHISH
 	db CORPHISH ; MISSINGNO.
 	db KINGDRA ; MISSINGNO.
@@ -142,7 +142,7 @@ Pokered_MonIndices:
 	db ELECTRODE
 	db CLEFABLE
 	db WEEZING
-	db PERSIAN
+	db LIEPARD
 	db MAROWAK
 	db BLISSEY ; MISSINGNO.
 	db HAUNTER

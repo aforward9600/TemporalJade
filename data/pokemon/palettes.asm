@@ -130,10 +130,10 @@ INCLUDE "gfx/pokemon/sandygast/normal.pal"
 INCLUDE "gfx/pokemon/sandygast/shiny.pal"
 INCLUDE "gfx/pokemon/palossand/normal.pal"
 INCLUDE "gfx/pokemon/palossand/shiny.pal"
-INCBIN "gfx/pokemon/meowth/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/meowth/shiny.pal"
-INCBIN "gfx/pokemon/persian/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/persian/shiny.pal"
+INCBIN "gfx/pokemon/purrloin/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/purrloin/shiny.pal"
+INCBIN "gfx/pokemon/liepard/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/liepard/shiny.pal"
 INCBIN "gfx/pokemon/psyduck/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/psyduck/shiny.pal"
 INCBIN "gfx/pokemon/golduck/front.gbcpal", middle_colors

@@ -56,8 +56,8 @@ EvosAttacksPointers1::
 	dw VenomothEvosAttacks
 	dw SandygastEvosAttacks
 	dw PalossandEvosAttacks
-	dw MeowthEvosAttacks
-	dw PersianEvosAttacks
+	dw PurrloinEvosAttacks
+	dw LiepardEvosAttacks
 	dw PsyduckEvosAttacks
 	dw GolduckEvosAttacks
 	dw MankeyEvosAttacks
@@ -1170,45 +1170,47 @@ PalossandEvosAttacks:
 	dbw 60, SANDSTORM
 	db 0 ; no more level-up moves
 
-MeowthEvosAttacks:
-	dbbw EVOLVE_LEVEL, 28, PERSIAN
+PurrloinEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, LIEPARD
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, GROWL
-	dbw 6, BITE
-	dbw 9, FAKE_OUT
-	dbw 14, FURY_SWIPES
-	dbw 17, SCREECH
-	dbw 22, FAINT_ATTACK
-	dbw 25, HONE_CLAWS
-	dbw 30, PAY_DAY
-	dbw 33, SLASH
-	dbw 38, NASTY_PLOT
-	dbw 41, PAYBACK
-	dbw 46, FOCUS_ENERGY
-	dbw 49, NIGHT_SLASH
-	dbw 50, PLAY_ROUGH
+	dbw 3, GROWL
+	dbw 6, SAND_ATTACK
+	dbw 10, FURY_SWIPES
+	dbw 12, PURSUIT
+	dbw 15, SCARY_FACE
+	dbw 19, FAINT_ATTACK
+	dbw 21, FAKE_OUT
+	dbw 24, HONE_CLAWS
+	dbw 28, SNARL
+	dbw 30, SLASH
+	dbw 33, MOONLIGHT
+	dbw 37, NIGHT_SLASH
+	dbw 39, NASTY_PLOT
+	dbw 42, SUCKER_PUNCH
+	dbw 46, PLAY_ROUGH
+	dbw 49, CATASTROPHE
 	db 0 ; no more level-up moves
 
-PersianEvosAttacks:
+LiepardEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SWIFT
-	dbw 1, SWIFT
 	dbw 1, SCRATCH
-	dbw 1, GROWL
-	dbw 6, BITE
-	dbw 9, FAKE_OUT
-	dbw 14, FURY_SWIPES
-	dbw 17, SCREECH
-	dbw 22, FAINT_ATTACK
-	dbw 25, HONE_CLAWS
-	dbw 32, POWER_GEM
-	dbw 37, SLASH
-	dbw 44, NASTY_PLOT
-	dbw 49, PAYBACK
-	dbw 56, FOCUS_ENERGY
-	dbw 61, NIGHT_SLASH
-	dbw 65, PLAY_ROUGH
+	dbw 3, GROWL
+	dbw 6, SAND_ATTACK
+	dbw 10, FURY_SWIPES
+	dbw 12, PURSUIT
+	dbw 15, SCARY_FACE
+	dbw 19, FAINT_ATTACK
+	dbw 22, FAKE_OUT
+	dbw 26, HONE_CLAWS
+	dbw 31, SNARL
+	dbw 34, SLASH
+	dbw 38, MOONLIGHT
+	dbw 43, NIGHT_SLASH
+	dbw 47, NASTY_PLOT
+	dbw 50, SUCKER_PUNCH
+	dbw 55, PLAY_ROUGH
+	dbw 58, CATASTROPHE
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:

@@ -74,8 +74,8 @@
 	const VENOMOTH   ; 31
 	const SANDYGAST  ; 32
 	const PALOSSAND  ; 33
-	const MEOWTH     ; 34
-	const PERSIAN    ; 35
+	const PURRLOIN     ; 34
+	const LIEPARD    ; 35
 	const PSYDUCK    ; 36
 	const GOLDUCK    ; 37
 	const MANKEY     ; 38

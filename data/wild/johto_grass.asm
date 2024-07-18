@@ -1121,8 +1121,8 @@ JohtoGrassWildMons:
 	dbw  4, PIKIPEK
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
-	dbw  4, CUTIEFLY
-	dbw  4, CUTIEFLY
+	dbw  4, SEWADDLE
+	dbw  4, SEWADDLE
 	; day
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
@@ -1130,14 +1130,14 @@ JohtoGrassWildMons:
 	dbw  4, PIKIPEK
 	dbw  4, LILLIPUP
 	dbw  4, PIKIPEK
-	dbw  4, CUTIEFLY
-	dbw  4, CUTIEFLY
+	dbw  4, SEWADDLE
+	dbw  4, SEWADDLE
 	; nite
-	dbw  4, LILLIPUP
+	dbw  4, PURRLOIN
 	dbw  4, PIKIPEK
-	dbw  4, LILLIPUP
+	dbw  4, PURRLOIN
 	dbw  4, PIKIPEK
-	dbw  4, LILLIPUP
+	dbw  4, PURRLOIN
 	dbw  4, PIKIPEK
 	dbw  4, VENIPEDE
 	dbw  4, VENIPEDE
@@ -1370,8 +1370,8 @@ JohtoGrassWildMons:
 	dbw 12, NIDORAN_M
 	dbw 12, MIME__JR
 	dbw 12, JIGGLYPUFF
-	dbw 12, MEOWTH
-	dbw 12, MEOWTH
+	dbw 12, PURRLOIN
+	dbw 12, PURRLOIN
 	; nite
 	dbw 12, SHELMET
 	dbw 12, NIDORAN_M
@@ -1405,7 +1405,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 14, MAGNEMITE
 	dbw 14, DROWZEE
-	dbw 14, MEOWTH
+	dbw 14, PURRLOIN
 	dbw 14, MURKROW
 	dbw 14, HERDIER
 	dbw 14, HERDIER
@@ -1438,8 +1438,8 @@ JohtoGrassWildMons:
 	dbw 15, HERDIER
 	dbw 15, MURKROW
 	dbw 15, ROSELIA
-	dbw 15, MEOWTH
-	dbw 15, MEOWTH
+	dbw 15, PURRLOIN
+	dbw 15, PURRLOIN
 	dbw 15, YANMA
 
 	map_id ROUTE_42

@@ -37,7 +37,7 @@ SpriteMons:
 	dw HO_OH
 	dw DRATINI
 	dw SMOOCHUM
-	dw MEOWTH
+	dw PURRLOIN
 	dw SYLVEON
 	dw DRAPION
 	dw RIBOMBEE
@@ -45,7 +45,7 @@ SpriteMons:
 	dw FARFETCH_D
 	dw GURDURR
 	dw POLIWRATH
-	dw PERSIAN
+	dw LIEPARD
 	dw HERACROSS
 	dw OVERQWIL
 	dw SWINUB

@@ -120,10 +120,10 @@ PokemonPicPointers::
 	dba SandygastBackpic
 	dba PalossandFrontpic
 	dba PalossandBackpic
-	dba MeowthFrontpic
-	dba MeowthBackpic
-	dba PersianFrontpic
-	dba PersianBackpic
+	dba PurrloinFrontpic
+	dba PurrloinBackpic
+	dba LiepardFrontpic
+	dba LiepardBackpic
 	dba PsyduckFrontpic
 	dba PsyduckBackpic
 	dba GolduckFrontpic

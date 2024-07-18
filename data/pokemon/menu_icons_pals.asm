@@ -66,8 +66,8 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; RIBOMBEE
 	icon_pals BROWN,  GRAY   ; SANDYGHAST
 	icon_pals BROWN,  GRAY   ; PALOSSAND
-	icon_pals BROWN,  PURPLE ; MEOWTH
-	icon_pals BROWN,  PURPLE ; PERSIAN
+	icon_pals PURPLE, BLUE   ; PURRLOIN
+	icon_pals PURPLE, RED    ; LIEPARD
 	icon_pals RED,    PURPLE ; PSYDUCK
 	icon_pals TEAL,   BLUE   ; GOLDUCK
 	icon_pals BROWN,  GREEN  ; MANKEY

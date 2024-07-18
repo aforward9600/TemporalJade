@@ -198,7 +198,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_HO_OH ; bb
 	const SPRITE_DRATINI ; bc
 	const SPRITE_SMOOCHUM ; bd
-	const SPRITE_MEOWTH ; bc
+	const SPRITE_PURRLOIN ; bc
 	const SPRITE_SYLVEON ; bd
 	const SPRITE_DRAPION ; be
 	const SPRITE_RIBOMBEE ; bf
@@ -206,7 +206,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_FARFETCHD ; c1
 	const SPRITE_GURDURR ; c2
 	const SPRITE_POLIWRATH ; c3
-	const SPRITE_PERSIAN ; c4
+	const SPRITE_LIEPARD ; c4
 	const SPRITE_HERACROSS ; c5
 	const SPRITE_OVERQWIL ; c6
 	const SPRITE_SWINUB ; c7

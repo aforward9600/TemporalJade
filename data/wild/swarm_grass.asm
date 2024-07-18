@@ -58,9 +58,9 @@ SwarmGrassWildMons:
 	dbw 15, YANMA
 	dbw 15, MURKROW
 	dbw 15, STOUTLAND
-	dbw 15, MEOWTH
+	dbw 15, PURRLOIN
 	dbw 15, YANMA
-	dbw 15, MEOWTH
+	dbw 15, PURRLOIN
 	dbw 15, YANMA
 	dbw 15, YANMA
 
@@ -273,7 +273,7 @@ SwarmGrassWildMons:
 	dbw 14, SCYTHER
 	; nite
 	dbw 14, SCYTHER
-	dbw 14, MEOWTH
+	dbw 14, PURRLOIN
 	dbw 14, STOUTLAND
 	dbw 14, SCYTHER
 	dbw 14, MURKROW
@@ -473,7 +473,7 @@ SwarmGrassWildMons:
 	dbw 12, MURKROW
 	dbw 12, MURKROW
 	dbw 12, MIME__JR
-	dbw 12, MEOWTH
+	dbw 12, PURRLOIN
 	dbw 12, JIGGLYPUFF
 	dbw 12, JIGGLYPUFF
 	dbw 12, MIME__JR
@@ -482,7 +482,7 @@ SwarmGrassWildMons:
 	dbw 12, MURKROW
 	dbw 12, MURKROW
 	dbw 12, MIME__JR
-	dbw 12, MEOWTH
+	dbw 12, PURRLOIN
 	dbw 12, JIGGLYPUFF
 	dbw 12, JIGGLYPUFF
 	dbw 12, MIME__JR
@@ -491,7 +491,7 @@ SwarmGrassWildMons:
 	dbw 12, MURKROW
 	dbw 12, MURKROW
 	dbw 12, MIME__JR
-	dbw 12, MEOWTH
+	dbw 12, PURRLOIN
 	dbw 12, JIGGLYPUFF
 	dbw 12, JIGGLYPUFF
 	dbw 12, MIME__JR

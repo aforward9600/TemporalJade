@@ -150,6 +150,7 @@ AlphabeticalPokedexOrder:
 	dw LEAVANNY
 	dw LICKILICKY
 	dw LICKITUNG
+	dw LIEPARD
 	dw LILLIGANT
 	dw LILLIPUP
 	dw LITWICK
@@ -175,7 +176,6 @@ AlphabeticalPokedexOrder:
 	dw MAROWAK
 	dw MARSHTOMP
 	dw MEGANIUM
-	dw MEOWTH
 	dw MEW
 	dw MEWTWO
 	dw MILTANK
@@ -201,7 +201,6 @@ AlphabeticalPokedexOrder:
 	dw ORTHWORM
 	dw OVERQWIL
 	dw PALOSSAND
-	dw PERSIAN
 	dw PETILIL
 	dw PHANPY
 	dw PIGNITE
@@ -221,6 +220,7 @@ AlphabeticalPokedexOrder:
 	dw PRIMEAPE
 	dw PSYDUCK
 	dw PUPITAR
+	dw PURRLOIN
 	dw QUAGSIRE
 	dw QUILAVA
 	dw QWILFISH

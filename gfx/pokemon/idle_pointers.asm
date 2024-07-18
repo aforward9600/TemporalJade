@@ -54,8 +54,8 @@ AnimationIdlePointers:
 	dw VenomothAnimationIdle
 	dw SandygastAnimationIdle
 	dw PalossandAnimationIdle
-	dw MeowthAnimationIdle
-	dw PersianAnimationIdle
+	dw PurrloinAnimationIdle
+	dw LiepardAnimationIdle
 	dw PsyduckAnimationIdle
 	dw GolduckAnimationIdle
 	dw MankeyAnimationIdle

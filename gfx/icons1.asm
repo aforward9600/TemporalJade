@@ -57,8 +57,8 @@ Icons1:
 	dw VenomothIcon
 	dw SandygastIcon
 	dw PalossandIcon
-	dw MeowthIcon
-	dw PersianIcon
+	dw PurrloinIcon
+	dw LiepardIcon
 	dw PsyduckIcon
 	dw GolduckIcon
 	dw MankeyIcon
@@ -184,8 +184,8 @@ VenonatIcon:      INCBIN "gfx/icons/venonat.2bpp"
 VenomothIcon:     INCBIN "gfx/icons/venomoth.2bpp"
 SandygastIcon:    INCBIN "gfx/icons/sandygast.2bpp"
 PalossandIcon:    INCBIN "gfx/icons/palossand.2bpp"
-MeowthIcon:       INCBIN "gfx/icons/meowth.2bpp"
-PersianIcon:      INCBIN "gfx/icons/persian.2bpp"
+PurrloinIcon:     INCBIN "gfx/icons/purrloin.2bpp"
+LiepardIcon:      INCBIN "gfx/icons/liepard.2bpp"
 PsyduckIcon:      INCBIN "gfx/icons/psyduck.2bpp"
 GolduckIcon:      INCBIN "gfx/icons/golduck.2bpp"
 MankeyIcon:       INCBIN "gfx/icons/mankey.2bpp"

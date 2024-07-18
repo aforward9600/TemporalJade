@@ -353,7 +353,7 @@ KantoGrassWildMons:
 	dbw 2, MUDKIP
 	dbw 3, MUDKIP
 	; nite
-	dbw 69, PERSIAN
+	dbw 69, LIEPARD
 	dbw 69, HYPNO
 	dbw 69, MAGNETON
 	dbw 69, GOLDUCK
@@ -386,7 +386,7 @@ KantoGrassWildMons:
 	dbw 69, MURKROW
 	dbw 69, HONCHKROW
 	dbw 69, HOUNDOOM
-	dbw 69, PERSIAN
+	dbw 69, LIEPARD
 	dbw 69, JIGGLYPUFF
 	dbw 69, DUOSION
 	dbw 69, DUOSION

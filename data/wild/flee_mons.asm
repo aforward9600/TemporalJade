@@ -6,8 +6,8 @@ SometimesFleeMons:
 	dw DUOSION
 	dw SANDYGAST
 	dw PALOSSAND
-	dw MEOWTH
-	dw PERSIAN
+	dw PURRLOIN
+	dw LIEPARD
 	dw -1
 
 OftenFleeMons:
