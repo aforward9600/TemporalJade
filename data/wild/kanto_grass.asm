@@ -444,7 +444,7 @@ KantoGrassWildMons:
 	dbw 70, MAROWAK
 	; nite
 	dbw 70, RIBOMBEE
-	dbw 70, VENOMOTH
+	dbw 70, CINCCINO
 	dbw 70, RIBOMBEE
 	dbw 70, NOCTOWL
 	dbw 70, NOCTOWL
@@ -533,7 +533,7 @@ KantoGrassWildMons:
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; nite
-	dbw 71, VENOMOTH
+	dbw 71, CINCCINO
 	dbw 71, QUAGSIRE
 	dbw 71, NOCTOWL
 	dbw 71, NOCTOWL
@@ -563,7 +563,7 @@ KantoGrassWildMons:
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; nite
-	dbw 71, VENOMOTH
+	dbw 71, CINCCINO
 	dbw 71, QUAGSIRE
 	dbw 71, NOCTOWL
 	dbw 71, NOCTOWL
@@ -593,7 +593,7 @@ KantoGrassWildMons:
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
 	; nite
-	dbw 71, VENOMOTH
+	dbw 71, CINCCINO
 	dbw 71, QUAGSIRE
 	dbw 71, NOCTOWL
 	dbw 71, NOCTOWL
@@ -773,7 +773,7 @@ KantoGrassWildMons:
 	dbw 68, TOUCANNON
 	dbw 68, VICTREEBEL
 	; nite
-	dbw 68, VENOMOTH
+	dbw 68, CINCCINO
 	dbw 68, ACCELGOR
 	dbw 68, WHIMSICOTT
 	dbw 68, DUOSION
@@ -803,7 +803,7 @@ KantoGrassWildMons:
 	dbw 2, TEPIG
 	dbw 3, TEPIG
 	; nite
-	dbw 68, VENOMOTH
+	dbw 68, CINCCINO
 	dbw 68, ACCELGOR
 	dbw 68, WHIMSICOTT
 	dbw 68, DUOSION
@@ -906,7 +906,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 63, TOUCANNON
-	dbw 63, VENOMOTH
+	dbw 63, CINCCINO
 	dbw 63, ESCAVALIER
 	dbw 63, GALVANTULA
 	dbw 63, SCYTHER
@@ -915,7 +915,7 @@ KantoGrassWildMons:
 	dbw 63, HERACROSS
 	; day
 	dbw 63, TOUCANNON
-	dbw 63, VENOMOTH
+	dbw 63, CINCCINO
 	dbw 63, ESCAVALIER
 	dbw 63, GALVANTULA
 	dbw 63, SCYTHER
@@ -924,7 +924,7 @@ KantoGrassWildMons:
 	dbw 63, HERACROSS
 	; nite
 	dbw 63, STOUTLAND
-	dbw 63, VENOMOTH
+	dbw 63, CINCCINO
 	dbw 63, ACCELGOR
 	dbw 63, GALVANTULA
 	dbw 63, SCYTHER

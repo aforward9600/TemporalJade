@@ -62,8 +62,8 @@ MonMenuIconPals:
 	icon_pals GREEN,  BLUE   ; LILLIGANT
 	icon_pals BLUE,   PURPLE ; JOLTIK
 	icon_pals BLUE,   GRAY   ; GALVANTULA
-	icon_pals RED,    PURPLE ; CUTIEFLY
-	icon_pals RED,    PURPLE ; RIBOMBEE
+	icon_pals RED,    PINK   ; MINCCINO
+	icon_pals GRAY,   BROWN  ; CINCCINO
 	icon_pals BROWN,  GRAY   ; SANDYGHAST
 	icon_pals BROWN,  GRAY   ; PALOSSAND
 	icon_pals PURPLE, BLUE   ; PURRLOIN

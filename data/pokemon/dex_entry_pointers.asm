@@ -51,8 +51,8 @@ PokedexDataPointerTable:
 	dba LilligantPokedexEntry
 	dba JoltikPokedexEntry
 	dba GalvantulaPokedexEntry
-	dba VenonatPokedexEntry
-	dba VenomothPokedexEntry
+	dba MinccinoPokedexEntry
+	dba CinccinoPokedexEntry
 	dba SandygastPokedexEntry
 	dba PalossandPokedexEntry
 	dba PurrloinPokedexEntry

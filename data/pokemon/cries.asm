@@ -5,9 +5,9 @@ ENDM
 
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
-	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; ROWLET
-	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; DARTRIX
-	mon_cry CRY_HOOTHOOT,    $000,  $17f ; DECIDUEYE
+	mon_cry CRY_PIDGEY,      $740,  $337 ; ROWLET
+	mon_cry CRY_PIDGEY,      $840,  $337 ; DARTRIX
+	mon_cry CRY_PIDGEY,      $548,  $407 ; DECIDUEYE
 	mon_cry CRY_NIDORAN_M,  -$08d,  $0ab ; TEPIG
 	mon_cry CRY_METAPOD,    -$3c5,  $0f0 ; PIGNITE
 	mon_cry CRY_METAPOD,    -$4c0,  $130 ; EMBOAR
@@ -56,10 +56,10 @@ PokemonCries::
 	mon_cry CRY_HYDREIGON,   $172,  $0b2 ; LILLIGANT
 	mon_cry CRY_PIDGEY,      $16a,  $0d4 ; JOLTIK
 	mon_cry CRY_NIDOQUEEN,   $035,  $0b6 ; GALVANTULA
-	mon_cry CRY_PICHU,      -$03e,  $0fc ; 
-	mon_cry CRY_PICHU,      -$029,  $3a0 ; 
-	mon_cry CRY_DIGLETT,     $0aa,  $081 ; SANDYGHAST
-	mon_cry CRY_DIGLETT,     $02a,  $090 ; PALOSSAND
+	mon_cry CRY_NIDORAN_M,   $833,  $178 ; MINCCINO
+	mon_cry CRY_CHARMANDER,  $936,  $158 ; CINCCINO
+	mon_cry CRY_KANGASKHAN,  $a20,  $100 ; SANDYGHAST
+	mon_cry CRY_KANGASKHAN,  $620,  $200 ; PALOSSAND
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; PURRLOIN
 	mon_cry CRY_MAREEP,      $03d,  $148 ; LIEPARD
 	mon_cry CRY_PSYDUCK,     $020,  $0e0 ; PSYDUCK
@@ -103,8 +103,8 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $023,  $17f ; DEWGONG
 	mon_cry CRY_GRIMER,      $000,  $100 ; GRIMER
 	mon_cry CRY_MUK,         $0ef,  $17f ; MUK
-	mon_cry CRY_FEAROW,      $000,  $100 ; MAREANIE
-	mon_cry CRY_FEAROW,      $06f,  $160 ; TOXAPEX
+	mon_cry CRY_VOLTORB,     $d50,  $0d0 ; MAREANIE
+	mon_cry CRY_VOLTORB,     $850,  $1d0 ; TOXAPEX
 	mon_cry CRY_METAPOD,     $000,  $100 ; GASTLY
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; HAUNTER
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
@@ -112,8 +112,8 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELIX
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
 	mon_cry CRY_DROWZEE,     $0ee,  $0c0 ; HYPNO
-	mon_cry CRY_KRABBY,      $020,  $160 ; CORPHISH
-	mon_cry CRY_KRABBY,      $0ee,  $160 ; CRAWDAUNT
+	mon_cry CRY_MANTINE,     $240,  $0c0 ; CORPHISH
+	mon_cry CRY_MANTINE,     $200,  $1f0 ; CRAWDAUNT
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; ELECTRODE
 	mon_cry CRY_DIGLETT,     $000,  $100 ; EXEGGCUTE
@@ -237,7 +237,7 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISDREAVUS
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS
 	mon_cry CRY_SUNFLORA,    $122,  $110 ; BASCULIN
-	mon_cry CRY_SUNFLORA,    $002,  $160 ; BASCLEGION
+	mon_cry CRY_SUNFLORA,    $222,  $210 ; BASCLEGION
 	mon_cry CRY_AMPHAROS,    $1c8,  $190 ; SKORUPI
 	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG

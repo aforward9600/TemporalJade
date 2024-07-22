@@ -52,7 +52,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw JOLTIK
 	dw 0    ;30
-	dw VENONAT
+	dw MINCCINO
 	dw 0
 	dw SANDYGAST
 	dw 0

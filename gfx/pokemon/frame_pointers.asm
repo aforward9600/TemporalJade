@@ -50,8 +50,8 @@ FramesPointers:
 	dba LilligantFrames
 	dba JoltikFrames
 	dba GalvantulaFrames
-	dba VenonatFrames
-	dba VenomothFrames
+	dba MinccinoFrames
+	dba CinccinoFrames
 	dba SandygastFrames
 	dba PalossandFrames
 	dba PurrloinFrames

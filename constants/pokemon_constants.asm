@@ -70,8 +70,8 @@
 	const LILLIGANT  ; b6
 	const JOLTIK     ; 2e
 	const GALVANTULA ; 2f
-	const VENONAT    ; 30
-	const VENOMOTH   ; 31
+	const MINCCINO   ; 30
+	const CINCCINO   ; 31
 	const SANDYGAST  ; 32
 	const PALOSSAND  ; 33
 	const PURRLOIN     ; 34

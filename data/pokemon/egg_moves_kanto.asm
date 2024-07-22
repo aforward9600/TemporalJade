@@ -53,7 +53,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw JoltikEggMoves
 	dw NoEggMoves1
-	dw VenonatEggMoves
+	dw MinccinoEggMoves
 	dw NoEggMoves1
 	dw SandygastEggMoves
 	dw NoEggMoves1
@@ -331,12 +331,13 @@ JoltikEggMoves:
 	dw PURSUIT
 	dw -1 ; end
 
-VenonatEggMoves:
-	dw BATON_PASS
-	dw SCREECH
-	dw GIGA_DRAIN
-	dw AGILITY
-	dw SIGNAL_BEAM
+MinccinoEggMoves:
+	dw AQUA_TAIL
+	dw ENDURE
+	dw FLAIL
+	dw KNOCK_OFF
+	dw MUD_SLAP
+	dw TAIL_WHIP
 	dw -1 ; end
 
 SandygastEggMoves:

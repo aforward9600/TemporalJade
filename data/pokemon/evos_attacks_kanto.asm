@@ -52,8 +52,8 @@ EvosAttacksPointers1::
 	dw LilligantEvosAttacks
 	dw JoltikEvosAttacks
 	dw GalvantulaEvosAttacks
-	dw VenonatEvosAttacks
-	dw VenomothEvosAttacks
+	dw MinccinoEvosAttacks
+	dw CinccinoEvosAttacks
 	dw SandygastEvosAttacks
 	dw PalossandEvosAttacks
 	dw PurrloinEvosAttacks
@@ -1084,53 +1084,35 @@ GalvantulaEvosAttacks:
 	dbw 48, SIGNAL_WAVE
 	db 0 ; no more level-up moves
 
-VenonatEvosAttacks:
-	dbbw EVOLVE_LEVEL, 31, VENOMOTH
+MinccinoEvosAttacks:
+	dbbw EVOLVE_ITEM, SHINY_STONE, CINCCINO
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, DISABLE
-	dbw 1, FORESIGHT
-	dbw 5, SUPERSONIC
-	dbw 11, CONFUSION
-	dbw 13, POISONPOWDER
-	dbw 17, PSYBEAM
-	dbw 23, STUN_SPORE
-	dbw 25, SIGNAL_BEAM
-	dbw 29, SLEEP_POWDER
-	dbw 35, LEECH_LIFE
-	dbw 37, ZEN_HEADBUTT
-	dbw 41, POISON_FANG
-	dbw 47, PSYCHIC_M
+	dbw 1, POUND
+	dbw 1, GROWL
+	dbw 7, FORESIGHT
+	dbw 9, WORK_UP
+	dbw 13, DOUBLESLAP
+	dbw 15, ENCORE
+	dbw 19, SWIFT
+	dbw 21, SING
+	dbw 25, FURY_SWIPES
+	dbw 27, CHARM
+	dbw 31, BRICK_BREAK
+	dbw 33, ECHOED_VOICE
+	dbw 37, SLAM
+	dbw 39, RETURN
+	dbw 43, HYPER_VOICE
+	dbw 45, DOUBLE_EDGE
+	dbw 49, FAKE_OUT
 	db 0 ; no more level-up moves
 
-VenomothEvosAttacks:
+CinccinoEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, SILVER_WIND
-	dbw 1, SILVER_WIND
-	dbw 1, TACKLE
-	dbw 1, DISABLE
-	dbw 1, FORESIGHT
-	dbw 5, SUPERSONIC
-	dbw 11, CONFUSION
-	dbw 13, POISONPOWDER
-	dbw 17, PSYBEAM
-	dbw 23, STUN_SPORE
-	dbw 25, SIGNAL_BEAM
-	dbw 29, SLEEP_POWDER
-	dbw 37, LEECH_LIFE
-	dbw 41, ZEN_HEADBUTT
-if DEF(_FAITHFUL)
-	dbw 47, POISON_FANG
-else
-	dbw 47, BUG_BUZZ
-endc
-	dbw 55, PSYCHIC_M
-if DEF(_FAITHFUL)
-	dbw 59, BUG_BUZZ
-else
-	dbw 59, SIGNAL_WAVE
-endc
-	dbw 63, QUIVER_DANCE
+	dbw LEARN_EVO_MOVE, BULLET_SEED
+	dbw 1, BULLET_SEED
+	dbw 1, SING
+	dbw 1, FURY_SWIPES
+	dbw 1, DOUBLESLAP
 	db 0 ; no more level-up moves
 
 SandygastEvosAttacks:

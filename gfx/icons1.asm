@@ -53,8 +53,8 @@ Icons1:
 	dw LilligantIcon
 	dw JoltikIcon
 	dw GalvantulaIcon
-	dw VenonatIcon
-	dw VenomothIcon
+	dw MinccinoIcon
+	dw CinccinoIcon
 	dw SandygastIcon
 	dw PalossandIcon
 	dw PurrloinIcon
@@ -180,8 +180,8 @@ PetililIcon:      INCBIN "gfx/icons/petilil.2bpp"
 LilligantIcon:    INCBIN "gfx/icons/lilligant.2bpp"
 JoltikIcon:       INCBIN "gfx/icons/joltik.2bpp"
 GalvantulaIcon:   INCBIN "gfx/icons/galvantula.2bpp"
-VenonatIcon:      INCBIN "gfx/icons/venonat.2bpp"
-VenomothIcon:     INCBIN "gfx/icons/venomoth.2bpp"
+MinccinoIcon:     INCBIN "gfx/icons/minccino.2bpp"
+CinccinoIcon:     INCBIN "gfx/icons/cinccino.2bpp"
 SandygastIcon:    INCBIN "gfx/icons/sandygast.2bpp"
 PalossandIcon:    INCBIN "gfx/icons/palossand.2bpp"
 PurrloinIcon:     INCBIN "gfx/icons/purrloin.2bpp"

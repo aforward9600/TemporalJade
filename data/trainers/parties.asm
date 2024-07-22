@@ -3641,7 +3641,7 @@ endc
 	next_list_item ; POKEMANIAC (3)
 	db "Palmer@", TRAINERTYPE_ITEM
 	db 33
-	dw VENOMOTH
+	dw CINCCINO
 	db NO_ITEM
 	db 33
 	dw LAIRON
@@ -4017,9 +4017,9 @@ endc
 	next_list_item ; ManM (19)
 	db "Man@", TRAINERTYPE_NORMAL
 	db 18
-	dw VENONAT
+	dw MINCCINO
 	db 18
-	dw VENONAT
+	dw MINCCINO
 	db -1 ; end
 
 	next_list_item ; ManM (20)
@@ -4326,7 +4326,7 @@ else
 endc
 	dw GIGA_IMPACT, MEGAHORN, ZEN_HEADBUTT, JUMP_KICK
 	db 74
-	dw VENOMOTH
+	dw CINCCINO
 if DEF(_CHALLENGE)
 	db SILVERPOWDER
 else
@@ -4408,7 +4408,7 @@ endc
 	next_list_item ; BUG_CATCHER (6)
 	db "Arthur@", TRAINERTYPE_ITEM
 	db 24
-	dw VENONAT
+	dw MINCCINO
 	db NO_ITEM
 	db 24
 	dw PINSIR
@@ -4434,7 +4434,7 @@ endc
 	next_list_item ; BUG_CATCHER (8)
 	db "Palmer@", TRAINERTYPE_NORMAL
 	db 33
-	dw VENOMOTH
+	dw CINCCINO
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (9) AZALEA GYM
@@ -4476,7 +4476,7 @@ endc
 	db 67
 	dw GALVANTULA
 	db 68
-	dw VENOMOTH
+	dw CINCCINO
 	db 69
 	dw TOUCANNON
 	db 68
@@ -4486,7 +4486,7 @@ endc
 	next_list_item ; BUG_CATCHER (12) AZALEA GYM
 	db "Marty@", TRAINERTYPE_ITEM
 	db 42
-	dw VENOMOTH
+	dw CINCCINO
 	db NO_ITEM
 	db 42
 	dw FORRETRESS
@@ -4510,13 +4510,13 @@ endc
 	next_list_item ; BUG_CATCHER (13)
 	db "ARNIE@", TRAINERTYPE_NORMAL
 	db 19
-	dw VENONAT
+	dw MINCCINO
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (14)
 	db "ARNIE@", TRAINERTYPE_MOVES
 	db 28
-	dw VENOMOTH
+	dw CINCCINO
 	dw DISABLE, SUPERSONIC, CONFUSION, LEECH_LIFE
 	db -1 ; end
 
@@ -4563,14 +4563,14 @@ endc
 	next_list_item ; BUG_CATCHER (17)
 	db "ARNIE@", TRAINERTYPE_MOVES
 	db 36
-	dw VENOMOTH
+	dw CINCCINO
 	dw GUST, SUPERSONIC, PSYBEAM, LEECH_LIFE
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (18)
 	db "ARNIE@", TRAINERTYPE_MOVES
 	db 40
-	dw VENOMOTH
+	dw CINCCINO
 	dw GUST, SUPERSONIC, PSYCHIC_M, TOXIC
 	db -1 ; end
 

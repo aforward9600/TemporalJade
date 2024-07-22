@@ -50,8 +50,8 @@ AnimationIdlePointers:
 	dw LilligantAnimationIdle
 	dw JoltikAnimationIdle
 	dw GalvantulaAnimationIdle
-	dw VenonatAnimationIdle
-	dw VenomothAnimationIdle
+	dw MinccinoAnimationIdle
+	dw CinccinoAnimationIdle
 	dw SandygastAnimationIdle
 	dw PalossandAnimationIdle
 	dw PurrloinAnimationIdle

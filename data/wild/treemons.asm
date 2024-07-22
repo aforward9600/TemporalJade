@@ -19,7 +19,7 @@ TreeMonSet_City:
 TreeMonSet_Canyon:
 ; common
 	dbbw 50, 10, SPEAROW
-	dbbw 15, 10, VENONAT
+	dbbw 15, 10, MINCCINO
 	dbbw 15, 10, PINECO
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -27,7 +27,7 @@ TreeMonSet_Canyon:
 	db -1
 ; rare
 	dbbw 50, 10, SPEAROW
-	dbbw 15, 10, VENONAT
+	dbbw 15, 10, MINCCINO
 	dbbw 15, 10, PINECO
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -37,7 +37,7 @@ TreeMonSet_Canyon:
 TreeMonSet_Town:
 ; common
 	dbbw 50, 10, SPEAROW
-	dbbw 15, 10, VENONAT
+	dbbw 15, 10, MINCCINO
 	dbbw 15, 10, PINECO
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -45,7 +45,7 @@ TreeMonSet_Town:
 	db -1
 ; rare
 	dbbw 50, 10, SPEAROW
-	dbbw 15, 10, VENONAT
+	dbbw 15, 10, MINCCINO
 	dbbw 15, 10, PINECO
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -91,7 +91,7 @@ TreeMonSet_Kanto:
 TreeMonSet_Lake:
 ; common
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, VENONAT
+	dbbw 15, 10, MINCCINO
 	dbbw 15, 10, PINECO
 	dbbw 10, 10, EXEGGCUTE
 	dbbw  5, 10, SWABLU
@@ -154,7 +154,7 @@ TreeMonSet_Viridian_Forest:
 	dbbw 50, 60, SCOLIPEDE
 	dbbw 15, 60, TOUCANNON
 	dbbw 15, 60, TOUCANNON
-	dbbw 10, 60, VENOMOTH
+	dbbw 10, 60, CINCCINO
 	dbbw  5, 60, PINSIR
 	dbbw  5, 60, HERACROSS
 	db -1
@@ -162,7 +162,7 @@ TreeMonSet_Viridian_Forest:
 	dbbw 50, 60, SCOLIPEDE
 	dbbw 15, 60, TOUCANNON
 	dbbw 15, 60, TOUCANNON
-	dbbw 10, 60, VENOMOTH
+	dbbw 10, 60, CINCCINO
 	dbbw  5, 60, PINSIR
 	dbbw  5, 60, HERACROSS
 	db -1

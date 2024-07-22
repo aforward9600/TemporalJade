@@ -308,9 +308,9 @@ SECTION "Ribombee Front", ROMX
 
 RibombeeFrontpic:    INCBIN "gfx/pokemon/ribombee/front.animated.2bpp.lz"
 
-SECTION "Venomoth Front", ROMX
+SECTION "Cinccino Front", ROMX
 
-VenomothFrontpic:    INCBIN "gfx/pokemon/venomoth/front.animated.2bpp.lz"
+CinccinoFrontpic:    INCBIN "gfx/pokemon/cinccino/front.animated.2bpp.lz"
 
 SECTION "Politoed Front", ROMX
 
@@ -562,7 +562,7 @@ PsyduckFrontpic:     INCBIN "gfx/pokemon/psyduck/front.animated.2bpp.lz"
 MudkipFrontpic:      INCBIN "gfx/pokemon/mudkip/front.animated.2bpp.lz"
 ConkeldurrBackpic:   INCBIN "gfx/pokemon/conkeldurr/back.2bpp.lz"
 KoffingFrontpic:     INCBIN "gfx/pokemon/koffing/front.animated.2bpp.lz"
-VenonatFrontpic:     INCBIN "gfx/pokemon/venonat/front.animated.2bpp.lz"
+MinccinoFrontpic:    INCBIN "gfx/pokemon/minccino/front.animated.2bpp.lz"
 ExeggutorBackpic:    INCBIN "gfx/pokemon/exeggutor/back.2bpp.lz"
 LanturnFrontpic:     INCBIN "gfx/pokemon/lanturn/front.animated.2bpp.lz"
 ScraggyFrontpic:     INCBIN "gfx/pokemon/scraggy/front.animated.2bpp.lz"
@@ -594,7 +594,7 @@ JugglerPic:          INCBIN "gfx/trainers/juggler.2bpp.lz"
 MarillFrontpic:      INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
 GuitaristPic:        INCBIN "gfx/trainers/guitarist.2bpp.lz"
 PokefanfPic:         INCBIN "gfx/trainers/pokefan_f.2bpp.lz"
-VenomothBackpic:     INCBIN "gfx/pokemon/venomoth/back.2bpp.lz"
+CinccinoBackpic:     INCBIN "gfx/pokemon/cinccino/back.2bpp.lz"
 ClairPic:            INCBIN "gfx/trainers/clair.2bpp.lz"
 PokemaniacPic:       INCBIN "gfx/trainers/pokemaniac.2bpp.lz"
 TirtougaFrontpic:    INCBIN "gfx/pokemon/tirtouga/front.animated.2bpp.lz"
@@ -758,7 +758,7 @@ KingdraBackpic:      INCBIN "gfx/pokemon/kingdra/back.2bpp.lz"
 CamperPic:           INCBIN "gfx/trainers/camper.2bpp.lz"
 WooperFrontpic:      INCBIN "gfx/pokemon/wooper/front.animated.2bpp.lz"
 ClefairyBackpic:     INCBIN "gfx/pokemon/clefairy/back.2bpp.lz"
-VenonatBackpic:      INCBIN "gfx/pokemon/venonat/back.2bpp.lz"
+MinccinoBackpic:     INCBIN "gfx/pokemon/minccino/back.2bpp.lz"
 LilligantBackpic:    INCBIN "gfx/pokemon/lilligant/back.2bpp.lz"
 Rival1Pic:           INCBIN "gfx/trainers/rival1.2bpp.lz"
 SwinubBackpic:       INCBIN "gfx/pokemon/swinub/back.2bpp.lz"

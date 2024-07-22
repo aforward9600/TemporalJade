@@ -417,7 +417,7 @@ JohtoGrassWildMons:
 	dbw 37, NOCTOWL
 	dbw 37, WHIMSICOTT
 	dbw 37, GOLDUCK
-	dbw 37, VENOMOTH
+	dbw 37, CINCCINO
 	dbw 37, GALVANTULA
 	dbw 37, GALVANTULA
 	dbw 37, GALVANTULA
@@ -1749,7 +1749,7 @@ JohtoGrassWildMons:
 	dbw 15, JIGGLYPUFF
 	dbw 15, SEWADDLE
 	dbw 15, SUNKERN
-	dbw 15, VENONAT
+	dbw 15, MINCCINO
 	dbw 15, MANKEY
 	dbw 15, DODUO
 	dbw 15, DROWZEE
@@ -1758,7 +1758,7 @@ JohtoGrassWildMons:
 	dbw 15, JIGGLYPUFF
 	dbw 15, SEWADDLE
 	dbw 15, SUNKERN
-	dbw 15, VENONAT
+	dbw 15, MINCCINO
 	dbw 15, MANKEY
 	dbw 15, DODUO
 	dbw 15, DROWZEE
@@ -1767,7 +1767,7 @@ JohtoGrassWildMons:
 	dbw 15, JIGGLYPUFF
 	dbw 15, SEWADDLE
 	dbw 15, SUNKERN
-	dbw 15, VENONAT
+	dbw 15, MINCCINO
 	dbw 15, MANKEY
 	dbw 15, DODUO
 	dbw 15, DROWZEE

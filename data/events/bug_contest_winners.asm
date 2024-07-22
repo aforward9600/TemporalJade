@@ -40,7 +40,7 @@ BugContestant_PokefanMWilliam:
 	db POKEFANM, BERNARD
 	dw PINSIR,     332
 	dw TOUCANNON, 324
-	dw VENONAT,    321
+	dw MINCCINO,    321
 
 BugContestant_BugCatcherElmer:
 	db BUG_CATCHER, ELMER
@@ -51,7 +51,7 @@ BugContestant_BugCatcherElmer:
 BugContestant_CamperBarry:
 	db CAMPER, CAMPER_GARRET
 	dw PINSIR,     366
-	dw VENONAT,    329
+	dw MINCCINO,    329
 	dw HERDIER,     314
 
 BugContestant_PicnickerCindy:
@@ -74,6 +74,6 @@ BugContestant_YoungsterSamuel:
 
 BugContestant_SchoolboyPierce:
 	db SCHOOLBOY, PIERCE
-	dw VENONAT,    267
+	dw MINCCINO,    267
 	dw JOLTIK,      254
 	dw HERDIER,     259

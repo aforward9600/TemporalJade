@@ -50,8 +50,8 @@ AnimationPointers:
 	dw LilligantAnimation
 	dw JoltikAnimation
 	dw GalvantulaAnimation
-	dw VenonatAnimation
-	dw VenomothAnimation
+	dw MinccinoAnimation
+	dw CinccinoAnimation
 	dw SandygastAnimation
 	dw PalossandAnimation
 	dw PurrloinAnimation

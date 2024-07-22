@@ -34,6 +34,7 @@ AlphabeticalPokedexOrder:
 	dw CHANSEY
 	dw CHIKORITA
 	dw CHINCHOU
+	dw CINCCINO
 	dw CLEFABLE
 	dw CLEFAIRY
 	dw CLEFFA
@@ -180,6 +181,7 @@ AlphabeticalPokedexOrder:
 	dw MEWTWO
 	dw MILTANK
 	dw MIME__JR
+	dw MINCCINO
 	dw MISDREAVUS
 	dw MISMAGIUS
 	dw MISSINGNO
@@ -305,8 +307,6 @@ AlphabeticalPokedexOrder:
 	dw URSARING
 	dw VAPOREON
 	dw VENIPEDE
-	dw VENOMOTH
-	dw VENONAT
 	dw VICTREEBEL
 	dw VOLCARONA
 	dw VOLTORB

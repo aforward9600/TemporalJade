@@ -11,25 +11,21 @@ AsleepTreeMonsNite:
 	dw AIPOM
 	dw MUNCHLAX
 	dw SWABLU
-;	dw PIDGEOT
+	dw MINCCINO
 	dw -1 ; end
 
 AsleepTreeMonsDay:
-	dw VENONAT
 	dw HOOTHOOT
 	dw NOCTOWL
 	dw SHELMET
 	dw HERACROSS
 	dw PINSIR
-	dw VENOMOTH
 	dw -1 ; end
 
 AsleepTreeMonsMorn:
-	dw VENONAT
 	dw HOOTHOOT
 	dw NOCTOWL
 	dw SHELMET
 	dw HERACROSS
 	dw PINSIR
-	dw VENOMOTH
 	dw -1 ; end

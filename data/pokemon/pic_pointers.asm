@@ -112,10 +112,10 @@ PokemonPicPointers::
 	dba JoltikBackpic
 	dba GalvantulaFrontpic
 	dba GalvantulaBackpic
-	dba VenonatFrontpic
-	dba VenonatBackpic
-	dba VenomothFrontpic
-	dba VenomothBackpic
+	dba MinccinoFrontpic
+	dba MinccinoBackpic
+	dba CinccinoFrontpic
+	dba CinccinoBackpic
 	dba SandygastFrontpic
 	dba SandygastBackpic
 	dba PalossandFrontpic

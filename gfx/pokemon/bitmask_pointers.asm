@@ -50,8 +50,8 @@ BitmasksPointers:
 	dw LilligantBitmasks
 	dw JoltikBitmasks
 	dw GalvantulaBitmasks
-	dw VenonatBitmasks
-	dw VenomothBitmasks
+	dw MinccinoBitmasks
+	dw CinccinoBitmasks
 	dw SandygastBitmasks
 	dw PalossandBitmasks
 	dw PurrloinBitmasks

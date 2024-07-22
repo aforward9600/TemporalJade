@@ -1,0 +1,1 @@
+	mon_cry CRY_SLOWPOKE,    $1CD,  $140 ; MINCCINO
