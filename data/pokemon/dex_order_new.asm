@@ -283,7 +283,7 @@ NewPokedexOrder:
 	dw HYPNO
 	dw REMORAID
 	dw OCTILLERY
-	dw SMEARGLE
+	dw BOUFFALANT
 	dw LAPRAS
 	dw DITTO
 	dw PORYGON

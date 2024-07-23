@@ -276,7 +276,7 @@ PokemonNames::
 	db "Donphan@@@"
 	db "Stantler@@"
 	db "Wyrdeer@@@"
-	db "Smeargle@@"
+	db "Bouffalant"
 	db "Miltank@@@"
 	db "Kotora@@@@"
 	db "Raitora@@@"

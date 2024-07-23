@@ -272,7 +272,7 @@ AnimationPointers:
 	dw DonphanAnimation
 	dw StantlerAnimation
 	dw WyrdeerAnimation
-	dw SmeargleAnimation
+	dw BouffalantAnimation
 	dw MiltankAnimation
 	dw KotoraAnimation
 	dw RaitoraAnimation

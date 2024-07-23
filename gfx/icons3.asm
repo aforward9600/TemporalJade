@@ -24,7 +24,7 @@ Icons3:
 	dw DonphanIcon
 	dw StantlerIcon
 	dw WyrdeerIcon
-	dw SmeargleIcon
+	dw BouffalantIcon
 	dw MiltankIcon
 	dw KotoraIcon
 	dw RaitoraIcon
@@ -98,7 +98,7 @@ PhanpyIcon:	      INCBIN "gfx/icons/phanpy.2bpp"
 DonphanIcon:	  INCBIN "gfx/icons/donphan.2bpp"
 StantlerIcon:	  INCBIN "gfx/icons/stantler.2bpp"
 WyrdeerIcon:      INCBIN "gfx/icons/wyrdeer.2bpp"
-SmeargleIcon:	  INCBIN "gfx/icons/smeargle.2bpp"
+BouffalantIcon:	  INCBIN "gfx/icons/bouffalant.2bpp"
 MiltankIcon:	  INCBIN "gfx/icons/miltank.2bpp"
 KotoraIcon:       INCBIN "gfx/icons/kotora.2bpp"
 RaitoraIcon:      INCBIN "gfx/icons/raitora.2bpp"

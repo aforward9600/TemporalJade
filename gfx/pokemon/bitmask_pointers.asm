@@ -272,7 +272,7 @@ BitmasksPointers:
 	dw DonphanBitmasks
 	dw StantlerBitmasks
 	dw WyrdeerBitmasks
-	dw SmeargleBitmasks
+	dw BouffalantBitmasks
 	dw MiltankBitmasks
 	dw KotoraBitmasks
 	dw RaitoraBitmasks

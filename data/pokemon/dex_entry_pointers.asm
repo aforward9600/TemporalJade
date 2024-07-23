@@ -273,7 +273,7 @@ PokedexDataPointerTable:
 	dba DonphanPokedexEntry
 	dba StantlerPokedexEntry
 	dba WyrdeerPokedexEntry
-	dba SmearglePokedexEntry
+	dba BouffalantPokedexEntry
 	dba MiltankPokedexEntry
 	dba KotoraPokedexEntry
 	dba RaitoraPokedexEntry

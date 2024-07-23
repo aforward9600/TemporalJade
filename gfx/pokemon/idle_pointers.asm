@@ -272,7 +272,7 @@ AnimationIdlePointers:
 	dw DonphanAnimationIdle
 	dw StantlerAnimationIdle
 	dw WyrdeerAnimationIdle
-	dw SmeargleAnimationIdle
+	dw BouffalantAnimationIdle
 	dw MiltankAnimationIdle
 	dw KotoraAnimationIdle
 	dw RaitoraAnimationIdle

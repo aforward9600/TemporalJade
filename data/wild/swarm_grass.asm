@@ -101,7 +101,7 @@ SwarmGrassWildMons:
 	; morn
 	dbw 15, KANGASKHAN
 	dbw 15, KANGASKHAN
-	dbw 15, SMEARGLE
+	dbw 15, BOUFFALANT
 	dbw 15, GLIGAR
 	dbw 15, BRONZOR
 	dbw 15, KANGASKHAN
@@ -110,7 +110,7 @@ SwarmGrassWildMons:
 	; day
 	dbw 15, KANGASKHAN
 	dbw 15, KANGASKHAN
-	dbw 15, SMEARGLE
+	dbw 15, BOUFFALANT
 	dbw 15, GLIGAR
 	dbw 15, BRONZOR
 	dbw 15, KANGASKHAN
@@ -119,7 +119,7 @@ SwarmGrassWildMons:
 	; nite
 	dbw 15, KANGASKHAN
 	dbw 15, KANGASKHAN
-	dbw 15, SMEARGLE
+	dbw 15, BOUFFALANT
 	dbw 15, GLIGAR
 	dbw 15, BRONZOR
 	dbw 15, KANGASKHAN

@@ -18,10 +18,10 @@ Unreferenced_CorrectPartyErrors:
 	call IsAPokemon
 	jr nc, .next_species
 
-	push hl
-	ld hl, SMEARGLE
-	call GetPokemonIDFromIndex
-	pop hl
+;	push hl
+;	ld hl, SMEARGLE
+;	call GetPokemonIDFromIndex
+;	pop hl
 	ld [hl], a
 	push hl
 	push bc
@@ -54,10 +54,10 @@ Unreferenced_CorrectPartyErrors:
 	call IsAPokemon
 	jr nc, .check_level
 
-	push hl
-	ld hl, SMEARGLE
-	call GetPokemonIDFromIndex
-	pop hl
+;	push hl
+;	ld hl, SMEARGLE
+;	call GetPokemonIDFromIndex
+;	pop hl
 	ld [hl], a
 	push de
 	ld d, 0

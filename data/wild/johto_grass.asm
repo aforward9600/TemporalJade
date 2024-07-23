@@ -190,27 +190,27 @@ JohtoGrassWildMons:
 	dbw 44, GIRAFARIG
 	dbw 44, XATU
 	dbw 44, GIRAFARIG
-	dbw 44, SMEARGLE
-	dbw 44, SMEARGLE
-	dbw 44, SMEARGLE
+	dbw 44, BOUFFALANT
+	dbw 44, BOUFFALANT
+	dbw 44, BOUFFALANT
 	; day
 	dbw 44, STANTLER
 	dbw 44, XATU
 	dbw 44, GIRAFARIG
 	dbw 44, XATU
 	dbw 44, GIRAFARIG
-	dbw 44, SMEARGLE
-	dbw 44, SMEARGLE
-	dbw 44, SMEARGLE
+	dbw 44, BOUFFALANT
+	dbw 44, BOUFFALANT
+	dbw 44, BOUFFALANT
 	; nite
 	dbw 44, STANTLER
 	dbw 44, XATU
 	dbw 44, GIRAFARIG
 	dbw 44, XATU
 	dbw 44, GIRAFARIG
-	dbw 44, SMEARGLE
-	dbw 44, SMEARGLE
-	dbw 44, SMEARGLE
+	dbw 44, BOUFFALANT
+	dbw 44, BOUFFALANT
+	dbw 44, BOUFFALANT
 
 	map_id RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1806,7 +1806,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 15, BRONZOR
-	dbw 15, SMEARGLE
+	dbw 15, BOUFFALANT
 	dbw 15, JOLTIK
 	dbw 15, DRAPION
 	dbw 15, CUBONE
@@ -1815,7 +1815,7 @@ JohtoGrassWildMons:
 	dbw 15, KANGASKHAN
 	; day
 	dbw 15, BRONZOR
-	dbw 15, SMEARGLE
+	dbw 15, BOUFFALANT
 	dbw 15, JOLTIK
 	dbw 15, DRAPION
 	dbw 15, CUBONE
@@ -1824,7 +1824,7 @@ JohtoGrassWildMons:
 	dbw 15, KANGASKHAN
 	; nite
 	dbw 15, BRONZOR
-	dbw 15, SMEARGLE
+	dbw 15, BOUFFALANT
 	dbw 15, JOLTIK
 	dbw 15, DRAPION
 	dbw 15, CUBONE

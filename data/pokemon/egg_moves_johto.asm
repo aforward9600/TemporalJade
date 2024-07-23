@@ -123,7 +123,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw StantlerEggMoves
 	dw NoEggMoves2
-	dw NoEggMoves2
+	dw BouffalantEggMoves
 	dw MiltankEggMoves
 	dw KotoraEggMoves
 	dw NoEggMoves2
@@ -694,6 +694,16 @@ StantlerEggMoves:
 	dw THRASH
 	dw ZEN_HEADBUTT
 	dw WORK_UP
+	dw -1 ; end
+
+BouffalantEggMoves:
+	dw AMNESIA
+	dw BELCH
+	dw HEADBUTT
+	dw MUD_SHOT
+	dw MUD_SLAP
+	dw SKULL_BASH
+	dw STOMP
 	dw -1 ; end
 
 MiltankEggMoves:

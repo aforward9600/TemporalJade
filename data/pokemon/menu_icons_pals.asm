@@ -284,7 +284,7 @@ MonMenuIconPals:
 	icon_pals BROWN,  RED    ; DONPHAN
 	icon_pals BROWN,  GREEN  ; STANTLER
 	icon_pals GRAY,   GREEN  ; WYRDEER
-	icon_pals BROWN,  GREEN  ; SMEARGLE
+	icon_pals BROWN,  RED    ; BOUFFALANT
 	icon_pals PINK,   BLUE   ; MILTANK
 	icon_pals RED,    BROWN  ; KOTORA
 	icon_pals RED,    BROWN  ; RAITORA

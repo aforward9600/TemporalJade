@@ -413,10 +413,10 @@ ValidateBTParty:
 	jr nc, .valid
 
 .invalid
-	push hl
-	ld hl, SMEARGLE
-	call GetPokemonIDFromIndex
-	pop hl
+;	push hl
+;	ld hl, SMEARGLE
+;	call GetPokemonIDFromIndex
+;	pop hl
 	ld [hl], a
 
 .valid

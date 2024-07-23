@@ -272,7 +272,7 @@ FramesPointers:
 	dba DonphanFrames
 	dba StantlerFrames
 	dba WyrdeerFrames
-	dba SmeargleFrames
+	dba BouffalantFrames
 	dba MiltankFrames
 	dba KotoraFrames
 	dba RaitoraFrames

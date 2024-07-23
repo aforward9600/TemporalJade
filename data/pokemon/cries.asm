@@ -278,7 +278,7 @@ PokemonCries::
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; DONPHAN
 	mon_cry CRY_AIPOM,      -$160,  $180 ; STANTLER
 	mon_cry CRY_AIPOM,      -$160,  $180 ; WYRDEER
-	mon_cry CRY_PICHU,      -$21a,  $1f0 ; SMEARGLE
+	mon_cry CRY_TOTODILE,   -$170,  $180 ; BOUFFALANT
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; MILTANK
 	mon_cry CRY_PICHU,       $f60,  $200 ; KOTORA
 	mon_cry CRY_RAIKOU,      $db3,  $168 ; RAITORA

@@ -293,7 +293,7 @@ JOHTO_POKEMON EQU const_value
 	const DONPHAN    ; e8
 	const STANTLER   ; ea
 	const WYRDEER
-	const SMEARGLE   ; eb
+	const BOUFFALANT ; eb
 	const MILTANK    ; f1
 	const KOTORA
 	const RAITORA

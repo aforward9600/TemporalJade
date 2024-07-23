@@ -122,7 +122,7 @@ EvosAttacksPointers2::
 	dw DonphanEvosAttacks
 	dw StantlerEvosAttacks
 	dw WyrdeerEvosAttacks
-	dw SmeargleEvosAttacks
+	dw BouffalantEvosAttacks
 	dw MiltankEvosAttacks
 	dw KotoraEvosAttacks
 	dw RaitoraEvosAttacks
@@ -2773,18 +2773,22 @@ WyrdeerEvosAttacks:
 	dbw 62, MEGAHORN
 	db 0 ; no more level-up moves
 
-SmeargleEvosAttacks:
+BouffalantEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, SKETCH
-	dbw 11, SKETCH
-	dbw 21, SKETCH
-	dbw 31, SKETCH
-	dbw 41, SKETCH
-	dbw 51, SKETCH
-	dbw 61, SKETCH
-	dbw 71, SKETCH
-	dbw 81, SKETCH
-	dbw 91, SKETCH
+	dbw 1, PURSUIT
+	dbw 1, LEER
+	dbw 6, RAGE
+	dbw 11, FURY_ATTACK
+	dbw 16, HORN_ATTACK
+	dbw 21, SCARY_FACE
+	dbw 26, REVENGE
+	dbw 31, DOUBLE_EDGE
+	dbw 36, FOCUS_ENERGY
+	dbw 41, MEGAHORN
+	dbw 46, REVERSAL
+	dbw 50, THRASH
+	dbw 56, SWORDS_DANCE
+	dbw 61, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 MiltankEvosAttacks:

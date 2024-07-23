@@ -559,8 +559,8 @@ PokemonPicPointers::
 	dba StantlerBackpic
 	dba WyrdeerFrontpic
 	dba WyrdeerBackpic
-	dba SmeargleFrontpic
-	dba SmeargleBackpic
+	dba BouffalantFrontpic
+	dba BouffalantBackpic
 	dba MiltankFrontpic
 	dba MiltankBackpic
 	dba KotoraFrontpic

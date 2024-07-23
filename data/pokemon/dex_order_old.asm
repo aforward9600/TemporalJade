@@ -274,7 +274,7 @@ OldPokedexOrder:
 	dw DONPHAN
 	dw STANTLER
 	dw WYRDEER
-	dw SMEARGLE
+	dw BOUFFALANT
 	dw MILTANK
 	dw KOTORA
 	dw RAITORA

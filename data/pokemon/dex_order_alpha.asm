@@ -23,6 +23,7 @@ AlphabeticalPokedexOrder:
 	dw BELLSPROUT
 	dw BLISSEY
 	dw BONSLY
+	dw BOUFFALANT
 	dw BRONZONG
 	dw BRONZOR
 	dw BUDEW
@@ -261,7 +262,6 @@ AlphabeticalPokedexOrder:
 	dw SLOWKING
 	dw SLOWPOKE
 	dw SLUGMA
-	dw SMEARGLE
 	dw SMOOCHUM
 	dw SNEASEL
 	dw SNORLAX
