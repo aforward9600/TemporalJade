@@ -306,9 +306,9 @@ AnimationPointers:
 	dw AronAnimation
 	dw LaironAnimation
 	dw AggronAnimation
-	dw RaikouAnimation
-	dw EnteiAnimation
-	dw SuicuneAnimation
+	dw AxewAnimation
+	dw FraxureAnimation
+	dw HaxorusAnimation
 	dw LarvitarAnimation
 	dw PupitarAnimation
 	dw TyranitarAnimation

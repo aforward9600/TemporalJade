@@ -55,9 +55,9 @@ SpriteMons:
 	dw CLEFAIRY
 	dw DUSKNOIR
 	dw SIRFETCH_D
-	dw RAIKOU
-	dw SUICUNE
-	dw ENTEI
+	dw AXEW
+	dw FRAXURE
+	dw HAXORUS
 	dw ARTICUNO
 	dw ZAPDOS
 	dw SPEAROW

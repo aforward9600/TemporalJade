@@ -308,9 +308,9 @@ OldPokedexOrder:
 	dw ARON
 	dw LAIRON
 	dw AGGRON
-	dw RAIKOU
-	dw ENTEI
-	dw SUICUNE
+	dw AXEW
+	dw FRAXURE
+	dw HAXORUS
 	dw LARVITAR
 	dw PUPITAR
 	dw TYRANITAR

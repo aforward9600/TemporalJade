@@ -307,9 +307,9 @@ PokedexDataPointerTable:
 	dba AronPokedexEntry
 	dba LaironPokedexEntry
 	dba AggronPokedexEntry
-	dba RaikouPokedexEntry
-	dba EnteiPokedexEntry
-	dba SuicunePokedexEntry
+	dba AxewPokedexEntry
+	dba FraxurePokedexEntry
+	dba HaxorusPokedexEntry
 	dba LarvitarPokedexEntry
 	dba PupitarPokedexEntry
 	dba TyranitarPokedexEntry

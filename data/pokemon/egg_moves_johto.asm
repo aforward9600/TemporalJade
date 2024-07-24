@@ -157,7 +157,7 @@ EggMovePointers2::
 	dw AronEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw NoEggMoves2
+	dw AxewEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw LarvitarEggMoves
@@ -794,6 +794,15 @@ AronEggMoves:
 	dw STOMP
 	dw SUPERPOWER
 	dw HEAD_SMASH
+	dw -1 ; end
+
+AxewEggMoves:
+	dw COUNTER
+	dw DRAGON_PULSE
+	dw FOCUS_ENERGY
+	dw HARDEN
+	dw NIGHT_SLASH
+	dw REVERSAL
 	dw -1 ; end
 
 LarvitarEggMoves:

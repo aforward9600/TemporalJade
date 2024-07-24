@@ -11,9 +11,9 @@ SometimesFleeMons:
 	dw -1
 
 OftenFleeMons:
-	dw ENTEI
-	dw SUICUNE
-	dw RAIKOU
+	dw AXEW
+	dw FRAXURE
+	dw HAXORUS
 	dw ELECTRIKE
 	dw MANECTRIC
 	dw ELECTABUZZ

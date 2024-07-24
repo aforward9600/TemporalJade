@@ -54,7 +54,7 @@ EinScript:
 	turnobject HOOHLUGIAROOM_EIN, DOWN
 .RaikouEscapesFinish:
 	pause 10
-	cry RAIKOU
+	cry HAXORUS
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement HOOHLUGIAROOM_RAIKOU, RaikouLeaves1

@@ -3,19 +3,19 @@ BeastsCheck:
 ; They must exist in either party or PC, and have the player's OT and ID.
 ; Return the result in wScriptVar.
 
-	ld hl, RAIKOU
+	ld hl, AXEW
 	call GetPokemonIDFromIndex
 	ld [wScriptVar], a
 	call CheckOwnMonAnywhere
 	jr nc, .notexist
 
-	ld hl, ENTEI
+	ld hl, FRAXURE
 	call GetPokemonIDFromIndex
 	ld [wScriptVar], a
 	call CheckOwnMonAnywhere
 	jr nc, .notexist
 
-	ld hl, SUICUNE
+	ld hl, HAXORUS
 	call GetPokemonIDFromIndex
 	ld [wScriptVar], a
 	call CheckOwnMonAnywhere

@@ -312,9 +312,9 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; ARON
 	mon_cry CRY_WEEDLE,      $040,  $090 ; LAIRON
 	mon_cry CRY_SLOWKING,    $207,  $1b2 ; AGGRON
-	mon_cry CRY_RAIKOU,      $22e,  $120 ; RAIKOU
-	mon_cry CRY_ENTEI,       $000,  $1a0 ; ENTEI
-	mon_cry CRY_MAGCARGO,    $000,  $180 ; SUICUNE
+	mon_cry CRY_CATERPIE,    $83c,  $0c0 ; AXEW
+	mon_cry CRY_EKANS,       $9c5,  $170 ; FRAXURE
+	mon_cry CRY_EKANS,       $7d8,  $190 ; HAXORUS
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; LARVITAR
 	mon_cry CRY_SPINARAK,   -$1db,  $150 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; TYRANITAR

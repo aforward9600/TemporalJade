@@ -315,9 +315,9 @@ NewPokedexOrder:
 	dw ARTICUNO
 	dw ZAPDOS
 	dw MOLTRES
-	dw RAIKOU
-	dw ENTEI
-	dw SUICUNE
+	dw AXEW
+	dw FRAXURE
+	dw HAXORUS
 	dw LUGIA
 	dw HO_OH
 	dw MEWTWO

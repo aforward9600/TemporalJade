@@ -318,9 +318,9 @@ MonMenuIconPals:
 	icon_pals GRAY,   TEAL   ; ARON
 	icon_pals GRAY,   TEAL   ; LAIRON
 	icon_pals GRAY,   TEAL   ; AGGRON
-	icon_pals RED,    PINK   ; RAIKOU
-	icon_pals RED,    BROWN  ; ENTEI
-	icon_pals BLUE,   TEAL   ; SUICUNE
+	icon_pals GREEN,  PINK   ; AXEW
+	icon_pals GREEN,  TEAL   ; FRAXURE
+	icon_pals RED,    RED    ; HAXORUS
 	icon_pals GREEN,  PURPLE ; LARVITAR
 	icon_pals BLUE,   PURPLE ; PUPITAR
 	icon_pals GREEN,  GRAY   ; TYRANITAR

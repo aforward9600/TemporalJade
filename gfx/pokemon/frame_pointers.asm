@@ -306,9 +306,9 @@ FramesPointers:
 	dba AronFrames
 	dba LaironFrames
 	dba AggronFrames
-	dba RaikouFrames
-	dba EnteiFrames
-	dba SuicuneFrames
+	dba AxewFrames
+	dba FraxureFrames
+	dba HaxorusFrames
 	dba LarvitarFrames
 	dba PupitarFrames
 	dba TyranitarFrames

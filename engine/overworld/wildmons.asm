@@ -519,35 +519,6 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld hl, RAIKOU
-	call GetPokemonIDFromIndex
-	ld [wRoamMon1Species], a
-	ld hl, ENTEI
-	call GetPokemonIDFromIndex
-	ld [wRoamMon2Species], a
-
-; level
-	ld a, 40
-	ld [wRoamMon1Level], a
-	ld [wRoamMon2Level], a
-
-; raikou starting map
-	ld a, GROUP_ROUTE_42
-	ld [wRoamMon1MapGroup], a
-	ld a, MAP_ROUTE_42
-	ld [wRoamMon1MapNumber], a
-
-; entei starting map
-	ld a, GROUP_ROUTE_37
-	ld [wRoamMon2MapGroup], a
-	ld a, MAP_ROUTE_37
-	ld [wRoamMon2MapNumber], a
-
-; hp
-	xor a ; generate new stats
-	ld [wRoamMon1HP], a
-	ld [wRoamMon2HP], a
-
 	ret
 
 CheckEncounterRoamMon:

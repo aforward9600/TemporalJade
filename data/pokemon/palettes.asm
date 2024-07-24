@@ -634,12 +634,12 @@ INCBIN "gfx/pokemon/lairon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/lairon/shiny.pal"
 INCBIN "gfx/pokemon/aggron/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/aggron/shiny.pal"
-INCBIN "gfx/pokemon/raikou/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/raikou/shiny.pal"
-INCBIN "gfx/pokemon/entei/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/entei/shiny.pal"
-INCBIN "gfx/pokemon/suicune/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/suicune/shiny.pal"
+INCBIN "gfx/pokemon/axew/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/axew/shiny.pal"
+INCBIN "gfx/pokemon/fraxure/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/fraxure/shiny.pal"
+INCBIN "gfx/pokemon/haxorus/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/haxorus/shiny.pal"
 INCBIN "gfx/pokemon/larvitar/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/larvitar/shiny.pal"
 INCBIN "gfx/pokemon/pupitar/front.gbcpal", middle_colors

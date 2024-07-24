@@ -1,9 +1,9 @@
 SECTION "Evolution and Attacks 3", ROMX
 
 EvosAttacksPointers3::
-	dw RaikouEvosAttacks
-	dw EnteiEvosAttacks
-	dw SuicuneEvosAttacks
+	dw AxewEvosAttacks
+	dw FraxureEvosAttacks
+	dw HaxorusEvosAttacks
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks
@@ -18,63 +18,70 @@ EvosAttacksPointers3::
 	dw CelebiEvosAttacks
 	dw NownEvosAttack
 	dw MissingnoEvosAttacks
-
-RaikouEvosAttacks:
+AxewEvosAttacks:
+	dbbw EVOLVE_LEVEL, 38, FRAXURE
 	db 0 ; no more evolutions
-	dbw 1, BITE
-	dbw 1, LEER
-	dbw 8, THUNDERSHOCK
-	dbw 15, ROAR
-	dbw 22, QUICK_ATTACK
-	dbw 29, SPARK
-	dbw 36, REFLECT
-	dbw 43, CRUNCH
-	dbw 50, THUNDER_FANG
-	dbw 57, DISCHARGE
-	dbw 64, EXTRASENSORY
-	dbw 71, RAIN_DANCE
-	dbw 78, CALM_MIND
-	dbw 85, THUNDER
+	dbw 1, SCRATCH
+	dbw 4, LEER
+	dbw 7, BITE
+	dbw 10, DRAGON_RAGE
+	dbw 13, DUAL_CHOP
+	dbw 16, SCARY_FACE
+	dbw 20, SLASH
+	dbw 24, FALSE_SWIPE
+	dbw 28, DRAGON_CLAW
+	dbw 32, DRAGON_DANCE
+	dbw 36, SWAGGER
+	dbw 41, DRAGON_PULSE
+	dbw 46, SWORDS_DANCE
+	dbw 50, GUILLOTINE
+	dbw 56, OUTRAGE
+	dbw 61, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
-EnteiEvosAttacks:
+FraxureEvosAttacks:
+	dbbw EVOLVE_LEVEL, 48, HAXORUS
 	db 0 ; no more evolutions
-	dbw 1, BITE
-	dbw 1, LEER
-	dbw 8, EMBER
-	dbw 15, ROAR
-	dbw 22, FLAME_WHEEL
-	dbw 29, STOMP
-	dbw 36, FLAMETHROWER
-	dbw 43, SWAGGER
-	dbw 50, FIRE_FANG
-	dbw 57, LAVA_PLUME
-	dbw 64, ZEN_HEADBUTT
-	dbw 71, FLARE_BLITZ
-	dbw 78, BULK_UP
-	dbw 85, HEAD_SMASH
+	dbw 1, SCRATCH
+	dbw 4, LEER
+	dbw 7, BITE
+	dbw 10, DRAGON_RAGE
+	dbw 13, DUAL_CHOP
+	dbw 16, SCARY_FACE
+	dbw 20, SLASH
+	dbw 24, FALSE_SWIPE
+	dbw 28, DRAGON_CLAW
+	dbw 32, DRAGON_DANCE
+	dbw 36, SWAGGER
+	dbw 42, DRAGON_PULSE
+	dbw 48, SWORDS_DANCE
+	dbw 54, GUILLOTINE
+	dbw 60, OUTRAGE
+	dbw 66, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
-SuicuneEvosAttacks:
+HaxorusEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, BITE
-	dbw 1, LEER
-	dbw 8, BUBBLEBEAM
-	dbw 15, RAIN_DANCE
-	dbw 22, GUST
-	dbw 29, AURORA_BEAM
-	dbw 36, MIST
-	dbw 43, MIRROR_COAT
-	dbw 50, ICE_FANG
-	dbw 57, AGILITY
-	dbw 64, EXTRASENSORY
-	dbw 71, HYDRO_PUMP
-	dbw 78, CALM_MIND
-	dbw 85, BLIZZARD
+	dbw 1, SCRATCH
+	dbw 4, LEER
+	dbw 7, BITE
+	dbw 10, DRAGON_RAGE
+	dbw 13, DUAL_CHOP
+	dbw 16, SCARY_FACE
+	dbw 20, SLASH
+	dbw 24, FALSE_SWIPE
+	dbw 28, DRAGON_CLAW
+	dbw 32, DRAGON_DANCE
+	dbw 36, SWAGGER
+	dbw 41, DRAGON_PULSE
+	dbw 50, SWORDS_DANCE
+	dbw 58, GUILLOTINE
+	dbw 66, OUTRAGE
+	dbw 74, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
 LarvitarEvosAttacks:
-	dbbw EVOLVE_LEVEL, 20, PUPITAR
+	dbbw EVOLVE_LEVEL, 30, PUPITAR
 	db 0 ; no more evolutions
 	dbw 1, STONE_BASH
 	dbw 1, LEER
@@ -94,7 +101,7 @@ LarvitarEvosAttacks:
 	db 0 ; no more level-up moves
 
 PupitarEvosAttacks:
-	dbbw EVOLVE_LEVEL, 40, TYRANITAR
+	dbbw EVOLVE_LEVEL, 55, TYRANITAR
 	db 0 ; no more evolutions
 	dbw LEARN_EVO_MOVE, BULLDOZE
 	dbw 1, BULLDOZE

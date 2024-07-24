@@ -306,9 +306,9 @@ BitmasksPointers:
 	dw AronBitmasks
 	dw LaironBitmasks
 	dw AggronBitmasks
-	dw RaikouBitmasks
-	dw EnteiBitmasks
-	dw SuicuneBitmasks
+	dw AxewBitmasks
+	dw FraxureBitmasks
+	dw HaxorusBitmasks
 	dw LarvitarBitmasks
 	dw PupitarBitmasks
 	dw TyranitarBitmasks

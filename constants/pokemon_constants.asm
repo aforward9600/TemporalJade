@@ -327,9 +327,9 @@ JOHTO_POKEMON EQU const_value
 	const ARON
 	const LAIRON
 	const AGGRON
-	const RAIKOU     ; f3
-	const ENTEI      ; f4
-	const SUICUNE    ; f5
+	const AXEW       ; f3
+	const FRAXURE    ; f4
+	const HAXORUS    ; f5
 	const LARVITAR   ; f6
 	const PUPITAR    ; f7
 	const TYRANITAR  ; f8

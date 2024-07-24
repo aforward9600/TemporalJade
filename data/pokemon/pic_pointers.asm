@@ -627,12 +627,12 @@ PokemonPicPointers::
 	dba LaironBackpic
 	dba AggronFrontpic
 	dba AggronBackpic
-	dba RaikouFrontpic
-	dba RaikouBackpic
-	dba EnteiFrontpic
-	dba EnteiBackpic
-	dba SuicuneFrontpic
-	dba SuicuneBackpic
+	dba AxewFrontpic
+	dba AxewBackpic
+	dba FraxureFrontpic
+	dba FraxureBackpic
+	dba HaxorusFrontpic
+	dba HaxorusBackpic
 	dba LarvitarFrontpic
 	dba LarvitarBackpic
 	dba PupitarFrontpic

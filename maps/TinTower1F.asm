@@ -15,7 +15,6 @@ TinTower1F_MapScripts:
 	scene_script .DummyScene ; SCENE_FINISHED
 
 	db 2 ; callbacks
-;	callback MAPCALLBACK_OBJECTS, .NPCsCallback
 	callback MAPCALLBACK_TILES, .StairsCallback
 	callback MAPCALLBACK_NEWMAP, .LoadReservedIDs
 
@@ -25,58 +24,7 @@ TinTower1F_MapScripts:
 .DummyScene:
 	end
 
-;.NPCsCallback:
-;	checkevent EVENT_GOT_RAINBOW_WING
-;	iftrue .GotRainbowWing
-;	checkevent EVENT_BEAT_ELITE_FOUR
-;	iffalse .FaceBeasts
-;	special BeastsCheck
-;	iffalse .FaceBeasts
-;	clearevent EVENT_TIN_TOWER_1F_WISE_TRIO_2
-;	setevent EVENT_TIN_TOWER_1F_WISE_TRIO_1
-;.GotRainbowWing:
-;	checkevent EVENT_FOUGHT_HO_OH
-;	iffalse .Done
-;	appear TINTOWER1F_EUSINE
-;.Done:
-;	return
-
 .LoadReservedIDs:
-	loadmonindex 1, RAIKOU
-	loadmonindex 2, ENTEI
-	loadmonindex 3, SUICUNE
-	return
-
-.FaceBeasts:
-	checkevent EVENT_FOUGHT_SUICUNE
-	iftrue .FoughtSuicune
-	appear TINTOWER1F_EUSINE
-	loadmonindex 0, RAIKOU
-	special MonCheck
-	iftrue .NoRaikou
-	appear TINTOWER1F_EUSINE
-	sjump .CheckEntei
-
-.NoRaikou:
-	disappear TINTOWER1F_EUSINE
-.CheckEntei:
-	loadmonindex 0, ENTEI
-	special MonCheck
-	iftrue .NoEntei
-	appear TINTOWER1F_EUSINE
-	sjump .BeastsDone
-
-.NoEntei:
-	disappear TINTOWER1F_EUSINE
-.BeastsDone:
-	return
-
-.FoughtSuicune:
-	disappear TINTOWER1F_EUSINE
-	disappear TINTOWER1F_EUSINE
-	disappear TINTOWER1F_EUSINE
-	clearevent EVENT_TIN_TOWER_1F_WISE_TRIO_1
-	setevent EVENT_TIN_TOWER_1F_WISE_TRIO_2
 	return
 
 .StairsCallback:
@@ -85,88 +33,6 @@ TinTower1F_MapScripts:
 	changeblock 10, 2, $09 ; floor
 .DontHideStairs:
 	return
-
-.SuicuneBattle:
-	applymovement PLAYER, TinTowerPlayerMovement1
-	pause 15
-	loadmonindex 0, RAIKOU
-	special MonCheck
-	iftrue .Next1 ; if player caught Raikou, he doesn't appear in Tin Tower
-	applymovement TINTOWER1F_EUSINE, TinTowerRaikouMovement1
-	turnobject PLAYER, LEFT
-	cry RAIKOU
-	pause 10
-	playsound SFX_WARP_FROM
-	applymovement TINTOWER1F_EUSINE, TinTowerRaikouMovement2
-	disappear TINTOWER1F_EUSINE
-	playsound SFX_EXIT_BUILDING
-	waitsfx
-.Next1:
-	loadmonindex 0, ENTEI
-	special MonCheck
-	iftrue .Next2 ; if player caught Entei, he doesn't appear in Tin Tower
-	applymovement TINTOWER1F_EUSINE, TinTowerEnteiMovement1
-	turnobject PLAYER, RIGHT
-	cry ENTEI
-	pause 10
-	playsound SFX_WARP_FROM
-	applymovement TINTOWER1F_EUSINE, TinTowerEnteiMovement2
-	disappear TINTOWER1F_EUSINE
-	playsound SFX_EXIT_BUILDING
-	waitsfx
-.Next2:
-	turnobject PLAYER, UP
-	pause 10
-	applymovement PLAYER, TinTowerPlayerMovement2
-	applymovement TINTOWER1F_EUSINE, TinTowerSuicuneMovement
-	cry SUICUNE
-	pause 20
-	loadwildmon SUICUNE, 40
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
-	startbattle
-	dontrestartmapmusic
-	disappear TINTOWER1F_EUSINE
-	setevent EVENT_FOUGHT_SUICUNE
-	setevent EVENT_SAW_SUICUNE_ON_ROUTE_42
-	setmapscene ROUTE_42, SCENE_ROUTE42_NOTHING
-	setevent EVENT_SAW_SUICUNE_ON_ROUTE_36
-	setmapscene ROUTE_36, SCENE_ROUTE36_NOTHING
-	setevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
-	setmapscene CIANWOOD_CITY, SCENE_CIANWOODCITY_NOTHING
-	setscene SCENE_FINISHED
-	clearevent EVENT_SET_WHEN_FOUGHT_HO_OH
-	reloadmapafterbattle
-	pause 20
-	turnobject PLAYER, DOWN
-	playmusic MUSIC_MYSTICALMAN_ENCOUNTER
-	playsound SFX_ENTER_DOOR
-	moveobject TINTOWER1F_EUSINE, 10, 15
-	appear TINTOWER1F_EUSINE
-	applymovement TINTOWER1F_EUSINE, MovementData_0x1851ec
-	playsound SFX_ENTER_DOOR
-	moveobject TINTOWER1F_SAGE1, 9, 15
-	appear TINTOWER1F_SAGE1
-	applymovement TINTOWER1F_SAGE1, MovementData_0x1851f5
-	playsound SFX_ENTER_DOOR
-	moveobject TINTOWER1F_SAGE2, 9, 15
-	appear TINTOWER1F_SAGE2
-	applymovement TINTOWER1F_SAGE2, MovementData_0x1851fb
-	playsound SFX_ENTER_DOOR
-	moveobject TINTOWER1F_SAGE3, 9, 15
-	appear TINTOWER1F_SAGE3
-	applymovement TINTOWER1F_SAGE3, MovementData_0x1851fe
-	turnobject PLAYER, RIGHT
-	opentext
-	waitbutton
-	closetext
-	applymovement TINTOWER1F_EUSINE, MovementData_0x1851f1
-	playsound SFX_EXIT_BUILDING
-	disappear TINTOWER1F_EUSINE
-	waitsfx
-	special FadeOutMusic
-	pause 20
-	playmapmusic
-	end
 
 TinTower1FRocket1Script:
 	faceplayer

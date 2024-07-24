@@ -306,9 +306,9 @@ AnimationIdlePointers:
 	dw AronAnimationIdle
 	dw LaironAnimationIdle
 	dw AggronAnimationIdle
-	dw RaikouAnimationIdle
-	dw EnteiAnimationIdle
-	dw SuicuneAnimationIdle
+	dw AxewAnimationIdle
+	dw FraxureAnimationIdle
+	dw HaxorusAnimationIdle
 	dw LarvitarAnimationIdle
 	dw PupitarAnimationIdle
 	dw TyranitarAnimationIdle

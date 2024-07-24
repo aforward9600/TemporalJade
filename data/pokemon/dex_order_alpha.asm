@@ -16,6 +16,7 @@ AlphabeticalPokedexOrder:
 	dw ARCHEOPS
 	dw ARON
 	dw ARTICUNO
+	dw AXEW
 	dw AZUMARILL
 	dw BASCLEGION
 	dw BASCULIN
@@ -79,7 +80,6 @@ AlphabeticalPokedexOrder:
 	dw ELECTRODE
 	dw ELEKID
 	dw EMBOAR
-	dw ENTEI
 	dw ESCAVALIER
 	dw ESPEON
 	dw EXCADRILL
@@ -92,6 +92,7 @@ AlphabeticalPokedexOrder:
 	dw FLAAFFY
 	dw FLAREON
 	dw FORRETRESS
+	dw FRAXURE
 	dw FROSLASS
 	dw FURRET
 	dw GABITE
@@ -121,6 +122,7 @@ AlphabeticalPokedexOrder:
 	dw GYARADOS
 	dw HAPPINY
 	dw HAUNTER
+	dw HAXORUS
 	dw HERACROSS
 	dw HERDIER
 	dw HO_OH
@@ -228,7 +230,6 @@ AlphabeticalPokedexOrder:
 	dw QUILAVA
 	dw QWILFISH
 	dw RAICHU
-	dw RAIKOU
 	dw RAITORA
 	dw RALTS
 	dw RAPIDASH
@@ -275,7 +276,6 @@ AlphabeticalPokedexOrder:
 	dw STEELIX
 	dw STOUTLAND
 	dw SUDOWOODO
-	dw SUICUNE
 	dw SUNFLORA
 	dw SUNKERN
 	dw SWABLU

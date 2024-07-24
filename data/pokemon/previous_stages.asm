@@ -308,8 +308,8 @@ PreviousEvolutionStage::
 	dw ARON
 	dw LAIRON
 	dw 0
-	dw 0
-	dw 0
+	dw AXEW
+	dw FRAXURE
 	dw 0
 	dw LARVITAR
 	dw PUPITAR   ;f8

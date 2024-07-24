@@ -42,7 +42,7 @@ TrainerLairAriana:
 	turnobject ROCKETLAIRHALLWAY2_ARIANA, DOWN
 .SuicuneEscapesFinish:
 	pause 10
-	cry SUICUNE
+	cry HAXORUS
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement ROCKETLAIRHALLWAY2_SUICUNE, SuicuneLeavesMovement
@@ -90,7 +90,7 @@ TrainerLairArcher:
 	turnobject ROCKETLAIRHALLWAY2_ARCHER, RIGHT
 .EnteiEscapesFinish:
 	pause 10
-	cry ENTEI
+	cry HAXORUS
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement ROCKETLAIRHALLWAY2_ENTEI, EnteiLeavesMovement

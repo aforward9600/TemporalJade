@@ -58,9 +58,9 @@ Icons3:
 	dw AronIcon
 	dw LaironIcon
 	dw AggronIcon
-	dw RaikouIcon
-	dw EnteiIcon
-	dw SuicuneIcon
+	dw AxewIcon
+	dw FraxureIcon
+	dw HaxorusIcon
 	dw LarvitarIcon
 	dw PupitarIcon
 	dw TyranitarIcon
@@ -132,9 +132,9 @@ GalladeIcon:	  INCBIN "gfx/icons/gallade.2bpp"
 AronIcon:	      INCBIN "gfx/icons/aron.2bpp"
 LaironIcon:	      INCBIN "gfx/icons/lairon.2bpp"
 AggronIcon:	      INCBIN "gfx/icons/aggron.2bpp"
-RaikouIcon:	      INCBIN "gfx/icons/raikou.2bpp"
-EnteiIcon:	      INCBIN "gfx/icons/entei.2bpp"
-SuicuneIcon:	  INCBIN "gfx/icons/suicune.2bpp"
+AxewIcon:	      INCBIN "gfx/icons/axew.2bpp"
+FraxureIcon:	      INCBIN "gfx/icons/fraxure.2bpp"
+HaxorusIcon:	      INCBIN "gfx/icons/haxorus.2bpp"
 LarvitarIcon:	  INCBIN "gfx/icons/larvitar.2bpp"
 PupitarIcon:	  INCBIN "gfx/icons/pupitar.2bpp"
 TyranitarIcon:	  INCBIN "gfx/icons/tyranitar.2bpp"
