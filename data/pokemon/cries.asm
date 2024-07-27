@@ -226,8 +226,8 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       $078,  $4c0 ; CHANDELURE
 	mon_cry CRY_AIPOM,      -$051,  $0e8 ; AIPOM
 	mon_cry CRY_AIPOM,      -$051,  $0e8 ; AMBIPOM
-	mon_cry CRY_MARILL,      $12b,  $0b8 ; SUNKERN
-	mon_cry CRY_SUNFLORA,   -$020,  $180 ; SUNFLORA
+	mon_cry CRY_NIDORAN_M,   $ff9,  $180 ; ELGYEM
+	mon_cry CRY_NIDORAN_M,   $fc5,  $3d0 ; BEHEEYEM
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; YANMA
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; YANMEGA
 	mon_cry CRY_WOOPER,      $093,  $0af ; WOOPER

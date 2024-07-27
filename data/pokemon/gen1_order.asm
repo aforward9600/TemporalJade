@@ -229,8 +229,8 @@ Pokered_MonIndices:
 	db LAMPENT
 	db CHANDELURE
 	db AIPOM
-	db SUNKERN
-	db SUNFLORA
+	db ELGYEM
+	db BEHEEYEM
 	db YANMA
 	db WOOPER
 	db QUAGSIRE

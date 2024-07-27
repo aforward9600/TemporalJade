@@ -222,8 +222,8 @@ OldPokedexOrder:
 	dw CHANDELURE
 	dw AIPOM
 	dw AMBIPOM
-	dw SUNKERN
-	dw SUNFLORA
+	dw ELGYEM
+	dw BEHEEYEM
 	dw YANMA
 	dw YANMEGA
 	dw WOOPER

@@ -98,8 +98,8 @@ Icons2:
 	dw ChandelureIcon
 	dw AipomIcon
 	dw AmbipomIcon
-	dw SunkernIcon
-	dw SunfloraIcon
+	dw ElgyemIcon
+	dw BeheeyemIcon
 	dw YanmaIcon
 	dw YanmegaIcon
 	dw WooperIcon
@@ -225,8 +225,8 @@ LampentIcon:      INCBIN "gfx/icons/lampent.2bpp"
 ChandelureIcon:   INCBIN "gfx/icons/chandelure.2bpp"
 AipomIcon:        INCBIN "gfx/icons/aipom.2bpp"
 AmbipomIcon:      INCBIN "gfx/icons/ambipom.2bpp"
-SunkernIcon:      INCBIN "gfx/icons/sunkern.2bpp"
-SunfloraIcon:     INCBIN "gfx/icons/sunflora.2bpp"
+ElgyemIcon:       INCBIN "gfx/icons/elgyem.2bpp"
+BeheeyemIcon:     INCBIN "gfx/icons/beheeyem.2bpp"
 YanmaIcon:        INCBIN "gfx/icons/yanma.2bpp"
 YanmegaIcon:      INCBIN "gfx/icons/yanmega.2bpp"
 WooperIcon:       INCBIN "gfx/icons/wooper.2bpp"

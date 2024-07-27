@@ -222,7 +222,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw AIPOM
 	dw 0
-	dw SUNKERN    ;c0
+	dw ELGYEM    ;c0
 	dw 0
 	dw YANMA
 	dw 0

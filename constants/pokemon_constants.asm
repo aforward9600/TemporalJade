@@ -241,8 +241,8 @@ JOHTO_POKEMON EQU const_value
 	const CHANDELURE ; bd
 	const AIPOM      ; be
 	const AMBIPOM
-	const SUNKERN    ; bf
-	const SUNFLORA   ; c0
+	const ELGYEM     ; bf
+	const BEHEEYEM   ; c0
 	const YANMA      ; c1
 	const YANMEGA
 	const WOOPER     ; c2

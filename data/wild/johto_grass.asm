@@ -1748,7 +1748,7 @@ JohtoGrassWildMons:
 	dbw 15, CLEFAIRY
 	dbw 15, JIGGLYPUFF
 	dbw 15, SEWADDLE
-	dbw 15, SUNKERN
+	dbw 15, ELGYEM
 	dbw 15, MINCCINO
 	dbw 15, MANKEY
 	dbw 15, DODUO
@@ -1757,7 +1757,7 @@ JohtoGrassWildMons:
 	dbw 15, CLEFAIRY
 	dbw 15, JIGGLYPUFF
 	dbw 15, SEWADDLE
-	dbw 15, SUNKERN
+	dbw 15, ELGYEM
 	dbw 15, MINCCINO
 	dbw 15, MANKEY
 	dbw 15, DODUO
@@ -1766,7 +1766,7 @@ JohtoGrassWildMons:
 	dbw 15, CLEFAIRY
 	dbw 15, JIGGLYPUFF
 	dbw 15, SEWADDLE
-	dbw 15, SUNKERN
+	dbw 15, ELGYEM
 	dbw 15, MINCCINO
 	dbw 15, MANKEY
 	dbw 15, DODUO
@@ -1867,7 +1867,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 15, COTTONEE
 	dbw 15, BELLSPROUT
-	dbw 15, SUNKERN
+	dbw 15, ELGYEM
 	dbw 15, TANGELA
 	dbw 15, LITWICK
 	dbw 15, OVERQWIL
@@ -1876,7 +1876,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 15, COTTONEE
 	dbw 15, BELLSPROUT
-	dbw 15, SUNKERN
+	dbw 15, ELGYEM
 	dbw 15, TANGELA
 	dbw 15, LITWICK
 	dbw 15, OVERQWIL
@@ -1885,7 +1885,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 15, COTTONEE
 	dbw 15, BELLSPROUT
-	dbw 15, SUNKERN
+	dbw 15, ELGYEM
 	dbw 15, TANGELA
 	dbw 15, LITWICK
 	dbw 15, OVERQWIL

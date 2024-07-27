@@ -220,8 +220,8 @@ AnimationPointers:
 	dw ChandelureAnimation
 	dw AipomAnimation
 	dw AmbipomAnimation
-	dw SunkernAnimation
-	dw SunfloraAnimation
+	dw ElgyemAnimation
+	dw BeheeyemAnimation
 	dw YanmaAnimation
 	dw YanmegaAnimation
 	dw WooperAnimation

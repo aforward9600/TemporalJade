@@ -21,6 +21,7 @@ AlphabeticalPokedexOrder:
 	dw BASCLEGION
 	dw BASCULIN
 	dw BAYLEEF
+	dw BEHEEYEM
 	dw BELLSPROUT
 	dw BLISSEY
 	dw BONSLY
@@ -79,6 +80,7 @@ AlphabeticalPokedexOrder:
 	dw ELECTRIKE
 	dw ELECTRODE
 	dw ELEKID
+	dw ELGYEM
 	dw EMBOAR
 	dw ESCAVALIER
 	dw ESPEON
@@ -276,8 +278,6 @@ AlphabeticalPokedexOrder:
 	dw STEELIX
 	dw STOUTLAND
 	dw SUDOWOODO
-	dw SUNFLORA
-	dw SUNKERN
 	dw SWABLU
 	dw SWADLOON
 	dw SWAMPERT

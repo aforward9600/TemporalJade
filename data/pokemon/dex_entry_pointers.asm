@@ -221,8 +221,8 @@ PokedexDataPointerTable:
 	dba ChandelurePokedexEntry
 	dba AipomPokedexEntry
 	dba AmbipomPokedexEntry
-	dba SunkernPokedexEntry
-	dba SunfloraPokedexEntry
+	dba ElgyemPokedexEntry
+	dba BeheeyemPokedexEntry
 	dba YanmaPokedexEntry
 	dba YanmegaPokedexEntry
 	dba WooperPokedexEntry

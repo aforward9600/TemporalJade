@@ -70,8 +70,8 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw AipomEggMoves
-	dw SunkernEggMoves
 	dw NoEggMoves2
+	dw ElgyemEggMoves
 	dw NoEggMoves2
 	dw YanmaEggMoves
 	dw NoEggMoves2
@@ -428,13 +428,11 @@ AipomEggMoves:
 	dw FAKE_OUT
 	dw -1 ; end
 
-SunkernEggMoves:
-	dw ENDURE
-	dw ENCORE
-	dw GRASSWHISTLE
-	dw LEECH_SEED
-	dw SWEET_SCENT
-	dw SEED_BOMB
+ElgyemEggMoves:
+	dw ASTONISH
+	dw BARRIER
+	dw NASTY_PLOT
+	dw TELEPORT
 	dw -1 ; end
 
 YanmaEggMoves:

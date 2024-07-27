@@ -220,8 +220,8 @@ BitmasksPointers:
 	dw ChandelureBitmasks
 	dw AipomBitmasks
 	dw AmbipomBitmasks
-	dw SunkernBitmasks
-	dw SunfloraBitmasks
+	dw ElgyemBitmasks
+	dw BeheeyemBitmasks
 	dw YanmaBitmasks
 	dw YanmegaBitmasks
 	dw WooperBitmasks

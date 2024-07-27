@@ -189,8 +189,8 @@ NewPokedexOrder:
 	dw NIDOKING
 	dw EKANS
 	dw ARBOK
-	dw SUNKERN
-	dw SUNFLORA
+	dw ELGYEM
+	dw BEHEEYEM
 	dw MANKEY
 	dw PRIMEAPE
 	dw ANNIHILAPE

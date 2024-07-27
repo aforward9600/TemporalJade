@@ -220,8 +220,8 @@ AnimationIdlePointers:
 	dw ChandelureAnimationIdle
 	dw AipomAnimationIdle
 	dw AmbipomAnimationIdle
-	dw SunkernAnimationIdle
-	dw SunfloraAnimationIdle
+	dw ElgyemAnimationIdle
+	dw BeheeyemAnimationIdle
 	dw YanmaAnimationIdle
 	dw YanmegaAnimationIdle
 	dw WooperAnimationIdle

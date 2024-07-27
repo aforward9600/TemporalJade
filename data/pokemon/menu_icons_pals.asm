@@ -232,8 +232,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   RED    ; CHANDELURE
 	icon_pals PURPLE, PINK   ; AIPOM
 	icon_pals PURPLE, PINK   ; AMBIPOM
-	icon_pals GREEN,  TEAL   ; SUNKERN
-	icon_pals GREEN,  RED    ; SUNFLORA
+	icon_pals TEAL,   TEAL   ; ELGYEM
+	icon_pals BROWN,  BROWN  ; BEHEEYEM
 	icon_pals RED,    BLUE   ; YANMA
 	icon_pals GREEN,  TEAL   ; YANMEGA
 	icon_pals BLUE,   PINK   ; WOOPER

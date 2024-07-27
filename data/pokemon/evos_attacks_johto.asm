@@ -70,8 +70,8 @@ EvosAttacksPointers2::
 	dw ChandelureEvosAttacks
 	dw AipomEvosAttacks
 	dw AmbipomEvosAttacks
-	dw SunkernEvosAttacks
-	dw SunfloraEvosAttacks
+	dw ElgyemEvosAttacks
+	dw BeheeyemEvosAttacks
 	dw YanmaEvosAttacks
 	dw YanmegaEvosAttacks
 	dw WooperEvosAttacks
@@ -1576,68 +1576,47 @@ AmbipomEvosAttacks:
 	dbw 43, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-SunkernEvosAttacks:
-	dbbw EVOLVE_ITEM, SUN_STONE, SUNFLORA
+ElgyemEvosAttacks:
+	dbbw EVOLVE_LEVEL, 42, BEHEEYEM
 	db 0 ; no more evolutions
-	dbw 1, ABSORB
-	dbw 1, GROWTH
-	dbw 7, GRASSWHISTLE
-	dbw 10, MEGA_DRAIN
-	dbw 13, LEECH_SEED
-	dbw 16, RAZOR_LEAF
-	dbw 19, PROTECT
-	dbw 22, GIGA_DRAIN
-if DEF(_FAITHFUL)
-	dbw 25, BULLET_SEED
-else
-	dbw 25, AGILITY
-endc
-	dbw 28, SYNTHESIS
-if DEF(_FAITHFUL)
-	dbw 31, DAZZLINGLEAM
-else
-	dbw 31, EARTH_POWER
-endc
-	dbw 34, SOLARBEAM
-	dbw 37, DOUBLE_EDGE
-	dbw 40, SUNNY_DAY
-	dbw 43, SEED_BOMB
+	dbw 1, CONFUSION
+	dbw 4, GROWL
+	dbw 8, TELEPORT
+	dbw 11, FORESIGHT
+	dbw 15, PSYBEAM
+	dbw 18, HEADBUTT
+	dbw 22, HIDDEN_POWER
+	dbw 25, COSMIC_POWER
+	dbw 29, SIGNAL_BEAM
+	dbw 32, ZEN_HEADBUTT
+	dbw 36, PSYCH_UP
+	dbw 39, PSYCHIC_M
+	dbw 43, CALM_MIND
+	dbw 46, RECOVER
+	dbw 50, NASTY_PLOT
+	dbw 53, SIGNAL_WAVE
+	dbw 56, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-SunfloraEvosAttacks:
+BeheeyemEvosAttacks:
 	db 0 ; no more evolutions
-if !DEF(_FAITHFUL)
-	dbw LEARN_EVO_MOVE, FLAME_BURST
-endc
-	dbw 1, FLAME_BURST
-	dbw 1, ABSORB
-	dbw 1, GROWTH
-	dbw 7, SING
-	dbw 10, EMBER
-	dbw 13, LEECH_SEED
-	dbw 16, RAZOR_LEAF
-	dbw 19, PROTECT
-	dbw 22, GIGA_DRAIN
-if DEF(_FAITHFUL)
-	dbw 25, BULLET_SEED
-else
-	dbw 25, AGILITY
-endc
-	dbw 28, PETAL_DANCE
-if DEF(_FAITHFUL)
-	dbw 31, DAZZLINGLEAM
-else
-	dbw 31, FLAMETHROWER
-endc
-	dbw 34, SOLARBEAM
-	dbw 37, DOUBLE_EDGE
-	dbw 40, SUNNY_DAY
-if DEF(_FAITHFUL)
-	dbw 43, SOLAR_BLADE
-else
-	dbw 43, FIRE_BLAST
-endc
-	dbw 50, PETAL_BLIZZ
+	dbw 1, CONFUSION
+	dbw 4, GROWL
+	dbw 8, TELEPORT
+	dbw 11, FORESIGHT
+	dbw 15, PSYBEAM
+	dbw 18, HEADBUTT
+	dbw 22, HIDDEN_POWER
+	dbw 25, COSMIC_POWER
+	dbw 29, SIGNAL_BEAM
+	dbw 32, ZEN_HEADBUTT
+	dbw 36, PSYCH_UP
+	dbw 39, PSYCHIC_M
+	dbw 45, CALM_MIND
+	dbw 50, RECOVER
+	dbw 56, NASTY_PLOT
+	dbw 63, SIGNAL_WAVE
+	dbw 68, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:

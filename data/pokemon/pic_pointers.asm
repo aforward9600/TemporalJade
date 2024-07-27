@@ -452,10 +452,10 @@ PokemonPicPointers::
 	dba AipomBackpic
 	dba AmbipomFrontpic
 	dba AmbipomBackpic
-	dba SunkernFrontpic
-	dba SunkernBackpic
-	dba SunfloraFrontpic
-	dba SunfloraBackpic
+	dba ElgyemFrontpic
+	dba ElgyemBackpic
+	dba BeheeyemFrontpic
+	dba BeheeyemBackpic
 	dba YanmaFrontpic
 	dba YanmaBackpic
 	dba YanmegaFrontpic

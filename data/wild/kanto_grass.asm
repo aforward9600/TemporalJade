@@ -185,7 +185,7 @@ KantoGrassWildMons:
 	map_id ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 66, SUNFLORA
+	dbw 66, BEHEEYEM
 	dbw 66, TANGROWTH
 	dbw 66, MR__MIME
 	dbw 66, SCOLIPEDE
@@ -194,7 +194,7 @@ KantoGrassWildMons:
 	dbw  2, ROWLET
 	dbw  3, ROWLET
 	; day
-	dbw 66, SUNFLORA
+	dbw 66, BEHEEYEM
 	dbw 66, TANGROWTH
 	dbw 66, MR__MIME
 	dbw 66, SCOLIPEDE

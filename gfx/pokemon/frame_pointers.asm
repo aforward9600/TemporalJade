@@ -220,8 +220,8 @@ FramesPointers:
 	dba ChandelureFrames
 	dba AipomFrames
 	dba AmbipomFrames
-	dba SunkernFrames
-	dba SunfloraFrames
+	dba ElgyemFrames
+	dba BeheeyemFrames
 	dba YanmaFrames
 	dba YanmegaFrames
 	dba WooperFrames
