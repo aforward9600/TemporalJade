@@ -1144,7 +1144,7 @@ ElmsLab_MapEvents:
 	bg_event  9,  7, BGEVENT_READ, ElmsLabBookshelf
 	bg_event  9,  3, BGEVENT_READ, ElmsLabTrashcan
 	bg_event  5,  0, BGEVENT_READ, ElmsLabWindow
-	bg_event  3,  5, BGEVENT_DOWN, ElmsLabPC
+	bg_event  0,  4, BGEVENT_LEFT, ElmsLabPC
 
 	db 6 ; object events
 	object_event  5,  2, SPRITE_JUNIPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfJuniperScript, -1

@@ -490,7 +490,7 @@ ENDM
 	map_const ROUTE_26,                                    20,  9 ;  1
 	map_const ROUTE_27,                                    40,  9 ;  2
 	map_const ROUTE_29,                                    30, 11 ;  3
-	map_const MURKROW_VALLEY,                              20, 11 ;  4
+	map_const MURKROW_VALLEY,                              21, 11 ;  4
 	map_const ELMS_LAB,                                     5,  6 ;  5
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  6
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  7

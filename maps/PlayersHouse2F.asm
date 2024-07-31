@@ -50,13 +50,6 @@ PlayersHousePosterScript:
 .Script:
 	describedecoration DECODESC_POSTER
 
-PlayersHouseBookScript:
-	opentext
-	writetext PlayersHouseBookText
-	waitbutton
-	closetext
-	end
-
 PlayersHouseBookshelfScript:
 	jumpstd picturebookshelf
 
@@ -69,24 +62,6 @@ PlayersHousePCScript:
 .Warp:
 	warp NONE, 0, 0
 	end
-
-PlayersHouseBookText:
-	text "#mon Journal:"
-
-	para "The Abra Delivery"
-	line "System, stationed"
-	cont "in Kanto, is the"
-
-	para "best way to store"
-	line "your #mon and"
-	cont "items. Will it get"
-
-	para "any better than"
-	line "this?"
-
-	para "Only time will"
-	line "tell."
-	done
 
 PlayersHouse2F_MapEvents:
 	db 0, 0 ; filler
@@ -101,9 +76,9 @@ PlayersHouse2F_MapEvents:
 	bg_event  5,  1, BGEVENT_READ, PlayersHouseBookshelfScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePosterScript
 
-	db 5 ; object events
+	db 4 ; object events
 	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsoleScript, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll1Script, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll2Script, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	object_event  0,  1, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigDollScript, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
-	object_event  3,  1, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PlayersHouseBookScript, -1
+
