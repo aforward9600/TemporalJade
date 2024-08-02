@@ -487,10 +487,10 @@ PokemonPicPointers::
 	dba GirafarigBackpic
 	dba FarigirafFrontpic
 	dba FarigirafBackpic
-	dba PinecoFrontpic
-	dba PinecoBackpic
-	dba ForretressFrontpic
-	dba ForretressBackpic
+	dba FerroseedFrontpic
+	dba FerroseedBackpic
+	dba FerrothornFrontpic
+	dba FerrothornBackpic
 	dba DunsparceFrontpic
 	dba DunsparceBackpic
 	dba DudunsparsFrontpic

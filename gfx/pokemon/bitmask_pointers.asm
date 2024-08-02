@@ -236,8 +236,8 @@ BitmasksPointers:
 	dw DrapionBitmasks
 	dw GirafarigBitmasks
 	dw FarigirafBitmasks
-	dw PinecoBitmasks
-	dw ForretressBitmasks
+	dw FerroseedBitmasks
+	dw FerrothornBitmasks
 	dw DunsparceBitmasks
 	dw DudunsparsBitmasks
 	dw GligarBitmasks

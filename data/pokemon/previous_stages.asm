@@ -238,7 +238,7 @@ PreviousEvolutionStage::
 	dw 0
 	dw GIRAFARIG
 	dw 0
-	dw PINECO
+	dw FERROSEED
 	dw 0
 	dw DUNSPARCE
 	dw 0

@@ -242,8 +242,8 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; FARIGIRAF
-	mon_cry CRY_SLOWKING,    $080,  $100 ; PINECO
-	mon_cry CRY_SLOWKING,    $000,  $180 ; FORRETRESS
+	mon_cry CRY_MANTINE,     $032,  $080 ; FERROSEED
+	mon_cry CRY_MANTINE,     $184,  $0a0 ; FERROTHORN
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUNSPARCE
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUDUNSPARS
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR

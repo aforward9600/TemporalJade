@@ -1792,7 +1792,7 @@ endc
 	bigdw 77 ; SDef
 	db "UINDEi@@@@@"
 
-	dw FORRETRESS
+	dw FERROTHORN
 	db LEFTOVERS
 	dw RAPID_SPIN, PROTECT, TOXIC, SANDSTORM
 
@@ -2324,7 +2324,7 @@ BattleTowerMons5:
 	bigdw 88 ; SDef
 	db "EA-MUDO@@@@"
 
-	dw FORRETRESS
+	dw FERROTHORN
 	db LEFTOVERS
 	dw SANDSTORM, TOXIC, EXPLOSION, SWAGGER
 
@@ -3575,7 +3575,7 @@ BattleTowerMons8:
 	bigdw 145 ; SDef
 	db "GENGA-@@@@@"
 
-	dw FORRETRESS
+	dw FERROTHORN
 	db LEFTOVERS
 	dw EXPLOSION, TOXIC, GYRO_BALL, SWAGGER
 

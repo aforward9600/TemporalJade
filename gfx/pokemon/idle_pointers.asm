@@ -236,8 +236,8 @@ AnimationIdlePointers:
 	dw DrapionAnimationIdle
 	dw GirafarigAnimationIdle
 	dw FarigirafAnimationIdle
-	dw PinecoAnimationIdle
-	dw ForretressAnimationIdle
+	dw FerroseedAnimationIdle
+	dw FerrothornAnimationIdle
 	dw DunsparceAnimationIdle
 	dw DudunsparsAnimationIdle
 	dw GligarAnimationIdle

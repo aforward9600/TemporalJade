@@ -20,7 +20,7 @@ TreeMonSet_Canyon:
 ; common
 	dbbw 50, 10, SPEAROW
 	dbbw 15, 10, MINCCINO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -28,7 +28,7 @@ TreeMonSet_Canyon:
 ; rare
 	dbbw 50, 10, SPEAROW
 	dbbw 15, 10, MINCCINO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -38,7 +38,7 @@ TreeMonSet_Town:
 ; common
 	dbbw 50, 10, SPEAROW
 	dbbw 15, 10, MINCCINO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -46,7 +46,7 @@ TreeMonSet_Town:
 ; rare
 	dbbw 50, 10, SPEAROW
 	dbbw 15, 10, MINCCINO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	dbbw  5, 10, AIPOM
@@ -55,16 +55,16 @@ TreeMonSet_Town:
 TreeMonSet_Route:
 ; common
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, PINECO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, SWABLU
 	dbbw  5, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE
 	db -1
 ; rare
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, PINECO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, SWABLU
 	dbbw  5, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE
@@ -73,16 +73,16 @@ TreeMonSet_Route:
 TreeMonSet_Kanto:
 ; common
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, PINECO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE
 	db -1
 ; rare
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, PINECO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE
@@ -92,15 +92,15 @@ TreeMonSet_Lake:
 ; common
 	dbbw 50, 10, HOOTHOOT
 	dbbw 15, 10, MINCCINO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, EXEGGCUTE
 	dbbw  5, 10, SWABLU
 	dbbw  5, 10, MUNCHLAX
 	db -1
 ; rare
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, PINECO
-	dbbw 15, 10, PINECO
+	dbbw 15, 10, FERROSEED
+	dbbw 15, 10, FERROSEED
 	dbbw 10, 10, EXEGGCUTE
 	dbbw  5, 10, SWABLU
 	dbbw  5, 10, MUNCHLAX
@@ -109,17 +109,17 @@ TreeMonSet_Lake:
 TreeMonSet_Forest:
 ; common
 	dbbw 50, 30, NOCTOWL
-	dbbw 15, 30, PINECO
-	dbbw 15, 30, PINECO
-	dbbw 10, 30, FORRETRESS
+	dbbw 15, 30, FERROSEED
+	dbbw 15, 30, FERROSEED
+	dbbw 10, 30, FERROSEED
 	dbbw  5, 30, TOUCANNON
 	dbbw  5, 30, TOUCANNON
 	db -1
 ; rare
 	dbbw 50, 30, NOCTOWL
-	dbbw 15, 30, PINECO
-	dbbw 15, 30, PINECO
-	dbbw 10, 30, FORRETRESS
+	dbbw 15, 30, FERROSEED
+	dbbw 15, 30, FERROSEED
+	dbbw 10, 30, FERROSEED
 	dbbw  5, 30, TOUCANNON
 	dbbw  5, 30, TOUCANNON
 	db -1

@@ -798,7 +798,7 @@ ByronGroup:
 	next_list_item ; BYRON (1)
 	db "Byron@", TRAINERTYPE_ITEM_MOVES
 	db 30
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -3030,7 +3030,7 @@ endc
 	next_list_item ; COOLTRAINERM (11) Route 27
 	db "Corey@", TRAINERTYPE_ITEM_MOVES
 	db 61
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -3798,7 +3798,7 @@ else
 	db NO_ITEM
 endc
 	db 22
-	dw PINECO
+	dw FERROSEED
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -4489,7 +4489,7 @@ endc
 	dw CINCCINO
 	db NO_ITEM
 	db 42
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -5432,7 +5432,7 @@ SuperNerdGroup:
 	dw ELECTRODE
 	db NO_ITEM
 	db 48
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -6074,7 +6074,7 @@ BikerGroup:
 	db NO_ITEM
 	dw FIRE_BLAST, SHADOW_BALL, EXTRASENSORY, NASTY_PLOT
 	db 70
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -8532,7 +8532,7 @@ else
 endc
 	dw WILL_O_WISP, HEX, STRENGTH_SAP, POWER_GEM
 	db 55
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -9549,7 +9549,7 @@ endc
 	next_list_item ; ENGINEER (4) Olivine Gym 3F
 	db "Rudy@", TRAINERTYPE_ITEM
 	db 29
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11519,7 +11519,7 @@ ByronGroup2:
 	next_list_item ; BYRON (2)
 	db "Byron@", TRAINERTYPE_ITEM_MOVES
 	db 33
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11569,7 +11569,7 @@ endc
 	next_list_item ; BYRON (3)
 	db "Byron@", TRAINERTYPE_ITEM_MOVES
 	db 43
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11619,7 +11619,7 @@ endc
 	next_list_item ; BYRON (4)
 	db "Byron@", TRAINERTYPE_ITEM_MOVES
 	db 50
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11673,7 +11673,7 @@ endc
 	next_list_item ; BYRON (5)
 	db "Byron@", TRAINERTYPE_ITEM_MOVES
 	db 54
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -11727,7 +11727,7 @@ endc
 	next_list_item ; BYRON (6)
 	db "Byron@", TRAINERTYPE_ITEM_MOVES
 	db 67
-	dw FORRETRESS
+	dw FERROTHORN
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else

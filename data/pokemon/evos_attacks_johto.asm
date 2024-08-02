@@ -86,8 +86,8 @@ EvosAttacksPointers2::
 	dw DrapionEvosAttacks
 	dw GirafarigEvosAttacks
 	dw FarigirafEvosAttacks
-	dw PinecoEvosAttacks
-	dw ForretressEvosAttacks
+	dw FerroseedEvosAttacks
+	dw FerrothornEvosAttacks
 	dw DunsparceEvosAttacks
 	dw DudunsparsEvosAttacks
 	dw GligarEvosAttacks
@@ -1939,46 +1939,43 @@ FarigirafEvosAttacks:
 	dbw 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-PinecoEvosAttacks:
-	dbbw EVOLVE_LEVEL, 25, FORRETRESS
+FerroseedEvosAttacks:
+	dbbw EVOLVE_LEVEL, 40, FERROTHORN
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 1, PROTECT
-	dbw 6, SELFDESTRUCT
-	dbw 9, PIN_MISSILE
-	dbw 12, TAKE_DOWN
-	dbw 17, RAPID_SPIN
-	dbw 20, REVERSAL
-	dbw 23, SUBSTITUTE
-	dbw 28, SPIKES
-	dbw 31, PAYBACK
-	dbw 34, EXPLOSION
-	dbw 39, IRON_DEFENSE
-	dbw 42, GYRO_BALL
-	dbw 50, DOUBLE_EDGE
+	dbw 1, HARDEN
+	dbw 6, ROLLOUT
+	dbw 9, CURSE
+	dbw 14, PIN_MISSILE
+	dbw 21, GYRO_BALL
+	dbw 26, IRON_DEFENSE
+	dbw 30, MIRROR_SHOT
+	dbw 35, KNOCK_OFF
+	dbw 38, SELFDESTRUCT
+	dbw 43, IRON_HEAD
+	dbw 47, PAYBACK
+	dbw 52, FLASH_CANNON
+	dbw 55, EXPLOSION
 	db 0 ; no more level-up moves
 
-ForretressEvosAttacks:
+FerrothornEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, MIRROR_SHOT
-	dbw 1, MIRROR_SHOT
+	dbw LEARN_EVO_MOVE, POWER_WHIP
+	dbw 1, POWER_WHIP
 	dbw 1, TACKLE
-	dbw 1, PROTECT
-	dbw 6, SELFDESTRUCT
-	dbw 9, PIN_MISSILE
-	dbw 12, TAKE_DOWN
-	dbw 17, RAPID_SPIN
-	dbw 20, REVERSAL
-	dbw 23, SUBSTITUTE
-	dbw 28, SPIKES
-	dbw 32, PAYBACK
-	dbw 36, EXPLOSION
-	dbw 42, IRON_DEFENSE
-	dbw 46, GYRO_BALL
-	dbw 50, DOUBLE_EDGE
-	dbw 56, LOCK_ON
-	dbw 60, ZAP_CANNON
-	dbw 64, STEEL_SLICE
+	dbw 1, HARDEN
+	dbw 6, ROLLOUT
+	dbw 9, CURSE
+	dbw 14, PIN_MISSILE
+	dbw 21, GYRO_BALL
+	dbw 26, IRON_DEFENSE
+	dbw 30, MIRROR_SHOT
+	dbw 35, KNOCK_OFF
+	dbw 38, SELFDESTRUCT
+	dbw 46, IRON_HEAD
+	dbw 53, PAYBACK
+	dbw 61, FLASH_CANNON
+	dbw 67, EXPLOSION
 	db 0 ; no more level-up moves
 
 DunsparceEvosAttacks:

@@ -91,9 +91,10 @@ AlphabeticalPokedexOrder:
 	dw FARIGIRAF
 	dw FEAROW
 	dw FERALIGATR
+	dw FERROSEED
+	dw FERROTHORN
 	dw FLAAFFY
 	dw FLAREON
-	dw FORRETRESS
 	dw FRAXURE
 	dw FROSLASS
 	dw FURRET
@@ -214,7 +215,6 @@ AlphabeticalPokedexOrder:
 	dw PIKACHU
 	dw PIKIPEK
 	dw PILOSWINE
-	dw PINECO
 	dw PINSIR
 	dw POLITOED
 	dw POLIWAG

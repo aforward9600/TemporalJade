@@ -248,8 +248,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, RED    ; DRAPION
 	icon_pals PURPLE, BLUE   ; GIRAFARIG
 	icon_pals BROWN,  RED    ; FARIGIRAF
-	icon_pals BLUE,   BROWN  ; PINECO
-	icon_pals RED,    BROWN  ; FORRETRESS
+	icon_pals GREEN,  BLUE   ; FERROSEED
+	icon_pals GREEN,  RED    ; FERROTHORN
 	icon_pals BLUE,   PINK   ; DUNSPARCE
 	icon_pals BLUE,   PINK   ; DUDUNSPARS
 	icon_pals PURPLE, BLUE   ; GLIGAR

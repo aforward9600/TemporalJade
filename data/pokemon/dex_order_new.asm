@@ -107,8 +107,8 @@ NewPokedexOrder:
 	dw WEAVILE
 	dw BRONZOR
 	dw BRONZONG
-	dw PINECO
-	dw FORRETRESS
+	dw FERROSEED
+	dw FERROTHORN
 	dw DODUO
 	dw DODRIO
 	dw VULPIX

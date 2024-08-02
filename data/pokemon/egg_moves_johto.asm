@@ -87,7 +87,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw GirafarigEggMoves
 	dw NoEggMoves2
-	dw PinecoEggMoves
+	dw FerroseedEggMoves
 	dw NoEggMoves2
 	dw DunsparceEggMoves
 	dw NoEggMoves2
@@ -486,13 +486,12 @@ GirafarigEggMoves:
 	dw WORK_UP
 	dw -1 ; end
 
-PinecoEggMoves:
-	dw COUNTER
-	dw PIN_MISSILE
-	dw FLAIL
-	dw SWIFT
-	dw ENDURE
-	dw REVENGE
+FerroseedEggMoves:
+	dw ACID_SPRAY
+	dw BULLET_SEED
+	dw LEECH_SEED
+	dw SEED_BOMB
+	dw SPIKES
 	dw -1 ; end
 
 DunsparceEggMoves:

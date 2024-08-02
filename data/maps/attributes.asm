@@ -96,7 +96,7 @@ endc
 ENDM
 
 
-	map_attributes MurkrowValley, MURKROW_VALLEY, $a7, WEST | EAST
+	map_attributes MurkrowValley, MURKROW_VALLEY, $a0, WEST | EAST
 	connection west, Route29, ROUTE_29, 1
 	connection east, Route27, ROUTE_27, 0
 
@@ -153,27 +153,27 @@ ENDM
 	map_attributes Route28, ROUTE_28, $71, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -9
 
-	map_attributes Route29, ROUTE_29, $a7, NORTH | WEST | EAST
+	map_attributes Route29, ROUTE_29, $a0, NORTH | WEST | EAST
 	connection north, Route46, ROUTE_46, 10
 	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
 	connection east, MurkrowValley, MURKROW_VALLEY, -1
 
-	map_attributes Route30, ROUTE_30, $a7, SOUTH | WEST
+	map_attributes Route30, ROUTE_30, $a0, SOUTH | WEST
 	connection south, CherrygroveCity, CHERRYGROVE_CITY, 20
 	connection west, MoravilSchoolOutside, MORAVIL_SCHOOL_OUTSIDE, -4
 
-	map_attributes MoravilSchoolOutside, MORAVIL_SCHOOL_OUTSIDE, $a7, EAST
+	map_attributes MoravilSchoolOutside, MORAVIL_SCHOOL_OUTSIDE, $a0, EAST
 	connection east, Route30, ROUTE_30, 4
 
-	map_attributes Route31, ROUTE_31, $a7, WEST
+	map_attributes Route31, ROUTE_31, $a0, WEST
 ;	connection south, Route30, ROUTE_30, 10
 	connection west, CrescentLake, CRESCENT_LAKE, 24
 
-	map_attributes CrescentLake, CRESCENT_LAKE, $a7, WEST | EAST
+	map_attributes CrescentLake, CRESCENT_LAKE, $a0, WEST | EAST
 	connection west, Route36, ROUTE_36, 0
 	connection east, Route31, ROUTE_31, -24
 
-	map_attributes Route32, ROUTE_32, $a7, NORTH | SOUTH
+	map_attributes Route32, ROUTE_32, $a0, NORTH | SOUTH
 	connection north, VioletCity, VIOLET_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 
@@ -766,6 +766,6 @@ ENDM
 	map_attributes MoravilSchoolNursesOffice, MORAVIL_SCHOOL_NURSES_OFFICE, $00, 0
 	map_attributes MoravilSchoolStore, MORAVIL_SCHOOL_STORE, $00, 0
 	map_attributes MoravilSchoolComputerLab, MORAVIL_SCHOOL_COMPUTER_LAB, $00, 0
-	map_attributes MoravilSchoolPlayground, MORAVIL_SCHOOL_PLAYGROUND, $a7, 0
+	map_attributes MoravilSchoolPlayground, MORAVIL_SCHOOL_PLAYGROUND, $a0, 0
 	map_attributes MoravilSchoolLibrary, MORAVIL_SCHOOL_LIBRARY, $00, 0
 	map_attributes MoravilSchoolGym, MORAVIL_SCHOOL_GYM, $00, 0

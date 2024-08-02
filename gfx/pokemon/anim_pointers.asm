@@ -236,8 +236,8 @@ AnimationPointers:
 	dw DrapionAnimation
 	dw GirafarigAnimation
 	dw FarigirafAnimation
-	dw PinecoAnimation
-	dw ForretressAnimation
+	dw FerroseedAnimation
+	dw FerrothornAnimation
 	dw DunsparceAnimation
 	dw DudunsparsAnimation
 	dw GligarAnimation

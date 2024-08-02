@@ -237,8 +237,8 @@ PokedexDataPointerTable:
 	dba DrapionPokedexEntry
 	dba GirafarigPokedexEntry
 	dba FarigirafPokedexEntry
-	dba PinecoPokedexEntry
-	dba ForretressPokedexEntry
+	dba FerroseedPokedexEntry
+	dba FerrothornPokedexEntry
 	dba DunsparcePokedexEntry
 	dba DudunsparsPokdexEntry
 	dba GligarPokedexEntry

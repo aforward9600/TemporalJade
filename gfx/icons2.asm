@@ -114,8 +114,8 @@ Icons2:
 	dw DrapionIcon
 	dw GirafarigIcon
 	dw FarigirafIcon
-	dw PinecoIcon
-	dw ForretressIcon
+	dw FerroseedIcon
+	dw FerrothornIcon
 	dw DunsparceIcon
 	dw DudunsparsIcon
 	dw GligarIcon
@@ -241,8 +241,8 @@ SkorupiIcon:      INCBIN "gfx/icons/skorupi.2bpp"
 DrapionIcon:      INCBIN "gfx/icons/drapion.2bpp"
 GirafarigIcon:    INCBIN "gfx/icons/girafarig.2bpp"
 FarigirafIcon:    INCBIN "gfx/icons/farigiraf.2bpp"
-PinecoIcon:       INCBIN "gfx/icons/pineco.2bpp"
-ForretressIcon:   INCBIN "gfx/icons/forretress.2bpp"
+FerroseedIcon:    INCBIN "gfx/icons/ferroseed.2bpp"
+FerrothornIcon:   INCBIN "gfx/icons/ferrothorn.2bpp"
 DunsparceIcon:    INCBIN "gfx/icons/dunsparce.2bpp"
 DudunsparsIcon:   INCBIN "gfx/icons/dudunspars.2bpp"
 GligarIcon:       INCBIN "gfx/icons/gligar.2bpp"

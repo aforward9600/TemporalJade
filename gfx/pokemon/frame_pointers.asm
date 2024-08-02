@@ -236,8 +236,8 @@ FramesPointers:
 	dba DrapionFrames
 	dba GirafarigFrames
 	dba FarigirafFrames
-	dba PinecoFrames
-	dba ForretressFrames
+	dba FerroseedFrames
+	dba FerrothornFrames
 	dba DunsparceFrames
 	dba DudunsparsFrames
 	dba GligarFrames

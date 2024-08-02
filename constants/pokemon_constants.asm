@@ -257,8 +257,8 @@ JOHTO_POKEMON EQU const_value
 	const DRAPION  ; ca
 	const GIRAFARIG  ; cb
 	const FARIGIRAF
-	const PINECO     ; cc
-	const FORRETRESS ; cd
+	const FERROSEED  ; cc
+	const FERROTHORN ; cd
 	const DUNSPARCE  ; ce
 	const DUDUNSPARS
 	const GLIGAR     ; cf
