@@ -29,6 +29,8 @@ Vulcandth and Rangi: Level Caught Design Flaw Fix
 
 New cries, Focus Sash, Power Band, SpecialSpecs, Wide Lens, Life Orb, Choice Band, Choice Scarf and Choice Specs coding: AzureKeys
 
+Some graphics: Nekroba DA
+
 New Swarming System: Dragon Arbock
 
 Cardboardbox: Battle Tower Prize List fix.
@@ -64,6 +66,8 @@ Wynaut sprites and animations, Yanmega back sprite.
 
 Ambipom back sprite, Annihilape sprite, Overqwil, Regional forms: ShadowOne333
 
+Map graphics: Luna and Rangi
+
 Annihilape sprite: Sea and ShadowOne333
 
 Regional forms animations: Scarlax
@@ -94,7 +98,7 @@ Officer Jenny sprite: FrenchOrange
 
 Juniper and Bianca sprites: BW3 Genesis team
 
-Beta Wooper back sprite made by 64BitWonder.
+Cobalion, Terrakion, Virizion & Keldeo sprites: LakeOfDance
 
 Sneasel, Tyranitar, Dragonite, Moltres, Heracross,
 Teddiursa, Ursaring, Phanpy, Umbreon, Feraligatr,
@@ -116,10 +120,10 @@ Idain for time and weather sensitive fixes.
 
 Mime Jr. Back Sprite: lakeofdance
 
-Duskull, Dusclops, Dusknoir, Bronzor, Bronzong, Ralts, Kirlia, Gardevoir, Gallade,
-Budew, Roselia, Roserade, Electrike, Manectric, Cacnea, Cacturne, Croagunk,
-Toxicroak, Snorunt, Glalie, Froslass, Aggron, Lotad, Lombre, Ludicolo, Absol sprites:
-Prism Team.
+Shroomish, Breloom, Duskull, Dusclops, Dusknoir, Bronzor, Bronzong, Ralts, Kirlia, 
+Gardevoir, Gallade, Budew, Roselia, Roserade, Electrike, Manectric, Cacnea,
+Cacturne, Croagunk, Toxicroak, Snorunt, Glalie, Froslass, Aggron, Lotad, Lombre,
+Ludicolo, Absol sprites: Prism Team.
 
 Mudkip line sprites: Bloodless & Blue Rose
 

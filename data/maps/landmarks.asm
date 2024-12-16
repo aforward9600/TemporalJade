@@ -18,8 +18,8 @@ Landmarks:
 	landmark  84, 100, HusCavernName
 	landmark  84,  92, ZaconiaCityName
 	landmark  76,  92, Route27Name
-	landmark  60,  92, OrrianDesertName
-	landmark  44,  92, ScantelesTownName
+	landmark  60,  84, OrrianDesertName
+	landmark  44,  84, ScantelesTownName
 	landmark  84,  80, Route28Name
 	landmark  84,  60, SirakisCityName
 	landmark  84,  44, Route29Name

@@ -329,14 +329,6 @@ INCBIN "data/tilesets/underground_metatiles.bin"
 TilesetUndergroundColl:
 INCLUDE "data/tilesets/underground_collision.asm"
 
-TilesetJohto3GFX:
-INCBIN "gfx/tilesets/johto_3.2bpp.lz"
-
-TilesetJohto3Meta:
-INCBIN "data/tilesets/johto_3_metatiles.bin"
-
-TilesetJohto3Coll:
-INCLUDE "data/tilesets/johto_3_collision.asm"
 
 SECTION "Tileset Data 10", ROMX
 
@@ -530,3 +522,14 @@ INCBIN "data/tilesets/players_room_attributes.bin"
 
 TilesetFacilityAttr::
 INCBIN "data/tilesets/facility_attributes.bin"
+
+SECTION "TilesetData 17", ROMX
+
+TilesetJohto3GFX:
+INCBIN "gfx/tilesets/johto_3.2bpp.lz"
+
+TilesetJohto3Meta:
+INCBIN "data/tilesets/johto_3_metatiles.bin"
+
+TilesetJohto3Coll:
+INCLUDE "data/tilesets/johto_3_collision.asm"

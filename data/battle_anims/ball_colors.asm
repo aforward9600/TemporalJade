@@ -2,8 +2,8 @@
 
 BallColors:
 	db MASTER_BALL
-	RGB 07, 07, 08
-	RGB 30, 10, 06
+	RGB 23, 00, 27
+	RGB 29, 12, 25
 
 	db ULTRA_BALL
 	RGB 07, 07, 08

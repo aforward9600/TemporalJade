@@ -135,3 +135,4 @@ Music:
 	dba Music_KnightsTempora
 	dba Music_EventGhetsis
 	dba Music_MoravilSchool
+	dba Music_ScantelesTown

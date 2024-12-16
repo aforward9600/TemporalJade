@@ -20,8 +20,9 @@ CherrygroveCity_MapScripts:
 	scene_script .DummyScene1 ; SCENE_CHERRYGROVECITY_NOTHING
 	scene_script .DummyScene2
 
-	db 1 ; callbacks
+	db 2 ; callbacks
 	callback MAPCALLBACK_NEWMAP, .FlyPoint
+	callback MAPCALLBACK_TILES, .StreetLamp
 
 .DummyScene0:
 	end
@@ -35,6 +36,13 @@ CherrygroveCity_MapScripts:
 
 .FlyPoint:
 	setflag ENGINE_FLYPOINT_CHERRYGROVE
+	return
+
+.StreetLamp:
+	checktime NITE
+	iffalse .DontLightLamp
+	changeblock 26, 10, $7f
+.DontLightLamp:
 	return
 
 AntiquoTownGrampsScript1:
