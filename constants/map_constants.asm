@@ -243,10 +243,12 @@ ENDM
 	map_const KURTS_HOUSE,                                  8,  4 ;  4
 	map_const AZALEA_GYM,                                   5,  8 ;  5
 	map_const ROUTE_33,                                    10,  9 ;  6
-	map_const AZALEA_TOWN,                                 20,  9 ;  7
+	map_const ZACONIA_CITY,                                15, 15 ;  7
 	map_const ROUTE_31,                                    10, 39 ;  8
 	map_const CRESCENT_LAKE,                               20, 22 ;  9
 	map_const ROUTE_26_HEAL_HOUSE,                          4,  4 ; 10
+	map_const HUS_CAVERN,                                  20, 20 ; 11
+	map_const ORRIAN_DESERT,                               27, 20 ; 12              
 
 	newgroup                                                      ;  9
 

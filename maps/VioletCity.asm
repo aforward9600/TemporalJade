@@ -15,7 +15,6 @@ VioletCity_MapScripts:
 
 .FlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
-	setflag ENGINE_FLYPOINT_AZALEA
 	return
 
 VioletCityLassScript:

@@ -510,8 +510,8 @@ CherrygroveCity_Blocks:
 VioletCity_Blocks:
 	INCBIN "maps/VioletCity.ablk"
 
-AzaleaTown_Blocks:
-	INCBIN "maps/AzaleaTown.ablk"
+ZaconiaCity_Blocks:
+	INCBIN "maps/ZaconiaCity.ablk"
 
 CianwoodCity_Blocks:
 	INCBIN "maps/CianwoodCity.ablk"
@@ -1223,3 +1223,9 @@ MoravilSchoolGym_Blocks:
 
 CrescentLake_Blocks:
 	INCBIN "maps/CrescentLake.ablk"
+
+HusCavern_Blocks:
+	INCBIN "maps/HusCavern.ablk"
+
+OrrianDesert_Blocks:
+	INCBIN "maps/OrrianDesert.ablk"

@@ -88,7 +88,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_MURKROW_VALLEY
 	engine_flag wVisitedSpawns, SPAWN_CHERRYGROVE
 	engine_flag wVisitedSpawns, SPAWN_VIOLET
-	engine_flag wVisitedSpawns, SPAWN_AZALEA
+	engine_flag wVisitedSpawns, SPAWN_ZACONIA
 	engine_flag wVisitedSpawns, SPAWN_CIANWOOD
 	engine_flag wVisitedSpawns, SPAWN_WILD_AREA
 	engine_flag wVisitedSpawns, SPAWN_GOLDENROD

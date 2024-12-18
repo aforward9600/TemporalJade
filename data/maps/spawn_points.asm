@@ -26,6 +26,7 @@ SpawnPoints:
 
 	spawn MURKROW_VALLEY,             17,  8
 	spawn CHERRYGROVE_CITY,           29, 12
+	spawn ZACONIA_CITY,               19, 18
 	spawn MORAVIL_SCHOOL_OUTSIDE,     11,  8
 	spawn BLACKTHORN_CITY,            23, 30
 	spawn MAHOGANY_TOWN,              15, 14
@@ -35,7 +36,6 @@ SpawnPoints:
 	spawn CIANWOOD_CITY,              23, 44
 	spawn WILD_AREA_OUTSIDE,           5, 18
 	spawn GOLDENROD_CITY,             15, 28
-	spawn AZALEA_TOWN,                15, 10
 	spawn ROUTE_32,                   11, 74
 	spawn SILVER_CAVE_OUTSIDE,        23, 20
 	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2

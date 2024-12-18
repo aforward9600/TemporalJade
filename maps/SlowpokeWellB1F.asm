@@ -177,7 +177,7 @@ SlowpokeWellB1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event 17, 15, AZALEA_TOWN, 6
+	warp_event 17, 15, ZACONIA_CITY, 6
 	warp_event  7, 11, SLOWPOKE_WELL_B2F, 1
 
 	db 0 ; coord events

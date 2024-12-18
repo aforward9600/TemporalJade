@@ -205,16 +205,17 @@ Route31HusCavernSignText:
 	text "Hu's Cavern"
 
 	para "Route 26 -"
-	line "Zaconia Town"
+	line "Zaconia City"
 	done
 
 Route31_MapEvents:
 	db 0, 0 ; filler
 
-	db 3 ; warp events
+	db 4 ; warp events
 	warp_event 11, 70, ROUTE_38_ECRUTEAK_GATE, 1
 	warp_event 11, 71, ROUTE_38_ECRUTEAK_GATE, 2
 	warp_event 15, 27, ROUTE_26_HEAL_HOUSE, 1
+	warp_event 10,  5, HUS_CAVERN, 1
 
 	db 0 ; coord events
 

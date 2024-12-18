@@ -330,7 +330,7 @@ INCLUDE "maps/MrPokemonsHouse.asm"
 
 SECTION "Map Scripts 19", ROMX
 
-INCLUDE "maps/AzaleaTown.asm"
+INCLUDE "maps/ZaconiaCity.asm"
 INCLUDE "maps/SaffronCity.asm"
 INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
 INCLUDE "maps/MahoganyGym.asm"
@@ -582,3 +582,5 @@ INCLUDE "maps/PewterMart.asm"
 INCLUDE "maps/PewterPokecenter1F.asm"
 INCLUDE "maps/PewterSnoozeSpeechHouse.asm"
 INCLUDE "maps/CrescentLake.asm"
+INCLUDE "maps/HusCavern.asm"
+INCLUDE "maps/OrrianDesert.asm"

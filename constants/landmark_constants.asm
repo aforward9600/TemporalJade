@@ -12,9 +12,9 @@
 	const ROUTE_31          ; 05
 	const CRESCENT_LAKE     ; 07
 	const DRAGONS_DEN       ; 2a
-	const AZALEA_TOWN       ; 0c
+	const ZACONIA_CITY       ; 0c
 	const ROUTE_44          ; 1a
-	const BELLCHIME_PATH
+	const ORRIAN_DESERT
 	const ICE_PATH          ; 28
 	const ROUTE_45          ; 27
 	const GOLDENROD_CITY    ; 10

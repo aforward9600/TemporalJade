@@ -28,7 +28,7 @@ TreeMonMaps:
 	treemon_map MURKROW_VALLEY,            TREEMON_SET_CITY
 	treemon_map CHERRYGROVE_CITY,          TREEMON_SET_CITY
 	treemon_map VIOLET_CITY,               TREEMON_SET_CITY
-	treemon_map AZALEA_TOWN,               TREEMON_SET_TOWN
+	treemon_map ZACONIA_CITY,              TREEMON_SET_TOWN
 	treemon_map CIANWOOD_CITY,             TREEMON_SET_CITY
 	treemon_map GOLDENROD_CITY,            TREEMON_SET_CITY
 	treemon_map OLIVINE_CITY,              TREEMON_SET_CITY

@@ -109,9 +109,8 @@ ENDM
 	connection west, Route36, ROUTE_36, 0
 	connection east, Route31, ROUTE_31, 9
 
-	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
-	connection west, Route34, ROUTE_34, -18
-	connection east, Route33, ROUTE_33, 0
+	map_attributes ZaconiaCity, ZACONIA_CITY, $71, WEST
+	connection west, OrrianDesert, ORRIAN_DESERT, -5
 
 	map_attributes CianwoodCity, CIANWOOD_CITY, $35, EAST
 	connection east, Route41, ROUTE_41, 0
@@ -177,13 +176,14 @@ ENDM
 	connection north, VioletCity, VIOLET_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 
+	map_attributes OrrianDesert, ORRIAN_DESERT, $71, EAST
+	connection east, ZaconiaCity, ZACONIA_CITY, 5
+
 	map_attributes Route33, ROUTE_33, $05, NORTH | WEST
 	connection north, Route32, ROUTE_32, 0
-	connection west, AzaleaTown, AZALEA_TOWN, 0
 
 	map_attributes Route34, ROUTE_34, $05, NORTH | EAST
 	connection north, GoldenrodCity, GOLDENROD_CITY, -5
-	connection east, AzaleaTown, AZALEA_TOWN, 18
 
 	map_attributes Route35, ROUTE_35, $05, NORTH | SOUTH
 	connection north, Route36, ROUTE_36, 0
@@ -769,3 +769,4 @@ ENDM
 	map_attributes MoravilSchoolPlayground, MORAVIL_SCHOOL_PLAYGROUND, $a0, 0
 	map_attributes MoravilSchoolLibrary, MORAVIL_SCHOOL_LIBRARY, $00, 0
 	map_attributes MoravilSchoolGym, MORAVIL_SCHOOL_GYM, $00, 0
+	map_attributes HusCavern, HUS_CAVERN, $09, 0

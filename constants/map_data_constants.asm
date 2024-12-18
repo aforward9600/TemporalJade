@@ -90,6 +90,7 @@ const_value = -1
 ; johto
 	const SPAWN_MURKROW_VALLEY
 	const SPAWN_CHERRYGROVE
+	const SPAWN_ZACONIA
 	const SPAWN_VIOLET
 	const SPAWN_BLACKTHORN
 	const SPAWN_MAHOGANY
@@ -99,7 +100,6 @@ const_value = -1
 	const SPAWN_CIANWOOD
 	const SPAWN_WILD_AREA
 	const SPAWN_GOLDENROD
-	const SPAWN_AZALEA
 	const SPAWN_UNION_CAVE
 	const SPAWN_MT_SILVER
 	const SPAWN_FAST_SHIP

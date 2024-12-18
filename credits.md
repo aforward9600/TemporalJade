@@ -246,10 +246,10 @@ Mewtwo Battle - ShockSlayer
 JohtoSafariZoneGate, JohtoSafariZone, Route 47, Gym Leader Victory,
 Zinnia Encounter and Battle, Alola Wild Pokemon, Little Root Town,
 Santalune Forest, Laverre City, Frost Cavern, Floaroma Town, Oreburgh Gate,
-Route 101, Cipher Peon - Mmmmmmmmmmmmmmmmm
+Route 101, RSE Sailing, Cipher Peon - Mmmmmmmmmmmmmmmmm
 Cinnabar Mansion, Rocket Lair - Dannye
 NightTime coding and songs, Friendly Shop, Cynthia Battle, FRLG Gym Leader Song
-Unova Gym Battle, Regi Battle and Giovanni Theme: TriteHexagon
+Unova Gym Battle, Pyrite Town, Regi Battle and Giovanni Theme: TriteHexagon
 Lugia Battle: Pigu
 Kanto Legend Battle XY: GACT and Pigu
 Ho-Oh Battle: Pigu
@@ -259,3 +259,4 @@ Marnie's Theme/Dahlia's Theme MIDI: ryanisthebomb203
 Knights Tempora theme and Ghetsis encounter: Arikk
 XY Gym Leader - Pum
 Power Plant - ShantyTown
+Burn, Bobonga - Nobuo Uematsu

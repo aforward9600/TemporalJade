@@ -30,7 +30,7 @@ MomPhonePalette1:
 	ifequal GROUP_MURKROW_VALLEY, .newbark
 	ifequal GROUP_CHERRYGROVE_CITY, .cherrygrove
 	ifequal GROUP_VIOLET_CITY, .violet
-	ifequal GROUP_AZALEA_TOWN, .azalea
+	ifequal GROUP_ZACONIA_CITY, .azalea
 	ifequal GROUP_GOLDENROD_CITY, .goldenrod
 	farwritetext MomPhoneGenericAreaText
 	buttonsound

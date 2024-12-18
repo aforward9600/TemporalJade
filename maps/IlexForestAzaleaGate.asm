@@ -34,8 +34,8 @@ IlexForestAzaleaGate_MapEvents:
 	db 4 ; warp events
 	warp_event  0,  4, ILEX_FOREST, 2
 	warp_event  0,  5, ILEX_FOREST, 3
-	warp_event  9,  4, AZALEA_TOWN, 7
-	warp_event  9,  5, AZALEA_TOWN, 8
+	warp_event  9,  4, ZACONIA_CITY, 5
+	warp_event  9,  5, ZACONIA_CITY, 5
 
 	db 0 ; coord events
 

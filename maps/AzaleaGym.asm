@@ -54,7 +54,7 @@ AzaleaGymKurtScript:
 	setflag ENGINE_HIVEBADGE
 	loadmem wLevelCap, 51
 	readvar VAR_BADGES
-	setmapscene AZALEA_TOWN, SCENE_AZALEATOWN_RIVAL_BATTLE
+	setmapscene ZACONIA_CITY, SCENE_AZALEATOWN_RIVAL_BATTLE
 	setflag ENGINE_BEAT_KURT
 .FightDone:
 	checkflag ENGINE_BEAT_KURT
@@ -493,8 +493,8 @@ AzaleaGym_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  4, 15, AZALEA_TOWN, 5
-	warp_event  5, 15, AZALEA_TOWN, 5
+	warp_event  4, 15, ZACONIA_CITY, 5
+	warp_event  5, 15, ZACONIA_CITY, 5
 
 	db 0 ; coord events
 
