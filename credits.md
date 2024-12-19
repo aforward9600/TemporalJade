@@ -76,6 +76,8 @@ Ursaluna sprites and animation: Cure, ShadowOne333, Scarlax
 
 Dudunspars sprites - Mia
 
+Rock graphics: hek-el-grande
+
 Lickilicky sprites by Chaos Rush.
 
 Munchlax animation by SCMidna.

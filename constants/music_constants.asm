@@ -138,6 +138,8 @@
 	const MUSIC_MORAVIL_SCHOOL
 	const MUSIC_SCANTELES_TOWN
 	const MUSIC_OREBURGH_GATE
+	const MUSIC_PYRITE_TOWN
+	const MUSIC_LAVERRE_CITY
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc

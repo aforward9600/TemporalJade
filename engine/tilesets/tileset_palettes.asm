@@ -132,11 +132,11 @@ LoadSpecialMapPalette:
 	ret
 
 .cave
-	ld a, [wEnvironment]
-	and $7
-	cp CAVE ; Hall of Fame
-	jr z, .do_nothing
-	call LoadIcePathPalette
+;	ld a, [wEnvironment]
+;	and $7
+;	cp CAVE ; Hall of Fame
+;	jr z, .do_nothing
+	call LoadHusCavernPalette
 	scf
 	ret
 
@@ -215,6 +215,17 @@ LoadIcePathPalette:
 
 IcePathPalette:
 INCLUDE "gfx/tilesets/ice_path.pal"
+
+LoadHusCavernPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, HusCavernPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+HusCavernPalette:
+INCLUDE "gfx/tilesets/hus_cavern.pal"
 
 LoadHousePalette:
 	ld a, BANK(wBGPals1)

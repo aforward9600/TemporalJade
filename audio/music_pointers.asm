@@ -137,3 +137,5 @@ Music:
 	dba Music_MoravilSchool
 	dba Music_ScantelesTown
 	dba Music_OreburghGate
+	dba Music_PyriteTown
+	dba Music_LaverreCity
