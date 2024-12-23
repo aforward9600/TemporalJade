@@ -37,9 +37,11 @@ HusCavernCooltrainerFText:
 HusCavern_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	db 4 ; warp events
 	warp_event 17, 35, ROUTE_31, 4
 	warp_event 29,  3, ZACONIA_CITY, 4
+	warp_event 37, 23, HUS_CAVERN_B1F, 1
+	warp_event 35, 11, HUS_CAVERN_B1F, 2
 
 	db 0 ; coord events
 

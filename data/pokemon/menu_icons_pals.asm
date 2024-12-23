@@ -48,8 +48,8 @@ MonMenuIconPals:
 	icon_pals PINK,   GREEN  ; CLEFFA
 	icon_pals PINK,   GREEN  ; CLEFAIRY
 	icon_pals PINK,   GREEN  ; CLEFABLE
-	icon_pals RED,    GRAY   ; VULPIX
-	icon_pals RED,    GRAY   ; NINETALES
+	icon_pals TEAL,   BLUE   ; VULPIX
+	icon_pals BLUE,   PURPLE ; NINETALES
 	icon_pals PINK,   GREEN  ; IGGLYBUFF
 	icon_pals PINK,   GREEN  ; JIGGLYPUFF
 	icon_pals PINK,   GREEN  ; WIGGLYTUFF

@@ -281,15 +281,16 @@ CleffaEggMoves:
 	dw -1 ; end
 
 VulpixEggMoves:
-	dw FAINT_ATTACK
+	dw AGILITY
+	dw CHARM
+	dw ENCORE
+	dw MOONBLAST
 	dw HYPNOSIS
 	dw FLAIL
 	dw SPITE
 	dw DISABLE
 	dw EXTRASENSORY
-	dw FLARE_BLITZ
 	dw HOWL
-	dw HEAT_WAVE
 	dw -1 ; end
 
 IgglybuffEggMoves:

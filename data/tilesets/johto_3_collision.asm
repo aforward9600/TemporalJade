@@ -57,7 +57,7 @@
 	tilecoll BUOY, WATER, BUOY, BUOY ; 38
 	tilecoll WATER, WATER, BUOY, BUOY ; 39
 	tilecoll WATER, BUOY, BUOY, BUOY ; 3a
-	tilecoll SAND, SAND, SAND, SAND ; 3b
+	tilecoll WALL, SAND, WALL, SAND ; 3b
 	tilecoll HEADBUTT_TREE, FLOOR, FLOOR, FLOOR ; 3c
 	tilecoll FLOOR, HEADBUTT_TREE, FLOOR, FLOOR ; 3d
 	tilecoll FLOOR, FLOOR, HEADBUTT_TREE, FLOOR ; 3e
@@ -153,7 +153,7 @@
 	tilecoll FLOOR, WALL, CAVE, WALL ; 98
 	tilecoll WALL, WALL, WALL, WALL ; 99
 	tilecoll WALL, WALL, WALL, WALL ; 9a
-	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 9b
+	tilecoll SAND, SAND, SAND, WALL ; 9b
 	tilecoll WALL, WALL, WALL, WALL ; 9c
 	tilecoll TALL_GRASS, TALL_GRASS, HEADBUTT_TREE, HEADBUTT_TREE ; 9d
 	tilecoll TALL_GRASS, TALL_GRASS, HEADBUTT_TREE, TALL_GRASS ; 9e

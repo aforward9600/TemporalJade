@@ -1,10 +1,10 @@
 	db "Fox@" ; species name
 	dw 307, 440 ; height, weight
 
-	db   "It is said to live"
-	next "a thousand years,"
-	next "and each of its"
+	db   "The reason it"
+	next "guides people down"
+	next "to the mountain's"
 
-	page "tails is loaded"
-	next "with supernatural"
-	next "powers.@"
+	page "base is that it"
+	next "wants them to"
+	next "hurry and leave.@"

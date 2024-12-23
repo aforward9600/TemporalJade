@@ -248,7 +248,9 @@ ENDM
 	map_const CRESCENT_LAKE,                               20, 22 ;  9
 	map_const ROUTE_26_HEAL_HOUSE,                          4,  4 ; 10
 	map_const HUS_CAVERN,                                  20, 20 ; 11
-	map_const ORRIAN_DESERT,                               27, 20 ; 12              
+	map_const ORRIAN_DESERT,                               27, 20 ; 12
+	map_const SCANTELES_TOWN,                              18, 17 ; 13
+	map_const HUS_CAVERN_B1F,                              22, 20 ; 14
 
 	newgroup                                                      ;  9
 

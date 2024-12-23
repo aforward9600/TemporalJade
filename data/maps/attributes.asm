@@ -770,3 +770,5 @@ ENDM
 	map_attributes MoravilSchoolLibrary, MORAVIL_SCHOOL_LIBRARY, $00, 0
 	map_attributes MoravilSchoolGym, MORAVIL_SCHOOL_GYM, $00, 0
 	map_attributes HusCavern, HUS_CAVERN, $09, 0
+	map_attributes ScantelesTown, SCANTELES_TOWN, $09, 0
+	map_attributes HusCavernB1F, HUS_CAVERN_B1F, $09, 0

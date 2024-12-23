@@ -9,9 +9,9 @@ Flypoints:
 ; Johto
 	flypoint MURKROW_VALLEY, MURKROW_VALLEY
 	flypoint CHERRYGROVE,    CHERRYGROVE_CITY
-	flypoint ZACONIA,        ZACONIA_CITY
 	flypoint VIOLET,         VIOLET_CITY
-	flypoint BLACKTHORN,     BLACKTHORN_CITY
+	flypoint ZACONIA,        ZACONIA_CITY
+	flypoint BLACKTHORN,     ORRIAN_DESERT
 	flypoint MAHOGANY,       MAHOGANY_TOWN
 	flypoint LAKE_OF_RAGE,   LAKE_OF_RAGE
 	flypoint ECRUTEAK,       ECRUTEAK_CITY

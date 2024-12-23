@@ -829,41 +829,41 @@ ClefableEvosAttacks:
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
-	dbbw EVOLVE_ITEM, FIRE_STONE, NINETALES
+	dbbw EVOLVE_ITEM, ICE_STONE, NINETALES
 	db 0 ; no more evolutions
-	dbw 1, EMBER
+	dbw 1, POWDER_SNOW
 	dbw 4, TAIL_WHIP
 	dbw 7, ROAR
 	dbw 9, GROWL
-	dbw 10, QUICK_ATTACK
+	dbw 10, ICE_SHARD
 	dbw 12, CONFUSE_RAY
-	dbw 15, FIRE_SPIN
+	dbw 15, ICY_WIND
 	dbw 18, PAYBACK
-	dbw 20, WILL_O_WISP
+	dbw 20, MIST
 	dbw 23, FAINT_ATTACK
-	dbw 26, NIGHT_SHADE
-	dbw 28, FLAME_BURST
+	dbw 26, HEX
+	dbw 28, AURORA_BEAM
 	dbw 31, EXTRASENSORY
 	dbw 34, SAFEGUARD
-	dbw 36, FLAMETHROWER
+	dbw 36, ICE_BEAM
 	dbw 39, SPITE
-	dbw 42, FIRE_BLAST
+	dbw 42, BLIZZARD
 	dbw 44, NASTY_PLOT
 	dbw 47, DESTINY_BOND
-	dbw 50, INFERNO
+	dbw 50, SHEER_COLD
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, HEX
-	dbw 1, HEX
-	dbw 1, EMBER
-	dbw 1, QUICK_ATTACK
+	dbw LEARN_EVO_MOVE, DAZZLINGLEAM
+	dbw 1, DAZZLINGLEAM
+	dbw 1, POWDER_SNOW
+	dbw 1, ICE_SHARD
 	dbw 1, CONFUSE_RAY
 	dbw 1, SAFEGUARD
-	dbw 1, FIRE_SPIN
+	dbw 1, ICY_WIND
 	dbw 1, NASTY_PLOT
-	dbw 1, FLAMETHROWER
+	dbw 1, ICE_BEAM
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:

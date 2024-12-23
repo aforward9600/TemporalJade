@@ -26,9 +26,9 @@ SpawnPoints:
 
 	spawn MURKROW_VALLEY,             17,  8
 	spawn CHERRYGROVE_CITY,           29, 12
-	spawn ZACONIA_CITY,               19, 18
 	spawn MORAVIL_SCHOOL_OUTSIDE,     11,  8
-	spawn BLACKTHORN_CITY,            23, 30
+	spawn ZACONIA_CITY,               19, 18
+	spawn ORRIAN_DESERT,              10, 26
 	spawn MAHOGANY_TOWN,              15, 14
 	spawn LAKE_OF_RAGE,                5, 20
 	spawn ECRUTEAK_CITY,              23, 28

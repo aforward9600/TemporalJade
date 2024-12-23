@@ -1229,3 +1229,9 @@ HusCavern_Blocks:
 
 OrrianDesert_Blocks:
 	INCBIN "maps/OrrianDesert.ablk"
+
+ScantelesTown_Blocks:
+	INCBIN "maps/ScantelesTown.ablk"
+
+HusCavernB1F_Blocks:
+	INCBIN "maps/HusCavernB1F.ablk"
