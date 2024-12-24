@@ -227,7 +227,7 @@ OldPokedexOrder:
 	dw YANMA
 	dw YANMEGA
 	dw WOOPER
-	dw QUAGSIRE
+	dw CLODSIRE
 	dw MURKROW
 	dw HONCHKROW
 	dw MISDREAVUS

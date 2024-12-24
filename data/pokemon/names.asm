@@ -229,7 +229,7 @@ PokemonNames::
 	db "Yanma@@@@@"
 	db "Yanmega@@@"
 	db "Wooper@@@@"
-	db "Quagsire@@"
+	db "Clodsire@@"
 	db "Murkrow@@@"
 	db "Honchkrow@"
 	db "Misdreavus"

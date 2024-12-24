@@ -247,7 +247,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 44, GRAVELER
 	dbw 44, EXCADRILL
-	dbw 44, QUAGSIRE
+	dbw 44, CLODSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
 	dbw 44, ONIX
@@ -256,7 +256,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 44, GRAVELER
 	dbw 44, EXCADRILL
-	dbw 44, QUAGSIRE
+	dbw 44, CLODSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
 	dbw 44, ONIX
@@ -265,7 +265,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 44, GRAVELER
 	dbw 44, RIBOMBEE
-	dbw 44, QUAGSIRE
+	dbw 44, CLODSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, GOLBAT
 	dbw 44, ONIX
@@ -325,7 +325,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 44, GRAVELER
 	dbw 44, GOLBAT
-	dbw 44, QUAGSIRE
+	dbw 44, CLODSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, GRAVELER
 	dbw 44, STEELIX
@@ -1223,7 +1223,7 @@ JohtoGrassWildMons:
 	dbw 44, CHANDELURE
 	dbw 44, CHANDELURE
 	; nite
-	dbw 44, QUAGSIRE
+	dbw 44, CLODSIRE
 	dbw 44, RIBOMBEE
 	dbw 44, WEEPINBELL
 	dbw 44, AMPHAROS
@@ -1691,7 +1691,7 @@ JohtoGrassWildMons:
 	dbw 23, GEODUDE
 	dbw 23, ONIX
 	dbw 23, CRAWDAUNT
-	dbw 23, QUAGSIRE
+	dbw 23, CLODSIRE
 	dbw 23, STEELIX
 	; day
 	dbw 23, ZUBAT
@@ -1700,7 +1700,7 @@ JohtoGrassWildMons:
 	dbw 23, GEODUDE
 	dbw 23, ONIX
 	dbw 23, CRAWDAUNT
-	dbw 23, QUAGSIRE
+	dbw 23, CLODSIRE
 	dbw 23, STEELIX
 	; nite
 	dbw 23, ZUBAT
@@ -1991,7 +1991,7 @@ JohtoGrassWildMons:
 	dbw 23, GEODUDE
 	dbw 23, ONIX
 	dbw 23, CRAWDAUNT
-	dbw 23, QUAGSIRE
+	dbw 23, CLODSIRE
 	dbw 23, STEELIX
 	; day
 	dbw 23, ZUBAT
@@ -2000,7 +2000,7 @@ JohtoGrassWildMons:
 	dbw 23, GEODUDE
 	dbw 23, ONIX
 	dbw 23, CRAWDAUNT
-	dbw 23, QUAGSIRE
+	dbw 23, CLODSIRE
 	dbw 23, STEELIX
 	; nite
 	dbw 23, ZUBAT

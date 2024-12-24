@@ -75,7 +75,7 @@ EvosAttacksPointers2::
 	dw YanmaEvosAttacks
 	dw YanmegaEvosAttacks
 	dw WooperEvosAttacks
-	dw QuagsireEvosAttacks
+	dw ClodsireEvosAttacks
 	dw MurkrowEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw MisdreavusEvosAttacks
@@ -1702,43 +1702,40 @@ endc
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:
-	dbbw EVOLVE_LEVEL, 20, QUAGSIRE
+	dbbw EVOLVE_LEVEL, 20, CLODSIRE
 	db 0 ; no more evolutions
-	dbw 1, WATER_GUN
+	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
-	dbw 9, MUD_SHOT
-	dbw 12, AQUA_JET
-	dbw 15, SLAM
-	dbw 19, MUD_BOMB
-	dbw 23, AMNESIA
-	dbw 29, SCREECH
-	dbw 33, EARTHQUAKE
-	dbw 37, RAIN_DANCE
-	dbw 43, MIST
-	dbw 43, HAZE
-	dbw 47, MUDDY_WATER
-	dbw 51, AQUA_TAIL
-	dbw 56, WAVE_CRASH
+	dbw 4, MUD_SHOT
+	dbw 8, SLUDGE
+	dbw 12, SPIKES
+	dbw 16, SLAM
+	dbw 21, REST
+	dbw 24, POISON_JAB
+	dbw 28, SLUDGE_WAVE
+	dbw 32, AMNESIA
+	dbw 36, TOXIC
+	dbw 40, MUDDY_WATER
+	dbw 44, EARTHQUAKE
 	db 0 ; no more level-up moves
 
-QuagsireEvosAttacks:
+ClodsireEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, BULLDOZE
-	dbw 1, BULLDOZE
-	dbw 1, AQUA_JET
+	dbw LEARN_EVO_MOVE, AMNESIA
+	dbw 1, AMNESIA
+	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
-	dbw 9, MUD_SHOT
-	dbw 15, SLAM
-	dbw 19, MUD_BOMB
-	dbw 24, AMNESIA
-	dbw 31, SCREECH
-	dbw 36, EARTHQUAKE
-	dbw 41, RAIN_DANCE
-	dbw 48, MIST
-	dbw 48, HAZE
-	dbw 53, MUDDY_WATER
-	dbw 57, AQUA_TAIL
-	dbw 62, WAVE_CRASH
+	dbw 4, MUD_SHOT
+	dbw 8, SLUDGE
+	dbw 12, SPIKES
+	dbw 16, SLAM
+	dbw 21, REST
+	dbw 24, POISON_JAB
+	dbw 30, SLUDGE_WAVE
+	dbw 36, MEGAHORN
+	dbw 40, TOXIC
+	dbw 44, MUDDY_WATER
+	dbw 48, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:

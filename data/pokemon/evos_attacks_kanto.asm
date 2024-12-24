@@ -2009,19 +2009,19 @@ GrimerEvosAttacks:
 	dbw 1, POISON_GAS
 	dbw 1, POUND
 	dbw 4, HARDEN
-	dbw 7, MUD_SLAP
+	dbw 7, BITE
 	dbw 12, DISABLE
-	dbw 15, SLUDGE
-	dbw 18, MUD_BOMB
+	dbw 15, ACID_SPRAY
+	dbw 18, POISON_FANG
 	dbw 21, MINIMIZE
 	dbw 26, KNOCK_OFF
-	dbw 29, SLUDGE_BOMB
-	dbw 32, SLUDGE_WAVE
+	dbw 29, CRUNCH
+	dbw 32, SUCKER_PUNCH
 	dbw 37, SCREECH
 	dbw 40, BELCH
 	dbw 43, ACID_ARMOR
 	dbw 46, GUNK_SHOT
-	dbw 48, TOXIC
+	dbw 48, CATASTROPHE
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
@@ -2031,19 +2031,19 @@ MukEvosAttacks:
 	dbw 1, POISON_GAS
 	dbw 1, POUND
 	dbw 4, HARDEN
-	dbw 7, MUD_SLAP
+	dbw 7, BITE
 	dbw 12, DISABLE
-	dbw 15, SLUDGE
-	dbw 18, MUD_BOMB
+	dbw 15, ACID_SPRAY
+	dbw 18, POISON_FANG
 	dbw 21, MINIMIZE
 	dbw 26, KNOCK_OFF
-	dbw 29, SLUDGE_BOMB
-	dbw 32, SLUDGE_WAVE
+	dbw 29, CRUNCH
+	dbw 32, SUCKER_PUNCH
 	dbw 37, SCREECH
 	dbw 40, BELCH
 	dbw 46, ACID_ARMOR
 	dbw 52, GUNK_SHOT
-	dbw 57, TOXIC
+	dbw 57, CATASTROPHE
 	db 0 ; no more level-up moves
 
 MareanieEvosAttacks:
@@ -2287,43 +2287,45 @@ VoltorbEvosAttacks:
 	dbbw EVOLVE_LEVEL, 30, ELECTRODE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 1, THUNDERSHOCK
-	dbw 4, SONICBOOM
+	dbw 4, THUNDERSHOCK
+	dbw 6, STUN_SPORE
+	dbw 9, BULLET_SEED
 	dbw 11, ROLLOUT
 	dbw 13, SCREECH
 	dbw 16, CHARGE_BEAM
 	dbw 20, SWIFT
 	dbw 22, WILD_CHARGE
 	dbw 26, SELFDESTRUCT
-	dbw 29, LIGHT_SCREEN
-	dbw 34, SUCKER_PUNCH
-	dbw 37, EXPLOSION
-	dbw 41, GYRO_BALL
-	dbw 46, MIRROR_COAT
-	dbw 48, THUNDER
-	dbw 52, VOLT_TACKLE
+	dbw 29, ENERGY_BALL
+	dbw 34, DISCHARGE
+	dbw 34, SEED_BOMB
+	dbw 41, EXPLOSION
+	dbw 46, GYRO_BALL
+	dbw 50, SYNTHESIS
+	dbw 58, VOLT_TACKLE
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, THUNDERBOLT
-	dbw 1, THUNDERBOLT
+	dbw LEARN_EVO_MOVE, SUCKER_PUNCH
+	dbw 1, SUCKER_PUNCH
 	dbw 1, TACKLE
-	dbw 1, THUNDERSHOCK
-	dbw 4, SONICBOOM
+	dbw 4, THUNDERSHOCK
+	dbw 6, STUN_SPORE
+	dbw 9, BULLET_SEED
 	dbw 11, ROLLOUT
 	dbw 13, SCREECH
 	dbw 16, CHARGE_BEAM
 	dbw 20, SWIFT
 	dbw 22, WILD_CHARGE
 	dbw 26, SELFDESTRUCT
-	dbw 29, LIGHT_SCREEN
-	dbw 36, SUCKER_PUNCH
+	dbw 29, ENERGY_BALL
+	dbw 34, DISCHARGE
+	dbw 34, SEED_BOMB
 	dbw 41, EXPLOSION
-	dbw 47, GYRO_BALL
-	dbw 54, MIRROR_COAT
-	dbw 58, THUNDER
-	dbw 62, VOLT_TACKLE
+	dbw 46, GYRO_BALL
+	dbw 50, SYNTHESIS
+	dbw 58, VOLT_TACKLE
 	db 0 ; no more level-up moves
 
 ExeggcuteEvosAttacks:

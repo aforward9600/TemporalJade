@@ -41,6 +41,7 @@ AlphabeticalPokedexOrder:
 	dw CLEFABLE
 	dw CLEFAIRY
 	dw CLEFFA
+	dw CLODSIRE
 	dw CONKELDURR
 	dw CORPHISH
 	dw CORSOLA
@@ -228,7 +229,6 @@ AlphabeticalPokedexOrder:
 	dw PSYDUCK
 	dw PUPITAR
 	dw PURRLOIN
-	dw QUAGSIRE
 	dw QUILAVA
 	dw QWILFISH
 	dw RAICHU

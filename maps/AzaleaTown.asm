@@ -132,7 +132,7 @@ UnusedWoosterScript:
 	faceplayer
 	opentext
 	writetext WoosterText
-	cry QUAGSIRE
+	cry CLODSIRE
 	waitbutton
 	closetext
 	end

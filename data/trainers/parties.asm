@@ -1926,7 +1926,7 @@ if DEF(_CHALLENGE)
 	dw X_SCISSOR, CLOSE_COMBAT, BATON_PASS, BULK_UP
 endc
 	db 70
-	dw QUAGSIRE
+	dw CLODSIRE
 if DEF(_CHALLENGE)
 	db QUICK_CLAW
 else
@@ -2187,7 +2187,7 @@ endc
 	next_list_item ; YOUNGSTER (4)
 	db "Caleb@", TRAINERTYPE_NORMAL
 	db 31
-	dw QUAGSIRE
+	dw CLODSIRE
 	db 31
 	dw GRANBULL
 	db 33
@@ -2303,7 +2303,7 @@ endc
 	db 67
 	dw MAGMORTAR
 	db 68
-	dw QUAGSIRE
+	dw CLODSIRE
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (6)
@@ -2369,7 +2369,7 @@ endc
 	next_list_item ; SCHOOLBOY (13) Route 35
 	db "Caleb@", TRAINERTYPE_NORMAL
 	db 31
-	dw QUAGSIRE
+	dw CLODSIRE
 	db 31
 	dw GRANBULL
 	db 33
@@ -2399,7 +2399,7 @@ endc
 	db 22
 	dw TANGELA
 	db 20
-	dw QUAGSIRE
+	dw CLODSIRE
 	db 25
 	dw YANMA
 	db -1 ; end
@@ -2450,7 +2450,7 @@ endc
 	db 27
 	dw TANGELA
 	db 30
-	dw QUAGSIRE
+	dw CLODSIRE
 	db 30
 	dw YANMA
 	db -1 ; end
@@ -2467,7 +2467,7 @@ endc
 	dw YANMA
 	dw QUICK_ATTACK, DOUBLE_TEAM, SONICBOOM, SUPERSONIC
 	db 35
-	dw QUAGSIRE
+	dw CLODSIRE
 	dw TAIL_WHIP, SLAM, AMNESIA, EARTHQUAKE
 	db -1 ; end
 
@@ -2872,7 +2872,7 @@ else
 	db NO_ITEM
 endc
 	db 52
-	dw QUAGSIRE
+	dw CLODSIRE
 	db NO_ITEM
 	db -1 ; end
 
@@ -3097,7 +3097,7 @@ endc
 	db 76
 	dw GARCHOMP
 	db 76
-	dw QUAGSIRE
+	dw CLODSIRE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (16)
@@ -3201,7 +3201,7 @@ endc
 	next_list_item ; COOLTRAINERF (6)
 	db "Reese@", TRAINERTYPE_NICKNAME
 	db 52
-	dw QUAGSIRE
+	dw CLODSIRE
 	db "Mr No Arms@"
 	db 52
 	dw FARIGIRAF
@@ -3918,7 +3918,7 @@ endc
 	next_list_item ; ManM (14) Radio Tower 2F
 	db "Man@", TRAINERTYPE_NORMAL
 	db 33
-	dw QUAGSIRE
+	dw CLODSIRE
 	db 33
 	dw DUDUNSPARS
 	db 33
@@ -4722,7 +4722,7 @@ endc
 	dw DEWGONG
 	db NO_ITEM
 	db 45
-	dw QUAGSIRE
+	dw CLODSIRE
 	db NO_ITEM
 	db 46
 	dw TENTACRUEL
@@ -4932,7 +4932,7 @@ endc
 	db 24
 	dw GYARADOS
 	db 24
-	dw QUAGSIRE
+	dw CLODSIRE
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (6) BERKE Route 41
@@ -5058,7 +5058,7 @@ endc
 	db 70
 	dw OCTILLERY
 	db 71
-	dw QUAGSIRE
+	dw CLODSIRE
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (19)
@@ -5218,7 +5218,7 @@ endc
 	next_list_item ; SWIMMERF (14)
 	db "Nikki@", TRAINERTYPE_NORMAL
 	db 70
-	dw QUAGSIRE
+	dw CLODSIRE
 	db 70
 	dw VAPOREON
 	db 71
@@ -7942,7 +7942,7 @@ endc
 	next_list_item ; POKEFANM (3)
 	db "Roberto@", TRAINERTYPE_ITEM
 	db 46
-	dw QUAGSIRE
+	dw CLODSIRE
 	db SITRUS_BERRY
 	db 46
 	dw TANGROWTH
@@ -9360,7 +9360,7 @@ else
 endc
 	dw MOONBLAST, AIR_SLASH, EXTREMESPEED, SAFEGUARD
 	db 45
-	dw QUAGSIRE
+	dw CLODSIRE
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -9412,7 +9412,7 @@ else
 endc
 	dw MOONBLAST, AIR_SLASH, EXTREMESPEED, SAFEGUARD
 	db 52
-	dw QUAGSIRE
+	dw CLODSIRE
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -9464,7 +9464,7 @@ else
 endc
 	dw MOONBLAST, AIR_SLASH, EXTREMESPEED, AURA_SPHERE
 	db 55
-	dw QUAGSIRE
+	dw CLODSIRE
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -12153,7 +12153,7 @@ else
 endc
 	dw MOONBLAST, AIR_SLASH, EXTREMESPEED, AURA_SPHERE
 	db 67
-	dw QUAGSIRE
+	dw CLODSIRE
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else
@@ -12205,7 +12205,7 @@ else
 endc
 	dw MOONBLAST, AIR_SLASH, EXTREMESPEED, AURA_SPHERE
 	db 85
-	dw QUAGSIRE
+	dw CLODSIRE
 if DEF(_CHALLENGE)
 	db FOCUS_SASH
 else

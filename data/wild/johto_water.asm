@@ -7,28 +7,28 @@ JohtoWaterWildMons:
 	dbw 40, POLIWHIRL
 	dbw 43, AZUMARILL
 	dbw 45, GOLDUCK
-	dbw 45, QUAGSIRE
+	dbw 45, CLODSIRE
 
 	map_id UNION_CAVE_1F
 	db 2 percent ; encounter rate
 	dbw 40, GOLBAT
-	dbw 42, QUAGSIRE
+	dbw 42, CLODSIRE
 	dbw 42, TENTACRUEL
-	dbw 45, QUAGSIRE
+	dbw 45, CLODSIRE
 
 	map_id UNION_CAVE_B1F
 	db 2 percent ; encounter rate
 	dbw 40, GOLBAT
-	dbw 42, QUAGSIRE
+	dbw 42, CLODSIRE
 	dbw 42, TENTACRUEL
-	dbw 45, QUAGSIRE
+	dbw 45, CLODSIRE
 
 	map_id UNION_CAVE_B2F
 	db 4 percent ; encounter rate
 	dbw 40, GOLBAT
-	dbw 42, QUAGSIRE
+	dbw 42, CLODSIRE
 	dbw 42, TENTACRUEL
-	dbw 45, QUAGSIRE
+	dbw 45, CLODSIRE
 
 	map_id SLOWPOKE_WELL_B1F
 	db 2 percent ; encounter rate
@@ -145,7 +145,7 @@ JohtoWaterWildMons:
 	map_id ROUTE_32
 	db 6 percent ; encounter rate
 	dbw 40, TENTACRUEL
-	dbw 45, QUAGSIRE
+	dbw 45, CLODSIRE
 	dbw 45, POLIWRATH
 	dbw 45, POLITOED
 
@@ -293,7 +293,7 @@ JohtoWaterWildMons:
 	db 10 percent
 	dbw 20, MAGIKARP
 	dbw 20, POLIWHIRL
-	dbw 20, QUAGSIRE
+	dbw 20, CLODSIRE
 	dbw 20, GYARADOS
 
 	db -1 ; end

@@ -500,10 +500,10 @@ SeelEggMoves:
 	dw -1 ; end
 
 GrimerEggMoves:
-	dw HAZE
 	dw MEAN_LOOK
-	dw LICK
+	dw SCARY_FACE
 	dw SHADOW_PUNCH
+	dw SPITE
 	dw -1 ; end
 
 MareanieEggMoves:

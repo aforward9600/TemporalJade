@@ -536,7 +536,7 @@ DrilburFrontpic:     INCBIN "gfx/pokemon/drilbur/front.animated.2bpp.lz"
 SewaddleFrontpic:    INCBIN "gfx/pokemon/sewaddle/front.animated.2bpp.lz"
 VenipedeFrontpic:    INCBIN "gfx/pokemon/venipede/front.animated.2bpp.lz"
 GalvantulaBackpic:   INCBIN "gfx/pokemon/galvantula/back.2bpp.lz"
-QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
+ClodsireFrontpic:    INCBIN "gfx/pokemon/clodsire/front.animated.2bpp.lz"
 
 
 SECTION "Pics 10", ROMX
@@ -833,7 +833,7 @@ ByronPic:            INCBIN "gfx/trainers/byron.2bpp.lz"
 FerroseedBackpic:    INCBIN "gfx/pokemon/ferroseed/back.2bpp.lz"
 TrumbeakFrontpic:    INCBIN "gfx/pokemon/trumbeak/front.animated.2bpp.lz"
 SeelBackpic:         INCBIN "gfx/pokemon/seel/back.2bpp.lz"
-QuagsireBackpic:     INCBIN "gfx/pokemon/quagsire/back.2bpp.lz"
+ClodsireBackpic:     INCBIN "gfx/pokemon/clodsire/back.2bpp.lz"
 MiltonPic:           INCBIN "gfx/trainers/milton.2bpp.lz"
 JolteonBackpic:      INCBIN "gfx/pokemon/jolteon/back.2bpp.lz"
 PikipekFrontpic:     INCBIN "gfx/pokemon/pikipek/front.animated.2bpp.lz"

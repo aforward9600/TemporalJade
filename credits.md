@@ -147,7 +147,8 @@ Farigiraf sprite and animation: Nuuk.
 
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
 Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
-Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty Joltik, Galvantula sprites
+Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty, Joltik, Galvantula,
+Alolan Grimer and Muk sprites
 
 Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
 Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny animations:
@@ -179,7 +180,9 @@ Regice, Regirock, and Registeel sprites: Mr Dustman, Sadfish, and Poisonous Gas
 
 Regigigas sprites: Blue Emerald
 
-Lance, Female Scientist and Cynthia overworld sprites: Rangi and the Polished Crystal Team.
+Lance, Female Scientist and Cynthia overworld sprites,
+Alolan Vulpix and Ninetales, Hisuian Voltorb and Electrode
+sprites: Rangi and the Polished Crystal Team.
 
 Clair Trainer Sprite base, Gen 5 Black Belt, Schoolgirl, Lass, Hiker, Youngster
 Ace Trainers and Swimmers sprites: Solo993

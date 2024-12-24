@@ -462,8 +462,8 @@ PokemonPicPointers::
 	dba YanmegaBackpic
 	dba WooperFrontpic
 	dba WooperBackpic
-	dba QuagsireFrontpic
-	dba QuagsireBackpic
+	dba ClodsireFrontpic
+	dba ClodsireBackpic
 	dba MurkrowFrontpic
 	dba MurkrowBackpic
 	dba HonchkrowFrontpic

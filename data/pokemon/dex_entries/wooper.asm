@@ -1,10 +1,10 @@
-	db "Water Fish@" ; species name
-	dw 104, 190 ; height, weight
+	db "PoisonFish@" ; species name
+	dw 104, 243 ; height, weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db   "After losing"
+	next "territory, Wooper"
+	next "began living on"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "land. It developed"
+	next "a poisonous film"
+	next "on its body.@"

@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db "Sludge@" ; species name
+	dw 204, 926 ; height, weight
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
+	db   "It has a passion"
+	next "for trash above"
+	next "all else, speedily"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	page "digesting it and"
+	next "creating crystals"
+	next "of poison.@"

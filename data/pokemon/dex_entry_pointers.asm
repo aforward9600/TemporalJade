@@ -226,7 +226,7 @@ PokedexDataPointerTable:
 	dba YanmaPokedexEntry
 	dba YanmegaPokedexEntry
 	dba WooperPokedexEntry
-	dba QuagsirePokedexEntry
+	dba ClodsirePokedexEntry
 	dba MurkrowPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba MisdreavusPokedexEntry

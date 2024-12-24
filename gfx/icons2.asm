@@ -103,7 +103,7 @@ Icons2:
 	dw YanmaIcon
 	dw YanmegaIcon
 	dw WooperIcon
-	dw QuagsireIcon
+	dw ClodsireIcon
 	dw MurkrowIcon
 	dw HonchkrowIcon
 	dw MisdreavusIcon
@@ -230,7 +230,7 @@ BeheeyemIcon:     INCBIN "gfx/icons/beheeyem.2bpp"
 YanmaIcon:        INCBIN "gfx/icons/yanma.2bpp"
 YanmegaIcon:      INCBIN "gfx/icons/yanmega.2bpp"
 WooperIcon:       INCBIN "gfx/icons/wooper.2bpp"
-QuagsireIcon:     INCBIN "gfx/icons/quagsire.2bpp"
+ClodsireIcon:     INCBIN "gfx/icons/clodsire.2bpp"
 MurkrowIcon:      INCBIN "gfx/icons/murkrow.2bpp"
 HonchkrowIcon:    INCBIN "gfx/icons/honchkrow.2bpp"
 MisdreavusIcon:   INCBIN "gfx/icons/misdreavus.2bpp"

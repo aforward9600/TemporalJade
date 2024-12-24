@@ -534,10 +534,10 @@ KantoGrassWildMons:
 	dbw 71, BLISSEY
 	; nite
 	dbw 71, CINCCINO
-	dbw 71, QUAGSIRE
+	dbw 71, CLODSIRE
 	dbw 71, NOCTOWL
 	dbw 71, NOCTOWL
-	dbw 71, QUAGSIRE
+	dbw 71, CLODSIRE
 	dbw 71, CHANSEY
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
@@ -564,10 +564,10 @@ KantoGrassWildMons:
 	dbw 71, BLISSEY
 	; nite
 	dbw 71, CINCCINO
-	dbw 71, QUAGSIRE
+	dbw 71, CLODSIRE
 	dbw 71, NOCTOWL
 	dbw 71, NOCTOWL
-	dbw 71, QUAGSIRE
+	dbw 71, CLODSIRE
 	dbw 71, CHANSEY
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
@@ -594,10 +594,10 @@ KantoGrassWildMons:
 	dbw 71, BLISSEY
 	; nite
 	dbw 71, CINCCINO
-	dbw 71, QUAGSIRE
+	dbw 71, CLODSIRE
 	dbw 71, NOCTOWL
 	dbw 71, NOCTOWL
-	dbw 71, QUAGSIRE
+	dbw 71, CLODSIRE
 	dbw 71, CHANSEY
 	dbw 71, CHANSEY
 	dbw 71, BLISSEY
@@ -838,9 +838,9 @@ KantoGrassWildMons:
 	dbw 62, NOCTOWL
 	dbw 60, RIBOMBEE
 	dbw 60, TOXICROAK
-	dbw 60, QUAGSIRE
-	dbw 60, QUAGSIRE
-	dbw 60, QUAGSIRE
+	dbw 60, CLODSIRE
+	dbw 60, CLODSIRE
+	dbw 60, CLODSIRE
 
 	map_id ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -863,10 +863,10 @@ KantoGrassWildMons:
 	dbw 60, TOXICROAK
 	dbw 60, TOXICROAK
 	; nite
-	dbw 58, QUAGSIRE
+	dbw 58, CLODSIRE
 	dbw 58, NOCTOWL
 	dbw 60, RIBOMBEE
-	dbw 60, QUAGSIRE
+	dbw 60, CLODSIRE
 	dbw 62, NOCTOWL
 	dbw 62, TOXICROAK
 	dbw 62, TOXICROAK

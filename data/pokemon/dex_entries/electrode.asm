@@ -1,10 +1,10 @@
-	db "Ball@" ; species name
-	dw 311, 1470 ; height, weight
+	db "Sphere@" ; species name
+	dw 311, 1565 ; height, weight
 
-	db   "The more energy it"
-	next "charges up, the"
-	next "faster it gets."
+	db   "The tissue on the"
+	next "its body is"
+	next "similar to an"
 
-	page "But this also"
-	next "makes it more"
-	next "likely to explode.@"
+	page "Apricorn. It has a"
+	next "shock equal to 20"
+	next "lightning bolts.@"

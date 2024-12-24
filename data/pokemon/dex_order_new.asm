@@ -73,7 +73,7 @@ NewPokedexOrder:
 	dw MARILL
 	dw AZUMARILL
 	dw WOOPER
-	dw QUAGSIRE
+	dw CLODSIRE
 	dw DUSKULL
 	dw DUSCLOPS
 	dw DUSKNOIR

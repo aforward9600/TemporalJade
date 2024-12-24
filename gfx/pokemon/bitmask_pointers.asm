@@ -225,7 +225,7 @@ BitmasksPointers:
 	dw YanmaBitmasks
 	dw YanmegaBitmasks
 	dw WooperBitmasks
-	dw QuagsireBitmasks
+	dw ClodsireBitmasks
 	dw MurkrowBitmasks
 	dw HonchkrowBitmasks
 	dw MisdreavusBitmasks

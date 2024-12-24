@@ -1,10 +1,10 @@
 	db "Sludge@" ; species name
-	dw 311, 660 ; height, weight
+	dw 303, 1146 ; height, weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "Muk's coloration"
+	next "becomes increas-"
+	next "ingly vivid the"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "more it feasts on"
+	next "its favorite dish-"
+	next "trash.@"

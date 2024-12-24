@@ -1,10 +1,10 @@
-	db "Ball@" ; species name
-	dw 108, 230 ; height, weight
+	db "Sphere@" ; species name
+	dw 108, 287 ; height, weight
 
-	db   "During the study"
-	next "of this #mon,"
-	next "it was discovered"
+	db   "It resembles a"
+	next "# Ball. When"
+	next "excited, it"
 
-	page "that its compo-"
-	next "nents are not"
-	next "found in nature.@"
+	page "discharges an"
+	next "electric current"
+	next "and laughs.@"

@@ -450,8 +450,10 @@ WooperEggMoves:
 	dw BODY_SLAM
 	dw ANCIENTPOWER
 	dw ACID_SPRAY
+	dw COUNTER
 	dw DOUBLE_KICK
-	dw ENCORE
+	dw HAZE
+	dw MIST
 	dw RECOVER
 	dw -1 ; end
 

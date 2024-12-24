@@ -950,7 +950,7 @@ BattleTowerMons2:
 	bigdw 37 ; SDef
 	db "NIDOKINGU@@"
 
-	dw QUAGSIRE
+	dw CLODSIRE
 	db QUICK_CLAW
 	dw AMNESIA, EARTHQUAKE, WATERFALL, RAIN_DANCE
 
@@ -3181,7 +3181,7 @@ BattleTowerMons7:
 	bigdw 166 ; SDef
 	db "GIyaRADOSU@"
 
-	dw QUAGSIRE
+	dw CLODSIRE
 	db LUM_BERRY
 	dw EARTHQUAKE, WATERFALL, SLUDGE_BOMB, IRON_TAIL
 

@@ -107,8 +107,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  PINK   ; DODRIO
 	icon_pals BLUE,   GRAY   ; SEEL
 	icon_pals BLUE,   GRAY   ; DEWGONG
-	icon_pals PURPLE, GREEN  ; GRIMER
-	icon_pals PURPLE, GREEN  ; MUK
+	icon_pals GREEN,  PURPLE ; GRIMER
+	icon_pals GREEN,  PURPLE ; MUK
 	icon_pals BLUE,   PINK   ; MAREANIE
 	icon_pals BLUE,   PINK   ; TOXAPEX
 	icon_pals PURPLE, BLUE   ; GASTLY
@@ -120,8 +120,8 @@ MonMenuIconPals:
 	icon_pals RED,    PINK   ; HYPNO
 	icon_pals RED,    PINK   ; CORPHISH
 	icon_pals RED,    PINK   ; CRAWDAUNT
-	icon_pals RED,    BLUE   ; VOLTORB
-	icon_pals RED,    BLUE   ; ELECTRODE
+	icon_pals RED,    GRAY   ; VOLTORB
+	icon_pals RED,    GRAY   ; ELECTRODE
 	icon_pals PINK,   GREEN  ; EXEGGCUTE
 	icon_pals GREEN,  RED    ; EXEGGUTOR
 	icon_pals BROWN,  TEAL   ; CUBONE
@@ -236,8 +236,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; BEHEEYEM
 	icon_pals RED,    BLUE   ; YANMA
 	icon_pals GREEN,  TEAL   ; YANMEGA
-	icon_pals BLUE,   PINK   ; WOOPER
-	icon_pals BLUE,   PINK   ; QUAGSIRE
+	icon_pals BROWN,  BLUE   ; WOOPER
+	icon_pals BROWN,  BLUE   ; CLODSIRE
 	icon_pals BLUE,   PURPLE ; MURKROW
 	icon_pals BLUE,   PURPLE ; HONCHKROW
 	icon_pals RED,    BLUE   ; MISDREAVUS
