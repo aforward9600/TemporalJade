@@ -1,10 +1,10 @@
 	db "Mouse@" ; species name
-	dw 207, 660 ; height, weight
+	dw 204, 463 ; height, weight
 
-	db   "If its electric"
-	next "pouches run empty,"
-	next "it raises its tail"
+	db   "When you rub its"
+	next "cheeks, a sweet"
+	next "fragrance comes"
 
-	page "to gather electri-"
-	next "city from the"
-	next "atmosphere.@"
+	page "wafting out."
+	next "However, you'll get"
+	next "a light shock!@"

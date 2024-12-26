@@ -148,7 +148,7 @@ Farigiraf sprite and animation: Nuuk.
 Nuukiie: Aron, Lairon, Farigiraf, Archen, Archeops, Orthworm, Tirtouga,
 Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
 Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty, Joltik, Galvantula,
-Alolan Grimer and Muk sprites
+Alolan Grimer and Muk, Alolan Raichu sprites
 
 Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
 Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny animations:

@@ -643,8 +643,8 @@ PikachuEvosAttacks:
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, THUNDERPUNCH
-	dbw 1, THUNDERPUNCH
+	dbw LEARN_EVO_MOVE, PSYCHIC_M
+	dbw 1, PSYCHIC_M
 	dbw 1, THUNDERSHOCK
 	dbw 1, TAIL_WHIP
 	dbw 1, QUICK_ATTACK
