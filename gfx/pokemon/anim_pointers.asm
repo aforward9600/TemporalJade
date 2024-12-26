@@ -318,6 +318,9 @@ AnimationPointers:
 	dw DeinoAnimation
 	dw ZweilousAnimation
 	dw HydreigonAnimation
+	dw DreepyAnimation
+	dw DrakloakAnimation
+	dw DragapultAnimation
 	dw LugiaAnimation
 	dw HoOhAnimation
 	dw CelebiAnimation

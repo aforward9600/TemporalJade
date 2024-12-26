@@ -318,6 +318,9 @@ FramesPointers:
 	dba DeinoFrames
 	dba ZweilousFrames
 	dba HydreigonFrames
+	dba DreepyFrames
+	dba DrakloakFrames
+	dba DragapultFrames
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames

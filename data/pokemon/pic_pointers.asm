@@ -651,6 +651,12 @@ PokemonPicPointers::
 	dba ZweilousBackpic
 	dba HydreigonFrontpic
 	dba HydreigonBackpic
+	dba DreepyFrontpic
+	dba DreepyBackpic
+	dba DrakloakFrontpic
+	dba DrakloakBackpic
+	dba DragapultFrontpic
+	dba DragapultBackpic
 	dba LugiaFrontpic
 	dba LugiaBackpic
 	dba HoOhFrontpic

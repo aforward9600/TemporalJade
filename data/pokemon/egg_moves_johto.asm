@@ -169,6 +169,9 @@ EggMovePointers2::
 	dw DeinoEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw DreepyEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
@@ -852,7 +855,6 @@ KotoraEggMoves:
 	dw DOUBLE_EDGE
 	dw FLAIL
 	dw LIGHT_SCREEN
-	dw PAY_DAY
 	dw ROAR
 	dw -1
 
@@ -887,6 +889,13 @@ SkorupiEggMoves:
 	dw SLASH
 	dw TWINEEDLE
 	dw WHIRLWIND
+	dw -1
+
+DreepyEggMoves:
+	dw CONFUSE_RAY
+	dw DISABLE
+	dw DRAGON_TAIL
+	dw SUCKER_PUNCH
 	dw -1
 
 NoEggMoves2:

@@ -13,11 +13,15 @@ EvosAttacksPointers3::
 	dw DeinoEvosAttacks
 	dw ZweilousEvosAttacks
 	dw HydreigonEvosAttacks
+	dw DreepyEvosAttacks
+	dw DrakloakEvosAttacks
+	dw DragapultEvosAttacks
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw NownEvosAttack
 	dw MissingnoEvosAttacks
+
 AxewEvosAttacks:
 	dbbw EVOLVE_LEVEL, 38, FRAXURE
 	db 0 ; no more evolutions
@@ -255,6 +259,60 @@ HydreigonEvosAttacks:
 	dbw 50, SCARY_FACE
 	dbw 68, HYPER_VOICE
 	dbw 79, OUTRAGE
+	db 0 ; no more level-up moves
+
+DreepyEvosAttacks:
+	dbbw EVOLVE_LEVEL, 50, DRAKLOAK
+	db 0 ; no more evolutions
+	dbw 1, ASTONISH
+	dbw 1, DRAGON_RAGE
+	dbw 1, QUICK_ATTACK
+	dbw 1, BITE
+	db 0 ; no more level-up moves
+
+DrakloakEvosAttacks:
+	dbbw EVOLVE_LEVEL, 60, DRAGAPULT
+	db 0 ; no more evolutions
+	dbw LEARN_EVO_MOVE, DRAGON_PULSE
+	dbw 1, DRAGON_PULSE
+	dbw 1, ASTONISH
+	dbw 1, DRAGON_RAGE
+	dbw 1, QUICK_ATTACK
+	dbw 1, BITE
+	dbw 6, LOCK_ON
+	dbw 12, PAYBACK
+	dbw 18, HEX
+	dbw 24, AGILITY
+	dbw 30, DOUBLE_HIT_M
+	dbw 36, U_TURN
+	dbw 42, DRAGON_DANCE
+	dbw 48, PHANTOMFORCE
+	dbw 54, TAKE_DOWN
+	dbw 61, DRAGON_RUSH
+	dbw 66, DOUBLE_EDGE
+	dbw 72, EXPLOSION
+	db 0 ; no more level-up moves
+
+DragapultEvosAttacks:
+	db 0 ; no more evolutions
+	dbw LEARN_EVO_MOVE, DRAGON_DARTS
+	dbw 1, DRAGON_DARTS
+	dbw 1, ASTONISH
+	dbw 1, DRAGON_RAGE
+	dbw 1, QUICK_ATTACK
+	dbw 1, BITE
+	dbw 6, LOCK_ON
+	dbw 12, PAYBACK
+	dbw 18, HEX
+	dbw 24, AGILITY
+	dbw 30, DOUBLE_HIT_M
+	dbw 36, U_TURN
+	dbw 42, DRAGON_DANCE
+	dbw 48, PHANTOMFORCE
+	dbw 54, TAKE_DOWN
+	dbw 63, DRAGON_RUSH
+	dbw 70, DOUBLE_EDGE
+	dbw 78, EXPLOSION
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:

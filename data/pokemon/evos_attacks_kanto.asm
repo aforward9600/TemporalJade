@@ -2740,7 +2740,6 @@ TangrowthEvosAttacks:
 
 KangaskhanEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, COMET_PUNCH
 	dbw 1, LEER
 	dbw 7, FAKE_OUT
 	dbw 10, TAIL_WHIP

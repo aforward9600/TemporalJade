@@ -319,6 +319,9 @@ PokedexDataPointerTable:
 	dba DeinoPokedexEntry
 	dba ZweilousPokedexEntry
 	dba HydreigonPokedexEntry
+	dba DreepyPokedexEntry
+	dba DrakloakPokedexEntry
+	dba DragapultPokedexEntry
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry

@@ -320,6 +320,9 @@ OldPokedexOrder:
 	dw DEINO
 	dw ZWEILOUS
 	dw HYDREIGON
+	dw DREEPY
+	dw DRAKLOAK
+	dw DRAGAPULT
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI

@@ -52,7 +52,6 @@ AlphabeticalMoveList::
 	dw CLAMP
 	dw CLOSE_COMBAT
 	dw COIL
-	dw COMET_PUNCH
 	dw CONFUSE_RAY
 	dw CONFUSION
 	dw CONSTRICT
@@ -85,6 +84,7 @@ AlphabeticalMoveList::
 	dw DRACO_FANG
 	dw DRAGON_CLAW
 	dw DRAGON_DANCE
+	dw DRAGON_DARTS
 	dw DRAGON_PULSE
 	dw DRAGON_RAGE
 	dw DRAGON_RUSH
@@ -237,11 +237,11 @@ AlphabeticalMoveList::
 	dw OUTRAGE
 	dw PAIN_SPLIT
 	dw PAYBACK
-	dw PAY_DAY
 	dw PECK
 	dw PERISH_SONG
 	dw PETAL_BLIZZ
 	dw PETAL_DANCE
+	dw PHANTOMFORCE
 	dw PINCIRFLURRY
 	dw PIN_MISSILE
 	dw PIXIE_PUNCH

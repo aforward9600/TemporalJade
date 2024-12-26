@@ -28,9 +28,9 @@ BattleAnimations::
 	dw BattleAnim_Pound
 	dw BattleAnim_KarateChop
 	dw BattleAnim_Doubleslap
-	dw BattleAnim_CometPunch
+	dw BattleAnim_DragonDarts
 	dw BattleAnim_MegaPunch
-	dw BattleAnim_PayDay
+	dw BattleAnim_PhantomForce
 	dw BattleAnim_FirePunch
 	dw BattleAnim_IcePunch
 	dw BattleAnim_Thunderpunch
@@ -831,7 +831,6 @@ BattleAnim_Doubleslap_branch_c961b:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_CometPunch:
 BattleAnim_PowerUpPunch:
 	anim_1gfx ANIM_GFX_HIT
 	anim_if_param_equal $1, BattleAnim_CometPunch_branch_c9641
@@ -2661,6 +2660,7 @@ BattleAnim_PoisonSting:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_DragonDarts:
 BattleAnim_Twineedle:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POISON_STING
@@ -2746,16 +2746,6 @@ BattleAnim_Barrage:
 	anim_sound 0, 1, SFX_EGG_BOMB
 	anim_obj ANIM_OBJ_18, 136, 56, $0
 	anim_wait 16
-	anim_ret
-
-BattleAnim_PayDay:
-	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_STATUS
-	anim_sound 0, 1, SFX_POUND
-	anim_obj ANIM_OBJ_01, 128, 56, $0
-	anim_wait 16
-	anim_sound 0, 1, SFX_PAY_DAY
-	anim_obj ANIM_OBJ_PAY_DAY, 120, 76, $1
-	anim_wait 64
 	anim_ret
 
 BattleAnim_Mimic:
@@ -4095,6 +4085,7 @@ BattleAnim_ShadowSneak:
 	anim_wait 4
 	anim_ret
 
+BattleAnim_PhantomForce:
 BattleAnim_FaintAttack:
 	anim_1gfx ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_CURSE

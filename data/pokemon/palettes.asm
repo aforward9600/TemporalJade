@@ -658,6 +658,12 @@ INCBIN "gfx/pokemon/zweilous/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/zweilous/shiny.pal"
 INCBIN "gfx/pokemon/hydreigon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/hydreigon/shiny.pal"
+INCBIN "gfx/pokemon/dreepy/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/dreepy/shiny.pal"
+INCBIN "gfx/pokemon/drakloak/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/drakloak/shiny.pal"
+INCBIN "gfx/pokemon/dragapult/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/dragapult/shiny.pal"
 INCBIN "gfx/pokemon/lugia/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/lugia/shiny.pal"
 INCBIN "gfx/pokemon/ho_oh/front.gbcpal", middle_colors

@@ -330,6 +330,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   GREEN  ; DEINO
 	icon_pals BLUE,   GREEN  ; ZWEILOUS
 	icon_pals BLUE,   GREEN  ; HYDREIGON
+	icon_pals GREEN,  BLUE   ; DREEPY
+	icon_pals RED,    BLUE   ; DRAKLOAK
+	icon_pals BLUE,   TEAL   ; DRAGAPULT
 	icon_pals BLUE,   RED    ; LUGIA
 	icon_pals RED,    GREEN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI

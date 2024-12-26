@@ -8,9 +8,9 @@ MoveDescriptions1:
 	dw PoundDescription
 	dw KarateChopDescription
 	dw DoubleslapDescription
-	dw CometPunchDescription
+	dw DragonDartsDescription
 	dw MegaPunchDescription
-	dw PayDayDescription
+	dw PhantomForceDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
@@ -427,17 +427,17 @@ DoubleslapDescription:
 	db   "Repeatedly slaps"
 	next "2-5 times.@"
 
-CometPunchDescription:
-	db   "Repeatedly punches"
-	next "2-5 times.@"
+DragonDartsDescription:
+	db   "Hits twice with"
+	next "propulsion.@"
 
 MegaPunchDescription:
 	db   "A powerful punch"
 	next "thrown very hard.@"
 
-PayDayDescription:
-	db   "Throws coins. Gets"
-	next "them back later.@"
+PhantomForceDescription:
+	db   "An otherworldly"
+	next "tackle.@"
 
 FirePunchDescription:
 	db   "A fiery punch. May"

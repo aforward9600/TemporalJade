@@ -70,6 +70,9 @@ Icons3:
 	dw DeinoIcon
 	dw ZweilousIcon
 	dw HydreigonIcon
+	dw DreepyIcon
+	dw DrakloakIcon
+	dw DragapultIcon
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
@@ -144,6 +147,9 @@ GarchompIcon:     INCBIN "gfx/icons/garchomp.2bpp"
 DeinoIcon:	  INCBIN "gfx/icons/deino.2bpp"
 ZweilousIcon:	  INCBIN "gfx/icons/zweilous.2bpp"
 HydreigonIcon:	  INCBIN "gfx/icons/hydreigon.2bpp"
+DreepyIcon:       INCBIN "gfx/icons/dreepy.2bpp"
+DrakloakIcon:     INCBIN "gfx/icons/drakloak.2bpp"
+DragapultIcon:    INCBIN "gfx/icons/dragapult.2bpp"
 LugiaIcon:	  INCBIN "gfx/icons/lugia.2bpp"
 HoOhIcon:	  INCBIN "gfx/icons/ho_oh.2bpp"
 CelebiIcon:	  INCBIN "gfx/icons/celebi.2bpp"

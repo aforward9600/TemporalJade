@@ -203,6 +203,9 @@ TyphlosionPokedexEntry:: INCLUDE "data/pokemon/dex_entries/typhlosion.asm"
 TotodilePokedexEntry::   INCLUDE "data/pokemon/dex_entries/totodile.asm"
 CroconawPokedexEntry::   INCLUDE "data/pokemon/dex_entries/croconaw.asm"
 FeraligatrPokedexEntry:: INCLUDE "data/pokemon/dex_entries/feraligatr.asm"
+DreepyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/dreepy.asm"
+DrakloakPokedexEntry::   INCLUDE "data/pokemon/dex_entries/drakloak.asm"
+DragapultPokedexEntry::  INCLUDE "data/pokemon/dex_entries/dragapult.asm"
 
 
 SECTION "Pokedex Entries 193-251", ROMX
@@ -240,7 +243,7 @@ BeheeyemPokedexEntry::   INCLUDE "data/pokemon/dex_entries/beheeyem.asm"
 YanmaPokedexEntry::      INCLUDE "data/pokemon/dex_entries/yanma.asm"
 YanmegaPokedexEntry::    INCLUDE "data/pokemon/dex_entries/yanmega.asm"
 WooperPokedexEntry::     INCLUDE "data/pokemon/dex_entries/wooper.asm"
-ClodsirePokedexEntry::   INCLUDE "data/pokemon/dex_entries/Clodsire.asm"
+ClodsirePokedexEntry::   INCLUDE "data/pokemon/dex_entries/clodsire.asm"
 MurkrowPokedexEntry::    INCLUDE "data/pokemon/dex_entries/murkrow.asm"
 HonchkrowPokedexEntry::  INCLUDE "data/pokemon/dex_entries/honchkrow.asm"
 MisdreavusPokedexEntry:: INCLUDE "data/pokemon/dex_entries/misdreavus.asm"

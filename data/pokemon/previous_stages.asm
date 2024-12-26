@@ -320,6 +320,9 @@ PreviousEvolutionStage::
 	dw DEINO
 	dw ZWEILOUS
 	dw 0
+	dw DREEPY
+	dw DRAKLOAK
+	dw 0
 	dw 0
 	dw 0
 	dw 0

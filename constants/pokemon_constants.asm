@@ -339,6 +339,9 @@ JOHTO_POKEMON EQU const_value
 	const DEINO
 	const ZWEILOUS
 	const HYDREIGON
+	const DREEPY
+	const DRAKLOAK
+	const DRAGAPULT
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb

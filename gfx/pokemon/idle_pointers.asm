@@ -318,6 +318,9 @@ AnimationIdlePointers:
 	dw DeinoAnimationIdle
 	dw ZweilousAnimationIdle
 	dw HydreigonAnimationIdle
+	dw DreepyAnimationIdle
+	dw DrakloakAnimationIdle
+	dw DragapultAnimationIdle
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle

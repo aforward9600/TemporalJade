@@ -318,6 +318,9 @@ NewPokedexOrder:
 	dw AXEW
 	dw FRAXURE
 	dw HAXORUS
+	dw DREEPY
+	dw DRAKLOAK
+	dw DRAGAPULT
 	dw LUGIA
 	dw HO_OH
 	dw MEWTWO

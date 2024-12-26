@@ -318,6 +318,9 @@ BitmasksPointers:
 	dw DeinoBitmasks
 	dw ZweilousBitmasks
 	dw HydreigonBitmasks
+	dw DreepyBitmasks
+	dw DrakloakBitmasks
+	dw DragapultBitmasks
 	dw LugiaBitmasks
 	dw HoOhBitmasks
 	dw CelebiBitmasks
