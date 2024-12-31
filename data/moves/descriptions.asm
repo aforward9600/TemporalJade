@@ -171,7 +171,7 @@ MoveDescriptions1:
 	dw SubstituteDescription
 	dw StruggleDescription
 	dw SketchDescription
-	dw TripleKickDescription
+	dw TripleAxelDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw MindReaderDescription
@@ -1079,7 +1079,7 @@ SketchDescription:
 	db   "Copies the foe's"
 	next "move permanently.@"
 
-TripleKickDescription:
+TripleAxelDescription:
 	db   "Hits three times"
 	next "with rising power.@"
 

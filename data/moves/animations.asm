@@ -191,7 +191,7 @@ BattleAnimations::
 	dw BattleAnim_Substitute
 	dw BattleAnim_Struggle
 	dw BattleAnim_Sketch
-	dw BattleAnim_TripleKick
+	dw BattleAnim_TripleAxel
 	dw BattleAnim_Thief
 	dw BattleAnim_SpiderWeb
 	dw BattleAnim_MindReader
@@ -3720,7 +3720,7 @@ BattleAnim_Sketch:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_TripleKick:
+BattleAnim_TripleAxel:
 	anim_1gfx ANIM_GFX_HIT
 	anim_if_param_equal $1, BattleAnim_TripleKick_branch_cac95
 	anim_if_param_equal $2, BattleAnim_TripleKick_branch_caca5
@@ -3728,6 +3728,8 @@ BattleAnim_TripleKick:
 	anim_obj ANIM_OBJ_07, 144, 48, $0
 	anim_wait 6
 	anim_obj ANIM_OBJ_01, 144, 48, $0
+	anim_wait 8
+	anim_call BattleAnim_IcePunch_branch_cbbdf
 	anim_wait 8
 	anim_ret
 
@@ -3737,6 +3739,8 @@ BattleAnim_TripleKick_branch_cac95:
 	anim_wait 6
 	anim_obj ANIM_OBJ_01, 120, 64, $0
 	anim_wait 8
+	anim_call BattleAnim_IcePunch_branch_cbbdf
+	anim_wait 8
 	anim_ret
 
 BattleAnim_TripleKick_branch_caca5:
@@ -3744,6 +3748,8 @@ BattleAnim_TripleKick_branch_caca5:
 	anim_obj ANIM_OBJ_07, 132, 32, $0
 	anim_wait 6
 	anim_obj ANIM_OBJ_01, 132, 32, $0
+	anim_wait 8
+	anim_call BattleAnim_IcePunch_branch_cbbdf
 	anim_wait 8
 	anim_ret
 

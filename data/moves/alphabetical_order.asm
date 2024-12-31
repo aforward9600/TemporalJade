@@ -379,7 +379,7 @@ AlphabeticalMoveList::
 	dw TOXIC
 	dw TRANSFORM
 	dw TRI_ATTACK
-	dw TRIPLE_KICK
+	dw TRIPLE_AXEL
 	dw TWIN_BEAM
 	dw TWINEEDLE
 	dw TWISTER

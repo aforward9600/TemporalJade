@@ -172,7 +172,7 @@
 	const SUBSTITUTE   ; a4
 	const STRUGGLE     ; a5
 	const SKETCH       ; a6 Can remove
-	const TRIPLE_KICK  ; a7 Can remove
+	const TRIPLE_AXEL  ; a7
 	const THIEF        ; a8
 	const SPIDER_WEB   ; a9
 	const MIND_READER  ; aa
