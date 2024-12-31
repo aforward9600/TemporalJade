@@ -11,6 +11,8 @@
 	db GENDER_F12_5 ; gender ratio
 	db 25 ; step cycles to hatch
 	INCBIN "gfx/pokemon/riolu/front.dimensions"
+	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
+	dw NULL ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

@@ -11,6 +11,8 @@
 	db GENDER_F12_5 ; gender ratio
 	db 40 ; step cycles to hatch
 	INCBIN "gfx/pokemon/snorlax/front.dimensions"
+	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
+	dw NULL ; Padding left-over from the unused back pic
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

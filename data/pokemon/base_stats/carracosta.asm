@@ -11,6 +11,8 @@
 	db GENDER_F12_5 ; gender ratio
 	db 30 ; step cycles to hatch
 	INCBIN "gfx/pokemon/carracosta/front.dimensions"
+	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
+	dw NULL ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 
