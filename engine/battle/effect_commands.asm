@@ -7197,3 +7197,7 @@ HailDefBoost:
 	ld b, h
 	ld c, l
 	ret
+
+BattleCommand_GyroBall:
+	callfar GyroBallEffect
+	ret

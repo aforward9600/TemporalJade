@@ -1876,8 +1876,8 @@ RockPolishDescription:
 	next "increase Speed.@"
 
 GyroBallDescription:
-	db   "User spins and"
-	next "deals damage.@"
+	db   "Deals more damage"
+	next "on faster foes.@"
 
 SlackOffDescription:
 	db	 "Slacks off and re-"

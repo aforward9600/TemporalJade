@@ -2819,10 +2819,10 @@ UTurn:
     applydamage
     criticaltext
     supereffectivetext
+    kingsrock
   	uturn
     checkfaint
     buildopponentrage
-    kingsrock
     endmove
 
 Coil:
@@ -2843,6 +2843,27 @@ Coil:
 	statupmessage
 	statupfailtext
 	raisesub
+	endmove
+
+GyroBall:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	gyroball
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	kingsrock
+	checkfaint
+	buildopponentrage
 	endmove
 
 ;WakeUpSlap:

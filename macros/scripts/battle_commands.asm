@@ -193,6 +193,7 @@ ENDM
 	command acrobatics
 	command uturn
 	command uturnanim
+	command gyroball
 ;	command wakeupslap
 ;	command awakenopponent
 
