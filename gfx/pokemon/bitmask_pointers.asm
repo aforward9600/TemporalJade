@@ -134,8 +134,8 @@ BitmasksPointers:
 	dw HorseaBitmasks
 	dw SeadraBitmasks
 	dw KingdraBitmasks
-	dw GoldeenBitmasks
-	dw SeakingBitmasks
+	dw GolettBitmasks
+	dw GolurkBitmasks
 	dw StaryuBitmasks
 	dw StarmieBitmasks
 	dw MimeJrBitmasks

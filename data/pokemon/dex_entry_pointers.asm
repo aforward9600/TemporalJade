@@ -135,8 +135,8 @@ PokedexDataPointerTable:
 	dba HorseaPokedexEntry
 	dba SeadraPokedexEntry
 	dba KingdraPokedexEntry
-	dba GoldeenPokedexEntry
-	dba SeakingPokedexEntry
+	dba GolettPokedexEntry
+	dba GolurkPokedexEntry
 	dba StaryuPokedexEntry
 	dba StarmiePokedexEntry
 	dba MimeJrPokedexEntry

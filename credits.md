@@ -150,7 +150,7 @@ Carracosta, Cottonee, Whimsicott, Litwick, Lampent, Chandelure, Corphish,
 Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty, Joltik, Galvantula,
 Alolan Grimer and Muk, Alolan Raichu sprites
 
-Deino, Axew, Fraxure, Yamask, Cofagrigus, Golett, Golurk, Shelmet, Accelgor, 
+Deino, Axew, Fraxure, Yamask, Golett, Golurk, Shelmet, Accelgor, 
 Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny animations:
 PokeMMO Generation 2 Sprites Mod
 
@@ -173,6 +173,8 @@ Ariana, Archer and Giovanni trainer and overworld sprite: SirWhibbles
 
 Ampharos and overworld sprite, Riolu, Lucario, Skorupi and 
 Drapion sprites: Prism Team
+
+Yamask and Cofagrigus sprites: Hibiwiki
 
 Gible line sprites front sprites: Blue Emerald
 

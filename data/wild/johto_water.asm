@@ -53,24 +53,24 @@ JohtoWaterWildMons:
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
-	dbw 17, GOLDEEN
+	dbw 17, BASCULIN
 	dbw 17, MARILL
-	dbw 20, SEAKING
-	dbw 20, SEAKING
+	dbw 20, BASCLEGION
+	dbw 20, BASCLEGION
 
 	map_id MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
-	dbw 17, GOLDEEN
+	dbw 17, BASCULIN
 	dbw 20, MARILL
-	dbw 20, SEAKING
-	dbw 17, SEAKING
+	dbw 20, BASCLEGION
+	dbw 17, BASCLEGION
 
 	map_id MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
-	dbw 17, GOLDEEN
+	dbw 17, BASCULIN
 	dbw 17, MARILL
-	dbw 20, SEAKING
-	dbw 20, SEAKING
+	dbw 20, BASCLEGION
+	dbw 20, BASCLEGION
 
 	map_id WHIRL_ISLAND_SW
 	db 4 percent ; encounter rate
@@ -95,10 +95,10 @@ JohtoWaterWildMons:
 
 	map_id SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
-	dbw 35, SEAKING
+	dbw 35, BASCLEGION
 	dbw 35, GOLDUCK
-	dbw 35, GOLDEEN
-	dbw 35, GOLDEEN
+	dbw 35, BASCULIN
+	dbw 35, BASCULIN
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
@@ -179,10 +179,10 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_42
 	db 4 percent ; encounter rate
-	dbw 20, GOLDEEN
-	dbw 15, GOLDEEN
-	dbw 20, SEAKING
-	dbw 20, SEAKING
+	dbw 20, BASCULIN
+	dbw 15, BASCULIN
+	dbw 20, BASCLEGION
+	dbw 20, BASCLEGION
 
 	map_id ROUTE_43
 	db 2 percent ; encounter rate
@@ -208,14 +208,14 @@ JohtoWaterWildMons:
 	map_id MURKROW_VALLEY
 	db 6 percent ; encounter rate
 	dbw 45, SEADRA
-	dbw 50, SEAKING
+	dbw 50, BASCLEGION
 	dbw 45, CURSOLA
 	dbw 50, TENTACRUEL
 
 	map_id CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
 	dbw 45, SEADRA
-	dbw 50, SEAKING
+	dbw 50, BASCLEGION
 	dbw 45, CURSOLA
 	dbw 50, TENTACRUEL
 
@@ -285,9 +285,9 @@ JohtoWaterWildMons:
 	map_id BLACK_RIVER_PASSAGE_ROUTE_25
 	db 10 percent
 	dbw 20, SLOWPOKE
-	dbw 20, GOLDEEN
+	dbw 20, BASCULIN
 	dbw 20, LAPRAS
-	dbw 20, SEAKING
+	dbw 20, BASCLEGION
 
 	map_id CRESCENT_LAKE
 	db 10 percent

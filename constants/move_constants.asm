@@ -32,7 +32,7 @@
 	const DOUBLE_KICK  ; 18
 	const MEGA_KICK    ; 19
 	const JUMP_KICK    ; 1a
-	const ROLLING_KICK ; 1b
+	const ROLLING_KICK ; 1b Can remove
 	const SAND_ATTACK  ; 1c
 	const HEADBUTT     ; 1d
 	const HORN_ATTACK  ; 1e
@@ -75,7 +75,7 @@
 	const LOW_KICK     ; 43
 	const COUNTER      ; 44
 	const SEISMIC_TOSS ; 45
-	const STRENGTH     ; 46
+	const STRENGTH     ; 46 Can remove
 	const ABSORB       ; 47
 	const MEGA_DRAIN   ; 48
 	const LEECH_SEED   ; 49
@@ -133,13 +133,13 @@
 	const BONE_CLUB    ; 7d
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
-	const CLAMP        ; 80
+	const CLAMP        ; 80 Can remove
 	const SWIFT        ; 81
-	const SKULL_BASH   ; 82
+	const SKULL_BASH   ; 82 Can remove
 	const SPIKE_CANNON ; 83
 	const CONSTRICT    ; 84
 	const AMNESIA      ; 85
-	const KINESIS      ; 86
+	const KINESIS      ; 86 Can remove
 	const SOFTBOILED   ; 87
 	const HI_JUMP_KICK ; 88
 	const GLARE        ; 89
@@ -153,7 +153,7 @@
 	const BUBBLE       ; 91
 	const DIZZY_PUNCH  ; 92
 	const SPORE        ; 93
-	const FLASH        ; 94
+	const FLASH        ; 94 Can remove
 	const PSYWAVE      ; 95
 	const SPLASH       ; 96
 	const ACID_ARMOR   ; 97
@@ -171,8 +171,8 @@
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const STRUGGLE     ; a5
-	const SKETCH       ; a6
-	const TRIPLE_KICK  ; a7
+	const SKETCH       ; a6 Can remove
+	const TRIPLE_KICK  ; a7 Can remove
 	const THIEF        ; a8
 	const SPIDER_WEB   ; a9
 	const MIND_READER  ; aa
@@ -222,7 +222,7 @@
 	const SLEEP_TALK   ; d6
 	const HEAL_BELL    ; d7
 	const RETURN       ; d8
-	const PRESENT      ; d9
+	const PRESENT      ; d9 Can remove
 	const COSMIC_POWER ; da
 	const SAFEGUARD    ; db
 	const PAIN_SPLIT   ; dc
@@ -255,7 +255,7 @@
 	const SHADOW_BALL  ; f7
 	const FUTURE_SIGHT ; f8
 	const ROCK_SMASH   ; f9
-	const WHIRLPOOL    ; fa
+	const WHIRLPOOL    ; fa Can remove
 	const STRENGTH_SAP ; fb
 	const DARK_PULSE   ; fc
 	const DRAGON_CLAW  ; fd

@@ -134,8 +134,8 @@ FramesPointers:
 	dba HorseaFrames
 	dba SeadraFrames
 	dba KingdraFrames
-	dba GoldeenFrames
-	dba SeakingFrames
+	dba GolettFrames
+	dba GolurkFrames
 	dba StaryuFrames
 	dba StarmieFrames
 	dba MimeJrFrames

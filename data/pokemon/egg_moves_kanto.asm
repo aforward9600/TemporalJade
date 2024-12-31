@@ -136,7 +136,7 @@ EggMovePointers1:
 	dw HorseaEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw GoldeenEggMoves
+	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -664,14 +664,6 @@ HorseaEggMoves:
 	dw SIGNAL_BEAM
 	dw WATER_PULSE
 	dw MUDDY_WATER
-	dw -1 ; end
-
-GoldeenEggMoves:
-	dw PSYBEAM
-	dw HAZE
-	dw HYDRO_PUMP
-	dw AQUA_TAIL
-	dw MUD_SHOT
 	dw -1 ; end
 
 MimeJrEggMoves:

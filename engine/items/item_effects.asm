@@ -2606,7 +2606,7 @@ RestorePP:
 	cp MAX_ETHER
 	jr z, .restore_all
 
-	ld c, 5
+	ld c, 10
 	cp LEPPA_BERRY
 	jr z, .restore_some
 

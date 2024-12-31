@@ -136,7 +136,7 @@ PreviousEvolutionStage::
 	dw HORSEA
 	dw SEADRA
 	dw 0
-	dw GOLDEEN
+	dw GOLETT
 	dw 0     ;78
 	dw STARYU
 	dw 0

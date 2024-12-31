@@ -117,9 +117,10 @@ AlphabeticalPokedexOrder:
 	dw GLIGAR
 	dw GLISCOR
 	dw GOLBAT
-	dw GOLDEEN
 	dw GOLDUCK
 	dw GOLEM
+	dw GOLETT
+	dw GOLURK
 	dw GOROTORA
 	dw GRANBULL
 	dw GRAVELER
@@ -255,7 +256,6 @@ AlphabeticalPokedexOrder:
 	dw SCRAGGY
 	dw SCYTHER
 	dw SEADRA
-	dw SEAKING
 	dw SEEL
 	dw SENTRET
 	dw SHELMET

@@ -134,8 +134,8 @@ AnimationPointers:
 	dw HorseaAnimation
 	dw SeadraAnimation
 	dw KingdraAnimation
-	dw GoldeenAnimation
-	dw SeakingAnimation
+	dw GolettAnimation
+	dw GolurkAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
 	dw MimeJrAnimation

@@ -12,8 +12,8 @@ Icons2:
 	dw HorseaIcon
 	dw SeadraIcon
 	dw KingdraIcon
-	dw GoldeenIcon
-	dw SeakingIcon
+	dw GolettIcon
+	dw GolurkIcon
 	dw StaryuIcon
 	dw StarmieIcon
 	dw MimeJrIcon
@@ -139,8 +139,8 @@ KangaskhanIcon:   INCBIN "gfx/icons/kangaskhan.2bpp"
 HorseaIcon:       INCBIN "gfx/icons/horsea.2bpp"
 SeadraIcon:       INCBIN "gfx/icons/seadra.2bpp"
 KingdraIcon:      INCBIN "gfx/icons/kingdra.2bpp"
-GoldeenIcon:      INCBIN "gfx/icons/goldeen.2bpp"
-SeakingIcon:      INCBIN "gfx/icons/seaking.2bpp"
+GolettIcon:       INCBIN "gfx/icons/golett.2bpp"
+GolurkIcon:       INCBIN "gfx/icons/golurk.2bpp"
 StaryuIcon:       INCBIN "gfx/icons/staryu.2bpp"
 StarmieIcon:      INCBIN "gfx/icons/starmie.2bpp"
 MimeJrIcon:       INCBIN "gfx/icons/mime__jr.2bpp"

@@ -2751,9 +2751,9 @@ LassGroup:
 	next_list_item ; Lass (7) Route 34
 	db "Irene@", TRAINERTYPE_NORMAL
 	db 31
-	dw GOLDEEN
+	dw GOLETT
 	db 32
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	next_list_item ; LASS (8)
@@ -2836,7 +2836,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (3) Union Cave B2F
 	db "Adrien@", TRAINERTYPE_ITEM
 	db 46
-	dw SEAKING
+	dw GOLURK
 	db NO_ITEM
 	db 46
 	dw LICKILICKY
@@ -4594,7 +4594,7 @@ FisherGroup:
 	next_list_item ; FISHER (1) Route 35
 	db "Rusty@", TRAINERTYPE_NORMAL
 	db 31
-	dw SEAKING
+	dw GOLURK
 	db 31
 	dw QWILFISH
 	db 31
@@ -4609,7 +4609,7 @@ FisherGroup:
 	dw QWILFISH
 	db NO_ITEM
 	db 46
-	dw SEAKING
+	dw GOLURK
 	db NO_ITEM
 	db 46
 	dw OCTILLERY
@@ -4639,7 +4639,7 @@ endc
 	dw POLIWRATH
 	dw ICE_PUNCH, WAVE_CRASH, CLOSE_COMBAT, BULK_UP
 	db 75
-	dw SEAKING
+	dw GOLURK
 	dw WAVE_CRASH, MEGAHORN, POISON_JAB, HORN_DRILL
 	db -1 ; end
 
@@ -4668,7 +4668,7 @@ endc
 	next_list_item ; FISHER (7)
 	db "Fred@", TRAINERTYPE_NORMAL
 	db 10
-	dw GOLDEEN
+	dw GOLETT
 	db -1 ; end
 
 	next_list_item ; FISHER (8)
@@ -4684,7 +4684,7 @@ endc
 	db 11
 	dw TENTACOOL
 	db 11
-	dw GOLDEEN
+	dw GOLETT
 	db 10
 	dw WOOPER
 	db -1 ; end
@@ -4695,7 +4695,7 @@ endc
 	dw MAGIKARP
 	db NO_ITEM
 	db 8
-	dw GOLDEEN
+	dw GOLETT
 	db NO_ITEM
 	db 9
 	dw REMORAID
@@ -4772,7 +4772,7 @@ endc
 	next_list_item ; FISHER (16)
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 17
-	dw GOLDEEN
+	dw GOLETT
 	db -1 ; end
 
 	next_list_item ; FISHER (17)
@@ -4780,7 +4780,7 @@ endc
 	db 17
 	dw QWILFISH
 	db 19
-	dw GOLDEEN
+	dw GOLETT
 	db -1 ; end
 
 	next_list_item ; FISHER (18)
@@ -4792,9 +4792,9 @@ endc
 	next_list_item ; FISHER (19)
 	db "TULLY@", TRAINERTYPE_NORMAL
 	db 32
-	dw GOLDEEN
+	dw GOLETT
 	db 32
-	dw GOLDEEN
+	dw GOLETT
 	db 32
 	dw QWILFISH
 	db -1 ; end
@@ -4802,7 +4802,7 @@ endc
 	next_list_item ; FISHER (20) Route 44
 	db "Butch@", TRAINERTYPE_NORMAL
 	db 8
-	dw GOLDEEN
+	dw GOLETT
 	db 8
 	dw WOOPER
 	db 9
@@ -4816,16 +4816,16 @@ endc
 	db 30
 	dw QWILFISH
 	db 34
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	next_list_item ; FISHER (22)
 	db "WILTON@", TRAINERTYPE_MOVES
 	db 34
-	dw SEAKING
+	dw GOLURK
 	dw SUPERSONIC, WATERFALL, FLAIL, FURY_ATTACK
 	db 34
-	dw SEAKING
+	dw GOLURK
 	dw SUPERSONIC, WATERFALL, FLAIL, FURY_ATTACK
 	db 38
 	dw REMORAID
@@ -4837,7 +4837,7 @@ endc
 	db 30
 	dw QWILFISH
 	db 32
-	dw GOLDEEN
+	dw GOLETT
 	db -1 ; end
 
 	next_list_item ; FISHER (24)
@@ -4846,17 +4846,17 @@ endc
 	dw QWILFISH
 	dw TOXIC, MINIMIZE, SURF, PIN_MISSILE
 	db 39
-	dw SEAKING
+	dw GOLURK
 	dw ENDURE, FLAIL, FURY_ATTACK, WATERFALL
 	db -1 ; end
 
 	next_list_item ; FISHER (25)
 	db "TULLY@", TRAINERTYPE_MOVES
 	db 34
-	dw SEAKING
+	dw GOLURK
 	dw SUPERSONIC, RAIN_DANCE, WATERFALL, FURY_ATTACK
 	db 34
-	dw SEAKING
+	dw GOLURK
 	dw SUPERSONIC, RAIN_DANCE, WATERFALL, FURY_ATTACK
 	db 37
 	dw QWILFISH
@@ -5022,7 +5022,7 @@ endc
 	db 30
 	dw TENTACRUEL
 	db 28
-	dw GOLDEEN
+	dw GOLETT
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (15) Route 19
@@ -5122,11 +5122,11 @@ SwimmerFGroup:
 	next_list_item ; SWIMMERF (3) Route 41
 	db "Brady@", TRAINERTYPE_NORMAL
 	db 23
-	dw GOLDEEN
+	dw GOLETT
 	db 23
 	dw CROCONAW
 	db 24
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (4) Route 41
@@ -5135,7 +5135,7 @@ SwimmerFGroup:
 	dw PSYDUCK
 	dw SCRATCH, SCREECH, WATER_PULSE, CONFUSION
 	db 25
-	dw GOLDEEN
+	dw GOLETT
 	dw TAIL_WHIP, AQUA_JET, WATER_PULSE, FURY_ATTACK
 	db -1 ; end
 
@@ -5190,7 +5190,7 @@ endc
 	next_list_item ; SWIMMERF (10)
 	db "MARY@", TRAINERTYPE_NORMAL
 	db 20
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (11)
@@ -5238,7 +5238,7 @@ endc
 	next_list_item ; SWIMMERF (16)
 	db "JODY@", TRAINERTYPE_NORMAL
 	db 20
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (17)
@@ -5250,7 +5250,7 @@ endc
 	dw QWILFISH
 	dw GUNK_SHOT, WAVE_CRASH, DESTINY_BOND, TOXIC
 	db 71
-	dw SEAKING
+	dw GOLURK
 	dw POISON_JAB, WAVE_CRASH, MEGAHORN, AGILITY
 	db 70
 	dw DEWGONG
@@ -5269,7 +5269,7 @@ endc
 	db 70
 	dw DEWGONG
 	db 70
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	end_list_items
@@ -7052,7 +7052,7 @@ PicnickerGroup:
 	db 52
 	dw MILTANK
 	db 52
-	dw SEAKING
+	dw GOLURK
 	db 53
 	dw FROSLASS
 	db -1 ; end
@@ -7084,7 +7084,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (8)
 	db "DEBRA@", TRAINERTYPE_NORMAL
 	db 33
-	dw SEAKING
+	dw GOLURK
 	db -1 ; end
 
 	next_list_item ; PICNICKER (9)
@@ -8051,7 +8051,7 @@ endc
 	dw SLOWKING
 	db ORAN_BERRY
 	db 29
-	dw SEAKING
+	dw GOLURK
 	db ORAN_BERRY
 	db -1 ; end
 
@@ -12357,7 +12357,7 @@ endc
 	dw STEELIX
 	dw IRON_TAIL, EARTHQUAKE, STONE_EDGE, CURSE
 	db 76
-	dw SEAKING
+	dw GOLURK
 	dw WAVE_CRASH, POISON_JAB, MEGAHORN, AGILITY
 	db 76
 	dw REUNICLUS

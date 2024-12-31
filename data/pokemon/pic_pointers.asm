@@ -280,10 +280,10 @@ PokemonPicPointers::
 	dba SeadraBackpic
 	dba KingdraFrontpic
 	dba KingdraBackpic
-	dba GoldeenFrontpic
-	dba GoldeenBackpic
-	dba SeakingFrontpic
-	dba SeakingBackpic
+	dba GolettFrontpic
+	dba GolettBackpic
+	dba GolurkFrontpic
+	dba GolurkBackpic
 	dba StaryuFrontpic
 	dba StaryuBackpic
 	dba StarmieFrontpic

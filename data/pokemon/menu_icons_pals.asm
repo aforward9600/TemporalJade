@@ -146,8 +146,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; HORSEA
 	icon_pals BLUE,   PURPLE ; SEADRA
 	icon_pals BLUE,   PURPLE ; KINGDRA
-	icon_pals RED,    PINK   ; GOLDEEN
-	icon_pals RED,    TEAL   ; SEAKING
+	icon_pals BLUE,   TEAL   ; GOLETT
+	icon_pals BLUE,   TEAL   ; GOLURK
 	icon_pals RED,    BLUE   ; STARYU
 	icon_pals PURPLE, BLUE   ; STARMIE
 	icon_pals PINK,   GREEN  ; MIME_JR

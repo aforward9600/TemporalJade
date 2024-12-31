@@ -136,8 +136,8 @@ OldPokedexOrder:
 	dw HORSEA
 	dw SEADRA
 	dw KINGDRA
-	dw GOLDEEN
-	dw SEAKING
+	dw GOLETT
+	dw GOLURK
 	dw STARYU
 	dw STARMIE
 	dw MIME__JR

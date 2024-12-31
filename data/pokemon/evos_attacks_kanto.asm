@@ -136,8 +136,8 @@ EvosAttacksPointers1::
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
 	dw KingdraEvosAttacks
-	dw GoldeenEvosAttacks
-	dw SeakingEvosAttacks
+	dw GolettEvosAttacks
+	dw GolurkEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
 	dw MimeJrEvosAttacks
@@ -2808,43 +2808,48 @@ KingdraEvosAttacks:
 	dbw 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-GoldeenEvosAttacks:
-	dbbw EVOLVE_LEVEL, 22, SEAKING
+GolettEvosAttacks:
+	dbbw EVOLVE_LEVEL, 43, GOLURK
 	db 0 ; no more evolutions
-	dbw 1, PECK
-	dbw 1, TAIL_WHIP
-	dbw 5, SUPERSONIC
-	dbw 8, HORN_ATTACK
-	dbw 13, FLAIL
-	dbw 16, AQUA_JET
-	dbw 21, AQUA_RING
-	dbw 24, FURY_ATTACK
-	dbw 29, AGILITY
-	dbw 32, WATERFALL
-	dbw 37, HORN_DRILL
-	dbw 40, AQUA_TAIL
-	dbw 45, MEGAHORN
-	dbw 51, WAVE_CRASH
+	dbw 1, POUND
+	dbw 1, ASTONISH
+	dbw 1, DEFENSE_CURL
+	dbw 5, MUD_SLAP
+	dbw 9, ROLLOUT
+	dbw 13, SHADOW_PUNCH
+	dbw 17, IRON_DEFENSE
+	dbw 21, BULLDOZE
+	dbw 25, MEGA_PUNCH
+	dbw 30, MAGNITUDE
+	dbw 35, DYNAMICPUNCH
+	dbw 40, NIGHT_SHADE
+	dbw 45, CURSE
+	dbw 50, EARTHQUAKE
+	dbw 55, HAMMER_ARM
+	dbw 61, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
-SeakingEvosAttacks:
+GolurkEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, POISON_JAB
-	dbw 1, POISON_JAB
-	dbw 1, PECK
-	dbw 1, TAIL_WHIP
-	dbw 5, SUPERSONIC
-	dbw 8, HORN_ATTACK
-	dbw 13, FLAIL
-	dbw 16, AQUA_JET
-	dbw 21, AQUA_RING
-	dbw 26, FURY_ATTACK
-	dbw 31, AGILITY
-	dbw 35, WATERFALL
-	dbw 40, HORN_DRILL
-	dbw 46, AQUA_TAIL
-	dbw 54, MEGAHORN
-	dbw 59, WAVE_CRASH
+	dbw LEARN_EVO_MOVE, GYRO_BALL
+	dbw 1, GYRO_BALL
+	dbw 1, POUND
+	dbw 1, ASTONISH
+	dbw 1, DEFENSE_CURL
+	dbw 5, MUD_SLAP
+	dbw 9, ROLLOUT
+	dbw 13, SHADOW_PUNCH
+	dbw 17, IRON_DEFENSE
+	dbw 21, BULLDOZE
+	dbw 25, MEGA_PUNCH
+	dbw 30, MAGNITUDE
+	dbw 35, DYNAMICPUNCH
+	dbw 40, NIGHT_SHADE
+	dbw 47, CURSE
+	dbw 54, EARTHQUAKE
+	dbw 61, HAMMER_ARM
+	dbw 69, CLOSE_COMBAT
+	dbw 76, PHANTOMFORCE
 	db 0 ; no more level-up moves
 
 StaryuEvosAttacks:

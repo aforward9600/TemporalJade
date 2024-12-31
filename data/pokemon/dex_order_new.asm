@@ -265,8 +265,8 @@ NewPokedexOrder:
 	dw OVERQWIL
 	dw SLUGMA
 	dw MAGCARGO
-	dw GOLDEEN
-	dw SEAKING
+	dw GOLETT
+	dw GOLURK
 	dw FARFETCH_D
 	dw SIRFETCH_D
 	dw TENTACOOL

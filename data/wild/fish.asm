@@ -54,17 +54,17 @@ FishGroups:
 .Lake_Old:
 	dbbw  70 percent + 1, 10, MAGIKARP
 	dbbw  85 percent + 1, 10, MAGIKARP
-	dbbw 100 percent,     10, GOLDEEN
+	dbbw 100 percent,     10, BASCULIN
 .Lake_Good:
 	dbbw  35 percent,     20, MAGIKARP
-	dbbw  70 percent,     20, GOLDEEN
-	dbbw  90 percent + 1, 20, GOLDEEN
+	dbbw  70 percent,     20, BASCULIN
+	dbbw  90 percent + 1, 20, BASCULIN
 	dbbw 100 percent,      4, TIME_GROUP
 .Lake_Super:
-	dbbw  40 percent,     40, GOLDEEN
+	dbbw  40 percent,     40, BASCULIN
 	dbbw  70 percent,      5, TIME_GROUP
 	dbbw  90 percent + 1, 40, MAGIKARP
-	dbbw 100 percent,     40, SEAKING
+	dbbw 100 percent,     40, BASCLEGION
 
 .Pond_Old:
 	dbbw  70 percent + 1, 10, MAGIKARP
@@ -179,7 +179,7 @@ FishGroups:
 .Qwilfish_NoSwarm_Good:
 .Qwilfish_Good:
 	dbbw  35 percent,     20, MAGIKARP
-	dbbw  70 percent,     20, GOLDEEN
+	dbbw  70 percent,     20, BASCULIN
 	dbbw  90 percent + 1, 20, POLIWAG
 	dbbw 100 percent,     20, REMORAID
 .Qwilfish_NoSwarm_Super:
@@ -210,8 +210,8 @@ TimeFishGroups:
 	dbwbw 40, CORSOLA,    40, STARYU     ; 1
 	dbwbw 20, MAREANIE,   20, MAREANIE   ; 2
 	dbwbw 40, MAREANIE,   40, MAREANIE   ; 3
-	dbwbw 20, GOLDEEN,    20, GOLDEEN    ; 4
-	dbwbw 40, GOLDEEN,    40, GOLDEEN    ; 5
+	dbwbw 20, BASCULIN,    20, BASCULIN    ; 4
+	dbwbw 40, BASCULIN,    40, BASCULIN    ; 5
 	dbwbw 20, POLIWAG,    20, POLIWAG    ; 6
 	dbwbw 40, POLIWAG,    40, POLIWAG    ; 7
 	dbwbw 20, DRATINI,    20, DRATINI    ; 8

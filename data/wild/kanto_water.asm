@@ -5,7 +5,7 @@ KantoWaterWildMons:
 	map_id TOHJO_FALLS
 	db 4 percent ; encounter rate
 	dbw 45, SEADRA
-	dbw 50, SEAKING
+	dbw 50, BASCLEGION
 	dbw 45, CURSOLA
 	dbw 50, TENTACRUEL
 
@@ -18,10 +18,10 @@ KantoWaterWildMons:
 
 	map_id ROUTE_4
 	db 4 percent ; encounter rate
-	dbw 64, GOLDEEN
-	dbw 64, GOLDEEN
-	dbw 64, SEAKING
-	dbw 64, SEAKING
+	dbw 64, BASCULIN
+	dbw 64, BASCULIN
+	dbw 64, BASCLEGION
+	dbw 64, BASCLEGION
 
 	map_id ROUTE_6
 	db 2 percent ; encounter rate
@@ -32,17 +32,17 @@ KantoWaterWildMons:
 
 	map_id ROUTE_9
 	db 4 percent ; encounter rate
-	dbw 64, GOLDEEN
-	dbw 64, GOLDEEN
-	dbw 64, SEAKING
-	dbw 64, SEAKING
+	dbw 64, BASCULIN
+	dbw 64, BASCULIN
+	dbw 64, BASCLEGION
+	dbw 64, BASCLEGION
 
 	map_id ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	dbw 64, GOLDEEN
-	dbw 64, GOLDEEN
-	dbw 64, SEAKING
-	dbw 64, SEAKING
+	dbw 64, BASCULIN
+	dbw 64, BASCULIN
+	dbw 64, BASCLEGION
+	dbw 64, BASCLEGION
 
 	map_id ROUTE_12
 	db 6 percent ; encounter rate
@@ -89,28 +89,28 @@ KantoWaterWildMons:
 	map_id ROUTE_24
 	db 4 percent ; encounter rate
 	dbw 65, POLIWHIRL
-	dbw 65, SEAKING
+	dbw 65, BASCLEGION
 	dbw 65, AZUMARILL
 	dbw 65, POLITOED
 
 	map_id ROUTE_25
 	db 4 percent ; encounter rate
 	dbw 65, POLIWHIRL
-	dbw 65, SEAKING
+	dbw 65, BASCLEGION
 	dbw 65, AZUMARILL
 	dbw 65, POLITOED
 
 	map_id ROUTE_26
 	db 6 percent ; encounter rate
 	dbw 45, SEADRA
-	dbw 50, SEAKING
+	dbw 50, BASCLEGION
 	dbw 45, CURSOLA
 	dbw 50, TENTACRUEL
 
 	map_id ROUTE_27
 	db 6 percent ; encounter rate
 	dbw 45, SEADRA
-	dbw 50, SEAKING
+	dbw 50, BASCLEGION
 	dbw 45, CURSOLA
 	dbw 50, TENTACRUEL
 
@@ -138,7 +138,7 @@ KantoWaterWildMons:
 	map_id CERULEAN_CITY
 	db 4 percent ; encounter rate
 	dbw 65, POLIWHIRL
-	dbw 65, SEAKING
+	dbw 65, BASCLEGION
 	dbw 65, AZUMARILL
 	dbw 65, POLITOED
 
@@ -172,21 +172,21 @@ KantoWaterWildMons:
 
 	map_id CERULEAN_CAVE_1F
 	db 6 percent
-	dbw 65, SEAKING
+	dbw 65, BASCLEGION
 	dbw 65, GOLDUCK
 	dbw 68, SLOWBRO
 	dbw 68, SLOWKING
 
 	map_id CERULEAN_CAVE_B1F
 	db 6 percent
-	dbw 65, SEAKING
+	dbw 65, BASCLEGION
 	dbw 65, GOLDUCK
 	dbw 68, SLOWBRO
 	dbw 68, SLOWKING
 
 	map_id CERULEAN_CAVE_2F
 	db 6 percent
-	dbw 65, SEAKING
+	dbw 65, BASCLEGION
 	dbw 65, GOLDUCK
 	dbw 68, SLOWBRO
 	dbw 68, SLOWKING

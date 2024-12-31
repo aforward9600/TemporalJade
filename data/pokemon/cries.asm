@@ -140,8 +140,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; KINGDRA
-	mon_cry CRY_CATERPIE,    $080,  $0c0 ; GOLDEEN
-	mon_cry CRY_CATERPIE,    $010,  $17f ; SEAKING
+	mon_cry CRY_CATERPIE,    $0fa,  $129 ; GOLETT
+	mon_cry CRY_TYPHLOSION,  $111,  $0fa ; GOLURK
 	mon_cry CRY_PARAS,       $002,  $0a0 ; STARYU
 	mon_cry CRY_PARAS,       $000,  $100 ; STARMIE
 	mon_cry CRY_KRABBY,     -$050,  $060 ; MIME__JR
