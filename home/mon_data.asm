@@ -77,3 +77,36 @@ GetNick::
 	pop bc
 	pop hl
 	ret
+
+GetAbility::
+; 'hl' contains the target personality to check (ability and form)
+; 'c' contains the target species
+; returns ability in a
+; preserves curspecies and base data
+	push bc
+	push de
+	push hl
+	ld a, c
+	call GetPokemonIndexFromID
+	ld b, h
+	ld c, l
+	pop hl
+	push hl
+	ld a, [hl]
+
+	; Assumes this returns z for ability 1.
+;	and CAUGHT_ABILITY_MASK
+	ld de, BASE_ABILITY1
+	jr z, .ability_1
+	ld de, BASE_ABILITY2
+.ability_1
+
+	ld a, BANK(BaseData)
+	ld hl, BaseData
+	call LoadIndirectPointer
+	add hl, de
+	call GetFarByte
+	pop hl
+	pop de
+	pop bc
+	ret

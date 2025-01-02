@@ -1,4 +1,4 @@
-AbilityNames::
+AbilityNames:
 	db "No Ability@"
 	db "Overgrow@"
 	db "Long Reach@"
