@@ -5942,6 +5942,27 @@ LoadEnemyMon:
 
 .next
 
+	call Random
+	jr z, .HiddenAbility
+
+	call Random
+	cp 50 percent + 1
+	jr c, .secondability
+
+	ld a, 0
+	ld [wEnemyAbility], a
+	jr .AfterAbility
+
+.secondability:
+	ld a, 1
+	ld [wEnemyAbility], a
+	jr .AfterAbility
+
+.HiddenAbility: ; Need to properly implement
+	ld a, 2
+	ld [wEnemyAbility], a
+
+.AfterAbility
 ; We've still got more to do if we're dealing with a wild monster
 	ld a, [wBattleMode]
 	dec a

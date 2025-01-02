@@ -240,6 +240,9 @@ endr
 	call GetGiftMonAbility
 	pop hl
 
+	ld a, [wTempMonCaughtAbility]
+	ld [wPartyMon1CaughtAbility], a
+
 	; Initialize happiness.
 	ld a, BASE_HAPPINESS
 	ld [de], a
@@ -303,7 +306,11 @@ endr
 	jr nz, .wildmonpploop
 	pop hl
 
+	ld a, [wEnemyAbility]
+	ld [wPartyMon1CaughtAbility], a
+
 	; Initialize happiness.
+	ld b,b
 	ld a, BASE_HAPPINESS
 	ld [de], a
 	inc de
@@ -1864,13 +1871,16 @@ GetGiftMonAbility:
 	cp 50 percent + 1
 	jr c, .secondability
 
-.HiddenAbility: ; Need to properly implement
 	ld a, 0
-	ld [wPartyMon1CaughtAbility], a
+	ld [wTempMonCaughtAbility], a
 	ret
 
 .secondability:
 	ld a, 1
-	ld [wPartyMon1CaughtAbility], a
+	ld [wTempMonCaughtAbility], a
 	ret
-	
+
+.HiddenAbility: ; Need to properly implement
+	ld a, 2
+	ld [wTempMonCaughtAbility], a
+	ret
