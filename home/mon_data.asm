@@ -95,7 +95,7 @@ GetAbility::
 	ld a, [hl]
 
 	; Assumes this returns z for ability 1.
-;	and CAUGHT_ABILITY_MASK
+	and CAUGHT_ABILITY_MASK
 	ld de, BASE_ABILITY1
 	jr z, .ability_1
 	ld de, BASE_ABILITY2

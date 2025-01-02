@@ -236,6 +236,10 @@ rept NUM_MOVES
 	inc de
 endr
 
+	push hl
+	call GetGiftMonAbility
+	pop hl
+
 	; Initialize happiness.
 	ld a, BASE_HAPPINESS
 	ld [de], a
@@ -387,7 +391,7 @@ endr
 	ret
 
 MaxDVsPasswordGift:
-	db "STRONGEST"
+	db "CHEATER"
 
 FillPP:
 	push bc
@@ -1851,3 +1855,22 @@ InitNickname:
 	ld hl, ExitAllMenus
 	rst FarCall
 	ret
+
+GetGiftMonAbility:
+	call Random
+	jr z, .HiddenAbility
+
+	call Random
+	cp 50 percent + 1
+	jr c, .secondability
+
+.HiddenAbility: ; Need to properly implement
+	ld a, 0
+	ld [wPartyMon1CaughtAbility], a
+	ret
+
+.secondability:
+	ld a, 1
+	ld [wPartyMon1CaughtAbility], a
+	ret
+	
