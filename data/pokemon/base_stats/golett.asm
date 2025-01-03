@@ -11,8 +11,8 @@
 	db GENDER_UNKNOWN ; gender ratio
 	db 25 ; step cycles to hatch
 	INCBIN "gfx/pokemon/golett/front.dimensions"
-	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
-	dw NULL ; Padding left-over from the unused back pic
+	db IRON_FIST, KLUTZ, NO_GUARD ; wBaseAbility1, wBaseAbility2
+	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 

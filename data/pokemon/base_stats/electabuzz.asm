@@ -11,8 +11,8 @@
 	db GENDER_F25 ; gender ratio
 	db 25 ; step cycles to hatch
 	INCBIN "gfx/pokemon/electabuzz/front.dimensions"
-	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
-	dw NULL ; Padding left-over from the unused back pic
+	db STATIC, STATIC, VITAL_SPIRIT ; wBaseAbility1, wBaseAbility2
+	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

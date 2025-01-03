@@ -109,8 +109,25 @@
 	const SHED_SKIN    ; 6a
 	const RAIN_DISH    ; 6b
 	const MAGIC_BOUNCE ; 6c
+	const SUPER_LUCK   ; 6d
+	const UNNERVE      ; 6e
+	const PICKUP       ; 6f
+	const PIXILATE     ; 70
+	const SAP_SIPPER   ; 71
+	const HUGE_POWER   ; 72
+	const SAND_VEIL    ; 73
+	const HEAT_PROOF   ; 74
+	const UNAWARE      ; 75
+	const DRY_SKIN     ; 76
+	const SHIELD_DUST  ; 77
+	const FRISK        ; 78
+	const AFTERMATH    ; 79
+	const REFRIGERATE  ; 7a
+	const GALVANIZE    ; 7b
+	const IMMUNITY     ; 7c
+	const POISON_HEAL  ; 7d
+	const ROUGH_SKIN   ; 7e
+	const SUCTION_CUPS ; 7f
+	const EARTH_EATER  ; 80
 
 NUM_ABILITIES EQU const_value + -1
-
-; May include, may not
-;	const PICKUP

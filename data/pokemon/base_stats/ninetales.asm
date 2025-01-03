@@ -11,8 +11,8 @@
 	db GENDER_F75 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/ninetales/front.dimensions"
-	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
-	dw NULL ; Padding left-over from the unused back pic
+	db SNOW_CLOAK, SNOW_CLOAK, SNOW_WARNING ; wBaseAbility1, wBaseAbility2
+	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

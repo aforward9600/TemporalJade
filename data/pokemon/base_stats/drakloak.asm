@@ -11,8 +11,8 @@
 	db GENDER_F50 ; gender ratio
 	db 45 ; step cycles to hatch
 	INCBIN "gfx/pokemon/drakloak/front.dimensions"
-	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
-	dw NULL ; Padding left-over from the unused back pic
+	db CLEAR_BODY, INFILTRATOR, CURSED_BODY ; wBaseAbility1, wBaseAbility2
+	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_DRAGON ; egg groups
 

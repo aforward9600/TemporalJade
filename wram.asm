@@ -2234,7 +2234,8 @@ wBaseEggSteps:: db ; d245
 wBasePicSize:: db ; d247
 wBaseAbility1:: db
 wBaseAbility2:: db
-wBasePadding:: dw
+wBaseAbility3:: db
+wBasePadding:: db
 wBaseGrowthRate:: db ; d24c
 wBaseEggGroups:: db ; d24d
 wBaseTMHM:: flag_array NUM_TM_HM_TUTOR ; d24e

@@ -11,8 +11,8 @@
 	db GENDER_F12_5 ; gender ratio
 	db 10 ; step cycles to hatch
 	INCBIN "gfx/pokemon/togepi/front.dimensions"
-	db SYNCHRONIZE, INNER_FOCUS ; wBaseAbility1, wBaseAbility2
-	dw NULL ; Padding left-over from the unused back pic
+	db HUSTLE, SERENE_GRACE, SUPER_LUCK ; wBaseAbility1, wBaseAbility2
+	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

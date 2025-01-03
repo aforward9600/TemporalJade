@@ -108,6 +108,26 @@ AbilityDescriptions:
 	dw ShedSkinDesc
 	dw RainDishDesc
 	dw MagicBounceDesc
+	dw SuperLuckDesc
+	dw UnnerveDesc
+	dw PickUpDesc
+	dw PixilateDesc
+	dw SapSipperDesc
+	dw HugePowerDesc
+	dw SandVeilDesc
+	dw HeatProofDesc
+	dw UnawareDesc
+	dw DrySkinDesc
+	dw ShieldDustDesc
+	dw FriskDesc
+	dw AftermathDesc
+	dw RefrigerateDesc
+	dw GalvanizeDesc
+	dw ImmunityDesc
+	dw PoisonHealDesc
+	dw RoughSkinDesc
+	dw SuctionCupsDesc
+	dw EarthEaterDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -536,3 +556,83 @@ RainDishDesc:
 MagicBounceDesc:
 	db    "Status moves are"
 	next1 "reflected.@"
+
+SuperLuckDesc:
+	db    "Increases chances"
+	next1 "of a critical hit.@"
+
+UnnerveDesc:
+	db    "Foe cannot eat"
+	next1 "berries.@"
+
+PickUpDesc:
+	db    "#mon can pick"
+	next1 "up items.@"
+
+PixilateDesc:
+	db    "Normal type moves"
+	next1 "become Fairy type.@"
+
+SapSipperDesc:
+	db    "Grass type moves"
+	next1 "will boost Attack.@"
+
+HugePowerDesc:
+	db    "Doubles user's"
+	next1 "Attack stat.@"
+
+SandVeilDesc:
+	db    "Raises evasion in"
+	next1 "sand.@"
+
+HeatProofDesc:
+	db    "Reduces damage"
+	next1 "from Fire moves.@"
+
+UnawareDesc:
+	db    "#mon ignores"
+	next1 "foe's stat changes.@"
+
+DrySkinDesc:
+	db    "Sun deals damage."
+	next1 "Rain heals HP.@"
+
+ShieldDustDesc:
+	db    "Stops additional"
+	next1 "effects.@"
+
+FriskDesc:
+	db    "Shows the foe's"
+	next1 "held item.@"
+
+AftermathDesc:
+	db    "Foe is damaged as"
+	next1 "the user faints.@"
+
+RefrigerateDesc:
+	db    "Normal type moves"
+	next1 "become Ice moves.@"
+
+GalvanizeDesc:
+	db    "Normal moves bec-"
+	next1 "ome Electric type.@"
+
+ImmunityDesc:
+	db    "Immune to being"
+	next1 "poisoned.@"
+
+PoisonHealDesc:
+	db    "Poison restores HP"
+	next1 "instead of damage.@"
+
+RoughSkinDesc:
+	db    "Contact moves deal"
+	next1 "damage.@"
+
+SuctionCupsDesc:
+	db    "Cannot be forced"
+	next1 "from battle.@"
+
+EarthEaterDesc:
+	db    "Ground tyep moves"
+	next1 "restore HP.@"
