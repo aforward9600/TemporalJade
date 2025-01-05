@@ -128,6 +128,8 @@ AbilityDescriptions:
 	dw RoughSkinDesc
 	dw SuctionCupsDesc
 	dw EarthEaterDesc
+	dw MarvelScaleDesc
+	dw WaterVeilDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -634,5 +636,13 @@ SuctionCupsDesc:
 	next1 "from battle.@"
 
 EarthEaterDesc:
-	db    "Ground tyep moves"
+	db    "Ground type moves"
 	next1 "restore HP.@"
+
+MarvelScaleDesc:
+	db    "Status problems"
+	next1 "increase Defense.@"
+
+WaterVeilDesc:
+	db    "Prevents the burn"
+	next1 "status.@"

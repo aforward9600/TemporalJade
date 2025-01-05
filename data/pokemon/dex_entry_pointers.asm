@@ -31,9 +31,9 @@ PokedexDataPointerTable:
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry
-	dba NidoranMPokedexEntry
-	dba NidorinoPokedexEntry
-	dba NidokingPokedexEntry
+	dba YamaskPokedexEntry
+	dba CofagrigusPokedexEntry
+	dba RunerigusPokedexEntry
 	dba CleffaPokedexEntry
 	dba ClefairyPokedexEntry
 	dba ClefablePokedexEntry

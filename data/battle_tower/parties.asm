@@ -927,7 +927,7 @@ BattleTowerMons2:
 	bigdw 35 ; SDef
 	db "PUKURIN@@@@"
 
-	dw NIDOKING
+	dw RUNERIGUS
 	db ORAN_BERRY
 	dw POISON_JAB, EARTHQUAKE, SURF, THUNDERPUNCH
 
@@ -948,7 +948,7 @@ BattleTowerMons2:
 	bigdw 53 ; Spd
 	bigdw 41 ; SAtk
 	bigdw 37 ; SDef
-	db "NIDOKINGU@@"
+	db "RUNERIGUSU@@"
 
 	dw CLODSIRE
 	db QUICK_CLAW

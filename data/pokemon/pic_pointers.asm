@@ -72,12 +72,12 @@ PokemonPicPointers::
 	dba SwadloonBackpic
 	dba LeavannyFrontpic
 	dba LeavannyBackpic
-	dba NidoranMFrontpic
-	dba NidoranMBackpic
-	dba NidorinoFrontpic
-	dba NidorinoBackpic
-	dba NidokingFrontpic
-	dba NidokingBackpic
+	dba YamaskFrontpic
+	dba YamaskBackpic
+	dba CofagrigusFrontpic
+	dba CofagrigusBackpic
+	dba RunerigusFrontpic
+	dba RunerigusBackpic
 	dba CleffaFrontpic
 	dba CleffaBackpic
 	dba ClefairyFrontpic

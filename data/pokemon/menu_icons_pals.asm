@@ -42,9 +42,9 @@ MonMenuIconPals:
 	icon_pals GREEN,  BLUE   ; SEWADDLE
 	icon_pals GREEN,  GREEN  ; SWADLOON
 	icon_pals GREEN,  GREEN  ; LEAVANNY
-	icon_pals PURPLE, BLUE   ; NIDORAN_M
-	icon_pals PURPLE, BLUE   ; NIDORINA
-	icon_pals PURPLE, BLUE   ; NIDOKING
+	icon_pals RED,    GRAY   ; YAMASK
+	icon_pals BLUE,   PURPLE ; COFAGRIGUS
+	icon_pals RED,    PURPLE ; RUNERIGUS
 	icon_pals PINK,   GREEN  ; CLEFFA
 	icon_pals PINK,   GREEN  ; CLEFAIRY
 	icon_pals PINK,   GREEN  ; CLEFABLE

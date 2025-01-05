@@ -36,9 +36,9 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; SEWADDLE
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; SWADLOON
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; LEAVANNY
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; NIDORAN_M
-	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; NIDORINO
-	mon_cry CRY_RAICHU,      $000,  $100 ; NIDOKING
+	mon_cry CRY_YAMASK,      $010,  $128 ; YAMASK
+	mon_cry CRY_YAMASK,     -$320,  $15a ; COFAGRIGUS
+	mon_cry CRY_YAMASK,     -$320,  $15a ; RUNERIGUS
 	mon_cry CRY_CLEFFA,      $061,  $091 ; CLEFFA
 	mon_cry CRY_CLEFAIRY,    $0cc,  $081 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; CLEFABLE

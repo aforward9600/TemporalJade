@@ -79,4 +79,5 @@
 	const CRY_HYDREIGON
 	const CRY_STOUTLAND
 	const CRY_CUBCHOO
+	const CRY_YAMASK
 ;	const CRY_PIKIPEK

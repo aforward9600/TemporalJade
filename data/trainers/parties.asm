@@ -3657,7 +3657,7 @@ endc
 	db 16
 	dw SWADLOON
 	db 16
-	dw NIDORINO
+	dw COFAGRIGUS
 	db -1 ; end
 
 	next_list_item ; POKEMANIAC (5)
@@ -3675,7 +3675,7 @@ endc
 	next_list_item ; POKEMANIAC (7)
 	db "RON@", TRAINERTYPE_NORMAL
 	db 19
-	dw NIDOKING
+	dw RUNERIGUS
 	db -1 ; end
 
 	next_list_item ; POKEMANIAC (8)
@@ -3740,7 +3740,7 @@ endc
 	next_list_item ; POKEMANIAC (15) Mount Mortar 1F Inside
 	db "Allan@", TRAINERTYPE_NORMAL
 	db 15
-	dw NIDORAN_M
+	dw YAMASK
 	db 15
 	dw SEWADDLE
 	db 16
@@ -6682,7 +6682,7 @@ if DEF(_CHALLENGE)
 	dw KNOCK_OFF, BRICK_BREAK, FORESIGHT, ROCK_TOMB
 endc
 	db 24
-	dw NIDORINO
+	dw COFAGRIGUS
 if DEF(_CHALLENGE)
 	db POWER_BAND
 else
@@ -6726,7 +6726,7 @@ else
 endc
 	dw BULK_UP, BRICK_BREAK, VITAL_THROW, KNOCK_OFF
 	db 37
-	dw NIDOKING
+	dw RUNERIGUS
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -6770,7 +6770,7 @@ else
 endc
 	dw BULK_UP, BRICK_BREAK, VITAL_THROW, KNOCK_OFF
 	db 40
-	dw NIDOKING
+	dw RUNERIGUS
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -6814,7 +6814,7 @@ else
 endc
 	dw BULK_UP, BRICK_BREAK, VITAL_THROW, KNOCK_OFF
 	db 46
-	dw NIDOKING
+	dw RUNERIGUS
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -6858,7 +6858,7 @@ else
 endc
 	dw BULK_UP, BRICK_BREAK, STONE_EDGE, KNOCK_OFF
 	db 58
-	dw NIDOKING
+	dw RUNERIGUS
 if DEF(_CHALLENGE)
 	db LIFE_ORB
 else
@@ -7118,7 +7118,7 @@ PicnickerGroup:
 	db 19
 	dw WEEPINBELL
 	db 19
-	dw NIDORINO
+	dw COFAGRIGUS
 	db 21
 	dw LEAVANNY
 	db -1 ; end
@@ -7206,7 +7206,7 @@ PicnickerGroup:
 	db 24
 	dw WEEPINBELL
 	db 26
-	dw NIDORINO
+	dw COFAGRIGUS
 	db 26
 	dw LEAVANNY
 	db -1 ; end
@@ -7217,7 +7217,7 @@ PicnickerGroup:
 	dw WEEPINBELL
 	dw SLEEP_POWDER, POISONPOWDER, STUN_SPORE, SLUDGE_BOMB
 	db 32
-	dw NIDOKING
+	dw RUNERIGUS
 	dw EARTHQUAKE, DOUBLE_KICK, POISON_STING, IRON_TAIL
 	db 32
 	dw LEAVANNY
@@ -7306,13 +7306,13 @@ endc
 	next_list_item ; CAMPER (5)
 	db "BARRY@", TRAINERTYPE_NORMAL
 	db 36
-	dw NIDOKING
+	dw RUNERIGUS
 	db -1 ; end
 
 	next_list_item ; CAMPER (6)
 	db "LLOYD@", TRAINERTYPE_NORMAL
 	db 34
-	dw NIDOKING
+	dw RUNERIGUS
 	db -1 ; end
 
 	next_list_item ; CAMPER (7)
@@ -7336,13 +7336,13 @@ endc
 	next_list_item ; CAMPER (9)
 	db "HARVEY@", TRAINERTYPE_NORMAL
 	db 15
-	dw NIDORINO
+	dw COFAGRIGUS
 	db -1 ; end
 
 	next_list_item ; CAMPER (10)
 	db "DALE@", TRAINERTYPE_NORMAL
 	db 15
-	dw NIDORINO
+	dw COFAGRIGUS
 	db -1 ; end
 
 	next_list_item ; CAMPER (11)
@@ -8045,7 +8045,7 @@ endc
 	next_list_item ; POKEFANM (12)
 	db "ALEX@", TRAINERTYPE_ITEM
 	db 29
-	dw NIDOKING
+	dw RUNERIGUS
 	db ORAN_BERRY
 	db 29
 	dw SLOWKING
@@ -8331,7 +8331,7 @@ else
 	dw SLASH, PLAY_ROUGH, NIGHT_SLASH, HONE_CLAWS
 endc
 	db 78
-	dw NIDOKING
+	dw RUNERIGUS
 if DEF(_CHALLENGE)
 	db BRIGHTPOWDER
 else
@@ -10441,7 +10441,7 @@ endc
 	db NO_ITEM
 	dw DRAGON_DANCE, DRAGON_CLAW, EARTHQUAKE, DUALWINGBEAT
 	db 71
-	dw NIDOKING
+	dw RUNERIGUS
 	db NO_ITEM
 	dw EARTHQUAKE, POISON_JAB, BRICK_BREAK, HORN_DRILL
 	db -1 ; end
@@ -12901,7 +12901,7 @@ FuchsiaNinjaMGroup:
 	next_list_item ; FNINJA_M (2)
 	db "Ninja@", TRAINERTYPE_MOVES
 	db 75
-	dw NIDOKING
+	dw RUNERIGUS
 	dw EARTHQUAKE, POISON_JAB, MEGAHORN, BULK_UP
 	db 75
 	dw SCIZOR

@@ -32,8 +32,8 @@ PreviousEvolutionStage::
 	dw SEWADDLE
 	dw LEAVANNY
 	dw 0  ;20
-	dw NIDORAN_M
-	dw NIDORINO
+	dw YAMASK
+	dw YAMASK
 	dw 0
 	dw CLEFFA
 	dw CLEFAIRY

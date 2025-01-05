@@ -36,9 +36,9 @@ SECTION "Feraligatr Front", ROMX
 
 FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 
-SECTION "Nidoking Front", ROMX
+SECTION "Runerigus Front", ROMX
 
-NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
+RunerigusFrontpic:    INCBIN "gfx/pokemon/runerigus/front.animated.2bpp.lz"
 
 SECTION "Fraxure Front", ROMX
 
@@ -255,9 +255,9 @@ SECTION "Hypno Front", ROMX
 
 HypnoFrontpic:       INCBIN "gfx/pokemon/hypno/front.animated.2bpp.lz"
 
-SECTION "Nidorino Front", ROMX
+SECTION "Cofagrigus Front", ROMX
 
-NidorinoFrontpic:    INCBIN "gfx/pokemon/nidorino/front.animated.2bpp.lz"
+CofagrigusFrontpic:    INCBIN "gfx/pokemon/cofagrigus/front.animated.2bpp.lz"
 
 SECTION "Excadrill Front", ROMX
 
@@ -524,7 +524,7 @@ TepigFrontpic:       INCBIN "gfx/pokemon/tepig/front.animated.2bpp.lz"
 CuboneFrontpic:      INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
 BlackbeltTPic:       INCBIN "gfx/trainers/blackbelt_t.2bpp.lz"
 BikerPic:            INCBIN "gfx/trainers/biker.2bpp.lz"
-NidoranMFrontpic:    INCBIN "gfx/pokemon/nidoran_m/front.animated.2bpp.lz"
+YamaskFrontpic:      INCBIN "gfx/pokemon/yamask/front.animated.2bpp.lz"
 PorygonFrontpic:     INCBIN "gfx/pokemon/porygon/front.animated.2bpp.lz"
 MarthaPic:           INCBIN "gfx/trainers/martha.2bpp.lz"
 GrimerFrontpic:      INCBIN "gfx/pokemon/grimer/front.animated.2bpp.lz"
@@ -551,7 +551,7 @@ CorphishFrontpic:    INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
 FisherPic:           INCBIN "gfx/trainers/fisher.2bpp.lz"
 JigglypuffFrontpic:  INCBIN "gfx/pokemon/jigglypuff/front.animated.2bpp.lz"
 JoltikFrontpic:      INCBIN "gfx/pokemon/joltik/front.animated.2bpp.lz"
-NidokingBackpic:     INCBIN "gfx/pokemon/nidoking/back.2bpp.lz"
+RunerigusBackpic:    INCBIN "gfx/pokemon/runerigus/back.2bpp.lz"
 PokefanmPic:         INCBIN "gfx/trainers/pokefan_m.2bpp.lz"
 BoarderPic:          INCBIN "gfx/trainers/boarder.2bpp.lz"
 PsyduckFrontpic:     INCBIN "gfx/pokemon/psyduck/front.animated.2bpp.lz"
@@ -632,7 +632,7 @@ ExcadrillBackpic:    INCBIN "gfx/pokemon/excadrill/back.2bpp.lz"
 SeadraBackpic:       INCBIN "gfx/pokemon/seadra/back.2bpp.lz"
 TwinsPic:            INCBIN "gfx/trainers/twins.2bpp.lz"
 FarfetchDBackpic:    INCBIN "gfx/pokemon/farfetch_d/back.2bpp.lz"
-NidoranMBackpic:     INCBIN "gfx/pokemon/nidoran_m/back.2bpp.lz"
+YamaskBackpic:       INCBIN "gfx/pokemon/yamask/back.2bpp.lz"
 KarrablastBackpic:   INCBIN "gfx/pokemon/karrablast/back.2bpp.lz"
 CyndaquilBackpic:    INCBIN "gfx/pokemon/cyndaquil/back.2bpp.lz"
 BayleefBackpic:      INCBIN "gfx/pokemon/bayleef/back.2bpp.lz"
@@ -704,7 +704,7 @@ RaichuBackpic:       INCBIN "gfx/pokemon/raichu/back.2bpp.lz"
 PoliwrathBackpic:    INCBIN "gfx/pokemon/poliwrath/back.2bpp.lz"
 SwimmermPic:         INCBIN "gfx/trainers/swimmer_m.2bpp.lz"
 ElgyemFrontpic:      INCBIN "gfx/pokemon/elgyem/front.animated.2bpp.lz"
-NidorinoBackpic:     INCBIN "gfx/pokemon/nidorino/back.2bpp.lz"
+CofagrigusBackpic:   INCBIN "gfx/pokemon/cofagrigus/back.2bpp.lz"
 MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
 
 

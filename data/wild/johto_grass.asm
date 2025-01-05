@@ -155,7 +155,7 @@ JohtoGrassWildMons:
 	map_id NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 27, NIDORINO
+	dbw 27, COFAGRIGUS
 	dbw 27, SWADLOON
 	dbw 27, ESCAVALIER
 	dbw 27, TOUCANNON
@@ -164,7 +164,7 @@ JohtoGrassWildMons:
 	dbw 27, PINSIR
 	dbw 27, PINSIR
 	; day
-	dbw 27, NIDORINO
+	dbw 27, COFAGRIGUS
 	dbw 27, SWADLOON
 	dbw 27, ESCAVALIER
 	dbw 27, TOUCANNON
@@ -173,7 +173,7 @@ JohtoGrassWildMons:
 	dbw 27, PINSIR
 	dbw 27, PINSIR
 	; nite
-	dbw 27, NIDORINO
+	dbw 27, COFAGRIGUS
 	dbw 27, SWADLOON
 	dbw 27, ACCELGOR
 	dbw 27, HERDIER
@@ -1358,7 +1358,7 @@ JohtoGrassWildMons:
 	dbw 12, KARRABLAST
 	dbw 12, SEWADDLE
 	dbw 12, VENIPEDE
-	dbw 12, NIDORAN_M
+	dbw 12, YAMASK
 	dbw 12, MIME__JR
 	dbw 12, JIGGLYPUFF
 	dbw 12, FARFETCH_D
@@ -1367,14 +1367,14 @@ JohtoGrassWildMons:
 	dbw 12, DODUO
 	dbw 12, SEWADDLE
 	dbw 12, VENIPEDE
-	dbw 12, NIDORAN_M
+	dbw 12, YAMASK
 	dbw 12, MIME__JR
 	dbw 12, JIGGLYPUFF
 	dbw 12, PURRLOIN
 	dbw 12, PURRLOIN
 	; nite
 	dbw 12, SHELMET
-	dbw 12, NIDORAN_M
+	dbw 12, YAMASK
 	dbw 12, HOOTHOOT
 	dbw 12, SEWADDLE
 	dbw 12, MIME__JR
@@ -1778,7 +1778,7 @@ JohtoGrassWildMons:
 	dbw 15, EXEGGCUTE
 	dbw 15, KARRABLAST
 	dbw 15, LICKITUNG
-	dbw 15, NIDORAN_M
+	dbw 15, YAMASK
 	dbw 15, SNUBBULL
 	dbw 15, MUNCHLAX
 	dbw 15, RHYHORN
@@ -1787,7 +1787,7 @@ JohtoGrassWildMons:
 	dbw 15, EXEGGCUTE
 	dbw 15, KARRABLAST
 	dbw 15, LICKITUNG
-	dbw 15, NIDORAN_M
+	dbw 15, YAMASK
 	dbw 15, SNUBBULL
 	dbw 15, MUNCHLAX
 	dbw 15, RHYHORN
@@ -1796,7 +1796,7 @@ JohtoGrassWildMons:
 	dbw 15, EXEGGCUTE
 	dbw 15, SHELMET
 	dbw 15, LICKITUNG
-	dbw 15, NIDORAN_M
+	dbw 15, YAMASK
 	dbw 15, SNUBBULL
 	dbw 15, MUNCHLAX
 	dbw 15, RHYHORN

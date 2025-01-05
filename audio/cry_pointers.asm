@@ -74,4 +74,5 @@ Cries:
 	dba Cry_Hydreigon
 	dba Cry_Stoutland
 	dba Cry_Cubchoo
+	dba Cry_Yamask
 ;	dba Cry_Pikipek

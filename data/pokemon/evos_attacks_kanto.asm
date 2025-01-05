@@ -32,9 +32,9 @@ EvosAttacksPointers1::
 	dw SewaddleEvosAttacks
 	dw SwadloonEvosAttacks
 	dw LeavannyEvosAttacks
-	dw NidoranMEvosAttacks
-	dw NidorinoEvosAttacks
-	dw NidokingEvosAttacks
+	dw YamaskEvosAttacks
+	dw CofagrigusEvosAttacks
+	dw RunerigusEvosAttacks
 	dw CleffaEvosAttacks
 	dw ClefairyEvosAttacks
 	dw ClefableEvosAttacks
@@ -735,53 +735,67 @@ LeavannyEvosAttacks:
 	dbw 50, SOLAR_BLADE
 	db 0 ; no more level-up moves
 
-NidoranMEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, NIDORINO
+YamaskEvosAttacks:
+	dbbw EVOLVE_LEVEL, 34, COFAGRIGUS
+	dbbw EVOLVE_ITEM, DUSK_STONE, RUNERIGUS
 	db 0 ; no more evolutions
-	dbw 1, LEER
-	dbw 1, PECK
-	dbw 7, FOCUS_ENERGY
-	dbw 9, DOUBLE_KICK
-	dbw 13, POISON_STING
-	dbw 19, FURY_ATTACK
-	dbw 21, HORN_ATTACK
-	dbw 25, DOUBLE_TEAM
-	dbw 31, TOXIC
-	dbw 33, FLATTER
-	dbw 37, POISON_JAB
-	dbw 43, VENOSHOCK
-	dbw 45, HORN_DRILL
+	dbw 1, ASTONISH
+	dbw 1, PROTECT
+	dbw 4, HAZE
+	dbw 8, NIGHT_SHADE
+	dbw 12, DISABLE
+	dbw 16, WILL_O_WISP
+	dbw 20, SAFEGUARD
+	dbw 24, HEX
+	dbw 28, MEAN_LOOK
+	dbw 32, SPITE
+	dbw 36, CURSE
+	dbw 40, SHADOW_BALL
+	dbw 44, DARK_PULSE
+	dbw 48, PAIN_SPLIT
+	dbw 52, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, NIDOKING
+CofagrigusEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, LEER
-	dbw 1, PECK
-	dbw 7, FOCUS_ENERGY
-	dbw 9, DOUBLE_KICK
-	dbw 13, POISON_STING
-	dbw 20, FURY_ATTACK
-	dbw 23, HORN_ATTACK
-	dbw 28, DOUBLE_TEAM
-	dbw 35, TOXIC
-	dbw 38, FLATTER
-	dbw 43, POISON_JAB
-	dbw 50, VENOSHOCK
-	dbw 58, HORN_DRILL
+	dbw LEARN_EVO_MOVE, SHADOW_CLAW
+	dbw 1, SHADOW_CLAW
+	dbw 1, ASTONISH
+	dbw 1, PROTECT
+	dbw 4, HAZE
+	dbw 8, NIGHT_SHADE
+	dbw 12, DISABLE
+	dbw 16, WILL_O_WISP
+	dbw 20, SAFEGUARD
+	dbw 24, HEX
+	dbw 28, MEAN_LOOK
+	dbw 32, SPITE
+	dbw 38, CURSE
+	dbw 44, SHADOW_BALL
+	dbw 50, DARK_PULSE
+	dbw 56, PAIN_SPLIT
+	dbw 62, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-NidokingEvosAttacks:
+RunerigusEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, MEGAHORN
-	dbw 1, MEGAHORN
-	dbw 1, TACKLE
-	dbw 1, HORN_ATTACK
-	dbw 1, DOUBLE_KICK
-	dbw 1, POISON_STING
-	dbw 23, STOMP
-	dbw 35, THRASH
-	dbw 43, EARTH_POWER
+	dbw LEARN_EVO_MOVE, SHADOW_CLAW
+	dbw 1, SHADOW_CLAW
+	dbw 1, ASTONISH
+	dbw 1, PROTECT
+	dbw 4, HAZE
+	dbw 8, NIGHT_SHADE
+	dbw 12, DISABLE
+	dbw 16, FAINT_ATTACK
+	dbw 20, SAFEGUARD
+	dbw 24, HEX
+	dbw 28, MEAN_LOOK
+	dbw 32, SLAM
+	dbw 38, CURSE
+	dbw 44, SHADOW_BALL
+	dbw 50, EARTHQUAKE
+	dbw 56, PAIN_SPLIT
+	dbw 62, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:

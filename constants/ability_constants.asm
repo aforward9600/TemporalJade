@@ -129,5 +129,7 @@
 	const ROUGH_SKIN   ; 7e
 	const SUCTION_CUPS ; 7f
 	const EARTH_EATER  ; 80
+	const MARVEL_SCALE ; 81
+	const WATER_VEIL   ; 82
 
 NUM_ABILITIES EQU const_value + -1

@@ -30,9 +30,9 @@ AnimationIdlePointers:
 	dw SewaddleAnimationIdle
 	dw SwadloonAnimationIdle
 	dw LeavannyAnimationIdle
-	dw NidoranMAnimationIdle
-	dw NidorinoAnimationIdle
-	dw NidokingAnimationIdle
+	dw YamaskAnimationIdle
+	dw CofagrigusAnimationIdle
+	dw RunerigusAnimationIdle
 	dw CleffaAnimationIdle
 	dw ClefairyAnimationIdle
 	dw ClefableAnimationIdle

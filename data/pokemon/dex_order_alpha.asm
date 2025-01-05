@@ -42,6 +42,7 @@ AlphabeticalPokedexOrder:
 	dw CLEFAIRY
 	dw CLEFFA
 	dw CLODSIRE
+	dw COFAGRIGUS
 	dw CONKELDURR
 	dw CORPHISH
 	dw CORSOLA
@@ -203,9 +204,6 @@ AlphabeticalPokedexOrder:
 	dw MUNCHLAX
 	dw MURKROW
 	dw NATU
-	dw NIDOKING
-	dw NIDORAN_M
-	dw NIDORINO
 	dw NINETALES
 	dw NOCTOWL
 	dw NOWN
@@ -249,6 +247,7 @@ AlphabeticalPokedexOrder:
 	dw ROSELIA
 	dw ROSERADE
 	dw ROWLET
+	dw RUNERIGUS
 	dw SANDYGAST
 	dw SCIZOR
 	dw SCOLIPEDE
@@ -323,6 +322,7 @@ AlphabeticalPokedexOrder:
 	dw WOOPER
 	dw WYRDEER
 	dw XATU
+	dw YAMASK
 	dw YANMA
 	dw YANMEGA
 	dw ZAPDOS

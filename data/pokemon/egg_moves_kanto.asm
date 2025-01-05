@@ -33,7 +33,7 @@ EggMovePointers1:
 	dw SewaddleEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw NidoranMEggMoves
+	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw CleffaEggMoves
@@ -254,20 +254,6 @@ SewaddleEggMoves:
 	dw RAZOR_WIND
 	dw SCREECH
 	dw SILVER_WIND
-	dw -1 ; end
-
-NidoranMEggMoves:
-	dw SUPERSONIC
-	dw DISABLE
-	dw TAKE_DOWN
-	dw CONFUSION
-	dw AMNESIA
-	dw COUNTER
-	dw ENDURE
-	dw FOCUS_ENERGY
-	dw SUCKER_PUNCH
-	dw HONE_CLAWS
-	dw HEAD_SMASH
 	dw -1 ; end
 
 CleffaEggMoves:

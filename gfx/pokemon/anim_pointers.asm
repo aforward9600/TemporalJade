@@ -30,9 +30,9 @@ AnimationPointers:
 	dw SewaddleAnimation
 	dw SwadloonAnimation
 	dw LeavannyAnimation
-	dw NidoranMAnimation
-	dw NidorinoAnimation
-	dw NidokingAnimation
+	dw YamaskAnimation
+	dw CofagrigusAnimation
+	dw RunerigusAnimation
 	dw CleffaAnimation
 	dw ClefairyAnimation
 	dw ClefableAnimation

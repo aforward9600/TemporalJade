@@ -224,7 +224,7 @@ SwarmGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 22, SWADLOON
-	dbw 22, NIDORINO
+	dbw 22, COFAGRIGUS
 	dbw 22, PINSIR
 	dbw 22, PINSIR
 	dbw 22, SCYTHER
@@ -233,7 +233,7 @@ SwarmGrassWildMons:
 	dbw 22, PINSIR
 	; day
 	dbw 22, SWADLOON
-	dbw 22, NIDORINO
+	dbw 22, COFAGRIGUS
 	dbw 22, PINSIR
 	dbw 22, PINSIR
 	dbw 22, SCYTHER
@@ -242,7 +242,7 @@ SwarmGrassWildMons:
 	dbw 22, PINSIR
 	; nite
 	dbw 22, SWADLOON
-	dbw 22, NIDORINO
+	dbw 22, COFAGRIGUS
 	dbw 22, PINSIR
 	dbw 22, PINSIR
 	dbw 22, SCYTHER

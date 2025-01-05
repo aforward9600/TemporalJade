@@ -128,3 +128,5 @@ AbilityNames:
 	db "Rough Skin@"
 	db "Suction Cups@"
 	db "Earth Eater@"
+	db "Marvel Scale@"
+	db "Water Veil@"

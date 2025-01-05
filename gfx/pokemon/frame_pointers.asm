@@ -30,9 +30,9 @@ FramesPointers:
 	dba SewaddleFrames
 	dba SwadloonFrames
 	dba LeavannyFrames
-	dba NidoranMFrames
-	dba NidorinoFrames
-	dba NidokingFrames
+	dba YamaskFrames
+	dba CofagrigusFrames
+	dba RunerigusFrames
 	dba CleffaFrames
 	dba ClefairyFrames
 	dba ClefableFrames

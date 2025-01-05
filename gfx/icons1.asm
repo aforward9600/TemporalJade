@@ -33,9 +33,9 @@ Icons1:
 	dw SewaddleIcon
 	dw SwadloonIcon
 	dw LeavannyIcon
-	dw NidoranMIcon
-	dw NidorinoIcon
-	dw NidokingIcon
+	dw YamaskIcon
+	dw CofagrigusIcon
+	dw RunerigusIcon
 	dw CleffaIcon
 	dw ClefairyIcon
 	dw ClefableIcon
@@ -160,9 +160,9 @@ ExcadrillIcon:    INCBIN "gfx/icons/excadrill.2bpp"
 SewaddleIcon:     INCBIN "gfx/icons/sewaddle.2bpp"
 SwadloonIcon:     INCBIN "gfx/icons/swadloon.2bpp"
 LeavannyIcon:     INCBIN "gfx/icons/leavanny.2bpp"
-NidoranMIcon:     INCBIN "gfx/icons/nidoran_m.2bpp"
-NidorinoIcon:     INCBIN "gfx/icons/nidorino.2bpp"
-NidokingIcon:     INCBIN "gfx/icons/nidoking.2bpp"
+YamaskIcon:       INCBIN "gfx/icons/yamask.2bpp"
+CofagrigusIcon:   INCBIN "gfx/icons/cofagrigus.2bpp"
+RunerigusIcon:    INCBIN "gfx/icons/runerigus.2bpp"
 CleffaIcon:       INCBIN "gfx/icons/cleffa.2bpp"
 ClefairyIcon:     INCBIN "gfx/icons/clefairy.2bpp"
 ClefableIcon:     INCBIN "gfx/icons/clefable.2bpp"

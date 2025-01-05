@@ -30,9 +30,9 @@ BitmasksPointers:
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks
 	dw LeavannyBitmasks
-	dw NidoranMBitmasks
-	dw NidorinoBitmasks
-	dw NidokingBitmasks
+	dw YamaskBitmasks
+	dw CofagrigusBitmasks
+	dw RunerigusBitmasks
 	dw CleffaBitmasks
 	dw ClefairyBitmasks
 	dw ClefableBitmasks

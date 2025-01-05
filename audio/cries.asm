@@ -1,3 +1,8 @@
+Cry_Yamask:
+	channel_count 2
+	channel 5, Cry_Yamask_Ch5
+	channel 6, Cry_Yamask_Ch6
+
 Cry_Whimsicott:
 	channel_count 2
 	channel 5, Cry_Whimsicott_Ch5
@@ -2301,6 +2306,26 @@ Cry_Cubchoo_Ch5:
 Cry_Cubchoo_Ch6:
 	duty_cycle $0
 	sound_jump Cry_Growlithe_Body_2
+
+Cry_Yamask_Ch5:
+	duty_cycle_pattern 1, 1, 1, 1
+	square_note 6, 2, -4, 1967
+	square_note 7, 2, -4, 1966
+	square_note 0, 0, 0, 0
+	square_note 5, 2, -4, 1956
+	square_note 5, 5, -1, 1991
+	square_note 6, 11, 4, 1990
+	sound_ret
+
+Cry_Yamask_Ch6:
+	duty_cycle_pattern 0, 2, 2, 2
+	square_note 6, 2, -4, 1962
+	square_note 7, 2, -4, 1961
+	square_note 0, 0, 0, 0
+	square_note 5, 2, -4, 1951
+	square_note 5, 5, -1, 1986
+	square_note 6, 11, 4, 1985
+	sound_ret
 
 ;Cry_Pikipek_Ch5:
 ;	sound_duty 0, 0, 3, 3

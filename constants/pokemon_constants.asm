@@ -50,9 +50,9 @@
 	const SEWADDLE   ; 1d
 	const SWADLOON   ; 1e
 	const LEAVANNY   ; 1f
-	const NIDORAN_M  ; 20
-	const NIDORINO   ; 21
-	const NIDOKING   ; 22
+	const YAMASK
+	const COFAGRIGUS
+	const RUNERIGUS
 	const CLEFFA     ; ad
 	const CLEFAIRY   ; 23
 	const CLEFABLE   ; 24

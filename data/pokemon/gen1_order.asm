@@ -1,11 +1,11 @@
 Pokered_MonIndices:
 	db RHYDON
 	db KANGASKHAN
-	db NIDORAN_M
+	db YAMASK
 	db CLEFAIRY
 	db SPEAROW
 	db VOLTORB
-	db NIDOKING
+	db RUNERIGUS
 	db SLOWBRO
 	db DARTRIX
 	db EXEGGUTOR
@@ -165,7 +165,7 @@ Pokered_MonIndices:
 	db RAPIDASH
 	db CUTIEFLY
 	db RIBOMBEE
-	db NIDORINO
+	db COFAGRIGUS
 	db SWADLOON
 	db GEODUDE
 	db PORYGON
