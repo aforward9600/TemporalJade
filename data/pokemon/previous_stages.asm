@@ -40,8 +40,8 @@ PreviousEvolutionStage::
 	dw 0
 	dw VULPIX
 	dw 0
-	dw IGGLYBUFF
-	dw JIGGLYPUFF  ;28
+	dw ROGGENROLA
+	dw BOLDORE  ;28
 	dw 0
 	dw ZUBAT
 	dw GOLBAT

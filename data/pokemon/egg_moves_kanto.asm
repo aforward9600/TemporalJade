@@ -41,7 +41,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw VulpixEggMoves
 	dw NoEggMoves1
-	dw IgglybuffEggMoves
+	dw RoggenrolaEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw ZubatEggMoves
@@ -279,10 +279,9 @@ VulpixEggMoves:
 	dw HOWL
 	dw -1 ; end
 
-IgglybuffEggMoves:
-	dw PERISH_SONG
-	dw PRESENT
-	dw FAINT_ATTACK
+RoggenrolaEggMoves:
+	dw TAKE_DOWN
+	dw MAGNITUDE
 	dw -1 ; end
 
 ZubatEggMoves:

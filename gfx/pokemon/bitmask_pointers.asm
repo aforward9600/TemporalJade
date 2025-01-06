@@ -38,9 +38,9 @@ BitmasksPointers:
 	dw ClefableBitmasks
 	dw VulpixBitmasks
 	dw NinetalesBitmasks
-	dw IgglybuffBitmasks
-	dw JigglypuffBitmasks
-	dw WigglytuffBitmasks
+	dw RoggenrolaBitmasks
+	dw BoldoreBitmasks
+	dw GigalithBitmasks
 	dw ZubatBitmasks
 	dw GolbatBitmasks
 	dw CrobatBitmasks

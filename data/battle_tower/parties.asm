@@ -881,7 +881,7 @@ BattleTowerMons2:
 	bigdw 38 ; SDef
 	db "MIRUTANKU@@"
 
-	dw WIGGLYTUFF
+	dw GIGALITH
 	db LEFTOVERS
 	dw HYPER_BEAM, MOONBLAST, FIRE_BLAST, ATTRACT
 
@@ -904,7 +904,7 @@ BattleTowerMons2:
 	bigdw 38 ; SDef
 	db "PUKURIN@@@@"
 
-	dw WIGGLYTUFF
+	dw GIGALITH
 	db PINK_BOW
 	dw PSYCHIC_M, SWAGGER, PSYCH_UP, HYPER_BEAM
 

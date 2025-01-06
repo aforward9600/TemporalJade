@@ -38,9 +38,9 @@ AnimationPointers:
 	dw ClefableAnimation
 	dw VulpixAnimation
 	dw NinetalesAnimation
-	dw IgglybuffAnimation
-	dw JigglypuffAnimation
-	dw WigglytuffAnimation
+	dw RoggenrolaAnimation
+	dw BoldoreAnimation
+	dw GigalithAnimation
 	dw ZubatAnimation
 	dw GolbatAnimation
 	dw CrobatAnimation

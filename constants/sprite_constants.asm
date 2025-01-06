@@ -181,7 +181,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_JYNX ; aa
 	const SPRITE_STARMIE ; ab
 	const SPRITE_ROWLET ; ac
-	const SPRITE_JIGGLYPUFF ; ad
+	const SPRITE_ROGGENROLA ; ad
 	const SPRITE_GRIMER ; ae
 	const SPRITE_EKANS ; af
 	const SPRITE_JOLTIK ; b0
@@ -223,7 +223,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_ZAPDOS ; d2
 	const SPRITE_SPEAROW ; d3
 	const SPRITE_CONKELDURR ; d4
-	const SPRITE_IGGLYBUFF ; d5
+	const SPRITE_BOLDORE ; d5
 	const SPRITE_CLODSIRE ; d6
 	const SPRITE_SOLOSIS ; d7
 	const SPRITE_MISSINGNO

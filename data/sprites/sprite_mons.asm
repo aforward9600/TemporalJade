@@ -20,7 +20,7 @@ SpriteMons:
 	dw JYNX
 	dw STARMIE
 	dw ROWLET
-	dw JIGGLYPUFF
+	dw ROGGENROLA
 	dw GRIMER
 	dw EKANS
 	dw JOLTIK
@@ -62,7 +62,7 @@ SpriteMons:
 	dw ZAPDOS
 	dw SPEAROW
 	dw CONKELDURR
-	dw IGGLYBUFF
+	dw BOLDORE
 	dw CLODSIRE
 	dw SOLOSIS
 	dw MISSINGNO

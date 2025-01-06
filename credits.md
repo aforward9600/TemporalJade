@@ -151,11 +151,11 @@ Crawdaunt, Mareanie, Toxapex, Scraggy, Scrafty, Joltik, Galvantula,
 Alolan Grimer and Muk, Alolan Raichu sprites
 
 Deino, Axew, Fraxure, Yamask, Golett, Golurk, Shelmet, Accelgor, 
-Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny animations:
+Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny,
+Roggenrola, Boldore, Gigalith animations:
 PokeMMO Generation 2 Sprites Mod
 
-Solosis, Duosion, Reuniclus, Petil, Lilligant, Haxorus, Timburr, Gurdurr,
-Conkeldurr, various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
+Various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
 Ein trainer sprite: Sindorman
 

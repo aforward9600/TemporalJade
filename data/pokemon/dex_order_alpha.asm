@@ -24,6 +24,7 @@ AlphabeticalPokedexOrder:
 	dw BEHEEYEM
 	dw BELLSPROUT
 	dw BLISSEY
+	dw BOLDORE
 	dw BONSLY
 	dw BOUFFALANT
 	dw BRONZONG
@@ -112,6 +113,7 @@ AlphabeticalPokedexOrder:
 	dw GENGAR
 	dw GEODUDE
 	dw GIBLE
+	dw GIGALITH
 	dw GIRAFARIG
 	dw GLACEON
 	dw GLALIE
@@ -142,8 +144,6 @@ AlphabeticalPokedexOrder:
 	dw HOUNDOUR
 	dw HYDREIGON
 	dw HYPNO
-	dw IGGLYBUFF
-	dw JIGGLYPUFF
 	dw JOLTEON
 	dw JOLTIK
 	dw JYNX
@@ -244,6 +244,7 @@ AlphabeticalPokedexOrder:
 	dw RHYPERIOR
 	dw RIBOMBEE
 	dw RIOLU
+	dw ROGGENROLA
 	dw ROSELIA
 	dw ROSERADE
 	dw ROWLET
@@ -318,7 +319,6 @@ AlphabeticalPokedexOrder:
 	dw WEEZING
 	dw WHIMSICOTT
 	dw WHIRLIPEDE
-	dw WIGGLYTUFF
 	dw WOOPER
 	dw WYRDEER
 	dw XATU

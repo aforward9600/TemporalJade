@@ -247,8 +247,8 @@ KantoGrassWildMons:
 	; morn
 	dbw 67, EXCADRILL
 	dbw 67, ARBOK
-	dbw 67, JIGGLYPUFF
-	dbw 67, JIGGLYPUFF
+	dbw 67, BOLDORE
+	dbw 67, BOLDORE
 	dbw 67, ARBOK
 	dbw 67, LEAVANNY
 	dbw 67, RUNERIGUS
@@ -256,8 +256,8 @@ KantoGrassWildMons:
 	; day
 	dbw 67, EXCADRILL
 	dbw 67, ARBOK
-	dbw 67, JIGGLYPUFF
-	dbw 67, JIGGLYPUFF
+	dbw 67, BOLDORE
+	dbw 67, BOLDORE
 	dbw 67, ARBOK
 	dbw 67, LEAVANNY
 	dbw 67, RUNERIGUS
@@ -265,8 +265,8 @@ KantoGrassWildMons:
 	; nite
 	dbw 67, EXCADRILL
 	dbw 67, ARBOK
-	dbw 67, JIGGLYPUFF
-	dbw 67, JIGGLYPUFF
+	dbw 67, BOLDORE
+	dbw 67, BOLDORE
 	dbw 67, ARBOK
 	dbw 67, CLEFAIRY
 	dbw 67, CLEFAIRY
@@ -277,8 +277,8 @@ KantoGrassWildMons:
 	; morn
 	dbw 67, EXCADRILL
 	dbw 67, ARBOK
-	dbw 67, JIGGLYPUFF
-	dbw 67, JIGGLYPUFF
+	dbw 67, BOLDORE
+	dbw 67, BOLDORE
 	dbw 67, ARBOK
 	dbw 67, LEAVANNY
 	dbw 67, RUNERIGUS
@@ -286,8 +286,8 @@ KantoGrassWildMons:
 	; day
 	dbw 67, EXCADRILL
 	dbw 67, ARBOK
-	dbw 67, JIGGLYPUFF
-	dbw 67, JIGGLYPUFF
+	dbw 67, BOLDORE
+	dbw 67, BOLDORE
 	dbw 67, ARBOK
 	dbw 67, LEAVANNY
 	dbw 67, RUNERIGUS
@@ -295,8 +295,8 @@ KantoGrassWildMons:
 	; nite
 	dbw 67, EXCADRILL
 	dbw 67, ARBOK
-	dbw 67, JIGGLYPUFF
-	dbw 67, JIGGLYPUFF
+	dbw 67, BOLDORE
+	dbw 67, BOLDORE
 	dbw 67, ARBOK
 	dbw 67, CLEFAIRY
 	dbw 67, CLEFAIRY
@@ -308,8 +308,8 @@ KantoGrassWildMons:
 	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
 	dbw 68, SCOLIPEDE
-	dbw 68, JIGGLYPUFF
-	dbw 68, WIGGLYTUFF
+	dbw 68, BOLDORE
+	dbw 68, GIGALITH
 	dbw 68, DUOSION
 	dbw 68, DUOSION
 	dbw 68, REUNICLUS
@@ -317,8 +317,8 @@ KantoGrassWildMons:
 	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
 	dbw 68, SCOLIPEDE
-	dbw 68, JIGGLYPUFF
-	dbw 68, WIGGLYTUFF
+	dbw 68, BOLDORE
+	dbw 68, GIGALITH
 	dbw 68, DUOSION
 	dbw 68, DUOSION
 	dbw 68, REUNICLUS
@@ -326,8 +326,8 @@ KantoGrassWildMons:
 	dbw 68, SCOLIPEDE
 	dbw 68, GRANBULL
 	dbw 68, SCOLIPEDE
-	dbw 68, JIGGLYPUFF
-	dbw 68, WIGGLYTUFF
+	dbw 68, BOLDORE
+	dbw 68, GIGALITH
 	dbw 68, DUOSION
 	dbw 68, DUOSION
 	dbw 68, REUNICLUS
@@ -339,7 +339,7 @@ KantoGrassWildMons:
 	dbw 69, SNUBBULL
 	dbw 69, MAGNETON
 	dbw 69, RIBOMBEE
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, GRANBULL
 	dbw 2, MUDKIP
 	dbw 3, MUDKIP
@@ -348,7 +348,7 @@ KantoGrassWildMons:
 	dbw 69, SNUBBULL
 	dbw 69, MAGNETON
 	dbw 69, RIBOMBEE
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, GRANBULL
 	dbw 2, MUDKIP
 	dbw 3, MUDKIP
@@ -357,7 +357,7 @@ KantoGrassWildMons:
 	dbw 69, HYPNO
 	dbw 69, MAGNETON
 	dbw 69, GOLDUCK
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, RIBOMBEE
 	dbw 2, MUDKIP
 	dbw 3, MUDKIP
@@ -369,7 +369,7 @@ KantoGrassWildMons:
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, DUOSION
 	dbw 69, DUOSION
 	dbw 69, REUNICLUS
@@ -378,7 +378,7 @@ KantoGrassWildMons:
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, DUOSION
 	dbw 69, DUOSION
 	dbw 69, REUNICLUS
@@ -387,7 +387,7 @@ KantoGrassWildMons:
 	dbw 69, HONCHKROW
 	dbw 69, HOUNDOOM
 	dbw 69, LIEPARD
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, DUOSION
 	dbw 69, DUOSION
 	dbw 69, REUNICLUS
@@ -399,7 +399,7 @@ KantoGrassWildMons:
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, DUOSION
 	dbw 69, DUOSION
 	dbw 69, REUNICLUS
@@ -408,7 +408,7 @@ KantoGrassWildMons:
 	dbw 69, FEAROW
 	dbw 69, GRANBULL
 	dbw 69, RIBOMBEE
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, DUOSION
 	dbw 69, DUOSION
 	dbw 69, REUNICLUS
@@ -417,7 +417,7 @@ KantoGrassWildMons:
 	dbw 69, HONCHKROW
 	dbw 69, HOUNDOOM
 	dbw 69, HAUNTER
-	dbw 69, JIGGLYPUFF
+	dbw 69, BOLDORE
 	dbw 69, DUOSION
 	dbw 69, DUOSION
 	dbw 69, REUNICLUS

@@ -1267,7 +1267,7 @@ if DEF(_CHALLENGE)
 	db SPECIALSPECS
 	dw FIRE_BLAST, EARTH_POWER, WILL_O_WISP, GRASS_KNOT
 else
-	dw WIGGLYTUFF
+	dw GIGALITH
 	db NO_ITEM
 	dw PLAY_ROUGH, DOUBLE_EDGE, EARTHQUAKE, MOONLIGHT
 endc
@@ -1321,7 +1321,7 @@ if DEF(_CHALLENGE)
 	db SPECIALSPECS
 	dw FIRE_BLAST, EARTH_POWER, WILL_O_WISP, GRASS_KNOT
 else
-	dw WIGGLYTUFF
+	dw GIGALITH
 	db NO_ITEM
 	dw PLAY_ROUGH, DOUBLE_EDGE, EARTHQUAKE, MOONLIGHT
 endc
@@ -3195,7 +3195,7 @@ endc
 	db 31
 	dw ESPEON
 	db 32
-	dw WIGGLYTUFF
+	dw GIGALITH
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (6)
@@ -3585,7 +3585,7 @@ endc
 	dw VULPIX
 	dw EMBER, QUICK_ATTACK, FIRE_SPIN, CONFUSE_RAY
 	db 18
-	dw JIGGLYPUFF
+	dw BOLDORE
 	dw DOUBLESLAP, DISABLE, PLAY_NICE, POUND
 	db -1 ; end
 
@@ -4224,7 +4224,7 @@ endc
 	next_list_item ; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
 	db 35
-	dw JIGGLYPUFF
+	dw BOLDORE
 	db -1 ; end
 
 	next_list_item ; TEACHER (4) Route 44
@@ -4252,7 +4252,7 @@ endc
 	dw AZUMARILL
 	dw PLAY_ROUGH, AQUA_TAIL, GROWTH, AQUA_JET
 	db 30
-	dw WIGGLYTUFF
+	dw GIGALITH
 	dw PIXIE_PUNCH, BRICK_BREAK, MOONLIGHT, ROUND_M
 	db -1 ; end
 
@@ -5457,7 +5457,7 @@ endc
 	db 30
 	dw PETILIL
 	db 31
-	dw JIGGLYPUFF
+	dw BOLDORE
 	db 29
 	dw VOLTORB
 	db 32
@@ -6450,7 +6450,7 @@ JugglerGroup:
 	db 30
 	dw PETILIL
 	db 31
-	dw JIGGLYPUFF
+	dw BOLDORE
 	db 29
 	dw VOLTORB
 	db 32
@@ -6464,7 +6464,7 @@ JugglerGroup:
 	db 11
 	dw VOLTORB
 	db 10
-	dw IGGLYBUFF
+	dw ROGGENROLA
 	db -1 ; end
 
 	next_list_item ; JUGGLER (3)
@@ -8142,14 +8142,14 @@ endc
 	dw CLEFAIRY
 	dw GROWL, ENCORE, DOUBLESLAP, METRONOME
 	db 16
-	dw JIGGLYPUFF
+	dw BOLDORE
 	dw SING, DEFENSE_CURL, POUND, DISABLE
 	db -1 ; end
 
 	next_list_item ; TWINS (3)
 	db "ANN & ANNE@", TRAINERTYPE_MOVES
 	db 16
-	dw JIGGLYPUFF
+	dw BOLDORE
 	dw SING, DEFENSE_CURL, POUND, DISABLE
 	db 16
 	dw CLEFAIRY

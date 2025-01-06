@@ -40,9 +40,9 @@ EvosAttacksPointers1::
 	dw ClefableEvosAttacks
 	dw VulpixEvosAttacks
 	dw NinetalesEvosAttacks
-	dw IgglybuffEvosAttacks
-	dw JigglypuffEvosAttacks
-	dw WigglytuffEvosAttacks
+	dw RoggenrolaEvosAttacks
+	dw BoldoreEvosAttacks
+	dw GigalithEvosAttacks
 	dw ZubatEvosAttacks
 	dw GolbatEvosAttacks
 	dw CrobatEvosAttacks
@@ -880,48 +880,57 @@ NinetalesEvosAttacks:
 	dbw 1, ICE_BEAM
 	db 0 ; no more level-up moves
 
-IgglybuffEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
+RoggenrolaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 25, BOLDORE
 	db 0 ; no more evolutions
-	dbw 1, SING
-	dbw 1, CHARM
-	dbw 3, DEFENSE_CURL
-	dbw 5, POUND
-	dbw 9, SWEET_KISS
-	dbw 11, MIMIC
+	dbw 1, TACKLE
+	dbw 4, HARDEN
+	dbw 7, SAND_ATTACK
+	dbw 14, ROCK_BLAST
+	dbw 17, MUD_SLAP
+	dbw 20, IRON_DEFENSE
+	dbw 23, ROCK_TOMB
+	dbw 27, ROCK_SLIDE
+	dbw 30, SPIKES
+	dbw 33, SANDSTORM
+	dbw 36, STONE_EDGE
+	dbw 40, EXPLOSION
 	db 0 ; no more level-up moves
 
-JigglypuffEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
+BoldoreEvosAttacks:
+	dbbw EVOLVE_ITEM, LINK_CABLE, GIGALITH
 	db 0 ; no more evolutions
-	dbw 1, SING
-	dbw 1, DEFENSE_CURL
-	dbw 1, POUND
-	dbw 5, ECHOED_VOICE
-	dbw 9, PLAY_NICE
-	dbw 14, DISABLE
-	dbw 17, DOUBLESLAP
-	dbw 20, ROLLOUT
-	dbw 22, ROUND_M
-	dbw 25, MOONLIGHT
-	dbw 27, BRICK_BREAK
-	dbw 30, REST
-	dbw 32, BODY_SLAM
-	dbw 35, PLAY_ROUGH
-	dbw 38, MIMIC
-	dbw 41, HYPER_VOICE
-	dbw 45, DOUBLE_EDGE
+	dbw LEARN_EVO_MOVE, POWER_GEM
+	dbw 1, POWER_GEM
+	dbw 1, TACKLE
+	dbw 4, HARDEN
+	dbw 7, SAND_ATTACK
+	dbw 14, ROCK_BLAST
+	dbw 17, MUD_SLAP
+	dbw 20, IRON_DEFENSE
+	dbw 23, ROCK_TOMB
+	dbw 30, ROCK_SLIDE
+	dbw 36, SPIKES
+	dbw 42, SANDSTORM
+	dbw 48, STONE_EDGE
+	dbw 55, EXPLOSION
 	db 0 ; no more level-up moves
 
-WigglytuffEvosAttacks:
+GigalithEvosAttacks:
 	db 0 ; no more evolutions
-	dbw LEARN_EVO_MOVE, PIXIE_PUNCH
-	dbw 1, PIXIE_PUNCH
-	dbw 1, SING
-	dbw 1, DISABLE
-	dbw 1, DEFENSE_CURL
-	dbw 1, DOUBLESLAP
-	dbw 1, ECHOED_VOICE
+	dbw 1, POWER_GEM
+	dbw 1, TACKLE
+	dbw 4, HARDEN
+	dbw 7, SAND_ATTACK
+	dbw 14, ROCK_BLAST
+	dbw 17, MUD_SLAP
+	dbw 20, IRON_DEFENSE
+	dbw 23, ROCK_TOMB
+	dbw 30, ROCK_SLIDE
+	dbw 36, SPIKES
+	dbw 42, SANDSTORM
+	dbw 48, STONE_EDGE
+	dbw 55, EXPLOSION
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:

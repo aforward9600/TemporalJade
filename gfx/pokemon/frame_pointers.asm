@@ -38,9 +38,9 @@ FramesPointers:
 	dba ClefableFrames
 	dba VulpixFrames
 	dba NinetalesFrames
-	dba IgglybuffFrames
-	dba JigglypuffFrames
-	dba WigglytuffFrames
+	dba RoggenrolaFrames
+	dba BoldoreFrames
+	dba GigalithFrames
 	dba ZubatFrames
 	dba GolbatFrames
 	dba CrobatFrames

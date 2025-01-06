@@ -38,9 +38,9 @@ AnimationIdlePointers:
 	dw ClefableAnimationIdle
 	dw VulpixAnimationIdle
 	dw NinetalesAnimationIdle
-	dw IgglybuffAnimationIdle
-	dw JigglypuffAnimationIdle
-	dw WigglytuffAnimationIdle
+	dw RoggenrolaAnimationIdle
+	dw BoldoreAnimationIdle
+	dw GigalithAnimationIdle
 	dw ZubatAnimationIdle
 	dw GolbatAnimationIdle
 	dw CrobatAnimationIdle

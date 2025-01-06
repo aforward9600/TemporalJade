@@ -474,8 +474,8 @@ SwarmGrassWildMons:
 	dbw 12, MURKROW
 	dbw 12, MIME__JR
 	dbw 12, PURRLOIN
-	dbw 12, JIGGLYPUFF
-	dbw 12, JIGGLYPUFF
+	dbw 12, BOLDORE
+	dbw 12, BOLDORE
 	dbw 12, MIME__JR
 	dbw 12, MIME__JR
 	; day
@@ -483,8 +483,8 @@ SwarmGrassWildMons:
 	dbw 12, MURKROW
 	dbw 12, MIME__JR
 	dbw 12, PURRLOIN
-	dbw 12, JIGGLYPUFF
-	dbw 12, JIGGLYPUFF
+	dbw 12, BOLDORE
+	dbw 12, BOLDORE
 	dbw 12, MIME__JR
 	dbw 12, MIME__JR
 	; nite
@@ -492,8 +492,8 @@ SwarmGrassWildMons:
 	dbw 12, MURKROW
 	dbw 12, MIME__JR
 	dbw 12, PURRLOIN
-	dbw 12, JIGGLYPUFF
-	dbw 12, JIGGLYPUFF
+	dbw 12, BOLDORE
+	dbw 12, BOLDORE
 	dbw 12, MIME__JR
 	dbw 12, MIME__JR
 
@@ -505,7 +505,7 @@ SwarmGrassWildMons:
 	dbw 27, DITTO
 	dbw 27, YANMA
 	dbw 27, DUOSION
-	dbw 27, JIGGLYPUFF
+	dbw 27, BOLDORE
 	dbw 27, YANMA
 	dbw 27, DUOSION
 	dbw 27, DUOSION
@@ -514,7 +514,7 @@ SwarmGrassWildMons:
 	dbw 27, DITTO
 	dbw 27, YANMA
 	dbw 27, DUOSION
-	dbw 27, JIGGLYPUFF
+	dbw 27, BOLDORE
 	dbw 27, YANMA
 	dbw 27, DUOSION
 	dbw 27, DUOSION
@@ -523,7 +523,7 @@ SwarmGrassWildMons:
 	dbw 27, DITTO
 	dbw 27, YANMA
 	dbw 27, DUOSION
-	dbw 27, JIGGLYPUFF
+	dbw 27, BOLDORE
 	dbw 27, YANMA
 	dbw 27, DUOSION
 	dbw 27, DUOSION

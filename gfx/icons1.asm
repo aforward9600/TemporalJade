@@ -41,9 +41,9 @@ Icons1:
 	dw ClefableIcon
 	dw VulpixIcon
 	dw NinetalesIcon
-	dw IgglybuffIcon
-	dw JigglypuffIcon
-	dw WigglytuffIcon
+	dw RoggenrolaIcon
+	dw BoldoreIcon
+	dw GigalithIcon
 	dw ZubatIcon
 	dw GolbatIcon
 	dw CrobatIcon
@@ -168,9 +168,9 @@ ClefairyIcon:     INCBIN "gfx/icons/clefairy.2bpp"
 ClefableIcon:     INCBIN "gfx/icons/clefable.2bpp"
 VulpixIcon:       INCBIN "gfx/icons/vulpix.2bpp"
 NinetalesIcon:    INCBIN "gfx/icons/ninetales.2bpp"
-IgglybuffIcon:    INCBIN "gfx/icons/igglybuff.2bpp"
-JigglypuffIcon:   INCBIN "gfx/icons/jigglypuff.2bpp"
-WigglytuffIcon:   INCBIN "gfx/icons/wigglytuff.2bpp"
+RoggenrolaIcon:   INCBIN "gfx/icons/roggenrola.2bpp"
+BoldoreIcon:      INCBIN "gfx/icons/boldore.2bpp"
+GigalithIcon:     INCBIN "gfx/icons/gigalith.2bpp"
 ZubatIcon:        INCBIN "gfx/icons/zubat.2bpp"
 GolbatIcon:       INCBIN "gfx/icons/golbat.2bpp"
 CrobatIcon:       INCBIN "gfx/icons/crobat.2bpp"

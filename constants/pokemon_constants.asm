@@ -58,9 +58,9 @@
 	const CLEFABLE   ; 24
 	const VULPIX     ; 25
 	const NINETALES  ; 26
-	const IGGLYBUFF  ; ae
-	const JIGGLYPUFF ; 27
-	const WIGGLYTUFF ; 28
+	const ROGGENROLA ; ae
+	const BOLDORE    ; 27
+	const GIGALITH   ; 28
 	const ZUBAT      ; 29
 	const GOLBAT     ; 2a
 	const CROBAT     ; a9

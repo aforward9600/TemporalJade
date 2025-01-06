@@ -88,12 +88,12 @@ PokemonPicPointers::
 	dba VulpixBackpic
 	dba NinetalesFrontpic
 	dba NinetalesBackpic
-	dba IgglybuffFrontpic
-	dba IgglybuffBackpic
-	dba JigglypuffFrontpic
-	dba JigglypuffBackpic
-	dba WigglytuffFrontpic
-	dba WigglytuffBackpic
+	dba RoggenrolaFrontpic
+	dba RoggenrolaBackpic
+	dba BoldoreFrontpic
+	dba BoldoreBackpic
+	dba GigalithFrontpic
+	dba GigalithBackpic
 	dba ZubatFrontpic
 	dba ZubatBackpic
 	dba GolbatFrontpic

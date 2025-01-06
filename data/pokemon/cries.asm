@@ -44,9 +44,9 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; CLEFABLE
 	mon_cry CRY_VULPIX,      $04f,  $090 ; VULPIX
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; NINETALES
-	mon_cry CRY_CHIKORITA,   $0e8,  $0e8 ; IGGLYBUFF
-	mon_cry CRY_PIDGEY,      $0ff,  $0b5 ; JIGGLYPUFF
-	mon_cry CRY_PIDGEY,      $068,  $0e0 ; WIGGLYTUFF
+	mon_cry CRY_SLOWKING,   -$5a0,  $130 ; ROGGENROLA
+	mon_cry CRY_VOLTORB,     $4bf,  $100 ; BOLDORE
+	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; GIGALITH
 	mon_cry CRY_SQUIRTLE,    $0e0,  $100 ; ZUBAT
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; GOLBAT
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT

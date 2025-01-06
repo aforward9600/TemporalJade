@@ -1268,7 +1268,7 @@ JohtoGrassWildMons:
 	dbw 28, GRANBULL
 	dbw 28, HYPNO
 	dbw 28, WHIRLIPEDE
-	dbw 28, JIGGLYPUFF
+	dbw 28, BOLDORE
 	dbw 28, KIRLIA
 	dbw 28, DITTO
 	dbw 28, DITTO
@@ -1277,7 +1277,7 @@ JohtoGrassWildMons:
 	dbw 28, GRANBULL
 	dbw 28, HYPNO
 	dbw 28, WHIRLIPEDE
-	dbw 28, JIGGLYPUFF
+	dbw 28, BOLDORE
 	dbw 28, KIRLIA
 	dbw 28, DITTO
 	dbw 28, DITTO
@@ -1286,7 +1286,7 @@ JohtoGrassWildMons:
 	dbw 28, GRANBULL
 	dbw 28, HYPNO
 	dbw 28, HYPNO
-	dbw 28, JIGGLYPUFF
+	dbw 28, BOLDORE
 	dbw 28, KIRLIA
 	dbw 28, DITTO
 	dbw 28, DITTO
@@ -1299,7 +1299,7 @@ JohtoGrassWildMons:
 	dbw 27, WHIRLIPEDE
 	dbw 27, GROWLITHE
 	dbw 27, DUOSION
-	dbw 27, JIGGLYPUFF
+	dbw 27, BOLDORE
 	dbw 27, DITTO
 	dbw 27, YANMA
 	dbw 27, YANMA
@@ -1308,7 +1308,7 @@ JohtoGrassWildMons:
 	dbw 27, WHIRLIPEDE
 	dbw 27, GROWLITHE
 	dbw 27, DUOSION
-	dbw 27, JIGGLYPUFF
+	dbw 27, BOLDORE
 	dbw 27, DITTO
 	dbw 27, YANMA
 	dbw 27, YANMA
@@ -1317,7 +1317,7 @@ JohtoGrassWildMons:
 	dbw 27, NOCTOWL
 	dbw 27, PSYDUCK
 	dbw 27, DUOSION
-	dbw 27, JIGGLYPUFF
+	dbw 27, BOLDORE
 	dbw 27, DITTO
 	dbw 27, YANMA
 	dbw 27, YANMA
@@ -1360,7 +1360,7 @@ JohtoGrassWildMons:
 	dbw 12, VENIPEDE
 	dbw 12, YAMASK
 	dbw 12, MIME__JR
-	dbw 12, JIGGLYPUFF
+	dbw 12, BOLDORE
 	dbw 12, FARFETCH_D
 	dbw 12, FARFETCH_D
 	; day
@@ -1369,7 +1369,7 @@ JohtoGrassWildMons:
 	dbw 12, VENIPEDE
 	dbw 12, YAMASK
 	dbw 12, MIME__JR
-	dbw 12, JIGGLYPUFF
+	dbw 12, BOLDORE
 	dbw 12, PURRLOIN
 	dbw 12, PURRLOIN
 	; nite
@@ -1378,7 +1378,7 @@ JohtoGrassWildMons:
 	dbw 12, HOOTHOOT
 	dbw 12, SEWADDLE
 	dbw 12, MIME__JR
-	dbw 12, JIGGLYPUFF
+	dbw 12, BOLDORE
 	dbw 12, MURKROW
 	dbw 12, MURKROW
 
@@ -1746,7 +1746,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 15, CLEFAIRY
-	dbw 15, JIGGLYPUFF
+	dbw 15, BOLDORE
 	dbw 15, SEWADDLE
 	dbw 15, ELGYEM
 	dbw 15, MINCCINO
@@ -1755,7 +1755,7 @@ JohtoGrassWildMons:
 	dbw 15, DROWZEE
 	; day
 	dbw 15, CLEFAIRY
-	dbw 15, JIGGLYPUFF
+	dbw 15, BOLDORE
 	dbw 15, SEWADDLE
 	dbw 15, ELGYEM
 	dbw 15, MINCCINO
@@ -1764,7 +1764,7 @@ JohtoGrassWildMons:
 	dbw 15, DROWZEE
 	; nite
 	dbw 15, CLEFAIRY
-	dbw 15, JIGGLYPUFF
+	dbw 15, BOLDORE
 	dbw 15, SEWADDLE
 	dbw 15, ELGYEM
 	dbw 15, MINCCINO

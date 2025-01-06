@@ -41,7 +41,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    4,              SET_UP_DOLL,       EVENT_DECO_PIKACHU_DOLL,         SPRITE_PIKACHU
 	decoration DECO_PLANT,   SURF_PIKA_DOLL, SET_UP_DOLL,       EVENT_DECO_SURFING_PIKACHU_DOLL, SPRITE_SURFING_PIKACHU
 	decoration DECO_DOLL,    5,              SET_UP_DOLL,       EVENT_DECO_CLEFAIRY_DOLL,        SPRITE_CLEFAIRY
-	decoration DECO_DOLL,    6,              SET_UP_DOLL,       EVENT_DECO_JIGGLYPUFF_DOLL,      SPRITE_JIGGLYPUFF
+	decoration DECO_DOLL,    6,              SET_UP_DOLL,       EVENT_DECO_JIGGLYPUFF_DOLL,      SPRITE_ROGGENROLA
 	decoration DECO_DOLL,    0,              SET_UP_DOLL,       EVENT_DECO_BULBASAUR_DOLL,       SPRITE_BULBASAUR_STILL
 	decoration DECO_DOLL,    1,              SET_UP_DOLL,       EVENT_DECO_CHARMANDER_DOLL,      SPRITE_TEPIG
 	decoration DECO_DOLL,    2,              SET_UP_DOLL,       EVENT_DECO_SQUIRTLE_DOLL,        SPRITE_MUDKIP_STILL
@@ -71,7 +71,7 @@ DecorationAttributePokemonNames:
 	dw CHIKORITA  ;  3
 	dw PIKACHU    ;  4
 	dw CLEFAIRY   ;  5
-	dw JIGGLYPUFF ;  6
+	dw ROGGENROLA ;  6
 	dw KOTORA     ;  7
 	dw SANDYGAST    ;  8
 	dw POLIWAG    ;  9

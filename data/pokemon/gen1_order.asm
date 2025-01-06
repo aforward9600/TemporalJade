@@ -98,8 +98,8 @@ Pokered_MonIndices:
 	db EXCADRILL
 	db TIRTOUGA
 	db CARRACOSTA
-	db JIGGLYPUFF
-	db WIGGLYTUFF
+	db BOLDORE
+	db GIGALITH
 	db EEVEE
 	db FLAREON
 	db JOLTEON
@@ -212,7 +212,7 @@ Pokered_MonIndices:
 	db LANTURN
 	db SIRFETCH_D
 	db CLEFFA
-	db IGGLYBUFF
+	db ROGGENROLA
 	db TOGEPI
 	db TOGETIC
 	db NATU

@@ -50,9 +50,9 @@ MonMenuIconPals:
 	icon_pals PINK,   GREEN  ; CLEFABLE
 	icon_pals TEAL,   BLUE   ; VULPIX
 	icon_pals BLUE,   PURPLE ; NINETALES
-	icon_pals PINK,   GREEN  ; IGGLYBUFF
-	icon_pals PINK,   GREEN  ; JIGGLYPUFF
-	icon_pals PINK,   GREEN  ; WIGGLYTUFF
+	icon_pals BLUE,   PURPLE ; ROGGENROLA
+	icon_pals BLUE,   TEAL   ; BOLDORE
+	icon_pals RED,    TEAL   ; GIGALITH
 	icon_pals BLUE,   GREEN  ; ZUBAT
 	icon_pals BLUE,   RED    ; GOLBAT
 	icon_pals PURPLE, PINK   ; CROBAT
