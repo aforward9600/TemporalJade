@@ -90,9 +90,9 @@ MonMenuIconPals:
 	icon_pals GREEN,  BLUE   ; VICTREEBEL
 	icon_pals BLUE,   TEAL   ; TENTACOOL
 	icon_pals BLUE,   TEAL   ; TENTACRUEL
-	icon_pals BROWN,  RED    ; GEODUDE
-	icon_pals BROWN,  RED    ; GRAVELER
-	icon_pals BROWN,  RED    ; GOLEM
+	icon_pals GRAY,   RED    ; GEODUDE
+	icon_pals GRAY,   RED    ; GRAVELER
+	icon_pals GRAY,   RED    ; GOLEM
 	icon_pals RED,    GRAY   ; PONYTA
 	icon_pals RED,    PURPLE ; RAPIDASH
 	icon_pals RED,    PURPLE ; SLOWPOKE

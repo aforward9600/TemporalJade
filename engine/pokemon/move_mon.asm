@@ -167,7 +167,7 @@ endr
 
 	; Initialize stat experience.
 	xor a
-	ld b, MON_DVS - MON_EVS
+	ld b, MON_ABILITY - MON_EVS
 .loop
 	ld [de], a
 	inc de
@@ -181,6 +181,11 @@ endr
 	jr z, .registerpokedex
 
 	push hl
+	ld a, [wEnemyMonAbility]
+	ld [de], a
+	inc de
+	inc de
+	inc de
 	farcall GetTrainerDVs
 	pop hl
 	jr .initializeDVs
@@ -200,22 +205,16 @@ endr
 	and a
 	jr nz, .copywildmonDVs
 
-	push hl
-	ld hl, wStatusFlags2
-	bit STATUSFLAGS2_UNUSED_5_F, [hl]
-	jr nz, .MaxDVsPasswordGifts
-	pop hl
+	call GetGiftMonAbility
+	ld [de], a
+	inc de
+	inc de
+	inc de
 
 	call Random
 	ld b, a
 	call Random
 	ld c, a
-	jr .initializeDVs
-
-.MaxDVsPasswordGifts:
-	pop hl
-	ld b, $ff
-	ld c, $ff
 .initializeDVs
 	ld a, b
 	ld [de], a
@@ -235,13 +234,6 @@ endr
 rept NUM_MOVES
 	inc de
 endr
-
-	push hl
-	call GetGiftMonAbility
-	pop hl
-
-	ld a, [wTempMonCaughtAbility]
-	ld [wPartyMon1CaughtAbility], a
 
 	; Initialize happiness.
 	ld a, BASE_HAPPINESS
@@ -288,6 +280,11 @@ endr
 	jr .initstats
 
 .copywildmonDVs
+	ld a, [wEnemyMonAbility]
+	ld [de], a
+	inc de
+	inc de
+	inc de
 	ld a, [wEnemyMonDVs]
 	ld [de], a
 	inc de
@@ -305,9 +302,6 @@ endr
 	dec b
 	jr nz, .wildmonpploop
 	pop hl
-
-	ld a, [wEnemyAbility]
-	ld [wPartyMon1CaughtAbility], a
 
 	; Initialize happiness.
 	ld b,b
@@ -1872,15 +1866,12 @@ GetGiftMonAbility:
 	jr c, .secondability
 
 	ld a, 0
-	ld [wTempMonCaughtAbility], a
 	ret
 
 .secondability:
 	ld a, 1
-	ld [wTempMonCaughtAbility], a
 	ret
 
 .HiddenAbility: ; Need to properly implement
 	ld a, 2
-	ld [wTempMonCaughtAbility], a
 	ret

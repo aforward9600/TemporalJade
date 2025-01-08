@@ -1656,17 +1656,17 @@ GeodudeEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DEFENSE_CURL
-	dbw 4, MUD_SLAP
+	dbw 4, THUNDER_WAVE
 	dbw 6, ROCK_POLISH
 	dbw 10, ROLLOUT
-	dbw 12, MAGNITUDE
+	dbw 12, SPARK
 	dbw 16, ROCK_THROW
 	dbw 18, ROCK_TOMB
-	dbw 22, BULLDOZE
+	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT
 	dbw 28, SPIKES
 	dbw 30, ROCK_BLAST
-	dbw 34, EARTHQUAKE
+	dbw 34, DISCHARGE
 	dbw 36, EXPLOSION
 	dbw 40, DOUBLE_EDGE
 	dbw 42, STONE_EDGE
@@ -1677,17 +1677,17 @@ GravelerEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DEFENSE_CURL
-	dbw 4, MUD_SLAP
+	dbw 4, THUNDER_WAVE
 	dbw 6, ROCK_POLISH
 	dbw 10, ROLLOUT
-	dbw 12, MAGNITUDE
+	dbw 12, SPARK
 	dbw 16, ROCK_THROW
 	dbw 18, ROCK_TOMB
-	dbw 22, BULLDOZE
+	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT
 	dbw 30, SPIKES
 	dbw 34, ROCK_BLAST
-	dbw 40, EARTHQUAKE
+	dbw 40, DISCHARGE
 	dbw 44, EXPLOSION
 	dbw 50, DOUBLE_EDGE
 	dbw 54, STONE_EDGE
@@ -1699,17 +1699,17 @@ GolemEvosAttacks:
 	dbw 1, GYRO_BALL
 	dbw 1, TACKLE
 	dbw 1, DEFENSE_CURL
-	dbw 4, MUD_SLAP
+	dbw 4, THUNDER_WAVE
 	dbw 6, ROCK_POLISH
 	dbw 10, ROLLOUT
-	dbw 12, MAGNITUDE
+	dbw 12, SPARK
 	dbw 16, ROCK_THROW
 	dbw 18, ROCK_TOMB
-	dbw 22, BULLDOZE
+	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT
 	dbw 30, SPIKES
 	dbw 34, ROCK_BLAST
-	dbw 40, EARTHQUAKE
+	dbw 40, DISCHARGE
 	dbw 44, EXPLOSION
 	dbw 50, DOUBLE_EDGE
 	dbw 54, STONE_EDGE

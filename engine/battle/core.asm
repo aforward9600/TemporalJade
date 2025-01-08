@@ -5841,6 +5841,8 @@ LoadEnemyMon:
 	jr z, .WildDVs
 
 ; TrainerDVs
+	ld a, 0
+	ld [wEnemyMonAbility], a
 	ld a, [wCurPartyMon]
 	ld hl, wOTPartyMon1DVs
 	call GetPartyLocation
@@ -5850,6 +5852,27 @@ LoadEnemyMon:
 	jp .UpdateDVs
 
 .WildDVs:
+	call Random
+	jr z, .HiddenAbility
+
+	call Random
+	cp 50 percent + 1
+	jr c, .secondability
+
+	ld a, 0
+	ld [wEnemyMonAbility], a
+	jr .AfterAbility
+
+.secondability:
+	ld a, 1
+	ld [wEnemyMonAbility], a
+	jr .AfterAbility
+
+.HiddenAbility: ; Need to properly implement
+	ld a, 2
+	ld [wEnemyMonAbility], a
+
+.AfterAbility
 ; Wild DVs
 ; Here's where the fun starts
 
@@ -5905,7 +5928,6 @@ LoadEnemyMon:
 	jr .UpdateDVs
 
 .GenerateDVs:
-
 ;checkswarm
 	ld hl, wDailyFlags1
 	bit DAILYFLAGS1_SWARM_F, [hl]
@@ -5916,23 +5938,10 @@ LoadEnemyMon:
 
 .skipshine:
 ; Generate new random DVs
-	ld hl, wStatusFlags2
-	bit STATUSFLAGS2_UNUSED_5_F, [hl]
-	jr nz, .MaxDVs
 	call BattleRandom
 	ld b, a
 	call BattleRandom
 	ld c, a
-	jr .UpdateDVs
-
-.MaxDVs:
-;	call BattleRandom
-;	ld [hld], a
-	ld b, $ff
-;	call BattleRandom
-;	ld [hl], a
-	ld c, $ff
-
 .UpdateDVs:
 ; Input DVs in register bc
 	ld hl, wEnemyMonDVs
@@ -5942,27 +5951,6 @@ LoadEnemyMon:
 
 .next
 
-	call Random
-	jr z, .HiddenAbility
-
-	call Random
-	cp 50 percent + 1
-	jr c, .secondability
-
-	ld a, 0
-	ld [wEnemyAbility], a
-	jr .AfterAbility
-
-.secondability:
-	ld a, 1
-	ld [wEnemyAbility], a
-	jr .AfterAbility
-
-.HiddenAbility: ; Need to properly implement
-	ld a, 2
-	ld [wEnemyAbility], a
-
-.AfterAbility
 ; We've still got more to do if we're dealing with a wild monster
 	ld a, [wBattleMode]
 	dec a

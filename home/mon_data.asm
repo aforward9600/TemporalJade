@@ -99,11 +99,11 @@ GetAbility::
 	ld de, BASE_ABILITY1
 	jr z, .ability_1
 	cp 2
-	jr nc, .Ability2
-	ld de, BASE_ABILITY3
-	jr .ability_1
-.Ability2
+	jr nc, .Ability3
 	ld de, BASE_ABILITY2
+	jr .ability_1
+.Ability3
+	ld de, BASE_ABILITY3
 .ability_1
 
 	ld a, BANK(BaseData)

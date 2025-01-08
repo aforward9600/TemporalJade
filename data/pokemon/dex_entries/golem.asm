@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	db "Megaton@" ; species name
+	dw 507, 6967 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "Because it can't"
+	next "fire boulders at a"
+	next "rapid pace, it's"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"
+	page "been known to"
+	next "seize Geodude and"
+	next "fire them.@"

@@ -11,7 +11,7 @@
 	db GENDER_F12_5 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/tepig/front.dimensions"
-	db BLAZE, BLAZE, THICK_FAT ; wBaseAbility1, wBaseAbility2
+	db BLAZE, INTIMIDATE, THICK_FAT ; wBaseAbility1, wBaseAbility2
 	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

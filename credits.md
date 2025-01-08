@@ -131,7 +131,7 @@ Mudkip line sprites: Bloodless & Blue Rose
 
 Gen 5 Sprites: Bloodless
 
-Pokewilds team: Purrloin
+Pokewilds team: Purrloin, Cofagrigus, Yamask, Runerigus
 
 Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
 
@@ -183,8 +183,9 @@ Regice, Regirock, and Registeel sprites: Mr Dustman, Sadfish, and Poisonous Gas
 Regigigas sprites: Blue Emerald
 
 Lance, Female Scientist and Cynthia overworld sprites,
-Alolan Vulpix and Ninetales, Hisuian Voltorb and Electrode
-sprites: Rangi and the Polished Crystal Team.
+Alolan Vulpix and Ninetales, Hisuian Voltorb and Electrode,
+Alolan Geodude, Graveler and Golem sprites: 
+Rangi and the Polished Crystal Team.
 
 Clair Trainer Sprite base, Gen 5 Black Belt, Schoolgirl, Lass, Hiker, Youngster
 Ace Trainers and Swimmers sprites: Solo993

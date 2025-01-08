@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 303, 2320 ; height, weight
+	db "Rock@" ; species name
+	dw 303, 2425 ; height, weight
 
-	db   "It travels by rol-"
-	next "ling on mountain"
-	next "paths. If it gains"
+	db   "When it rolls down"
+	next "a mountain path,"
+	next "anything in its"
 
-	page "too much speed, it"
-	next "stops by running"
-	next "into huge rocks.@"
+	page "way gets zapped by"
+	next "electricity and"
+	next "sent flying.@"
