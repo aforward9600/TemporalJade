@@ -7,6 +7,8 @@ Fake Out
 
 KDLPro for the status appearance change.
 
+8bitZeta for the time portal graphic.
+
 Dark Zeta, Celadonk and cardboardbox for Evolution moves for Pokecrystal16.
 
 Celadonk for the Password System.

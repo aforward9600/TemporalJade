@@ -330,6 +330,9 @@ TilesetSummitAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
+	dw NULL,  WaitTileAnimation
+	dw NULL,  WaitTileAnimation
+	dw NULL,  WaitTileAnimation
 	dw NULL,  DoneTileAnimation
 
 DoneTileAnimation:
@@ -1177,3 +1180,13 @@ WhirlpoolTiles1: INCBIN "gfx/tilesets/whirlpool/1.2bpp"
 WhirlpoolTiles2: INCBIN "gfx/tilesets/whirlpool/2.2bpp"
 WhirlpoolTiles3: INCBIN "gfx/tilesets/whirlpool/3.2bpp"
 WhirlpoolTiles4: INCBIN "gfx/tilesets/whirlpool/4.2bpp"
+
+TimePortalFrames1: dw vTiles2 tile $6e, TimePortalTiles1
+TimePortalFrames2: dw vTiles2 tile $6f, TimePortalTiles2
+TimePortalFrames3: dw vTiles2 tile $7e, TimePortalTiles3
+TimePortalFrames4: dw vTiles2 tile $6b, TimePortalTiles4
+
+TimePortalTiles1: INCBIN "gfx/tilesets/time-portal/1.2bpp"
+TimePortalTiles2: INCBIN "gfx/tilesets/time-portal/2.2bpp"
+TimePortalTiles3: INCBIN "gfx/tilesets/time-portal/3.2bpp"
+TimePortalTiles4: INCBIN "gfx/tilesets/time-portal/4.2bpp"

@@ -5876,46 +5876,6 @@ LoadEnemyMon:
 ; Wild DVs
 ; Here's where the fun starts
 
-; Roaming monsters (Entei, Raikou) work differently
-; They have their own structs, which are shorter than normal
-	ld a, [wBattleType]
-	cp BATTLETYPE_ROAMING
-	jr nz, .NotRoaming
-
-; Grab HP
-	call GetRoamMonHP
-	ld a, [hl]
-; Check if the HP has been initialized
-	and a
-; We'll do something with the result in a minute
-	push af
-
-; Grab DVs
-	call GetRoamMonDVs
-	inc hl
-	ld a, [hld]
-	ld c, a
-	ld b, [hl]
-
-; Get back the result of our check
-	pop af
-; If the RoamMon struct has already been initialized, we're done
-	jp nz, .UpdateDVs
-
-; If it hasn't, we need to initialize the DVs
-; (HP is initialized at the end of the battle)
-	call GetRoamMonDVs
-	inc hl
-	call BattleRandom
-	ld [hld], a
-	ld c, a
-	call BattleRandom
-	ld [hl], a
-	ld b, a
-; We're done with DVs
-	jp .UpdateDVs
-
-.NotRoaming:
 ; Register a contains wBattleType
 
 ; Forced shiny battle type
