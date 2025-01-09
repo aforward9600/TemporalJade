@@ -301,6 +301,13 @@ BattleText_UserHurtBySpikes:
 	line "hurt by Spikes!"
 	prompt
 
+BattleText_IntimidateText:
+	text "<USER>'s"
+	line "Intimidate lowered"
+	cont "<TARGET>'s"
+	cont "Attack!"
+	prompt
+
 RecoveredUsingText:
 	text "<TARGET>"
 	line "recovered with its"

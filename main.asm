@@ -735,3 +735,4 @@ INCLUDE "engine/battle/effect_command_files.asm"
 SECTION "Abilities", ROMX
 
 INCLUDE "engine/abilities/ability_prints.asm"
+INCLUDE "engine/abilities/battle_abilities.asm"
