@@ -48,7 +48,7 @@ BattleText_WildFled:
 	prompt
 
 BattleText_EnemyFled:
-	text "Enemy @"
+	text "Foe @"
 	text_ram wEnemyMonNick
 	text_start
 	line "fled!"
@@ -175,7 +175,7 @@ BattleText_HailEnds:
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+	text "Foe @"
 	text_ram wEnemyMonNick
 	text_start
 	line "fainted!"
@@ -306,6 +306,86 @@ BattleText_IntimidateText:
 	line "Intimidate lowered"
 	cont "<TARGET>'s"
 	cont "Attack!"
+	prompt
+
+BattleText_AttackNotLowered:
+	text "<TARGET>'s"
+	line "Attack was not"
+	cont "lowered!"
+	prompt
+
+BattleText_KeenEye:
+	text "<TARGET>'s"
+	line "Keen Eye prevented"
+	cont "an Accuracy drop!"
+	prompt
+
+BattleText_HyperCutter:
+	text "<TARGET>'s"
+	line "Hyper Cutter"
+	cont "prevented an"
+	cont "Attack drop!"
+	prompt
+
+BattleText_ClearBody:
+	text "<TARGET>'s"
+	line "Clear Body"
+	cont "prevented the"
+	cont "stat drop!"
+	prompt
+
+BattleText_MoldBreaker:
+	text "<USER> is"
+	line "breaking the"
+	cont "mold!"
+	prompt
+
+BattleText_Mummy:
+	text "<TARGET>'s"
+	line "ability is now"
+	cont "Mummy!"
+	prompt
+
+BattleText_WanderSpirit:
+	text "<TARGET>"
+	line "swapped abilities"
+	cont "with the foe!"
+	prompt
+
+BattleText_PoisonPoint:
+	text "<USER> was"
+	line "poisoned by Poison"
+	cont "Point!"
+	prompt
+
+BattleText_Static:
+	text "<USER> was"
+	line "paralyzed by"
+	cont "Static!"
+	prompt
+
+BattleText_FlameBody:
+	text "<USER> was"
+	line "burned by Flame"
+	cont "Body!"
+	prompt
+
+BattleText_RoughSkin:
+	text "<USERS> was"
+	line "damaged by Rough"
+	cont "Skin!"
+	prompt
+
+BattleText_Damp:
+	text "<TARGET>'s"
+	line "Damp prevented the"
+	cont "attack!"
+	prompt
+
+BattleText_WaterAbsorb:
+	text "<TARGET>"
+	line "healed itself with"
+	cont "Water Absorb!"
 	prompt
 
 RecoveredUsingText:

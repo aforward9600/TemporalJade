@@ -112,8 +112,8 @@ DoBattle:
 	call SpikesDamage
 
 .not_linked_2
-	farcall GetEnemyAbility
-	farcall GetPlayerAbility
+	farcall SetEnemyAbility
+	farcall SetPlayerAbility
 	farcall SentOutAbilityBoth
 	jp BattleTurn
 
@@ -1954,7 +1954,7 @@ EnemyPartyMonEntrance:
 .done_switch
 	call ResetBattleParticipants
 	call SetEnemyTurn
-	farcall GetEnemyAbility
+	farcall SetEnemyAbility
 	farcall SentOutAbility
 	call SpikesDamage
 	xor a
@@ -2410,7 +2410,7 @@ ForcePlayerMonChoice:
 	call EmptyBattleTextbox
 	call LoadTileMapToTempTileMap
 	call SetPlayerTurn
-	farcall GetPlayerAbility
+	farcall SetPlayerAbility
 	farcall SentOutAbility
 	call SpikesDamage
 	ld a, $1
@@ -2433,7 +2433,7 @@ PlayerPartyMonEntrance:
 	call EmptyBattleTextbox
 	call LoadTileMapToTempTileMap
 	call SetPlayerTurn
-	farcall GetPlayerAbility
+	farcall SetPlayerAbility
 	farcall SentOutAbility
 	jp SpikesDamage
 
@@ -4968,7 +4968,7 @@ PlayerSwitch:
 EnemyMonEntrance:
 	callfar AI_Switch
 	call SetEnemyTurn
-	farcall GetEnemyAbility
+	farcall SetEnemyAbility
 	farcall SentOutAbility
 	jp SpikesDamage
 
@@ -5003,7 +5003,7 @@ BattleMonEntrance:
 	call EmptyBattleTextbox
 	call LoadTileMapToTempTileMap
 	call SetPlayerTurn
-	farcall GetPlayerAbility
+	farcall SetPlayerAbility
 	farcall SentOutAbility
 	call SpikesDamage
 	ld a, $2
@@ -5032,10 +5032,10 @@ PassedBattleMonEntrance:
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .GetPlayerAbilityPassed
-	farcall GetEnemyAbility
+	farcall SetEnemyAbility
 	jr .GotEnemyAbilityPassed
 .GetPlayerAbilityPassed
-	farcall GetPlayerAbility
+	farcall SetPlayerAbility
 .GotEnemyAbilityPassed
 	farcall SentOutAbility
 	jp SpikesDamage
@@ -5062,10 +5062,10 @@ PassedBattleMonEntranceUTurn:
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .GetPlayerAbilityUTurn
-	farcall GetEnemyAbility
+	farcall SetEnemyAbility
 	jr .GotEnemyAbilityUTurn
 .GetPlayerAbilityUTurn
-	farcall GetPlayerAbility
+	farcall SetPlayerAbility
 .GotEnemyAbilityUTurn
 	farcall SentOutAbility
 	jp SpikesDamage
