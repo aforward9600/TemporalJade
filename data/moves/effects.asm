@@ -1669,27 +1669,11 @@ Safeguard:
 	safeguard
 	endmove
 
-SacredFire:
+SkillSwap:
 	checkobedience
 	usedmovetext
 	doturn
-	critical
-	damagestats
-	damagecalc
-	stab
-	damagevariation
-	checkhit
-	effectchance
-	moveanim
-	failuretext
-	applydamage
-	criticaltext
-	supereffectivetext
-	defrost
-	kingsrock
-	checkfaint
-	buildopponentrage
-	burntarget
+	skillswap
 	endmove
 
 Magnitude:

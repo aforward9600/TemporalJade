@@ -1,4 +1,4 @@
-AbilityNames:
+AbilityNames::
 	db "No Ability@"
 	db "Overgrow@"
 	db "Long Reach@"
@@ -130,3 +130,4 @@ AbilityNames:
 	db "Earth Eater@"
 	db "Marvel Scale@"
 	db "Water Veil@"
+	db "Disguise@"

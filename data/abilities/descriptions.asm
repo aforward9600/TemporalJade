@@ -130,6 +130,7 @@ AbilityDescriptions:
 	dw EarthEaterDesc
 	dw MarvelScaleDesc
 	dw WaterVeilDesc
+	dw DisguiseDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -646,3 +647,7 @@ MarvelScaleDesc:
 WaterVeilDesc:
 	db    "Prevents the burn"
 	next1 "status.@"
+
+DisguiseDesc:
+	db    "Prevents one"
+	next1 "attack.@"

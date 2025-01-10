@@ -125,7 +125,7 @@ MoveEffectsPointers:
 	dw Present
 	dw CosmicPower
 	dw Safeguard
-	dw SacredFire ; Can be replaced
+	dw SkillSwap
 	dw Magnitude
 	dw BatonPass
 	dw Pursuit

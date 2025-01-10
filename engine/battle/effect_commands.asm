@@ -155,6 +155,12 @@ CheckPlayerTurn:
 	and SLP
 	jr z, .not_asleep
 
+	ld a, [wPlayerAbility]
+	cp INSOMNIA
+	jr z, .woke_up
+	cp VITAL_SPIRIT
+	jr z, .woke_up
+
 	dec a
 	ld [wBattleMonStatus], a
 	and SLP
@@ -393,6 +399,12 @@ CheckEnemyTurn:
 	ld a, [hl]
 	and SLP
 	jr z, .not_asleep
+
+	ld a, [wEnemyAbility]
+	cp INSOMNIA
+	jr z, .woke_up
+	cp VITAL_SPIRIT
+	jr z, .woke_up
 
 	dec a
 	ld [wEnemyMonStatus], a
@@ -3718,18 +3730,12 @@ CheckForStatusIfAlreadyHasAny:
 BattleCommand_SleepTarget:
 ; sleeptarget
 
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_SLEEP
-	jr nz, .not_protected_by_item
+	call GetTargetAbility
+	cp VITAL_SPIRIT
+	jr z, .protected_by_ability
+	cp INSOMNIA
+	jr z, .protected_by_ability
 
-	ld a, [hl]
-	ld [wNamedObjectIndexBuffer], a
-	call GetItemName
-	ld hl, ProtectedByText
-	jr .fail
-
-.not_protected_by_item
 	call CheckForStatusIfAlreadyHasAny
 	jr nz, .fail
 
@@ -3768,6 +3774,9 @@ BattleCommand_SleepTarget:
 	jp z, OpponentCantMove
 	ret
 
+.protected_by_ability
+	ld hl, InsomniaText
+
 .fail
 	push hl
 	call AnimateFailedMove
@@ -3779,6 +3788,9 @@ BattleCommand_PoisonTarget:
 
 	call CheckSubstituteOpp
 	ret nz
+	call GetTargetAbility
+	cp IMMUNITY
+	ret z
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	and a
@@ -3787,10 +3799,6 @@ BattleCommand_PoisonTarget:
 	and $7f
 	ret z
 	call CheckIfTargetIsPoisonType
-	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_POISON
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -3820,22 +3828,16 @@ BattleCommand_Poison:
 	call CheckIfTargetIsPoisonType
 	jp z, .failed
 
+	call GetTargetAbility
+	cp IMMUNITY
+	jr z, .Immune
+
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
 	ld b, a
 	ld hl, AlreadyPoisonedText
 	and 1 << PSN
 	jp nz, .failed
-
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_POISON
-	jr nz, .do_poison
-	ld a, [hl]
-	ld [wNamedObjectIndexBuffer], a
-	call GetItemName
-	ld hl, ProtectedByText
-	jr .failed
 
 .do_poison
 	ld hl, AvoidStatusText
@@ -3869,6 +3871,9 @@ BattleCommand_Poison:
 .finished
 	farcall UseHeldStatusHealingItem
 	ret
+
+.Immune
+	ld hl, ImmuneText
 
 .failed
 	push hl
@@ -4028,6 +4033,9 @@ BattleCommand_BurnTarget:
 	ld [wNumHits], a
 	call CheckSubstituteOpp
 	ret nz
+	call GetTargetAbility
+	cp WATER_VEIL
+	ret z
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	and a
@@ -4238,20 +4246,11 @@ BattleCommand_Burn:
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .didnt_affect
+	call GetTargetAbility
+	cp WATER_VEIL
+	jr z, .WaterVeil
 	call CheckMoveTypeMatchesTarget ; Don't burn a Fire-type
 	jr z, .didnt_affect
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_BURN
-	jr nz, .no_item_protection
-	ld a, [hl]
-	ld [wNamedObjectIndexBuffer], a
-	call GetItemName
-	call AnimateFailedMove
-	ld hl, ProtectedByText
-	jp StdBattleTextbox
-
-.no_item_protection
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .failed
@@ -4286,6 +4285,11 @@ BattleCommand_Burn:
 .didnt_affect
 	call AnimateFailedMove
 	jp PrintDoesntAffect
+
+.WaterVeil
+	call AnimateFailedMove
+	ld hl, WaterVeilText
+	jp StdBattleTextbox
 
 BattleCommand_AttackUp:
 ; attackup
@@ -6356,6 +6360,11 @@ BattleCommand_Heal:
 	push hl
 	push de
 	push af
+	call GetUserAbility
+	cp INSOMNIA
+	jr z, .CantRest
+	cp VITAL_SPIRIT
+	jr z, .CantRest
 	call BattleCommand_MoveDelay
 	ld a, BATTLE_VARS_SUBSTATUS5
 	call GetBattleVarAddr
@@ -6388,6 +6397,14 @@ BattleCommand_Heal:
 	ld hl, GetHalfMaxHP
 	call CallBattleCore
 	jr .finish
+
+.CantRest:
+	pop de
+	pop hl
+	pop af
+	call AnimateFailedMove
+	ld hl, RestInsomniaText
+	jp StdBattleTextbox
 
 .restore_full_hp
 	ld hl, GetMaxHP

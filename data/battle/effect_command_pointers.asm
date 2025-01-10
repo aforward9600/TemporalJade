@@ -194,5 +194,6 @@ BattleCommandPointers:
 	effectfn BattleCommand_UTurn
 	effectfn BattleCommand_UTurnAnim
 	effectfn BattleCommand_GyroBall
+	effectfn BattleCommand_SkillSwap
 ;	effectfn BattleCommand_WakeUpSlap
 ;	effectfn BattleCommand_AwakenOpponent

@@ -348,14 +348,24 @@ BattleText_Mummy:
 
 BattleText_WanderSpirit:
 	text "<TARGET>"
-	line "swapped abilities"
-	cont "with the foe!"
+	line "swapped abilities!"
+	prompt
+
+SkillSwapText:
+	text "<USER>"
+	line "swapped abilities!"
 	prompt
 
 BattleText_PoisonPoint:
 	text "<USER> was"
 	line "poisoned by Poison"
 	cont "Point!"
+	prompt
+
+WaterVeilText:
+	text "<TARGET>'s"
+	line "Water Veil"
+	cont "prevents burns!"
 	prompt
 
 BattleText_Static:
@@ -415,6 +425,16 @@ BattleText_UsersStringBuffer1Activated:
 	text_ram wStringBuffer1
 	text_start
 	cont "activated!"
+	prompt
+
+RestInsomniaText:
+	text "<USER>"
+	line "can't fall asleep!"
+	prompt
+
+InsomniaText:
+	text "<TARGET>"
+	line "can't fall asleep!"
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
@@ -864,6 +884,11 @@ WontDropAnymoreText:
 	text_ram wStringBuffer2
 	text " won't"
 	cont "drop anymore!"
+	prompt
+
+ImmuneText:
+	text "<TARGET> is"
+	line "immune to poison!"
 	prompt
 
 FledFromBattleText::
