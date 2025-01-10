@@ -1,5 +1,8 @@
 BattleCommand_Attract:
 ; attract
+	call GetTargetAbility
+	cp OBLIVIOUS
+	jr z, .oblivious
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .failed
@@ -21,6 +24,10 @@ BattleCommand_Attract:
 
 .failed
 	jp FailMove
+
+.oblivious
+	ld hl, ObliviousText
+	jp StdBattleTextbox
 
 CheckOppositeGender:
 	ld a, MON_SPECIES

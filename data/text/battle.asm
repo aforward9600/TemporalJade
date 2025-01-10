@@ -396,6 +396,11 @@ BouncedBackText:
 	text " back!"
 	prompt
 
+ObliviousText:
+	text "<TARGET> was"
+	line "immune to Attract!"
+	prompt
+
 RecoveredUsingText:
 	text "<TARGET>"
 	line "recovered with its"

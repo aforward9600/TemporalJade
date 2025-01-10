@@ -218,7 +218,8 @@ TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 3, TAIL_WHIP
+	dbw 3, ATTRACT
+;	dbw 3, TAIL_WHIP
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE
