@@ -21,7 +21,6 @@ INCLUDE "engine/battle/move_effects/mist.asm"
 INCLUDE "engine/battle/move_effects/heal_bell.asm"
 INCLUDE "engine/battle/move_effects/u_turn.asm"
 INCLUDE "engine/battle/move_effects/encore.asm"
-INCLUDE "engine/battle/move_effects/sketch.asm"
 INCLUDE "engine/battle/move_effects/baton_pass.asm"
 
 SECTION "Effect Commands Extra", ROMX
@@ -46,3 +45,4 @@ INCLUDE "engine/battle/move_effects/venoshock.asm"
 INCLUDE "engine/battle/move_effects/rage.asm"
 INCLUDE "engine/battle/move_effects/grass_knot.asm"
 INCLUDE "engine/battle/move_effects/gyro_ball.asm"
+INCLUDE "engine/battle/move_effects/sketch.asm"

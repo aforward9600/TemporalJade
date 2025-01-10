@@ -95,7 +95,7 @@ MoveEffectsPointers:
 	dw Snore
 	dw CalmMind
 	dw LockOn
-	dw Sketch
+	dw Sketch ; Can be replaced
 	dw DefrostOpponent
 	dw SleepTalk
 	dw DestinyBond
@@ -125,7 +125,7 @@ MoveEffectsPointers:
 	dw Present
 	dw CosmicPower
 	dw Safeguard
-	dw SacredFire
+	dw SacredFire ; Can be replaced
 	dw Magnitude
 	dw BatonPass
 	dw Pursuit

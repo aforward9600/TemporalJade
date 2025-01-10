@@ -28,6 +28,7 @@ DoSleep:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	checksafeguard
 	sleeptarget
 	endmove
@@ -359,11 +360,13 @@ EvasionUp2:
 	statupfailtext
 	endmove
 
+PlayNice:
 AttackDown:
 	checkobedience
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	attackdown
 	lowersub
 	statdownanim
@@ -377,6 +380,7 @@ DefenseDown:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	defensedown
 	lowersub
 	statdownanim
@@ -390,6 +394,7 @@ SpeedDown:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	speeddown
 	lowersub
 	statdownanim
@@ -403,6 +408,7 @@ SpecialAttackDown:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	specialattackdown
 	lowersub
 	statdownanim
@@ -416,6 +422,7 @@ SpecialDefenseDown:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	specialdefensedown
 	lowersub
 	statdownanim
@@ -429,6 +436,7 @@ AccuracyDown:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	accuracydown
 	lowersub
 	statdownanim
@@ -442,6 +450,7 @@ EvasionDown:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	evasiondown
 	lowersub
 	statdownanim
@@ -455,6 +464,7 @@ AttackDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	attackdown2
 	lowersub
 	statdownanim
@@ -468,6 +478,7 @@ DefenseDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	defensedown2
 	lowersub
 	statdownanim
@@ -481,6 +492,7 @@ SpeedDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	speeddown2
 	lowersub
 	statdownanim
@@ -494,6 +506,7 @@ SpecialAttackDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	specialattackdown2
 	lowersub
 	statdownanim
@@ -507,6 +520,7 @@ SpecialDefenseDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	specialdefensedown2
 	lowersub
 	statdownanim
@@ -520,6 +534,7 @@ AccuracyDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	accuracydown2
 	lowersub
 	statdownanim
@@ -533,6 +548,7 @@ EvasionDown2:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	evasiondown2
 	lowersub
 	statdownanim
@@ -834,6 +850,7 @@ ForceSwitch:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	forceswitch
 	endmove
 
@@ -968,6 +985,7 @@ DoConfuse:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	checksafeguard
 	confuse
 	endmove
@@ -1044,6 +1062,7 @@ DoPoison:
 	doturn
 	checkhit
 	stab
+	magicbounce
 	checksafeguard
 	poison
 	endmove
@@ -1054,6 +1073,7 @@ DoParalyze:
 	doturn
 	stab
 	checkhit
+	magicbounce
 	checksafeguard
 	paralyze
 	endmove
@@ -1152,6 +1172,7 @@ LeechSeed:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	leechseed
 	endmove
 
@@ -1167,6 +1188,7 @@ Disable:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	disable
 	endmove
 
@@ -1286,6 +1308,7 @@ Encore:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	encore
 	endmove
 
@@ -1361,6 +1384,7 @@ Spite:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	spite
 	endmove
 
@@ -1446,6 +1470,7 @@ MeanLook:
 	checkobedience
 	usedmovetext
 	doturn
+	magicbounce
 	arenatrap
 	endmove
 
@@ -1490,6 +1515,7 @@ Spikes:
 	checkobedience
 	usedmovetext
 	doturn
+	magicbounce
 	spikes
 	endmove
 
@@ -1498,6 +1524,7 @@ Foresight:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	foresight
 	endmove
 
@@ -1549,6 +1576,7 @@ Swagger:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	switchturn
 	attackup2
 	switchturn
@@ -1588,6 +1616,7 @@ Attract:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	attract
 	endmove
 
@@ -2418,6 +2447,7 @@ StrengthSap:
     usedmovetext
     doturn
     checkhit
+	magicbounce
     strengthsap
     endmove
 
@@ -2620,19 +2650,6 @@ Growth:
 	raisesub
 	endmove
 
-PlayNice:
-	checkobedience
-	usedmovetext
-	doturn
-	checkhit
-	attackdown
-	lowersub
-	statdownanim
-	raisesub
-	statdownmessage
-	statdownfailtext
-	endmove
-
 CircleThrow:
 	checkobedience
 	usedmovetext
@@ -2725,6 +2742,7 @@ Flatter:
 	usedmovetext
 	doturn
 	checkhit
+	magicbounce
 	switchturn
 	specialattackup2
 	switchturn
@@ -2751,6 +2769,7 @@ DoBurn:
 	doturn
 	stab
 	checkhit
+	magicbounce
 	checksafeguard
 	burn
 	endmove

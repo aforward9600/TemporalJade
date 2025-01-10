@@ -1571,6 +1571,8 @@ BattleCommand_CheckHit:
 	ret z
 	cp EFFECT_VITAL_THROW
 	ret z
+	cp EFFECT_PLAY_NICE
+	ret z
 
 	call .StatModifiers
 
@@ -6657,9 +6659,49 @@ INCLUDE "engine/battle/move_effects/hail.asm"
 
 INCLUDE "engine/battle/move_effects/rollout.asm"
 
-BattleCommand5d:
-; unused
-	ret
+BattleCommand_MagicBounce:
+	call GetTargetAbility
+	cp MAGIC_BOUNCE
+	ret nz
+
+	call GetUserAbility
+	cp MOLD_BREAKER
+	ret z
+
+	ld a, BATTLE_VARS_SUBSTATUS1_OPP
+	call GetBattleVar
+	bit SUBSTATUS_PROTECT, a
+	ret nz
+
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVar
+	ld b, a
+	push bc
+	call BattleCommand_SwitchTurn
+
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVarAddr
+	ld a, [hl]
+	pop bc
+	ld [hl], b
+	push af
+
+	ld a, b
+	ld [wNamedObjectIndexBuffer], a
+	call GetMoveName
+	ld hl, BouncedBackText
+	call StdBattleTextbox
+
+	call UpdateMoveData
+	call BattleCommand_LowerSub
+	call ResetTurn
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVarAddr
+	pop af
+	ld [hl], a
+	call UpdateMoveData
+	jp BattleCommand_SwitchTurn
+;	jp EndMoveEffect
 
 INCLUDE "engine/battle/move_effects/attract.asm"
 

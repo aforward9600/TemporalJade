@@ -388,6 +388,14 @@ BattleText_WaterAbsorb:
 	cont "Water Absorb!"
 	prompt
 
+BouncedBackText:
+	text "<USER>"
+	line "bounced the"
+	cont "@"
+	text_ram wStringBuffer1
+	text " back!"
+	prompt
+
 RecoveredUsingText:
 	text "<TARGET>"
 	line "recovered with its"

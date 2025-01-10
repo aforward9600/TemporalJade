@@ -257,3 +257,25 @@ GetBattleAnimByte::
 
 	ld a, [wBattleAnimByte]
 	ret
+
+GetTargetAbility::
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .CheckTargetEnemyAbility
+	ld a, [wPlayerAbility]
+	ret
+
+.CheckTargetEnemyAbility
+	ld a, [wEnemyAbility]
+	ret
+
+GetUserAbility::
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .CheckUserPlayerAbility
+	ld a, [wEnemyAbility]
+	ret
+
+.CheckUserPlayerAbility
+	ld a, [wPlayerAbility]
+	ret
