@@ -965,6 +965,10 @@ ResidualDamage:
 	call HasUserFainted
 	ret z
 
+	farcall GetUserAbility
+	cp MAGIC_GUARD
+	ret z
+
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
 	and 1 << PSN | 1 << BRN
@@ -1341,6 +1345,26 @@ HandleWeather:
 	cp WEATHER_HAIL
 	jr z, .HailDamage
 
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerSandAbility
+	ld a, [wEnemyAbility]
+	jr .CheckSandAbility
+
+.PlayerSandAbility
+	ld a, [wPlayerAbility]
+.CheckSandAbility
+	cp SAND_VEIL
+	ret z
+	cp MAGIC_GUARD
+	ret z
+	cp SAND_RUSH
+	ret z
+	cp SAND_FORCE
+	ret z
+	cp OVERCOAT
+	ret z
+
 	ld hl, wBattleMonType1
 	ldh a, [hBattleTurn]
 	and a
@@ -1369,13 +1393,30 @@ HandleWeather:
 	ld de, ANIM_IN_SANDSTORM
 	call Call_PlayBattleAnim
 	call SwitchTurnCore
-	call GetEighthMaxHP
+	call GetSixteenthMaxHP
 	call SubtractHPFromUser
 
 	ld hl, SandstormHitsText
 	jp StdBattleTextbox
 
 .HailDamage:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .CheckPlayerHail
+	ld a, [wEnemyAbility]
+	jr .CheckHailAbility
+
+.CheckPlayerHail:
+	ld a, [wPlayerAbility]
+.CheckHailAbility
+	cp SNOW_CLOAK
+	ret z
+	cp MAGIC_GUARD
+	ret z
+	cp OVERCOAT
+	ret z
+	cp ICE_BODY
+	jr z, .HailHeal
 	ld hl, wBattleMonType1
 	ld a, [hBattleTurn]
 	and a
@@ -1397,10 +1438,24 @@ HandleWeather:
 	ld de, ANIM_IN_HAIL
 	call Call_PlayBattleAnim
 	call SwitchTurnCore
-	call GetEighthMaxHP
+	call GetSixteenthMaxHP
 	call SubtractHPFromUser
 
 	ld hl, HailBuffetsText
+	jp StdBattleTextbox
+
+.HailHeal:
+	call SwitchTurnCore
+	xor a
+	ld [wNumHits], a
+	ld de, ANIM_IN_HAIL
+	call Call_PlayBattleAnim
+	call SwitchTurnCore
+	call GetSixteenthMaxHP
+	call SwitchTurnCore
+	call RestoreHP
+	call SwitchTurnCore
+	ld hl, IceBodyText
 	jp StdBattleTextbox
 
 .PrintWeatherMessage:
@@ -3829,16 +3884,27 @@ SpikesDamage:
 	ld hl, wPlayerScreens
 	ld de, wBattleMonType
 	ld bc, UpdatePlayerHUD
+	ld a, [wPlayerAbility]
+	cp LEVITATE
+	ret z
+	cp MAGIC_GUARD
+	ret z
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .ok
 	ld hl, wEnemyScreens
 	ld de, wEnemyMonType
 	ld bc, UpdateEnemyHUD
+	ld a, [wEnemyAbility]
+	cp LEVITATE
+	ret z
+	cp MAGIC_GUARD
+	ret z
 .ok
-
 	bit SCREENS_SPIKES, [hl]
 	ret z
+
+	
 
 	; Flying-types aren't affected by Spikes.
 	ld a, [de]

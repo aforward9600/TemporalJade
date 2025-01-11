@@ -133,6 +133,7 @@ AbilityDescriptions:
 	dw DisguiseDesc
 	dw GooeyDesc
 	dw PerishBodyDesc
+	dw SlushRushDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -661,3 +662,7 @@ GooeyDesc:
 PerishBodyDesc:
 	db    "Perish count for"
 	next1 "both #mon.@"
+
+SlushRushDesc:
+	db    "Raises Speed in"
+	next1 "Hail.@"

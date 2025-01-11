@@ -134,5 +134,6 @@
 	const DISGUISE     ; 83
 	const GOOEY        ; 84
 	const PERISH_BODY  ; 85
+	const SLUSH_RUSH   ; 86
 
 NUM_ABILITIES EQU const_value + -1

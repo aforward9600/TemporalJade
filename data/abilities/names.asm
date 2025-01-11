@@ -133,3 +133,4 @@ AbilityNames::
 	db "Disguise@"
 	db "Gooey@"
 	db "Perish Body@"
+	db "Slush Rush@"

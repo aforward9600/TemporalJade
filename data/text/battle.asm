@@ -89,6 +89,11 @@ HailBuffetsText:
 	line "<USER>!"
 	prompt
 
+IceBodyText:
+	text "<USER>'s Ice"
+	line "Body heals itself!"
+	prompt
+
 PerishCountText:
 	text "<USER>'s"
 	line "Perish count is @"
