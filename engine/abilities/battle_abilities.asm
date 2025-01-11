@@ -177,6 +177,18 @@ CheckContactAbilities:
 	ret
 
 .FlameBody:
+	ld hl, wBattleMonType1
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .GotPlayerType
+	ld hl, wEnemyMonType1
+.GotPlayerType
+	ld a, [hli]
+	cp FIRE
+	ret z
+	ld a, [hl]
+	cp FIRE
+	ret z
 	call BattleRandom
 	cp 30 percent + 1
 	ret nc

@@ -195,6 +195,7 @@ ENDM
 	command uturnanim
 	command gyroball
 	command skillswap
+	command sheerforce
 ;	command wakeupslap
 ;	command awakenopponent
 

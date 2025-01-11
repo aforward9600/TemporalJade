@@ -2444,6 +2444,16 @@ BattleCommand_CheckFaint:
 	jr z, .multiple_hit_raise_sub
 	cp EFFECT_POISON_MULTI_HIT
 	jr z, .multiple_hit_raise_sub
+	cp EFFECT_ATTACK_UP_HIT
+	jr z, .AttackUpHit
+	cp EFFECT_SPEED_UP_HIT
+	jr z, .SpeedUpHit
+	cp EFFECT_DEFENSE_UP_HIT
+	jr z, .DefenseUpHit
+	cp EFFECT_ALL_UP_HIT
+	jr z, .AllStatsUp
+	cp EFFECT_RAPID_SPIN
+	jr z, .SpeedUpHit
 	cp EFFECT_TRIPLE_KICK
 	jr nz, .finish
 
@@ -2452,6 +2462,21 @@ BattleCommand_CheckFaint:
 
 .finish
 	jp EndMoveEffect
+
+.AttackUpHit:
+	ld b, ATTACK
+	jp BattleCommand_StatUp
+
+.SpeedUpHit:
+	ld b, SPEED
+	jp BattleCommand_StatUp
+
+.DefenseUpHit:
+	ld b, DEFENSE
+	jp BattleCommand_StatUp
+
+.AllStatsUp:
+	jp BattleCommand_AllStatsUp
 
 BattleCommand_BuildOpponentRage:
 ; buildopponentrage
@@ -3202,6 +3227,22 @@ BattleCommand_DamageCalc:
 	call Divide
 
 .DoneItem:
+	call GetUserAbility
+	cp SHEER_FORCE
+	jr nz, .CriticalHits
+	farcall SheerForceEffectCheck
+	jr nc, .CriticalHits
+	ld a, 30
+	add 100
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+
+.CriticalHits:
 ; Critical hits
 	call .CriticalMultiplier
 
@@ -5868,6 +5909,15 @@ BattleCommand_HeldFlinch:
 	ret
 
 .lifeorb:
+	call GetUserAbility
+	cp MAGIC_GUARD
+	ret z
+	cp SHEER_FORCE
+	jr nz, .continuelifeorb
+	farcall SheerForceEffectCheck
+	ret c
+
+.continuelifeorb:
 	call .checkfaint
 	ret z
 	xor a

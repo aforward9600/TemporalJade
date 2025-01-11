@@ -115,7 +115,7 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TEPIG, 5, ORAN_BERRY
+	givepoke TEPIG, 5, LIFE_ORB
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, .turnplayer
