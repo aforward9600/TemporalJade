@@ -102,7 +102,7 @@ Officer Jenny sprite: FrenchOrange
 
 Juniper and Bianca sprites: BW3 Genesis team
 
-Cobalion, Terrakion, Virizion & Keldeo sprites: LakeOfDance
+Swords of Justice sprites: LakeOfDance, Coballion, Scarlax, Bloodless
 
 Sneasel, Tyranitar, Dragonite, Moltres, Heracross,
 Teddiursa, Ursaring, Phanpy, Umbreon, Feraligatr,

@@ -737,3 +737,4 @@ SECTION "Abilities", ROMX
 INCLUDE "engine/abilities/ability_prints.asm"
 INCLUDE "engine/abilities/battle_abilities.asm"
 INCLUDE "data/abilities/no_intimidate_abilities.asm"
+INCLUDE "data/moves/contact_moves.asm"

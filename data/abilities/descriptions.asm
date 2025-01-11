@@ -131,6 +131,8 @@ AbilityDescriptions:
 	dw MarvelScaleDesc
 	dw WaterVeilDesc
 	dw DisguiseDesc
+	dw GooeyDesc
+	dw PerishBodyDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -651,3 +653,11 @@ WaterVeilDesc:
 DisguiseDesc:
 	db    "Prevents one"
 	next1 "attack.@"
+
+GooeyDesc:
+	db    "Contact will lower"
+	next1 "the foe's Speed.@"
+
+PerishBodyDesc:
+	db    "Perish count for"
+	next1 "both #mon.@"

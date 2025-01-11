@@ -1,4 +1,10 @@
 BattleCommand_MagicBounce:
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_SWAGGER
+	jr z, .SwaggerCheck
+	cp EFFECT_FLATTER
+	jr z, .SwaggerCheck
 	call GetTargetAbility
 	cp MAGIC_BOUNCE
 	ret nz
@@ -41,3 +47,11 @@ BattleCommand_MagicBounce:
 	farcall UpdateMoveData
 	farcall BattleCommand_SwitchTurn
 	ret
+
+.SwaggerCheck
+	call GetTargetAbility
+	cp OWN_TEMPO
+	ret nz
+	farcall AnimateFailedMove
+	ld hl, OwnTempoText
+	jp StdBattleTextbox

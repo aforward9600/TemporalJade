@@ -340,15 +340,10 @@ BattleText_MoldBreaker:
 	cont "mold!"
 	prompt
 
-BattleText_Mummy:
-	text "<TARGET>'s"
+MummyText:
+	text "<USER>'s"
 	line "ability is now"
 	cont "Mummy!"
-	prompt
-
-BattleText_WanderSpirit:
-	text "<TARGET>"
-	line "swapped abilities!"
 	prompt
 
 SkillSwapText:
@@ -381,9 +376,22 @@ BattleText_FlameBody:
 	prompt
 
 BattleText_RoughSkin:
-	text "<USERS> was"
+	text "<USER> was"
 	line "damaged by Rough"
 	cont "Skin!"
+	prompt
+
+GooeyText:
+	text "<TARGET>'s "
+	line "Gooey lowered"
+	cont "<USER>'s"
+	cont "Speed!"
+	prompt
+
+IronBarbsText:
+	text "<USER> was"
+	line "damaged by Iron"
+	cont "Barbs!"
 	prompt
 
 BattleText_Damp:
@@ -1053,6 +1061,36 @@ DidntAffect2Text:
 HPIsFullText:
 	text "<USER>'s"
 	line "HP is full!"
+	prompt
+
+OwnTempoText:
+	text "<TARGET>'s"
+	line "Own Tempo prevents"
+	cont "confusion!"
+	prompt
+
+SwaggerOwnTempoText:
+	text "<USER>'s"
+	line "Own Tempo prevents"
+	cont "confusion!"
+	prompt
+
+LimberText:
+	text "<TARGET>'s"
+	line "Limber prevents"
+	cont "paralysis!"
+	prompt
+
+AftermathText:
+	text "<TARGET>'s"
+	line "Aftermath damaged"
+	cont "<USER>!"
+	prompt
+
+CuteCharmText:
+	text "<USER>"
+	line "fell in love due"
+	cont "to Cute Charm!"
 	prompt
 
 DraggedOutText:

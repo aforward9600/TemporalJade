@@ -4162,9 +4162,8 @@ BattleCommand_ParalyzeTarget:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_PARALYZE
+	call GetTargetAbility
+	cp LIMBER
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -4197,9 +4196,10 @@ BattleCommand_SleepHit:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_SLEEP
+	call GetTargetAbility
+	cp VITAL_SPIRIT
+	ret z
+	cp INSOMNIA
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -5146,6 +5146,9 @@ BattleCommand_CheckRampage:
 	jr nz, .continue_rampage
 
 	res SUBSTATUS_RAMPAGE, [hl]
+	call GetUserAbility
+	cp OWN_TEMPO
+	jr z, .continue_rampage
 	call BattleCommand_SwitchTurn
 	call SafeCheckSafeguard
 	push af
@@ -5824,6 +5827,19 @@ BattleCommand_HeldFlinch:
 	and a
 	ret nz
 
+	farcall CheckContactAbilities
+
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_SUPER_FANG
+	ret z
+	cp EFFECT_PSYWAVE
+	ret z
+	cp EFFECT_STATIC_DAMAGE
+	ret z
+	cp EFFECT_COUNTER
+	ret z
+
 	call GetUserItem
 	ld a, b
 	cp HELD_FLINCH
@@ -6080,9 +6096,8 @@ INCLUDE "engine/battle/move_effects/focus_energy.asm"
 BattleCommand_ConfuseTarget:
 ; confusetarget
 
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_CONFUSE
+	call GetTargetAbility
+	cp OWN_TEMPO
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -6100,18 +6115,14 @@ BattleCommand_ConfuseTarget:
 BattleCommand_Confuse:
 ; confuse
 
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_CONFUSE
-	jr nz, .no_item_protection
-	ld a, [hl]
-	ld [wNamedObjectIndexBuffer], a
-	call GetItemName
+	call GetTargetAbility
+	cp OWN_TEMPO
+	jr nz, .no_ability_protection
 	call AnimateFailedMove
-	ld hl, ProtectedByText
+	ld hl, OwnTempoText
 	jp StdBattleTextbox
 
-.no_item_protection
+.no_ability_protection
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
@@ -6149,6 +6160,8 @@ BattleCommand_FinishConfusingTarget:
 	cp EFFECT_SNORE
 	jr z, .got_effect
 	cp EFFECT_SWAGGER
+	jr z, .got_effect
+	cp EFFECT_FLATTER
 	jr z, .got_effect
 	call AnimateCurrentMove
 
@@ -6188,18 +6201,14 @@ BattleCommand_Paralyze:
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .didnt_affect
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_PARALYZE
-	jr nz, .no_item_protection
-	ld a, [hl]
-	ld [wNamedObjectIndexBuffer], a
-	call GetItemName
+	call GetTargetAbility
+	cp LIMBER
+	jr nz, .no_ability_protection
 	call AnimateFailedMove
-	ld hl, ProtectedByText
+	ld hl, LimberText
 	jp StdBattleTextbox
 
-.no_item_protection
+.no_ability_protection
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .failed

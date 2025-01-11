@@ -131,3 +131,5 @@ AbilityNames::
 	db "Marvel Scale@"
 	db "Water Veil@"
 	db "Disguise@"
+	db "Gooey@"
+	db "Perish Body@"

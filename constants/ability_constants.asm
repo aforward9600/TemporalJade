@@ -132,5 +132,7 @@
 	const MARVEL_SCALE ; 81
 	const WATER_VEIL   ; 82
 	const DISGUISE     ; 83
+	const GOOEY        ; 84
+	const PERISH_BODY  ; 85
 
 NUM_ABILITIES EQU const_value + -1

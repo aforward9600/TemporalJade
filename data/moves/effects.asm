@@ -873,10 +873,10 @@ MultiHit:
 	criticaltext
 	cleartext
 	supereffectivelooptext
+	kingsrock
 	checkfaint
 	buildopponentrage
 	endloop
-	kingsrock
 	raisesub
 	endmove
 
@@ -900,12 +900,12 @@ PoisonMultiHit:
 	criticaltext
 	cleartext
 	supereffectivelooptext
+	kingsrock
 	checkfaint
 	buildopponentrage
 	endloop
 	raisesub
 	poisontarget
-	kingsrock
 	endmove
 
 FlinchHit:
@@ -941,6 +941,7 @@ OHKOHit:
 	applydamage
 	criticaltext
 	supereffectivetext
+	kingsrock
 	checkfaint
 	buildopponentrage
 	endmove
@@ -1271,6 +1272,7 @@ StaticDamage:
 	moveanim
 	failuretext
 	applydamage
+	kingsrock
 	checkfaint
 	buildopponentrage
 	endmove
@@ -1299,6 +1301,7 @@ Counter:
 	moveanim
 	failuretext
 	applydamage
+	kingsrock
 	checkfaint
 	buildopponentrage
 	endmove
@@ -1436,11 +1439,11 @@ TripleKick:
 	criticaltext
 	cleartext
 	supereffectivelooptext
+	kingsrock
 	checkfaint
 	buildopponentrage
 	kickcounter
 	endloop
-	kingsrock
 	raisesub
 	endmove
 
@@ -1822,6 +1825,7 @@ FakeOut:
 	applydamage
 	criticaltext
 	supereffectivetext
+	kingsrock
 	checkfaint
 	buildopponentrage
 	flinchtarget
