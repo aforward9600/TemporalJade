@@ -219,8 +219,8 @@ TepigEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 3, POWERUPPUNCH
-	dbw 3, HAIL
-;	dbw 3, TAIL_WHIP
+	dbw 3, CURSE
+	dbw 3, TAIL_WHIP
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE

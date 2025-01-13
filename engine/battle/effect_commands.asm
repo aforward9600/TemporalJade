@@ -155,12 +155,17 @@ CheckPlayerTurn:
 	and SLP
 	jr z, .not_asleep
 
+	call CheckNeutralGas
+	cp NEUTRAL_GAS
+	jr z, .SkipSleepAbility
+	
 	ld a, [wPlayerAbility]
 	cp INSOMNIA
 	jr z, .woke_up
 	cp VITAL_SPIRIT
 	jr z, .woke_up
 
+.SkipSleepAbility
 	dec a
 	ld [wBattleMonStatus], a
 	and SLP
@@ -5077,6 +5082,17 @@ CalcPlayerStats:
 	ld hl, ApplyBrnEffectOnAttack
 	call CallBattleCore
 
+	ld a, [wPlayerSubStatus4]
+	bit SUBSTATUS_SLOW_START, a
+	jr z, .SkipPlayerSlowStart
+
+	ld hl, ApplySlowStartOnAttack
+	call CallBattleCore
+
+	ld hl, ApplySlowStartOnSpeed
+	call CallBattleCore
+
+.SkipPlayerSlowStart
 	jp BattleCommand_SwitchTurn
 
 CalcEnemyStats:
@@ -5097,6 +5113,17 @@ CalcEnemyStats:
 	ld hl, ApplyBrnEffectOnAttack
 	call CallBattleCore
 
+	ld a, [wEnemySubStatus4]
+	bit SUBSTATUS_SLOW_START, a
+	jr z, .SkipEnemySlowStart
+
+	ld hl, ApplySlowStartOnAttack
+	call CallBattleCore
+
+	ld hl, ApplySlowStartOnSpeed
+	call CallBattleCore
+
+.SkipEnemySlowStart
 	jp BattleCommand_SwitchTurn
 
 CalcBattleStats:

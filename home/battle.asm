@@ -279,3 +279,11 @@ GetUserAbility::
 .CheckUserPlayerAbility
 	ld a, [wPlayerAbility]
 	ret
+
+CheckNeutralGas::
+	ld a, [wEnemyAbility]
+	cp NEUTRAL_GAS
+	ret z
+	ld a, [wPlayerAbility]
+	ret
+

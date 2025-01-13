@@ -272,6 +272,7 @@ HandleBetweenTurnEffects:
 	call HandlePerishSong
 	call CheckFaint_PlayerThenEnemy
 	ret c
+	call HandleSlowStart
 	jr .NoMoreFaintingConditions
 
 .CheckEnemyFirst:
@@ -289,6 +290,7 @@ HandleBetweenTurnEffects:
 	call HandlePerishSong
 	call CheckFaint_EnemyThenPlayer
 	ret c
+	call HandleSlowStart
 
 .NoMoreFaintingConditions:
 	farcall Core2_NewTurnEndEffects
@@ -843,8 +845,12 @@ Battle_EnemyFirst:
 
 .switch_item
 	call SetEnemyTurn
+	ld a, [wEnemyAbility]
+	cp MAGIC_GUARD
+	jr z, .SkipEnemyResidualDamage
 	call ResidualDamage
 	jp z, HandleEnemyMonFaint
+.SkipEnemyResidualDamage	
 	call RefreshBattleHuds
 	call PlayerTurn_EndOpponentProtectEndureDestinyBond
 	call CheckMobileBattleError
@@ -857,8 +863,12 @@ Battle_EnemyFirst:
 	call HasPlayerFainted
 	jp z, HandlePlayerMonFaint
 	call SetPlayerTurn
+	ld a, [wPlayerAbility]
+	cp MAGIC_GUARD
+	jr z, .SkipPlayerResidualDamage
 	call ResidualDamage
 	jp z, HandlePlayerMonFaint
+.SkipPlayerResidualDamage
 	call RefreshBattleHuds
 	xor a ; BATTLEPLAYERACTION_USEMOVE
 	ld [wBattlePlayerAction], a
@@ -883,9 +893,13 @@ Battle_PlayerFirst:
 	jp z, HandlePlayerMonFaint
 	push bc
 	call SetPlayerTurn
+	ld a, [wPlayerAbility]
+	cp MAGIC_GUARD
+	jr z, .SkipPlayerResidualDamage
 	call ResidualDamage
 	pop bc
 	jp z, HandlePlayerMonFaint
+.SkipPlayerResidualDamage
 	push bc
 	call RefreshBattleHuds
 	pop af
@@ -906,8 +920,12 @@ Battle_PlayerFirst:
 
 .switched_or_used_item
 	call SetEnemyTurn
+	ld a, [wEnemyAbility]
+	cp MAGIC_GUARD
+	jr z, .SkipEnemyResidualDamage
 	call ResidualDamage
 	jp z, HandleEnemyMonFaint
+.SkipEnemyResidualDamage
 	call RefreshBattleHuds
 	xor a ; BATTLEPLAYERACTION_USEMOVE
 	ld [wBattlePlayerAction], a
@@ -963,10 +981,6 @@ ResidualDamage:
 ; For Sandstorm damage, see HandleWeather.
 
 	call HasUserFainted
-	ret z
-
-	farcall GetUserAbility
-	cp MAGIC_GUARD
 	ret z
 
 	ld a, BATTLE_VARS_STATUS
@@ -1097,6 +1111,45 @@ ResidualDamage:
 	xor a
 	ret
 
+HandleSlowStart:
+	ldh a, [hSerialConnectionStatus]
+	cp USING_EXTERNAL_CLOCK
+	jr z, .EnemyFirst
+	call SetPlayerTurn
+	call .do_it
+	call SetEnemyTurn
+	jp .do_it
+
+.EnemyFirst:
+	call SetEnemyTurn
+	call .do_it
+	call SetPlayerTurn
+
+.do_it
+	ld hl, wPlayerSlowStartCount
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerSlowStart
+	ld hl, wEnemySlowStartCount
+.PlayerSlowStart
+	ld a, BATTLE_VARS_SUBSTATUS4
+	call GetBattleVar
+	bit SUBSTATUS_SLOW_START, a
+	ret z
+	dec [hl]
+	ld a, [hl]
+	ld [wDeciramBuffer], a
+	push af
+	ld hl, PerishCountText
+	call StdBattleTextbox
+	pop af
+	ret nz
+	ld a, BATTLE_VARS_SUBSTATUS4
+	call GetBattleVarAddr
+	res SUBSTATUS_SLOW_START, [hl]
+	ld hl, SlowStartEndText
+	jp StdBattleTextbox
+
 HandlePerishSong:
 	ldh a, [hSerialConnectionStatus]
 	cp USING_EXTERNAL_CLOCK
@@ -1223,6 +1276,9 @@ HandleWrap:
 	call SwitchTurnCore
 
 .skip_anim
+	farcall GetTargetAbility
+	cp MAGIC_GUARD
+	ret z
 	call GetSixteenthMaxHP
 	call SubtractHPFromUser
 	ld hl, BattleText_UsersHurtByStringBuffer1
@@ -6581,7 +6637,9 @@ ApplyStatusEffectOnStats:
 	ldh [hBattleTurn], a
 	farcall ApplyChoiceScarfOnSpeed
 	call ApplyPrzEffectOnSpeed
-	jp ApplyBrnEffectOnAttack
+	call ApplySlowStartOnSpeed
+	call ApplyBrnEffectOnAttack
+	jp ApplySlowStartOnAttack
 
 ApplyPrzEffectOnSpeed:
 	ldh a, [hBattleTurn]
@@ -6629,6 +6687,9 @@ ApplyPrzEffectOnSpeed:
 	ret
 
 ApplyBrnEffectOnAttack:
+	call GetUserAbility
+	cp GUTS
+	ret z
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .enemy
@@ -6664,6 +6725,76 @@ ApplyBrnEffectOnAttack:
 	or b
 	jr nz, .enemy_ok
 	ld b, $1 ; min attack
+
+.enemy_ok
+	ld [hl], b
+	ret
+
+ApplySlowStartOnAttack:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .enemy
+	ld hl, wBattleMonAttack + 1
+	ld a, [hld]
+	ld b, a
+	ld a, [hl]
+	srl a
+	rr b
+	ld [hli], a
+	or b
+	jr nz, .player_ok
+	ld b, $1 ; min attack
+
+.player_ok
+	ld [hl], b
+	ret
+
+.enemy
+	ld hl, wEnemyMonAttack + 1
+	ld a, [hld]
+	ld b, a
+	ld a, [hl]
+	srl a
+	rr b
+	ld [hli], a
+	or b
+	jr nz, .enemy_ok
+	ld b, $1 ; min attack
+
+.enemy_ok
+	ld [hl], b
+	ret
+
+ApplySlowStartOnSpeed:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .enemy
+	ld hl, wBattleMonSpeed + 1
+	ld a, [hld]
+	ld b, a
+	ld a, [hl]
+	srl a
+	rr b
+	ld [hli], a
+	or b
+	jr nz, .player_ok
+	ld b, $1 ; min speed
+
+.player_ok
+	ld [hl], b
+	ret
+
+.enemy
+	ld hl, wEnemyMonSpeed + 1
+	ld a, [hld]
+	ld b, a
+	ld a, [hl]
+	srl a
+	rr b
+	ld [hli], a
+	or b
+	jr nz, .enemy_ok
+	ld b, $1 ; min speed
 
 .enemy_ok
 	ld [hl], b

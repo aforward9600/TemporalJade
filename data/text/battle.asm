@@ -89,6 +89,12 @@ HailBuffetsText:
 	line "<USER>!"
 	prompt
 
+TraceText:
+	text "<USER>"
+	line "traced the foe's"
+	cont "ability!"
+	prompt
+
 IceBodyText:
 	text "<USER>'s Ice"
 	line "Body heals itself!"
@@ -1140,6 +1146,27 @@ StoleText:
 	cont "from its foe!"
 	prompt
 
+SlowStartText:
+	text "<USER> is"
+	line "off to a slow"
+	cont "start!"
+	prompt
+
+SlowStartEndText:
+	text "<USER>'s"
+	line "Slow Start has"
+	cont "ended!"
+	prompt
+
+FriskText:
+	text "<USER>"
+	line "frisked the foe"
+	cont "and found one"
+	cont "@"
+	text_ram wStringBuffer1
+	text "!"
+	prompt
+
 CantEscapeNowText:
 	text "<TARGET>"
 	line "can't escape now!"
@@ -1199,6 +1226,31 @@ SandstormBrewedText:
 HailStartsText:
 	text "A Hail Storm"
 	line "has started!"
+	prompt
+
+ScreenCleanText:
+	text "<USER>"
+	line "cleaned screens!"
+	prompt
+
+UnnerveText:
+	text "<TARGET> is"
+	line "too nervous to"
+	cont "eat Berries!"
+	prompt
+
+NeutralGasText:
+	text "<USER>'s"
+	line "Neutral Gas has"
+	cont "surpressed"
+	cont "<TARGET>'s"
+	cont "ability!"
+	prompt
+
+PressureText:
+	text "<USER> is"
+	line "exerting its"
+	cont "Pressure!"
 	prompt
 
 BracedItselfText:
