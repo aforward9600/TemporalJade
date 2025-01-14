@@ -218,7 +218,7 @@ TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 3, THUNDER
+	dbw 3, INFERNO
 	dbw 3, TAIL_WHIP
 	dbw 3, EMBER
 	dbw 7, EMBER
@@ -279,8 +279,8 @@ EmboarEvosAttacks:
 MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, GROWL
+	dbw 1, HYPER_BEAM
+;	dbw 1, GROWL
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT

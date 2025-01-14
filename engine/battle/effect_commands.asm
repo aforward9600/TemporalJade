@@ -990,6 +990,7 @@ CheckUserIsCharging:
 	ret
 
 BattleCommand_DoTurn:
+; Should put Truant code here
 	call CheckUserIsCharging
 	ret nz
 
@@ -1165,6 +1166,12 @@ BattleCommand_Critical:
 	xor a
 	ld [wCriticalHit], a
 
+	call GetTargetAbility
+	cp SHELL_ARMOR
+	ret z
+	cp BATTLE_ARMOR
+	ret z
+
 	ld a, BATTLE_VARS_MOVE_POWER
 	call GetBattleVar
 	and a
@@ -1217,6 +1224,29 @@ BattleCommand_Critical:
 		else
 			ld a, h
 			cp HIGH(FARFETCH_D)
+		endc
+	endc
+	jr nz, .Sirfetchd
+	ld a, b
+	cp STICK
+	jr nz, .FocusEnergy
+
+; +2 critical level
+	ld c, 2
+	jr .Tally
+
+.Sirfetchd:
+	ld a, l
+	sub LOW(SIRFETCH_D)
+	if HIGH(SIRFETCH_D) == 0
+		or h
+	else
+		jr nz, .FocusEnergy
+		if HIGH(SIRFETCH_D) == 1
+			dec h
+		else
+			ld a, h
+			cp HIGH(SIRFETCH_D)
 		endc
 	endc
 	jr nz, .FocusEnergy
@@ -2704,6 +2734,9 @@ PlayerAttackDamage:
 
 	call SandstormSpDefBoost
 
+	ld a, [wPlayerAbility]
+	cp INFILTRATOR
+	jr z, .specialcrit
 	ld a, [wEnemyScreens]
 	bit SCREENS_LIGHT_SCREEN, a
 	jr z, .specialcrit
@@ -2964,6 +2997,9 @@ EnemyAttackDamage:
 
 	call SandstormSpDefBoost
 
+	ld a, [wEnemyAbility]
+	cp INFILTRATOR
+	jr z, .specialcrit
 	ld a, [wPlayerScreens]
 	bit SCREENS_LIGHT_SCREEN, a
 	jr z, .specialcrit
@@ -3859,9 +3895,13 @@ BattleCommand_PoisonTarget:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call GetUserAbility
+	cp INFILTRATOR
+	jr z, .SkipSafeguard
 	call SafeCheckSafeguard
 	ret nz
 
+.SkipSafeguard
 	call PoisonOpponent
 	ld de, ANIM_PSN
 	call PlayOpponentBattleAnim
@@ -4101,15 +4141,15 @@ BattleCommand_BurnTarget:
 	ret z
 	call CheckMoveTypeMatchesTarget ; Don't burn a Fire-type
 	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_BURN
-	ret z
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call GetUserAbility
+	cp INFILTRATOR
+	jr z, .SkipSafeguard
 	call SafeCheckSafeguard
 	ret nz
+.SkipSafeguard
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	set BRN, [hl]
@@ -4177,8 +4217,12 @@ BattleCommand_FreezeTarget:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call GetUserAbility
+	cp INFILTRATOR
+	jr z, .SkipSafeguard
 	call SafeCheckSafeguard
 	ret nz
+.SkipSafeguard
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	set FRZ, [hl]
@@ -4224,8 +4268,12 @@ BattleCommand_ParalyzeTarget:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call GetUserAbility
+	cp INFILTRATOR
+	jr z, .SkipSafeguard
 	call SafeCheckSafeguard
 	ret nz
+.SkipSafeguard
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	set PAR, [hl]
@@ -4260,8 +4308,12 @@ BattleCommand_SleepHit:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call GetUserAbility
+	cp INFILTRATOR
+	jr z, .SkipSafeguard
 	call SafeCheckSafeguard
 	ret nz
+.SkipSafeguard
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	ld d, h
@@ -5284,6 +5336,10 @@ SetBattleDraw:
 BattleCommand_ForceSwitch:
 ; forceswitch
 
+	call GetTargetAbility
+	cp SUCTION_CUPS
+	jp z, .suctioncups
+
 	ld a, [wBattleType]
 	cp BATTLETYPE_SHINY
 	jp z, .fail
@@ -5488,6 +5544,13 @@ BattleCommand_ForceSwitch:
 	call BattleCommand_MoveDelay
 	call BattleCommand_RaiseSub
 	jp PrintButItFailed
+
+.suctioncups
+	call BattleCommand_LowerSub
+	call BattleCommand_MoveDelay
+	call BattleCommand_RaiseSub
+	ld hl, SuctionCupsText
+	jp StdBattleTextbox
 
 .succeed
 	push af
@@ -6189,8 +6252,12 @@ BattleCommand_ConfuseTarget:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call GetUserAbility
+	cp INFILTRATOR
+	jr z, .SkipSafeguard
 	call SafeCheckSafeguard
 	ret nz
+.SkipSafeguard
 	call CheckSubstituteOpp
 	ret nz
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
@@ -6795,6 +6862,9 @@ SafeCheckSafeguard:
 
 BattleCommand_CheckSafeguard:
 ; checksafeguard
+	call GetUserAbility
+	cp INFILTRATOR
+	ret z
 	ld hl, wEnemyScreens
 	ldh a, [hBattleTurn]
 	and a

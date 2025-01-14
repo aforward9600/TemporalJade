@@ -1322,6 +1322,12 @@ SunGotBrightText:
 	line "bright!"
 	prompt
 
+SuctionCupsText:
+	text "<TARGET>'s"
+	line "Suction Cups won't"
+	cont "make it switch!"
+	prompt
+
 BellyDrumText:
 	text "<USER>"
 	line "cut its HP and"
