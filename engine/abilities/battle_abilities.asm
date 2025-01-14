@@ -66,6 +66,11 @@ EnemyAbilityFirst:
 	dbw FRISK,        .EnemyFrisk
 	dbw UNNERVE,      .EnemyUnnerve
 	dbw SLOW_START,   .EnemySlowStart
+	dbw CLOUD_NINE,   .EnemyCloudNine
+	dbw DROUGHT,      .EnemyDrought
+	dbw SNOW_WARNING, .EnemySnowWarning
+	dbw DRIZZLE,      .EnemyDrizzle
+	dbw SANDSTREAM,   .EnemySandstream
 	db -1
 
 .EnemyIntimidate:
@@ -114,6 +119,22 @@ EnemyAbilityFirst:
 	farcall BattleCommand_SwitchTurn
 	call EnemySlowStart
 	farcall BattleCommand_SwitchTurn
+	ret
+
+.EnemyCloudNine:
+	jp CloudNineAbility
+
+.EnemyDrought:
+	jp DroughtScript
+
+.EnemySnowWarning:
+	jp SnowWarningScript
+
+.EnemyDrizzle:
+	jp DrizzleScript
+
+.EnemySandstream:
+	call SandstreamScript
 .NoFirstAbility:
 	ret
 
@@ -138,38 +159,51 @@ PlayerAbilityFirst:
 	dbw FRISK,        .PlayerFrisk
 	dbw UNNERVE,      .PlayerUnnerve
 	dbw SLOW_START,   .PlayerSlowStart
+	dbw CLOUD_NINE,   .PlayerCloudNine
+	dbw DROUGHT,      .PlayerDrought
+	dbw SNOW_WARNING, .PlayerSnowWarning
+	dbw DRIZZLE,      .PlayerDrizzle
+	dbw SANDSTREAM,   .PlayerSandstream
 	db -1
 
 .PlayerIntimidate:
-	call PlayerIntimidate
-	ret
+	jp PlayerIntimidate
 
 .PlayerTrace:
-	call PlayerTrace
-	ret
+	jp PlayerTrace
 
 .PlayerMoldBreaker:
-	call MoldBreakerAbilityText
-	ret
+	jp MoldBreakerAbilityText
 
 .PlayerPressure:
-	call PressureAbility
-	ret
+	jp PressureAbility
 
 .PlayerScreenClean:
-	call ScreenClean
-	ret
+	jp ScreenClean
 
 .PlayerFrisk:
-	call FriskAbility
-	ret
+	jp FriskAbility
 
 .PlayerUnnerve:
-	call UnnerveAbility
-	ret
+	jp UnnerveAbility
 
 .PlayerSlowStart:
-	call PlayerSlowStart
+	jp PlayerSlowStart
+
+.PlayerCloudNine:
+	jp CloudNineAbility
+
+.PlayerDrought:
+	jp DroughtScript
+
+.PlayerSnowWarning:
+	jp SnowWarningScript
+
+.PlayerDrizzle:
+	jp DrizzleScript
+
+.PlayerSandstream:
+	call SandstreamScript
 .NoPlayerFirstAbility:
 	ret
 
@@ -360,37 +394,106 @@ PlayerSlowStart:
 	ld hl, SlowStartText
 	jp StdBattleTextbox
 
+CloudNineAbility:
+	ld hl, CloudNineText
+	jp StdBattleTextbox
+
 SentOutAbility::
 	call CheckNeutralGas
 	cp NEUTRAL_GAS
-	ret z
+	jp z, PlayerNeutralGas
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .CheckPlayerAbility
 	ld a, [wEnemyAbility]
-	cp INTIMIDATE
-	jr z, .intimdate
-	ret
+	jr .GotEnemyAbility
 
 .CheckPlayerAbility
 	ld a, [wPlayerAbility]
-	cp INTIMIDATE
-	jr z, .intimdate
-	ret
-
-.intimdate:
-	ld hl, NoIntimidateAbilities
-	ld de, 1
+.GotEnemyAbility
+	ld de, 3
+	ld hl, .EitherFirstAbilities
 	call IsInArray
-	jr c, .IntimidateBlocked
-	farcall BattleCommand_AttackDown
-	ld hl, BattleText_IntimidateText
-	call StdBattleTextbox
-	ret
+	jp nc, .NoPlayerFirstAbility
+	inc hl
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
 
-.IntimidateBlocked
-	ld hl, BattleText_AttackNotLowered
-	call StdBattleTextbox
+.EitherFirstAbilities:
+	dbw INTIMIDATE,   .EitherIntimidate
+	dbw TRACE,        .EitherTrace
+	dbw MOLD_BREAKER, .EitherMoldBreaker
+	dbw PRESSURE,     .EitherPressure
+	dbw SCREEN_CLEAN, .EitherScreenClean
+	dbw FRISK,        .EitherFrisk
+	dbw UNNERVE,      .EitherUnnerve
+	dbw SLOW_START,   .EitherSlowStart
+	dbw CLOUD_NINE,   .EitherCloudNine
+	dbw DROUGHT,      .EitherDrought
+	dbw SNOW_WARNING, .EitherSnowWarning
+	dbw DRIZZLE,      .EitherDrizzle
+	dbw SANDSTREAM,   .EitherSandstream
+	db -1
+
+.EitherIntimidate:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerIntimidate
+	jp EnemyIntimidate
+
+.PlayerIntimidate:
+	jp PlayerIntimidate
+
+.EitherTrace:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerTrace
+	jp EnemyTrace
+
+.PlayerTrace:
+	jp PlayerTrace
+
+.EitherMoldBreaker:
+	jp MoldBreakerAbilityText
+
+.EitherPressure:
+	jp PressureAbility
+
+.EitherScreenClean:
+	jp ScreenClean
+
+.EitherFrisk:
+	jp FriskAbility
+
+.EitherUnnerve:
+	jp UnnerveAbility
+
+.EitherSlowStart:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerSlowStart
+	jp EnemySlowStart
+
+.PlayerSlowStart:
+	jp PlayerSlowStart
+
+.EitherCloudNine:
+	jp CloudNineAbility
+
+.EitherDrought:
+	jp DroughtScript
+
+.EitherSnowWarning:
+	jp SnowWarningScript
+
+.EitherDrizzle:
+	jp DrizzleScript
+
+.EitherSandstream:
+	call SandstreamScript
+.NoPlayerFirstAbility:
 	ret
 
 CheckContactAbilities:

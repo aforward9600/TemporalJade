@@ -1572,12 +1572,20 @@ BattleCommand_CheckHit:
 	call .FlyDigMoves
 	jp nz, .Miss
 
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	jr z, .SkipWeather
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	jr z, .SkipWeather
+
 	call .ThunderRain
 	ret z
 
 	call .BlizzardHail
 	ret z
 
+.SkipWeather
 	call .XAccuracy
 	ret nz
 
@@ -1772,9 +1780,11 @@ BattleCommand_CheckHit:
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
 	cp EFFECT_THUNDER
+	jr z, .PerfectThunder
 	cp EFFECT_HURRICANE
 	ret nz
 
+.PerfectThunder
 	ld a, [wBattleWeather]
 	cp WEATHER_RAIN
 	ret
@@ -6840,6 +6850,12 @@ BattleCommand_TimeBasedHealContinue:
 	dec c ; Return c to its original value
 
 .Weather:
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	jr z, .Heal
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	jr z, .Heal
 	ld a, [wBattleWeather]
 	and a
 	jr z, .Heal
@@ -6898,10 +6914,14 @@ INCLUDE "engine/battle/move_effects/belly_drum.asm"
 
 INCLUDE "engine/battle/move_effects/psych_up.asm"
 
-INCLUDE "engine/battle/move_effects/mirror_coat.asm"
-
 BattleCommand_SkipSunCharge:
 ; mimicsuncharge
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
 	ld a, [wBattleWeather]
 	cp WEATHER_SUN
 	ret nz
@@ -7177,6 +7197,12 @@ INCLUDE "engine/battle/move_effects/avalanche.asm"
 
 SandstormSpDefBoost: 
 ; First, check if Sandstorm is active.
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
 	ld a, [wBattleWeather]
 	cp WEATHER_SANDSTORM
 	ret nz
@@ -7271,6 +7297,12 @@ ApplyChoiceScarfOnSpeed:
 
 HailDefBoost: 
 ; First, check if Hail is active.
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
 	ld a, [wBattleWeather]
 	cp WEATHER_HAIL
 	ret nz

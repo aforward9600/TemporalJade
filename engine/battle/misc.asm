@@ -50,6 +50,12 @@ GetPlayerBackpicCoords:
 	ret
 
 DoWeatherModifiers:
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
 	ld de, WeatherTypeModifiers
 	ld a, [wBattleWeather]
 	ld b, a

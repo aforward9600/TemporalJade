@@ -1392,6 +1392,12 @@ HandleWeather:
 	call SetPlayerTurn
 
 .WeatherDamage:
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
 	bit SUBSTATUS_UNDERGROUND, a
@@ -1456,6 +1462,12 @@ HandleWeather:
 	jp StdBattleTextbox
 
 .HailDamage:
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .CheckPlayerHail

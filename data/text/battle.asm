@@ -1138,6 +1138,12 @@ MirrorMoveFailedText:
 	next "failed!"
 	prompt
 
+CloudNineText:
+	text "The effects of"
+	line "weather have"
+	cont "disappeard!"
+	prompt
+
 StoleText:
 	text "<USER>"
 	line "stole @"
