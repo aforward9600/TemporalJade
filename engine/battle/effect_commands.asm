@@ -1166,12 +1166,17 @@ BattleCommand_Critical:
 	xor a
 	ld [wCriticalHit], a
 
+	call GetUserAbility
+	cp NEUTRAL_GAS
+	jr z, .SkipCritShields
+
 	call GetTargetAbility
 	cp SHELL_ARMOR
 	ret z
 	cp BATTLE_ARMOR
 	ret z
 
+.SkipCritShields
 	ld a, BATTLE_VARS_MOVE_POWER
 	call GetBattleVar
 	and a
@@ -1602,13 +1607,13 @@ BattleCommand_CheckHit:
 	call .FlyDigMoves
 	jp nz, .Miss
 
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
-	jr z, .SkipWeather
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+
+	call CheckCloudNine
 	jr z, .SkipWeather
 
+.SkipCloudNine
 	call .ThunderRain
 	ret z
 
@@ -3158,6 +3163,9 @@ BattleCommand_DamageCalc:
 	call Divide
 
 ; Item boosts
+
+	call CheckGuts
+
 	call GetUserItem
 
 	ld a, b
@@ -3191,7 +3199,7 @@ BattleCommand_DamageCalc:
 	call GetBattleVar
 	and TYPE_MASK
 	cp b
-	jr nz, .DoneItem
+	jp nz, .DoneItem
 
 ; * 100 + item effect amount
 	ld a, c
@@ -3204,7 +3212,7 @@ BattleCommand_DamageCalc:
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
-	jr .DoneItem
+	jp .DoneItem
 
 .LifeOrb:
 	ld a, 30
@@ -3216,7 +3224,7 @@ BattleCommand_DamageCalc:
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
-	jr .DoneItem
+	jr .CheckSheerForce
 
 .CategoryBoost:
 	ld a, BATTLE_VARS_MOVE_TYPE
@@ -3276,13 +3284,14 @@ BattleCommand_DamageCalc:
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
+	jr .DoneItem
 
-.DoneItem:
+.CheckSheerForce
 	call GetUserAbility
 	cp SHEER_FORCE
-	jr nz, .CriticalHits
+	jr nz, .DoneItem
 	farcall SheerForceEffectCheck
-	jr nc, .CriticalHits
+	jr nc, .DoneItem
 	ld a, 30
 	add 100
 	ldh [hMultiplier], a
@@ -3293,7 +3302,7 @@ BattleCommand_DamageCalc:
 	ld b, 4
 	call Divide
 
-.CriticalHits:
+.DoneItem:
 ; Critical hits
 	call .CriticalMultiplier
 
@@ -3396,6 +3405,30 @@ BattleCommand_DamageCalc:
 	ldh [hProduct + 2], a
 	ldh [hProduct + 3], a
 
+	ret
+
+CheckGuts:
+	call GetUserAbility
+	cp GUTS
+	ret nz
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	and 1 << PSN | 1 << BRN | 1 << PAR
+	ret z
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp SPECIAL
+	ret nc
+;	jr c, .DoGutsBoost
+	ld a, 50
+	add 100
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
 	ret
 
 BattleCommand_ConstantDamage:
@@ -4129,9 +4162,13 @@ BattleCommand_BurnTarget:
 	ld [wNumHits], a
 	call CheckSubstituteOpp
 	ret nz
+	call GetUserAbility
+	cp NEUTRAL_GAS
+	jr z, .SkipWaterVeil
 	call GetTargetAbility
 	cp WATER_VEIL
 	ret z
+.SkipWaterVeil
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	and a
@@ -4354,9 +4391,13 @@ BattleCommand_Burn:
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .didnt_affect
+	call GetUserAbility
+	cp NEUTRAL_GAS
+	jr z, .SkipWaterVeil
 	call GetTargetAbility
 	cp WATER_VEIL
 	jr z, .WaterVeil
+.SkipWaterVeil
 	call CheckMoveTypeMatchesTarget ; Don't burn a Fire-type
 	jr z, .didnt_affect
 	ld a, [wAttackMissed]
@@ -5136,6 +5177,8 @@ CalcPlayerStats:
 
 	call BattleCommand_SwitchTurn
 
+	call QuickFeetCheck
+
 	call ApplyChoiceScarfOnSpeed
 
 	ld hl, ApplyPrzEffectOnSpeed
@@ -5144,17 +5187,12 @@ CalcPlayerStats:
 	ld hl, ApplyBrnEffectOnAttack
 	call CallBattleCore
 
-	ld a, [wPlayerSubStatus4]
-	bit SUBSTATUS_SLOW_START, a
-	jr z, .SkipPlayerSlowStart
-
 	ld hl, ApplySlowStartOnAttack
 	call CallBattleCore
 
 	ld hl, ApplySlowStartOnSpeed
 	call CallBattleCore
 
-.SkipPlayerSlowStart
 	jp BattleCommand_SwitchTurn
 
 CalcEnemyStats:
@@ -5167,6 +5205,8 @@ CalcEnemyStats:
 
 	call BattleCommand_SwitchTurn
 
+	call QuickFeetCheck
+
 	call ApplyChoiceScarfOnSpeed
 
 	ld hl, ApplyPrzEffectOnSpeed
@@ -5175,17 +5215,12 @@ CalcEnemyStats:
 	ld hl, ApplyBrnEffectOnAttack
 	call CallBattleCore
 
-	ld a, [wEnemySubStatus4]
-	bit SUBSTATUS_SLOW_START, a
-	jr z, .SkipEnemySlowStart
-
 	ld hl, ApplySlowStartOnAttack
 	call CallBattleCore
 
 	ld hl, ApplySlowStartOnSpeed
 	call CallBattleCore
 
-.SkipEnemySlowStart
 	jp BattleCommand_SwitchTurn
 
 CalcBattleStats:
@@ -6920,12 +6955,11 @@ BattleCommand_TimeBasedHealContinue:
 	dec c ; Return c to its original value
 
 .Weather:
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+	call CheckCloudNine
 	jr z, .Heal
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	jr z, .Heal
+.SkipCloudNine
 	ld a, [wBattleWeather]
 	and a
 	jr z, .Heal
@@ -6986,12 +7020,11 @@ INCLUDE "engine/battle/move_effects/psych_up.asm"
 
 BattleCommand_SkipSunCharge:
 ; mimicsuncharge
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+	call CheckCloudNine
 	ret z
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	ret z
+.SkipCloudNine
 	ld a, [wBattleWeather]
 	cp WEATHER_SUN
 	ret nz
@@ -7267,12 +7300,11 @@ INCLUDE "engine/battle/move_effects/avalanche.asm"
 
 SandstormSpDefBoost: 
 ; First, check if Sandstorm is active.
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+	call CheckCloudNine
 	ret z
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	ret z
+.SkipCloudNine
 	ld a, [wBattleWeather]
 	cp WEATHER_SANDSTORM
 	ret nz
@@ -7301,6 +7333,27 @@ SandstormSpDefBoost:
 	ld c, l
 	ret
 
+QuickFeetCheck:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .enemy
+	ld a, [wPlayerAbility]
+	cp QUICK_FEET
+	ret nz
+	ld a, [wBattleMonStatus]
+	and 1 << PAR
+	ret z
+	jr ApplyQuickFeetBoostPlayer
+
+.enemy:
+	ld a, [wEnemyAbility]
+	cp QUICK_FEET
+	ret nz
+	ld a, [wEnemyMonStatus]
+	and 1 << PAR
+	ret z
+	jr ApplyQuickFeetBoostEnemy
+
 ApplyChoiceScarfOnSpeed:
 	Call GetOpponentItem
 	ld a, b
@@ -7311,7 +7364,8 @@ ApplyChoiceScarfOnSpeed:
 	ret nz
 	ldh a, [hBattleTurn]
 	and a
-	jr z, .enemy
+	jr z, ApplyQuickFeetBoostEnemy
+ApplyQuickFeetBoostPlayer:
 ; load wBattleMonSpeed into hMultiplicand
 	ld hl, wBattleMonSpeed
 	xor a
@@ -7338,7 +7392,7 @@ ApplyChoiceScarfOnSpeed:
 	ld [hl], a
 	ret
 
-.enemy:
+ApplyQuickFeetBoostEnemy:
 ; load wEnemyMonSpeed into hMultiplicand
 	ld hl, wEnemyMonSpeed
 	xor a
@@ -7367,12 +7421,11 @@ ApplyChoiceScarfOnSpeed:
 
 HailDefBoost: 
 ; First, check if Hail is active.
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+	call CheckCloudNine
 	ret z
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	ret z
+.SkipCloudNine
 	ld a, [wBattleWeather]
 	cp WEATHER_HAIL
 	ret nz

@@ -47,11 +47,56 @@ ConsumeHeldItem:
 
 .ourturn
 	ld [hl], NO_ITEM
+	jr .done
 
 .done
 	pop bc
 	pop de
 	pop hl
 	ret
+
+CheckUnnerve:
+	push hl
+	push de
+	push bc
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wOTPartyMon1Item
+	ld de, wEnemyMonItem
+	ld a, [wCurOTMon]
+	jr z, .theirturn
+	ld hl, wPartyMon1Item
+	ld de, wBattleMonItem
+	ld a, [wCurBattleMon]
+
+.theirturn
+	push hl
+	push af
+	ld a, [de]
+	ld b, a
+	farcall GetItemHeldEffect
+	ld hl, UnnerveConsumables
+.loop
+	ld a, [hli]
+	cp b
+	jr z, .ok
+	inc a
+	jr nz, .loop
+	pop af
+	pop hl
+	pop bc
+	pop de
+	pop hl
+	ret
+
+.ok
+	pop af
+	pop hl
+	pop bc
+	pop de
+	pop hl
+	call GetUserAbility
+	ret
+
 
 INCLUDE "data/battle/held_consumables.asm"

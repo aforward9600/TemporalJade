@@ -400,7 +400,6 @@ CloudNineAbility:
 
 SentOutAbility::
 	call CheckNeutralGas
-	cp NEUTRAL_GAS
 	jp z, PlayerNeutralGas
 	ldh a, [hBattleTurn]
 	and a

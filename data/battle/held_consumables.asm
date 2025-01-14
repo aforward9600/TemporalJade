@@ -21,3 +21,13 @@ ConsumableEffects:
 	db HELD_ESCAPE
 	db HELD_CRITICAL_UP
 	db -1
+
+UnnerveConsumables:
+	db HELD_BERRY
+	db HELD_HEAL_POISON
+	db HELD_HEAL_FREEZE
+	db HELD_HEAL_BURN
+	db HELD_HEAL_SLEEP
+	db HELD_HEAL_PARALYZE
+	db HELD_HEAL_STATUS
+	db -1

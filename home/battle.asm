@@ -285,5 +285,13 @@ CheckNeutralGas::
 	cp NEUTRAL_GAS
 	ret z
 	ld a, [wPlayerAbility]
+	cp NEUTRAL_GAS
 	ret
 
+CheckCloudNine::
+	ld a, [wEnemyAbility]
+	cp CLOUD_NINE
+	ret z
+	ld a, [wPlayerAbility]
+	cp CLOUD_NINE
+	ret

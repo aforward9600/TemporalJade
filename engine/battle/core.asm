@@ -1138,11 +1138,6 @@ HandleSlowStart:
 	ret z
 	dec [hl]
 	ld a, [hl]
-	ld [wDeciramBuffer], a
-	push af
-	ld hl, PerishCountText
-	call StdBattleTextbox
-	pop af
 	ret nz
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
@@ -1392,12 +1387,11 @@ HandleWeather:
 	call SetPlayerTurn
 
 .WeatherDamage:
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+	call CheckCloudNine
 	ret z
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	ret z
+.SkipCloudNine
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
 	bit SUBSTATUS_UNDERGROUND, a
@@ -1406,6 +1400,9 @@ HandleWeather:
 	ld a, [wBattleWeather]
 	cp WEATHER_HAIL
 	jr z, .HailDamage
+
+	call CheckNeutralGas
+	jr z, .SkipSandAbilities
 
 	ldh a, [hBattleTurn]
 	and a
@@ -1427,6 +1424,7 @@ HandleWeather:
 	cp OVERCOAT
 	ret z
 
+.SkipSandAbilities
 	ld hl, wBattleMonType1
 	ldh a, [hBattleTurn]
 	and a
@@ -1462,12 +1460,9 @@ HandleWeather:
 	jp StdBattleTextbox
 
 .HailDamage:
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
-	ret z
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	ret z
+	call CheckNeutralGas
+	jr z, .SkipHailAbilities
+
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .CheckPlayerHail
@@ -1485,6 +1480,7 @@ HandleWeather:
 	ret z
 	cp ICE_BODY
 	jr z, .HailHeal
+.SkipHailAbilities
 	ld hl, wBattleMonType1
 	ld a, [hBattleTurn]
 	and a
@@ -4114,6 +4110,13 @@ HandleHealingItems:
 	jp UseConfusionHealingItem
 
 HandleHPHealingItem:
+	call GetTargetAbility
+	cp NEUTRAL_GAS
+	jr z, .ContinueHPHealingItem
+	call GetUserAbility
+	cp UNNERVE
+	ret z
+.ContinueHPHealingItem
 	callfar GetOpponentItem
 	ld a, b
 	cp HELD_BERRY
@@ -6648,6 +6651,7 @@ ApplyStatusEffectOnEnemyStats:
 ApplyStatusEffectOnStats:
 	ldh [hBattleTurn], a
 	farcall ApplyChoiceScarfOnSpeed
+	farcall QuickFeetCheck
 	call ApplyPrzEffectOnSpeed
 	call ApplySlowStartOnSpeed
 	call ApplyBrnEffectOnAttack
@@ -6657,6 +6661,9 @@ ApplyPrzEffectOnSpeed:
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .enemy
+	ld a, [wPlayerAbility]
+	cp QUICK_FEET
+	ret z
 	ld a, [wBattleMonStatus]
 	and 1 << PAR
 	ret z
@@ -6678,6 +6685,9 @@ ApplyPrzEffectOnSpeed:
 	ret
 
 .enemy
+	ld a, [wEnemyAbility]
+	cp QUICK_FEET
+	ret z
 	ld a, [wEnemyMonStatus]
 	and 1 << PAR
 	ret z
@@ -6699,12 +6709,12 @@ ApplyPrzEffectOnSpeed:
 	ret
 
 ApplyBrnEffectOnAttack:
-	call GetUserAbility
-	cp GUTS
-	ret z
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .enemy
+	ld a, [wPlayerAbility]
+	cp GUTS
+	ret z
 	ld a, [wBattleMonStatus]
 	and 1 << BRN
 	ret z
@@ -6724,6 +6734,9 @@ ApplyBrnEffectOnAttack:
 	ret
 
 .enemy
+	ld a, [wEnemyAbility]
+	cp GUTS
+	ret z
 	ld a, [wEnemyMonStatus]
 	and 1 << BRN
 	ret z
@@ -6746,6 +6759,9 @@ ApplySlowStartOnAttack:
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .enemy
+	ld hl, wPlayerSubStatus4
+	bit SUBSTATUS_SLOW_START, [hl]
+	ret z
 	ld hl, wBattleMonAttack + 1
 	ld a, [hld]
 	ld b, a
@@ -6762,6 +6778,9 @@ ApplySlowStartOnAttack:
 	ret
 
 .enemy
+	ld hl, wEnemySubStatus4
+	bit SUBSTATUS_SLOW_START, [hl]
+	ret z
 	ld hl, wEnemyMonAttack + 1
 	ld a, [hld]
 	ld b, a
@@ -6781,6 +6800,9 @@ ApplySlowStartOnSpeed:
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .enemy
+	ld hl, wPlayerSubStatus4
+	bit SUBSTATUS_SLOW_START, [hl]
+	ret z
 	ld hl, wBattleMonSpeed + 1
 	ld a, [hld]
 	ld b, a
@@ -6797,6 +6819,9 @@ ApplySlowStartOnSpeed:
 	ret
 
 .enemy
+	ld hl, wEnemySubStatus4
+	bit SUBSTATUS_SLOW_START, [hl]
+	ret z
 	ld hl, wEnemyMonSpeed + 1
 	ld a, [hld]
 	ld b, a
