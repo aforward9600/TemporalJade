@@ -283,11 +283,9 @@ GetMoveName::
 	pop hl
 	ret
 
-GetAbilityName::
-	ld a, [wNamedObjectIndexBuffer]
-	ld hl, AbilityNames
-	call GetNthString
-	ld d, h
-	ld e, l
-	ld de, wStringBuffer2
-	ret
+;	ld hl, AbilityNames
+;	call GetNthString
+;	ld d, h
+;	ld e, l
+;	ld de, wStringBuffer1
+;	ret

@@ -1,6 +1,31 @@
 BattleCommand_UsedMoveText:
 ; usedmovetext
+	call CheckTruant
+	jr nz, .LoafingAround
 	farcall DisplayUsedMoveText
+	ret
+
+.LoafingAround
+	ld hl, TruantText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+
+CheckTruant:
+	ld hl, wPlayerSubStatus3
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerTruant
+	ld hl, wEnemySubStatus3
+	bit SUBSTATUS_TRUANT, [hl]
+	ld a, [hl]
+	ret z
+	jr .FinishTruant
+
+.PlayerTruant
+	bit SUBSTATUS_TRUANT, [hl]
+	ld a, [hl]
+	ret z
+.FinishTruant
 	ret
 
 BattleCommand_DamageVariation:

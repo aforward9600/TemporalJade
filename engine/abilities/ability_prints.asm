@@ -1,3 +1,17 @@
+BufferAbility:
+	ld hl, AbilityNames
+	and CAUGHT_ABILITY_MASK
+	ld e, a
+	ld d, 0
+	add hl, de
+	add hl, de
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	ld de, wStringBuffer1
+	ld bc, MOVE_NAME_LENGTH
+	jp CopyBytes
+
 ; Gets our ability for the stats screen
 CalcAbility_StatsScreen:
 	; Preserve HL and BC

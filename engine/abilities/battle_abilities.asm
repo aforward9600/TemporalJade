@@ -497,7 +497,6 @@ SentOutAbility::
 
 CheckContactAbilities:
 	call CheckNeutralGas
-	cp NEUTRAL_GAS
 	ret z
 	call GetTargetAbility
 	cp CURSED_BODY
@@ -513,6 +512,8 @@ CheckContactAbilities:
 	call GetUserAbility
 	cp POISON_TOUCH
 	jr z, .PoisonTouch
+	cp STENCH
+	jr z, .Stench
 	cp LONG_REACH
 	ret z
 .ReconveneContact:
@@ -528,10 +529,23 @@ CheckContactAbilities:
 	jp hl
 
 .PoisonTouch:
+	call GetTargetAbility
+	cp SHIELD_DUST
+	jr z, .ReconveneContact
 	call BattleRandom
 	cp 30 percent + 1
 	ret nc
 	farcall BattleCommand_PoisonTarget
+	jr .ReconveneContact
+
+.Stench:
+	call GetTargetAbility
+	cp SHIELD_DUST
+	jr z, .ReconveneContact
+	call BattleRandom
+	cp 10 percent + 1
+	ret nc
+	farcall BattleCommand_FlinchTarget
 	jr .ReconveneContact
 
 .cursedbody:
@@ -633,14 +647,27 @@ CheckContactAbilities:
 .RoughSkin:
 	farcall GetEighthMaxHP
 	farcall SubtractHPFromUser
-	ld hl, BattleText_RoughSkin
+	ld de, .RoughSkinName
+	call .Copy
+	ld hl, IronBarbsText
 	jp StdBattleTextbox
 
 .IronBarbs:
 	farcall GetEighthMaxHP
 	farcall SubtractHPFromUser
+	ld de, .IronBarbsName
+	call .Copy
 	ld hl, IronBarbsText
 	jp StdBattleTextbox
+
+.Copy
+	ld hl, wStringBuffer1
+	jp CopyName2
+
+.IronBarbsName:
+	db "Iron Barbs@"
+.RoughSkinName:
+	db "Rough Skin@"
 
 .PerishBody:
 	ld hl, wPlayerSubStatus1
@@ -772,3 +799,165 @@ CheckContactAbilities:
 
 .NoContactAilities:
 	ret
+
+HandleEndMoveAbility:
+	ld de, wBattleMonSpeed
+	ld hl, wEnemyMonSpeed
+	ld c, 2
+	call CompareBytes
+	jr z, .speed_tie
+	jr nc, .player_goes_first
+.enemy_goes_first
+	call SetEnemyTurn
+	call .do_it
+	call SetPlayerTurn
+	jr .do_it
+
+.speed_tie
+	call BattleRandom
+	cp 50 percent + 1
+	jr c, .player_goes_first
+	jr .enemy_goes_first
+
+.player_goes_first
+	call SetPlayerTurn
+	call .do_it
+	call SetEnemyTurn
+
+.do_it
+	call CheckNeutralGas
+	ret z
+	call GetUserAbility
+	ld de, 3
+	ld hl, .EndTurnAbilities
+	call IsInArray
+	jp nc, .NoEndTurnAbilities
+	inc hl
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+
+.EndTurnAbilities:
+	dbw RAIN_DISH,       .RainDish
+	dbw DRY_SKIN,        .DrySkin
+	dbw SPEED_BOOST,     .SpeedBoost
+	dbw SHED_SKIN,       .ShedSkin
+	dbw TRUANT,          .Truant
+	db -1
+
+.RainDish:
+	ld a, [wBattleWeather]
+	cp WEATHER_RAIN
+	ret nz
+	ld de, .RainDishName
+	call .Copy
+	call CheckFullHPAbilities
+	ret
+
+.DrySkin:
+	ld a, [wBattleWeather]
+	cp WEATHER_RAIN
+	jr z, .DrySkinRain
+	cp WEATHER_SUN
+	ret nz
+	farcall GetEighthMaxHP
+	farcall SubtractHPFromUser
+	ld hl, DrySkinHurtText
+	jp StdBattleTextbox
+
+.DrySkinRain:
+	ld de, .DrySkinName
+	call .Copy
+	call CheckFullHPAbilities
+	ret
+
+.Copy
+	ld hl, wStringBuffer1
+	jp CopyName2
+
+.RainDishName:
+	db "Rain Dish@"
+.DrySkinName:
+	db "Dry Skin@"
+
+.SpeedBoost:
+	push bc
+	farcall BattleCommand_SpeedUp
+	pop bc
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	ld hl, SpeedBoostText
+	jp StdBattleTextbox
+
+.ShedSkin:
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	and 1 << SLP | 1 << FRZ | 1 << PAR
+	ret z
+	call BattleRandom
+	cp 30 percent + 1
+	ret nc
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
+	ld a, [hl]
+	ld [hl], 0
+	ld hl, ShedSkinText
+	jp StdBattleTextbox
+
+.Truant:
+	ld a, [wPlayerAbility]
+	cp TRUANT
+	ret nz
+	ld hl, wPlayerSubStatus3
+	bit SUBSTATUS_TRUANT, [hl]
+	jr nz, .ResetPlayerTruant
+	set SUBSTATUS_TRUANT, [hl]
+.CheckEnemyTruant:
+	ld a, [wEnemyAbility]
+	cp TRUANT
+	ret nz
+	ld hl, wEnemySubStatus3
+	bit SUBSTATUS_TRUANT, [hl]
+	jr nz, .ResetEnemyTruant
+	set SUBSTATUS_TRUANT, [hl]
+	ret
+
+.ResetPlayerTruant:
+	ld hl, wPlayerSubStatus3
+	res SUBSTATUS_TRUANT, [hl]
+	jr .CheckEnemyTruant
+.ResetEnemyTruant:
+	ld hl, wEnemySubStatus3
+	res SUBSTATUS_TRUANT, [hl]
+.NoEndTurnAbilities:
+	ret
+
+CheckFullHPAbilities:
+	ld hl, wBattleMonHP
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .got_hp
+	ld hl, wEnemyMonHP
+
+.got_hp
+; Don't restore if we're already at max HP
+	ld a, [hli]
+	ld b, a
+	ld a, [hli]
+	ld c, a
+	ld a, [hli]
+	cp b
+	jr nz, .restore
+	ld a, [hl]
+	cp c
+	ret z
+
+.restore
+	farcall GetEighthMaxHP
+	farcall SwitchTurnCore
+	farcall RestoreHP
+	farcall SwitchTurnCore
+	ld hl, RainDishText
+	jp StdBattleTextbox

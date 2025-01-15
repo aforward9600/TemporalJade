@@ -991,6 +991,8 @@ CheckUserIsCharging:
 
 BattleCommand_DoTurn:
 ; Should put Truant code here
+;	call CheckTruant
+;	ret nz
 	call CheckUserIsCharging
 	ret nz
 
@@ -1168,6 +1170,8 @@ BattleCommand_Critical:
 
 	call GetUserAbility
 	cp NEUTRAL_GAS
+	jr z, .SkipCritShields
+	cp MOLD_BREAKER
 	jr z, .SkipCritShields
 
 	call GetTargetAbility
@@ -3164,7 +3168,7 @@ BattleCommand_DamageCalc:
 
 ; Item boosts
 
-	call CheckGuts
+	call CheckBoostingAbilities
 
 	call GetUserItem
 
@@ -3407,7 +3411,9 @@ BattleCommand_DamageCalc:
 
 	ret
 
-CheckGuts:
+CheckBoostingAbilities:
+	call CheckNeutralGas
+	ret z
 	call GetUserAbility
 	cp GUTS
 	ret nz
@@ -3419,7 +3425,7 @@ CheckGuts:
 	call GetBattleVar
 	cp SPECIAL
 	ret nc
-;	jr c, .DoGutsBoost
+.FiftyPercentBoost:
 	ld a, 50
 	add 100
 	ldh [hMultiplier], a
@@ -5962,6 +5968,15 @@ BattleCommand_FakeOut:
 	jp EndMoveEffect
 
 BattleCommand_FlinchTarget:
+	call CheckNeutralGas
+	jr z, .SkipFlinchAbility
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipFlinchAbility
+	call GetTargetAbility
+	cp INNER_FOCUS
+	ret z
+.SkipFlinchAbility
 	call CheckSubstituteOpp
 	ret nz
 
@@ -6025,6 +6040,17 @@ BattleCommand_HeldFlinch:
 	ret
 
 .flinch:
+	call CheckNeutralGas
+	jr z, .SkipAbilities
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipAbilities
+	call GetTargetAbility
+	cp INNER_FOCUS
+	ret z
+	cp SHIELD_DUST
+	ret z
+.SkipAbilities
 	call CheckSubstituteOpp
 	ret nz
 	call BattleCommand_CheckFaint
@@ -6044,6 +6070,8 @@ BattleCommand_HeldFlinch:
 	ret
 
 .lifeorb:
+	call CheckNeutralGas
+	jr z, .continuelifeorb
 	call GetUserAbility
 	cp MAGIC_GUARD
 	ret z
@@ -7334,6 +7362,8 @@ SandstormSpDefBoost:
 	ret
 
 QuickFeetCheck:
+	call CheckNeutralGas
+	ret z
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .enemy

@@ -47,7 +47,6 @@ ConsumeHeldItem:
 
 .ourturn
 	ld [hl], NO_ITEM
-	jr .done
 
 .done
 	pop bc

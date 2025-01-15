@@ -1,8 +1,17 @@
 BattleCommand_SheerForce:
+	call CheckNeutralGas
+	ret z
+	call GetUserAbility
+	cp MOLD_BREAKER
+	ret z
+	call GetTargetAbility
+	cp SHIELD_DUST
+	jr z, .SkipSheerForceCheck
 	call GetUserAbility
 	cp SHEER_FORCE
 	ret nz
 
+.SkipSheerForceCheck
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
 	ld hl, SheerForceEffects

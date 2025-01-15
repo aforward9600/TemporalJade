@@ -401,8 +401,10 @@ GooeyText:
 
 IronBarbsText:
 	text "<USER> was"
-	line "damaged by Iron"
-	cont "Barbs!"
+	line "damaged by"
+	cont "@"
+	text_ram wStringBuffer1
+	text "!"
 	prompt
 
 BattleText_Damp:
@@ -766,6 +768,33 @@ DoesntAffectText:
 	line "<TARGET>!"
 	prompt
 
+DrySkinHurtText:
+	text "<USER> was"
+	line "hurt by Dry Skin!"
+	prompt
+
+DrySkinRainText:
+	text "<USER>"
+	line "restored some HP"
+	cont "with Dry Skin!"
+	prompt
+
+SpeedBoostText:
+	text "<USER>'s"
+	line "Speed Boost raised"
+	cont "its Speed!"
+	prompt
+
+ShedSkinText:
+	text "<USER>"
+	line "shed its skin!"
+	prompt
+
+TruantText:
+	text "<USER> is"
+	line "loafing aroung!"
+	prompt
+
 CriticalHitText:
 	text "A critical hit!"
 	prompt
@@ -1021,6 +1050,14 @@ TransformedTypeText:
 	cont "the @"
 	text_ram wStringBuffer1
 	text "-type!"
+	prompt
+
+RainDishText:
+	text "<USER>"
+	line "restored some HP"
+	cont "with @"
+	text_ram wStringBuffer1
+	text "!"
 	prompt
 
 EliminatedStatsText:

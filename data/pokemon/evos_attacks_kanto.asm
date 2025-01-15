@@ -279,8 +279,8 @@ EmboarEvosAttacks:
 MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
-;	dbw 1, WATER_GUN
-	dbw 1, GROWL
+	dbw 1, TACKLE
+	dbw 1, RAIN_DANCE
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT
@@ -1759,8 +1759,8 @@ RapidashEvosAttacks:
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
-	dbbw EVOLVE_LEVEL, 37, SLOWBRO
 	dbbw EVOLVE_ITEM, ROYAL_ROCK, SLOWKING
+	dbbw EVOLVE_LEVEL, 37, SLOWBRO
 	db 0 ; no more evolutions
 	dbw 1, CURSE
 	dbw 1, TACKLE
