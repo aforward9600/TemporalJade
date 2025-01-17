@@ -407,6 +407,30 @@ IronBarbsText:
 	text "!"
 	prompt
 
+UnburdenText:
+	text "<USER>'s"
+	line "Unburden sharply"
+	cont "raised Speed!"
+	prompt
+
+WeakArmorSpeedText:
+	text "<TARGET>'s"
+	line "Weak Armor sharply"
+	cont "raised its Speed!"
+	prompt
+
+RattledText:
+	text "<TARGET> was"
+	line "rattled and its"
+	cont "Speed rose!"
+	prompt
+
+WeakArmorDefenseText:
+	text "<TARGET>'s"
+	line "Weak Armor lowered"
+	cont "its Defense!"
+	prompt
+
 BattleText_Damp:
 	text "<TARGET>'s"
 	line "Damp prevented the"
@@ -417,6 +441,12 @@ BattleText_WaterAbsorb:
 	text "<TARGET>"
 	line "healed itself with"
 	cont "Water Absorb!"
+	prompt
+
+HydrationText:
+	text "<USER>'s"
+	line "Hydration healed"
+	cont "its status!"
 	prompt
 
 BouncedBackText:

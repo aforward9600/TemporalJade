@@ -1,12 +1,11 @@
 BattleCommand_BlizzardAccuracy:
 ; blizzardaccuracy
 
-	ld a, [wPlayerAbility]
-	cp CLOUD_NINE
+	call CheckNeutralGas
+	jr z, .SkipCloudNine
+	call CheckCloudNine
 	ret z
-	ld a, [wEnemyAbility]
-	cp CLOUD_NINE
-	ret z
+.SkipCloudNine
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVarAddr
 	and TYPE_MASK

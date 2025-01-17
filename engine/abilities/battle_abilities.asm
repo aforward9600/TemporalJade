@@ -227,6 +227,10 @@ EnemyIntimidate:
 	farcall BattleCommand_AttackDown
 	ld hl, BattleText_IntimidateText
 	call StdBattleTextbox
+	call GetTargetAbility
+	cp RATTLED
+	ret nz
+	call RattledAbility
 	ret
 
 .EnemyIntimidateBlocked:
@@ -243,7 +247,10 @@ PlayerIntimidate:
 	farcall BattleCommand_AttackDown
 	ld hl, BattleText_IntimidateText
 	call StdBattleTextbox
-	ret
+	call GetTargetAbility
+	cp RATTLED
+	ret nz
+	jp RattledAbility
 
 .PlayerIntimidateBlocked:
 	ld hl, BattleText_AttackNotLowered
@@ -398,6 +405,16 @@ CloudNineAbility:
 	ld hl, CloudNineText
 	jp StdBattleTextbox
 
+RattledAbility:
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_SpeedUp
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	ld hl, RattledText
+	jp StdBattleTextbox
+
 SentOutAbility::
 	call CheckNeutralGas
 	jp z, PlayerNeutralGas
@@ -501,6 +518,9 @@ CheckContactAbilities:
 	call GetTargetAbility
 	cp CURSED_BODY
 	jr z, .cursedbody
+	cp RATTLED
+	jr z, .rattled
+.AfterCursedBody
 	ld a, BATTLE_VARS_LAST_MOVE
 	call GetBattleVar
 	ld b, a
@@ -549,19 +569,26 @@ CheckContactAbilities:
 	jr .ReconveneContact
 
 .cursedbody:
-	call GetUserAbility
-	cp LONG_REACH
-	ret z
 	call BattleRandom
 	cp 30 percent + 1
 	ret nc
 	farcall BattleCommand_SwitchTurn
-	farcall BattleCommand_Disable
+	farcall CursedBodyAbility
 	farcall BattleCommand_SwitchTurn
-	call GetUserAbility
-	cp POISON_TOUCH
-	jr z, .PoisonTouch
-	ret
+	jr .AfterCursedBody
+
+.rattled:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp BUG
+	jr z, .ActivateRattle
+	cp DARK
+	jr z, .ActivateRattle
+	cp GHOST
+	ret nz
+.ActivateRattle
+	jp RattledAbility
 
 .ContactAbilities:
 	dbw STATIC,       .Static
@@ -576,6 +603,7 @@ CheckContactAbilities:
 	dbw GOOEY,        .Gooey
 	dbw PERISH_BODY,  .PerishBody
 	dbw AFTERMATH,    .Aftermath
+	dbw WEAK_ARMOR,   .WeakArmor
 	db -1
 
 .Static
@@ -797,6 +825,34 @@ CheckContactAbilities:
 	ld hl, SkillSwapText
 	jp StdBattleTextbox
 
+.WeakArmor:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .HasEnemyFainted
+	farcall HasPlayerFainted
+	ret z
+.ContinueWeakArmor
+	farcall BattleCommand_DefenseDown
+	ld a, [wAttackMissed]
+	and a
+	jr nz, .TrySpeedUp
+	ld hl, WeakArmorDefenseText
+	call StdBattleTextbox
+.TrySpeedUp
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_SpeedUp2
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	ld hl, WeakArmorSpeedText
+	jp StdBattleTextbox
+
+.HasEnemyFainted:
+	farcall HasEnemyFainted
+	ret z
+	jr .ContinueWeakArmor
+
 .NoContactAilities:
 	ret
 
@@ -844,7 +900,22 @@ HandleEndMoveAbility:
 	dbw SPEED_BOOST,     .SpeedBoost
 	dbw SHED_SKIN,       .ShedSkin
 	dbw TRUANT,          .Truant
+	dbw HYDRATION,       .Hydration
 	db -1
+
+.Hydration:
+	ld a, [wBattleWeather]
+	cp WEATHER_RAIN
+	ret nz
+	call GetBattleVar
+	and 1 << SLP | 1 << FRZ | 1 << PAR
+	ret z
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
+	ld a, [hl]
+	ld [hl], 0
+	ld hl, HydrationText
+	jp StdBattleTextbox
 
 .RainDish:
 	ld a, [wBattleWeather]
@@ -961,3 +1032,241 @@ CheckFullHPAbilities:
 	farcall SwitchTurnCore
 	ld hl, RainDishText
 	jp StdBattleTextbox
+
+CheckBoostingAbilities:
+	call CheckNeutralGas
+	ret z
+	call GetUserAbility
+	ld de, 3
+	ld hl, .BoostingAbilities
+	call IsInArray
+	jp nc, .NoBoostingAbilities
+	inc hl
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+
+.BoostingAbilities:
+	dbw GUTS,            .Guts
+	dbw TINTED_LENS,     .TintedLens
+	dbw SHARPNESS,       .Sharpness
+	dbw OVERGROW,        .Overgrow
+	dbw BLAZE,           .Blaze
+	dbw TORRENT,         .Torrent
+	dbw RECKLESS,        .Reckless
+	dbw SAND_FORCE,      .SandForce
+	dbw IRON_FIST,       .IronFist
+	dbw SWARM,           .Swarm
+	dbw ADAPTABILITY,    .Adaptability
+	dbw TECHNICIAN,      .Technician
+	dbw RIVALRY,         .Rivalry
+	dbw HUSTLE,          .Hustle
+	dbw PIXILATE,        .Pixilate
+	dbw HUGE_POWER,      .HugePower
+	dbw REFRIGERATE,     .Refrigerate
+	dbw GALVANIZE,       .Galvanize
+	db -1
+
+.Guts:
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	and 1 << PSN | 1 << BRN | 1 << PAR
+	ret z
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp SPECIAL
+	ret nc
+	jp FiftyPercentBoost
+
+.IronFist:
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	ld hl, PunchingMoves
+	farcall CheckMoveInList
+	ret nc
+	jp TwentyPercentBoost
+
+.SandForce:
+	ld a, [wBattleWeather]
+	cp WEATHER_SANDSTORM
+	ret nz
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp ROCK
+	jr z, .SandForceBoost
+	cp GROUND
+	jr z, .SandForceBoost
+	cp STEEL
+	ret nz
+.SandForceBoost:
+	jp ThirtyPercentBoost
+
+.Hustle:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp SPECIAL
+	ret nc
+	jp FiftyPercentBoost
+
+.Reckless:
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_RECOIL_HIT
+	ret nz
+	jp TwentyPercentBoost
+
+.Sharpness:
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVar
+	ld hl, SharpnessMoves
+	farcall CheckMoveInList
+	ret nc
+	jp FiftyPercentBoost
+
+.Overgrow:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp GRASS
+	jr z, .PinchHPCheck
+	ret
+
+.Blaze:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp FIRE
+	jr z, .PinchHPCheck
+	ret
+.Torrent:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp WATER
+	jr z, .PinchHPCheck
+	ret
+
+.Swarm:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp BUG
+	jr z, .PinchHPCheck
+	ret
+
+.PinchHPCheck:
+	call CheckHalfHP
+	ret nc
+	call FiftyPercentBoost
+	ret
+
+.HugePower:
+	jp HundredPercentBoost
+
+.Pixilate:
+	ld b, FAIRY
+	jr .FinishTypeChange
+.Refrigerate:
+	ld b, ICE
+	jr .FinishTypeChange
+.Galvanize:
+	ld b, ELECTRIC
+.FinishTypeChange:
+	ld a, BATTLE_VARS_MOVE_POWER
+	call GetBattleVar
+	cp 0
+	ret z
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVarAddr
+	and TYPE_MASK
+	and a
+	ret nz
+	ld [hl], b
+	jp TwentyPercentBoost
+	
+.Pixilate:
+.Refrigerate:
+.Technician:
+.Rivalry:
+.TintedLens:
+.Adaptability:
+.NoBoostingAbilities:
+	ret
+
+TwentyFivePercentBoost:
+	ld a, 25
+	jr FinishBoost
+HundredPercentBoost:
+	ld a, 100
+	jr FinishBoost
+ThirtyPercentBoost:
+	ld a, 30
+	jr FinishBoost
+TwentyPercentBoost:
+	ld a, 20
+	jr FinishBoost
+FiftyPercentBoost:
+	ld a, 50
+FinishBoost:
+	add 100
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	ret
+
+CheckHalfHP:
+	ld de, wBattleMonHP + 1
+	ld hl, wBattleMonMaxHP
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .go
+	ld de, wEnemyMonHP + 1
+	ld hl, wEnemyMonMaxHP
+
+.go
+; If, and only if, Pokemon's HP is less than half max, use the item.
+; Store current HP in Buffer 3/4
+	push bc
+	ld a, [de]
+	ld [wBuffer3], a
+	add a
+	ld c, a
+	dec de
+	ld a, [de]
+	inc de
+	ld [wBuffer4], a
+	adc a
+	ld b, a
+	ld a, b
+	cp [hl]
+	ld a, c
+	pop bc
+	jr z, .equal
+	jr c, .less
+	ret
+
+.equal
+	inc hl
+	cp [hl]
+	dec hl
+	ret nc
+
+.less
+	ret
+
+SharpnessMoves:
+	dw CROSS_POISON
+	dw CUT
+	dw RAZOR_LEAF
+	dw SLASH
+	dw LEAF_BLADE
+	dw STEEL_SLICE
+	dw -1
+
+INCLUDE "data/moves/punching_moves.asm"

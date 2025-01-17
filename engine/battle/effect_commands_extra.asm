@@ -220,7 +220,11 @@ BattleCommand_TrapTarget:
 BattleCommand_Recoil:
 ; recoil
 
+	call CheckNeutralGas
+	jr z, .NoMagicGuard
 	call GetUserAbility
+	cp ROCK_HEAD
+	ret z
 	cp MAGIC_GUARD
 	jr nz, .NoMagicGuard
 	ld hl, wBattleMonMoves

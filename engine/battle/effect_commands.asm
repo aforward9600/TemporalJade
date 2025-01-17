@@ -186,8 +186,6 @@ CheckPlayerTurn:
 	call CallBattleCore
 	ld a, $1
 	ldh [hBGMapMode], a
-	ld hl, wPlayerSubStatus1
-	res SUBSTATUS_NIGHTMARE, [hl]
 	jr .not_asleep
 
 .fast_asleep
@@ -433,8 +431,6 @@ CheckEnemyTurn:
 	call CallBattleCore
 	ld a, $1
 	ldh [hBGMapMode], a
-	ld hl, wEnemySubStatus1
-	res SUBSTATUS_NIGHTMARE, [hl]
 	jr .not_asleep
 
 .fast_asleep
@@ -1952,6 +1948,7 @@ BattleCommand_EffectChance:
 	jr z, .got_move_chance
 	ld hl, wEnemyMoveStruct + MOVE_CHANCE
 .got_move_chance
+; Serene Grace should go here
 	ld a, [hl]
 	sub 100 percent
 	; If chance was 100%, RNG won't be called (carry not set)
@@ -2283,6 +2280,16 @@ BattleCommand_ApplyDamage:
 
 .focus_band_text
 	ld hl, HungOnText
+	call StdBattleTextbox
+	call CheckNeutralGas
+	ret z
+	call GetUserAbility
+	cp UNBURDEN
+	ret nz
+	ld a, BATTLE_VARS_SUBSTATUS1
+	call GetBattleVarAddr
+	set SUBSTATUS_UNBURDEN, [hl]
+	ld hl, UnburdenText
 	jp StdBattleTextbox
 
 .update_damage_taken
@@ -3168,7 +3175,7 @@ BattleCommand_DamageCalc:
 
 ; Item boosts
 
-	call CheckBoostingAbilities
+	farcall CheckBoostingAbilities
 
 	call GetUserItem
 
@@ -3409,32 +3416,6 @@ BattleCommand_DamageCalc:
 	ldh [hProduct + 2], a
 	ldh [hProduct + 3], a
 
-	ret
-
-CheckBoostingAbilities:
-	call CheckNeutralGas
-	ret z
-	call GetUserAbility
-	cp GUTS
-	ret nz
-	ld a, BATTLE_VARS_STATUS
-	call GetBattleVar
-	and 1 << PSN | 1 << BRN | 1 << PAR
-	ret z
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
-	cp SPECIAL
-	ret nc
-.FiftyPercentBoost:
-	ld a, 50
-	add 100
-	ldh [hMultiplier], a
-	call Multiply
-
-	ld a, 100
-	ldh [hDivisor], a
-	ld b, 4
-	call Divide
 	ret
 
 BattleCommand_ConstantDamage:
@@ -6030,6 +6011,8 @@ BattleCommand_HeldFlinch:
 	ret z
 	cp EFFECT_COUNTER
 	ret z
+	cp EFFECT_OHKO
+	ret z
 
 	call GetUserItem
 	ld a, b
@@ -6510,8 +6493,6 @@ INCLUDE "engine/battle/move_effects/mimic.asm"
 
 INCLUDE "engine/battle/move_effects/leech_seed.asm"
 
-INCLUDE "engine/battle/move_effects/splash.asm"
-
 INCLUDE "engine/battle/move_effects/disable.asm"
 
 INCLUDE "engine/battle/move_effects/conversion.asm"
@@ -6905,8 +6886,6 @@ INCLUDE "engine/battle/move_effects/rollout.asm"
 INCLUDE "engine/battle/move_effects/attract.asm"
 
 INCLUDE "engine/battle/move_effects/return.asm"
-
-INCLUDE "engine/battle/move_effects/present.asm"
 
 INCLUDE "engine/battle/move_effects/safeguard.asm"
 
@@ -7433,6 +7412,63 @@ ApplyQuickFeetBoostEnemy:
 	ldh [hMultiplicand + 2], a
 ; Multiply by 150
 	ld a, 50
+	add 100
+	ldh [hMultiplier], a
+	call Multiply
+; Divide by 100
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+; load hQuotient back into wEnemyMonSpeed
+	ldh a, [hQuotient + 2]
+	ld hl, wEnemyMonSpeed
+	ld [hli], a
+	ldh a, [hQuotient + 3]
+	ld [hl], a
+	ret
+
+DoubleUserSpeed:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .EnemySpeed
+; load wBattleMonSpeed into hMultiplicand
+	ld hl, wBattleMonSpeed
+	xor a
+	ldh [hMultiplicand + 0], a
+	ld a, [hli]
+	ldh [hMultiplicand + 1], a
+	ld a, [hl]
+	ldh [hMultiplicand + 2], a
+; Multiply by 200
+	ld a, 100
+	add 100
+	ldh [hMultiplier], a
+	call Multiply
+; Divide by 100
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+; load hQuotient back into wBattleMonSpeed
+	ldh a, [hQuotient + 2]
+	ld hl, wBattleMonSpeed
+	ld [hli], a
+	ldh a, [hQuotient + 3]
+	ld [hl], a
+	ret
+
+.EnemySpeed:
+; load wEnemyMonSpeed into hMultiplicand
+	ld hl, wEnemyMonSpeed
+	xor a
+	ldh [hMultiplicand + 0], a
+	ld a, [hli]
+	ldh [hMultiplicand + 1], a
+	ld a, [hl]
+	ldh [hMultiplicand + 2], a
+; Multiply by 200
+	ld a, 100
 	add 100
 	ldh [hMultiplier], a
 	call Multiply
