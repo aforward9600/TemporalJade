@@ -1056,7 +1056,6 @@ CheckBoostingAbilities:
 	dbw SAND_FORCE,      .SandForce
 	dbw IRON_FIST,       .IronFist
 	dbw SWARM,           .Swarm
-	dbw ADAPTABILITY,    .Adaptability
 	dbw TECHNICIAN,      .Technician
 	dbw RIVALRY,         .Rivalry
 	dbw HUSTLE,          .Hustle
@@ -1091,7 +1090,6 @@ CheckBoostingAbilities:
 	ld hl, PunchingMoves
 	call CheckMoveInListAbilities
 	ret nc
-	ld b,b
 	jp TwentyPercentBoost
 
 .SandForce:
@@ -1137,7 +1135,6 @@ CheckBoostingAbilities:
 	ld hl, SharpnessMoves
 	call CheckMoveInListAbilities
 	ret nc
-	ld b,b
 	jp FiftyPercentBoost
 
 .Overgrow:
@@ -1221,9 +1218,6 @@ CheckBoostingAbilities:
 .Analytic:
 	farcall CheckOpponentWentFirst
 	jr nz, ThirtyPercentBoost
-	ret
-
-.Adaptability:
 .NoBoostingAbilities:
 	ret
 
@@ -1232,11 +1226,9 @@ TwentyFivePercentBoost:
 	jr FinishBoost
 HundredPercentBoost:
 	ld a, 100
-	ld b,b
 	jr FinishBoost
 ThirtyPercentBoost:
 	ld a, 30
-	ld b,b
 	jr FinishBoost
 TwentyPercentBoost:
 	ld a, 20
@@ -1255,7 +1247,6 @@ FinishBoost:
 	ret
 
 TwentyFivePercentNerf:
-	ld b,b
 	ld a, 75
 	ldh [hMultiplier], a
 	call Multiply

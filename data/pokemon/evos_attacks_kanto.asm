@@ -218,7 +218,7 @@ TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
 	dbw 1, TAIL_WHIP
-	dbw 3, ABSORB
+	dbw 3, EMBER
 	dbw 3, SLASH
 	dbw 3, POWERUPPUNCH
 	dbw 7, EMBER
