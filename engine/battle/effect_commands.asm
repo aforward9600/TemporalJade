@@ -1955,10 +1955,16 @@ BattleCommand_CheckHit:
 	cp BASE_STAT_LEVEL
 	jr z, .skip_foresight_check
 
+	call CheckNeutralGas
+	jr z, .SkipUnaware
 	call GetUserAbility
 	cp UNAWARE
 	ret z
+	call GetTargetAbility
+	cp UNAWARE
+	ret z
 
+.SkipUnaware
 	; if the target's evasion is greater than the user's accuracy,
 	; check the target's foresight status
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
@@ -2809,6 +2815,30 @@ PlayerAttackDamage:
 	ld d, a
 	ret z
 
+	push af
+
+	call CheckNeutralGas
+	jr z, .SkipUnaware
+
+	ld a, [wPlayerAbility]
+	cp UNAWARE
+	jr z, .PlayerUnawareAttack
+	ld a, [wEnemyAbility]
+	cp UNAWARE
+	jr nz, .SkipUnaware
+	pop af
+	farcall UnawarePlayerDefense
+;	ld b,b
+	jr .FinishStats
+
+.PlayerUnawareAttack:
+	pop af
+	farcall UnawarePlayerAttack
+;	ld b,b
+	jr .FinishStats
+
+.SkipUnaware
+	pop af
 	ld a, [hl]
 	cp SPECIAL
 	jr nc, .special
@@ -2876,6 +2906,7 @@ PlayerAttackDamage:
 ; Note: Returns player attack at hl in hl.
 	call ThickClubBoost
 
+.FinishStats
 .done
 	call TruncateHL_BC
 
@@ -3072,6 +3103,30 @@ EnemyAttackDamage:
 	and a
 	ret z
 
+	push af
+
+	call CheckNeutralGas
+	jr z, .SkipUnaware
+
+	ld a, [wEnemyAbility]
+	cp UNAWARE
+	jr z, .EnemyUnawareAttack
+	ld a, [wPlayerAbility]
+	cp UNAWARE
+	jr nz, .SkipUnaware
+	pop af
+	farcall UnawareEnemyDefense
+;	ld b,b
+	jr .FinishStats
+
+.EnemyUnawareAttack:
+	pop af
+	farcall UnawareEnemyAttack
+	ld b,b
+	jr .FinishStats
+
+.SkipUnaware
+	pop af
 	ld a, [hl]
 	cp SPECIAL
 	jr nc, .Special
@@ -3136,6 +3191,7 @@ EnemyAttackDamage:
 .thickclub
 	call ThickClubBoost
 
+.FinishStats
 .done
 	call TruncateHL_BC
 
