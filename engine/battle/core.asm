@@ -840,12 +840,12 @@ Battle_EnemyFirst:
 
 .switch_item
 	call SetEnemyTurn
-	ld a, [wEnemyAbility]
-	cp MAGIC_GUARD
-	jr z, .SkipEnemyResidualDamage
+;	ld a, [wEnemyAbility]
+;	cp MAGIC_GUARD
+;	jr z, .SkipEnemyResidualDamage
 	call ResidualDamage
 	jp z, HandleEnemyMonFaint
-.SkipEnemyResidualDamage	
+;.SkipEnemyResidualDamage	
 	call RefreshBattleHuds
 	call PlayerTurn_EndOpponentProtectEndureDestinyBond
 	call CheckMobileBattleError
@@ -858,12 +858,12 @@ Battle_EnemyFirst:
 	call HasPlayerFainted
 	jp z, HandlePlayerMonFaint
 	call SetPlayerTurn
-	ld a, [wPlayerAbility]
-	cp MAGIC_GUARD
-	jr z, .SkipPlayerResidualDamage
+;	ld a, [wPlayerAbility]
+;	cp MAGIC_GUARD
+;	jr z, .SkipPlayerResidualDamage
 	call ResidualDamage
 	jp z, HandlePlayerMonFaint
-.SkipPlayerResidualDamage
+;.SkipPlayerResidualDamage
 	call RefreshBattleHuds
 	xor a ; BATTLEPLAYERACTION_USEMOVE
 	ld [wBattlePlayerAction], a
@@ -888,13 +888,13 @@ Battle_PlayerFirst:
 	jp z, HandlePlayerMonFaint
 	push bc
 	call SetPlayerTurn
-	ld a, [wPlayerAbility]
-	cp MAGIC_GUARD
-	jr z, .SkipPlayerResidualDamage
+;	ld a, [wPlayerAbility]
+;	cp MAGIC_GUARD
+;	jr z, .SkipPlayerResidualDamage
 	call ResidualDamage
 	pop bc
 	jp z, HandlePlayerMonFaint
-.SkipPlayerResidualDamage
+;.SkipPlayerResidualDamage
 	push bc
 	call RefreshBattleHuds
 	pop af
@@ -915,12 +915,12 @@ Battle_PlayerFirst:
 
 .switched_or_used_item
 	call SetEnemyTurn
-	ld a, [wEnemyAbility]
-	cp MAGIC_GUARD
-	jr z, .SkipEnemyResidualDamage
+;	ld a, [wEnemyAbility]
+;	cp MAGIC_GUARD
+;	jr z, .SkipEnemyResidualDamage
 	call ResidualDamage
 	jp z, HandleEnemyMonFaint
-.SkipEnemyResidualDamage
+;.SkipEnemyResidualDamage
 	call RefreshBattleHuds
 	xor a ; BATTLEPLAYERACTION_USEMOVE
 	ld [wBattlePlayerAction], a
@@ -975,6 +975,19 @@ ResidualDamage:
 ; or as a result of residual damage.
 ; For Sandstorm damage, see HandleWeather.
 
+	call CheckNeutralGas
+	jr z, .SkipMagicGuard
+	call GetUserAbility
+	cp MAGIC_GUARD
+	jr nz, .SkipMagicGuard
+	ld hl, wBattleMonHP
+	ldh a, [hBattleTurn]
+	and a
+	jp z, .check_fainted
+	ld hl, wEnemyMonHP
+	jp .check_fainted
+
+.SkipMagicGuard
 	call HasUserFainted
 	ret z
 
@@ -994,6 +1007,8 @@ ResidualDamage:
 	call GetUserAbility
 	cp SHED_SKIN
 	jr z, .ShedSkinHeal
+	cp HYDRATION
+	jr z, .Hydration
 
 	push de
 	call StdBattleTextbox
@@ -1031,11 +1046,23 @@ ResidualDamage:
 	jr .did_psn_brn
 
 .ShedSkinHeal:
+	call BattleRandom
+	cp 30 percent + 1
+	ret nc
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVarAddr
 	ld a, [hl]
 	ld [hl], 0
 	ld hl, ShedSkinText
+	call StdBattleTextbox
+	jr .did_psn_brn
+
+.Hydration:
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
+	ld a, [hl]
+	ld [hl], 0
+	ld hl, HydrationText
 	call StdBattleTextbox
 
 .did_psn_brn

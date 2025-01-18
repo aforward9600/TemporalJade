@@ -1859,7 +1859,8 @@ InitNickname:
 
 GetGiftMonAbility:
 	call Random
-	jr z, .HiddenAbility
+	cp 10 percent + 1
+	jr c, .HiddenAbility
 
 	call Random
 	cp 50 percent + 1

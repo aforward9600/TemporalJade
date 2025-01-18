@@ -1,8 +1,8 @@
 BattleCommand_Mimic:
 ; mimic
 
-	call ClearLastMove
-	call BattleCommand_MoveDelay
+	farcall ClearLastMove
+	farcall BattleCommand_MoveDelay
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .fail
@@ -12,8 +12,8 @@ BattleCommand_Mimic:
 	jr z, .player_turn
 	ld hl, wEnemyMonMoves
 .player_turn
-	call CheckHiddenOpponent
-	jr nz, .fail
+;	farcall CheckHiddenOpponent
+;	jr nz, .fail
 	ld a, BATTLE_VARS_LAST_COUNTER_MOVE_OPP
 	call GetBattleVar
 	and a
@@ -46,10 +46,12 @@ BattleCommand_Mimic:
 	ld bc, wBattleMonPP - wBattleMonMoves
 	add hl, bc
 	ld [hl], 5
+	ld b,b
 	call GetMoveName
-	call AnimateCurrentMove
+	farcall AnimateCurrentMove
 	ld hl, LearnedMoveText
 	jp StdBattleTextbox
 
 .fail
-	jp FailMimic
+	farcall FailMimic
+	ret

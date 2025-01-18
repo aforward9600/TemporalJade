@@ -1,13 +1,17 @@
 BattleCommand_Attract:
 ; attract
+	call CheckNeutralGas
+	jr z, .SkipOblivious
 	call GetTargetAbility
 	cp OBLIVIOUS
 	jr z, .oblivious
+.SkipOblivious
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .failed
 	call CheckOppositeGender
 	jr c, .failed
+	jr z, .failed
 	call CheckHiddenOpponent
 	jr nz, .failed
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
@@ -73,7 +77,7 @@ CheckOppositeGender:
 
 .got_enemy_gender
 	xor b
-	jr z, .genderless_samegender
+	ret z
 
 	and a
 	ret

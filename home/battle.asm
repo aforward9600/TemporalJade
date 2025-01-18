@@ -295,3 +295,15 @@ CheckCloudNine::
 	ld a, [wPlayerAbility]
 	cp CLOUD_NINE
 	ret
+
+CompareMove::
+	; checks if the move ID in a matches the move in bc
+	push hl
+	call GetMoveIndexFromID
+	ld a, h
+	cp b
+	ld a, l
+	pop hl
+	ret nz
+	cp c
+	ret

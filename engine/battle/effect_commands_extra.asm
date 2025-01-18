@@ -56,6 +56,8 @@ BattleCommand_DamageVariation:
 	ld a, [hl]
 	ldh [hMultiplicand + 2], a
 
+	farcall EffectiveDefensiveAbilities
+
 ; Multiply by 85-100%...
 .loop
 	call BattleRandom
@@ -224,9 +226,10 @@ BattleCommand_Recoil:
 	jr z, .NoMagicGuard
 	call GetUserAbility
 	cp ROCK_HEAD
-	ret z
+	jr z, .CheckStruggle
 	cp MAGIC_GUARD
 	jr nz, .NoMagicGuard
+.CheckStruggle
 	ld hl, wBattleMonMoves
 	ldh a, [hBattleTurn]
 	and a
@@ -239,7 +242,7 @@ BattleCommand_Recoil:
 	ld b, a
 	push bc
 	ld bc, STRUGGLE
-	farcall CompareMove
+	call CompareMove
 	pop bc
 	ret nz
 

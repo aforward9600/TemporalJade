@@ -524,11 +524,9 @@ CheckContactAbilities:
 	ld a, BATTLE_VARS_LAST_MOVE
 	call GetBattleVar
 	ld b, a
-	push hl
 	ld hl, ContactMoves
-	farcall CheckMoveInList
-	pop hl
-	ret nz
+	call CheckMoveInListAbilities
+	ret nc
 	call GetUserAbility
 	cp POISON_TOUCH
 	jr z, .PoisonTouch
@@ -907,8 +905,9 @@ HandleEndMoveAbility:
 	ld a, [wBattleWeather]
 	cp WEATHER_RAIN
 	ret nz
+	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
-	and 1 << SLP | 1 << FRZ | 1 << PAR
+	cp 0
 	ret z
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVarAddr
@@ -965,7 +964,7 @@ HandleEndMoveAbility:
 .ShedSkin:
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
-	and 1 << SLP | 1 << FRZ | 1 << PAR
+	cp 0
 	ret z
 	call BattleRandom
 	cp 30 percent + 1
@@ -1049,7 +1048,6 @@ CheckBoostingAbilities:
 
 .BoostingAbilities:
 	dbw GUTS,            .Guts
-	dbw TINTED_LENS,     .TintedLens
 	dbw SHARPNESS,       .Sharpness
 	dbw OVERGROW,        .Overgrow
 	dbw BLAZE,           .Blaze
@@ -1066,6 +1064,7 @@ CheckBoostingAbilities:
 	dbw HUGE_POWER,      .HugePower
 	dbw REFRIGERATE,     .Refrigerate
 	dbw GALVANIZE,       .Galvanize
+	dbw ANALYTIC,        .Analytic
 	db -1
 
 .Guts:
@@ -1080,11 +1079,19 @@ CheckBoostingAbilities:
 	jp FiftyPercentBoost
 
 .IronFist:
-	ld a, BATTLE_VARS_MOVE_ANIM
-	call GetBattleVar
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerIronFist
+	ld a, [wCurEnemyMove]
+	jr .FinishIronFist
+
+.PlayerIronFist
+	ld a, [wCurPlayerMove]
+.FinishIronFist
 	ld hl, PunchingMoves
-	farcall CheckMoveInList
+	call CheckMoveInListAbilities
 	ret nc
+	ld b,b
 	jp TwentyPercentBoost
 
 .SandForce:
@@ -1118,11 +1125,19 @@ CheckBoostingAbilities:
 	jp TwentyPercentBoost
 
 .Sharpness:
-	ld a, BATTLE_VARS_MOVE
-	call GetBattleVar
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerSharpness
+	ld a, [wCurEnemyMove]
+	jr .FinishSharpness
+
+.PlayerSharpness
+	ld a, [wCurPlayerMove]
+.FinishSharpness
 	ld hl, SharpnessMoves
-	farcall CheckMoveInList
+	call CheckMoveInListAbilities
 	ret nc
+	ld b,b
 	jp FiftyPercentBoost
 
 .Overgrow:
@@ -1185,12 +1200,29 @@ CheckBoostingAbilities:
 	ret nz
 	ld [hl], b
 	jp TwentyPercentBoost
-	
-.Pixilate:
-.Refrigerate:
+
 .Technician:
+	ld a, BATTLE_VARS_MOVE_POWER
+	call GetBattleVar
+	cp 60
+	jr z, .TechnicianBoost
+	jr c, .TechnicianBoost
+	ret
+
+.TechnicianBoost:
+	jp FiftyPercentBoost
+
 .Rivalry:
-.TintedLens:
+	farcall CheckOppositeGender
+	ret c
+	jr z, TwentyFivePercentBoost
+	jp TwentyFivePercentNerf
+
+.Analytic:
+	farcall CheckOpponentWentFirst
+	jr nz, ThirtyPercentBoost
+	ret
+
 .Adaptability:
 .NoBoostingAbilities:
 	ret
@@ -1200,9 +1232,11 @@ TwentyFivePercentBoost:
 	jr FinishBoost
 HundredPercentBoost:
 	ld a, 100
+	ld b,b
 	jr FinishBoost
 ThirtyPercentBoost:
 	ld a, 30
+	ld b,b
 	jr FinishBoost
 TwentyPercentBoost:
 	ld a, 20
@@ -1219,6 +1253,44 @@ FinishBoost:
 	ld b, 4
 	call Divide
 	ret
+
+TwentyFivePercentNerf:
+	ld b,b
+	ld a, 75
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	ret
+
+EffectiveDefensiveAbilities:
+	call GetUserAbility
+	cp TINTED_LENS
+	jr z, .TintedLens
+.ReturnToDefensiveAbilities:
+	call GetTargetAbility
+	cp SOLID_ROCK
+	jr z, .SolidRock
+	cp FILTER
+	jr z, .SolidRock
+	ret
+
+.TintedLens:
+	ld a, [wTypeModifier]
+	and $7f
+	cp 5
+	jr nz, .ReturnToDefensiveAbilities
+	jp HundredPercentBoost
+
+.SolidRock:
+	ld a, [wTypeModifier]
+	and $7f
+	cp 20
+	ret nz
+	jp TwentyFivePercentNerf
 
 CheckHalfHP:
 	ld de, wBattleMonHP + 1
@@ -1270,3 +1342,18 @@ SharpnessMoves:
 	dw -1
 
 INCLUDE "data/moves/punching_moves.asm"
+
+CheckMoveInListAbilities:
+	; checks if the move ID in a belongs to a list of moves in hl
+	push bc
+	push de
+	push hl
+	call GetMoveIndexFromID
+	ld b, h
+	ld c, l
+	pop hl
+	ld de, 2
+	call IsInHalfwordArray
+	pop de
+	pop bc
+	ret
