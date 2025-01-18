@@ -304,7 +304,6 @@ endr
 	pop hl
 
 	; Initialize happiness.
-	ld b,b
 	ld a, BASE_HAPPINESS
 	ld [de], a
 	inc de

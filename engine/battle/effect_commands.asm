@@ -1424,7 +1424,6 @@ BattleCommand_Stab:
 	ld b, h
 	ld c, l
 	add hl, bc
-	ld b,b
 .FinishStab:
 	ld a, h
 	ld [wCurDamage], a
@@ -1741,7 +1740,6 @@ BattleCommand_CheckHit:
 
 .HustleLoss:
 	pop af
-	ld b,b
 	ld a, 50
 	ldh [hMultiplier], a
 	call Multiply
@@ -2684,7 +2682,7 @@ EndMoveEffect:
 	ld [hl], a
 	ret
 
-DittoMetalPowder:
+DittoMetalPowder::
 	ld a, MON_SPECIES
 	call BattlePartyAttr
 	ldh a, [hBattleTurn]
@@ -2736,7 +2734,7 @@ DittoMetalPowder:
 	rr c
 	ret
 
-UnevolvedEviolite:
+UnevolvedEviolite::
 ; get the defender's species
 	ld a, MON_SPECIES
 	call BattlePartyAttr
@@ -2829,12 +2827,21 @@ PlayerAttackDamage:
 	pop af
 	farcall UnawarePlayerDefense
 ;	ld b,b
-	jr .FinishStats
+	jp .FinishStats
 
 .PlayerUnawareAttack:
+	ld a, [wEnemyAbility]
+	cp UNAWARE
+	jr z, .PlayerBothUnaware
 	pop af
 	farcall UnawarePlayerAttack
 ;	ld b,b
+	jr .FinishStats
+
+.PlayerBothUnaware:
+	pop af
+	farcall UnawareBothPlayer
+	ld b,b
 	jr .FinishStats
 
 .SkipUnaware
@@ -2851,6 +2858,9 @@ PlayerAttackDamage:
 
 	call HailDefBoost
 
+	ld a, [wPlayerAbility]
+	cp INFILTRATOR
+	jr z, .physicalcrit
 	ld a, [wEnemyScreens]
 	bit SCREENS_REFLECT, a
 	jr z, .physicalcrit
@@ -2960,7 +2970,7 @@ TruncateHL_BC:
 	ld b, l
 	ret
 
-CheckDamageStatsCritical:
+CheckDamageStatsCritical::
 ; Return carry if boosted stats should be used in damage calculations.
 ; Unboosted stats should be used if the attack is a critical hit,
 ;  and the stage of the opponent's defense is higher than the user's attack.
@@ -3006,7 +3016,7 @@ CheckDamageStatsCritical:
 	pop hl
 	ret
 
-ThickClubBoost:
+ThickClubBoost::
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is Cubone or Marowak and
@@ -3026,7 +3036,7 @@ ThickClubBoost:
 	pop bc
 	ret
 
-LightBallBoost:
+LightBallBoost::
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is Pikachu and it's
@@ -3117,12 +3127,20 @@ EnemyAttackDamage:
 	pop af
 	farcall UnawareEnemyDefense
 ;	ld b,b
-	jr .FinishStats
+	jp .FinishStats
 
 .EnemyUnawareAttack:
+	ld a, [wPlayerAbility]
+	cp UNAWARE
+	jr z, .EnemyBothUnaware
 	pop af
 	farcall UnawareEnemyAttack
 	ld b,b
+	jr .FinishStats
+
+.EnemyBothUnaware:
+	pop af
+	farcall UnawareBothEnemy
 	jr .FinishStats
 
 .SkipUnaware
@@ -3139,6 +3157,9 @@ EnemyAttackDamage:
 
 	call HailDefBoost
 
+	ld a, [wEnemyAbility]
+	cp INFILTRATOR
+	jr z, .physicalcrit
 	ld a, [wPlayerScreens]
 	bit SCREENS_REFLECT, a
 	jr z, .physicalcrit
@@ -6672,8 +6693,6 @@ EndRechargeOpp:
 	pop hl
 	ret
 
-INCLUDE "engine/battle/move_effects/leech_seed.asm"
-
 INCLUDE "engine/battle/move_effects/disable.asm"
 
 INCLUDE "engine/battle/move_effects/conversion.asm"
@@ -7472,7 +7491,7 @@ CheckMoveInList:
 
 INCLUDE "engine/battle/move_effects/avalanche.asm"
 
-SandstormSpDefBoost: 
+SandstormSpDefBoost::
 ; First, check if Sandstorm is active.
 	call CheckNeutralGas
 	jr z, .SkipCloudNine
@@ -7652,7 +7671,7 @@ DoubleUserSpeed:
 	ld [hl], a
 	ret
 
-HailDefBoost: 
+HailDefBoost::
 ; First, check if Hail is active.
 	call CheckNeutralGas
 	jr z, .SkipCloudNine

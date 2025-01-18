@@ -46,7 +46,6 @@ BattleCommand_Mimic:
 	ld bc, wBattleMonPP - wBattleMonMoves
 	add hl, bc
 	ld [hl], 5
-	ld b,b
 	call GetMoveName
 	farcall AnimateCurrentMove
 	ld hl, LearnedMoveText

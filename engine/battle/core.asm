@@ -6869,7 +6869,6 @@ ApplySlowStartOnSpeed:
 	ld a, [wEnemySubStatus4]
 	bit SUBSTATUS_SLOW_START, a
 	ret z
-;	ld b,b
 	ld hl, wEnemyMonSpeed + 1
 	ld a, [hld]
 	ld b, a

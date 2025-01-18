@@ -220,7 +220,7 @@ TepigEvosAttacks:
 	dbw 1, ATTRACT
 	dbw 3, EMBER
 	dbw 3, SLASH
-	dbw 3, HORN_DRILL
+	dbw 3, LEECH_SEED
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE
