@@ -1348,3 +1348,12 @@ CheckMoveInListAbilities:
 	pop de
 	pop bc
 	ret
+
+HustleCheck:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp SPECIAL
+	ret nc
+	cp STATUS
+	ret nc
+	ret

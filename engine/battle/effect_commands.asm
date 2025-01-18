@@ -1685,6 +1685,16 @@ BattleCommand_CheckHit:
 	cp EFFECT_PLAY_NICE
 	ret z
 
+	call CheckNeutralGas
+	jr z, .SkipAccuracyAbilities
+	call GetUserAbility
+	cp NO_GUARD
+	ret z
+	call GetTargetAbility
+	cp NO_GUARD
+	ret z
+
+.SkipAccuracyAbilities:
 	call .StatModifiers
 
 	ld a, [wPlayerMoveStruct + MOVE_ACC]
@@ -1727,8 +1737,37 @@ BattleCommand_CheckHit:
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
+	jr .skip_brightpowder
+
+.HustleLoss:
+	pop af
+	ld b,b
+	ld a, 50
+	ldh [hMultiplier], a
+	call Multiply
+	ld a, c ; % miss
+	add 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	jr .AfterHustleLoss
 
 .skip_brightpowder
+	push af
+	call CheckNeutralGas
+	jr z, .SkipHustle
+	call GetUserAbility
+	cp HUSTLE
+	jr nz, .SkipHustle
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_OHKO
+	jr z, .SkipHustle
+	farcall HustleCheck
+	jr c, .HustleLoss
+.SkipHustle
+	pop af
+.AfterHustleLoss
 	ldh a, [hMultiplicand + 0]
 	ld b, a
 	ldh a, [hMultiplicand +1]
@@ -1913,8 +1952,12 @@ BattleCommand_CheckHit:
 	ld c, a
 
 .got_acc_eva
-	cp b
-	jr c, .skip_foresight_check
+	cp BASE_STAT_LEVEL
+	jr z, .skip_foresight_check
+
+	call GetUserAbility
+	cp UNAWARE
+	ret z
 
 	; if the target's evasion is greater than the user's accuracy,
 	; check the target's foresight status
@@ -6964,8 +7007,6 @@ INCLUDE "engine/battle/move_effects/sandstorm.asm"
 INCLUDE "engine/battle/move_effects/hail.asm"
 
 INCLUDE "engine/battle/move_effects/rollout.asm"
-
-INCLUDE "engine/battle/move_effects/attract.asm"
 
 INCLUDE "engine/battle/move_effects/return.asm"
 
