@@ -10,6 +10,8 @@ BattleCommand_StartSandstorm:
 	ld a, 5
 	ld [wWeatherCount], a
 	call AnimateCurrentMove
+	call CalcPlayerStats
+	call CalcEnemyStats
 	ld hl, SandstormBrewedText
 	jp StdBattleTextbox
 

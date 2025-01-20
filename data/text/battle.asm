@@ -408,7 +408,7 @@ IronBarbsText:
 	prompt
 
 UnburdenText:
-	text "<USER>'s"
+	text "<TARGET>'s"
 	line "Unburden sharply"
 	cont "raised Speed!"
 	prompt

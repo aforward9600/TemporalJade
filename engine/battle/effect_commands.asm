@@ -5350,7 +5350,8 @@ CalcPlayerStats:
 
 	call BattleCommand_SwitchTurn
 
-	call QuickFeetCheck
+	ld hl, ApplySpeedAbilities
+	call CallBattleAbilities
 
 	call ApplyChoiceScarfOnSpeed
 
@@ -5378,7 +5379,8 @@ CalcEnemyStats:
 
 	call BattleCommand_SwitchTurn
 
-	call QuickFeetCheck
+	ld hl, ApplySpeedAbilities
+	call CallBattleAbilities
 
 	call ApplyChoiceScarfOnSpeed
 
@@ -7393,6 +7395,11 @@ CallBattleCore:
 	rst FarCall
 	ret
 
+CallBattleAbilities:
+	ld a, BANK("Abilities")
+	rst FarCall
+	ret
+
 AnimateFailedMove:
 	call BattleCommand_LowerSub
 	call BattleCommand_MoveDelay
@@ -7506,29 +7513,6 @@ SandstormSpDefBoost:
 	ld c, l
 	ret
 
-QuickFeetCheck:
-	call CheckNeutralGas
-	ret z
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .enemy
-	ld a, [wPlayerAbility]
-	cp QUICK_FEET
-	ret nz
-	ld a, [wBattleMonStatus]
-	and 1 << PAR
-	ret z
-	jr ApplyQuickFeetBoostPlayer
-
-.enemy:
-	ld a, [wEnemyAbility]
-	cp QUICK_FEET
-	ret nz
-	ld a, [wEnemyMonStatus]
-	and 1 << PAR
-	ret z
-	jr ApplyQuickFeetBoostEnemy
-
 ApplyChoiceScarfOnSpeed:
 	Call GetOpponentItem
 	ld a, b
@@ -7539,8 +7523,7 @@ ApplyChoiceScarfOnSpeed:
 	ret nz
 	ldh a, [hBattleTurn]
 	and a
-	jr z, ApplyQuickFeetBoostEnemy
-ApplyQuickFeetBoostPlayer:
+	jr z, .enemy
 ; load wBattleMonSpeed into hMultiplicand
 	ld hl, wBattleMonSpeed
 	xor a
@@ -7567,7 +7550,7 @@ ApplyQuickFeetBoostPlayer:
 	ld [hl], a
 	ret
 
-ApplyQuickFeetBoostEnemy:
+.enemy:
 ; load wEnemyMonSpeed into hMultiplicand
 	ld hl, wEnemyMonSpeed
 	xor a
@@ -7578,63 +7561,6 @@ ApplyQuickFeetBoostEnemy:
 	ldh [hMultiplicand + 2], a
 ; Multiply by 150
 	ld a, 50
-	add 100
-	ldh [hMultiplier], a
-	call Multiply
-; Divide by 100
-	ld a, 100
-	ldh [hDivisor], a
-	ld b, 4
-	call Divide
-; load hQuotient back into wEnemyMonSpeed
-	ldh a, [hQuotient + 2]
-	ld hl, wEnemyMonSpeed
-	ld [hli], a
-	ldh a, [hQuotient + 3]
-	ld [hl], a
-	ret
-
-DoubleUserSpeed:
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .EnemySpeed
-; load wBattleMonSpeed into hMultiplicand
-	ld hl, wBattleMonSpeed
-	xor a
-	ldh [hMultiplicand + 0], a
-	ld a, [hli]
-	ldh [hMultiplicand + 1], a
-	ld a, [hl]
-	ldh [hMultiplicand + 2], a
-; Multiply by 200
-	ld a, 100
-	add 100
-	ldh [hMultiplier], a
-	call Multiply
-; Divide by 100
-	ld a, 100
-	ldh [hDivisor], a
-	ld b, 4
-	call Divide
-; load hQuotient back into wBattleMonSpeed
-	ldh a, [hQuotient + 2]
-	ld hl, wBattleMonSpeed
-	ld [hli], a
-	ldh a, [hQuotient + 3]
-	ld [hl], a
-	ret
-
-.EnemySpeed:
-; load wEnemyMonSpeed into hMultiplicand
-	ld hl, wEnemyMonSpeed
-	xor a
-	ldh [hMultiplicand + 0], a
-	ld a, [hli]
-	ldh [hMultiplicand + 1], a
-	ld a, [hl]
-	ldh [hMultiplicand + 2], a
-; Multiply by 200
-	ld a, 100
 	add 100
 	ldh [hMultiplier], a
 	call Multiply

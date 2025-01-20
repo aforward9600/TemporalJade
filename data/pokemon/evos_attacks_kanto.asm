@@ -217,8 +217,8 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, ENCORE
-	dbw 3, EMBER
+	dbw 1, RAIN_DANCE
+	dbw 3, TAIL_WHIP
 	dbw 3, SLASH
 	dbw 3, DESTINY_BOND
 	dbw 7, EMBER
@@ -279,8 +279,8 @@ EmboarEvosAttacks:
 MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
-	dbw 1, LEER
-	dbw 1, HYPER_BEAM
+	dbw 1, GROWL
+	dbw 1, TACKLE
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT

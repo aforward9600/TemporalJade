@@ -1561,6 +1561,8 @@ HandleWeather:
 	call .PrintWeatherMessage
 	xor a
 	ld [wBattleWeather], a
+	farcall CalcPlayerStats
+	farcall CalcEnemyStats
 	ret
 
 .WeatherMessages:
@@ -4235,12 +4237,14 @@ UseOpponentItem:
 	call StdBattleTextbox
 	call CheckNeutralGas
 	ret z
-	call GetUserAbility
+	call GetTargetAbility
 	cp UNBURDEN
 	ret nz
-	ld a, BATTLE_VARS_SUBSTATUS1
+	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVarAddr
 	set SUBSTATUS_UNBURDEN, [hl]
+	farcall CalcPlayerStats
+	farcall CalcEnemyStats
 	ld hl, UnburdenText
 	jp StdBattleTextbox
 
@@ -6682,7 +6686,7 @@ ApplyStatusEffectOnEnemyStats:
 ApplyStatusEffectOnStats:
 	ldh [hBattleTurn], a
 	farcall ApplyChoiceScarfOnSpeed
-	farcall QuickFeetCheck
+	farcall ApplySpeedAbilities
 	call ApplyPrzEffectOnSpeed
 	call ApplySlowStartOnSpeed
 	call ApplyBrnEffectOnAttack

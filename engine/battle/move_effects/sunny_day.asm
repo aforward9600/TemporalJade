@@ -5,5 +5,7 @@ BattleCommand_StartSun:
 	ld a, 5
 	ld [wWeatherCount], a
 	call AnimateCurrentMove
+	call CalcPlayerStats
+	call CalcEnemyStats
 	ld hl, SunGotBrightText
 	jp StdBattleTextbox
