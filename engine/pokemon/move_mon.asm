@@ -181,7 +181,8 @@ endr
 	jr z, .registerpokedex
 
 	push hl
-	ld a, [wEnemyMonAbility]
+	ld a, 0
+;	ld a, [wEnemyMonAbility]
 	ld [de], a
 	inc de
 	inc de
@@ -280,7 +281,8 @@ endr
 	jr .initstats
 
 .copywildmonDVs
-	ld a, [wEnemyMonAbility]
+	ld a, 0
+;	ld a, [wEnemyMonAbility]
 	ld [de], a
 	inc de
 	inc de

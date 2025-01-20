@@ -381,3 +381,15 @@ CheckMoveInList2:
 	pop de
 	pop bc
 	ret
+
+TryPrintButItFailed2:
+	ld a, [wAlreadyFailed]
+	and a
+	ret nz
+
+	; fallthrough
+
+PrintButItFailed2:
+; 'but it failed!'
+	ld hl, ButItFailedText
+	jp StdBattleTextbox

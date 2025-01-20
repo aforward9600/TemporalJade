@@ -78,7 +78,7 @@ BattleCommand_Spite:
 	ld [hl], e
 .transformed
 	push de
-	call AnimateCurrentMove
+	farcall AnimateCurrentMove
 	pop de
 	ld a, d
 	ld [wDeciramBuffer], a
@@ -86,4 +86,5 @@ BattleCommand_Spite:
 	jp StdBattleTextbox
 
 .failed
-	jp PrintDidntAffect2
+	ld hl, DidntAffect1Text
+	jp StdBattleTextbox

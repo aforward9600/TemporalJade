@@ -9,9 +9,9 @@ SetPlayerAbility::
 	ret
 
 SetEnemyAbility::
+	ld hl, wEnemyMonAbility
 	ld a, [wEnemyMonSpecies]
 	ld c, a
-	ld hl, wEnemyMonAbility
 	call GetAbility
 	ld [wEnemyAbility], a
 	ret
@@ -854,7 +854,7 @@ CheckContactAbilities:
 .NoContactAilities:
 	ret
 
-HandleEndMoveAbility:
+HandleEndMoveAbility::
 	ld de, wBattleMonSpeed
 	ld hl, wEnemyMonSpeed
 	ld c, 2

@@ -217,10 +217,10 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, ATTRACT
+	dbw 1, ENCORE
 	dbw 3, EMBER
 	dbw 3, SLASH
-	dbw 3, LEECH_SEED
+	dbw 3, DESTINY_BOND
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE

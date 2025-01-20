@@ -2682,7 +2682,7 @@ EndMoveEffect:
 	ld [hl], a
 	ret
 
-DittoMetalPowder::
+DittoMetalPowder:
 	ld a, MON_SPECIES
 	call BattlePartyAttr
 	ldh a, [hBattleTurn]
@@ -2734,7 +2734,7 @@ DittoMetalPowder::
 	rr c
 	ret
 
-UnevolvedEviolite::
+UnevolvedEviolite:
 ; get the defender's species
 	ld a, MON_SPECIES
 	call BattlePartyAttr
@@ -2807,14 +2807,6 @@ PlayerAttackDamage:
 
 	call ResetDamage
 
-	ld hl, wPlayerMoveStructPower
-	ld a, [hli]
-	and a
-	ld d, a
-	ret z
-
-	push af
-
 	call CheckNeutralGas
 	jr z, .SkipUnaware
 
@@ -2824,28 +2816,27 @@ PlayerAttackDamage:
 	ld a, [wEnemyAbility]
 	cp UNAWARE
 	jr nz, .SkipUnaware
-	pop af
-	farcall UnawarePlayerDefense
-;	ld b,b
-	jp .FinishStats
+	call UnawareCheck
+	ret
 
 .PlayerUnawareAttack:
-	ld a, [wEnemyAbility]
-	cp UNAWARE
-	jr z, .PlayerBothUnaware
-	pop af
-	farcall UnawarePlayerAttack
-;	ld b,b
-	jr .FinishStats
+;	ld a, [wEnemyAbility]
+;	cp UNAWARE
+;	jr z, .PlayerBothUnaware
+	call UnawareCheck
+	ret
 
-.PlayerBothUnaware:
-	pop af
-	farcall UnawareBothPlayer
-	ld b,b
-	jr .FinishStats
+;.PlayerBothUnaware:
+;	call UnawareBothPlayer
+;	ret
 
 .SkipUnaware
-	pop af
+	ld hl, wPlayerMoveStructPower
+	ld a, [hli]
+	and a
+	ld d, a
+	ret z
+
 	ld a, [hl]
 	cp SPECIAL
 	jr nc, .special
@@ -2916,7 +2907,6 @@ PlayerAttackDamage:
 ; Note: Returns player attack at hl in hl.
 	call ThickClubBoost
 
-.FinishStats
 .done
 	call TruncateHL_BC
 
@@ -3106,15 +3096,6 @@ DoubleStatIfSpeciesHoldingItem:
 EnemyAttackDamage:
 	call ResetDamage
 
-; No damage dealt with 0 power.
-	ld hl, wEnemyMoveStructPower
-	ld a, [hli] ; hl = wEnemyMoveStructType
-	ld d, a
-	and a
-	ret z
-
-	push af
-
 	call CheckNeutralGas
 	jr z, .SkipUnaware
 
@@ -3124,27 +3105,28 @@ EnemyAttackDamage:
 	ld a, [wPlayerAbility]
 	cp UNAWARE
 	jr nz, .SkipUnaware
-	pop af
-	farcall UnawareEnemyDefense
-;	ld b,b
-	jp .FinishStats
+	call UnawareCheck
+	ret
 
 .EnemyUnawareAttack:
-	ld a, [wPlayerAbility]
-	cp UNAWARE
-	jr z, .EnemyBothUnaware
-	pop af
-	farcall UnawareEnemyAttack
-	ld b,b
-	jr .FinishStats
+;	ld a, [wPlayerAbility]
+;	cp UNAWARE
+;	jr z, .EnemyBothUnaware
+	call UnawareCheck
+	ret
 
-.EnemyBothUnaware:
-	pop af
-	farcall UnawareBothEnemy
-	jr .FinishStats
+;.EnemyBothUnaware:
+;	call UnawareBothEnemy
+;	ret
 
 .SkipUnaware
-	pop af
+; No damage dealt with 0 power.
+	ld hl, wEnemyMoveStructPower
+	ld a, [hli] ; hl = wEnemyMoveStructType
+	ld d, a
+	and a
+	ret z
+
 	ld a, [hl]
 	cp SPECIAL
 	jr nc, .Special
@@ -6489,8 +6471,6 @@ BattleCommand_Charge:
 	text_far UnknownText_0x1c0d6c
 	text_end
 
-INCLUDE "engine/battle/move_effects/focus_energy.asm"
-
 ;INCLUDE "engine/battle/move_effects/wake_up_slap.asm"
 
 BattleCommand_ConfuseTarget:
@@ -7491,7 +7471,7 @@ CheckMoveInList:
 
 INCLUDE "engine/battle/move_effects/avalanche.asm"
 
-SandstormSpDefBoost::
+SandstormSpDefBoost:
 ; First, check if Sandstorm is active.
 	call CheckNeutralGas
 	jr z, .SkipCloudNine
@@ -7671,7 +7651,7 @@ DoubleUserSpeed:
 	ld [hl], a
 	ret
 
-HailDefBoost::
+HailDefBoost:
 ; First, check if Hail is active.
 	call CheckNeutralGas
 	jr z, .SkipCloudNine

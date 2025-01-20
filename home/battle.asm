@@ -307,3 +307,7 @@ CompareMove::
 	ret nz
 	cp c
 	ret
+
+UnawareCheck::
+	homecall _UnawarePlayer
+	ret

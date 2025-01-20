@@ -13,7 +13,7 @@ BattleCommand_Encore:
 	ld b, a
 	push hl
 	ld hl, .invalid_moves
-	farcall CheckMoveInList
+	call CheckMoveInList2
 	pop hl
 	jp c, .failed
 
@@ -41,7 +41,7 @@ BattleCommand_Encore:
 	inc a
 	inc a
 	ld [de], a
-	call CheckOpponentWentFirst
+	farcall CheckOpponentWentFirst
 	jr nz, .finish_move
 	ldh a, [hBattleTurn]
 	and a
@@ -106,12 +106,13 @@ BattleCommand_Encore:
 	call GetMoveData
 
 .finish_move
-	call AnimateCurrentMove
+	farcall AnimateCurrentMove
 	ld hl, GotAnEncoreText
 	jp StdBattleTextbox
 
 .failed
-	jp PrintDidntAffect2
+	farcall PrintDidntAffect2
+	ret
 
 .invalid_moves
 	dw NO_MOVE
