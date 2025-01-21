@@ -407,6 +407,12 @@ IronBarbsText:
 	text "!"
 	prompt
 
+SturdyText:
+	text "<TARGET>"
+	line "hung on with"
+	cont "Sturdy!"
+	prompt
+
 UnburdenText:
 	text "<TARGET>'s"
 	line "Unburden sharply"

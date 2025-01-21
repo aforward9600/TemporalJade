@@ -280,7 +280,7 @@ MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
 	dbw 1, GROWL
-	dbw 1, TACKLE
+	dbw 1, ICE_SHARD
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT

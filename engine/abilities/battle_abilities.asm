@@ -1038,6 +1038,17 @@ CheckBoostingAbilities:
 	call CheckNeutralGas
 	ret z
 	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .AfterMarvelScale
+	call GetTargetAbility
+	cp MARVEL_SCALE
+	jr z, .MarvelScale
+	cp THICK_FAT
+	jr z, .ThickFat
+	cp DRY_SKIN
+	jp z, .DrySkin
+.AfterMarvelScale
+	call GetUserAbility
 	ld de, 3
 	ld hl, .BoostingAbilities
 	call IsInArray
@@ -1078,6 +1089,41 @@ CheckBoostingAbilities:
 	cp SPECIAL
 	ret nc
 	jp FiftyPercentBoost
+
+.MarvelScale:
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVar
+	and 1 << SLP | 1 << PSN | 1 << BRN | 1 << FRZ | 1 << PAR
+	ret z
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp SPECIAL
+	ret nc
+	call FiftyPercentNerf
+	jr .AfterMarvelScale
+
+.ThickFat:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp FIRE
+	jr z, .ThickFatNerf
+	cp ICE
+	jr z, .ThickFatNerf
+	jp .AfterMarvelScale
+
+.ThickFatNerf:
+	call FiftyPercentNerf
+	jp .AfterMarvelScale
+
+.DrySkin:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp FIRE
+	jp nz, .AfterMarvelScale
+	call TwentyFivePercentBoost
+	jp .AfterMarvelScale
 
 .IronFist:
 	ldh a, [hBattleTurn]
@@ -1250,6 +1296,17 @@ FinishBoost:
 
 TwentyFivePercentNerf:
 	ld a, 75
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	ret
+
+FiftyPercentNerf:
+	ld a, 50
 	ldh [hMultiplier], a
 	call Multiply
 

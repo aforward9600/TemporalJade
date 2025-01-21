@@ -1454,6 +1454,13 @@ BattleCommand_Stab:
 	bit SUBSTATUS_IDENTIFIED, a
 	jr nz, .end
 
+	call CheckNeutralGas
+	jr z, .SkipScrappy
+	call GetUserAbility
+	cp SCRAPPY
+	jr z, .end
+
+.SkipScrappy
 	jr .TypesLoop
 
 .SkipForesightCheck:
@@ -2325,6 +2332,24 @@ BattleCommand_ApplyDamage:
 	jr .damage
 
 .check_item
+	call CheckNeutralGas
+	jr z, .SkipSturdy
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipSturdy
+	call GetTargetAbility
+	cp STURDY
+	jr nz, .SkipSturdy
+	farcall CheckOpponentFullHP
+	jr nz, .damage
+	farcall BattleCommand_FalseSwipe
+	ld b, 0
+	jr nc, .damage
+	ld hl, SturdyText
+	call StdBattleTextbox
+	ld b, 2
+	jr .damage
+.SkipSturdy
 	call GetOpponentItem
 	ld a, [hl]
 	ld [wNamedObjectIndexBuffer], a
@@ -5546,10 +5571,18 @@ SetBattleDraw:
 BattleCommand_ForceSwitch:
 ; forceswitch
 
+	call CheckNeutralGas
+	jr z, .SkipSuctionCups
+
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipSuctionCups
+
 	call GetTargetAbility
 	cp SUCTION_CUPS
 	jp z, .suctioncups
 
+.SkipSuctionCups
 	ld a, [wBattleType]
 	cp BATTLETYPE_SHINY
 	jp z, .fail
@@ -6271,6 +6304,16 @@ BattleCommand_HeldFlinch:
 BattleCommand_OHKO:
 ; ohko
 
+	call CheckNeutralGas
+	jr z, .SkipSturdy
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipSturdy
+	call GetTargetAbility
+	cp STURDY
+	jr z, .no_effect
+
+.SkipSturdy
 	call ResetDamage
 	ld a, [wTypeModifier]
 	and $7f
