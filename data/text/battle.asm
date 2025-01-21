@@ -407,6 +407,24 @@ IronBarbsText:
 	text "!"
 	prompt
 
+JustifiedText:
+	text "<TARGET>'s"
+	line "Justified raised"
+	cont "its Attack stat!"
+	prompt
+
+ArenaTrapText:
+	text "<TARGET>'s"
+	line "Arena Trap"
+	cont "prevents esacape!"
+	prompt
+
+MagnetPullText:
+	text "<TARGET>'s"
+	line "Magnet Pull"
+	cont "prevents esacape!"
+	prompt
+
 SturdyText:
 	text "<TARGET>"
 	line "hung on with"
@@ -415,7 +433,7 @@ SturdyText:
 
 UnburdenText:
 	text "<TARGET>'s"
-	line "Unburden sharply"
+	line "Unburden greatly"
 	cont "raised Speed!"
 	prompt
 
@@ -443,10 +461,55 @@ BattleText_Damp:
 	cont "attack!"
 	prompt
 
-BattleText_WaterAbsorb:
+WaterAbsorbText:
 	text "<TARGET>"
 	line "healed itself with"
-	cont "Water Absorb!"
+	cont "@"
+	text_ram wStringBuffer1
+	text "!"
+	prompt
+
+FlashFireText:
+	text "<TARGET>'s"
+	line "Attack raised with"
+	cont "Flash Fire!"
+	prompt
+
+WaterCompactionText:
+	text "<TARGET>'s"
+	line "Defense raised"
+	cont "sharply with"
+	cont "Water Compaction!"
+	prompt
+
+SapSipperText:
+	text "<TARGET>'s"
+	line "Attack raised with"
+	cont "Sap Sipper!"
+	prompt
+
+SoundproofText:
+	text "<TARGET>'s"
+	line "Soundproof"
+	cont "protected it!"
+	prompt
+
+LevitateText:
+	text "<TARGET>'s"
+	line "Levitate makes"
+	cont "Ground moves miss!"
+	prompt
+
+LightningRodText:
+	text "<TARGET>'s"
+	line "Sp.Atk raised with"
+	cont "Lightning Rod!"
+	prompt
+
+MotorDriveText:
+	text "<TARGET>'s"
+	line "Speed raised with"
+	cont "Motor Drive!"
 	prompt
 
 HydrationText:

@@ -196,6 +196,7 @@ ENDM
 	command gyroball
 	command skillswap
 	command sheerforce
+	command defensiveabilities
 ;	command wakeupslap
 ;	command awakenopponent
 

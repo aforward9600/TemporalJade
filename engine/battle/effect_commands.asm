@@ -1449,18 +1449,17 @@ BattleCommand_Stab:
 	; foresight
 	cp -2
 	jr nz, .SkipForesightCheck
+	call CheckNeutralGas
+	jr z, .DoForesightCheck
+	call GetUserAbility
+	cp SCRAPPY
+	jr z, .end
+.DoForesightCheck
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVar
 	bit SUBSTATUS_IDENTIFIED, a
 	jr nz, .end
 
-	call CheckNeutralGas
-	jr z, .SkipScrappy
-	call GetUserAbility
-	cp SCRAPPY
-	jr z, .end
-
-.SkipScrappy
 	jr .TypesLoop
 
 .SkipForesightCheck:
@@ -1579,6 +1578,12 @@ CheckTypeMatchup:
 	jr z, .End
 	cp -2
 	jr nz, .Next
+	call CheckNeutralGas
+	jr z, .SkipScrappy
+	call GetUserAbility
+	cp SCRAPPY
+	jr z, .End
+.SkipScrappy:
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVar
 	bit SUBSTATUS_IDENTIFIED, a
@@ -6178,6 +6183,10 @@ BattleCommand_FakeOut:
 	call AnimateFailedMove
 	call PrintButItFailed
 	jp EndMoveEffect
+
+BattleCommand_DefensiveAbilities:
+	farcall CheckDefensiveAbilities
+	ret
 
 BattleCommand_FlinchTarget:
 	call CheckNeutralGas

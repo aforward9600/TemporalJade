@@ -134,3 +134,4 @@ AbilityNames::
 	db "Gooey@"
 	db "Perish Body@"
 	db "Slush Rush@"
+	db "Water Compaction@"

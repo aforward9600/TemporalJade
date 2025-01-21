@@ -134,6 +134,7 @@ AbilityDescriptions:
 	dw GooeyDesc
 	dw PerishBodyDesc
 	dw SlushRushDesc
+	dw WaterCompactionDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -666,3 +667,7 @@ PerishBodyDesc:
 SlushRushDesc:
 	db    "Raises Speed in"
 	next1 "Hail.@"
+
+WaterCompactionDesc:
+	db    "Water moves raise"
+	next1 "Defense.@"

@@ -209,6 +209,7 @@ PlayerAbilityFirst:
 
 EnemyNeutralGas:
 	farcall BattleCommand_SwitchTurn
+	call MoveDelayAbility
 	ld hl, NeutralGasText
 	call StdBattleTextbox
 	farcall BattleCommand_SwitchTurn
@@ -265,6 +266,7 @@ EnemyTrace:
 	jr c, .EnemyTraceBlocked
 	ld a, [wPlayerAbility]
 	ld [wEnemyAbility], a
+	call MoveDelayAbility
 	ld hl, TraceText
 	call StdBattleTextbox
 	ld a, [wEnemyAbility]
@@ -283,6 +285,7 @@ PlayerTrace:
 	jr c, .PlayerTraceBlocked
 	ld a, [wEnemyAbility]
 	ld [wPlayerAbility], a
+	call MoveDelayAbility
 	ld hl, TraceText
 	call StdBattleTextbox
 	ld a, [wPlayerAbility]
@@ -335,10 +338,12 @@ NoTraceAbilities:
 	db -1
 
 MoldBreakerAbilityText:
+	call MoveDelayAbility
 	ld hl, BattleText_MoldBreaker
 	jp StdBattleTextbox
 
 PressureAbility:
+	call MoveDelayAbility
 	ld hl, PressureText
 	jp StdBattleTextbox
 
@@ -364,10 +369,12 @@ ScreenClean:
 	pop af
 	and 1 << SCREENS_LIGHT_SCREEN
 	ret z
+	call MoveDelayAbility
 	ld hl, ScreenCleanText
 	jp StdBattleTextbox
 
 UnnerveAbility:
+	call MoveDelayAbility
 	ld hl, UnnerveText
 	jp StdBattleTextbox
 
@@ -380,6 +387,7 @@ FriskAbility:
 	ld a, [hl]
 	ld [wNamedObjectIndexBuffer], a
 	call GetItemName
+	call MoveDelayAbility
 	ld hl, FriskText
 	jp StdBattleTextbox
 
@@ -390,6 +398,7 @@ EnemySlowStart:
 	ld a, 5
 	ld [wEnemySlowStartCount], a
 	farcall CalcEnemyStats
+	call MoveDelayAbility
 	ld hl, SlowStartText
 	jp StdBattleTextbox
 
@@ -400,10 +409,12 @@ PlayerSlowStart:
 	ld a, 5
 	ld [wPlayerSlowStartCount], a
 	farcall CalcPlayerStats
+	call MoveDelayAbility
 	ld hl, SlowStartText
 	jp StdBattleTextbox
 
 CloudNineAbility:
+	call MoveDelayAbility
 	ld hl, CloudNineText
 	jp StdBattleTextbox
 
@@ -414,7 +425,30 @@ RattledAbility:
 	ld a, [wAttackMissed]
 	and a
 	ret nz
+	call MoveDelayAbility
 	ld hl, RattledText
+	jp StdBattleTextbox
+
+JustifiedAbility:
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_AttackUp
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, JustifiedText
+	jp StdBattleTextbox
+
+WaterCompactionAbility:
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_DefenseUp2
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, WaterCompactionText
 	jp StdBattleTextbox
 
 SentOutAbility::
@@ -522,6 +556,10 @@ CheckContactAbilities:
 	jr z, .cursedbody
 	cp RATTLED
 	jr z, .rattled
+	cp JUSTIFIED
+	jp z, .justified
+	cp WATER_COMPACTION
+	jp z, .watercompaction
 .AfterCursedBody
 	ld a, BATTLE_VARS_LAST_MOVE
 	call GetBattleVar
@@ -586,9 +624,28 @@ CheckContactAbilities:
 	cp DARK
 	jr z, .ActivateRattle
 	cp GHOST
-	ret nz
+	jp nz, .AfterCursedBody
 .ActivateRattle
-	jp RattledAbility
+	call RattledAbility
+	jp .AfterCursedBody
+
+.justified:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp DARK
+	jp nz, .AfterCursedBody
+	call JustifiedAbility
+	jp .AfterCursedBody
+
+.watercompaction:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp WATER
+	jp nz, .AfterCursedBody
+	call WaterCompactionAbility
+	jp .AfterCursedBody
 
 .ContactAbilities:
 	dbw STATIC,       .Static
@@ -915,6 +972,7 @@ HandleEndMoveAbility::
 	call GetBattleVarAddr
 	ld a, [hl]
 	ld [hl], 0
+	call MoveDelayAbility
 	ld hl, HydrationText
 	jp StdBattleTextbox
 
@@ -935,6 +993,7 @@ HandleEndMoveAbility::
 	ret nz
 	farcall GetEighthMaxHP
 	farcall SubtractHPFromUser
+	call MoveDelayAbility
 	ld hl, DrySkinHurtText
 	jp StdBattleTextbox
 
@@ -960,6 +1019,7 @@ HandleEndMoveAbility::
 	ld a, [wAttackMissed]
 	and a
 	ret nz
+	call MoveDelayAbility
 	ld hl, SpeedBoostText
 	jp StdBattleTextbox
 
@@ -975,6 +1035,7 @@ HandleEndMoveAbility::
 	call GetBattleVarAddr
 	ld a, [hl]
 	ld [hl], 0
+	call MoveDelayAbility
 	ld hl, ShedSkinText
 	jp StdBattleTextbox
 
@@ -1031,7 +1092,40 @@ CheckFullHPAbilities:
 	farcall SwitchTurnCore
 	farcall RestoreHP
 	farcall SwitchTurnCore
+	call MoveDelayAbility
 	ld hl, RainDishText
+	jp StdBattleTextbox
+
+CheckFullHPDefenseAbilities:
+	ld hl, wEnemyMonHP
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .got_hp
+	ld hl, wBattleMonHP
+
+.got_hp
+; Don't restore if we're already at max HP
+	ld a, [hli]
+	ld b, a
+	ld a, [hli]
+	ld c, a
+	ld a, [hli]
+	cp b
+	jr nz, .restore
+	ld a, [hl]
+	cp c
+	jr z, .NoRestore
+
+.restore
+	farcall GetQuarterMaxHP
+	farcall RestoreHP
+	call MoveDelayAbility
+	ld hl, WaterAbsorbText
+	jp StdBattleTextbox
+
+.NoRestore
+	call MoveDelayAbility
+	ld hl, WaterAbsorbText
 	jp StdBattleTextbox
 
 CheckBoostingAbilities:
@@ -1047,6 +1141,8 @@ CheckBoostingAbilities:
 	jr z, .ThickFat
 	cp DRY_SKIN
 	jp z, .DrySkin
+	cp HEAT_PROOF
+	jp z, .HeatProof
 .AfterMarvelScale
 	call GetUserAbility
 	ld de, 3
@@ -1093,7 +1189,7 @@ CheckBoostingAbilities:
 .MarvelScale:
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
-	and 1 << SLP | 1 << PSN | 1 << BRN | 1 << FRZ | 1 << PAR
+	cp 0
 	ret z
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
@@ -1123,6 +1219,15 @@ CheckBoostingAbilities:
 	cp FIRE
 	jp nz, .AfterMarvelScale
 	call TwentyFivePercentBoost
+	jp .AfterMarvelScale
+
+.HeatProof:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp FIRE
+	jp nz, .AfterMarvelScale
+	call FiftyPercentNerf
 	jp .AfterMarvelScale
 
 .IronFist:
@@ -1611,3 +1716,204 @@ DoubleUserSpeed:
 	ldh a, [hQuotient + 3]
 	ld [hl], a
 	ret
+
+CheckDefensiveAbilities:
+	call CheckNeutralGas
+	ret z
+	call GetUserAbility
+	cp MOLD_BREAKER
+	ret z 
+	call GetTargetAbility
+	ld de, 3
+	ld hl, .DefensiveAbilities
+	call IsInArray
+	jp nc, .NoDefensiveAbilities
+	inc hl
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+
+.DefensiveAbilities:
+	dbw FLASH_FIRE,      .FlashFire
+	dbw WATER_ABSORB,    .WaterAbsorb
+	dbw LEVITATE,        .Levitate
+	dbw VOLT_ABSORB,     .VoltAbsorb
+	dbw DRY_SKIN,        .DrySkin
+	dbw EARTH_EATER,     .EarthEater
+	dbw SOUNDPROOF,      .Soundproof
+	dbw MOTOR_DRIVE,     .MotorDrive
+	dbw LIGHTNINGROD,    .Lightningrod
+	dbw SAP_SIPPER,      .SapSipper
+	db -1
+
+.FlashFire:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp FIRE
+	ret nz
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_AttackUp
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, FlashFireText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.Levitate:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp GROUND
+	ret nz
+	call MoveDelayAbility
+	ld hl, LevitateText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.SapSipper:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp GRASS
+	ret nz
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_AttackUp
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, SapSipperText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.Lightningrod:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp ELECTRIC
+	ret nz
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_SpecialAttackUp
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, LightningRodText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.MotorDrive:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp ELECTRIC
+	ret nz
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_SpeedUp
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, MotorDriveText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.Soundproof:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerSoundproof
+	ld a, [wCurEnemyMove]
+	jr .FinishSoundproof
+
+.PlayerSoundproof
+	ld a, [wCurPlayerMove]
+.FinishSoundproof
+	ld hl, SoundMoves
+	call CheckMoveInListAbilities
+	ret nc
+	call MoveDelayAbility
+	ld hl, SoundproofText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.DrySkin:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp WATER
+	ret nz
+	ld de, .DrySkinName
+	call .Copy
+	call CheckFullHPDefenseAbilities
+	farcall EndMoveEffect
+	ret
+
+.WaterAbsorb:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp WATER
+	ret nz
+	ld de, .WaterAbsorbName
+	call .Copy
+	call CheckFullHPDefenseAbilities
+	farcall EndMoveEffect
+	ret
+
+.VoltAbsorb:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp ELECTRIC
+	ret nz
+	ld de, .VoltAbsorbName
+	call .Copy
+	call CheckFullHPDefenseAbilities
+	farcall EndMoveEffect
+	ret
+
+.EarthEater:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp GROUND
+	ret nz
+	ld de, .EarthEaterName
+	call .Copy
+	call CheckFullHPDefenseAbilities
+	farcall EndMoveEffect
+.NoDefensiveAbilities:
+	ret
+
+.Copy
+	ld hl, wStringBuffer1
+	jp CopyName2
+
+.WaterAbsorbName:
+	db "Water Absorb@"
+.VoltAbsorbName:
+	db "Volt Absorb@"
+.EarthEaterName:
+	db "Earth Eater@"
+.DrySkinName:
+	db "Dry Skin@"
+
+MoveDelayAbility:
+; movedelay
+; Wait 40 frames.
+	ld c, 40
+	jp DelayFrames

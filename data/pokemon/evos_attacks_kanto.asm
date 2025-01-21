@@ -220,7 +220,7 @@ TepigEvosAttacks:
 	dbw 1, OCTAZOOKA
 	dbw 3, BULLDOZE
 	dbw 3, SLASH
-	dbw 3, CHARGE_BEAM
+	dbw 3, KARATE_CHOP
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE
@@ -280,7 +280,7 @@ MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
 	dbw 1, GROWL
-	dbw 1, ICE_SHARD
+	dbw 1, WATER_GUN
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT

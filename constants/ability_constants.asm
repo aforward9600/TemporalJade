@@ -1,139 +1,140 @@
 ; Ability constants (if abilities can be added)
 	const_def
 	const NO_ABILITY   ; 00
-	const OVERGROW     ; 01
-	const LONG_REACH   ; 02
-	const BLAZE        ; 03
-	const THICK_FAT    ; 04
-	const RECKLESS     ; 05
-	const TORRENT      ; 06
-	const DAMP         ; 07
-	const SWIFT_SWIM   ; 08
+	const OVERGROW     ; 01 x
+	const LONG_REACH   ; 02 x
+	const BLAZE        ; 03 x
+	const THICK_FAT    ; 04 x
+	const RECKLESS     ; 05 x
+	const TORRENT      ; 06 x
+	const DAMP         ; 07 x
+	const SWIFT_SWIM   ; 08 x
 	const KEEN_EYE     ; 09
 	const SKILL_LINK   ; 0a
-	const SHEER_FORCE  ; 0b
-	const VITAL_SPIRIT ; 0c
+	const SHEER_FORCE  ; 0b x
+	const VITAL_SPIRIT ; 0c x
 	const RUN_AWAY     ; 0d
-	const INTIMIDATE   ; 0e
-	const SCRAPPY      ; 0f
-	const LIMBER       ; 10
-	const UNBURDEN     ; 11
+	const INTIMIDATE   ; 0e x
+	const SCRAPPY      ; 0f x
+	const LIMBER       ; 10 x
+	const UNBURDEN     ; 11 x
 	const PRANKSTER    ; 12
-	const STURDY       ; 13
-	const WEAK_ARMOR   ; 14
-	const SAND_FORCE   ; 15
-	const SAND_RUSH    ; 16
+	const STURDY       ; 13 x
+	const WEAK_ARMOR   ; 14 x
+	const SAND_FORCE   ; 15 x
+	const SAND_RUSH    ; 16 x
 	const MOLD_BREAKER ; 17
-	const GUTS         ; 18
-	const IRON_FIST    ; 19
-	const SWARM        ; 1a
-	const CHLOROPHYLL  ; 1b
-	const OVERCOAT     ; 1c
-	const POISON_POINT ; 1d
-	const SPEED_BOOST  ; 1e
-	const INFILTRATOR  ; 1f
-	const TINTED_LENS  ; 20
-	const ADAPTABILITY ; 21
-	const ROCK_HEAD    ; 22
-	const RATTLED      ; 23
+	const GUTS         ; 18 x
+	const IRON_FIST    ; 19 x
+	const SWARM        ; 1a x
+	const CHLOROPHYLL  ; 1b x
+	const OVERCOAT     ; 1c x
+	const POISON_POINT ; 1d x
+	const SPEED_BOOST  ; 1e x
+	const INFILTRATOR  ; 1f x
+	const TINTED_LENS  ; 20 x
+	const ADAPTABILITY ; 21 x 
+	const ROCK_HEAD    ; 22 x
+	const RATTLED      ; 23 x
 	const MOXIE        ; 24
 	const WATER_ABSORB ; 25
-	const MUMMY        ; 26
-	const WANDERSPIRIT ; 27
-	const SOLID_ROCK   ; 28
+	const MUMMY        ; 26 x
+	const WANDERSPIRIT ; 27 x
+	const SOLID_ROCK   ; 28 x
 	const DEFEATIST    ; 29
-	const TRUANT       ; 2a
-	const SLOW_START   ; 2b
-	const CUTE_CHARM   ; 2c
-	const TECHNICIAN   ; 2d
-	const MAGIC_GUARD  ; 2e
+	const TRUANT       ; 2a x
+	const SLOW_START   ; 2b x
+	const CUTE_CHARM   ; 2c x
+	const TECHNICIAN   ; 2d x
+	const MAGIC_GUARD  ; 2e x
 	const REGENERATOR  ; 2f
 	const LEVITATE     ; 30
-	const ICE_BODY     ; 31
-	const SNOW_WARNING ; 32
-	const DRIZZLE      ; 33
-	const DROUGHT      ; 34
-	const SANDSTREAM   ; 35
-	const SHELL_ARMOR  ; 36
-	const NO_GUARD     ; 37
-	const EFFECT_SPORE ; 38
-	const CURSED_BODY  ; 39
-	const IRON_BARBS   ; 3a
+	const ICE_BODY     ; 31 x
+	const SNOW_WARNING ; 32 x
+	const DRIZZLE      ; 33 x
+	const DROUGHT      ; 34 x
+	const SANDSTREAM   ; 35 x
+	const SHELL_ARMOR  ; 36 x
+	const NO_GUARD     ; 37 x
+	const EFFECT_SPORE ; 38 x
+	const CURSED_BODY  ; 39 x
+	const IRON_BARBS   ; 3a x
 	const COMPOUNDEYES ; 3b
 	const CLEAR_BODY   ; 3c
 	const SYNCHRONIZE  ; 3d
-	const ANALYTIC     ; 3e
+	const ANALYTIC     ; 3e x
 	const FLASH_FIRE   ; 3f
-	const FLAME_BODY   ; 40
-	const RIVALRY      ; 41
-	const HYDRATION    ; 42
-	const STICKY_HOLD  ; 43
-	const STATIC       ; 44
-	const INNER_FOCUS  ; 45
+	const FLAME_BODY   ; 40 x
+	const RIVALRY      ; 41 x
+	const HYDRATION    ; 42 x
+	const STICKY_HOLD  ; 43 x
+	const STATIC       ; 44 x
+	const INNER_FOCUS  ; 45 x
 	const KLUTZ        ; 46
 	const PRESSURE     ; 47
 	const DEFIANT      ; 48
-	const HUSTLE       ; 49
+	const HUSTLE       ; 49 x
 	const JUSTIFIED    ; 4a
 	const VOLT_ABSORB  ; 4b
 	const MAGNET_PULL  ; 4c
-	const OBLIVIOUS    ; 4d
-	const OWN_TEMPO    ; 4e
+	const OBLIVIOUS    ; 4d x
+	const OWN_TEMPO    ; 4e x
 	const STEADFAST    ; 4f
-	const EARLY_BIRD   ; 50
+	const EARLY_BIRD   ; 50 x
 	const TANGLED_FEET ; 51
 	const GLUTTONY     ; 52
 	const ALCHEMY      ; 53
-	const POISON_TOUCH ; 54
+	const POISON_TOUCH ; 54 x
 	const HYPER_CUTTER ; 55
-	const INSOMNIA     ; 56
+	const INSOMNIA     ; 56 x
 	const SOUNDPROOF   ; 57
 	const LIGHTNINGROD ; 58
-	const BATTLE_ARMOR ; 59
-	const CLOUD_NINE   ; 5a
-	const NEUTRAL_GAS  ; 5b
-	const STENCH       ; 5c
-	const SERENE_GRACE ; 5d
+	const BATTLE_ARMOR ; 59 x
+	const CLOUD_NINE   ; 5a x
+	const NEUTRAL_GAS  ; 5b x
+	const STENCH       ; 5c x
+	const SERENE_GRACE ; 5d x
 	const NATURAL_CURE ; 5e
-	const SNIPER       ; 5f
-	const FILTER       ; 60
-	const SCREEN_CLEAN ; 61
-	const SHARPNESS    ; 62
+	const SNIPER       ; 5f x
+	const FILTER       ; 60 x
+	const SCREEN_CLEAN ; 61 x
+	const SHARPNESS    ; 62 x
 	const MOTOR_DRIVE  ; 63
 	const ANGER_POINT  ; 64
-	const QUICK_FEET   ; 65
+	const QUICK_FEET   ; 65 x
 	const SNOW_CLOAK   ; 66
 	const LEAF_GUARD   ; 67
-	const TRACE        ; 68
+	const TRACE        ; 68 x
 	const DOWNLOAD     ; 69
-	const SHED_SKIN    ; 6a
-	const RAIN_DISH    ; 6b
-	const MAGIC_BOUNCE ; 6c
+	const SHED_SKIN    ; 6a x
+	const RAIN_DISH    ; 6b x
+	const MAGIC_BOUNCE ; 6c x
 	const SUPER_LUCK   ; 6d
-	const UNNERVE      ; 6e
+	const UNNERVE      ; 6e x
 	const PICKUP       ; 6f
-	const PIXILATE     ; 70
+	const PIXILATE     ; 70 x
 	const SAP_SIPPER   ; 71
-	const HUGE_POWER   ; 72
+	const HUGE_POWER   ; 72 x
 	const SAND_VEIL    ; 73
-	const HEAT_PROOF   ; 74
-	const UNAWARE      ; 75
+	const HEAT_PROOF   ; 74 x
+	const UNAWARE      ; 75 x
 	const DRY_SKIN     ; 76
-	const SHIELD_DUST  ; 77
-	const FRISK        ; 78
-	const AFTERMATH    ; 79
-	const REFRIGERATE  ; 7a
-	const GALVANIZE    ; 7b
-	const IMMUNITY     ; 7c
+	const SHIELD_DUST  ; 77 x
+	const FRISK        ; 78 x
+	const AFTERMATH    ; 79 x
+	const REFRIGERATE  ; 7a x
+	const GALVANIZE    ; 7b x
+	const IMMUNITY     ; 7c x
 	const POISON_HEAL  ; 7d
-	const ROUGH_SKIN   ; 7e
-	const SUCTION_CUPS ; 7f
+	const ROUGH_SKIN   ; 7e x
+	const SUCTION_CUPS ; 7f x
 	const EARTH_EATER  ; 80
-	const MARVEL_SCALE ; 81
-	const WATER_VEIL   ; 82
+	const MARVEL_SCALE ; 81 x
+	const WATER_VEIL   ; 82 x
 	const DISGUISE     ; 83
-	const GOOEY        ; 84
-	const PERISH_BODY  ; 85
-	const SLUSH_RUSH   ; 86
+	const GOOEY        ; 84 x
+	const PERISH_BODY  ; 85 x
+	const SLUSH_RUSH   ; 86 x
+	const WATER_COMPACTION ; 87
 
 NUM_ABILITIES EQU const_value + -1
