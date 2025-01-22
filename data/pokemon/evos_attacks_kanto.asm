@@ -217,10 +217,10 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, OCTAZOOKA
+	dbw 1, FURY_SWIPES
 	dbw 3, BULLDOZE
 	dbw 3, SLASH
-	dbw 3, KARATE_CHOP
+	dbw 3, SOLARBEAM
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE

@@ -2360,8 +2360,8 @@ BattleCommand_ApplyDamage:
 	farcall BattleCommand_FalseSwipe
 	ld b, 0
 	jr nc, .damage
-	ld hl, SturdyText
-	call StdBattleTextbox
+	ld de, .SturdyBuffer
+	call .Copy
 	ld b, 2
 	jr .damage
 .SkipSturdy
@@ -2463,6 +2463,13 @@ BattleCommand_ApplyDamage:
 	inc de
 	ld [de], a
 	ret
+
+.Copy
+	ld hl, wStringBuffer1
+	jp CopyName2
+
+.SturdyBuffer:
+	db "Sturdy@"
 
 GetFailureResultText:
 	ld hl, DoesntAffectText
@@ -6101,6 +6108,14 @@ BattleCommand_EndLoop:
 	jr .done_loop
 
 .not_triple_kick
+	call CheckNeutralGas
+	jr z, .not_skill_link
+	call GetUserAbility
+	cp SKILL_LINK
+	jr nz, .not_skill_link
+	ld a, 4
+	jr .double_hit
+.not_skill_link
 	call BattleRandom
 	and $3
 	cp 2

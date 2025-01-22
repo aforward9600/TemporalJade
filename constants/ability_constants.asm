@@ -37,7 +37,7 @@
 	const ROCK_HEAD    ; 22 x
 	const RATTLED      ; 23 x
 	const MOXIE        ; 24
-	const WATER_ABSORB ; 25
+	const WATER_ABSORB ; 25 x
 	const MUMMY        ; 26 x
 	const WANDERSPIRIT ; 27 x
 	const SOLID_ROCK   ; 28 x
@@ -48,7 +48,7 @@
 	const TECHNICIAN   ; 2d x
 	const MAGIC_GUARD  ; 2e x
 	const REGENERATOR  ; 2f
-	const LEVITATE     ; 30
+	const LEVITATE     ; 30 x
 	const ICE_BODY     ; 31 x
 	const SNOW_WARNING ; 32 x
 	const DRIZZLE      ; 33 x
@@ -63,7 +63,7 @@
 	const CLEAR_BODY   ; 3c
 	const SYNCHRONIZE  ; 3d
 	const ANALYTIC     ; 3e x
-	const FLASH_FIRE   ; 3f
+	const FLASH_FIRE   ; 3f x
 	const FLAME_BODY   ; 40 x
 	const RIVALRY      ; 41 x
 	const HYDRATION    ; 42 x
@@ -74,8 +74,8 @@
 	const PRESSURE     ; 47
 	const DEFIANT      ; 48
 	const HUSTLE       ; 49 x
-	const JUSTIFIED    ; 4a
-	const VOLT_ABSORB  ; 4b
+	const JUSTIFIED    ; 4a x
+	const VOLT_ABSORB  ; 4b x
 	const MAGNET_PULL  ; 4c
 	const OBLIVIOUS    ; 4d x
 	const OWN_TEMPO    ; 4e x
@@ -87,8 +87,8 @@
 	const POISON_TOUCH ; 54 x
 	const HYPER_CUTTER ; 55
 	const INSOMNIA     ; 56 x
-	const SOUNDPROOF   ; 57
-	const LIGHTNINGROD ; 58
+	const SOUNDPROOF   ; 57 x
+	const LIGHTNINGROD ; 58 x
 	const BATTLE_ARMOR ; 59 x
 	const CLOUD_NINE   ; 5a x
 	const NEUTRAL_GAS  ; 5b x
@@ -99,7 +99,7 @@
 	const FILTER       ; 60 x
 	const SCREEN_CLEAN ; 61 x
 	const SHARPNESS    ; 62 x
-	const MOTOR_DRIVE  ; 63
+	const MOTOR_DRIVE  ; 63 x
 	const ANGER_POINT  ; 64
 	const QUICK_FEET   ; 65 x
 	const SNOW_CLOAK   ; 66
@@ -113,12 +113,12 @@
 	const UNNERVE      ; 6e x
 	const PICKUP       ; 6f
 	const PIXILATE     ; 70 x
-	const SAP_SIPPER   ; 71
+	const SAP_SIPPER   ; 71 x
 	const HUGE_POWER   ; 72 x
 	const SAND_VEIL    ; 73
 	const HEAT_PROOF   ; 74 x
 	const UNAWARE      ; 75 x
-	const DRY_SKIN     ; 76
+	const DRY_SKIN     ; 76 x
 	const SHIELD_DUST  ; 77 x
 	const FRISK        ; 78 x
 	const AFTERMATH    ; 79 x
@@ -128,7 +128,7 @@
 	const POISON_HEAL  ; 7d
 	const ROUGH_SKIN   ; 7e x
 	const SUCTION_CUPS ; 7f x
-	const EARTH_EATER  ; 80
+	const EARTH_EATER  ; 80 x
 	const MARVEL_SCALE ; 81 x
 	const WATER_VEIL   ; 82 x
 	const DISGUISE     ; 83
