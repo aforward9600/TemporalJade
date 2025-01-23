@@ -230,9 +230,10 @@ EnemyIntimidate:
 	call StdBattleTextbox
 	call GetTargetAbility
 	cp RATTLED
+	jp z, RattledAbility
+	cp DEFIANT
 	ret nz
-	call RattledAbility
-	ret
+	jp DefiantAbility
 
 .EnemyIntimidateBlocked:
 	ld hl, BattleText_AttackNotLowered
@@ -250,8 +251,10 @@ PlayerIntimidate:
 	call StdBattleTextbox
 	call GetTargetAbility
 	cp RATTLED
+	jp z, RattledAbility
+	cp DEFIANT
 	ret nz
-	jp RattledAbility
+	jp DefiantAbility
 
 .PlayerIntimidateBlocked:
 	ld hl, BattleText_AttackNotLowered
@@ -438,6 +441,26 @@ JustifiedAbility:
 	ret nz
 	call MoveDelayAbility
 	ld hl, JustifiedText
+	jp StdBattleTextbox
+
+DefiantAbility:
+	farcall BattleCommand_SwitchTurn
+	farcall BattleCommand_AttackUp2
+	farcall BattleCommand_SwitchTurn
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, DefiantText
+	jp StdBattleTextbox
+
+DefiantUserAbility:
+	farcall BattleCommand_AttackUp2
+	ld a, [wAttackMissed]
+	and a
+	ret nz
+	call MoveDelayAbility
+	ld hl, DefiantUserText
 	jp StdBattleTextbox
 
 WaterCompactionAbility:
@@ -830,7 +853,11 @@ CheckContactAbilities:
 	farcall BattleCommand_SpeedDown
 	farcall BattleCommand_SwitchTurn
 	ld hl, GooeyText
-	jp StdBattleTextbox
+	call StdBattleTextbox
+	call GetUserAbility
+	cp DEFIANT
+	ret nz
+	jp DefiantUserAbility
 
 .Mummy:
 	call GetUserAbility

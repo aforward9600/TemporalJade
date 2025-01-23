@@ -10,10 +10,10 @@
 	const DAMP         ; 07 x
 	const SWIFT_SWIM   ; 08 x
 	const KEEN_EYE     ; 09
-	const SKILL_LINK   ; 0a
+	const SKILL_LINK   ; 0a x
 	const SHEER_FORCE  ; 0b x
 	const VITAL_SPIRIT ; 0c x
-	const RUN_AWAY     ; 0d
+	const RUN_AWAY     ; 0d x
 	const INTIMIDATE   ; 0e x
 	const SCRAPPY      ; 0f x
 	const LIMBER       ; 10 x
@@ -76,7 +76,7 @@
 	const HUSTLE       ; 49 x
 	const JUSTIFIED    ; 4a x
 	const VOLT_ABSORB  ; 4b x
-	const MAGNET_PULL  ; 4c
+	const MAGNET_PULL  ; 4c x
 	const OBLIVIOUS    ; 4d x
 	const OWN_TEMPO    ; 4e x
 	const STEADFAST    ; 4f
@@ -135,7 +135,7 @@
 	const GOOEY        ; 84 x
 	const PERISH_BODY  ; 85 x
 	const SLUSH_RUSH   ; 86 x
-	const WATER_COMPACTION ; 87
-	const ARENA_TRAP   ; 88
+	const WATER_COMPACTION ; 87 x
+	const ARENA_TRAP   ; 88 x
 
 NUM_ABILITIES EQU const_value + -1

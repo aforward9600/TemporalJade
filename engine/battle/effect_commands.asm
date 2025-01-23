@@ -5090,7 +5090,21 @@ BattleCommand_StatDownMessage:
 	inc b
 	call GetStatName
 	ld hl, .stat
-	jp BattleTextbox
+	call BattleTextbox
+	call CheckNeutralGas
+	ret z
+	call GetTargetAbility
+	cp DEFIANT
+	ret nz
+	ld b,b
+	ld a, BATTLE_VARS_LAST_MOVE_OPP
+	call GetBattleVar
+	ld b, a
+	ld hl, NoDefiantMoves
+	call CheckMoveInList
+	ret c
+	farcall DefiantAbility
+	ret
 
 .stat
 	text_far UnknownText_0x1c0ceb
@@ -5109,6 +5123,15 @@ BattleCommand_StatDownMessage:
 .fell
 	text_far UnknownText_0x1c0d06
 	text_end
+
+NoDefiantMoves:
+	dw CURSE
+	dw HEADLONGRUSH
+	dw CLOSE_COMBAT
+	dw HAMMER_ARM
+	dw SHELL_SMASH
+	dw SUPERPOWER
+	dw -1
 
 TryLowerStat:
 ; Lower stat c from stat struct hl (buffer de).

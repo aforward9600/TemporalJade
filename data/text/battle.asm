@@ -413,6 +413,18 @@ JustifiedText:
 	cont "its Attack stat!"
 	prompt
 
+DefiantText:
+	text "<TARGET>'s"
+	line "Defiant sharply"
+	cont "raised Attack!"
+	prompt
+
+DefiantUserText:
+	text "<USER>'s"
+	line "Defiant sharply"
+	cont "raised Attack!"
+	prompt
+
 ArenaTrapText:
 	text "<TARGET>'s"
 	line "Arena Trap"

@@ -218,8 +218,8 @@ TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
 	dbw 1, FURY_SWIPES
-	dbw 3, BULLDOZE
-	dbw 3, SLASH
+	dbw 3, HAMMER_ARM
+	dbw 3, CURSE
 	dbw 3, SOLARBEAM
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
@@ -280,7 +280,7 @@ MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
 	dbw 1, GROWL
-	dbw 1, WATER_GUN
+;	dbw 1, WATER_GUN
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT
