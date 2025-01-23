@@ -135,6 +135,7 @@ AbilityDescriptions:
 	dw PerishBodyDesc
 	dw SlushRushDesc
 	dw WaterCompactionDesc
+	dw ArenaTrapDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -441,8 +442,8 @@ VoltAbsorbDesc:
 	next1 "moves restore HP.@"
 
 MagnetPullDesc:
-	db    "Steel type #mon"
-	next1 "can't switch.@"
+	db    "Traps Steel type"
+	next1 "#mon.@"
 
 ObliviousDesc:
 	db    "Can't be"
@@ -671,3 +672,7 @@ SlushRushDesc:
 WaterCompactionDesc:
 	db    "Water moves raise"
 	next1 "Defense.@"
+
+ArenaTrapDesc:
+	db    "Prevents foes from"
+	next1 "fleeing.@"

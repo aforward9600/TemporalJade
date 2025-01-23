@@ -136,5 +136,6 @@
 	const PERISH_BODY  ; 85 x
 	const SLUSH_RUSH   ; 86 x
 	const WATER_COMPACTION ; 87
+	const ARENA_TRAP   ; 88
 
 NUM_ABILITIES EQU const_value + -1
