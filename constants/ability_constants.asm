@@ -71,7 +71,7 @@
 	const STATIC       ; 44 x
 	const INNER_FOCUS  ; 45 x
 	const KLUTZ        ; 46
-	const PRESSURE     ; 47
+	const PRESSURE     ; 47 x
 	const DEFIANT      ; 48 x
 	const HUSTLE       ; 49 x
 	const JUSTIFIED    ; 4a x

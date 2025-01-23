@@ -419,6 +419,12 @@ DefiantText:
 	cont "raised Attack!"
 	prompt
 
+SteadfastText:
+	text "<USER>'s"
+	line "Steadfast raised"
+	cont "its Speed!"
+	prompt
+
 DefiantUserText:
 	text "<USER>'s"
 	line "Defiant sharply"

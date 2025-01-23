@@ -217,8 +217,8 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, FURY_SWIPES
-	dbw 3, HAMMER_ARM
+	dbw 1, FAKE_OUT
+	dbw 3, HEADBUTT
 	dbw 3, CURSE
 	dbw 3, SOLARBEAM
 	dbw 7, EMBER

@@ -250,7 +250,16 @@ CheckPlayerTurn:
 	res SUBSTATUS_FLINCHED, [hl]
 	ld hl, FlinchedText
 	call StdBattleTextbox
+	call CheckNeutralGas
+	jr z, .SkipSteadfast
+	ld a, [wPlayerAbility]
+	cp STEADFAST
+	jr nz, .SkipSteadfast
+	call BattleCommand_SpeedUp
+	ld hl, SteadfastText
+	call StdBattleTextbox
 
+.SkipSteadfast
 	call CantMove
 	jp EndTurn
 
@@ -510,7 +519,16 @@ CheckEnemyTurn:
 	res SUBSTATUS_FLINCHED, [hl]
 	ld hl, FlinchedText
 	call StdBattleTextbox
+	call CheckNeutralGas
+	jr z, .SkipSteadfast
+	ld a, [wEnemyAbility]
+	cp STEADFAST
+	jr nz, .SkipSteadfast
+	call BattleCommand_SpeedUp
+	ld hl, SteadfastText
+	call StdBattleTextbox
 
+.SkipSteadfast
 	call CantMove
 	jp EndTurn
 
