@@ -3,10 +3,11 @@ BattleCommand_SheerForce:
 	ret z
 	call GetUserAbility
 	cp MOLD_BREAKER
-	ret z
+	jr z, .SkipShieldDust
 	call GetTargetAbility
 	cp SHIELD_DUST
 	jr z, .SkipSheerForceCheck
+.SkipShieldDust
 	call GetUserAbility
 	cp SHEER_FORCE
 	ret nz

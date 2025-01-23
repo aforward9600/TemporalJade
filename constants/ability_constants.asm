@@ -72,7 +72,7 @@
 	const INNER_FOCUS  ; 45 x
 	const KLUTZ        ; 46
 	const PRESSURE     ; 47
-	const DEFIANT      ; 48
+	const DEFIANT      ; 48 x
 	const HUSTLE       ; 49 x
 	const JUSTIFIED    ; 4a x
 	const VOLT_ABSORB  ; 4b x

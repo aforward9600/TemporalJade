@@ -2,6 +2,9 @@ BattleCommand_Attract:
 ; attract
 	call CheckNeutralGas
 	jr z, .SkipOblivious
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipOblivious
 	call GetTargetAbility
 	cp OBLIVIOUS
 	jr z, .oblivious

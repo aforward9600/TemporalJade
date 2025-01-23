@@ -1097,6 +1097,26 @@ BattleCommand_DoTurn:
 	ld a, [wCurEnemyMoveNum]
 
 .okay
+	push af
+	call CheckNeutralGas
+	jr z, .IgnorePressure
+	call GetTargetAbility
+	cp PRESSURE
+	jr nz, .IgnorePressure
+	pop af
+	ld c, a
+	ld b, 0
+	add hl, bc
+	ld a, [hl]
+	and PP_MASK
+	jr z, .out_of_pp
+	dec [hl]
+	dec [hl]
+	ld b, 0
+	ret
+
+.IgnorePressure
+	pop af
 	ld c, a
 	ld b, 0
 	add hl, bc
@@ -2860,6 +2880,8 @@ PlayerAttackDamage:
 	ld a, [wPlayerAbility]
 	cp UNAWARE
 	jr z, .PlayerUnawareAttack
+	cp MOLD_BREAKER
+	jr z, .SkipUnaware
 	ld a, [wEnemyAbility]
 	cp UNAWARE
 	jr nz, .SkipUnaware
@@ -3149,6 +3171,8 @@ EnemyAttackDamage:
 	ld a, [wEnemyAbility]
 	cp UNAWARE
 	jr z, .EnemyUnawareAttack
+	cp MOLD_BREAKER
+	jr z, .SkipUnaware
 	ld a, [wPlayerAbility]
 	cp UNAWARE
 	jr nz, .SkipUnaware
@@ -4382,8 +4406,10 @@ BattleCommand_BurnTarget:
 	ld [wNumHits], a
 	call CheckSubstituteOpp
 	ret nz
+	call CheckNeutralGas
+	jr z, .SkipWaterVeil
 	call GetUserAbility
-	cp NEUTRAL_GAS
+	cp MOLD_BREAKER
 	jr z, .SkipWaterVeil
 	call GetTargetAbility
 	cp WATER_VEIL
@@ -4611,8 +4637,10 @@ BattleCommand_Burn:
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .didnt_affect
+	call CheckNeutralGas
+	jr z, .SkipWaterVeil
 	call GetUserAbility
-	cp NEUTRAL_GAS
+	cp MOLD_BREAKER
 	jr z, .SkipWaterVeil
 	call GetTargetAbility
 	cp WATER_VEIL
