@@ -1617,13 +1617,13 @@ ApplySpeedAbilities::
 	and a
 	jr z, .enemy
 	ld a, [wBattleMonStatus]
-	and 1 << PAR
+	and 1 << PSN | 1 << BRN | 1 << PAR
 	ret z
 	jr FiftyPercentSpeedBoost
 
 .enemy:
 	ld a, [wEnemyMonStatus]
-	and 1 << PAR
+	and 1 << PSN | 1 << BRN | 1 << PAR
 	ret z
 	jr FiftyPercentSpeedBoost
 
@@ -1749,7 +1749,7 @@ CheckDefensiveAbilities:
 	ret z
 	call GetUserAbility
 	cp MOLD_BREAKER
-	ret z 
+	ret z
 	call GetTargetAbility
 	ld de, 3
 	ld hl, .DefensiveAbilities

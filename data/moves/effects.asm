@@ -379,6 +379,7 @@ AttackDown:
 	checkhit
 	magicbounce
 	defensiveabilities
+	statdropprevent
 	attackdown
 	lowersub
 	statdownanim
@@ -393,6 +394,7 @@ DefenseDown:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	defensedown
 	lowersub
 	statdownanim
@@ -407,6 +409,7 @@ SpeedDown:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	speeddown
 	lowersub
 	statdownanim
@@ -421,6 +424,7 @@ SpecialAttackDown:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	specialattackdown
 	lowersub
 	statdownanim
@@ -435,6 +439,7 @@ SpecialDefenseDown:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	defensiveabilities
 	specialdefensedown
 	lowersub
@@ -450,6 +455,7 @@ AccuracyDown:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	accuracydown
 	lowersub
 	statdownanim
@@ -464,6 +470,7 @@ EvasionDown:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	evasiondown
 	lowersub
 	statdownanim
@@ -478,6 +485,7 @@ AttackDown2:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	attackdown2
 	lowersub
 	statdownanim
@@ -493,6 +501,7 @@ DefenseDown2:
 	checkhit
 	magicbounce
 	defensiveabilities
+	statdropprevent
 	defensedown2
 	lowersub
 	statdownanim
@@ -507,6 +516,7 @@ SpeedDown2:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	speeddown2
 	lowersub
 	statdownanim
@@ -521,6 +531,7 @@ SpecialAttackDown2:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	specialattackdown2
 	lowersub
 	statdownanim
@@ -536,6 +547,7 @@ SpecialDefenseDown2:
 	checkhit
 	magicbounce
 	defensiveabilities
+	statdropprevent
 	specialdefensedown2
 	lowersub
 	statdownanim
@@ -550,6 +562,7 @@ AccuracyDown2:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	accuracydown2
 	lowersub
 	statdownanim
@@ -564,6 +577,7 @@ EvasionDown2:
 	doturn
 	checkhit
 	magicbounce
+	statdropprevent
 	evasiondown2
 	lowersub
 	statdownanim
@@ -593,6 +607,7 @@ AttackDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	attackdown
 	statdownmessage
 	endmove
@@ -619,6 +634,7 @@ DefenseDownHit:
 	buildopponentrage
 	sheerforce
 ;	effectchance ; bug: duplicate effectchance shouldn't be here
+	statdropprevent
 	defensedown
 	statdownmessage
 	endmove
@@ -644,6 +660,7 @@ SpeedDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	speeddown
 	statdownmessage
 	endmove
@@ -669,6 +686,7 @@ SpecialAttackDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	specialattackdown
 	statdownmessage
 	endmove
@@ -694,6 +712,7 @@ SpecialDefenseDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	specialdefensedown
 	statdownmessage
 	endmove
@@ -719,6 +738,7 @@ AccuracyDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	accuracydown
 	statdownmessage
 	endmove
@@ -744,6 +764,7 @@ EvasionDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	evasiondown
 	statdownmessage
 	endmove
@@ -2314,6 +2335,7 @@ AllDownHit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	allstatsdown
 	endmove
 
@@ -2520,6 +2542,7 @@ StrengthSap:
     checkhit
 	magicbounce
 	defensiveabilities
+	statdropprevent
     strengthsap
     endmove
 
@@ -2668,6 +2691,7 @@ SpecialDefenseDown2Hit:
 	checkfaint
 	buildopponentrage
 	sheerforce
+	statdropprevent
 	specialdefensedown2
 	statdownmessage
 	endmove

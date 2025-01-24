@@ -325,20 +325,20 @@ BattleText_AttackNotLowered:
 	cont "lowered!"
 	prompt
 
-BattleText_KeenEye:
+KeenEyeText:
 	text "<TARGET>'s"
 	line "Keen Eye prevented"
 	cont "an Accuracy drop!"
 	prompt
 
-BattleText_HyperCutter:
+HyperCutterText:
 	text "<TARGET>'s"
 	line "Hyper Cutter"
 	cont "prevented an"
 	cont "Attack drop!"
 	prompt
 
-BattleText_ClearBody:
+ClearBodyText:
 	text "<TARGET>'s"
 	line "Clear Body"
 	cont "prevented the"

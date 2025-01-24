@@ -761,6 +761,30 @@ BattleAnim_EnemyStatDown:
 	anim_call BattleAnim_ShowMon_1
 	anim_wait 1
 	anim_ret
+;	anim_1gfx ANIM_GFX_SPEED
+;	anim_wait 1
+;	anim_bgeffect ANIM_BG_16, $0, $1, $40
+;.loop
+;	anim_sound 0, 0, SFX_SWORDS_DANCE
+;	anim_obj ANIM_OBJ_47, 44, 108, $6
+;	anim_wait 2
+;	anim_obj ANIM_OBJ_47, 36, 108, $6
+;	anim_wait 2
+;	anim_obj ANIM_OBJ_47, 52, 108, $8
+;	anim_wait 2
+;	anim_obj ANIM_OBJ_47, 28, 108, $8
+;	anim_wait 2
+;	anim_obj ANIM_OBJ_47, 60, 108, $6
+;	anim_wait 2
+;	anim_obj ANIM_OBJ_47, 20, 108, $8
+;	anim_wait 2
+;	anim_obj ANIM_OBJ_47, 68, 108, $8
+;	anim_wait 2
+;	anim_loop 3, .loop
+;	anim_wait 8
+;	anim_incbgeffect ANIM_BG_16
+;	anim_call BattleAnim_ShowMon_0
+;	anim_ret
 
 BattleAnim_PlayerStatDown:
 	anim_call BattleAnim_UserObj_1Row
@@ -1497,6 +1521,7 @@ BattleAnim_RazorLeaf:
 BattleAnim_Solarbeam:
 	anim_if_param_equal $0, .FireSolarBeam
 	; charge turn
+.BattleAnim_SolarbeamCharge
 	anim_1gfx ANIM_GFX_CHARGE
 	anim_sound 0, 0, SFX_CHARGE
 	anim_obj ANIM_OBJ_3D, 48, 84, $0
@@ -6127,20 +6152,7 @@ BattleAnim_BulletSeed:
 BattleAnim_SolarBlade:
 	anim_if_param_equal $0, .FireSolarBlade
 	; charge turn
-	anim_1gfx ANIM_GFX_CHARGE
-	anim_sound 0, 0, SFX_CHARGE
-	anim_obj ANIM_OBJ_3D, 48, 84, $0
-	anim_obj ANIM_OBJ_3C, 48, 84, $0
-	anim_obj ANIM_OBJ_3C, 48, 84, $8
-	anim_obj ANIM_OBJ_3C, 48, 84, $10
-	anim_obj ANIM_OBJ_3C, 48, 84, $18
-	anim_obj ANIM_OBJ_3C, 48, 84, $20
-	anim_obj ANIM_OBJ_3C, 48, 84, $28
-	anim_obj ANIM_OBJ_3C, 48, 84, $30
-	anim_obj ANIM_OBJ_3C, 48, 84, $38
-	anim_wait 104
-	anim_bgeffect ANIM_BG_FLASH_WHITE, $0, $4, $2
-	anim_wait 64
+	anim_call BattleAnim_Solarbeam.BattleAnim_SolarbeamCharge
 	anim_ret
 
 .FireSolarBlade:
@@ -6184,30 +6196,7 @@ BattleAnim_AuraSphere:
 	anim_ret
 
 BattleAnim_Superpower:
-	anim_1gfx ANIM_GFX_SPEED
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_1A, $0, $1, $20
-	anim_bgeffect ANIM_BG_07, $0, $2, $0
-.loop
-	anim_sound 0, 0, SFX_SWORDS_DANCE
-	anim_obj ANIM_OBJ_47, 44, 108, $6
-	anim_wait 2
-	anim_obj ANIM_OBJ_47, 36, 108, $6
-	anim_wait 2
-	anim_obj ANIM_OBJ_47, 52, 108, $8
-	anim_wait 2
-	anim_obj ANIM_OBJ_47, 28, 108, $8
-	anim_wait 2
-	anim_obj ANIM_OBJ_47, 60, 108, $6
-	anim_wait 2
-	anim_obj ANIM_OBJ_47, 20, 108, $8
-	anim_wait 2
-	anim_obj ANIM_OBJ_47, 68, 108, $8
-	anim_wait 2
-	anim_loop 5, .loop
-	anim_wait 8
-	anim_incbgeffect ANIM_BG_1A
-	anim_call BattleAnim_ShowMon_0
+	anim_call BattleAnim_Endure
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $10

@@ -197,5 +197,6 @@ BattleCommandPointers:
 	effectfn BattleCommand_SkillSwap
 	effectfn BattleCommand_SheerForce
 	effectfn BattleCommand_DefensiveAbilities
+	effectfn BattleCommand_StatDropPrevent
 ;	effectfn BattleCommand_WakeUpSlap
 ;	effectfn BattleCommand_AwakenOpponent

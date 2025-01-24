@@ -197,6 +197,7 @@ ENDM
 	command skillswap
 	command sheerforce
 	command defensiveabilities
+	command statdropprevent
 ;	command wakeupslap
 ;	command awakenopponent
 

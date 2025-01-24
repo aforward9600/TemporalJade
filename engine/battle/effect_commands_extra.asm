@@ -393,3 +393,123 @@ PrintButItFailed2:
 ; 'but it failed!'
 	ld hl, ButItFailedText
 	jp StdBattleTextbox
+
+BattleCommand_StatDropPrevent:
+	call CheckNeutralGas
+	ret z
+	call GetUserAbility
+	cp MOLD_BREAKER
+	ret z
+	call GetTargetAbility
+	ld de, 3
+	ld hl, .StatDropAbilities
+	call IsInArray
+	jp nc, .NoStatDropAbilities
+	inc hl
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+
+.StatDropAbilities:
+	dbw HYPER_CUTTER,    .HyperCutter
+	dbw CLEAR_BODY,      .ClearBody
+	dbw KEEN_EYE,        .KeenEye
+	db -1
+
+.HyperCutter:
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_ATTACK_DOWN
+	jr z, .HyperCutterFinish
+	cp EFFECT_ATTACK_DOWN_2
+	jr z, .HyperCutterFinish
+	cp EFFECT_ATTACK_DOWN_HIT
+	ret nz
+	farcall EndMoveEffect
+	ret
+
+.HyperCutterFinish:
+	call MoveDelay2
+	ld hl, HyperCutterText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.KeenEye:
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_ACCURACY_DOWN
+	jr z, .KeenEyeFinish
+	cp EFFECT_ACCURACY_DOWN_HIT
+	ret nz
+	farcall EndMoveEffect
+	ret
+
+.KeenEyeFinish:
+	call MoveDelay2
+	ld hl, KeenEyeText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+	ret
+
+.ClearBody:
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_ATTACK_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_DEFENSE_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_SPEED_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_SP_ATK_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_SP_DEF_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_ACCURACY_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_EVASION_DOWN
+	jr z, .ClearBodyFinish
+	cp EFFECT_ATTACK_DOWN_2
+	jr z, .ClearBodyFinish
+	cp EFFECT_DEFENSE_DOWN_2
+	jr z, .ClearBodyFinish
+	cp EFFECT_SPEED_DOWN_2
+	jr z, .ClearBodyFinish
+	cp EFFECT_SP_DEF_DOWN_2
+	jr z, .ClearBodyFinish
+	cp EFFECT_EVASION_DOWN_2
+	jr z, .ClearBodyFinish
+	cp EFFECT_ATTACK_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_DEFENSE_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_SPEED_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_SP_ATK_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_SP_DEF_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_ACCURACY_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_EVASION_DOWN_HIT
+	jr z, .FinishClearBody
+	cp EFFECT_SP_DEF_DOWN_2_HIT
+	ret nz
+.FinishClearBody
+	farcall EndMoveEffect
+	ret
+
+.ClearBodyFinish
+	call MoveDelay2
+	ld hl, ClearBodyText
+	call StdBattleTextbox
+	farcall EndMoveEffect
+.NoStatDropAbilities
+	ret
+
+MoveDelay2:
+; movedelay
+; Wait 40 frames.
+	ld c, 40
+	jp DelayFrames
