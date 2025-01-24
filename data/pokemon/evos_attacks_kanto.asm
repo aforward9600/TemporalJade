@@ -217,7 +217,7 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, AURORA_BEAM
+	dbw 1, INFERNO
 	dbw 3, GROWL
 	dbw 3, CURSE
 	dbw 3, SOLARBEAM

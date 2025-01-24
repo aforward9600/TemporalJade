@@ -1786,36 +1786,8 @@ BattleCommand_CheckHit:
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
-	jr .skip_brightpowder
-
-.HustleLoss:
-	pop af
-	ld a, 50
-	ldh [hMultiplier], a
-	call Multiply
-	ld a, c ; % miss
-	add 100
-	ldh [hDivisor], a
-	ld b, 4
-	call Divide
-	jr .AfterHustleLoss
 
 .skip_brightpowder
-	push af
-	call CheckNeutralGas
-	jr z, .SkipHustle
-	call GetUserAbility
-	cp HUSTLE
-	jr nz, .SkipHustle
-	ld a, BATTLE_VARS_MOVE_EFFECT
-	call GetBattleVar
-	cp EFFECT_OHKO
-	jr z, .SkipHustle
-	farcall HustleCheck
-	jr c, .HustleLoss
-.SkipHustle
-	pop af
-.AfterHustleLoss
 	ldh a, [hMultiplicand + 0]
 	ld b, a
 	ldh a, [hMultiplicand +1]
@@ -2036,8 +2008,25 @@ BattleCommand_CheckHit:
 
 .accuracy_loop
 	; look up the multiplier from the table
+	push af
+	call CheckNeutralGas
+	jr z, .SkipHustle
+	call GetUserAbility
+	cp COMPOUNDEYES
+	jr z, .CompoundEyes
+	cp HUSTLE
+	jr nz, .SkipHustle
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_OHKO
+	jr z, .SkipHustle
+	farcall HustleCheck
+	jr c, .HustleLoss
+.SkipHustle
+	pop af
 	push bc
 	ld hl, AccuracyLevelMultipliers
+.AfterHustleLoss
 	dec b
 	sla b
 	ld c, b
@@ -2080,6 +2069,18 @@ BattleCommand_CheckHit:
 	pop hl
 	ld [hl], a
 	ret
+
+.HustleLoss
+	pop af
+	push bc
+	ld hl, AccuracyHustleLevelMultipliers
+	jr .AfterHustleLoss
+
+.CompoundEyes
+	pop af
+	push bc
+	ld hl, AccuracyCompoundEyesLevelMultipliers
+	jr .AfterHustleLoss
 
 BattleCommand_EffectChance:
 ; effectchance

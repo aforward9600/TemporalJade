@@ -9,7 +9,7 @@
 	const TORRENT      ; 06 x
 	const DAMP         ; 07 x
 	const SWIFT_SWIM   ; 08 x
-	const KEEN_EYE     ; 09
+	const KEEN_EYE     ; 09 x
 	const SKILL_LINK   ; 0a x
 	const SHEER_FORCE  ; 0b x
 	const VITAL_SPIRIT ; 0c x
@@ -60,7 +60,7 @@
 	const CURSED_BODY  ; 39 x
 	const IRON_BARBS   ; 3a x
 	const COMPOUNDEYES ; 3b
-	const CLEAR_BODY   ; 3c
+	const CLEAR_BODY   ; 3c x
 	const SYNCHRONIZE  ; 3d
 	const ANALYTIC     ; 3e x
 	const FLASH_FIRE   ; 3f x
@@ -79,13 +79,13 @@
 	const MAGNET_PULL  ; 4c x
 	const OBLIVIOUS    ; 4d x
 	const OWN_TEMPO    ; 4e x
-	const STEADFAST    ; 4f
+	const STEADFAST    ; 4f x
 	const EARLY_BIRD   ; 50 x
 	const TANGLED_FEET ; 51
 	const GLUTTONY     ; 52
 	const ALCHEMY      ; 53
 	const POISON_TOUCH ; 54 x
-	const HYPER_CUTTER ; 55
+	const HYPER_CUTTER ; 55 x
 	const INSOMNIA     ; 56 x
 	const SOUNDPROOF   ; 57 x
 	const LIGHTNINGROD ; 58 x
