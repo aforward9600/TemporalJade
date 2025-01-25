@@ -103,7 +103,7 @@
 	const ANGER_POINT  ; 64
 	const QUICK_FEET   ; 65 x
 	const SNOW_CLOAK   ; 66 x
-	const LEAF_GUARD   ; 67
+	const LEAF_GUARD   ; 67 x
 	const TRACE        ; 68 x
 	const DOWNLOAD     ; 69
 	const SHED_SKIN    ; 6a x
@@ -137,5 +137,6 @@
 	const SLUSH_RUSH   ; 86 x
 	const WATER_COMPACTION ; 87 x
 	const ARENA_TRAP   ; 88 x
+	const SUPERSWEET_SYRUP ; 89
 
 NUM_ABILITIES EQU const_value + -1

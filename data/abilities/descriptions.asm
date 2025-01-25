@@ -136,6 +136,7 @@ AbilityDescriptions:
 	dw SlushRushDesc
 	dw WaterCompactionDesc
 	dw ArenaTrapDesc
+	dw SupersweetSyrup
 
 NoAbilityDesc:
 	db    "No ability."
@@ -550,8 +551,8 @@ TraceDesc:
 	next1 "ability.@"
 
 DownloadDesc:
-	db    "Adjusts power"
-	next1 "according to foe.@"
+	db    "Raises Special"
+	next1 "Attack.@"
 
 ShedSkinDesc:
 	db    "Status conditions"
@@ -676,3 +677,7 @@ WaterCompactionDesc:
 ArenaTrapDesc:
 	db    "Prevents foes from"
 	next1 "fleeing.@"
+
+SupersweetSyrup:
+	db    "Lowers the foe's"
+	next1 "Evasion.@"

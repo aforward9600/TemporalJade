@@ -58,19 +58,21 @@ EnemyAbilityFirst:
 	jp hl
 
 .FirstAbilities:
-	dbw INTIMIDATE,   .EnemyIntimidate
-	dbw TRACE,        .EnemyTrace
-	dbw MOLD_BREAKER, .EnemyMoldBreaker
-	dbw PRESSURE,     .EnemyPressure
-	dbw SCREEN_CLEAN, .EnemyScreenClean
-	dbw FRISK,        .EnemyFrisk
-	dbw UNNERVE,      .EnemyUnnerve
-	dbw SLOW_START,   .EnemySlowStart
-	dbw CLOUD_NINE,   .EnemyCloudNine
-	dbw DROUGHT,      .EnemyDrought
-	dbw SNOW_WARNING, .EnemySnowWarning
-	dbw DRIZZLE,      .EnemyDrizzle
-	dbw SANDSTREAM,   .EnemySandstream
+	dbw INTIMIDATE,       .EnemyIntimidate
+	dbw TRACE,            .EnemyTrace
+	dbw MOLD_BREAKER,     .EnemyMoldBreaker
+	dbw PRESSURE,         .EnemyPressure
+	dbw SCREEN_CLEAN,     .EnemyScreenClean
+	dbw FRISK,            .EnemyFrisk
+	dbw UNNERVE,          .EnemyUnnerve
+	dbw SLOW_START,       .EnemySlowStart
+	dbw CLOUD_NINE,       .EnemyCloudNine
+	dbw DROUGHT,          .EnemyDrought
+	dbw SNOW_WARNING,     .EnemySnowWarning
+	dbw DRIZZLE,          .EnemyDrizzle
+	dbw SANDSTREAM,       .EnemySandstream
+	dbw SUPERSWEET_SYRUP, .EnemySupersweetSyrup
+	dbw DOWNLOAD,         .EnemyDownload
 	db -1
 
 .EnemyIntimidate:
@@ -134,7 +136,18 @@ EnemyAbilityFirst:
 	jp DrizzleScript
 
 .EnemySandstream:
-	call SandstreamScript
+	jp SandstreamScript
+
+.EnemyDownload:
+	farcall BattleCommand_SwitchTurn
+	call DownloadAbility
+	farcall BattleCommand_SwitchTurn
+	ret
+
+.EnemySupersweetSyrup:
+	farcall BattleCommand_SwitchTurn
+	call EnemySupersweetSyrup
+	farcall BattleCommand_SwitchTurn
 .NoFirstAbility:
 	ret
 
@@ -151,19 +164,21 @@ PlayerAbilityFirst:
 	jp hl
 
 .FirstAbilities:
-	dbw INTIMIDATE,   .PlayerIntimidate
-	dbw TRACE,        .PlayerTrace
-	dbw MOLD_BREAKER, .PlayerMoldBreaker
-	dbw PRESSURE,     .PlayerPressure
-	dbw SCREEN_CLEAN, .PlayerScreenClean
-	dbw FRISK,        .PlayerFrisk
-	dbw UNNERVE,      .PlayerUnnerve
-	dbw SLOW_START,   .PlayerSlowStart
-	dbw CLOUD_NINE,   .PlayerCloudNine
-	dbw DROUGHT,      .PlayerDrought
-	dbw SNOW_WARNING, .PlayerSnowWarning
-	dbw DRIZZLE,      .PlayerDrizzle
-	dbw SANDSTREAM,   .PlayerSandstream
+	dbw INTIMIDATE,       .PlayerIntimidate
+	dbw TRACE,            .PlayerTrace
+	dbw MOLD_BREAKER,     .PlayerMoldBreaker
+	dbw PRESSURE,         .PlayerPressure
+	dbw SCREEN_CLEAN,     .PlayerScreenClean
+	dbw FRISK,            .PlayerFrisk
+	dbw UNNERVE,          .PlayerUnnerve
+	dbw SLOW_START,       .PlayerSlowStart
+	dbw CLOUD_NINE,       .PlayerCloudNine
+	dbw DROUGHT,          .PlayerDrought
+	dbw SNOW_WARNING,     .PlayerSnowWarning
+	dbw DRIZZLE,          .PlayerDrizzle
+	dbw SANDSTREAM,       .PlayerSandstream
+	dbw SUPERSWEET_SYRUP, .PlayerSupersweetSyrup
+	dbw DOWNLOAD,         .PlayerDownload
 	db -1
 
 .PlayerIntimidate:
@@ -203,7 +218,13 @@ PlayerAbilityFirst:
 	jp DrizzleScript
 
 .PlayerSandstream:
-	call SandstreamScript
+	jp SandstreamScript
+
+.PlayerSupersweetSyrup:
+	jp PlayerSupersweetSyrup
+
+.PlayerDownload
+	call DownloadAbility
 .NoPlayerFirstAbility:
 	ret
 
@@ -240,6 +261,43 @@ EnemyIntimidate:
 	call StdBattleTextbox
 	ret
 
+EnemySupersweetSyrup:
+	ld a, [wPlayerAbility]
+	cp CLEAR_BODY
+	jr z, .ClearBody
+	farcall BattleCommand_EvasionDown
+	ld hl, SupersweetSyrupText
+	call StdBattleTextbox
+	call GetTargetAbility
+	cp DEFIANT
+	ret nz
+	jp DefiantAbility
+
+.ClearBody:
+	ld hl, ClearBodyText
+	jp StdBattleTextbox
+
+PlayerSupersweetSyrup:
+	ld a, [wEnemyAbility]
+	cp CLEAR_BODY
+	jr z, .ClearBody
+	farcall BattleCommand_EvasionDown
+	ld hl, SupersweetSyrupText
+	call StdBattleTextbox
+	call GetTargetAbility
+	cp DEFIANT
+	ret nz
+	jp DefiantAbility
+
+.ClearBody:
+	ld hl, ClearBodyText
+	jp StdBattleTextbox
+
+DownloadAbility:
+	farcall BattleCommand_SpecialAttackUp
+	ld hl, DownloadText
+	jp StdBattleTextbox
+
 PlayerIntimidate:
 	ld a, [wEnemyAbility]
 	ld hl, NoIntimidateAbilities
@@ -258,8 +316,7 @@ PlayerIntimidate:
 
 .PlayerIntimidateBlocked:
 	ld hl, BattleText_AttackNotLowered
-	call StdBattleTextbox
-	ret
+	jp StdBattleTextbox
 
 EnemyTrace:
 	ld a, [wPlayerAbility]
@@ -497,19 +554,20 @@ SentOutAbility::
 	jp hl
 
 .EitherFirstAbilities:
-	dbw INTIMIDATE,   .EitherIntimidate
-	dbw TRACE,        .EitherTrace
-	dbw MOLD_BREAKER, .EitherMoldBreaker
-	dbw PRESSURE,     .EitherPressure
-	dbw SCREEN_CLEAN, .EitherScreenClean
-	dbw FRISK,        .EitherFrisk
-	dbw UNNERVE,      .EitherUnnerve
-	dbw SLOW_START,   .EitherSlowStart
-	dbw CLOUD_NINE,   .EitherCloudNine
-	dbw DROUGHT,      .EitherDrought
-	dbw SNOW_WARNING, .EitherSnowWarning
-	dbw DRIZZLE,      .EitherDrizzle
-	dbw SANDSTREAM,   .EitherSandstream
+	dbw INTIMIDATE,       .EitherIntimidate
+	dbw TRACE,            .EitherTrace
+	dbw MOLD_BREAKER,     .EitherMoldBreaker
+	dbw PRESSURE,         .EitherPressure
+	dbw SCREEN_CLEAN,     .EitherScreenClean
+	dbw FRISK,            .EitherFrisk
+	dbw UNNERVE,          .EitherUnnerve
+	dbw SLOW_START,       .EitherSlowStart
+	dbw CLOUD_NINE,       .EitherCloudNine
+	dbw DROUGHT,          .EitherDrought
+	dbw SNOW_WARNING,     .EitherSnowWarning
+	dbw DRIZZLE,          .EitherDrizzle
+	dbw SANDSTREAM,       .EitherSandstream
+	dbw SUPERSWEET_SYRUP, .EitherSupersweetSyrup
 	db -1
 
 .EitherIntimidate:
@@ -520,6 +578,18 @@ SentOutAbility::
 
 .PlayerIntimidate:
 	jp PlayerIntimidate
+
+.EitherSupersweetSyrup:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .PlayerSupersweetSyrup
+	jp EnemySupersweetSyrup
+
+.PlayerSupersweetSyrup:
+	jp PlayerSupersweetSyrup
+
+.EitherDownload:
+	jp DownloadAbility
 
 .EitherTrace:
 	ldh a, [hBattleTurn]

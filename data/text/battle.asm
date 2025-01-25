@@ -351,6 +351,18 @@ ClearBodyText:
 	cont "stat drop!"
 	prompt
 
+DownloadText:
+	text "<USER>'s"
+	line "Download raised"
+	cont "its Sp.Attack!"
+	prompt
+
+SupersweetSyrupText:
+	text "<USER>'s"
+	line "Supersweet Syrup"
+	cont "lowered Evasion!"
+	prompt
+
 BattleText_MoldBreaker:
 	text "<USER> is"
 	line "breaking the"
