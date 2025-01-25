@@ -59,7 +59,7 @@
 	const EFFECT_SPORE ; 38 x
 	const CURSED_BODY  ; 39 x
 	const IRON_BARBS   ; 3a x
-	const COMPOUNDEYES ; 3b
+	const COMPOUNDEYES ; 3b x
 	const CLEAR_BODY   ; 3c x
 	const SYNCHRONIZE  ; 3d
 	const ANALYTIC     ; 3e x
@@ -81,7 +81,7 @@
 	const OWN_TEMPO    ; 4e x
 	const STEADFAST    ; 4f x
 	const EARLY_BIRD   ; 50 x
-	const TANGLED_FEET ; 51
+	const TANGLED_FEET ; 51 x
 	const GLUTTONY     ; 52
 	const ALCHEMY      ; 53
 	const POISON_TOUCH ; 54 x
@@ -102,7 +102,7 @@
 	const MOTOR_DRIVE  ; 63 x
 	const ANGER_POINT  ; 64
 	const QUICK_FEET   ; 65 x
-	const SNOW_CLOAK   ; 66
+	const SNOW_CLOAK   ; 66 x
 	const LEAF_GUARD   ; 67
 	const TRACE        ; 68 x
 	const DOWNLOAD     ; 69

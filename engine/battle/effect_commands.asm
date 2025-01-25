@@ -1366,9 +1366,19 @@ BattleCommand_Critical:
 	ld a, b
 	cp HELD_CRITICAL_UP ; Increased critical chance. Only Scope Lens has this.
 	pop bc
-	jr nz, .Tally
+	jr nz, .CheckSuperLuck
 
 ; +1 critical level
+	inc c
+
+.CheckSuperLuck
+	call CheckNeutralGas
+	jr z, .Tally
+	call GetUserAbility
+	cp SUPER_LUCK
+	jr nz, .Tally
+
+	ld b,b
 	inc c
 
 .Tally:
