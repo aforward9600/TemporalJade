@@ -218,9 +218,9 @@ TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 3, SANDSTORM
-	dbw 3, HAIL
-	dbw 3, THUNDER
+	dbw 3, SUNNY_DAY
+	dbw 3, SPORE
+	dbw 3, CONVERSION
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE

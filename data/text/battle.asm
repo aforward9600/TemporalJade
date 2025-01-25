@@ -338,6 +338,12 @@ HyperCutterText:
 	cont "Attack drop!"
 	prompt
 
+LeafGuardText:
+	text "<TARGET>"
+	line "protected itself"
+	cont "with Leaf Guard!"
+	prompt
+
 ClearBodyText:
 	text "<TARGET>'s"
 	line "Clear Body"

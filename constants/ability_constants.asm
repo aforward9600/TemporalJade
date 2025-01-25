@@ -109,13 +109,13 @@
 	const SHED_SKIN    ; 6a x
 	const RAIN_DISH    ; 6b x
 	const MAGIC_BOUNCE ; 6c x
-	const SUPER_LUCK   ; 6d
+	const SUPER_LUCK   ; 6d x
 	const UNNERVE      ; 6e x
 	const PICKUP       ; 6f
 	const PIXILATE     ; 70 x
 	const SAP_SIPPER   ; 71 x
 	const HUGE_POWER   ; 72 x
-	const SAND_VEIL    ; 73
+	const SAND_VEIL    ; 73 x
 	const HEAT_PROOF   ; 74 x
 	const UNAWARE      ; 75 x
 	const DRY_SKIN     ; 76 x

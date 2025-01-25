@@ -4229,12 +4229,28 @@ CheckForStatusIfAlreadyHasAny:
 BattleCommand_SleepTarget:
 ; sleeptarget
 
+	call CheckNeutralGas
+	jr z, .SkipVitalSpirit
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipVitalSpirit
 	call GetTargetAbility
 	cp VITAL_SPIRIT
 	jr z, .protected_by_ability
 	cp INSOMNIA
 	jr z, .protected_by_ability
+	cp LEAF_GUARD
+	jr nz, .SkipVitalSpirit
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	jr nz, .SkipVitalSpirit
+	ld hl, LeafGuardText
+	push hl
+	call AnimateFailedMove
+	pop hl
+	jp StdBattleTextbox
 
+.SkipVitalSpirit
 	call CheckForStatusIfAlreadyHasAny
 	jr nz, .fail
 
@@ -4287,9 +4303,20 @@ BattleCommand_PoisonTarget:
 
 	call CheckSubstituteOpp
 	ret nz
+	call CheckNeutralGas
+	jr z, .SkipImmunity
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipImmunity
 	call GetTargetAbility
 	cp IMMUNITY
 	ret z
+	cp LEAF_GUARD
+	jr nz, .SkipImmunity
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	ret z
+.SkipImmunity
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	and a
@@ -4331,10 +4358,21 @@ BattleCommand_Poison:
 	call CheckIfTargetIsPoisonType
 	jp z, .failed
 
+	call CheckNeutralGas
+	jr z, .SkipImmunity
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipImmunity
 	call GetTargetAbility
 	cp IMMUNITY
 	jr z, .Immune
+	cp LEAF_GUARD
+	jr nz, .SkipImmunity
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	jr z, .LeafGuard
 
+.SkipImmunity
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
 	ld b, a
@@ -4377,6 +4415,10 @@ BattleCommand_Poison:
 
 .Immune
 	ld hl, ImmuneText
+	jr .failed
+
+.LeafGuard
+	ld hl, LeafGuardText
 
 .failed
 	push hl
@@ -4544,6 +4586,11 @@ BattleCommand_BurnTarget:
 	call GetTargetAbility
 	cp WATER_VEIL
 	ret z
+	cp LEAF_GUARD
+	jr nz, .SkipWaterVeil
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	ret z
 .SkipWaterVeil
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
@@ -4630,9 +4677,12 @@ BattleCommand_FreezeTarget:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call CheckNeutralGas
+	jr z, .SkipInfiltrator
 	call GetUserAbility
 	cp INFILTRATOR
 	jr z, .SkipSafeguard
+.SkipInfiltrator
 	call SafeCheckSafeguard
 	ret nz
 .SkipSafeguard
@@ -4675,12 +4725,25 @@ BattleCommand_ParalyzeTarget:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
+	call CheckNeutralGas
+	jr z, .SkipLimber
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipLimber
 	call GetTargetAbility
 	cp LIMBER
 	ret z
+	cp LEAF_GUARD
+	jr nz, .SkipLimber
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	ret z
+.SkipLimber
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call CheckNeutralGas
+	ret z
 	call GetUserAbility
 	cp INFILTRATOR
 	jr z, .SkipSafeguard
@@ -4713,11 +4776,22 @@ BattleCommand_SleepHit:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
+	call CheckNeutralGas
+	jr z, .SkipVitalSpirit
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .SkipVitalSpirit
 	call GetTargetAbility
 	cp VITAL_SPIRIT
 	ret z
 	cp INSOMNIA
 	ret z
+	cp LEAF_GUARD
+	jr nz, .SkipVitalSpirit
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	ret z
+.SkipVitalSpirit
 	ld a, [wEffectFailed]
 	and a
 	ret nz
@@ -4775,6 +4849,11 @@ BattleCommand_Burn:
 	call GetTargetAbility
 	cp WATER_VEIL
 	jr z, .WaterVeil
+	cp LEAF_GUARD
+	jr nz, .SkipWaterVeil
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	jr z, .LeafGuard
 .SkipWaterVeil
 	call CheckMoveTypeMatchesTarget ; Don't burn a Fire-type
 	jr z, .didnt_affect
@@ -4816,6 +4895,11 @@ BattleCommand_Burn:
 .WaterVeil
 	call AnimateFailedMove
 	ld hl, WaterVeilText
+	jp StdBattleTextbox
+
+.LeafGuard
+	call AnimateFailedMove
+	ld hl, LeafGuardText
 	jp StdBattleTextbox
 
 BattleCommand_AttackUp:
@@ -6845,9 +6929,24 @@ BattleCommand_Paralyze:
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .didnt_affect
+	call CheckNeutralGas
+	jr z, .no_ability_protection
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .no_ability_protection
 	call GetTargetAbility
 	cp LIMBER
+	jr z, .limber
+	cp LEAF_GUARD
 	jr nz, .no_ability_protection
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	jr nz, .no_ability_protection
+	call AnimateFailedMove
+	ld hl, LeafGuardText
+	jp StdBattleTextbox
+
+.limber
 	call AnimateFailedMove
 	ld hl, LimberText
 	jp StdBattleTextbox
@@ -6934,8 +7033,6 @@ EndRechargeOpp:
 	ret
 
 INCLUDE "engine/battle/move_effects/disable.asm"
-
-INCLUDE "engine/battle/move_effects/conversion.asm"
 
 INCLUDE "engine/battle/move_effects/shell_smash.asm"
 
