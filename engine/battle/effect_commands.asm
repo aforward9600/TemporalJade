@@ -2008,25 +2008,25 @@ BattleCommand_CheckHit:
 
 .accuracy_loop
 	; look up the multiplier from the table
-	push af
-	call CheckNeutralGas
-	jr z, .SkipHustle
-	call GetUserAbility
-	cp COMPOUNDEYES
-	jr z, .CompoundEyes
-	cp HUSTLE
-	jr nz, .SkipHustle
-	ld a, BATTLE_VARS_MOVE_EFFECT
-	call GetBattleVar
-	cp EFFECT_OHKO
-	jr z, .SkipHustle
-	farcall HustleCheck
-	jr c, .HustleLoss
-.SkipHustle
-	pop af
+;	push af
 	push bc
+;	call CheckNeutralGas
+;	jr z, .SkipHustle
+;	call GetUserAbility
+;	cp COMPOUNDEYES
+;	jr z, .CompoundEyes
+;	cp HUSTLE
+;	jr nz, .SkipHustle
+;	ld a, BATTLE_VARS_MOVE_EFFECT
+;	call GetBattleVar
+;	cp EFFECT_OHKO
+;	jr z, .SkipHustle
+;	farcall HustleCheck
+;	jr c, .HustleLoss
+;.SkipHustle
+;	pop af
 	ld hl, AccuracyLevelMultipliers
-.AfterHustleLoss
+;.AfterHustleLoss
 	dec b
 	sla b
 	ld c, b
@@ -2058,6 +2058,38 @@ BattleCommand_CheckHit:
 	dec d
 	jr nz, .accuracy_loop
 
+	push af
+	call CheckNeutralGas
+	jr z, .FinishEvasionAbilities
+	call GetUserAbility
+	cp COMPOUNDEYES
+	jr z, .CompoundEyes
+	cp HUSTLE
+	jr nz, .NoHustle
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_OHKO
+	jr z, .CheckTargetEvasionAbilities
+	farcall HustleCheck
+	jr c, .HustleLoss
+.NoHustle
+	pop af
+.CheckTargetEvasionAbilities
+	push af
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .FinishEvasionAbilities
+	call GetTargetAbility
+	cp SAND_VEIL
+	jr z, .CheckSand
+	cp SNOW_CLOAK
+	jr z, .CheckHail
+	cp TANGLED_FEET
+	jr z, .CheckConfusion
+.FinishEvasionAbilities
+	pop af
+
+.FinishEvasion
 	; if the result is more than 2 bytes, max out at 100%
 	ldh a, [hQuotient + 2]
 	and a
@@ -2072,15 +2104,84 @@ BattleCommand_CheckHit:
 
 .HustleLoss
 	pop af
-	push bc
-	ld hl, AccuracyHustleLevelMultipliers
-	jr .AfterHustleLoss
+;	ld hl, AccuracyHustleLevelMultipliers
+;	jr .AfterHustleLoss
+	ld a, 80
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	jr .CheckTargetEvasionAbilities
 
 .CompoundEyes
 	pop af
-	push bc
-	ld hl, AccuracyCompoundEyesLevelMultipliers
-	jr .AfterHustleLoss
+;	ld hl, AccuracyCompoundEyesLevelMultipliers
+;	jr .AfterHustleLoss
+	ld a, 30
+	add 100
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	jr .CheckTargetEvasionAbilities
+
+.CheckSand:
+	ld a, [wBattleWeather]
+	cp WEATHER_SANDSTORM
+	jr nz, .FinishEvasionAbilities
+	pop af
+;	ld hl, AccuracyTwentyPercentMultipliers
+;	jr .AfterEvasionAbilities
+	ld a, 80
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	jr .FinishEvasion
+
+.CheckHail:
+	ld a, [wBattleWeather]
+	cp WEATHER_HAIL
+	jr nz, .FinishEvasionAbilities
+	pop af
+;	ld hl, AccuracyTwentyPercentMultipliers
+;	jr .AfterEvasionAbilities
+	ld a, 80
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	jr .FinishEvasion
+
+.CheckConfusion:
+	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	call GetBattleVar
+	bit SUBSTATUS_CONFUSED, a
+	jr z, .FinishEvasionAbilities
+	pop af
+;	ld hl, AccuracyFiftyPercentMultipliers
+;	jr .AfterEvasionAbilities
+	ld a, 50
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 100
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+	jp .FinishEvasion
 
 BattleCommand_EffectChance:
 ; effectchance

@@ -217,10 +217,10 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, INFERNO
-	dbw 3, GROWL
-	dbw 3, CURSE
-	dbw 3, SOLARBEAM
+	dbw 1, TACKLE
+	dbw 3, SANDSTORM
+	dbw 3, HAIL
+	dbw 3, THUNDER
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE
