@@ -192,6 +192,19 @@ BattleText_EnemyMonFainted:
 	line "fainted!"
 	prompt
 
+MoxieText:
+	text "<USER>'s"
+	line "Moxie raised"
+	cont "its Attack!"
+	prompt
+
+AlchemyText:
+	text "<USER>'s"
+	line "Power of Alchemy"
+	cont "copied the foe's"
+	cont "ability!"
+	prompt
+
 GotMoneyForWinningText:
 	text "<PLAYER> got ¥@"
 	text_decimal wBattleReward, 3, 6

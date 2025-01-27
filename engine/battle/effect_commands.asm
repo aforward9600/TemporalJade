@@ -2820,6 +2820,44 @@ BattleCommand_CheckFaint:
 	call BattleCommand_RaiseSub
 
 .finish
+	call GetUserAbility
+	cp MOXIE
+	jr z, .Moxie
+	cp ALCHEMY
+	jp nz, EndMoveEffect
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .GetEnemyAbility
+	ld a, [wPlayerAbility]
+	ld hl, NoAlchemyAbilities
+	ld de, 1
+	call IsInArray
+	jp z, EndMoveEffect
+	ld a, [wPlayerAbility]
+	ld [wEnemyAbility], a
+	call BattleCommand_MoveDelay
+	ld hl, AlchemyText
+	call StdBattleTextbox
+	jp EndMoveEffect
+
+.Moxie
+	call BattleCommand_MoveDelay
+	call BattleCommand_AttackUp
+	ld hl, MoxieText
+	call StdBattleTextbox
+	jp EndMoveEffect
+
+.GetEnemyAbility
+	ld a, [wEnemyAbility]
+	ld hl, NoAlchemyAbilities
+	ld de, 1
+	call IsInArray
+	jp z, EndMoveEffect
+	ld a, [wEnemyAbility]
+	ld [wPlayerAbility], a
+	call BattleCommand_MoveDelay
+	ld hl, AlchemyText
+	call StdBattleTextbox
 	jp EndMoveEffect
 
 .AttackUpHit:
@@ -2836,6 +2874,13 @@ BattleCommand_CheckFaint:
 
 .AllStatsUp:
 	jp BattleCommand_AllStatsUp
+
+NoAlchemyAbilities:
+	db DISGUISE
+	db NEUTRAL_GAS
+	db ALCHEMY
+	db TRACE
+	db -1
 
 BattleCommand_BuildOpponentRage:
 ; buildopponentrage

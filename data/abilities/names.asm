@@ -82,7 +82,7 @@ AbilityNames::
 	db "Early Bird@"
 	db "Tangled Feet@"
 	db "Gluttony@"
-	db "Alechmy@"
+	db "Power of Alchemy@"
 	db "Poison Touch@"
 	db "Hyper Cutter@"
 	db "Insomnia@"
