@@ -7083,8 +7083,6 @@ INCLUDE "engine/battle/move_effects/shell_smash.asm"
 
 INCLUDE "engine/battle/move_effects/strength_sap.asm"
 
-INCLUDE "engine/battle/move_effects/sucker_punch.asm"
-
 BattleCommand_ResetStats:
 ; resetstats
 

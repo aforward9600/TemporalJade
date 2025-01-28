@@ -105,6 +105,31 @@ BattleCommand_CriticalText:
 	xor a
 	ld [wCriticalHit], a
 
+	call CheckNeutralGas
+	jr z, .wait
+	call GetTargetAbility
+	cp ANGER_POINT
+	jr nz, .wait
+	farcall BattleCommand_SwitchTurn
+;	push bc
+	farcall BattleCommand_AttackUp2
+;	pop bc
+	ld a, [wAttackMissed]
+	and a
+	jr nz, .CriticalSwitch
+	farcall BattleCommand_SwitchTurn
+	ld a, 5
+	farcall BattleCommand_SwitchTurn
+.AngerPointLoop
+	push af
+	farcall BattleCommand_AttackUp2
+	pop af
+	dec a
+	jr nz, .AngerPointLoop
+	farcall BattleCommand_SwitchTurn
+	ld hl, AngerPointText
+	call StdBattleTextbox
+
 .wait
 	ld c, 20
 	jp DelayFrames
@@ -112,6 +137,10 @@ BattleCommand_CriticalText:
 .texts
 	dw CriticalHitText
 	dw OneHitKOText
+
+.CriticalSwitch:
+	farcall BattleCommand_SwitchTurn
+	jr .wait
 
 BattleCommand_RageDamage:
 ; ragedamage
@@ -513,3 +542,15 @@ MoveDelay2:
 ; Wait 40 frames.
 	ld c, 40
 	jp DelayFrames
+
+ClearLastMove2:
+	ld a, BATTLE_VARS_LAST_COUNTER_MOVE
+	call GetBattleVarAddr
+	xor a
+	ld [hl], a
+
+	ld a, BATTLE_VARS_LAST_MOVE
+	call GetBattleVarAddr
+	xor a
+	ld [hl], a
+	ret

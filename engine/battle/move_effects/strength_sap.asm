@@ -50,6 +50,17 @@ StrengthSap_AttackDown:
     bit SUBSTATUS_MIST, a
     jp nz, .mist
 
+    call CheckNeutralGas
+    jr z, .SkipHyperCutter
+    call GetUserAbility
+    cp MOLD_BREAKER
+    jr z, .SkipHyperCutter
+    call GetTargetAbility
+    cp HYPER_CUTTER
+    jr z, .AttackDropSkip
+    cp CLEAR_BODY
+    jr z, .AttackDropSkip
+.SkipHyperCutter
     ld hl, wEnemyStatLevels
     ldh a, [hBattleTurn]
     and a
@@ -115,3 +126,7 @@ StrengthSap_AttackDown:
     ld a, 1
     ld [wAttackMissed], a
     ret
+
+.AttackDropSkip
+    call AnimateCurrentMove
+    jp BattleCommand_StrengthSap.restorehp

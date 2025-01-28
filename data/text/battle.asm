@@ -947,6 +947,12 @@ CriticalHitText:
 	text "A critical hit!"
 	prompt
 
+AngerPointText:
+	text "<TARGET>'s"
+	line "Anger Point maxed"
+	cont "out its Attack!"
+	prompt
+
 OneHitKOText:
 	text "It's a one-hit KO!"
 	prompt
