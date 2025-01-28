@@ -1,4 +1,6 @@
 BattleCommand_MagicBounce:
+	call CheckNeutralGas
+	ret z
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
 	cp EFFECT_SWAGGER

@@ -219,8 +219,8 @@ TepigEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SLASH
 	dbw 3, REST
-	dbw 3, STRENGTH_SAP
-	dbw 3, SLEEP_TALK
+	dbw 3, FUTURE_SIGHT
+	dbw 3, GROWL
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE

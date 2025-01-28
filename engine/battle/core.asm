@@ -260,7 +260,7 @@ HandleBetweenTurnEffects:
 	jr z, .CheckEnemyFirst
 	call CheckFaint_PlayerThenEnemy
 	ret c
-	call HandleFutureSight
+	farcall HandleFutureSight
 	call CheckFaint_PlayerThenEnemy
 	ret c
 	call HandleWeather
@@ -279,7 +279,7 @@ HandleBetweenTurnEffects:
 .CheckEnemyFirst:
 	call CheckFaint_EnemyThenPlayer
 	ret c
-	call HandleFutureSight
+	farcall HandleFutureSight
 	call CheckFaint_EnemyThenPlayer
 	ret c
 	call HandleWeather
@@ -778,19 +778,75 @@ CompareMovePriority:
 ; Return carry if the player goes first, or z if they match.
 
 	ld a, [wCurPlayerMove]
-	call GetMovePriority
+	call GetPlayerMovePriority
 	ld b, a
 	push bc
 	ld a, [wCurEnemyMove]
-	call GetMovePriority
+	call GetEnemyMovePriority
 	pop bc
 	cp b
 	ret
 
+GetPlayerMovePriority:
+	ld b, a
+
+	call CheckNeutralGas
+	jr z, GetMovePriority
+	ld a, [wPlayerAbility]
+	cp PRANKSTER
+	jr nz, GetMovePriority
+	ld a, [wPlayerMoveStructType]
+	cp STATUS
+	jr nc, .PlayerPrankster
+	jr GetMovePriority
+
+.PlayerPrankster
+	call GetMoveEffect
+	ld b, a
+	cp EFFECT_FORCE_SWITCH
+	jr z, .GetPlayerMove
+	cp EFFECT_COUNTER
+	jr z, .GetPlayerMove
+	cp EFFECT_MIRROR_COAT
+	jr z, .GetPlayerMove
+	ld a, 4
+	ret
+
+.GetPlayerMove
+	ld a, [wCurPlayerMove]
+	ld b, a
+	jr GetMovePriority
+
+GetEnemyMovePriority:
+	ld b, a
+
+	call CheckNeutralGas
+	jr z, GetMovePriority
+	ld a, [wEnemyAbility]
+	cp PRANKSTER
+	jr nz, GetMovePriority
+	ld a, [wEnemyMoveStructType]
+	cp STATUS
+	jr nc, .EnemyPrankster
+	jr GetMovePriority
+
+.EnemyPrankster
+	call GetMoveEffect
+	ld a, b
+	cp EFFECT_FORCE_SWITCH
+	jr z, .GetEnemyMove
+	cp EFFECT_COUNTER
+	jr z, .GetEnemyMove
+	cp EFFECT_MIRROR_COAT
+	jr z, .GetEnemyMove
+	ld a, 4
+	ret
+
+.GetEnemyMove
+	ld a, [wCurEnemyMove]
+	ld b, a
 GetMovePriority:
 ; Return the priority (0-5) of move a.
-
-	ld b, a
 
 	call GetMoveEffect
 	ld hl, MoveEffectPriorities
@@ -1312,67 +1368,6 @@ SwitchTurnCore:
 	xor 1
 	ldh [hBattleTurn], a
 	ret
-
-HandleFutureSight:
-	ldh a, [hSerialConnectionStatus]
-	cp USING_EXTERNAL_CLOCK
-	jr z, .enemy_first
-	call SetPlayerTurn
-	call .do_it
-	call SetEnemyTurn
-	jp .do_it
-
-.enemy_first
-	call SetEnemyTurn
-	call .do_it
-	call SetPlayerTurn
-
-.do_it
-	ld hl, wPlayerFutureSightCount
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .okay
-	ld hl, wEnemyFutureSightCount
-
-.okay
-	ld a, [hl]
-	and a
-	ret z
-	dec a
-	ld [hl], a
-	cp $1
-	ret nz
-
-	ld hl, BattleText_TargetWasHitByFutureSight
-	call StdBattleTextbox
-
-	ld a, BATTLE_VARS_MOVE
-	call GetBattleVarAddr
-	push af
-	push hl
-	ld hl, FUTURE_SIGHT
-	call GetMoveIDFromIndex
-	pop hl
-	ld [hl], a
-
-	callfar UpdateMoveData
-	xor a
-	ld [wAttackMissed], a
-	ld [wAlreadyDisobeyed], a
-	ld a, EFFECTIVE
-	ld [wTypeModifier], a
-	callfar DoMove
-	xor a
-	ld [wCurDamage], a
-	ld [wCurDamage + 1], a
-
-	ld a, BATTLE_VARS_MOVE
-	call GetBattleVarAddr
-	pop af
-	ld [hl], a
-
-	call UpdateBattleMonInParty
-	jp UpdateEnemyMonInParty
 
 HandleWeather:
 	ld a, [wBattleWeather]
