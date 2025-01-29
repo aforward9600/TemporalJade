@@ -1270,6 +1270,7 @@ CheckBoostingAbilities:
 	dbw REFRIGERATE,     .Refrigerate
 	dbw GALVANIZE,       .Galvanize
 	dbw ANALYTIC,        .Analytic
+	dbw DEFEATIST,       .Defeatist
 	db -1
 
 .Guts:
@@ -1422,6 +1423,12 @@ CheckBoostingAbilities:
 	call CheckHalfHP
 	ret nc
 	call FiftyPercentBoost
+	ret
+
+.Defeatist:
+	call CheckHalfHP
+	ret nc
+	call FiftyPercentNerf
 	ret
 
 .HugePower:
