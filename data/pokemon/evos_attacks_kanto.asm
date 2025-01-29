@@ -217,10 +217,10 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, SLASH
-	dbw 3, REST
-	dbw 3, FUTURE_SIGHT
-	dbw 3, GROWL
+	dbw 1, WILL_O_WISP
+	dbw 3, THUNDER_WAVE
+	dbw 3, NUZZLE
+	dbw 3, TOXIC
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE

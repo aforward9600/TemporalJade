@@ -4394,6 +4394,8 @@ BattleCommand_PoisonTarget:
 	ld hl, WasPoisonedText
 	call StdBattleTextbox
 
+	call SynchronizeCheck
+
 	farcall UseHeldStatusHealingItem
 	ret
 
@@ -4460,6 +4462,7 @@ BattleCommand_Poison:
 	call StdBattleTextbox
 
 .finished
+	call SynchronizeCheck
 	farcall UseHeldStatusHealingItem
 	ret
 
@@ -4654,9 +4657,12 @@ BattleCommand_BurnTarget:
 	ld a, [wEffectFailed]
 	and a
 	ret nz
+	call CheckNeutralGas
+	jr z, .SkipInfiltrator
 	call GetUserAbility
 	cp INFILTRATOR
 	jr z, .SkipSafeguard
+.SkipInfiltrator
 	call SafeCheckSafeguard
 	ret nz
 .SkipSafeguard
@@ -4672,6 +4678,8 @@ BattleCommand_BurnTarget:
 
 	ld hl, WasBurnedText
 	call StdBattleTextbox
+
+	call SynchronizeCheck
 
 	farcall UseHeldStatusHealingItem
 	ret
@@ -4793,10 +4801,11 @@ BattleCommand_ParalyzeTarget:
 	and a
 	ret nz
 	call CheckNeutralGas
-	ret z
+	jr z, .SkipInfiltrator
 	call GetUserAbility
 	cp INFILTRATOR
 	jr z, .SkipSafeguard
+.SkipInfiltrator
 	call SafeCheckSafeguard
 	ret nz
 .SkipSafeguard
@@ -4810,8 +4819,94 @@ BattleCommand_ParalyzeTarget:
 	call PlayOpponentBattleAnim
 	call RefreshBattleHuds
 	call PrintParalyze
+	call SynchronizeCheck
 	ld hl, UseHeldStatusHealingItem
 	jp CallBattleCore
+
+SynchronizeCheck:
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
+	and a
+	ret nz
+	call CheckNeutralGas
+	ret z
+	call GetTargetAbility
+	cp SYNCHRONIZE
+	ret nz
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_PARALYZE_HIT
+	jp z, .SynchronizePar
+	cp EFFECT_PARALYZE
+	jp z, .SynchronizePar
+	cp EFFECT_POISON_MULTI_HIT
+	jp z, .SynchronizePoison
+	cp EFFECT_POISON_HIT
+	jp z, .SynchronizePoison
+	cp EFFECT_POISON
+	jp z, .SynchronizePoison
+	cp EFFECT_TOXIC
+	jp z, .SynchronizePoison
+	cp EFFECT_BURN
+	jp z, .SynchronizeBurn
+	cp EFFECT_BURN_HIT
+	jp z, .SynchronizeBurn
+	cp EFFECT_FLAME_WHEEL
+	jp z, .SynchronizeBurn
+	cp EFFECT_FLARE_BLITZ
+	jp z, .SynchronizeBurn
+	ret
+
+.SynchronizePar
+	call GetUserAbility
+	cp LIMBER
+	ret z
+	call BattleCommand_SwitchTurn
+	call BattleCommand_ParalyzeTarget
+	call BattleCommand_SwitchTurn
+	ret
+
+.SynchronizeBurn
+	call GetUserAbility
+	cp WATER_VEIL
+	ret z
+	ld hl, wBattleMonType1
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .GotPlayerType
+	ld hl, wEnemyMonType1
+.GotPlayerType
+	ld a, [hli]
+	cp FIRE
+	ret z
+	ld a, [hl]
+	cp FIRE
+	ret z
+	call BattleCommand_SwitchTurn
+	call BattleCommand_BurnTarget
+	call BattleCommand_SwitchTurn
+	ret
+
+.SynchronizePoison
+	call GetUserAbility
+	cp IMMUNITY
+	ret z
+	call BattleCommand_SwitchTurn
+	call BattleCommand_PoisonTarget
+	call BattleCommand_SwitchTurn
+	ret
+
+;	set SUBSTATUS_TOXIC, [hl]
+;	xor a
+;	ld [de], a
+;	call .apply_poison
+
+;	ld hl, BadlyPoisonedText
+;	call StdBattleTextbox
+
+;.finished
+;	farcall UseHeldStatusHealingItem
+;	ret
 
 BattleCommand_SleepHit:
 ; sleephit
@@ -4925,7 +5020,8 @@ BattleCommand_Burn:
 	call CallBattleCore
 	call UpdateBattleHuds
 	ld hl, WasBurnedText
-	jp StdBattleTextbox
+	call StdBattleTextbox
+	call SynchronizeCheck
 	ld hl, UseHeldStatusHealingItem
 	jp CallBattleCore
 
@@ -7020,6 +7116,7 @@ BattleCommand_Paralyze:
 	call CallBattleCore
 	call UpdateBattleHuds
 	call PrintParalyze
+	call SynchronizeCheck
 	ld hl, UseHeldStatusHealingItem
 	jp CallBattleCore
 
