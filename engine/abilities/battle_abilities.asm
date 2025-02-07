@@ -1235,7 +1235,7 @@ CheckBoostingAbilities:
 	cp MARVEL_SCALE
 	jr z, .MarvelScale
 	cp THICK_FAT
-	jr z, .ThickFat
+	jp z, .ThickFat
 	cp DRY_SKIN
 	jp z, .DrySkin
 	cp HEAT_PROOF
@@ -1271,6 +1271,8 @@ CheckBoostingAbilities:
 	dbw GALVANIZE,       .Galvanize
 	dbw ANALYTIC,        .Analytic
 	dbw DEFEATIST,       .Defeatist
+	dbw TRANSISTOR,      .Transistor
+	dbw DRAGONS_MAW,     .DragonsMaw
 	db -1
 
 .Guts:
@@ -1475,6 +1477,22 @@ CheckBoostingAbilities:
 .Analytic:
 	farcall CheckOpponentWentFirst
 	jr nz, ThirtyPercentBoost
+	ret
+
+.Transistor:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp ELECTRIC
+	jr z, ThirtyPercentBoost
+	ret
+
+.DragonsMaw:
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	and TYPE_MASK
+	cp DRAGON
+	jr z, FiftyPercentBoost
 .NoBoostingAbilities:
 	ret
 

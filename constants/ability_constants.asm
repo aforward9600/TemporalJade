@@ -138,5 +138,7 @@
 	const WATER_COMPACTION ; 87 x
 	const ARENA_TRAP   ; 88 x
 	const SUPERSWEET_SYRUP ; 89 x
+	const TRANSISTOR   ; 8a
+	const DRAGONS_MAW  ; 8b
 
 NUM_ABILITIES EQU const_value + -1

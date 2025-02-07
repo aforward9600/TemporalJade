@@ -137,3 +137,5 @@ AbilityNames::
 	db "Water Compaction@"
 	db "Arena Trap@"
 	db "Supersweet Syrup@"
+	db "Transistor@"
+	db "Dragon's Maw@"

@@ -136,7 +136,9 @@ AbilityDescriptions:
 	dw SlushRushDesc
 	dw WaterCompactionDesc
 	dw ArenaTrapDesc
-	dw SupersweetSyrup
+	dw SupersweetSyrupDesc
+	dw TransistorDesc
+	dw DragonsMawDesc
 
 NoAbilityDesc:
 	db    "No ability."
@@ -678,6 +680,14 @@ ArenaTrapDesc:
 	db    "Prevents foes from"
 	next1 "fleeing.@"
 
-SupersweetSyrup:
+SupersweetSyrupDesc:
 	db    "Lowers the foe's"
 	next1 "Evasion.@"
+
+TransistorDesc:
+	db    "Powers up Electric"
+	next1 "type moves.@"
+
+DragonsMawDesc:
+	db    "Powers up Dragon"
+	next1 "type moves.@"
