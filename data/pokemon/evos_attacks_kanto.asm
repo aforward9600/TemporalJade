@@ -217,10 +217,10 @@ DecidueyeEvosAttacks:
 TepigEvosAttacks:
 	dbbw EVOLVE_LEVEL, 17, PIGNITE
 	db 0 ; no more evolutions
-	dbw 1, WILL_O_WISP
+	dbw 1, ROAR
 	dbw 3, THUNDER_WAVE
 	dbw 3, NUZZLE
-	dbw 3, TOXIC
+	dbw 3, TACKLE
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE
@@ -279,8 +279,9 @@ EmboarEvosAttacks:
 MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
-	dbw 1, STRENGTH_SAP
-	dbw 1, GROWL
+	dbw 1, THUNDER_WAVE
+	dbw 1, ROAR
+	dbw 1, TACKLE
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT

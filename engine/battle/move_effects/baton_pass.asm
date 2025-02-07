@@ -9,6 +9,8 @@ BattleCommand_BatonPass:
 	call CheckAnyOtherAlivePartyMons
 	jp z, FailedBatonPass
 
+	farcall PlayerSwitchAbilities
+
 	call UpdateBattleMonInParty
 	call AnimateCurrentMove
 
@@ -52,6 +54,8 @@ BattleCommand_BatonPass:
 
 	call CheckAnyOtherAliveEnemyMons
 	jp z, FailedBatonPass
+
+	farcall EnemySwitchAbilities
 
 	call UpdateEnemyMonInParty
 	call AnimateCurrentMove

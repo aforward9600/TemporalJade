@@ -6150,7 +6150,7 @@ BattleCommand_ForceSwitch:
 	jr nc, .wild_succeed_playeristarget
 
 .player_miss
-	jr .fail
+	jp .fail
 
 .wild_succeed_playeristarget
 	call UpdateBattleMonInParty
@@ -6160,7 +6160,7 @@ BattleCommand_ForceSwitch:
 	ld [wForcedSwitch], a
 	call SetBattleDraw
 	ld a, [wEnemyMoveStructAnimation]
-	jr .succeed
+	jp .succeed
 
 .vs_trainer
 	call CheckPlayerHasMonToSwitchTo
@@ -6169,6 +6169,10 @@ BattleCommand_ForceSwitch:
 	ld a, [wEnemyGoesFirst]
 	cp $1
 	jr z, .switch_fail
+
+	call BattleCommand_SwitchTurn
+	farcall PlayerSwitchAbilities
+	call BattleCommand_SwitchTurn
 
 	call UpdateBattleMonInParty
 	ld a, $1

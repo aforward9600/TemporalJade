@@ -2896,6 +2896,9 @@ SlideBattlePicOut:
 	ret
 
 ForceEnemySwitch:
+	farcall BattleCommand_SwitchTurn
+	farcall EnemySwitchAbilities
+	farcall BattleCommand_SwitchTurn
 	call ResetEnemyBattleVars
 	ld a, [wEnemySwitchMonIndex]
 	dec a
@@ -2915,6 +2918,7 @@ EnemySwitch:
 	call CheckWhetherToAskSwitch
 	jr nc, EnemySwitch_SetMode
 	; Shift Mode
+	farcall EnemySwitchAbilities
 	call ResetEnemyBattleVars
 	call CheckWhetherSwitchmonIsPredetermined
 	jr c, .skip
@@ -2938,9 +2942,11 @@ EnemySwitch:
 	inc a
 	ld [wEnemyIsSwitching], a
 	call LoadTileMapToTempTileMap
+	farcall PlayerSwitchAbilities
 	jp PlayerSwitch
 
 EnemySwitch_SetMode:
+	farcall EnemySwitchAbilities
 	call ResetEnemyBattleVars
 	call CheckWhetherSwitchmonIsPredetermined
 	jr c, .skip
@@ -5153,6 +5159,7 @@ TryPlayerSwitch:
 	call CloseWindow
 	call GetMemSGBLayout
 	call SetPalettes
+	farcall PlayerSwitchAbilities
 	ld a, [wCurPartyMon]
 	ld [wCurBattleMon], a
 PlayerSwitch:

@@ -13,4 +13,5 @@ ResidualMoves:
 	dw SUBSTITUTE
 	dw SPIKES
 	dw WILL_O_WISP
+	dw FAKE_OUT
 	dw -1 ; end

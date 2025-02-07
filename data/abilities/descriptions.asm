@@ -327,7 +327,7 @@ MagicGuardDesc:
 	next1 "from attacks.@"
 
 RegeneratorDesc:
-	db    "Restores 33% HP"
+	db    "Restores 1/3 HP"
 	next1 "upon retreating.@"
 
 LevitateDesc:

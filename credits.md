@@ -131,7 +131,15 @@ Ludicolo, Absol sprites: Prism Team.
 
 Mudkip line sprites: Bloodless & Blue Rose
 
-Gen 5 Sprites: Bloodless
+Gen 5 Sprites: Bloodless collection
+
+Haxorus sprites: Galenorla
+
+Ampharos sprite: Bossy
+
+Tepig front sprite: Ryastoise
+
+Pignite and Emboar front sprites: Molk
 
 Pokewilds team: Purrloin, Cofagrigus, Yamask, Runerigus
 
