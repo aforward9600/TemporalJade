@@ -1,4 +1,5 @@
 GivePokerusAndConvertBerries:
+	call ConvertBerriesToBerryJuice
 	ld hl, wPartyMon1PokerusStatus
 	ld a, [wPartyCount]
 	ld b, a
@@ -15,11 +16,6 @@ GivePokerusAndConvertBerries:
 	dec b
 	jr nz, .loopMons
 
-; If we haven't been to Goldenrod City at least once,
-; prevent the contraction of Pokerus.
-	ld hl, wStatusFlags2
-	bit STATUSFLAGS2_REACHED_GOLDENROD_F, [hl]
-	ret z
 	call Random
 	ldh a, [hRandomAdd]
 	and a
@@ -121,32 +117,45 @@ GivePokerusAndConvertBerries:
 	ret
 
 ConvertBerriesToBerryJuice:
-; If we haven't been to Goldenrod City at least once,
-; prevent Shuckle from turning held Berry into Berry Juice.
-	ld hl, wStatusFlags2
-	bit STATUSFLAGS2_REACHED_GOLDENROD_F, [hl]
-	ret z
-	call Random
-	cp 6 percent + 1 ; 1/16 chance
-	ret nc
-	ld hl, OVERQWIL
-	call GetPokemonIDFromIndex
-	ld [wTempSpecies], a
+;	call Random
+;	cp 10 percent
+;	ret nc
 	ld hl, wPartyMons
 	ld a, [wPartyCount]
 .partyMonLoop
-	push af
 	push hl
-	ld a, [wTempSpecies]
-	cp [hl]
-	jr nz, .loopMon
+;	push bc
+	push af
+
+	ld b,b
+
+;	ld a, [wCurPartyMon]
+;	ld hl, wPartyMon1CaughtAbility
+;	call GetPartyLocation
+;	ld a, [wPartyMon1Species]
+;	ld c, a
+;	call GetAbility
+
+;	ld a, [wCurPartyMon]
+;	ld bc, PARTYMON_STRUCT_LENGTH
+;	ld hl, wPartyMon1Species
+;	call AddNTimes
+
+;	ld a, [hl]
+;	ld bc, wPartyMon1CaughtAbility - wPartyMon1Species
+;	add hl, bc
+;	ld c, a
+;	call GetAbility
+;	cp PICKUP
+;	jr nz, .loopMon
 	ld bc, MON_ITEM
 	add hl, bc
 	ld a, [hl]
-	cp ORAN_BERRY
+	cp NO_ITEM
 	jr z, .convertToJuice
 
 .loopMon
+;	pop bc
 	pop hl
 	ld bc, PARTYMON_STRUCT_LENGTH
 	add hl, bc
@@ -154,13 +163,27 @@ ConvertBerriesToBerryJuice:
 	dec a
 	jr nz, .partyMonLoop
 .done
-	xor a
-	ld [wTempSpecies], a
+;	xor a
+;	ld [wTempSpecies], a
 	ret
 
 .convertToJuice
 	ld a, BERRY_JUICE
 	ld [hl], a
 	pop hl
+;	pop bc
 	pop af
 	jr .done
+
+.PickupItems:
+	db 3, KINGS_ROCK
+	db 11, PP_UP
+	db 13, PROTEIN
+	db 26, RARE_CANDY
+	db 26, REVIVE
+	db 26, NUGGET
+	db 26, FULL_HEAL
+	db 26, FULL_RESTORE
+	db 26, ULTRA_BALL
+	db 73, SUPER_POTION
+	db 0

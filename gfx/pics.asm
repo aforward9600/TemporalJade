@@ -1096,9 +1096,6 @@ AronFrontpic:        INCBIN "gfx/pokemon/aron/front.animated.2bpp.lz"
 AronBackpic:         INCBIN "gfx/pokemon/aron/back.2bpp.lz"
 LaironFrontpic:      INCBIN "gfx/pokemon/lairon/front.animated.2bpp.lz"
 LaironBackpic:       INCBIN "gfx/pokemon/lairon/back.2bpp.lz"
-AggronFrontpic:      INCBIN "gfx/pokemon/aggron/front.animated.2bpp.lz"
-AggronBackpic:       INCBIN "gfx/pokemon/aggron/back.2bpp.lz"
-EinPic:              INCBIN "gfx/trainers/ein.2bpp.lz"
 
 SECTION "Pics 29", ROMX
 
@@ -1177,3 +1174,6 @@ DrakloakFrontpic:    INCBIN "gfx/pokemon/drakloak/front.animated.2bpp.lz"
 DrakloakBackpic:     INCBIN "gfx/pokemon/drakloak/back.2bpp.lz"
 DragapultFrontpic:   INCBIN "gfx/pokemon/dragapult/front.animated.2bpp.lz"
 DragapultBackpic:    INCBIN "gfx/pokemon/dragapult/back.2bpp.lz"
+AggronFrontpic:      INCBIN "gfx/pokemon/aggron/front.animated.2bpp.lz"
+AggronBackpic:       INCBIN "gfx/pokemon/aggron/back.2bpp.lz"
+EinPic:              INCBIN "gfx/trainers/ein.2bpp.lz"

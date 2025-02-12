@@ -18,7 +18,7 @@
 	const SCRAPPY      ; 0f x
 	const LIMBER       ; 10 x
 	const UNBURDEN     ; 11 x
-	const PRANKSTER    ; 12
+	const PRANKSTER    ; 12 x
 	const STURDY       ; 13 x
 	const WEAK_ARMOR   ; 14 x
 	const SAND_FORCE   ; 15 x
@@ -36,18 +36,18 @@
 	const ADAPTABILITY ; 21 x 
 	const ROCK_HEAD    ; 22 x
 	const RATTLED      ; 23 x
-	const MOXIE        ; 24
+	const MOXIE        ; 24 x
 	const WATER_ABSORB ; 25 x
 	const MUMMY        ; 26 x
 	const WANDERSPIRIT ; 27 x
 	const SOLID_ROCK   ; 28 x
-	const DEFEATIST    ; 29
+	const DEFEATIST    ; 29 x
 	const TRUANT       ; 2a x
 	const SLOW_START   ; 2b x
 	const CUTE_CHARM   ; 2c x
 	const TECHNICIAN   ; 2d x
 	const MAGIC_GUARD  ; 2e x
-	const REGENERATOR  ; 2f
+	const REGENERATOR  ; 2f x
 	const LEVITATE     ; 30 x
 	const ICE_BODY     ; 31 x
 	const SNOW_WARNING ; 32 x
@@ -61,7 +61,7 @@
 	const IRON_BARBS   ; 3a x
 	const COMPOUNDEYES ; 3b x
 	const CLEAR_BODY   ; 3c x
-	const SYNCHRONIZE  ; 3d
+	const SYNCHRONIZE  ; 3d x
 	const ANALYTIC     ; 3e x
 	const FLASH_FIRE   ; 3f x
 	const FLAME_BODY   ; 40 x
@@ -83,7 +83,7 @@
 	const EARLY_BIRD   ; 50 x
 	const TANGLED_FEET ; 51 x
 	const GLUTTONY     ; 52
-	const ALCHEMY      ; 53
+	const ALCHEMY      ; 53 x
 	const POISON_TOUCH ; 54 x
 	const HYPER_CUTTER ; 55 x
 	const INSOMNIA     ; 56 x
@@ -94,13 +94,13 @@
 	const NEUTRAL_GAS  ; 5b x
 	const STENCH       ; 5c x
 	const SERENE_GRACE ; 5d x
-	const NATURAL_CURE ; 5e
+	const NATURAL_CURE ; 5e x
 	const SNIPER       ; 5f x
 	const FILTER       ; 60 x
 	const SCREEN_CLEAN ; 61 x
 	const SHARPNESS    ; 62 x
 	const MOTOR_DRIVE  ; 63 x
-	const ANGER_POINT  ; 64
+	const ANGER_POINT  ; 64 x
 	const QUICK_FEET   ; 65 x
 	const SNOW_CLOAK   ; 66 x
 	const LEAF_GUARD   ; 67 x
@@ -138,7 +138,7 @@
 	const WATER_COMPACTION ; 87 x
 	const ARENA_TRAP   ; 88 x
 	const SUPERSWEET_SYRUP ; 89 x
-	const TRANSISTOR   ; 8a
-	const DRAGONS_MAW  ; 8b
+	const TRANSISTOR   ; 8a x
+	const DRAGONS_MAW  ; 8b x
 
 NUM_ABILITIES EQU const_value + -1

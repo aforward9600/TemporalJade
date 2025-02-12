@@ -8623,8 +8623,6 @@ Rival3Group:
 	db "<RIVAL>@", TRAINERTYPE_NORMAL
 	db 5
 	dw MUDKIP
-	db 5
-	dw MUDKIP
 	db -1 ; end
 
 	next_list_item ; RIVAL3 B_ROWLET

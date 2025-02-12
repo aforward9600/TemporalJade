@@ -6115,6 +6115,9 @@ BattleCommand_ForceSwitch:
 	ld hl, DraggedOutText
 	call StdBattleTextbox
 
+	farcall SetEnemyAbility
+	farcall SentOutAbility
+
 	ld hl, SpikesDamage
 	jp CallBattleCore
 
@@ -6215,6 +6218,9 @@ BattleCommand_ForceSwitch:
 
 	ld hl, DraggedOutText
 	call StdBattleTextbox
+
+	farcall SetPlayerAbility
+	farcall SentOutAbility
 
 	ld hl, SpikesDamage
 	jp CallBattleCore
@@ -7186,8 +7192,6 @@ EndRechargeOpp:
 INCLUDE "engine/battle/move_effects/disable.asm"
 
 INCLUDE "engine/battle/move_effects/shell_smash.asm"
-
-INCLUDE "engine/battle/move_effects/strength_sap.asm"
 
 BattleCommand_ResetStats:
 ; resetstats
