@@ -141,7 +141,9 @@ Tepig front sprite: Ryastoise
 
 Pignite and Emboar front sprites: Molk
 
-Pokewilds team: Purrloin, Cofagrigus, Yamask, Runerigus
+Pokewilds team: Purrloin
+
+Runerigus sprites: Scarlax and EeVeeEe1999
 
 Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
 
@@ -203,6 +205,10 @@ Ace Trainers and Swimmers sprites: Solo993
 Lance Trainer Sprite base and Mew overworld sprite: MegamanOmega
 
 Armored Mewtwo sprites and icon: Rangi
+
+Rowlet sprites: Bossy and Enderific
+
+Dartrix and Decidueye sprites: Ayinai
 
 Nown Sprite and animation: CynderQuill
 

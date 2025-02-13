@@ -500,8 +500,11 @@ OrthwormFrontpic:    INCBIN "gfx/pokemon/orthworm/front.animated.2bpp.lz"
 EscavalierFrontpic:  INCBIN "gfx/pokemon/escavalier/front.animated.2bpp.lz"
 WhimsicottFrontpic:  INCBIN "gfx/pokemon/whimsicott/front.animated.2bpp.lz"
 FlaaffyFrontpic:     INCBIN "gfx/pokemon/flaaffy/front.animated.2bpp.lz"
-DartrixFrontpic:     INCBIN "gfx/pokemon/dartrix/front.animated.2bpp.lz"
 FurretFrontpic:      INCBIN "gfx/pokemon/furret/front.animated.2bpp.lz"
+
+SECTION "Dartrix Front Pic", ROMX
+
+DartrixFrontpic:     INCBIN "gfx/pokemon/dartrix/front.animated.2bpp.lz"
 
 
 SECTION "Pics 9", ROMX
