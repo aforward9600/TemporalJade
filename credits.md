@@ -164,8 +164,10 @@ Alolan Grimer and Muk, Alolan Raichu sprites
 
 Deino, Axew, Fraxure, Yamask, Golett, Golurk, Shelmet, Accelgor, 
 Basculin, Karrablast, Escavalier, Sewaddle, Swadloon, Leavanny,
-Roggenrola, Boldore, Gigalith animations:
+Roggenrola:
 PokeMMO Generation 2 Sprites Mod
+
+Boldore & Gigalith sprites: Adrian Der Cube
 
 Various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
 
@@ -190,7 +192,7 @@ Yamask and Cofagrigus sprites: Hibiwiki
 
 Gible line sprites front sprites: Blue Emerald
 
-Regice, Regirock, and Registeel sprites: Mr Dustman, Sadfish, and Poisonous Gas
+Regice, Regirock, and Registeel sprites: Bloodless and Scarlax
 
 Regigigas sprites: Blue Emerald
 

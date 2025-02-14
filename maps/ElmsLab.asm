@@ -115,9 +115,9 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke ROWLET, 5, ORAN_BERRY
-	givepoke DARTRIX, 5, ORAN_BERRY
-	givepoke DECIDUEYE, 5, ORAN_BERRY
+	givepoke MUDKIP, 5, ORAN_BERRY
+	givepoke MARSHTOMP, 5, ORAN_BERRY
+	givepoke SWAMPERT, 5, ORAN_BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, .turnplayer

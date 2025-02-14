@@ -1,2 +1,4 @@
-	frame 0, 01
+	frame 5, 06
+	frame 0, 06
+	frame 5, 06
 	endanim
