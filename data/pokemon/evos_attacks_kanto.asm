@@ -220,7 +220,7 @@ TepigEvosAttacks:
 	dbw 1, ROAR
 	dbw 3, THUNDER_WAVE
 	dbw 3, NUZZLE
-	dbw 3, TACKLE
+	dbw 3, TAKE_DOWN
 	dbw 7, EMBER
 	dbw 9, ODOR_SLEUTH
 	dbw 15, FLAME_CHARGE
@@ -279,9 +279,9 @@ EmboarEvosAttacks:
 MudkipEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, MARSHTOMP
 	db 0 ; no more evolutions
-	dbw 1, THUNDER_WAVE
-	dbw 1, ROAR
-	dbw 1, TACKLE
+	dbw 1, TOXIC
+;	dbw 1, ROAR
+;	dbw 1, TACKLE
 	dbw 7, WATER_GUN
 	dbw 10, MUD_SLAP
 	dbw 12, FORESIGHT

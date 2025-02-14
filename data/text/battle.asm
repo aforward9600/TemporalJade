@@ -953,6 +953,12 @@ AngerPointText:
 	cont "out its Attack!"
 	prompt
 
+PoisonHealText:
+	text "<USER>"
+	line "healed itself with"
+	cont "Poison Heal!"
+	prompt
+
 OneHitKOText:
 	text "It's a one-hit KO!"
 	prompt

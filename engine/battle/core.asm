@@ -1050,7 +1050,7 @@ ResidualDamage:
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
 	and 1 << PSN | 1 << BRN
-	jr z, .did_psn_brn
+	jp z, .did_psn_brn
 
 	ld hl, HurtByPoisonText
 	ld de, ANIM_PSN
@@ -1060,12 +1060,17 @@ ResidualDamage:
 	ld de, ANIM_BRN
 .got_anim
 
+	call CheckNeutralGas
+	jr z, .SkipShedSkin
 	call GetUserAbility
 	cp SHED_SKIN
 	jr z, .ShedSkinHeal
 	cp HYDRATION
 	jr z, .Hydration
+	cp POISON_HEAL
+	jr z, .TryPoisonHeal
 
+.SkipShedSkin
 	push de
 	call StdBattleTextbox
 	pop de
@@ -1119,6 +1124,22 @@ ResidualDamage:
 	ld a, [hl]
 	ld [hl], 0
 	ld hl, HydrationText
+	call StdBattleTextbox
+	jr .did_psn_brn
+
+.TryPoisonHeal
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	and 1 << PSN
+	jr z, .SkipShedSkin
+	call CheckFullHP
+	jr z, .did_psn_brn
+	call GetEighthMaxHP
+	call SwitchTurnCore
+	call RestoreHP
+	call SwitchTurnCore
+	call MoveDelayCore
+	ld hl, PoisonHealText
 	call StdBattleTextbox
 
 .did_psn_brn
@@ -1188,6 +1209,12 @@ ResidualDamage:
 	call DelayFrames
 	xor a
 	ret
+
+MoveDelayCore:
+; movedelay
+; Wait 40 frames.
+	ld c, 40
+	jp DelayFrames
 
 HandleSlowStart:
 	ldh a, [hSerialConnectionStatus]
