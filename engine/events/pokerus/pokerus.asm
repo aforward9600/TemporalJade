@@ -120,62 +120,164 @@ ConvertBerriesToBerryJuice:
 ;	call Random
 ;	cp 10 percent
 ;	ret nc
-	ld hl, wPartyMons
-	ld a, [wPartyCount]
-.partyMonLoop
-	push hl
-;	push bc
-	push af
-
-	ld b,b
-
-;	ld a, [wCurPartyMon]
-;	ld hl, wPartyMon1CaughtAbility
-;	call GetPartyLocation
-;	ld a, [wPartyMon1Species]
-;	ld c, a
-;	call GetAbility
-
-;	ld a, [wCurPartyMon]
-;	ld bc, PARTYMON_STRUCT_LENGTH
-;	ld hl, wPartyMon1Species
-;	call AddNTimes
-
-;	ld a, [hl]
-;	ld bc, wPartyMon1CaughtAbility - wPartyMon1Species
-;	add hl, bc
-;	ld c, a
-;	call GetAbility
-;	cp PICKUP
+;	ld hl, TEPIG
+;	call GetPokemonIDFromIndex
+;	ld a, PICKUP
+;	ld [wTempSpecies], a
+;	ld hl, wPartyMons
+;	ld a, [wPartyCount]
+;.partyMonLoop
+;	push af
+;	push hl
+;	ld a, [wTempSpecies]
+;	cp [hl]
 ;	jr nz, .loopMon
-	ld bc, MON_ITEM
-	add hl, bc
+;	push bc
+
+;	ld a, [wCurPartyMon]
+	ld hl, wPartyMon1Item
 	ld a, [hl]
 	cp NO_ITEM
-	jr z, .convertToJuice
-
-.loopMon
-;	pop bc
-	pop hl
-	ld bc, PARTYMON_STRUCT_LENGTH
-	add hl, bc
-	pop af
-	dec a
-	jr nz, .partyMonLoop
-.done
-;	xor a
-;	ld [wTempSpecies], a
+	jr nz, .SecondPickup
+	ld a, [wPartyMon1Species]
+	call IsAPokemon
+	jr c, .SecondPickup
+	ld hl, wPartyMon1CaughtAbility
+	ld c, a
+	call GetAbility
+	cp PICKUP
+	jp z, .convertToJuice1
+.SecondPickup
+	ld hl, wPartyMon2Item
+	ld a, [hl]
+	cp NO_ITEM
+	jr nz, .ThirdPickup
+	ld a, [wPartyMon2Species]
+	call IsAPokemon
+	jr c, .ThirdPickup
+	ld hl, wPartyMon2CaughtAbility
+	ld c, a
+	call GetAbility
+	cp PICKUP
+	jp z, .convertToJuice2
+.ThirdPickup
+	ld hl, wPartyMon3Item
+	ld a, [hl]
+	cp NO_ITEM
+	jr nz, .FourthPickup
+	ld a, [wPartyMon3Species]
+	call IsAPokemon
+	jr c, .FourthPickup
+	ld hl, wPartyMon3CaughtAbility
+	ld c, a
+	call GetAbility
+	cp PICKUP
+	jr z, .convertToJuice3
+.FourthPickup
+	ld hl, wPartyMon4Item
+	ld a, [hl]
+	cp NO_ITEM
+	jr nz, .FifthPickup
+	ld a, [wPartyMon4Species]
+	call IsAPokemon
+	jr c, .FifthPickup
+	ld hl, wPartyMon4CaughtAbility
+	ld c, a
+	call GetAbility
+	cp PICKUP
+	jr z, .convertToJuice4
+.FifthPickup
+	ld hl, wPartyMon5Item
+	ld a, [hl]
+	cp NO_ITEM
+	jr nz, .SixthPickup
+	ld a, [wPartyMon5Species]
+	call IsAPokemon
+	jr c, .SixthPickup
+	ld hl, wPartyMon5CaughtAbility
+	ld c, a
+	call GetAbility
+	cp PICKUP
+	jr z, .convertToJuice5
+.SixthPickup
+	ld hl, wPartyMon6Item
+	ld a, [hl]
+	cp NO_ITEM
+	ret nz
+	ld a, [wPartyMon6Species]
+	call IsAPokemon
+	ret c
+	ld hl, wPartyMon5CaughtAbility
+	ld c, a
+	call GetAbility
+	cp PICKUP
+	ret nz
+	call Random
+	cp 10 percent
+	ret nc
+	call PickupItems
+	ld [wPartyMon6Item], a
 	ret
 
-.convertToJuice
-	ld a, BERRY_JUICE
-	ld [hl], a
-	pop hl
-;	pop bc
-	pop af
-	jr .done
+.convertToJuice1
+	call Random
+	cp 10 percent
+	jp nc, .SecondPickup
+	call PickupItems
+	ld [wPartyMon1Item], a
+	jp .SecondPickup
 
-.PickupItems:
+.convertToJuice2
+	call Random
+	cp 10 percent
+	jp nc, .ThirdPickup
+	call PickupItems
+	ld [wPartyMon2Item], a
+	jp .ThirdPickup
+
+.convertToJuice3
+	call Random
+	cp 10 percent
+	jp nc, .FourthPickup
+	call PickupItems
+	ld [wPartyMon3Item], a
+	jp .FourthPickup
+
+.convertToJuice4
+	call Random
+	cp 10 percent
+	jr nc, .FifthPickup
+	call PickupItems
+	ld [wPartyMon4Item], a
+	jp .FifthPickup
+
+.convertToJuice5
+	call Random
+	cp 10 percent
+	jr nc, .SixthPickup
+	call PickupItems
+	ld [wPartyMon5Item], a
+	jr .SixthPickup
+
+PickupItems:
+	ld hl, .PickupItemsList
+	call Random
+.loop
+	sub [hl]
+	jr c, .ok
+	inc hl
+	inc hl
+	jr .loop
+
+.ok
+	ld a, [hli]
+	inc a
+	jr z, .done
+	ld a, [hli]
+.done
+	ret
+
+.PickupItemsList:
 	db 3, KINGS_ROCK
 	db 11, PP_UP
 	db 13, PROTEIN

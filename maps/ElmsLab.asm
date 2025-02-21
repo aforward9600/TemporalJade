@@ -116,8 +116,7 @@ TepigPokeBallScript:
 	waitsfx
 	buttonsound
 	givepoke TEPIG, 5, ORAN_BERRY
-;	givepoke MARSHTOMP, 5, ORAN_BERRY
-;	givepoke SWAMPERT, 5, ORAN_BERRY
+	givepoke TEPIG, 5, ORAN_BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, .turnplayer
