@@ -947,6 +947,16 @@ CriticalHitText:
 	text "A critical hit!"
 	prompt
 
+DisguiseText:
+	text "Its disguise"
+	line "served it as a"
+	cont "decoy!"
+
+	para "<TARGET>'s"
+	line "disguise was"
+	cont "busted!"
+	prompt
+
 AngerPointText:
 	text "<TARGET>'s"
 	line "Anger Point maxed"

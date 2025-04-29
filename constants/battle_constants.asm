@@ -156,12 +156,13 @@ SPDSPCDV_SHINY EQU $AA
 	const ENEMY_LAST_MOVE
 
 ; status condition bit flags
-SLP EQU %111 ; 0-7 turns
+SLP EQU %11 ; 0-7 turns
 	const_def 3
 	const PSN
 	const BRN
 	const FRZ
 	const PAR
+	const DSG
 
 ALL_STATUS EQU (1 << PSN) | (1 << BRN) | (1 << FRZ) | (1 << PAR) | SLP
 

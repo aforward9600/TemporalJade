@@ -181,8 +181,7 @@ endr
 	jr z, .registerpokedex
 
 	push hl
-	ld a, 0
-;	ld a, [wEnemyMonAbility]
+	ld a, [wEnemyMonAbility]
 	ld [de], a
 	inc de
 	inc de
@@ -281,8 +280,7 @@ endr
 	jr .initstats
 
 .copywildmonDVs
-	ld a, 0
-;	ld a, [wEnemyMonAbility]
+	ld a, [wEnemyAbility]
 	ld [de], a
 	inc de
 	inc de
@@ -1876,4 +1874,21 @@ GetGiftMonAbility:
 
 .HiddenAbility: ; Need to properly implement
 	ld a, 2
+	ret
+
+GetWildAbility:
+	ld a, [wEnemyAbility]
+	and CAUGHT_ABILITY_MASK
+	cp 0
+	jr z, .ability_1
+	cp BASE_ABILITY2
+	jr z, .Ability2
+	ld a, 2
+	ret
+.Ability2
+	ld a, 1
+	ret
+
+.ability_1
+	ld a, 0
 	ret

@@ -12,6 +12,7 @@
 	db 15 ; step cycles to hatch
 	INCBIN "gfx/pokemon/lillipup/front.dimensions"
 	db VITAL_SPIRIT, PICKUP, RUN_AWAY ; wBaseAbility1, wBaseAbility2
+;	db VITAL_SPIRIT, INTIMIDATE, RUN_AWAY ; wBaseAbility1, wBaseAbility2
 	db 0 ; Padding left-over from the unused back pic
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

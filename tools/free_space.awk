@@ -1,6 +1,6 @@
 #!/usr/bin/awk -f
 
-# Usage: tools/free_space.awk pokecrystal.map
+# Usage: tools/free_space.awk johtolegendsv0.1.map
 
 BEGIN {
 	total = free = 16384 * 128

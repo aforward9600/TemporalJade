@@ -6151,8 +6151,6 @@ LoadEnemyMon:
 	jr z, .WildDVs
 
 ; TrainerDVs
-	ld a, 0
-	ld [wEnemyMonAbility], a
 	ld a, [wCurPartyMon]
 	ld hl, wOTPartyMon1DVs
 	call GetPartyLocation
@@ -6162,27 +6160,6 @@ LoadEnemyMon:
 	jp .UpdateDVs
 
 .WildDVs:
-	call Random
-	jr z, .HiddenAbility
-
-	call Random
-	cp 50 percent + 1
-	jr c, .secondability
-
-	ld a, 0
-	ld [wEnemyMonAbility], a
-	jr .AfterAbility
-
-.secondability:
-	ld a, 1
-	ld [wEnemyMonAbility], a
-	jr .AfterAbility
-
-.HiddenAbility: ; Need to properly implement
-	ld a, 2
-	ld [wEnemyMonAbility], a
-
-.AfterAbility
 ; Wild DVs
 ; Here's where the fun starts
 
@@ -6218,6 +6195,8 @@ LoadEnemyMon:
 	ld a, b
 	ld [hli], a
 	ld [hl], c
+
+;	farcall SetEnemyAbility
 
 .next
 

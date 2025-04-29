@@ -153,7 +153,7 @@ CheckPlayerTurn:
 	ld hl, wBattleMonStatus
 	ld a, [hl]
 	and SLP
-	jr z, .not_asleep
+	jp z, .not_asleep
 
 	push af
 
@@ -168,12 +168,35 @@ CheckPlayerTurn:
 	jr z, .woke_up_ability
 	cp EARLY_BIRD
 	jr nz, .SkipSleepAbility
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	and 1 << DSG
+	jr nz, .skip_disguise
 	pop af
 	dec a
 	ld [wBattleMonStatus], a
 	and SLP
 	jr z, .woke_up
 	jr .AfterEarlyBird
+
+.skip_disguise
+	pop af
+	dec a
+	ld [wBattleMonStatus], a
+	and SLP
+	jr z, .woke_up_disguise
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	set DSG, [hl]
+	call UpdateBattleMonInParty
+	jr .AfterDisguise
+
+.woke_up_disguise
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	set DSG, [hl]
+	call UpdateBattleMonInParty
+	jr .woke_up
 
 .SkipSleepAbility
 	pop af
@@ -183,6 +206,7 @@ CheckPlayerTurn:
 	and SLP
 	jr z, .woke_up
 
+.AfterDisguise
 	xor a
 	ld [wNumHits], a
 	ld de, ANIM_SLP
@@ -1378,7 +1402,6 @@ BattleCommand_Critical:
 	cp SUPER_LUCK
 	jr nz, .Tally
 
-	ld b,b
 	inc c
 
 .Tally:
@@ -2490,6 +2513,29 @@ BattleCommand_FailureText:
 BattleCommand_ApplyDamage:
 ; applydamage
 
+	call GetUserAbility
+	cp MOLD_BREAKER
+	jr z, .skip_disguise
+	call GetTargetAbility
+	cp DISGUISE
+	jr nz, .skip_disguise
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVarAddr
+	and 1 << DSG
+	jr nz, .skip_disguise
+	ld hl, DisguiseText
+	call StdBattleTextbox
+	call BattleCommand_SwitchTurn
+	farcall GetEighthMaxHP
+	farcall SubtractHPFromUser
+	call BattleCommand_SwitchTurn
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVarAddr
+	set DSG, [hl]
+	call UpdateOpponentInParty
+	ret
+
+.skip_disguise
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVar
 	bit SUBSTATUS_ENDURE, a
@@ -4324,7 +4370,7 @@ BattleCommand_SleepTarget:
 	call BattleRandom
 	and b
 	jr z, .random_loop
-	cp 7
+	cp 5
 	jr z, .random_loop
 	inc a
 	ld [de], a
@@ -4434,10 +4480,10 @@ BattleCommand_Poison:
 
 .do_poison
 	ld hl, AvoidStatusText
-	ld a, BATTLE_VARS_STATUS_OPP
-	call GetBattleVar
-	and a
-	jr nz, .failed
+;	ld a, BATTLE_VARS_STATUS_OPP
+;	call GetBattleVar
+;	and a
+;	jr nz, .failed
 
 	call CheckSubstituteOpp
 	jr nz, .failed
@@ -4950,7 +4996,7 @@ BattleCommand_SleepHit:
 	call GetBattleVarAddr
 	ld d, h
 	ld e, l
-	ld b, 7
+	ld b, 5
 	ld a, [wInBattleTowerBattle]
 	and a
 	jr z, .random_loop
@@ -5484,7 +5530,6 @@ BattleCommand_StatDownMessage:
 	call GetTargetAbility
 	cp DEFIANT
 	ret nz
-	ld b,b
 	ld a, BATTLE_VARS_LAST_MOVE_OPP
 	call GetBattleVar
 	ld b, a
@@ -7268,9 +7313,14 @@ BattleCommand_Heal:
 	res SUBSTATUS_TOXIC, [hl]
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVarAddr
+	and 1 << DSG
+	jr nz, .RestDisguise
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
 	ld a, [hl]
 	and a
 	ld [hl], REST_SLEEP_TURNS + 1
+.AfterRestDisguise
 	ld hl, WentToSleepText
 	jr z, .no_status_to_heal
 	ld hl, RestedText
@@ -7321,6 +7371,18 @@ BattleCommand_Heal:
 	call AnimateFailedMove
 	ld hl, HPIsFullText
 	jp StdBattleTextbox
+
+.RestDisguise
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
+	ld a, [hl]
+	and a
+	ld [hl], REST_SLEEP_TURNS + 1
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVarAddr
+	set DSG, [hl]
+	call UpdateOpponentInParty
+	jr .AfterRestDisguise
 
 INCLUDE "engine/battle/move_effects/transform.asm"
 

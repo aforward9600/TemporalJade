@@ -9,6 +9,32 @@ SetPlayerAbility::
 	ret
 
 SetEnemyAbility::
+	ld a, [wBattleMode]
+	dec a
+	jr z, .WildAbilities
+
+	ld a, 0
+	jr .FinishEnemyAbility
+
+.WildAbilities
+	call Random
+	jr z, .HiddenAbility
+
+	call Random
+	cp 50 percent + 1
+	jr c, .secondability
+
+	ld a, 0
+	jr .FinishEnemyAbility
+
+.secondability:
+	ld a, 1
+	jr .FinishEnemyAbility
+
+.HiddenAbility:
+	ld a, 2
+.FinishEnemyAbility
+	ld [wEnemyMonAbility], a
 	ld hl, wEnemyMonAbility
 	ld a, [wEnemyMonSpecies]
 	ld c, a
@@ -1678,7 +1704,6 @@ ApplySpeedAbilities::
 	ld a, [wBattleWeather]
 	cp WEATHER_RAIN
 	ret nz
-	ld b,b
 	jp DoubleUserSpeed
 
 .Chlorophyll:
@@ -1704,7 +1729,6 @@ ApplySpeedAbilities::
 	call GetBattleVarAddr
 	bit SUBSTATUS_UNBURDEN, [hl]
 	ret z
-	ld b,b
 	jp DoubleUserSpeed
 
 .QuickFeet:
@@ -2086,7 +2110,6 @@ PlayerSwitchAbilities:
 	ret
 
 .PlayerRegeneratorAbility
-	ld b,b
 	ld hl, wBattleMonMaxHP
 	call GetThirdMaxHPAbilities
 	farcall BattleCommand_SwitchTurn
