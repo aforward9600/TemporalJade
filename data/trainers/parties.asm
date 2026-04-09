@@ -864,7 +864,7 @@ ClairGroup:
 if DEF(_CHALLENGE)
 	db SCOPE_LENS
 else
-	db NO_ITEM
+	db ORAN_BERRY
 endc
 	dw BUBBLE, LEER, NO_MOVE, NO_MOVE
 	db -1 ; end

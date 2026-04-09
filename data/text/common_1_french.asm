@@ -1292,24 +1292,8 @@ UnknownText_0x1bd286::
 	text "…"
 	done
 
-UnknownText_0x1bd2a0:: ; unreferenced
-	text "Obtained the"
-	line "VOLTORBBADGE!"
-	done
-
 UnknownText_0x1bd2bc::
 	text "Quel étage?"
-	done
-
-UnknownText_0x1bd2ca::
-	text "Presentateur: BIP!"
-
-	para "Temps écoulé!"
-	done
-
-UnknownText_0x1bd2e7::
-	text "Presentateur: Le"
-	line "councours est fini!"
 	done
 
 _RepelWoreOffText::

@@ -145,7 +145,11 @@ Pokewilds team: Purrloin
 
 Runerigus sprites: Scarlax and EeVeeEe1999
 
-Cutiefly, Ribombee, Drilbur and Excadrill sprites: Chattycrystal Team
+Cutiefly, Ribombee, and Drilbur sprites: Chattycrystal Team
+
+Excadrill sprites: Molk
+
+Solosis, Duosion & Reuniclus: EeVeeEe1999
 
 Regieleki front sprite: Pokemon Daybreak
 Back sprite: leParagon
@@ -170,6 +174,12 @@ PokeMMO Generation 2 Sprites Mod
 Boldore & Gigalith sprites: Adrian Der Cube
 
 Various Gen 5 back sprites: COMBOY collection and Black and White 3: Genesis
+
+Ferroseed front sprite: PsychoTess
+
+Ferrothorn front sprite: Mia
+
+Ferrothorn back sprite: Sage
 
 Ein trainer sprite: Sindorman
 
@@ -196,9 +206,17 @@ Regice, Regirock, and Registeel sprites: Bloodless and Scarlax
 
 Regigigas sprites: Blue Emerald
 
+Snivy, Servine & Serperior: EeVeeEe1999
+
+Fennekin: Derpkip and Blumiau
+
+Braixen: Zorgoth, Solo993, Adrian der Cube, CuervoTerras, StraudBeryl, Minh, Chamber
+
+Delphox: Solo993 and Queen Kami
+
 Lance, Female Scientist and Cynthia overworld sprites,
 Alolan Vulpix and Ninetales, Hisuian Voltorb and Electrode,
-Alolan Geodude, Graveler and Golem sprites: 
+Alolan Geodude, Graveler and Golem, Galarian Ponyta and Rapidash sprites: 
 Rangi and the Polished Crystal Team.
 
 Clair Trainer Sprite base, Gen 5 Black Belt, Schoolgirl, Lass, Hiker, Youngster
